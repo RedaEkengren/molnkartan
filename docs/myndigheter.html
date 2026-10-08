@@ -69,6 +69,7 @@ fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, organisati
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "MS") }), el("span", { textContent: `av ${n} domäner har e-post som syns gå via Microsofts moln` })),
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "inga molnsignaler") }), el("span", { textContent: "har e-post utan molnsignaler, ofta egna servrar eller Sunet" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.exo === true) }), el("span", { textContent: "har ändå Exchange Online bakom e-posten, enligt en oberoende kontroll mot Microsoft" })),
     el("div", {}, el("b", { textContent: us }), el("span", { textContent: `av ${matbara} mätbara webbplatser kontaktar amerikanska nät före samtycke` })),
     el("div", {}, el("b", { textContent: rakna(o => o.fore_samtycke?.ga) }), el("span", { textContent: "kontaktar Google Analytics eller Tag Manager före samtycke" })),
   );

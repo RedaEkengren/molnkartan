@@ -2,6 +2,8 @@
 // Inget här är påhittat: kommandona är de som matning.py gör, svaren är de som
 // sparades, och utslaget är klassningen från klassa_v2.py. Exemplen väljs efter
 // vilken regel som slog till, så animationen följer med när datan ändras.
+// Sista steget är den oberoende kontrollen T2 (triangulering.py): svarar
+// Exchange Online för domänen? Bara ja/nej visas, aldrig adressen den svarar med.
 
 // Ett exempel per regel. Saknas en sort i datan hoppas den över.
 const EXEMPEL = [
@@ -11,6 +13,8 @@ const EXEMPEL = [
     regel: "MX pekar på Google (S1)" },
   { namn: "Spamfilter framför", passar: o => o.epost === "MS" && o.signaler.S1 === "gateway/egen" && o.signaler.S2 === "MS" && o.signaler.S7 === "MS",
     regel: "spamfilter framför, men SPF och DKIM pekar på Microsoft (S2 + S7)" },
+  { namn: "Inga molnsignaler i DNS", passar: o => o.epost === "inga molnsignaler" && o.exo === true,
+    regel: "DNS visar inga molnsignaler (S1, S2, S7)" },
 ];
 
 const LEVERANTOR = { MS: "Microsoft", G: "Google" };
@@ -32,10 +36,11 @@ function startaDemo(org, { etikett, farg }) {
 
   let synlig = true;
   new IntersectionObserver(([e]) => { synlig = e.isIntersecting; }).observe(term);
+  // Väntar ms millisekunder av synlig tid: står still när animationen är utanför skärmen.
   const vanta = ms => new Promise(klar => {
     if (lugn) return klar();
-    const slut = performance.now() + ms;
-    (function tick() { (synlig && performance.now() >= slut) ? klar() : requestAnimationFrame(tick); })();
+    let kvar = ms;
+    (function tick() { if (synlig) kvar -= 40; kvar <= 0 ? klar() : setTimeout(tick, 40); })();
   });
 
   function rad(klass, text = "") {
@@ -43,6 +48,7 @@ function startaDemo(org, { etikett, farg }) {
     r.className = klass;
     r.textContent = text;
     term.append(r, "\n");
+    term.scrollTop = term.scrollHeight;
     return r;
   }
   async function skriv(kommando) {
@@ -63,6 +69,7 @@ function startaDemo(org, { etikett, farg }) {
     ["S2", "SPF", "vem får skicka i kommunens namn"],
     ["S7", "DKIM", "vem signerar e-posten"],
     ["S5", "Microsoft-konto", "finns en Entra-tenant"],
+    ["T2", "Exchange Online", "oberoende kontroll"],
   ];
   const sigRad = {};
   for (const [kod, namn, forklaring] of SIGNALER) {
@@ -79,8 +86,8 @@ function startaDemo(org, { etikett, farg }) {
     const { li, tagg } = sigRad[kod];
     sig.querySelectorAll("li").forEach(x => x.classList.remove("aktiv"));
     li.classList.add("aktiv");
-    const lev = { MS: "MS", G: "G", ja: "MS" }[varde];
-    tagg.textContent = varde === "ja" ? "finns" : varde === "gateway/egen" ? "spamfilter/egen" : LEVERANTOR[varde] || "inget";
+    const lev = { MS: "MS", G: "G", ja: "MS", svarar: "MS" }[varde];
+    tagg.textContent = varde === "ja" ? "finns" : varde === "svarar" ? "svarar" : varde === "gateway/egen" ? "spamfilter/egen" : LEVERANTOR[varde] || "inget";
     tagg.style.background = lev ? farg[lev] : "var(--okand)";
     tagg.style.opacity = 1;
   }
@@ -117,10 +124,19 @@ function startaDemo(org, { etikett, farg }) {
     satt("S5", s.entra === 200 ? "ja" : "-");
     await vanta(700);
 
+    if (o.exo !== null && o.exo !== undefined) {
+      await skriv(`curl -s "outlook.office365.com/autodiscover/autodiscover.json?Email=test@${d}"`);
+      rad(o.exo ? "svar traff" : "svar", o.exo ? "→ outlook.office365.com" : "→ en annan server");
+      satt("T2", o.exo ? "svarar" : "-");
+      await vanta(900);
+    }
+
     sig.querySelectorAll("li").forEach(x => x.classList.remove("aktiv"));
     utslag.replaceChildren(
       Object.assign(document.createElement("span"), { className: "tagg", textContent: etikett[o.epost], style: `background:${farg[o.epost]}` }),
-      `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : ""),
+      `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : "")
+        + (o.exo === true && o.epost !== "MS" ? " Men Exchange Online svarar för domänen: bakom de egna servrarna finns Microsoft." : "")
+        + (o.exo === true && o.epost === "MS" ? " Bekräftat av Exchange Online." : ""),
     );
     utslag.classList.add("syns");
     const p = prick.get(o);

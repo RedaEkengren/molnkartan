@@ -44,12 +44,31 @@
 
   <h2>Före samtycke: webbplatsen</h2>
   <p class="forklaring">Vad en besökares webbläsare kontaktar när startsidan laddas, innan cookiebannern besvarats. Det är <b>nätet</b> som avgör: en europeisk tjänst som körs på Amazons eller Googles servrar räknas som amerikanskt nät.</p>
+  <section class="demo" aria-label="Så mäts en webbplats">
+    <div class="demo-huvud"><span><b>Så mäts en webbplats</b> · riktiga anrop från mätningen</span><span id="wNamn"></span></div>
+    <div class="demo-yta">
+      <div class="webblasare" aria-hidden="true">
+        <div class="adressfalt"><i></i><i></i><i></i><span id="wAdress"></span></div>
+        <div class="laddar"><span id="wLaddar"></span></div>
+        <div class="sidinnehall"><b></b><b></b><b></b><b></b>
+          <div class="banner">Vi använder kakor…<span>Godkänn</span><span>Avböj</span><em>obesvarad</em></div>
+        </div>
+      </div>
+      <ol class="varder" id="wVarder"></ol>
+    </div>
+    <div class="utslag" id="wUtslag"></div>
+  </section>
+
   <div class="kort" id="kortWebb"></div>
   <div class="legend" id="legendWebb" style="margin-top:20px"></div>
   <div class="lan" id="lanWebb"></div>
   <h3>Vanligaste tjänsterna på amerikanska nät före samtycke</h3>
   <ol class="topplista" id="topp"></ol>
   <p class="forklaring">Google Analytics före samtycke sker ofta via Googles Consent Mode: inga kakor sätts, men IP-adress, webbläsare och sidadress skickas till Google. Om det är förenligt med reglerna avgörs inte här.</p>
+
+  <h2>Säkerhetsgrunder</h2>
+  <p class="forklaring">Grundläggande skydd i DNS och på webben. Redovisas bara som summor, aldrig per kommun, så att sidan inte blir en lista över mål.</p>
+  <div class="kort" id="kortSakerhet"></div>
 
   <h2>Alla organisationer</h2>
   <div class="filter">
@@ -82,6 +101,7 @@
   </footer>
 </main>
 <script src="demo.js"></script>
+<script src="webbdemo.js"></script>
 <script>
 const KATEGORIER = [
   ["MS", "Microsoft", "var(--ms)"],
@@ -109,16 +129,16 @@ function el(tagg, egenskaper = {}, ...barn) {
   return e;
 }
 
-fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, organisationer: org }) => {
+fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, sakerhet, organisationer: org }) => {
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
   startaDemo(org, { etikett, farg });
   const n = org.length;
   const rakna = f => org.filter(f).length;
   const pct = x => Math.round(100 * x / n) + " %";
-  const ms = rakna(o => o.epost === "MS"), tenant = rakna(o => o.tenant);
+  const ms = rakna(o => o.epost === "MS"), exo = rakna(o => o.exo === true);
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: ms }), el("span", { textContent: `av ${n} har e-post som syns gå via Microsofts moln (${pct(ms)})` })),
-    el("div", {}, el("b", { textContent: tenant }), el("span", { textContent: `av ${n} har ett Microsoft-konto (Entra-tenant)` })),
+    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: `av ${n} har Exchange Online bakom e-posten, enligt en oberoende kontroll mot Microsoft` })),
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "G") }), el("span", { textContent: "har e-post hos Google" })),
     el("div", {}, el("b", { textContent: rakna(o => o.webb === "SE/EU") }), el("span", { textContent: "har webbplatsen hos en svensk eller europeisk leverantör" })),
   );
@@ -156,6 +176,16 @@ fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, organisationer: o
   document.getElementById("legendWebb").append(...WEBBKLASSER.slice(0, 5).map(([, namn, f]) =>
     el("span", {}, el("i", { style: `background:${f}` }), namn)));
   staplar("lanWebb", WEBBKLASSER, fs);
+  startaWebbDemo(org, { webbEtikett, webbFarg });
+  if (sakerhet?.DMARC) {
+    const andel = (signal, varde) => Math.round(100 * (sakerhet[signal][varde] || 0) / n) + " %";
+    document.getElementById("kortSakerhet").append(
+      el("div", {}, el("b", { textContent: sakerhet.DMARC["p=none"] || 0 }), el("span", { textContent: `har DMARC p=none: förfalskad e-post i deras namn ska ändå levereras` })),
+      el("div", {}, el("b", { textContent: andel("DMARC", "p=reject") }), el("span", { textContent: "avvisar e-post som förfalskar avsändaren (DMARC p=reject)" })),
+      el("div", {}, el("b", { textContent: andel("MTA-STS", "finns") }), el("span", { textContent: "kräver krypterad e-post till sig (MTA-STS)" })),
+      el("div", {}, el("b", { textContent: andel("DNSSEC", "finns") }), el("span", { textContent: "har DNSSEC-signerad domän" })),
+    );
+  }
   const topp = {};
   for (const o of org) for (const l of o.fore_samtycke?.usLeverantorer || []) topp[l] = (topp[l] || 0) + 1;
   document.getElementById("topp").append(...Object.entries(topp).sort((a, b) => b[1] - a[1]).slice(0, 10)

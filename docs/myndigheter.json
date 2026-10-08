@@ -1,6 +1,43 @@
 {
  "matt": "2026-10-08T164214Z",
  "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T164214Z.json",
+ "webbMatt": "2026-10-08T164403Z",
+ "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
+ "trianguleringMatt": "2026-10-08T165750Z",
+ "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
+ "sakerhetMatt": "2026-10-08T180801Z",
+ "sakerhetKalla": "data/sakerhet-2026-10-08T180801Z.json",
+ "sakerhet": {
+  "DMARC": {
+   "p=reject": 78,
+   "p=none": 49,
+   "p=quarantine": 57,
+   "saknas": 18
+  },
+  "SPF": {
+   "-all": 147,
+   "~all": 50,
+   "annat": 2,
+   "saknas": 3
+  },
+  "MTA-STS": {
+   "saknas": 180,
+   "finns": 22
+  },
+  "TLS-RPT": {
+   "saknas": 172,
+   "finns": 30
+  },
+  "DNSSEC": {
+   "finns": 154,
+   "saknas": 48
+  },
+  "HSTS": {
+   "finns": 111,
+   "saknas": 79,
+   "kunde inte mätas": 12
+  }
+ },
  "organisationer": [
   {
    "namn": "Kammarkollegiet",
@@ -10,6 +47,7 @@
    "doman": "kammarkollegiet.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -24,7 +62,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.kammarkollegiet.se/"
    },
    "svar": {
     "mx": [
@@ -46,6 +97,7 @@
    "doman": "arn.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "EPM - Nordlo Advance AB, SE",
@@ -71,7 +123,35 @@
      "Cookie Information",
      "Texthelp",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.arn.se/"
    },
    "svar": {
     "mx": [
@@ -91,6 +171,7 @@
    "doman": "jordbruksverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "STATENS-JORDBRUKSVERK-ASN - Statens Jordbruksverk, SE",
@@ -105,7 +186,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://jordbruksverket.se/"
    },
    "svar": {
     "mx": [
@@ -127,6 +210,7 @@
    "doman": "arbetsformedlingen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -141,7 +225,40 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "af.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "af.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "bcdn.screen9.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "chat.ace.teliacompany.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "qcdn.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "wds.ace.teliacompany.com",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://arbetsformedlingen.se/"
    },
    "svar": {
     "mx": [
@@ -160,6 +277,7 @@
    "doman": "arbetsgivarverket.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -181,7 +299,40 @@
     "usLeverantorer": [
      "Google",
      "Hotjar"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "script.hotjar.com",
+      "nat": "US",
+      "lev": "Hotjar"
+     },
+     {
+      "v": "static.hotjar.com",
+      "nat": "US",
+      "lev": "Hotjar"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.arbetsgivarverket.se/"
    },
    "svar": {
     "mx": [
@@ -200,6 +351,7 @@
    "doman": "av.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELENOR-SE - Telenor Sverige AB, SE",
@@ -218,7 +370,20 @@
     ],
     "usLeverantorer": [
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     }
+    ],
+    "sida": "https://www.av.se/"
    },
    "svar": {
     "mx": [
@@ -238,6 +403,7 @@
    "doman": "arvsfonden.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -252,7 +418,30 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "ssl.webserviceaward.com",
+      "nat": "EU/EES",
+      "lev": "Web Service Award"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.arvsfonden.se/"
    },
    "svar": {
     "mx": [
@@ -274,6 +463,7 @@
    "doman": "barnombudsmannen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
@@ -297,7 +487,35 @@
      "Google",
      "InnoCraft (Matomo Cloud)",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.barnombudsmannen.se/"
    },
    "svar": {
     "mx": [
@@ -316,6 +534,7 @@
    "doman": "bth.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -330,7 +549,70 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "assets.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "ebbot.eu",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "m.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "mfstatic.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.eu",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "storage.gra.cloud.ovh.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "v6.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.bth.se/"
    },
    "svar": {
     "mx": [
@@ -349,6 +631,7 @@
    "doman": "bfn.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "LOOPIA - Loopia AB, SE",
@@ -370,7 +653,45 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.bfn.se/"
    },
    "svar": {
     "mx": [
@@ -390,6 +711,7 @@
    "doman": "bolagsverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -404,7 +726,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -423,6 +747,7 @@
    "doman": "boverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
@@ -442,7 +767,25 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     }
+    ],
+    "sida": "https://www.boverket.se/"
    },
    "svar": {
     "mx": [
@@ -462,6 +805,7 @@
    "doman": "bra.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -476,7 +820,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "script.extellio.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://bra.se/"
    },
    "svar": {
     "mx": [
@@ -498,6 +860,7 @@
    "doman": "brottsoffermyndigheten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -520,7 +883,40 @@
     "usLeverantorer": [
      "Microsoft",
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7157.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "cdn-eu.cookietractor.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "insipio.com",
+      "nat": "EU/EES",
+      "lev": "Insipio"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     }
+    ],
+    "sida": "https://www.brottsoffermyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -539,6 +935,7 @@
    "doman": "csn.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "GDM - GDM Konsult AB, SE",
@@ -557,7 +954,20 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.csn.se/"
    },
    "svar": {
     "mx": [
@@ -577,6 +987,7 @@
    "doman": "do.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "EPM - Nordlo Advance AB, SE",
@@ -595,7 +1006,20 @@
     ],
     "usLeverantorer": [
      "Cookie Information"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     }
+    ],
+    "sida": "https://www.do.se/"
    },
    "svar": {
     "mx": [
@@ -615,6 +1039,7 @@
    "doman": "dom.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -629,7 +1054,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.dom.se/"
    },
    "svar": {
     "mx": [
@@ -649,6 +1076,7 @@
    "doman": "ehalsomyndigheten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -671,7 +1099,45 @@
     "usLeverantorer": [
      "Microsoft",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "tracker.ehalsomyndigheten.open-analytics.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.ehalsomyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -690,6 +1156,7 @@
    "doman": "ekobrottsmyndigheten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -709,7 +1176,35 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.ekobrottsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -729,6 +1224,7 @@
    "doman": "elsakerhetsverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ATEA - ATEA Sverige AB, SE",
@@ -757,7 +1253,55 @@
      "Google",
      "Optimizely",
      "netigate.se"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "esmaker.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "widget-api.netigate.se",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "widget.netigate.se",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.elsakerhetsverket.se/"
    },
    "svar": {
     "mx": [
@@ -776,6 +1320,7 @@
    "doman": "ei.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -790,7 +1335,40 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "assets.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "m.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "mfstatic.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "v4.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://ei.se/"
    },
    "svar": {
     "mx": [
@@ -809,6 +1387,7 @@
    "doman": "etikprovning.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "okänd",
    "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
@@ -833,7 +1412,35 @@
      "Google",
      "cdn-cookieyes.com",
      "cookieyes.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "log.cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://etikprovningsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -855,6 +1462,7 @@
    "doman": "ekn.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -874,7 +1482,20 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     }
+    ],
+    "sida": "https://www.ekn.se/"
    },
    "svar": {
     "mx": [
@@ -894,6 +1515,7 @@
    "doman": "fmi.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -908,7 +1530,15 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "plausible.io",
+      "nat": "annat",
+      "lev": "Plausible Analytics"
+     }
+    ],
+    "sida": "https://fmi.se/"
    },
    "svar": {
     "mx": [
@@ -927,6 +1557,7 @@
    "doman": "fi.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FI-AS - Finansinspektionen, SE",
@@ -945,7 +1576,45 @@
     ],
     "usLeverantorer": [
      "cookietractor.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "api.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "qcdn.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.fi.se/"
    },
    "svar": {
     "mx": [
@@ -965,6 +1634,7 @@
    "doman": "fpr.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -979,7 +1649,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.fpr.se/"
    },
    "svar": {
     "mx": [
@@ -999,6 +1687,7 @@
    "doman": "fba.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -1020,7 +1709,25 @@
     "usLeverantorer": [
      "Google",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://fba.se/"
    },
    "svar": {
     "mx": [
@@ -1039,6 +1746,7 @@
    "doman": "folkhalsomyndigheten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
@@ -1058,7 +1766,35 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.folkhalsomyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -1080,6 +1816,7 @@
    "doman": "ftn.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -1094,7 +1831,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "www.pensionsmyndigheten.se",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.ftn.se/"
    },
    "svar": {
     "mx": [
@@ -1114,6 +1859,7 @@
    "doman": "forskarskattenamnden.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
@@ -1128,7 +1874,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.forskarskattenamnden.se/"
    },
    "svar": {
     "mx": [
@@ -1149,6 +1897,7 @@
    "doman": "formas.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -1172,7 +1921,40 @@
     "usLeverantorer": [
      "Google",
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "f1-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "formas.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://formas.se/"
    },
    "svar": {
     "mx": [
@@ -1192,6 +1974,7 @@
    "doman": "forte.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -1211,7 +1994,30 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "forte.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "forte.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://forte.se/"
    },
    "svar": {
     "mx": [
@@ -1231,6 +2037,7 @@
    "doman": "fortifikationsverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -1245,7 +2052,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.fortifikationsverket.se/"
    },
    "svar": {
     "mx": [
@@ -1265,6 +2074,7 @@
    "doman": "levandehistoria.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
@@ -1284,7 +2094,20 @@
     ],
     "usLeverantorer": [
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.levandehistoria.se/"
    },
    "svar": {
     "mx": [
@@ -1303,6 +2126,7 @@
    "doman": "fmv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -1324,7 +2148,45 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "translate.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "translate.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.fmv.se/"
    },
    "svar": {
     "mx": [
@@ -1344,6 +2206,7 @@
    "doman": "fra.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -1358,7 +2221,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.fra.se/"
    },
    "svar": {
     "mx": [
@@ -1378,6 +2243,7 @@
    "doman": "fhs.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1392,7 +2258,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.fra.se/"
    },
    "svar": {
     "mx": [
@@ -1411,6 +2279,7 @@
    "doman": "mil.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -1432,7 +2301,35 @@
     "usLeverantorer": [
      "Google",
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.eu",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "consentcdn.cookiebot.eu",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "northeurope-2.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.forsvarsmakten.se/"
    },
    "svar": {
     "mx": [
@@ -1454,6 +2351,7 @@
    "doman": "forsakringskassan.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -1468,7 +2366,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.forsakringskassan.se/"
    },
    "svar": {
     "mx": [
@@ -1488,6 +2388,7 @@
    "doman": "genteknik.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1511,7 +2412,35 @@
     "usLeverantorer": [
      "Cloudflare",
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "a.nel.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://genteknik.se/"
    },
    "svar": {
     "mx": [
@@ -1530,6 +2459,7 @@
    "doman": "gih.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -1544,7 +2474,35 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.gih.se/"
    },
    "svar": {
     "mx": [
@@ -1563,6 +2521,7 @@
    "doman": "gu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "UNSPECIFIED - Goteborgs universitet, SE",
@@ -1587,7 +2546,45 @@
      "Adobe",
      "Google",
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7340.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "m.extellio.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "script.e-space.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.gu.se/"
    },
    "svar": {
     "mx": [
@@ -1606,6 +2603,7 @@
    "doman": "harpsund.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "LOOPIA - Loopia AB, SE",
@@ -1625,7 +2623,20 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.harpsund.se/"
    },
    "svar": {
     "mx": [
@@ -1645,6 +2656,7 @@
    "doman": "havochvatten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -1659,7 +2671,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.havochvatten.se/"
    },
    "svar": {
     "mx": [
@@ -1681,6 +2695,7 @@
    "doman": "socialstyrelsen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -1695,7 +2710,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.socialstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -1715,6 +2743,7 @@
    "doman": "du.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "UNSPECIFIED - Dalarna University, SE",
@@ -1738,7 +2767,30 @@
      "Fonticons (Font Awesome)",
      "Optimizely",
      "bootstrapcdn.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "ka-p.fontawesome.com",
+      "nat": "US",
+      "lev": "Fonticons (Font Awesome)"
+     },
+     {
+      "v": "kit.fontawesome.com",
+      "nat": "US",
+      "lev": "Fonticons (Font Awesome)"
+     },
+     {
+      "v": "maxcdn.bootstrapcdn.com",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.du.se/"
    },
    "svar": {
     "mx": [
@@ -1759,6 +2811,7 @@
    "doman": "hb.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1781,7 +2834,30 @@
     "usLeverantorer": [
      "Google",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.hb.se/"
    },
    "svar": {
     "mx": [
@@ -1800,6 +2876,7 @@
    "doman": "hig.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -1819,7 +2896,35 @@
     ],
     "usLeverantorer": [
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7400.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.hig.se/"
    },
    "svar": {
     "mx": [
@@ -1838,6 +2943,7 @@
    "doman": "hh.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1859,7 +2965,60 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "pagead2.googlesyndication.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.hh.se/"
    },
    "svar": {
     "mx": [
@@ -1878,6 +3037,7 @@
    "doman": "his.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1892,7 +3052,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.his.se/"
    },
    "svar": {
     "mx": [
@@ -1911,6 +3079,7 @@
    "doman": "hkr.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1933,7 +3102,30 @@
     "usLeverantorer": [
      "Google",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.hkr.se/"
    },
    "svar": {
     "mx": [
@@ -1952,6 +3144,7 @@
    "doman": "hv.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -1974,7 +3167,45 @@
     "usLeverantorer": [
      "Siteimprove",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "8285.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "mnd-assets.mynewsdesk.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.hv.se/"
    },
    "svar": {
     "mx": [
@@ -1994,6 +3225,7 @@
    "doman": "han.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -2016,7 +3248,35 @@
     "usLeverantorer": [
      "Adobe",
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.han.se/"
    },
    "svar": {
     "mx": [
@@ -2036,6 +3296,7 @@
    "doman": "regeringskansliet.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -2054,7 +3315,45 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "analytics.qbrick.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "b631536a51ee8bfeb3446a3d0f2c9b64-httpcache0-90226-cachedown0.dna.contentdelivery.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "cdn-eu.cookietractor.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "play2.qbrick.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "video.qbrick.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.regeringen.se/"
    },
    "svar": {
     "mx": [
@@ -2075,6 +3374,7 @@
    "doman": "iaf.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "okänd",
    "webbLeverantor": "UUNET - Verizon Business, US",
@@ -2096,7 +3396,25 @@
     "usLeverantorer": [
      "Optimizely",
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7420.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     }
+    ],
+    "sida": "https://www.iaf.se/"
    },
    "svar": {
     "mx": [
@@ -2118,6 +3436,7 @@
    "doman": "isf.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -2132,7 +3451,35 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://isf.se/"
    },
    "svar": {
     "mx": [
@@ -2151,6 +3498,7 @@
    "doman": "isp.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Bluerange-AS - Bluerange Sweden AB, SE",
@@ -2165,7 +3513,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "isp.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "isp.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.isp.se/"
    },
    "svar": {
     "mx": [
@@ -2184,6 +3545,7 @@
    "doman": "ivo.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "okänd",
    "webbLeverantor": "IVER - IVER NORGE AS, NO",
@@ -2210,7 +3572,40 @@
      "cookietractor.com",
      "jQuery CDN",
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "maxcdn.bootstrapcdn.com",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.ivo.se/"
    },
    "svar": {
     "mx": [
@@ -2229,6 +3624,7 @@
    "doman": "ifau.uu.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": null,
@@ -2243,7 +3639,30 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.ifau.se/"
    },
    "svar": {
     "mx": [
@@ -2265,6 +3684,7 @@
    "doman": "mrinstitutet.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -2279,7 +3699,25 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://mrinstitutet.se/"
    },
    "svar": {
     "mx": [
@@ -2298,6 +3736,7 @@
    "doman": "irf.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -2312,7 +3751,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.irf.se/"
    },
    "svar": {
     "mx": [
@@ -2333,6 +3774,7 @@
    "doman": "isof.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -2347,7 +3789,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.isof.se/"
    },
    "svar": {
     "mx": [
@@ -2369,6 +3824,7 @@
    "doman": "imy.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
@@ -2383,7 +3839,15 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "plausible.io",
+      "nat": "annat",
+      "lev": "Plausible Analytics"
+     }
+    ],
+    "sida": "https://www.imy.se/"
    },
    "svar": {
     "mx": [
@@ -2403,6 +3867,7 @@
    "doman": "jk.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -2417,7 +3882,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.jk.se/"
    },
    "svar": {
     "mx": [
@@ -2439,6 +3906,7 @@
    "doman": "jamstalldhetsmyndigheten.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -2462,7 +3930,30 @@
      "Cloudflare",
      "Siteimprove",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     }
+    ],
+    "sida": "https://jamstalldhetsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -2481,6 +3972,7 @@
    "doman": "kau.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -2495,7 +3987,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.kau.se/"
    },
    "svar": {
     "mx": [
@@ -2514,6 +4008,7 @@
    "doman": "ki.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -2535,7 +4030,25 @@
     "usLeverantorer": [
      "Google",
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://ki.se/"
    },
    "svar": {
     "mx": [
@@ -2554,6 +4067,7 @@
    "doman": "kemi.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -2573,7 +4087,30 @@
     ],
     "usLeverantorer": [
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7477.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.kemi.se/"
    },
    "svar": {
     "mx": [
@@ -2592,6 +4129,7 @@
    "doman": "klimatpolitiskaradet.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
@@ -2615,7 +4153,35 @@
     "usLeverantorer": [
      "Google",
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "formas.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.klimatpolitiskaradet.se/"
    },
    "svar": {
     "mx": [
@@ -2635,6 +4201,7 @@
    "doman": "kommerskollegium.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -2653,7 +4220,15 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.kommerskollegium.se/"
    },
    "svar": {
     "mx": [
@@ -2672,6 +4247,7 @@
    "doman": "konj.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -2696,7 +4272,35 @@
      "Google",
      "InnoCraft (Matomo Cloud)",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.konj.se/"
    },
    "svar": {
     "mx": [
@@ -2716,6 +4320,7 @@
    "doman": "kkv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
@@ -2730,7 +4335,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -2749,6 +4356,7 @@
    "doman": "konstfack.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SE-NORDLO-ELEVATE-AS - Nordlo Elevate AB, SE",
@@ -2763,7 +4371,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "konstfackmatomo.se",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.konstfack.se/"
    },
    "svar": {
     "mx": [
@@ -2782,6 +4398,7 @@
    "doman": "konstnarsnamnden.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "Inleed - Yelles AB, SE",
@@ -2796,7 +4413,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.konstnarsnamnden.se/"
    },
    "svar": {
     "mx": [
@@ -2815,6 +4434,7 @@
    "doman": "konsumentverket.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -2836,7 +4456,25 @@
     "usLeverantorer": [
      "Google",
      "ctfassets.net"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "images.ctfassets.net",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.konsumentverket.se/"
    },
    "svar": {
     "mx": [
@@ -2855,6 +4493,7 @@
    "doman": "kriminalvarden.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -2873,7 +4512,20 @@
     ],
     "usLeverantorer": [
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     }
+    ],
+    "sida": "https://www.kriminalvarden.se/"
    },
    "svar": {
     "mx": [
@@ -2892,6 +4544,7 @@
    "doman": "kronofogden.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
@@ -2906,7 +4559,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.kronofogden.se/"
    },
    "svar": {
     "mx": [
@@ -2927,6 +4598,7 @@
    "doman": "kb.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -2941,7 +4613,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.eu",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.kb.se/"
    },
    "svar": {
     "mx": [
@@ -2960,6 +4650,7 @@
    "doman": "kkh.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
@@ -2978,7 +4669,15 @@
     ],
     "usLeverantorer": [
      "Monotype"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "hello.myfonts.net",
+      "nat": "US",
+      "lev": "Monotype"
+     }
+    ],
+    "sida": "https://kkh.se/sv/"
    },
    "svar": {
     "mx": [
@@ -2997,6 +4696,7 @@
    "doman": "kmh.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -3015,7 +4715,35 @@
     ],
     "usLeverantorer": [
      "soundcloud.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "assets.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "m.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "mfstatic.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "v6.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "w.soundcloud.com",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.kmh.se/"
    },
    "svar": {
     "mx": [
@@ -3034,6 +4762,7 @@
    "doman": "kth.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -3048,7 +4777,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.kth.se/"
    },
    "svar": {
     "mx": [
@@ -3070,6 +4801,7 @@
    "doman": "kustbevakningen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "ATEA - ATEA Sverige AB, SE",
@@ -3089,7 +4821,25 @@
     ],
     "usLeverantorer": [
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "script.extellio.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.kustbevakningen.se/"
    },
    "svar": {
     "mx": [
@@ -3110,6 +4860,7 @@
    "doman": "lm.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SE-LM - Lantmateriet, SE",
@@ -3124,7 +4875,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.lantmateriet.se/"
    },
    "svar": {
     "mx": [
@@ -3145,6 +4898,7 @@
    "doman": "liu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "LIUnet - LIUnet, SE",
@@ -3159,7 +4913,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://liu.se/"
    },
    "svar": {
     "mx": [
@@ -3178,6 +4934,7 @@
    "doman": "lnu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -3208,7 +4965,50 @@
      "cookieyes.com",
      "front.ai",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "lnu.boost.ai",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "log.cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "static.aim.front.ai",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.lnu.se/"
    },
    "svar": {
     "mx": [
@@ -3227,6 +5027,7 @@
    "doman": "slv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "NMU-AS - Nordisk Media Utveckling AB, SE",
@@ -3248,7 +5049,35 @@
     "usLeverantorer": [
      "InnoCraft (Matomo Cloud)",
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "script.extellio.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     }
+    ],
+    "sida": "https://www.livsmedelsverket.se/"
    },
    "svar": {
     "mx": [
@@ -3268,6 +5097,7 @@
    "doman": "ltu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -3287,7 +5117,35 @@
     ],
     "usLeverantorer": [
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7574.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "im16.inviewer.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.ltu.se/"
    },
    "svar": {
     "mx": [
@@ -3306,6 +5164,7 @@
    "doman": "lu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "UNSPECIFIED - Lund University, SE",
@@ -3325,7 +5184,25 @@
     ],
     "usLeverantorer": [
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "webstats.sgit.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.lu.se/"
    },
    "svar": {
     "mx": [
@@ -3344,6 +5221,7 @@
    "doman": "lakemedelsverket.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -3363,7 +5241,45 @@
     ],
     "usLeverantorer": [
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "northeurope-2.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "ssl.webserviceaward.com",
+      "nat": "EU/EES",
+      "lev": "Web Service Award"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tracker.lakemedelsverket.open-analytics.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.lakemedelsverket.se/"
    },
    "svar": {
     "mx": [
@@ -3383,6 +5299,7 @@
    "doman": "lansstyrelsen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
@@ -3397,7 +5314,30 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.lansstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -3416,6 +5356,7 @@
    "doman": "mau.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -3445,7 +5386,55 @@
      "Cludo",
      "Imbox",
      "botframework.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "apiv2.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     },
+     {
+      "v": "cdn.botframework.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "customer.cludo.com",
+      "nat": "US",
+      "lev": "Cludo"
+     },
+     {
+      "v": "files.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "triggers-v3.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "widget-launcher.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     },
+     {
+      "v": "widget.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     }
+    ],
+    "sida": "https://mau.se/"
    },
    "svar": {
     "mx": [
@@ -3464,6 +5453,7 @@
    "doman": "mediemyndigheten.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "QDSverigeAB - QD Sverige AB, SE",
@@ -3486,7 +5476,25 @@
      "InnoCraft (Matomo Cloud)",
      "Monotype",
      "cookietractor.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "fast.fonts.net",
+      "nat": "US",
+      "lev": "Monotype"
+     }
+    ],
+    "sida": "https://mediemyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -3505,6 +5513,7 @@
    "doman": "mi.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "GLESYS - Glesys AB, SE",
@@ -3519,7 +5528,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "matomo.analys.cloud",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.mi.se/"
    },
    "svar": {
     "mx": [
@@ -3538,6 +5555,7 @@
    "doman": "migrationsverket.se",
    "epost": "MS",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "MIGR-AS - Migrationsverket, SE",
@@ -3552,7 +5570,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.migrationsverket.se/"
    },
    "svar": {
     "mx": [
@@ -3571,6 +5607,7 @@
    "doman": "miun.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -3605,7 +5642,100 @@
      "cdn-cookieyes.com",
      "cookieyes.com",
      "elfsightcdn.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "clients1.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "cse.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "elfsightcdn.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "ep1.adtrafficquality.google",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "ep2.adtrafficquality.google",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "log.cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "pagead2.googlesyndication.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "plausible.io",
+      "nat": "annat",
+      "lev": "Plausible Analytics"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.miun.se/"
    },
    "svar": {
     "mx": [
@@ -3625,6 +5755,7 @@
    "doman": "modernamuseet.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -3646,7 +5777,30 @@
     "usLeverantorer": [
      "Google",
      "frojd.se"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.cookietractor.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "sentry.frojd.se",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.modernamuseet.se/en/stockholm/"
    },
    "svar": {
     "mx": [
@@ -3668,6 +5822,7 @@
    "doman": "mcf.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
@@ -3682,7 +5837,20 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "tracking.webbanalys.msb.se",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.mcf.se/"
    },
    "svar": {
     "mx": [
@@ -3702,6 +5870,7 @@
    "doman": "mfd.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -3730,7 +5899,60 @@
      "Google",
      "Microsoft",
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "6091227.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "ssl.webserviceaward.com",
+      "nat": "EU/EES",
+      "lev": "Web Service Award"
+     },
+     {
+      "v": "www.youtube.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.mfd.se/"
    },
    "svar": {
     "mx": [
@@ -3749,6 +5971,7 @@
    "doman": "digg.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -3763,7 +5986,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.digg.se/"
    },
    "svar": {
     "mx": [
@@ -3782,6 +6007,7 @@
    "doman": "mfof.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -3796,7 +6022,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.mfof.se/"
    },
    "svar": {
     "mx": [
@@ -3815,6 +6054,7 @@
    "doman": "kulturanalys.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
@@ -3836,7 +6076,25 @@
     "usLeverantorer": [
      "Google",
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://kulturanalys.se/"
    },
    "svar": {
     "mx": [
@@ -3855,6 +6113,7 @@
    "doman": "mpf.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
@@ -3874,7 +6133,25 @@
     ],
     "usLeverantorer": [
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "mpf.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     }
+    ],
+    "sida": "https://mpf.se/"
    },
    "svar": {
     "mx": [
@@ -3894,6 +6171,7 @@
    "doman": "sakint.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
@@ -3914,7 +6192,25 @@
     "usLeverantorer": [
      "Cloudflare",
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "f1-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.msi.se/"
    },
    "svar": {
     "mx": [
@@ -3933,6 +6229,7 @@
    "doman": "mtm.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -3947,7 +6244,15 @@
     "klass": "annat nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     }
+    ],
+    "sida": "https://www.mcf.se/"
    },
    "svar": {
     "mx": [
@@ -3966,6 +6271,7 @@
    "doman": "tillvaxtanalys.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -3980,7 +6286,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.tillvaxtanalys.se/"
    },
    "svar": {
     "mx": [
@@ -3999,6 +6323,7 @@
    "doman": "mtfa.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -4013,7 +6338,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4033,6 +6360,7 @@
    "doman": "mucf.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
@@ -4047,7 +6375,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.mucf.se/"
    },
    "svar": {
     "mx": [
@@ -4069,6 +6399,7 @@
    "doman": "vardanalys.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "BAHNHOF - Bahnhof AB, SE",
@@ -4090,7 +6421,25 @@
     "usLeverantorer": [
      "InnoCraft (Matomo Cloud)",
      "Monotype"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "hello.myfonts.net",
+      "nat": "US",
+      "lev": "Monotype"
+     },
+     {
+      "v": "vardanalys.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     }
+    ],
+    "sida": "https://www.vardanalys.se/"
    },
    "svar": {
     "mx": [
@@ -4109,6 +6458,7 @@
    "doman": "myh.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
@@ -4127,7 +6477,20 @@
     ],
     "usLeverantorer": [
      "Cookie Information"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "m.extellio.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     }
+    ],
+    "sida": "https://www.myh.se/"
    },
    "svar": {
     "mx": [
@@ -4146,6 +6509,7 @@
    "doman": "mdu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -4165,7 +6529,45 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.mdu.se/"
    },
    "svar": {
     "mx": [
@@ -4184,6 +6586,7 @@
    "doman": "nationalmuseum.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
@@ -4212,7 +6615,45 @@
      "Google",
      "Usercentrics (Cookiebot)",
      "typography.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "cloud.typography.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.nationalmuseum.se/"
    },
    "svar": {
     "mx": [
@@ -4231,6 +6672,7 @@
    "doman": "nrm.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -4245,7 +6687,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.nrm.se/"
    },
    "svar": {
     "mx": [
@@ -4267,6 +6722,7 @@
    "doman": "naturvardsverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -4293,7 +6749,55 @@
      "Cookie Information",
      "Microsoft",
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.naturvardsverket.se/"
    },
    "svar": {
     "mx": [
@@ -4313,6 +6817,7 @@
    "doman": "nai.uu.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -4332,7 +6837,25 @@
     ],
     "usLeverantorer": [
      "Adobe"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "nai.analys.co",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     }
+    ],
+    "sida": "https://nai.uu.se/"
    },
    "svar": {
     "mx": [
@@ -4354,6 +6877,7 @@
    "doman": "nfh.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "LOOPIA - Loopia AB, SE",
@@ -4387,7 +6911,60 @@
      "Usercentrics (Cookiebot)",
      "imagevault.app",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "kulturradet.imagevault.app",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://kulturradet.se/"
    },
    "svar": {
     "mx": [],
@@ -4404,6 +6981,7 @@
    "doman": "npof.se",
    "epost": "okänd",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "DATACOMM - DataCom Group Nordic AB, SE",
@@ -4418,7 +6996,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4440,6 +7020,7 @@
    "doman": "namndenmotdiskriminering.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": "ONECOM - One.com A/S, DK",
@@ -4458,7 +7039,20 @@
     ],
     "usLeverantorer": [
      "termly.io"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "app.termly.io",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "impro.usercontent.one",
+      "nat": "EU/EES",
+      "lev": "one.com"
+     }
+    ],
+    "sida": "https://www.namndenmotdiskriminering.se/"
    },
    "svar": {
     "mx": [
@@ -4480,6 +7074,7 @@
    "doman": "oljekrisnamnden.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": null,
@@ -4494,7 +7089,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [],
@@ -4511,6 +7108,7 @@
    "doman": "prv.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -4537,7 +7135,35 @@
      "bootstrapcdn.com",
      "cookietractor.com",
      "imagevault.media"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "netdna.bootstrapcdn.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "player.vimeo.com",
+      "nat": "US",
+      "lev": "Vimeo"
+     },
+     {
+      "v": "prv.imagevault.media",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.prv.se/sv/"
    },
    "svar": {
     "mx": [
@@ -4556,6 +7182,7 @@
    "doman": "patentombudsnamnden.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -4570,7 +7197,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4589,6 +7218,7 @@
    "doman": "pensionsmyndigheten.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -4603,7 +7233,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.pensionsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -4623,6 +7255,7 @@
    "doman": "polar.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
@@ -4655,7 +7288,70 @@
      "Google",
      "aspnetcdn.com",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "ajax.aspnetcdn.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "googleads.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "i.ytimg.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "static.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.youtube.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.polar.se/"
    },
    "svar": {
     "mx": [
@@ -4674,6 +7370,7 @@
    "doman": "polisen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "UNSPECIFIED - Polismyndigheten, SE",
@@ -4688,7 +7385,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://polisen.se/"
    },
    "svar": {
     "mx": [
@@ -4708,6 +7407,7 @@
    "doman": "pts.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": "radware - Radware Ltd, IL",
@@ -4722,7 +7422,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.pts.se/"
    },
    "svar": {
     "mx": [
@@ -4741,6 +7443,7 @@
    "doman": "revisorsinspektionen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -4762,7 +7465,25 @@
     "usLeverantorer": [
      "Google",
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.revisorsinspektionen.se/"
    },
    "svar": {
     "mx": [
@@ -4781,6 +7502,7 @@
    "doman": "raa.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -4803,7 +7525,30 @@
     "usLeverantorer": [
      "Adobe",
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     }
+    ],
+    "sida": "https://www.raa.se/"
    },
    "svar": {
     "mx": [
@@ -4822,6 +7567,7 @@
    "doman": "riksarkivet.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -4836,7 +7582,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://riksarkivet.se/"
    },
    "svar": {
     "mx": [
@@ -4855,6 +7603,7 @@
    "doman": "riksgalden.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "RIKSGALDEN-AS - Riksgaldskontoret, SE",
@@ -4869,7 +7618,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.riksgalden.se/"
    },
    "svar": {
     "mx": [
@@ -4889,6 +7656,7 @@
    "doman": "snsa.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "VINNOVA-ASN - Verket for Innovationssystem, SE",
@@ -4911,7 +7679,25 @@
      "InnoCraft (Matomo Cloud)",
      "cookietractor.com",
      "gtranslate.net"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.gtranslate.net",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     }
+    ],
+    "sida": "https://www.rymdstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -4931,6 +7717,7 @@
    "doman": "rmv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "WetterNet-AS - Jonkoping Energi AB, SE",
@@ -4958,7 +7745,45 @@
      "Google",
      "Texthelp",
      "hcaptcha.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "7adcfd322329.w.hcaptcha.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "ajax.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "js.hcaptcha.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.rmv.se/"
    },
    "svar": {
     "mx": [
@@ -4978,6 +7803,7 @@
    "doman": "sameskolstyrelsen.se",
    "epost": "G",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
@@ -4998,7 +7824,20 @@
     "usLeverantorer": [
      "cdn-cookieyes.com",
      "cookieyes.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "log.cookieyes.com",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://sameskolstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -5021,6 +7860,7 @@
    "doman": "sametinget.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "BRS-Networks-AS - BRS Networks AB, SE",
@@ -5035,7 +7875,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -5056,6 +7898,7 @@
    "doman": "sida.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "AWS",
    "webbLeverantor": "AMAZON-02 - Amazon.com, Inc., US",
@@ -5074,7 +7917,45 @@
     ],
     "usLeverantorer": [
      "openaid.se"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "api.openaid.se",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "assets.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "m.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "mfstatic.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "play.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "sida.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "v6.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.sida.se/"
    },
    "svar": {
     "mx": [
@@ -5094,6 +7975,7 @@
    "doman": "skatterattsnamnden.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
@@ -5108,7 +7990,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.skatterattsnamnden.se/"
    },
    "svar": {
     "mx": [
@@ -5129,6 +8013,7 @@
    "doman": "skatteverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
@@ -5143,7 +8028,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.skatteverket.se/"
    },
    "svar": {
     "mx": [
@@ -5164,6 +8051,7 @@
    "doman": "skogsstyrelsen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SKOGSTY - Skogsstyrelsen, SE",
@@ -5182,7 +8070,30 @@
     ],
     "usLeverantorer": [
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.skogsstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -5201,6 +8112,7 @@
    "doman": "skolfi.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
@@ -5220,7 +8132,25 @@
     ],
     "usLeverantorer": [
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "skolforskningsportalen.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.skolfi.se/"
    },
    "svar": {
     "mx": [
@@ -5239,6 +8169,7 @@
    "doman": "overklagandenamnden.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
@@ -5258,7 +8189,30 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "analytics.skolinspektionen.se",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.overklagandenamnden.se/"
    },
    "svar": {
     "mx": [
@@ -5278,6 +8232,7 @@
    "doman": "spsm.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -5301,7 +8256,30 @@
      "Optimizely",
      "Texthelp",
      "cookietractor.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.cookietractor.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.spsm.se/"
    },
    "svar": {
     "mx": [
@@ -5320,6 +8298,7 @@
    "doman": "spelinspektionen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -5339,7 +8318,20 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.spelinspektionen.se/"
    },
    "svar": {
     "mx": [
@@ -5361,6 +8353,7 @@
    "doman": "sbu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -5395,7 +8388,70 @@
      "Siteimprove",
      "Texthelp",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "20035.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "az416426.vo.msecnd.net",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fast.fonts.net",
+      "nat": "US",
+      "lev": "Monotype"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "ssl.webserviceaward.com",
+      "nat": "EU/EES",
+      "lev": "Web Service Award"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.sbu.se/"
    },
    "svar": {
     "mx": [
@@ -5414,6 +8470,7 @@
    "doman": "energimyndigheten.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -5435,7 +8492,35 @@
     "usLeverantorer": [
      "Microsoft",
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "statse.webtrendslive.com",
+      "nat": null,
+      "lev": null
+     }
+    ],
+    "sida": "https://www.energimyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -5454,6 +8539,7 @@
    "doman": "sfv.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SFV-AS - Statens Fastighetsverk, SE",
@@ -5473,7 +8559,20 @@
     ],
     "usLeverantorer": [
      "Adobe"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     }
+    ],
+    "sida": "https://www.sfv.se/"
    },
    "svar": {
     "mx": [
@@ -5492,6 +8591,7 @@
    "doman": "sgi.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -5511,7 +8611,35 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.sgi.se/"
    },
    "svar": {
     "mx": [
@@ -5533,6 +8661,7 @@
    "doman": "shk.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -5547,7 +8676,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://shk.se/"
    },
    "svar": {
     "mx": [
@@ -5566,6 +8708,7 @@
    "doman": "shm.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
@@ -5589,7 +8732,50 @@
     "usLeverantorer": [
      "Google",
      "InnoCraft (Matomo Cloud)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "consent.cookiebot.eu",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "consentcdn.cookiebot.eu",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "shm.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://shm.se/"
    },
    "svar": {
     "mx": [
@@ -5608,6 +8794,7 @@
    "doman": "siun.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -5622,7 +8809,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.siun.se/"
    },
    "svar": {
     "mx": [
@@ -5641,6 +8830,7 @@
    "doman": "stat-inst.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -5670,7 +8860,50 @@
      "Microsoft",
      "Usercentrics (Cookiebot)",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     }
+    ],
+    "sida": "https://www.stat-inst.se/"
    },
    "svar": {
     "mx": [
@@ -5689,6 +8922,7 @@
    "doman": "kulturradet.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -5722,7 +8956,60 @@
      "Usercentrics (Cookiebot)",
      "imagevault.app",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "kulturradet.imagevault.app",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.kulturradet.se/"
    },
    "svar": {
     "mx": [
@@ -5741,6 +9028,7 @@
    "doman": "smtm.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -5767,7 +9055,40 @@
      "Optimizely",
      "Texthelp",
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fast.fonts.net",
+      "nat": "US",
+      "lev": "Monotype"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.statensmuseermtf.se/"
    },
    "svar": {
     "mx": [
@@ -5787,6 +9108,7 @@
    "doman": "varldskulturmuseerna.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -5826,7 +9148,95 @@
      "Optimizely",
      "googleadservices.com",
      "on.aws"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "ad.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "connect.facebook.net",
+      "nat": "US",
+      "lev": "Meta"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "googleads.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "region1.analytics.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "stats.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.facebook.com",
+      "nat": "US",
+      "lev": "Meta"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.google.se",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googleadservices.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.varldskulturmuseerna.se/"
    },
    "svar": {
     "mx": [
@@ -5845,6 +9255,7 @@
    "doman": "musikverket.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "NET-BINERO-STHLM1 - Binero AB, SE",
@@ -5867,7 +9278,30 @@
      "Adobe",
      "Google",
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "ajax.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     }
+    ],
+    "sida": "https://statensmusikverk.se/"
    },
    "svar": {
     "mx": [
@@ -5886,6 +9320,7 @@
    "doman": "statenssc.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -5900,7 +9335,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.statenssc.se/"
    },
    "svar": {
     "mx": [
@@ -5919,6 +9356,7 @@
    "doman": "skolinspektionen.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
@@ -5938,7 +9376,25 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn1.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.skolinspektionen.se/"
    },
    "svar": {
     "mx": [
@@ -5958,6 +9414,7 @@
    "doman": "skolverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -5972,7 +9429,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.skolverket.se/"
    },
    "svar": {
     "mx": [
@@ -5992,6 +9451,7 @@
    "doman": "spv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "FSK - Forsakringskassan, SE",
@@ -6006,7 +9466,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.spv.se/privatperson/statlig-tjanstepension/"
    },
    "svar": {
     "mx": [
@@ -6025,6 +9487,7 @@
    "doman": "sva.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -6050,7 +9513,45 @@
      "Google",
      "aspnetcdn.com",
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "ajax.aspnetcdn.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "cdn-eu.cookietractor.com",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "plausible.io",
+      "nat": "annat",
+      "lev": "Plausible Analytics"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.sva.se/"
    },
    "svar": {
     "mx": [
@@ -6069,6 +9570,7 @@
    "doman": "vti.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6083,7 +9585,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://www.vti.se/"
    },
    "svar": {
     "mx": [
@@ -6102,6 +9617,7 @@
    "doman": "scb.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SCB-AS - Statistics Sweden, SE",
@@ -6116,7 +9632,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "matomo.scb.analys.cloud",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.scb.se/"
    },
    "svar": {
     "mx": [
@@ -6136,6 +9660,7 @@
    "doman": "statskontoret.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -6150,7 +9675,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.statskontoret.se/"
    },
    "svar": {
     "mx": [
@@ -6169,6 +9696,7 @@
    "doman": "uniarts.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "MS",
    "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
@@ -6188,7 +9716,20 @@
     ],
     "usLeverantorer": [
      "Usercentrics (Cookiebot)"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "consent.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     },
+     {
+      "v": "consentcdn.cookiebot.com",
+      "nat": "US",
+      "lev": "Usercentrics (Cookiebot)"
+     }
+    ],
+    "sida": "https://www.skh.se/"
    },
    "svar": {
     "mx": [
@@ -6207,6 +9748,7 @@
    "doman": "su.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6229,7 +9771,55 @@
     "usLeverantorer": [
      "InnoCraft (Matomo Cloud)",
      "Silktide"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "a.eu.silktide.com",
+      "nat": "US",
+      "lev": "Silktide"
+     },
+     {
+      "v": "analytics.silktide.com",
+      "nat": "US",
+      "lev": "Silktide"
+     },
+     {
+      "v": "assets.mediaflowpro.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "cdn.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "m.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "mfstatic.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "su.matomo.cloud",
+      "nat": "US",
+      "lev": "InnoCraft (Matomo Cloud)"
+     },
+     {
+      "v": "v4.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "v6.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.su.se/"
    },
    "svar": {
     "mx": [
@@ -6251,6 +9841,7 @@
    "doman": "ssm.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -6283,7 +9874,75 @@
      "Microsoft",
      "Optimizely",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "dc.services.visualstudio.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "googleads.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "i.ytimg.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "ssl.webserviceaward.com",
+      "nat": "EU/EES",
+      "lev": "Web Service Award"
+     },
+     {
+      "v": "ssm.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "static.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.youtube.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.stralsakerhetsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -6303,6 +9962,7 @@
    "doman": "swedac.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "AWS",
    "webbLeverantor": "AMAZON-02 - Amazon.com, Inc., US",
@@ -6321,7 +9981,25 @@
     ],
     "usLeverantorer": [
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.swedac.se/"
    },
    "svar": {
     "mx": [
@@ -6343,6 +10021,7 @@
    "doman": "esf.se",
    "epost": "okänd",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "Advania-IMP-SE - Advania Sverige AB, SE",
@@ -6367,7 +10046,35 @@
      "Fonticons (Font Awesome)",
      "Google",
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "ka-p.fontawesome.com",
+      "nat": "US",
+      "lev": "Fonticons (Font Awesome)"
+     },
+     {
+      "v": "kit.fontawesome.com",
+      "nat": "US",
+      "lev": "Fonticons (Font Awesome)"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.esf.se/"
    },
    "svar": {
     "mx": [
@@ -6387,6 +10094,7 @@
    "doman": "si.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -6407,7 +10115,25 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://si.se/"
    },
    "svar": {
     "mx": [
@@ -6426,6 +10152,7 @@
    "doman": "sieps.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "Bluerange-AS - Bluerange Sweden AB, SE",
@@ -6448,7 +10175,45 @@
     "usLeverantorer": [
      "Cookie Information",
      "Vimeo"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "f.vimeocdn.com",
+      "nat": "US",
+      "lev": "Vimeo"
+     },
+     {
+      "v": "i.vimeocdn.com",
+      "nat": "US",
+      "lev": "Vimeo"
+     },
+     {
+      "v": "player.vimeo.com",
+      "nat": "US",
+      "lev": "Vimeo"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.sieps.se/"
    },
    "svar": {
     "mx": [
@@ -6467,6 +10232,7 @@
    "doman": "svff.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "BAHNHOF - Bahnhof AB, SE",
@@ -6481,7 +10247,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.svff.se/"
    },
    "svar": {
     "mx": [
@@ -6500,6 +10268,7 @@
    "doman": "sgu.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "CANDIDATOR-AB - Iver Sverige AB, SE",
@@ -6524,7 +10293,35 @@
      "Google",
      "Optimizely",
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.sgu.se/"
    },
    "svar": {
     "mx": [
@@ -6544,6 +10341,7 @@
    "doman": "slu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -6558,7 +10356,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.slu.se/"
    },
    "svar": {
     "mx": [
@@ -6577,6 +10393,7 @@
    "doman": "smhi.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SMHI-AS - Sveriges Meteorologiska och Hydrologiska Institut, SE",
@@ -6597,7 +10414,20 @@
     "usLeverantorer": [
      "cdn-cookieyes.com",
      "cookieyes.com"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn-cookieyes.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "log.cookieyes.com",
+      "nat": "US",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.smhi.se/"
    },
    "svar": {
     "mx": [
@@ -6619,6 +10449,7 @@
    "doman": "sakerhetspolisen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": "LINK11 - Link11 GmbH, DE",
@@ -6633,7 +10464,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.sakerhetspolisen.se/"
    },
    "svar": {
     "mx": [
@@ -6652,6 +10485,7 @@
    "doman": "sh.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6666,7 +10500,30 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.sh.se/"
    },
    "svar": {
     "mx": [
@@ -6685,6 +10542,7 @@
    "doman": "tlv.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6699,7 +10557,30 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.tlv.se/"
    },
    "svar": {
     "mx": [
@@ -6721,6 +10602,7 @@
    "doman": "tillvaxtverket.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6739,7 +10621,30 @@
     ],
     "usLeverantorer": [
      "europa.eu"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "foq.youreurope.europa.eu",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://tillvaxtverket.se/"
    },
    "svar": {
     "mx": [
@@ -6758,6 +10663,7 @@
    "doman": "foi.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
@@ -6772,7 +10678,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.foi.se/"
    },
    "svar": {
     "mx": [
@@ -6791,6 +10699,7 @@
    "doman": "pliktverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -6805,7 +10714,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://pliktverket.se/"
    },
    "svar": {
     "mx": [
@@ -6825,6 +10747,7 @@
    "doman": "trafa.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -6848,7 +10771,50 @@
      "Google",
      "Optimizely",
      "cookiehub.net"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.cookiehub.eu",
+      "nat": "annat",
+      "lev": null
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "region-eu.cookiehub.net",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.trafa.se/"
    },
    "svar": {
     "mx": [
@@ -6867,6 +10833,7 @@
    "doman": "trafikverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "banverket - Trafikverket, SE",
@@ -6881,7 +10848,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.trafikverket.se/"
    },
    "svar": {
     "mx": [
@@ -6901,6 +10870,7 @@
    "doman": "transportstyrelsen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -6915,7 +10885,30 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "webstats.sgit.se",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.transportstyrelsen.se/"
    },
    "svar": {
     "mx": [
@@ -6935,6 +10928,7 @@
    "doman": "tullverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
@@ -6949,7 +10943,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -6969,6 +10965,7 @@
    "doman": "umu.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET-UMU - Umea University, SE",
@@ -6983,7 +10980,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "matomo.analys.cloud",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.umu.se/"
    },
    "svar": {
     "mx": [
@@ -7002,6 +11007,7 @@
    "doman": "uhr.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -7022,7 +11028,20 @@
     "usLeverantorer": [
      "Optimizely",
      "jsDelivr"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.jsdelivr.net",
+      "nat": "US",
+      "lev": "jsDelivr"
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     }
+    ],
+    "sida": "https://www.uhr.se/"
    },
    "svar": {
     "mx": [
@@ -7041,6 +11060,7 @@
    "doman": "uka.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -7060,7 +11080,25 @@
     ],
     "usLeverantorer": [
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.uka.se/"
    },
    "svar": {
     "mx": [
@@ -7080,6 +11118,7 @@
    "doman": "uhmynd.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "LOOPIA - Loopia AB, SE",
@@ -7103,7 +11142,30 @@
      "Cookie Information",
      "Google",
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "region1.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.upphandlingsmyndigheten.se/"
    },
    "svar": {
     "mx": [
@@ -7122,6 +11184,7 @@
    "doman": "uu.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
@@ -7141,7 +11204,30 @@
     ],
     "usLeverantorer": [
      "Siteimprove"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "8074.global.siteimproveanalytics.io",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "siteimproveanalytics.com",
+      "nat": "US",
+      "lev": "Siteimprove"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.uu.se/"
    },
    "svar": {
     "mx": [
@@ -7163,6 +11249,7 @@
    "doman": "ubm.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
@@ -7177,7 +11264,20 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     }
+    ],
+    "sida": "https://ubm.se/"
    },
    "svar": {
     "mx": [
@@ -7198,6 +11298,7 @@
    "doman": "val.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Akamai",
    "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
@@ -7212,7 +11313,15 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.val.se/"
    },
    "svar": {
     "mx": [
@@ -7233,6 +11342,7 @@
    "doman": "vinnova.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "VINNOVA-ASN - Verket for Innovationssystem, SE",
@@ -7255,7 +11365,35 @@
      "Cloudflare",
      "apsisforms.com",
      "jQuery CDN"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdnjs.cloudflare.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
+     },
+     {
+      "v": "forms.apsisforms.com",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.vinnova.se/"
    },
    "svar": {
     "mx": [
@@ -7275,6 +11413,7 @@
    "doman": "vr.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -7293,7 +11432,15 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "www.googletagmanager.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.vr.se/"
    },
    "svar": {
     "mx": [
@@ -7312,6 +11459,7 @@
    "doman": "aklagare.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -7326,7 +11474,25 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.aklagare.se/"
    },
    "svar": {
     "mx": [
@@ -7346,6 +11512,7 @@
    "doman": "oru.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -7360,7 +11527,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.oru.se/"
    },
    "svar": {
     "mx": [
@@ -7379,6 +11548,7 @@
    "doman": "onep.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
@@ -7397,7 +11567,15 @@
     ],
     "usLeverantorer": [
      "Google"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.onep.se/"
    },
    "svar": {
     "mx": [
@@ -7416,6 +11594,7 @@
    "doman": "onh.se",
    "epost": "inga molnsignaler",
    "tenant": false,
+   "exo": false,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -7438,7 +11617,35 @@
     "usLeverantorer": [
      "Adobe",
      "Texthelp"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "p.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "plus.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "use.typekit.net",
+      "nat": "US",
+      "lev": "Adobe"
+     },
+     {
+      "v": "www.browsealoud.com",
+      "nat": "US",
+      "lev": "Texthelp"
+     }
+    ],
+    "sida": "https://www.onh.se/"
    },
    "svar": {
     "mx": [
@@ -7458,6 +11665,7 @@
    "doman": "oks.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "BRS-Networks-AS - BRS Networks AB, SE",
@@ -7472,7 +11680,9 @@
     "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -7491,6 +11701,7 @@
    "doman": "riksdagen.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
@@ -7505,7 +11716,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.riksdagen.se/sv/"
    },
    "svar": {
     "mx": [
@@ -7526,6 +11739,7 @@
    "doman": "jo.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": false,
    "webb": "okänd",
    "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
@@ -7540,7 +11754,9 @@
     "klass": "ingen tredjepart",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": "https://www.jo.se/"
    },
    "svar": {
     "mx": [
@@ -7560,6 +11776,7 @@
    "doman": "riksrevisionen.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
@@ -7574,7 +11791,30 @@
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
     "us": [],
-    "usLeverantorer": []
+    "usLeverantorer": [],
+    "varder": [
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svanalytics.containers.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "svanalytics.piwik.pro",
+      "nat": "EU/EES",
+      "lev": "Piwik PRO"
+     },
+     {
+      "v": "view.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     }
+    ],
+    "sida": "https://www.riksrevisionen.se/"
    },
    "svar": {
     "mx": [
@@ -7593,6 +11833,7 @@
    "doman": "riksbank.se",
    "epost": "MS",
    "tenant": true,
+   "exo": true,
    "teams": true,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -7612,7 +11853,35 @@
     ],
     "usLeverantorer": [
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     }
+    ],
+    "sida": "https://www.riksbank.se/"
    },
    "svar": {
     "mx": [
@@ -7631,6 +11900,7 @@
    "doman": "lfv.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "SE/EU",
    "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
@@ -7652,7 +11922,25 @@
     "usLeverantorer": [
      "Google",
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     }
+    ],
+    "sida": "https://www.lfv.se/"
    },
    "svar": {
     "mx": [
@@ -7674,6 +11962,7 @@
    "doman": "sjofartsverket.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": false,
    "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SMA-AS - Sjofartsverket, SE",
@@ -7695,7 +11984,35 @@
     "usLeverantorer": [
      "Google",
      "Optimizely"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "burp",
+      "nat": null,
+      "lev": null
+     },
+     {
+      "v": "dl.episerver.net",
+      "nat": "US",
+      "lev": "Optimizely"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "fonts.gstatic.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "tracker.sjofartsverket.open-analytics.se",
+      "nat": "EU/EES",
+      "lev": null
+     }
+    ],
+    "sida": "https://www.sjofartsverket.se/"
    },
    "svar": {
     "mx": [
@@ -7715,6 +12032,7 @@
    "doman": "svk.se",
    "epost": "inga molnsignaler",
    "tenant": true,
+   "exo": true,
    "teams": false,
    "webb": "Cloudflare",
    "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
@@ -7734,7 +12052,20 @@
     ],
     "usLeverantorer": [
      "Microsoft"
-    ]
+    ],
+    "varder": [
+     {
+      "v": "js.monitor.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "swedencentral-0.in.applicationinsights.azure.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     }
+    ],
+    "sida": "https://www.svk.se/"
    },
    "svar": {
     "mx": [
@@ -7746,7 +12077,5 @@
     "entra": 200
    }
   }
- ],
- "webbMatt": "2026-10-08T164403Z",
- "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json"
+ ]
 }

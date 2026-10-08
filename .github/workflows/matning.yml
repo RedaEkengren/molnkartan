@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "tests/**"]
+    paths: ["docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "triangulering.py", "sakerhet.py", "tests/**"]
 
 permissions:
   contents: write
@@ -31,12 +31,13 @@ jobs:
       - run: pip install dnspython==2.7.0
       - name: Mät
         run: |
-          fil=$(python3 matning.py organisationer-sverige.csv)
-          webb=$(python3 webbmatning.py organisationer-sverige.csv)
-          python3 bygg_sida.py "${fil#$PWD/}" "${webb#$PWD/}"
-          mfil=$(python3 matning.py organisationer-myndigheter-matning.csv)
-          mwebb=$(python3 webbmatning.py organisationer-myndigheter-matning.csv)
-          python3 bygg_sida.py "${mfil#$PWD/}" "${mwebb#$PWD/}" docs/myndigheter.json
+          python3 matning.py organisationer-sverige.csv
+          python3 webbmatning.py organisationer-sverige.csv
+          python3 matning.py organisationer-myndigheter-matning.csv
+          python3 webbmatning.py organisationer-myndigheter-matning.csv
+          python3 triangulering.py
+          python3 sakerhet.py
+          python3 bygg_sida.py
       - name: Committa
         run: |
           git config user.name "molnkartan-bot"
