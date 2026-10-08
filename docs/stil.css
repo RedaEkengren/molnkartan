@@ -2,12 +2,20 @@
   --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
   --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --tagg-text: #ffffff; --tom-yta: #e4e3de; --varning: #fff6e0; --varning-kant: #e8c66a;
 }
+/* Mörkt läge: följer systemet om inget val gjorts (data-tema), annars valet. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-tema="ljust"]) {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
     --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --varning: #2b2516; --varning-kant: #7a6426;
   }
 }
+:root[data-tema="morkt"] {
+    --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --varning: #2b2516; --varning-kant: #7a6426;
+}
+:root { color-scheme: light dark; }
+:root[data-tema="ljust"] { color-scheme: light; }
+:root[data-tema="morkt"] { color-scheme: dark; }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
 main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 64px; }
@@ -147,3 +155,17 @@ main { padding-top: 20px; }
 .minikarta { width: 100%; max-height: 290px; }
 .minikarta path { fill: var(--tom-yta); cursor: default; }
 .minikarta path.ny { stroke: var(--text); stroke-width: 2.5; }
+.temaknapp { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; flex: none;
+  border: 1px solid var(--linje); border-radius: 8px; background: var(--yta); color: var(--text); cursor: pointer; }
+.temaknapp:hover { border-color: var(--dampad); }
+.temaknapp svg { width: 18px; height: 18px; }
+.temaknapp .sol { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-tema="ljust"]) .temaknapp .sol { display: block; } :root:not([data-tema="ljust"]) .temaknapp .mane { display: none; } }
+:root[data-tema="morkt"] .temaknapp .sol { display: block; }
+:root[data-tema="morkt"] .temaknapp .mane { display: none; }
+@media (max-width: 720px) {
+  .sidhuvud .marke { order: 1; }
+  .sidhuvud .temaknapp { order: 2; margin-left: auto; }
+  .sidhuvud .meny { order: 3; width: 100%; }
+}
+@media (min-width: 721px) { .sidhuvud .meny { margin-left: auto; } }
