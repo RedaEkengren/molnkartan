@@ -109,6 +109,6 @@ läggs till i `METOD.md` med datum, och mätningen körs om.
 
 ## Licens
 
-Koden: Apache-2.0, se [`LICENSE`](LICENSE). Data och resultat:
+Koden: MIT, se [`LICENSE`](LICENSE). Data och resultat:
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.sv). Ange
 "Molnkartan" och mätdatum.
