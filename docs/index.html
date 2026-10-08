@@ -28,6 +28,19 @@
 
   <div class="kort" id="kort"></div>
 
+  <h2>Kartan</h2>
+  <section class="kartsektion" aria-label="Karta">
+    <div class="kartflikar" id="kartFlikar" role="group" aria-label="Välj mätning"></div>
+    <div class="kartyta">
+      <svg id="karta" class="karta" role="img" aria-label="Sverigekarta med kommunerna färgade efter vald mätning. Samma uppgifter finns i tabellen nedan."></svg>
+      <div class="kartsida">
+        <div class="legend kartlegend" id="kartLegend"></div>
+        <div class="kartinfo" id="kartInfo"></div>
+        <p class="forklaring">Håll muspekaren över eller tryck på en kommun. Regionerna har ingen egen yta och finns i tabellen. Gränser: SCB (CC0).</p>
+      </div>
+    </div>
+  </section>
+
   <div class="varning">
     <h2>Vad det här inte visar</h2>
     <ul>
@@ -70,7 +83,7 @@
   <p class="forklaring">Grundläggande skydd i DNS och på webben. Redovisas bara som summor, aldrig per kommun, så att sidan inte blir en lista över mål.</p>
   <div class="kort" id="kortSakerhet"></div>
 
-  <h2>Alla organisationer</h2>
+  <h2 id="tabell">Alla organisationer</h2>
   <div class="filter">
     <input id="sok" type="search" placeholder="Sök kommun, region eller domän" aria-label="Sök">
     <select id="lanFilter" aria-label="Län"><option value="">Alla län</option></select>
@@ -100,6 +113,7 @@
     </div>
   </footer>
 </main>
+<script src="karta.js"></script>
 <script src="demo.js"></script>
 <script src="webbdemo.js"></script>
 <script>
@@ -129,9 +143,9 @@ function el(tagg, egenskaper = {}, ...barn) {
   return e;
 }
 
-fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, sakerhet, organisationer: org }) => {
+Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r => r.json())]).then(([{ matt, webbMatt, sakerhet, organisationer: org }, karta]) => {
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
-  startaDemo(org, { etikett, farg });
+  startaDemo(org, { etikett, farg, karta });
   const n = org.length;
   const rakna = f => org.filter(f).length;
   const pct = x => Math.round(100 * x / n) + " %";
@@ -177,6 +191,15 @@ fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, sakerhet, organis
     el("span", {}, el("i", { style: `background:${f}` }), namn)));
   staplar("lanWebb", WEBBKLASSER, fs);
   startaWebbDemo(org, { webbEtikett, webbFarg });
+  startaKarta(org, karta, [
+    { namn: "E-post (DNS)", varde: o => [etikett[o.epost], farg[o.epost]], legend: KATEGORIER.map(([, n, f]) => [n, f]) },
+    { namn: "Exchange Online", varde: o => o.exo === true ? ["Svarar", "var(--ms)"] : o.exo === false ? ["Svarar inte", "var(--inga)"] : ["Ingen uppgift", "var(--okand)"],
+      legend: [["Svarar", "var(--ms)"], ["Svarar inte", "var(--inga)"], ["Ingen uppgift", "var(--okand)"]] },
+    { namn: "Webbplats före samtycke", varde: o => fs(o) ? [webbEtikett[fs(o)], webbFarg[fs(o)]] : ["Ingen uppgift", "var(--okand)"],
+      legend: WEBBKLASSER.slice(0, 5).map(([, n, f]) => [n, f]) },
+    { namn: "Google Analytics före samtycke", varde: o => o.fore_samtycke?.ga ? ["Ja", "var(--g)"] : ["Nej", "var(--inga)"],
+      legend: [["Ja", "var(--g)"], ["Nej", "var(--inga)"]] },
+  ]);
   if (sakerhet?.DMARC) {
     const andel = (signal, varde) => Math.round(100 * (sakerhet[signal][varde] || 0) / n) + " %";
     document.getElementById("kortSakerhet").append(

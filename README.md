@@ -117,6 +117,7 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `klassa.py`, `klassa_v2.py` | Tillämpar reglerna i pilot respektive v2 |
 | `webbmatning.py`, `webb_klassa.py`, `leverantorer.csv` | Mätning 2: headless Chrome, nätverkslogg, ASN per värd |
 | `data/` | Rådata med tidsstämpel, en fil per körning (`ra-` DNS, `webb-` webbplatser) |
+| `karta_bygg.py`, `docs/karta.json` | Kommun- och länsgränser från SCB (Digitala gränser, CC0), förenklade till SVG |
 | `triangulering.py` | T1–T4: oberoende kontroller av huvudpåståendena |
 | `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py <rådatafil>` skriver `docs/data.json` |
 

@@ -40,6 +40,7 @@
  "organisationer": [
   {
    "namn": "Upplands Väsby",
+   "kod": "0114",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -79,6 +80,7 @@
   },
   {
    "namn": "Vallentuna",
+   "kod": "0115",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -137,6 +139,7 @@
   },
   {
    "namn": "Österåker",
+   "kod": "0117",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -210,6 +213,7 @@
   },
   {
    "namn": "Värmdö",
+   "kod": "0120",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -276,6 +280,7 @@
   },
   {
    "namn": "Järfälla",
+   "kod": "0123",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -336,6 +341,7 @@
   },
   {
    "namn": "Ekerö",
+   "kod": "0125",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -410,6 +416,7 @@
   },
   {
    "namn": "Huddinge",
+   "kod": "0126",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -446,6 +453,7 @@
   },
   {
    "namn": "Botkyrka",
+   "kod": "0127",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -535,6 +543,7 @@
   },
   {
    "namn": "Salem",
+   "kod": "0128",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -616,6 +625,7 @@
   },
   {
    "namn": "Haninge",
+   "kod": "0136",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -702,6 +712,7 @@
   },
   {
    "namn": "Tyresö",
+   "kod": "0138",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -791,6 +802,7 @@
   },
   {
    "namn": "Upplands-Bro",
+   "kod": "0139",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -853,6 +865,7 @@
   },
   {
    "namn": "Nykvarn",
+   "kod": "0140",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -918,6 +931,7 @@
   },
   {
    "namn": "Täby",
+   "kod": "0160",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -970,6 +984,7 @@
   },
   {
    "namn": "Danderyd",
+   "kod": "0162",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1088,6 +1103,7 @@
   },
   {
    "namn": "Sollentuna",
+   "kod": "0163",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1218,6 +1234,7 @@
   },
   {
    "namn": "Stockholm",
+   "kod": "0180",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1261,6 +1278,7 @@
   },
   {
    "namn": "Södertälje",
+   "kod": "0181",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1353,6 +1371,7 @@
   },
   {
    "namn": "Nacka",
+   "kod": "0182",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1437,6 +1456,7 @@
   },
   {
    "namn": "Sundbyberg",
+   "kod": "0183",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1489,6 +1509,7 @@
   },
   {
    "namn": "Solna",
+   "kod": "0184",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1561,6 +1582,7 @@
   },
   {
    "namn": "Lidingö",
+   "kod": "0186",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1623,6 +1645,7 @@
   },
   {
    "namn": "Vaxholm",
+   "kod": "0187",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1675,6 +1698,7 @@
   },
   {
    "namn": "Norrtälje",
+   "kod": "0188",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1769,6 +1793,7 @@
   },
   {
    "namn": "Sigtuna",
+   "kod": "0191",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1836,6 +1861,7 @@
   },
   {
    "namn": "Nynäshamn",
+   "kod": "0192",
    "typ": "kommun",
    "lan": "Stockholms län",
    "antal": 1,
@@ -1918,6 +1944,7 @@
   },
   {
    "namn": "Håbo",
+   "kod": "0305",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2016,6 +2043,7 @@
   },
   {
    "namn": "Älvkarleby",
+   "kod": "0319",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2078,6 +2106,7 @@
   },
   {
    "namn": "Knivsta",
+   "kod": "0330",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2202,6 +2231,7 @@
   },
   {
    "namn": "Heby",
+   "kod": "0331",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2249,6 +2279,7 @@
   },
   {
    "namn": "Tierp",
+   "kod": "0360",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2306,6 +2337,7 @@
   },
   {
    "namn": "Uppsala",
+   "kod": "0380",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2352,6 +2384,7 @@
   },
   {
    "namn": "Enköping",
+   "kod": "0381",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2435,6 +2468,7 @@
   },
   {
    "namn": "Östhammar",
+   "kod": "0382",
    "typ": "kommun",
    "lan": "Uppsala län",
    "antal": 1,
@@ -2506,6 +2540,7 @@
   },
   {
    "namn": "Vingåker",
+   "kod": "0428",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2553,6 +2588,7 @@
   },
   {
    "namn": "Gnesta",
+   "kod": "0461",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2615,6 +2651,7 @@
   },
   {
    "namn": "Nyköping",
+   "kod": "0480",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2683,6 +2720,7 @@
   },
   {
    "namn": "Oxelösund",
+   "kod": "0481",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2771,6 +2809,7 @@
   },
   {
    "namn": "Flen",
+   "kod": "0482",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2848,6 +2887,7 @@
   },
   {
    "namn": "Katrineholm",
+   "kod": "0483",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2910,6 +2950,7 @@
   },
   {
    "namn": "Eskilstuna",
+   "kod": "0484",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2946,6 +2987,7 @@
   },
   {
    "namn": "Strängnäs",
+   "kod": "0486",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -2996,6 +3038,7 @@
   },
   {
    "namn": "Trosa",
+   "kod": "0488",
    "typ": "kommun",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -3032,6 +3075,7 @@
   },
   {
    "namn": "Ödeshög",
+   "kod": "0509",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3102,6 +3146,7 @@
   },
   {
    "namn": "Ydre",
+   "kod": "0512",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3167,6 +3212,7 @@
   },
   {
    "namn": "Kinda",
+   "kod": "0513",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3234,6 +3280,7 @@
   },
   {
    "namn": "Boxholm",
+   "kod": "0560",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3294,6 +3341,7 @@
   },
   {
    "namn": "Åtvidaberg",
+   "kod": "0561",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3359,6 +3407,7 @@
   },
   {
    "namn": "Finspång",
+   "kod": "0562",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3407,6 +3456,7 @@
   },
   {
    "namn": "Valdemarsvik",
+   "kod": "0563",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3546,6 +3596,7 @@
   },
   {
    "namn": "Linköping",
+   "kod": "0580",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3617,6 +3668,7 @@
   },
   {
    "namn": "Norrköping",
+   "kod": "0581",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3682,6 +3734,7 @@
   },
   {
    "namn": "Söderköping",
+   "kod": "0582",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3792,6 +3845,7 @@
   },
   {
    "namn": "Motala",
+   "kod": "0583",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3904,6 +3958,7 @@
   },
   {
    "namn": "Vadstena",
+   "kod": "0584",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -3958,6 +4013,7 @@
   },
   {
    "namn": "Mjölby",
+   "kod": "0586",
    "typ": "kommun",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -4028,6 +4084,7 @@
   },
   {
    "namn": "Aneby",
+   "kod": "0604",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4085,6 +4142,7 @@
   },
   {
    "namn": "Gnosjö",
+   "kod": "0617",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4147,6 +4205,7 @@
   },
   {
    "namn": "Mullsjö",
+   "kod": "0642",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4224,6 +4283,7 @@
   },
   {
    "namn": "Habo",
+   "kod": "0643",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4276,6 +4336,7 @@
   },
   {
    "namn": "Gislaved",
+   "kod": "0662",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4338,6 +4399,7 @@
   },
   {
    "namn": "Vaggeryd",
+   "kod": "0665",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4423,6 +4485,7 @@
   },
   {
    "namn": "Jönköping",
+   "kod": "0680",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4492,6 +4555,7 @@
   },
   {
    "namn": "Nässjö",
+   "kod": "0682",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4554,6 +4618,7 @@
   },
   {
    "namn": "Värnamo",
+   "kod": "0683",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4631,6 +4696,7 @@
   },
   {
    "namn": "Sävsjö",
+   "kod": "0684",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4698,6 +4764,7 @@
   },
   {
    "namn": "Vetlanda",
+   "kod": "0685",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4765,6 +4832,7 @@
   },
   {
    "namn": "Eksjö",
+   "kod": "0686",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4822,6 +4890,7 @@
   },
   {
    "namn": "Tranås",
+   "kod": "0687",
    "typ": "kommun",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -4874,6 +4943,7 @@
   },
   {
    "namn": "Uppvidinge",
+   "kod": "0760",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -4956,6 +5026,7 @@
   },
   {
    "namn": "Lessebo",
+   "kod": "0761",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5018,6 +5089,7 @@
   },
   {
    "namn": "Tingsryd",
+   "kod": "0763",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5070,6 +5142,7 @@
   },
   {
    "namn": "Alvesta",
+   "kod": "0764",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5149,6 +5222,7 @@
   },
   {
    "namn": "Älmhult",
+   "kod": "0765",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5221,6 +5295,7 @@
   },
   {
    "namn": "Markaryd",
+   "kod": "0767",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5325,6 +5400,7 @@
   },
   {
    "namn": "Växjö",
+   "kod": "0780",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5409,6 +5485,7 @@
   },
   {
    "namn": "Ljungby",
+   "kod": "0781",
    "typ": "kommun",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -5476,6 +5553,7 @@
   },
   {
    "namn": "Högsby",
+   "kod": "0821",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5512,6 +5590,7 @@
   },
   {
    "namn": "Torsås",
+   "kod": "0834",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5563,6 +5642,7 @@
   },
   {
    "namn": "Mörbylånga",
+   "kod": "0840",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5679,6 +5759,7 @@
   },
   {
    "namn": "Hultsfred",
+   "kod": "0860",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5774,6 +5855,7 @@
   },
   {
    "namn": "Mönsterås",
+   "kod": "0861",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5879,6 +5961,7 @@
   },
   {
    "namn": "Emmaboda",
+   "kod": "0862",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -5959,6 +6042,7 @@
   },
   {
    "namn": "Kalmar",
+   "kod": "0880",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6062,6 +6146,7 @@
   },
   {
    "namn": "Nybro",
+   "kod": "0881",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6113,6 +6198,7 @@
   },
   {
    "namn": "Oskarshamn",
+   "kod": "0882",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6211,6 +6297,7 @@
   },
   {
    "namn": "Västervik",
+   "kod": "0883",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6258,6 +6345,7 @@
   },
   {
    "namn": "Vimmerby",
+   "kod": "0884",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6323,6 +6411,7 @@
   },
   {
    "namn": "Borgholm",
+   "kod": "0885",
    "typ": "kommun",
    "lan": "Kalmar län",
    "antal": 1,
@@ -6463,6 +6552,7 @@
   },
   {
    "namn": "Gotland",
+   "kod": "0980",
    "typ": "kommun",
    "lan": "Gotlands län",
    "antal": 1,
@@ -6531,6 +6621,7 @@
   },
   {
    "namn": "Olofström",
+   "kod": "1060",
    "typ": "kommun",
    "lan": "Blekinge län",
    "antal": 1,
@@ -6615,6 +6706,7 @@
   },
   {
    "namn": "Karlskrona",
+   "kod": "1080",
    "typ": "kommun",
    "lan": "Blekinge län",
    "antal": 1,
@@ -6662,6 +6754,7 @@
   },
   {
    "namn": "Ronneby",
+   "kod": "1081",
    "typ": "kommun",
    "lan": "Blekinge län",
    "antal": 1,
@@ -6767,6 +6860,7 @@
   },
   {
    "namn": "Karlshamn",
+   "kod": "1082",
    "typ": "kommun",
    "lan": "Blekinge län",
    "antal": 1,
@@ -6839,6 +6933,7 @@
   },
   {
    "namn": "Sölvesborg",
+   "kod": "1083",
    "typ": "kommun",
    "lan": "Blekinge län",
    "antal": 1,
@@ -6932,6 +7027,7 @@
   },
   {
    "namn": "Svalöv",
+   "kod": "1214",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7018,6 +7114,7 @@
   },
   {
    "namn": "Staffanstorp",
+   "kod": "1230",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7064,6 +7161,7 @@
   },
   {
    "namn": "Burlöv",
+   "kod": "1231",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7138,6 +7236,7 @@
   },
   {
    "namn": "Vellinge",
+   "kod": "1233",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7236,6 +7335,7 @@
   },
   {
    "namn": "Östra Göinge",
+   "kod": "1256",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7288,6 +7388,7 @@
   },
   {
    "namn": "Örkelljunga",
+   "kod": "1257",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7344,6 +7445,7 @@
   },
   {
    "namn": "Bjuv",
+   "kod": "1260",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7406,6 +7508,7 @@
   },
   {
    "namn": "Kävlinge",
+   "kod": "1261",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7458,6 +7561,7 @@
   },
   {
    "namn": "Lomma",
+   "kod": "1262",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7515,6 +7619,7 @@
   },
   {
    "namn": "Svedala",
+   "kod": "1263",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7596,6 +7701,7 @@
   },
   {
    "namn": "Skurup",
+   "kod": "1264",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7690,6 +7796,7 @@
   },
   {
    "namn": "Sjöbo",
+   "kod": "1265",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7772,6 +7879,7 @@
   },
   {
    "namn": "Hörby",
+   "kod": "1266",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7834,6 +7942,7 @@
   },
   {
    "namn": "Höör",
+   "kod": "1267",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7876,6 +7985,7 @@
   },
   {
    "namn": "Tomelilla",
+   "kod": "1270",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -7923,6 +8033,7 @@
   },
   {
    "namn": "Bromölla",
+   "kod": "1272",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8042,6 +8153,7 @@
   },
   {
    "namn": "Osby",
+   "kod": "1273",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8109,6 +8221,7 @@
   },
   {
    "namn": "Perstorp",
+   "kod": "1275",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8196,6 +8309,7 @@
   },
   {
    "namn": "Klippan",
+   "kod": "1276",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8291,6 +8405,7 @@
   },
   {
    "namn": "Åstorp",
+   "kod": "1277",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8358,6 +8473,7 @@
   },
   {
    "namn": "Båstad",
+   "kod": "1278",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8425,6 +8541,7 @@
   },
   {
    "namn": "Malmö",
+   "kod": "1280",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8461,6 +8578,7 @@
   },
   {
    "namn": "Lund",
+   "kod": "1281",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8547,6 +8665,7 @@
   },
   {
    "namn": "Landskrona",
+   "kod": "1282",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8583,6 +8702,7 @@
   },
   {
    "namn": "Helsingborg",
+   "kod": "1283",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8646,6 +8766,7 @@
   },
   {
    "namn": "Höganäs",
+   "kod": "1284",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8723,6 +8844,7 @@
   },
   {
    "namn": "Eslöv",
+   "kod": "1285",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8759,6 +8881,7 @@
   },
   {
    "namn": "Ystad",
+   "kod": "1286",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8821,6 +8944,7 @@
   },
   {
    "namn": "Trelleborg",
+   "kod": "1287",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8857,6 +8981,7 @@
   },
   {
    "namn": "Kristianstad",
+   "kod": "1290",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8925,6 +9050,7 @@
   },
   {
    "namn": "Simrishamn",
+   "kod": "1291",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -8961,6 +9087,7 @@
   },
   {
    "namn": "Ängelholm",
+   "kod": "1292",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -9047,6 +9174,7 @@
   },
   {
    "namn": "Hässleholm",
+   "kod": "1293",
    "typ": "kommun",
    "lan": "Skåne län",
    "antal": 1,
@@ -9173,6 +9301,7 @@
   },
   {
    "namn": "Hylte",
+   "kod": "1315",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9245,6 +9374,7 @@
   },
   {
    "namn": "Halmstad",
+   "kod": "1380",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9317,6 +9447,7 @@
   },
   {
    "namn": "Laholm",
+   "kod": "1381",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9369,6 +9500,7 @@
   },
   {
    "namn": "Falkenberg",
+   "kod": "1382",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9447,6 +9579,7 @@
   },
   {
    "namn": "Varberg",
+   "kod": "1383",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9499,6 +9632,7 @@
   },
   {
    "namn": "Kungsbacka",
+   "kod": "1384",
    "typ": "kommun",
    "lan": "Hallands län",
    "antal": 1,
@@ -9546,6 +9680,7 @@
   },
   {
    "namn": "Härryda",
+   "kod": "1401",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9637,6 +9772,7 @@
   },
   {
    "namn": "Partille",
+   "kod": "1402",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9673,6 +9809,7 @@
   },
   {
    "namn": "Öckerö",
+   "kod": "1407",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9723,6 +9860,7 @@
   },
   {
    "namn": "Stenungsund",
+   "kod": "1415",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9785,6 +9923,7 @@
   },
   {
    "namn": "Tjörn",
+   "kod": "1419",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9905,6 +10044,7 @@
   },
   {
    "namn": "Orust",
+   "kod": "1421",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9943,6 +10083,7 @@
   },
   {
    "namn": "Sotenäs",
+   "kod": "1427",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -9995,6 +10136,7 @@
   },
   {
    "namn": "Munkedal",
+   "kod": "1430",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10047,6 +10189,7 @@
   },
   {
    "namn": "Tanum",
+   "kod": "1435",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10127,6 +10270,7 @@
   },
   {
    "namn": "Dals-Ed",
+   "kod": "1438",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10207,6 +10351,7 @@
   },
   {
    "namn": "Färgelanda",
+   "kod": "1439",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10277,6 +10422,7 @@
   },
   {
    "namn": "Ale",
+   "kod": "1440",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10339,6 +10485,7 @@
   },
   {
    "namn": "Lerum",
+   "kod": "1441",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10415,6 +10562,7 @@
   },
   {
    "namn": "Vårgårda",
+   "kod": "1442",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10467,6 +10615,7 @@
   },
   {
    "namn": "Bollebygd",
+   "kod": "1443",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10524,6 +10673,7 @@
   },
   {
    "namn": "Grästorp",
+   "kod": "1444",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10589,6 +10739,7 @@
   },
   {
    "namn": "Essunga",
+   "kod": "1445",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10654,6 +10805,7 @@
   },
   {
    "namn": "Karlsborg",
+   "kod": "1446",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10741,6 +10893,7 @@
   },
   {
    "namn": "Gullspång",
+   "kod": "1447",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10780,6 +10933,7 @@
   },
   {
    "namn": "Tranemo",
+   "kod": "1452",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10832,6 +10986,7 @@
   },
   {
    "namn": "Bengtsfors",
+   "kod": "1460",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10874,6 +11029,7 @@
   },
   {
    "namn": "Mellerud",
+   "kod": "1461",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -10944,6 +11100,7 @@
   },
   {
    "namn": "Lilla Edet",
+   "kod": "1462",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11001,6 +11158,7 @@
   },
   {
    "namn": "Mark",
+   "kod": "1463",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11071,6 +11229,7 @@
   },
   {
    "namn": "Svenljunga",
+   "kod": "1465",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11139,6 +11298,7 @@
   },
   {
    "namn": "Herrljunga",
+   "kod": "1466",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11190,6 +11350,7 @@
   },
   {
    "namn": "Vara",
+   "kod": "1470",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11250,6 +11411,7 @@
   },
   {
    "namn": "Götene",
+   "kod": "1471",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11300,6 +11462,7 @@
   },
   {
    "namn": "Tibro",
+   "kod": "1472",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11413,6 +11576,7 @@
   },
   {
    "namn": "Töreboda",
+   "kod": "1473",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11478,6 +11642,7 @@
   },
   {
    "namn": "Göteborg",
+   "kod": "1480",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11541,6 +11706,7 @@
   },
   {
    "namn": "Mölndal",
+   "kod": "1481",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11614,6 +11780,7 @@
   },
   {
    "namn": "Kungälv",
+   "kod": "1482",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11714,6 +11881,7 @@
   },
   {
    "namn": "Lysekil",
+   "kod": "1484",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11766,6 +11934,7 @@
   },
   {
    "namn": "Uddevalla",
+   "kod": "1485",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11852,6 +12021,7 @@
   },
   {
    "namn": "Strömstad",
+   "kod": "1486",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11915,6 +12085,7 @@
   },
   {
    "namn": "Vänersborg",
+   "kod": "1487",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -11971,6 +12142,7 @@
   },
   {
    "namn": "Trollhättan",
+   "kod": "1488",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12023,6 +12195,7 @@
   },
   {
    "namn": "Alingsås",
+   "kod": "1489",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12066,6 +12239,7 @@
   },
   {
    "namn": "Borås",
+   "kod": "1490",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12119,6 +12293,7 @@
   },
   {
    "namn": "Ulricehamn",
+   "kod": "1491",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12166,6 +12341,7 @@
   },
   {
    "namn": "Åmål",
+   "kod": "1492",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12231,6 +12407,7 @@
   },
   {
    "namn": "Mariestad",
+   "kod": "1493",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12281,6 +12458,7 @@
   },
   {
    "namn": "Lidköping",
+   "kod": "1494",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12353,6 +12531,7 @@
   },
   {
    "namn": "Skara",
+   "kod": "1495",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12427,6 +12606,7 @@
   },
   {
    "namn": "Skövde",
+   "kod": "1496",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12479,6 +12659,7 @@
   },
   {
    "namn": "Hjo",
+   "kod": "1497",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12576,6 +12757,7 @@
   },
   {
    "namn": "Tidaholm",
+   "kod": "1498",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12646,6 +12828,7 @@
   },
   {
    "namn": "Falköping",
+   "kod": "1499",
    "typ": "kommun",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -12706,6 +12889,7 @@
   },
   {
    "namn": "Kil",
+   "kod": "1715",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -12756,6 +12940,7 @@
   },
   {
    "namn": "Eda",
+   "kod": "1730",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -12848,6 +13033,7 @@
   },
   {
    "namn": "Torsby",
+   "kod": "1737",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -12932,6 +13118,7 @@
   },
   {
    "namn": "Storfors",
+   "kod": "1760",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -12984,6 +13171,7 @@
   },
   {
    "namn": "Hammarö",
+   "kod": "1761",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13085,6 +13273,7 @@
   },
   {
    "namn": "Munkfors",
+   "kod": "1762",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13144,6 +13333,7 @@
   },
   {
    "namn": "Forshaga",
+   "kod": "1763",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13220,6 +13410,7 @@
   },
   {
    "namn": "Grums",
+   "kod": "1764",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13287,6 +13478,7 @@
   },
   {
    "namn": "Årjäng",
+   "kod": "1765",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13357,6 +13549,7 @@
   },
   {
    "namn": "Sunne",
+   "kod": "1766",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13446,6 +13639,7 @@
   },
   {
    "namn": "Karlstad",
+   "kod": "1780",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13530,6 +13724,7 @@
   },
   {
    "namn": "Kristinehamn",
+   "kod": "1781",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13611,6 +13806,7 @@
   },
   {
    "namn": "Filipstad",
+   "kod": "1782",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13647,6 +13843,7 @@
   },
   {
    "namn": "Hagfors",
+   "kod": "1783",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13709,6 +13906,7 @@
   },
   {
    "namn": "Arvika",
+   "kod": "1784",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13769,6 +13967,7 @@
   },
   {
    "namn": "Säffle",
+   "kod": "1785",
    "typ": "kommun",
    "lan": "Värmlands län",
    "antal": 1,
@@ -13838,6 +14037,7 @@
   },
   {
    "namn": "Lekeberg",
+   "kod": "1814",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -13942,6 +14142,7 @@
   },
   {
    "namn": "Laxå",
+   "kod": "1860",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14053,6 +14254,7 @@
   },
   {
    "namn": "Hallsberg",
+   "kod": "1861",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14115,6 +14317,7 @@
   },
   {
    "namn": "Degerfors",
+   "kod": "1862",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14199,6 +14402,7 @@
   },
   {
    "namn": "Hällefors",
+   "kod": "1863",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14261,6 +14465,7 @@
   },
   {
    "namn": "Ljusnarsberg",
+   "kod": "1864",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14313,6 +14518,7 @@
   },
   {
    "namn": "Örebro",
+   "kod": "1880",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14370,6 +14576,7 @@
   },
   {
    "namn": "Kumla",
+   "kod": "1881",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14440,6 +14647,7 @@
   },
   {
    "namn": "Askersund",
+   "kod": "1882",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14515,6 +14723,7 @@
   },
   {
    "namn": "Karlskoga",
+   "kod": "1883",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14567,6 +14776,7 @@
   },
   {
    "namn": "Nora",
+   "kod": "1884",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14609,6 +14819,7 @@
   },
   {
    "namn": "Lindesberg",
+   "kod": "1885",
    "typ": "kommun",
    "lan": "Örebro län",
    "antal": 1,
@@ -14656,6 +14867,7 @@
   },
   {
    "namn": "Skinnskatteberg",
+   "kod": "1904",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -14753,6 +14965,7 @@
   },
   {
    "namn": "Surahammar",
+   "kod": "1907",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -14825,6 +15038,7 @@
   },
   {
    "namn": "Kungsör",
+   "kod": "1960",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -14887,6 +15101,7 @@
   },
   {
    "namn": "Hallstahammar",
+   "kod": "1961",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -14949,6 +15164,7 @@
   },
   {
    "namn": "Norberg",
+   "kod": "1962",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15042,6 +15258,7 @@
   },
   {
    "namn": "Västerås",
+   "kod": "1980",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15094,6 +15311,7 @@
   },
   {
    "namn": "Sala",
+   "kod": "1981",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15136,6 +15354,7 @@
   },
   {
    "namn": "Fagersta",
+   "kod": "1982",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15224,6 +15443,7 @@
   },
   {
    "namn": "Köping",
+   "kod": "1983",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15301,6 +15521,7 @@
   },
   {
    "namn": "Arboga",
+   "kod": "1984",
    "typ": "kommun",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -15372,6 +15593,7 @@
   },
   {
    "namn": "Vansbro",
+   "kod": "2021",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15437,6 +15659,7 @@
   },
   {
    "namn": "Malung-Sälen",
+   "kod": "2023",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15509,6 +15732,7 @@
   },
   {
    "namn": "Gagnef",
+   "kod": "2026",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15604,6 +15828,7 @@
   },
   {
    "namn": "Leksand",
+   "kod": "2029",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15666,6 +15891,7 @@
   },
   {
    "namn": "Rättvik",
+   "kod": "2031",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15718,6 +15944,7 @@
   },
   {
    "namn": "Orsa",
+   "kod": "2034",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15770,6 +15997,7 @@
   },
   {
    "namn": "Älvdalen",
+   "kod": "2039",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15827,6 +16055,7 @@
   },
   {
    "namn": "Smedjebacken",
+   "kod": "2061",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15889,6 +16118,7 @@
   },
   {
    "namn": "Mora",
+   "kod": "2062",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15951,6 +16181,7 @@
   },
   {
    "namn": "Falun",
+   "kod": "2080",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -15993,6 +16224,7 @@
   },
   {
    "namn": "Borlänge",
+   "kod": "2081",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -16084,6 +16316,7 @@
   },
   {
    "namn": "Säter",
+   "kod": "2082",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -16136,6 +16369,7 @@
   },
   {
    "namn": "Hedemora",
+   "kod": "2083",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -16188,6 +16422,7 @@
   },
   {
    "namn": "Avesta",
+   "kod": "2084",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -16291,6 +16526,7 @@
   },
   {
    "namn": "Ludvika",
+   "kod": "2085",
    "typ": "kommun",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -16373,6 +16609,7 @@
   },
   {
    "namn": "Ockelbo",
+   "kod": "2101",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16425,6 +16662,7 @@
   },
   {
    "namn": "Hofors",
+   "kod": "2104",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16487,6 +16725,7 @@
   },
   {
    "namn": "Ovanåker",
+   "kod": "2121",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16534,6 +16773,7 @@
   },
   {
    "namn": "Nordanstig",
+   "kod": "2132",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16606,6 +16846,7 @@
   },
   {
    "namn": "Ljusdal",
+   "kod": "2161",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16653,6 +16894,7 @@
   },
   {
    "namn": "Gävle",
+   "kod": "2180",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16689,6 +16931,7 @@
   },
   {
    "namn": "Sandviken",
+   "kod": "2181",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16752,6 +16995,7 @@
   },
   {
    "namn": "Söderhamn",
+   "kod": "2182",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16819,6 +17063,7 @@
   },
   {
    "namn": "Bollnäs",
+   "kod": "2183",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16866,6 +17111,7 @@
   },
   {
    "namn": "Hudiksvall",
+   "kod": "2184",
    "typ": "kommun",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -16928,6 +17174,7 @@
   },
   {
    "namn": "Ånge",
+   "kod": "2260",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -16994,6 +17241,7 @@
   },
   {
    "namn": "Timrå",
+   "kod": "2262",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17076,6 +17324,7 @@
   },
   {
    "namn": "Härnösand",
+   "kod": "2280",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17175,6 +17424,7 @@
   },
   {
    "namn": "Sundsvall",
+   "kod": "2281",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17211,6 +17461,7 @@
   },
   {
    "namn": "Kramfors",
+   "kod": "2282",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17273,6 +17524,7 @@
   },
   {
    "namn": "Sollefteå",
+   "kod": "2283",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17335,6 +17587,7 @@
   },
   {
    "namn": "Örnsköldsvik",
+   "kod": "2284",
    "typ": "kommun",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -17413,6 +17666,7 @@
   },
   {
    "namn": "Ragunda",
+   "kod": "2303",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17449,6 +17703,7 @@
   },
   {
    "namn": "Bräcke",
+   "kod": "2305",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17511,6 +17766,7 @@
   },
   {
    "namn": "Krokom",
+   "kod": "2309",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17573,6 +17829,7 @@
   },
   {
    "namn": "Strömsund",
+   "kod": "2313",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17653,6 +17910,7 @@
   },
   {
    "namn": "Åre",
+   "kod": "2321",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17705,6 +17963,7 @@
   },
   {
    "namn": "Berg",
+   "kod": "2326",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17790,6 +18049,7 @@
   },
   {
    "namn": "Härjedalen",
+   "kod": "2361",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17862,6 +18122,7 @@
   },
   {
    "namn": "Östersund",
+   "kod": "2380",
    "typ": "kommun",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -17924,6 +18185,7 @@
   },
   {
    "namn": "Nordmaling",
+   "kod": "2401",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -17979,6 +18241,7 @@
   },
   {
    "namn": "Bjurholm",
+   "kod": "2403",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18031,6 +18294,7 @@
   },
   {
    "namn": "Vindeln",
+   "kod": "2404",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18067,6 +18331,7 @@
   },
   {
    "namn": "Robertsfors",
+   "kod": "2409",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18109,6 +18374,7 @@
   },
   {
    "namn": "Norsjö",
+   "kod": "2417",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18232,6 +18498,7 @@
   },
   {
    "namn": "Malå",
+   "kod": "2418",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18311,6 +18578,7 @@
   },
   {
    "namn": "Storuman",
+   "kod": "2421",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18381,6 +18649,7 @@
   },
   {
    "namn": "Sorsele",
+   "kod": "2422",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18430,6 +18699,7 @@
   },
   {
    "namn": "Dorotea",
+   "kod": "2425",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18487,6 +18757,7 @@
   },
   {
    "namn": "Vännäs",
+   "kod": "2460",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18554,6 +18825,7 @@
   },
   {
    "namn": "Vilhelmina",
+   "kod": "2462",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18637,6 +18909,7 @@
   },
   {
    "namn": "Åsele",
+   "kod": "2463",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18694,6 +18967,7 @@
   },
   {
    "namn": "Umeå",
+   "kod": "2480",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18756,6 +19030,7 @@
   },
   {
    "namn": "Lycksele",
+   "kod": "2481",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18808,6 +19083,7 @@
   },
   {
    "namn": "Skellefteå",
+   "kod": "2482",
    "typ": "kommun",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -18906,6 +19182,7 @@
   },
   {
    "namn": "Arvidsjaur",
+   "kod": "2505",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -18956,6 +19233,7 @@
   },
   {
    "namn": "Arjeplog",
+   "kod": "2506",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19015,6 +19293,7 @@
   },
   {
    "namn": "Jokkmokk",
+   "kod": "2510",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19067,6 +19346,7 @@
   },
   {
    "namn": "Överkalix",
+   "kod": "2513",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19166,6 +19446,7 @@
   },
   {
    "namn": "Kalix",
+   "kod": "2514",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19299,6 +19580,7 @@
   },
   {
    "namn": "Övertorneå",
+   "kod": "2518",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19335,6 +19617,7 @@
   },
   {
    "namn": "Pajala",
+   "kod": "2521",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19424,6 +19707,7 @@
   },
   {
    "namn": "Gällivare",
+   "kod": "2523",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19460,6 +19744,7 @@
   },
   {
    "namn": "Älvsbyn",
+   "kod": "2560",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19499,6 +19784,7 @@
   },
   {
    "namn": "Luleå",
+   "kod": "2580",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19551,6 +19837,7 @@
   },
   {
    "namn": "Piteå",
+   "kod": "2581",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19633,6 +19920,7 @@
   },
   {
    "namn": "Boden",
+   "kod": "2582",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19722,6 +20010,7 @@
   },
   {
    "namn": "Haparanda",
+   "kod": "2583",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19787,6 +20076,7 @@
   },
   {
    "namn": "Kiruna",
+   "kod": "2584",
    "typ": "kommun",
    "lan": "Norrbottens län",
    "antal": 1,
@@ -19823,6 +20113,7 @@
   },
   {
    "namn": "Region Stockholm",
+   "kod": "01",
    "typ": "region",
    "lan": "Stockholms län",
    "antal": 1,
@@ -19862,6 +20153,7 @@
   },
   {
    "namn": "Region Uppsala",
+   "kod": "03",
    "typ": "region",
    "lan": "Uppsala län",
    "antal": 1,
@@ -19908,6 +20200,7 @@
   },
   {
    "namn": "Region Sörmland",
+   "kod": "04",
    "typ": "region",
    "lan": "Södermanlands län",
    "antal": 1,
@@ -19960,6 +20253,7 @@
   },
   {
    "namn": "Region Östergötland",
+   "kod": "05",
    "typ": "region",
    "lan": "Östergötlands län",
    "antal": 1,
@@ -20008,6 +20302,7 @@
   },
   {
    "namn": "Region Jönköpings län",
+   "kod": "06",
    "typ": "region",
    "lan": "Jönköpings län",
    "antal": 1,
@@ -20079,6 +20374,7 @@
   },
   {
    "namn": "Region Kronoberg",
+   "kod": "07",
    "typ": "region",
    "lan": "Kronobergs län",
    "antal": 1,
@@ -20164,6 +20460,7 @@
   },
   {
    "namn": "Region Kalmar län",
+   "kod": "08",
    "typ": "region",
    "lan": "Kalmar län",
    "antal": 1,
@@ -20207,6 +20504,7 @@
   },
   {
    "namn": "Region Blekinge",
+   "kod": "10",
    "typ": "region",
    "lan": "Blekinge län",
    "antal": 1,
@@ -20255,6 +20553,7 @@
   },
   {
    "namn": "Region Skåne",
+   "kod": "12",
    "typ": "region",
    "lan": "Skåne län",
    "antal": 1,
@@ -20291,6 +20590,7 @@
   },
   {
    "namn": "Region Halland",
+   "kod": "13",
    "typ": "region",
    "lan": "Hallands län",
    "antal": 1,
@@ -20338,6 +20638,7 @@
   },
   {
    "namn": "Västra Götalandsregionen",
+   "kod": "14",
    "typ": "region",
    "lan": "Västra Götalands län",
    "antal": 1,
@@ -20414,6 +20715,7 @@
   },
   {
    "namn": "Region Värmland",
+   "kod": "17",
    "typ": "region",
    "lan": "Värmlands län",
    "antal": 1,
@@ -20476,6 +20778,7 @@
   },
   {
    "namn": "Region Örebro län",
+   "kod": "18",
    "typ": "region",
    "lan": "Örebro län",
    "antal": 1,
@@ -20547,6 +20850,7 @@
   },
   {
    "namn": "Region Västmanland",
+   "kod": "19",
    "typ": "region",
    "lan": "Västmanlands län",
    "antal": 1,
@@ -20598,6 +20902,7 @@
   },
   {
    "namn": "Region Dalarna",
+   "kod": "20",
    "typ": "region",
    "lan": "Dalarnas län",
    "antal": 1,
@@ -20677,6 +20982,7 @@
   },
   {
    "namn": "Region Gävleborg",
+   "kod": "21",
    "typ": "region",
    "lan": "Gävleborgs län",
    "antal": 1,
@@ -20769,6 +21075,7 @@
   },
   {
    "namn": "Region Västernorrland",
+   "kod": "22",
    "typ": "region",
    "lan": "Västernorrlands län",
    "antal": 1,
@@ -20848,6 +21155,7 @@
   },
   {
    "namn": "Region Jämtland Härjedalen",
+   "kod": "23",
    "typ": "region",
    "lan": "Jämtlands län",
    "antal": 1,
@@ -20910,6 +21218,7 @@
   },
   {
    "namn": "Region Västerbotten",
+   "kod": "24",
    "typ": "region",
    "lan": "Västerbottens län",
    "antal": 1,
@@ -20967,6 +21276,7 @@
   },
   {
    "namn": "Region Norrbotten",
+   "kod": "25",
    "typ": "region",
    "lan": "Norrbottens län",
    "antal": 1,

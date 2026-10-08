@@ -41,6 +41,7 @@
  "organisationer": [
   {
    "namn": "Kammarkollegiet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 6,
@@ -91,6 +92,7 @@
   },
   {
    "namn": "Allmänna reklamationsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -165,6 +167,7 @@
   },
   {
    "namn": "Statens jordbruksverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 3,
@@ -204,6 +207,7 @@
   },
   {
    "namn": "Arbetsförmedlingen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -271,6 +275,7 @@
   },
   {
    "namn": "Arbetsgivarverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -345,6 +350,7 @@
   },
   {
    "namn": "Arbetsmiljöverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -397,6 +403,7 @@
   },
   {
    "namn": "Arvfondsdelegationen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -457,6 +464,7 @@
   },
   {
    "namn": "Barnombudsmannen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -528,6 +536,7 @@
   },
   {
    "namn": "Blekinge tekniska högskola",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -625,6 +634,7 @@
   },
   {
    "namn": "Bokföringsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -705,6 +715,7 @@
   },
   {
    "namn": "Bolagsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -741,6 +752,7 @@
   },
   {
    "namn": "Boverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -799,6 +811,7 @@
   },
   {
    "namn": "Brottsförebyggande rådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -854,6 +867,7 @@
   },
   {
    "namn": "Brottsoffermyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -929,6 +943,7 @@
   },
   {
    "namn": "Centrala studiestödsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -981,6 +996,7 @@
   },
   {
    "namn": "Diskrimineringsombudsmannen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1033,6 +1049,7 @@
   },
   {
    "namn": "dom.se (delas av 7 myndigheter)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 7,
@@ -1070,6 +1087,7 @@
   },
   {
    "namn": "E-hälsomyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1150,6 +1168,7 @@
   },
   {
    "namn": "Ekobrottsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1218,6 +1237,7 @@
   },
   {
    "namn": "Elsäkerhetsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1314,6 +1334,7 @@
   },
   {
    "namn": "Energimarknadsinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1381,6 +1402,7 @@
   },
   {
    "namn": "Etikprövningsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1456,6 +1478,7 @@
   },
   {
    "namn": "Exportkreditnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1509,6 +1532,7 @@
   },
   {
    "namn": "Fastighetsmäklarinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1551,6 +1575,7 @@
   },
   {
    "namn": "Finansinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1628,6 +1653,7 @@
   },
   {
    "namn": "Finanspolitiska rådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1681,6 +1707,7 @@
   },
   {
    "namn": "Folke bernadotteakademin",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1740,6 +1767,7 @@
   },
   {
    "namn": "Folkhälsomyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1810,6 +1838,7 @@
   },
   {
    "namn": "Fondtorgsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1853,6 +1882,7 @@
   },
   {
    "namn": "Forskarskattenämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1891,6 +1921,7 @@
   },
   {
    "namn": "Forskningsrådet f miljö, areella näringar och samhällsbyggande",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -1968,6 +1999,7 @@
   },
   {
    "namn": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2031,6 +2063,7 @@
   },
   {
    "namn": "Fortifikationsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2068,6 +2101,7 @@
   },
   {
    "namn": "Forum för levande historia",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2120,6 +2154,7 @@
   },
   {
    "namn": "Försvarets materielverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2200,6 +2235,7 @@
   },
   {
    "namn": "Försvarets radioanstalt",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2237,6 +2273,7 @@
   },
   {
    "namn": "Försvarshögskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2273,6 +2310,7 @@
   },
   {
    "namn": "Försvarsmakten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2345,6 +2383,7 @@
   },
   {
    "namn": "Försäkringskassan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2382,6 +2421,7 @@
   },
   {
    "namn": "Gentekniknämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2453,6 +2493,7 @@
   },
   {
    "namn": "Gymnastik- och idrottshögskolan (GIH)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2515,6 +2556,7 @@
   },
   {
    "namn": "Göteborgs universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2597,6 +2639,7 @@
   },
   {
    "namn": "Harpsundsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2650,6 +2693,7 @@
   },
   {
    "namn": "Havs- och vattenmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2689,6 +2733,7 @@
   },
   {
    "namn": "Socialstyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 2,
@@ -2737,6 +2782,7 @@
   },
   {
    "namn": "Högskolan dalarna",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2805,6 +2851,7 @@
   },
   {
    "namn": "Högskolan i borås",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2870,6 +2917,7 @@
   },
   {
    "namn": "Högskolan i gävle",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -2937,6 +2985,7 @@
   },
   {
    "namn": "Högskolan i halmstad",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3031,6 +3080,7 @@
   },
   {
    "namn": "Högskolan i skövde",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3073,6 +3123,7 @@
   },
   {
    "namn": "Högskolan kristianstad",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3138,6 +3189,7 @@
   },
   {
    "namn": "Högskolan väst",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3219,6 +3271,7 @@
   },
   {
    "namn": "Högskolans avskiljandenämnd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3290,6 +3343,7 @@
   },
   {
    "namn": "regeringskansliet.se (delas av 3 myndigheter)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 3,
@@ -3368,6 +3422,7 @@
   },
   {
    "namn": "Inspektionen för arbetslöshetsförsäkring",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3430,6 +3485,7 @@
   },
   {
    "namn": "Inspektionen för socialförsäkringen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3492,6 +3548,7 @@
   },
   {
    "namn": "Inspektionen för strategiska produkter",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3539,6 +3596,7 @@
   },
   {
    "namn": "Inspektionen för vård och omsorg",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3618,6 +3676,7 @@
   },
   {
    "namn": "Institutet för arbetsmarknads-och utbildningspolitisk utvärdering",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3678,6 +3737,7 @@
   },
   {
    "namn": "Institutet för mänskliga rättigheter",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3730,6 +3790,7 @@
   },
   {
    "namn": "Institutet för rymdfysik",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3768,6 +3829,7 @@
   },
   {
    "namn": "Institutet för språk och folkminnen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3818,6 +3880,7 @@
   },
   {
    "namn": "Integritetsskyddsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3861,6 +3924,7 @@
   },
   {
    "namn": "Justitiekanslern",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3900,6 +3964,7 @@
   },
   {
    "namn": "Jämställdhetsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -3966,6 +4031,7 @@
   },
   {
    "namn": "Karlstads universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4002,6 +4068,7 @@
   },
   {
    "namn": "Karolinska institutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4061,6 +4128,7 @@
   },
   {
    "namn": "Kemikalieinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4123,6 +4191,7 @@
   },
   {
    "namn": "Klimatpolitiska rådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4195,6 +4264,7 @@
   },
   {
    "namn": "Kommerskollegium",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4241,6 +4311,7 @@
   },
   {
    "namn": "Konjunkturinstitutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4314,6 +4385,7 @@
   },
   {
    "namn": "Konkurrensverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4350,6 +4422,7 @@
   },
   {
    "namn": "Konstfack",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4392,6 +4465,7 @@
   },
   {
    "namn": "Konstnärsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4428,6 +4502,7 @@
   },
   {
    "namn": "Konsumentverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4487,6 +4562,7 @@
   },
   {
    "namn": "Kriminalvården",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4538,6 +4614,7 @@
   },
   {
    "namn": "Kronofogdemyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4592,6 +4669,7 @@
   },
   {
    "namn": "Kungliga biblioteket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4644,6 +4722,7 @@
   },
   {
    "namn": "Kungliga konsthögskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4690,6 +4769,7 @@
   },
   {
    "namn": "Kungliga musikhögskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4756,6 +4836,7 @@
   },
   {
    "namn": "Kungliga tekniska högskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4795,6 +4876,7 @@
   },
   {
    "namn": "Kustbevakningen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4854,6 +4936,7 @@
   },
   {
    "namn": "Lantmäteriet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4892,6 +4975,7 @@
   },
   {
    "namn": "Linköpings universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -4928,6 +5012,7 @@
   },
   {
    "namn": "Linnéuniversitetet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5021,6 +5106,7 @@
   },
   {
    "namn": "Livsmedelsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5091,6 +5177,7 @@
   },
   {
    "namn": "Luleå tekniska universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5158,6 +5245,7 @@
   },
   {
    "namn": "Lunds universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5215,6 +5303,7 @@
   },
   {
    "namn": "Läkemedelsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5293,6 +5382,7 @@
   },
   {
    "namn": "lansstyrelsen.se (delas av 21 myndigheter)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 21,
@@ -5350,6 +5440,7 @@
   },
   {
    "namn": "Malmö universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5447,6 +5538,7 @@
   },
   {
    "namn": "Mediemyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5507,6 +5599,7 @@
   },
   {
    "namn": "Medlingsinstitutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5549,6 +5642,7 @@
   },
   {
    "namn": "Migrationsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5601,6 +5695,7 @@
   },
   {
    "namn": "Mittuniversitetet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5749,6 +5844,7 @@
   },
   {
    "namn": "Moderna museet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5816,6 +5912,7 @@
   },
   {
    "namn": "Myndigheten för civilt försvar",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5864,6 +5961,7 @@
   },
   {
    "namn": "Myndigheten för delaktighet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -5965,6 +6063,7 @@
   },
   {
    "namn": "Myndigheten för digital förvaltning",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6001,6 +6100,7 @@
   },
   {
    "namn": "Myndigheten för familjerätt och föräldraskapsstöd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6048,6 +6148,7 @@
   },
   {
    "namn": "Myndigheten för kulturanalys",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6107,6 +6208,7 @@
   },
   {
    "namn": "Myndigheten för psykologiskt försvar",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6165,6 +6267,7 @@
   },
   {
    "namn": "Myndigheten för säkerhet och integritetsskydd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6223,6 +6326,7 @@
   },
   {
    "namn": "Myndigheten för tillgängliga medier",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6265,6 +6369,7 @@
   },
   {
    "namn": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6317,6 +6422,7 @@
   },
   {
    "namn": "Myndigheten för totalförsvarsanalys",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6354,6 +6460,7 @@
   },
   {
    "namn": "Myndigheten för ungdoms-och civilsamhällesfrågor",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6393,6 +6500,7 @@
   },
   {
    "namn": "Myndigheten för vård- och omsorgsanalys",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6452,6 +6560,7 @@
   },
   {
    "namn": "Myndigheten för yrkeshögskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6503,6 +6612,7 @@
   },
   {
    "namn": "Mälardalens universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6580,6 +6690,7 @@
   },
   {
    "namn": "Nationalmuseum",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6666,6 +6777,7 @@
   },
   {
    "namn": "Naturhistoriska riksmuseet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6716,6 +6828,7 @@
   },
   {
    "namn": "Naturvårdsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6811,6 +6924,7 @@
   },
   {
    "namn": "Nordiska afrikainstitutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6871,6 +6985,7 @@
   },
   {
    "namn": "Nämnden för hemslöjdsfrågor",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -6975,6 +7090,7 @@
   },
   {
    "namn": "Nämnden för prövning av oredlighet i forskning",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7014,6 +7130,7 @@
   },
   {
    "namn": "Nämnden mot Diskriminering",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7068,6 +7185,7 @@
   },
   {
    "namn": "Oljekrisnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7102,6 +7220,7 @@
   },
   {
    "namn": "Patent- och registreringsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7176,6 +7295,7 @@
   },
   {
    "namn": "Patentombudsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7212,6 +7332,7 @@
   },
   {
    "namn": "Pensionsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7249,6 +7370,7 @@
   },
   {
    "namn": "Polarforskningssekretariatet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7364,6 +7486,7 @@
   },
   {
    "namn": "Polismyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7401,6 +7524,7 @@
   },
   {
    "namn": "Post- och telestyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7437,6 +7561,7 @@
   },
   {
    "namn": "Revisorsinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7496,6 +7621,7 @@
   },
   {
    "namn": "Riksantikvarieämbetet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7561,6 +7687,7 @@
   },
   {
    "namn": "Riksarkivet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7597,6 +7724,7 @@
   },
   {
    "namn": "Riksgäldskontoret",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7650,6 +7778,7 @@
   },
   {
    "namn": "Rymdstyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7711,6 +7840,7 @@
   },
   {
    "namn": "Rättsmedicinalverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7797,6 +7927,7 @@
   },
   {
    "namn": "Sameskolstyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7854,6 +7985,7 @@
   },
   {
    "namn": "Sametinget",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 2,
@@ -7892,6 +8024,7 @@
   },
   {
    "namn": "Sida",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -7969,6 +8102,7 @@
   },
   {
    "namn": "Skatterättsnämnden",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8007,6 +8141,7 @@
   },
   {
    "namn": "Skatteverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8045,6 +8180,7 @@
   },
   {
    "namn": "Skogsstyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8106,6 +8242,7 @@
   },
   {
    "namn": "Skolforskningsinstitutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8163,6 +8300,7 @@
   },
   {
    "namn": "Skolväsendets överklagandenämnd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8226,6 +8364,7 @@
   },
   {
    "namn": "Specialpedagogiska skolmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8292,6 +8431,7 @@
   },
   {
    "namn": "Spelinspektionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8347,6 +8487,7 @@
   },
   {
    "namn": "Statens beredning för medicinsk och social utvärdering",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8464,6 +8605,7 @@
   },
   {
    "namn": "Statens energimyndighet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8533,6 +8675,7 @@
   },
   {
    "namn": "Statens fastighetsverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8585,6 +8728,7 @@
   },
   {
    "namn": "Statens geotekniska institut",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8655,6 +8799,7 @@
   },
   {
    "namn": "Statens haverikommission",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8702,6 +8847,7 @@
   },
   {
    "namn": "Statens historiska museer",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8788,6 +8934,7 @@
   },
   {
    "namn": "Statens inspektion för försvarsunderrättelseverksamheten (SIUN)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8824,6 +8971,7 @@
   },
   {
    "namn": "Statens institutionsstyrelse",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -8916,6 +9064,7 @@
   },
   {
    "namn": "Statens kulturråd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9022,6 +9171,7 @@
   },
   {
    "namn": "Statens museer för maritim, transport- och försvarshistoria",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9102,6 +9252,7 @@
   },
   {
    "namn": "Statens museer för världskultur",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9249,6 +9400,7 @@
   },
   {
    "namn": "Statens musikverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9314,6 +9466,7 @@
   },
   {
    "namn": "Statens servicecenter",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9350,6 +9503,7 @@
   },
   {
    "namn": "Statens skolinspektion",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9408,6 +9562,7 @@
   },
   {
    "namn": "Statens skolverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9445,6 +9600,7 @@
   },
   {
    "namn": "Statens tjänstepensions- och grupplivnämnd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 2,
@@ -9481,6 +9637,7 @@
   },
   {
    "namn": "Statens veterinärmedicinska anstalt",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9564,6 +9721,7 @@
   },
   {
    "namn": "Statens väg- och transportforskningsinstitut",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9611,6 +9769,7 @@
   },
   {
    "namn": "Statistiska centralbyrån",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9654,6 +9813,7 @@
   },
   {
    "namn": "Statskontoret",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9690,6 +9850,7 @@
   },
   {
    "namn": "Stockholms konstnärliga högskola",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9742,6 +9903,7 @@
   },
   {
    "namn": "Stockholms universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9835,6 +9997,7 @@
   },
   {
    "namn": "Strålsäkerhetsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -9956,6 +10119,7 @@
   },
   {
    "namn": "Styrelsen för ackreditering och teknisk kontroll",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10015,6 +10179,7 @@
   },
   {
    "namn": "Svenska esf-rådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10088,6 +10253,7 @@
   },
   {
    "namn": "Svenska institutet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10146,6 +10312,7 @@
   },
   {
    "namn": "Svenska institutet för europapolitiska studier",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10226,6 +10393,7 @@
   },
   {
    "namn": "Sveriges författarfond",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10262,6 +10430,7 @@
   },
   {
    "namn": "Sveriges geologiska undersökning",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10335,6 +10504,7 @@
   },
   {
    "namn": "Sveriges lantbruksuniversitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10387,6 +10557,7 @@
   },
   {
    "namn": "Sveriges meteorologiska och hydrologiska institut",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10443,6 +10614,7 @@
   },
   {
    "namn": "Säkerhetspolisen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10479,6 +10651,7 @@
   },
   {
    "namn": "Södertörns högskola",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10536,6 +10709,7 @@
   },
   {
    "namn": "Tandvårds-och läkemedelsförmånsverket, TLV",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10596,6 +10770,7 @@
   },
   {
    "namn": "Tillväxtverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10657,6 +10832,7 @@
   },
   {
    "namn": "Totalförsvarets forskningsinstitut, foi",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10693,6 +10869,7 @@
   },
   {
    "namn": "Totalförsvarets plikt- och prövningsverk",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10741,6 +10918,7 @@
   },
   {
    "namn": "Trafikanalys",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10827,6 +11005,7 @@
   },
   {
    "namn": "Trafikverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10864,6 +11043,7 @@
   },
   {
    "namn": "Transportstyrelsen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10922,6 +11102,7 @@
   },
   {
    "namn": "Tullverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -10959,6 +11140,7 @@
   },
   {
    "namn": "Umeå universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11001,6 +11183,7 @@
   },
   {
    "namn": "Universitets- och högskolerådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11054,6 +11237,7 @@
   },
   {
    "namn": "Universitetskanslersämbetet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11112,6 +11296,7 @@
   },
   {
    "namn": "Upphandlingsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11178,6 +11363,7 @@
   },
   {
    "namn": "Uppsala universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11243,6 +11429,7 @@
   },
   {
    "namn": "Utbetalningsmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11292,6 +11479,7 @@
   },
   {
    "namn": "Valmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11336,6 +11524,7 @@
   },
   {
    "namn": "Verket för innovationssystem",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11407,6 +11596,7 @@
   },
   {
    "namn": "Vetenskapsrådet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11453,6 +11643,7 @@
   },
   {
    "namn": "Åklagarmyndigheten",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11506,6 +11697,7 @@
   },
   {
    "namn": "Örebro universitet",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11542,6 +11734,7 @@
   },
   {
    "namn": "Överklagandenämnden för etikprövning",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11588,6 +11781,7 @@
   },
   {
    "namn": "Överklagandenämnden för högskolan",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11659,6 +11853,7 @@
   },
   {
    "namn": "Överklagandenämnden för studiestöd",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11695,6 +11890,7 @@
   },
   {
    "namn": "riksdagen.se (delas av 2 myndigheter)",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 2,
@@ -11733,6 +11929,7 @@
   },
   {
    "namn": "Riksdagens ombudsmän",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11770,6 +11967,7 @@
   },
   {
    "namn": "Riksrevisionen",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11827,6 +12025,7 @@
   },
   {
    "namn": "Sveriges riksbank",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11894,6 +12093,7 @@
   },
   {
    "namn": "Luftfartsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -11956,6 +12156,7 @@
   },
   {
    "namn": "Sjöfartsverket",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,
@@ -12026,6 +12227,7 @@
   },
   {
    "namn": "Svenska kraftnät",
+   "kod": null,
    "typ": "myndighet",
    "lan": "",
    "antal": 1,

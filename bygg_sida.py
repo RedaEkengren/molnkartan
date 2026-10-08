@@ -67,6 +67,7 @@ def bygg(grupp):
         s = signaler(o)
         organisationer.append({
             "namn": o["namn"],
+            "kod": o.get("kod"),
             "typ": o["typ"],
             "lan": o.get("lan", ""),
             "antal": int(o.get("antal") or 1),

@@ -19,20 +19,34 @@ const EXEMPEL = [
 
 const LEVERANTOR = { MS: "Microsoft", G: "Google" };
 
-function startaDemo(org, { etikett, farg }) {
+function startaDemo(org, { etikett, farg, karta }) {
   const term = document.getElementById("term"), sig = document.getElementById("sig");
   const utslag = document.getElementById("utslag"), namnEl = document.getElementById("demoNamn");
   const prickar = document.getElementById("prickar");
   const lugn = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // En prick per organisation, i länsordning, som fylls i när den mätts.
+  // Varje organisation får en yta som fylls i när den mätts: kommunen på minikartan
+  // när kartan finns, annars en prick. Regionerna har ingen yta på kartan.
   const ordning = [...org].sort((a, b) => a.lan.localeCompare(b.lan, "sv") || a.namn.localeCompare(b.namn, "sv"));
-  const prick = new Map(ordning.map(o => {
-    const i = document.createElement("i");
-    i.title = `${o.namn}: ${etikett[o.epost]}`;
-    prickar.append(i);
-    return [o, i];
-  }));
+  let prick;
+  if (karta) {
+    const yta = term.closest(".demo-yta"), svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "karta minikarta");
+    svg.setAttribute("aria-hidden", "true");
+    yta.append(svg);
+    yta.classList.add("med-karta");
+    prickar.remove();
+    const ytor = ritaKarta(svg, karta, { lanGranser: false });
+    prick = new Map(ordning.filter(o => ytor.has(o.kod)).map(o => [o, ytor.get(o.kod)]));
+  } else {
+    prick = new Map(ordning.map(o => {
+      const i = document.createElement("i");
+      i.title = `${o.namn}: ${etikett[o.epost]}`;
+      prickar.append(i);
+      return [o, i];
+    }));
+  }
+  const fyll = (el, f) => { if (el) el.style[el instanceof SVGElement ? "fill" : "background"] = f; };
 
   let synlig = true;
   new IntersectionObserver(([e]) => { synlig = e.isIntersecting; }).observe(term);
@@ -140,10 +154,10 @@ function startaDemo(org, { etikett, farg }) {
     );
     utslag.classList.add("syns");
     const p = prick.get(o);
-    p.style.background = farg[o.epost];
-    p.classList.add("ny");
+    fyll(p, farg[o.epost]);
+    p?.classList.add("ny");
     await vanta(2600);
-    p.classList.remove("ny");
+    p?.classList.remove("ny");
   }
 
   async function fyllResten(gjorda) {
@@ -151,7 +165,7 @@ function startaDemo(org, { etikett, farg }) {
     const kvar = ordning.filter(o => !gjorda.has(o));
     const steg = Math.max(1, Math.ceil(kvar.length / 60));
     for (let i = 0; i < kvar.length; i += steg) {
-      for (const o of kvar.slice(i, i + steg)) prick.get(o).style.background = farg[o.epost];
+      for (const o of kvar.slice(i, i + steg)) fyll(prick.get(o), farg[o.epost]);
       await vanta(30);
     }
   }
@@ -159,7 +173,7 @@ function startaDemo(org, { etikett, farg }) {
   const slump = lista => lista[Math.floor(Math.random() * lista.length)];
   (async function spela() {
     for (;;) {
-      prick.forEach(i => { i.style.background = ""; });
+      prick.forEach(el => fyll(el, ""));
       const gjorda = new Set();
       for (const ex of EXEMPEL) {
         const kandidater = org.filter(ex.passar);
