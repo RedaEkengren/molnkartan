@@ -1,11 +1,11 @@
 :root {
   --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
-  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --varning: #fff6e0; --varning-kant: #e8c66a;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --tagg-text: #ffffff; --tom-yta: #e4e3de; --varning: #fff6e0; --varning-kant: #e8c66a;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
-    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --varning: #2b2516; --varning-kant: #7a6426;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --varning: #2b2516; --varning-kant: #7a6426;
   }
 }
 * { box-sizing: border-box; }
@@ -37,7 +37,7 @@ table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
 th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--linje); white-space: nowrap; }
 th { font-weight: 600; color: var(--dampad); position: sticky; top: 0; background: var(--yta); }
 tr:last-child td { border-bottom: 0; }
-.tagg { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.82rem; color: #fff; }
+.tagg { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.82rem; color: var(--tagg-text); }
 code { font-size: 0.88em; }
 .demo { background: var(--yta); border: 1px solid var(--linje); border-radius: 14px; padding: 18px; margin: 0 0 24px; }
 .demo-huvud { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 0.92rem; color: var(--dampad); margin-bottom: 12px; }
@@ -62,7 +62,7 @@ code { font-size: 0.88em; }
 .utslag.syns { opacity: 1; transform: none; }
 .utslag .tagg { font-size: 0.95rem; padding: 4px 12px; }
 .prickar { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 14px; }
-.prickar i { width: 9px; height: 9px; border-radius: 2px; background: var(--linje); transition: background-color .25s; }
+.prickar i { width: 9px; height: 9px; border-radius: 2px; background: var(--tom-yta); transition: background-color .25s; }
 .prickar i.ny { outline: 2px solid var(--text); outline-offset: 1px; }
 .forklaring { color: var(--dampad); }
 .topplista { padding-left: 22px; columns: 2 260px; font-size: 0.95rem; }
@@ -145,5 +145,5 @@ main { padding-top: 20px; }
 @media (max-width: 900px) { .demo-yta.med-karta { grid-template-columns: 1fr 1fr; } .demo-yta.med-karta .minikarta { grid-column: 1 / -1; max-height: 260px; } }
 @media (max-width: 720px) { .demo-yta.med-karta { grid-template-columns: 1fr; } }
 .minikarta { width: 100%; max-height: 290px; }
-.minikarta path { fill: var(--linje); cursor: default; }
+.minikarta path { fill: var(--tom-yta); cursor: default; }
 .minikarta path.ny { stroke: var(--text); stroke-width: 2.5; }
