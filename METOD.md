@@ -358,3 +358,60 @@ inte "nej". Två orsaker hittades vid kontroll av enskilda domäner:
    anrop och ett nytt försök vid tomt svar.
 
 Kravet (≥95 %) ändras inte.
+
+---
+
+# Mätning 4: Var tjänsterna körs (issue #3)
+
+Skriven 2026-10-08, före all mätning.
+
+## Fråga
+
+Hur stor del av en organisations publika tjänster (e-tjänster, bokning,
+intranät och liknande på underdomäner) körs på amerikanska nät?
+
+## Hur
+
+- **Namn:** certifikatloggar via crt.sh (`%.<domän>`, utgångna certifikat
+  exkluderade). Unika namn under organisationens e-postdomän, utan jokertecken.
+- **Aktiva:** namn som har en A-post vid mätningen. Övriga räknas inte.
+- **Nät:** första IPv4 → ASN via Team Cymru, med samma regler som mätning 2
+  version 3 (US-nät, EU/EES-nät, annat, okänt).
+- **Plattform:** om namnet har en CNAME räknas målets suffix för ett fåtal
+  kända plattformar (t.ex. `sharepoint.com`, `azurewebsites.net`,
+  `cloudapp.azure.com`, `amazonaws.com`, `cloudfront.net`).
+
+## Gräns
+
+**Inga värdnamn sparas och inga publiceras**, inte heller i rådatan. Per
+organisation sparas bara antal: aktiva namn, antal per nättyp och antal per
+plattformssuffix. Värdnamnen finns bara i minnet under körningen.
+`tests/test_hygien.py` utökas så att CI fallerar om en `cert-`-fil innehåller
+något värdnamn under en organisations domän.
+
+## Mått och kriterier
+
+- Per organisation: andel aktiva namn på US-nät.
+- Krav: minst 90 % av organisationerna får svar från crt.sh (upp till fyra
+  försök), och minst 95 % av aktiva namn får ASN och land.
+
+## Falsifiering (T6)
+
+20 slumpvis valda organisationer (frö 20261008) mäts också med Certspotter
+(SSLMate) i stället för crt.sh, med samma uppslag i övrigt. Krav: andelen på
+US-nät skiljer högst 15 procentenheter för minst 16 av 20.
+
+## Vad det här inte visar
+
+Bara tjänster med eget certifikat under organisationens domän syns. Tjänster
+på leverantörens domän (t.ex. `kommun.leverantor.se`) eller utan certifikat
+syns inte. Andelen gäller namn, inte hur mycket varje tjänst används.
+
+### Tillägg — 2026-10-08, före all mätning 4-data
+
+crt.sh svarade 502 på 15 av 15 försök (fem domäner, tre försök var) vid
+provkörningen. Källordningen blir därför: crt.sh, och vid fel Certspotter
+(SSLMate, `include_subdomains`, alla sidor). Källan sparas per organisation.
+Certspotter tillåter 100 anrop i timmen utan konto, så körningen hålls under
+den takten. T6 jämför fortfarande de två källorna på 20 slumpvis valda och
+visar därmed om de går att blanda.

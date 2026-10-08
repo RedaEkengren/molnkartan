@@ -18,5 +18,29 @@ class IngaLokalaSokvagar(unittest.TestCase):
         self.assertEqual(traffar, [], f"lokala sökvägar i {traffar}")
 
 
+class IngaVardnamnICertdata(unittest.TestCase):
+    """Gränsen i METOD.md, mätning 4: certifikatdata får bara innehålla antal, aldrig värdnamn."""
+
+    def test_inga_underdomaner(self):
+        import json
+
+        def strangar(x):
+            if isinstance(x, dict):
+                for k, v in x.items():
+                    yield k
+                    yield from strangar(v)
+            elif isinstance(x, list):
+                for v in x:
+                    yield from strangar(v)
+            elif isinstance(x, str):
+                yield x
+
+        for fil in sorted(ROT.glob("data/cert-*.json")):
+            d = json.loads(fil.read_text(encoding="utf-8"))
+            domaner = {o["domän"] for o in d["organisationer"]}
+            lackor = [s for s in strangar(d) if any(s.endswith("." + dom) for dom in domaner)]
+            self.assertEqual(lackor[:5], [], f"värdnamn i {fil.name}")
+
+
 if __name__ == "__main__":
     unittest.main()
