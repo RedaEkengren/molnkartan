@@ -5,7 +5,7 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 
 | | Antal av 310 |
 |---|---|
-| E-post syns gå via Microsofts moln | 245 (79 %) |
+| E-post syns gå via Microsofts moln | 248 (80 %) |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
 

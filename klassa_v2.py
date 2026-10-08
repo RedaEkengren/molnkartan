@@ -17,7 +17,8 @@ def signaler(o):
         "S1": lev_mx(o["mx"]),
         "S2": "MS" if "spf.protection.outlook.com" in spf else "G" if "_spf.google.com" in spf else "-",
         "S4": "MS" if har(o["autodiscover_cname"], "autodiscover.outlook.com") else "-",
-        "S7": "MS" if har(o["dkim_selector1_cname"], ".onmicrosoft.com")
+        # .dkim.mail.microsoft: Microsofts nyare DKIM-format, se rättelsen i METOD.md.
+        "S7": "MS" if har(o["dkim_selector1_cname"], ".onmicrosoft.com") or har(o["dkim_selector1_cname"], ".dkim.mail.microsoft")
         else "G" if any(t.startswith("v=DKIM1") for t in o["dkim_google_txt"]) else "-",
         "S8": "MS" if har(o["enterpriseregistration_cname"], "enterpriseregistration.windows.net")
         or har(o["lyncdiscover_cname"], "webdir.online.lync.com") else "-",

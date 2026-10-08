@@ -110,3 +110,24 @@ redovisas men räknas inte.
   Region Skåne hamnade i "okänd" i v2.
 - **Inget godkänt/underkänt-kriterium.** Metoden validerades på Skåne. Den här
   körningen är beskrivande, och andelen "okänd" redovisas per län.
+
+---
+
+## Rättelse — 2026-10-08, efter den nationella körningen
+
+**Vad:** S7 (DKIM) räknar nu även CNAME som slutar på `.dkim.mail.microsoft`
+som Microsoft, utöver `*.onmicrosoft.com`.
+
+**Skäl:** Microsoft har infört ett nytt format för DKIM-poster
+(`selector1-<domän>._domainkey.<tenant>.<x>-v1.dkim.mail.microsoft`). Regeln
+skrevs bara för det äldre formatet. Felet upptäcktes när webbsidans animation
+visade Åtvidabergs DKIM-svar, som tydligt pekar på Microsoft, med signalen
+"inget".
+
+**Effekt:** 14 organisationer har det nya formatet. Tre byter klass, från
+okänd till Microsoft: Gotland, Sjöbo och Bromölla. Fem som klassas som Google
+(MX hos Google) signerar sin e-post via Microsoft, vilket redovisas som
+iakttagelse men inte ändrar klassen, eftersom S1 avgör först.
+
+Siffrorna före rättelsen står kvar i `RESULTAT-sverige.md`. Rådatan är
+oförändrad; bara klassningen körs om.

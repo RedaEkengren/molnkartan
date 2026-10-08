@@ -18,6 +18,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -36,6 +47,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx.vallentuna.se",
+     "vallentuna-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -54,6 +74,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "osteraker-se.mx1.staysecuregroup.com",
+     "osteraker-se.mx2.staysecuregroup.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -72,6 +101,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "varmdo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-varmdo-se._domainkey.vkadm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -90,6 +127,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -108,6 +156,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ekero-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-ekero-se._domainkey.ekero.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -126,6 +182,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "huddinge-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-huddinge-se._domainkey.huddinge.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -144,6 +208,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "botkyrka-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-botkyrka-se._domainkey.botkyrka.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -162,6 +234,18 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "ASPMX.L.GOOGLE.COM",
+     "ALT1.ASPMX.L.GOOGLE.COM",
+     "ALT2.ASPMX.L.GOOGLE.COM",
+     "ASPMX2.GOOGLEMAIL.COM",
+     "ASPMX3.GOOGLEMAIL.COM"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -180,6 +264,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "haninge-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-haninge-se._domainkey.haninge.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -198,6 +290,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mail.tyreso.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -216,6 +316,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "upplandsbro-se02b.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-upplandsbro-se02b._domainkey.upplandsbro.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -234,6 +342,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nykvarn-se._domainkey.nykvarnse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -252,6 +371,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "taby-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-taby-se._domainkey.tabykommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -270,6 +397,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "danderyd-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-danderyd-se._domainkey.danderyd365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -288,6 +423,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sollentuna-se._domainkey.sollentuna.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -306,6 +452,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "uxantispam001.stockholm.se",
+     "uxantispam002.stockholm.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -322,8 +477,16 @@
     "S1": "MS",
     "S2": "MS",
     "S4": "MS",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "sodertalje-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sodertalje-se._domainkey.telge.a-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -342,6 +505,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "nacka-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nacka-se._domainkey.nacka.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -360,6 +531,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "sundbyberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sundbyberg-se._domainkey.sundbybergsstad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -378,6 +557,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "solna-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-solna-se._domainkey.solna.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -396,6 +583,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lidingo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lidingo-se._domainkey.LIDINGO.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -412,8 +607,16 @@
     "S1": "MS",
     "S2": "MS",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vaxholm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vaxholm-se._domainkey.vaxholm2.a-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -432,6 +635,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "norrtalje-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-norrtalje-se._domainkey.EDUNorrtalje.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -450,6 +661,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "01mailin.sigtuna.se",
+     "02mailin.sigtuna.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -468,6 +688,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "nynashamn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nynashamn-se._domainkey.nynashamn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -486,6 +714,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "habo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-habo-se._domainkey.admhabo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -504,6 +740,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.itcentrum.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-alvkarleby-se._domainkey.tierp.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -522,6 +766,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.itcentrum.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-knivsta-se._domainkey.clanit.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -540,6 +792,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.itcentrum.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-heby-se._domainkey.clanit.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -558,6 +818,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.itcentrum.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tierp-se._domainkey.tierp.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -576,6 +844,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "uppsala-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-uppsala-se._domainkey.uppsalakommun1.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -594,6 +870,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "inkorg.enkoping.se"
+    ],
+    "spf": null,
+    "dkim": "selector1-enkoping-se._domainkey.enkoping.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -612,6 +896,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.itcentrum.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -630,6 +922,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vingaker-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vingaker-se._domainkey.vingaker.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -648,6 +948,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "gnesta-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gnesta-se._domainkey.gnesta.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -666,6 +974,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -684,6 +1003,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -702,6 +1032,18 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "alt3.aspmx.l.google.com",
+     "alt4.aspmx.l.google.com"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -720,6 +1062,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "katrineholm-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-katrineholm-se._domainkey.katrineholm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -738,6 +1088,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "eskilstuna-se.t-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-eskilstuna-se._domainkey.EskilstunaKommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -756,6 +1114,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-strangnas-se._domainkey.strangnas.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -774,6 +1143,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "trosa-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-trosa-se._domainkey.trosase.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -790,8 +1167,20 @@
     "S1": "G",
     "S2": "-",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-odeshog-se._domainkey.itsamse0.r-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -808,8 +1197,20 @@
     "S1": "G",
     "S2": "-",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-ydre-se._domainkey.itsamse0.y-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -828,6 +1229,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kinda-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kinda-se._domainkey.kindamunicipality.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -844,8 +1253,20 @@
     "S1": "G",
     "S2": "-",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-boxholm-se._domainkey.itsamse0.k-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -862,8 +1283,20 @@
     "S1": "G",
     "S2": "-",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-atvidaberg-se._domainkey.itsamse0.a-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -882,6 +1315,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ASD-MSG-02.cloud.advania.se",
+     "ASD-MSG-03.cloud.advania.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -900,6 +1342,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "halon01.valdemarsvik.se",
+     "halon02.valdemarsvik.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -918,6 +1369,18 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "alt3.aspmx.l.google.com",
+     "alt4.aspmx.l.google.com"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -936,6 +1399,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "norrkoping-se.g-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-norrkoping-se._domainkey.norrkoping.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -954,6 +1425,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx02.soderkoping.se",
+     "mx01.soderkoping.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -972,6 +1452,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ppa1.motala.se",
+     "ppa2.motala.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-motala-se._domainkey.motala.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -990,6 +1479,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1008,6 +1508,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1026,6 +1537,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "aneby-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-aneby-se._domainkey.liveateduhoglandet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1044,6 +1563,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "gnosjo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-gnosjo-se._domainkey.gnosjo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1062,6 +1589,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mullsjo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1080,6 +1615,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "smtp.habokommun.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1098,6 +1641,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "gislaved-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gislaved-se._domainkey.edugislaved.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1116,6 +1667,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "eu-esec-01.heimdalsecurity.com",
+     "eu-esec-02.heimdalsecurity.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vaggeryd-se._domainkey.vaggeryd.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1134,6 +1694,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp01.jonkoping.se",
+     "smtp02.jonkoping.se"
+    ],
+    "spf": null,
+    "dkim": "selector1-jonkoping-se._domainkey.jonkoping.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1152,6 +1721,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "nassjo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-nassjo-se._domainkey.liveateduhoglandet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1170,6 +1747,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-varnamo-se._domainkey.vmokommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1188,6 +1776,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "savsjo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-savsjo-se._domainkey.liveateduhoglandet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1206,6 +1802,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vetlanda-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-vetlanda-se._domainkey.liveateduhoglandet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1224,6 +1828,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "eksjo-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-eksjo-se._domainkey.liveateduhoglandet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1242,6 +1854,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "tranas-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tranas-se._domainkey.etranas.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1260,6 +1880,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "uppvidinge-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-uppvidinge-se._domainkey.kommunsamverkan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1278,6 +1906,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lessebo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lessebo-se._domainkey.vxo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1296,6 +1932,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "tingsryd-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tingsryd-se._domainkey.vxo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1314,6 +1958,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "alvesta-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-alvesta-se._domainkey.alvesta.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1332,6 +1984,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "almhult-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-almhult-se._domainkey.kommunsamverkan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1350,6 +2010,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "markaryd-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-markaryd-se._domainkey.kommunsamverkan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1368,6 +2036,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vaxjo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vaxjo-se._domainkey.vxo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1386,6 +2062,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ljungby-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ljungby-se._domainkey.Ljungbykommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1404,6 +2088,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "hogsby-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1422,6 +2114,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "torsas-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-torsas-se._domainkey.torsas.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1440,6 +2140,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "morbylanga-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-morbylanga-se._domainkey.driftsam.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1458,6 +2166,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hultsfred-se.mail.protection.outlook.com",
+     "hultsfred-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hultsfred-se._domainkey.hultsfred.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1476,6 +2193,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "monsteras-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-monsteras-se._domainkey.monsteraskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1494,6 +2219,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "emmaboda-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-emmaboda-se._domainkey.emmaboda.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1512,6 +2245,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kalmar-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-kalmar-se._domainkey.kalmarkommun365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1530,6 +2271,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "nybro-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nybro-se._domainkey.Nybrokommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1548,6 +2297,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "oskarshamn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-oskarshamn-se._domainkey.oskarshamn365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1566,6 +2323,19 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net",
+     "vastervik-se.mx1.staysecuregroup.com",
+     "vastervik-se.mx2.staysecuregroup.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-vastervik-se._domainkey.wvik.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1582,8 +2352,20 @@
     "S1": "G",
     "S2": "-",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-vimmerby-se._domainkey.itsamse0.q-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -1602,6 +2384,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "borgholm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-borgholm-se._domainkey.driftsam.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1609,7 +2399,7 @@
    "typ": "kommun",
    "lan": "Gotlands län",
    "doman": "gotland.se",
-   "epost": "okänd",
+   "epost": "MS",
    "tenant": true,
    "teams": false,
    "webb": "SE/EU",
@@ -1618,8 +2408,17 @@
     "S1": "gateway/egen",
     "S2": "MS",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mail.gotland.se",
+     "mail2.gotland.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gotland-se._domainkey.gotland365.k-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -1638,6 +2437,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "olofstrom-se.mx1-se.mailanyone.net",
+     "olofstrom-se.mx2-se.mailanyone.net",
+     "olofstrom-se.mx3-se.mailanyone.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1656,6 +2465,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "karlskrona-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-karlskrona-se._domainkey.karlskrona365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1674,6 +2491,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ronneby-se.k-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ronneby-se._domainkey.ronneby.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1692,6 +2517,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "karlshamn-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-karlshamn-se._domainkey.karlshamn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1710,6 +2543,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "solvesborg-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-solvesborg-se._domainkey.solvesborgkommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1728,6 +2569,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "cluster4.eu.messagelabs.com",
+     "cluster4a.eu.messagelabs.com"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -1746,6 +2596,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "staffanstorp-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-staffanstorp-se._domainkey.skakom.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1764,6 +2622,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "burlov-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-burlov-se._domainkey.skakom.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1782,6 +2648,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vellinge-se.mail.protection.outlook.com",
+     "smtp.vellinge.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vellinge-se._domainkey.VellingeKommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1800,6 +2675,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ostragoinge-se._domainkey.unikomonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1818,6 +2701,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "orkelljunga-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-orkelljunga-se._domainkey.orkelljunga.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1836,6 +2727,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bjuv-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bjuv-se._domainkey.bjuv.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1854,6 +2753,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kavlinge-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kavlinge-se._domainkey.skakom.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1872,6 +2779,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lomma-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lomma-se._domainkey.lomma.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1890,6 +2805,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "svedala-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-svedala-se._domainkey.svedalaonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1908,6 +2831,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "skurup-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-skurup-se._domainkey.skurupse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1915,7 +2846,7 @@
    "typ": "kommun",
    "lan": "Skåne län",
    "doman": "sjobo.se",
-   "epost": "okänd",
+   "epost": "MS",
    "tenant": true,
    "teams": true,
    "webb": "SE/EU",
@@ -1924,8 +2855,16 @@
     "S1": "gateway/egen",
     "S2": "MS",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sjobo-se._domainkey.unikomonline.d-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -1944,6 +2883,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-horby-se._domainkey.unikomonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1962,6 +2909,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hoor-se._domainkey.unikomonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1980,6 +2935,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "tomelilla-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-tomelilla-se._domainkey.tomelilla.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -1987,7 +2950,7 @@
    "typ": "kommun",
    "lan": "Skåne län",
    "doman": "bromolla.se",
-   "epost": "okänd",
+   "epost": "MS",
    "tenant": true,
    "teams": true,
    "webb": "SE/EU",
@@ -1996,8 +2959,16 @@
     "S1": "gateway/egen",
     "S2": "MS",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bromolla-se._domainkey.unikomonline.p-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -2016,6 +2987,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.unikom.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-osby-se._domainkey.unikomonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2034,6 +3013,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "perstorp-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-perstorp-se._domainkey.perstorpskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2052,6 +3039,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "klippan-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-klippan-se._domainkey.klippan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2070,6 +3065,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "astorp-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-astorp-se._domainkey.astorp.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2088,6 +3091,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bastad-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-bastad-se._domainkey.bastad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2106,6 +3117,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "malmo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-malmo-se._domainkey.cityofmalmo.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2124,6 +3143,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lund-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lund-se._domainkey.lundskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2142,6 +3169,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "landskrona-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-landskrona-se._domainkey.landskronastad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2160,6 +3195,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1.hc1010-35.eu.iphmx.com",
+     "mx2.hc1010-35.eu.iphmx.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-helsingborg-se._domainkey.helsingborgsstad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2178,6 +3222,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hoganas-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hoganas-se._domainkey.hoganas365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2196,6 +3248,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "eslov-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-eslov-se._domainkey.eslov.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2214,6 +3274,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "ystad-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ystad-se._domainkey.ystad5.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2232,6 +3300,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "trelleborg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-trelleborg-se._domainkey.trelleborgse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2250,6 +3326,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1.hc1303-29.eu.iphmx.com",
+     "mx2.hc1303-29.eu.iphmx.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kristianstad-se._domainkey.kristianstadse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2268,6 +3353,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "simrishamn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-simrishamn-se._domainkey.simrishamnskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2286,6 +3379,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "engelholm-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-engelholm-se._domainkey.engelholm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2304,6 +3405,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hassleholm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hassleholm-se._domainkey.hlmadm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2322,6 +3431,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mail.hylte.se",
+     "mail2.hylte.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2340,6 +3458,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "halmstad-se.s-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-halmstad-se._domainkey.halmstad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2358,6 +3484,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "laholm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-laholm-se._domainkey.laholmse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2376,6 +3510,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp.falkenberg.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-falkenberg-se._domainkey.falkenbergskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2394,6 +3536,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "varberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-varberg-se._domainkey.eduvarberg.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2412,6 +3562,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kungsbacka-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kungsbacka-se._domainkey.kungsbackakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2430,6 +3588,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "harryda-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-harryda-se._domainkey.harrydakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2448,6 +3614,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "partille-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-partille-se._domainkey.partille.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2466,6 +3640,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "ockero-se.mx1.staysecuregroup.com",
+     "ockero-se.mx2.staysecuregroup.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ockero-se._domainkey.ockeronet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2484,6 +3669,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "stenungsund-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-stenungsund-se._domainkey.stenungsundskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2502,6 +3695,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "tjorn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tjorn-se._domainkey.tjorn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2520,6 +3721,16 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx10.electric.net",
+     "mx11.electric.net",
+     "orust-se.mx1-se.mailanyone.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-orust-se._domainkey.orustkommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2538,6 +3749,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "sotenas-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sotenas-se._domainkey.smlit.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2556,6 +3775,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "munkedal-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-munkedal-se._domainkey.smlit.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2574,6 +3801,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-tanum-se._domainkey.tanumskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2592,6 +3830,18 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "aspmx.l.google.com",
+     "alt1.aspmx.l.google.com",
+     "alt2.aspmx.l.google.com",
+     "aspmx2.googlemail.com",
+     "aspmx3.googlemail.com"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2608,8 +3858,16 @@
     "S1": "MS",
     "S2": "MS",
     "S4": "MS",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "fargelanda-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-fargelanda-se._domainkey.dalsit.r-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -2628,6 +3886,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ale-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ale-se._domainkey.eduale.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2646,6 +3912,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lerum-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lerum-se._domainkey.lerumse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2664,6 +3938,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vargarda-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vargarda-se._domainkey.hkvk.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2682,6 +3964,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bollebygd-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bollebygd-se._domainkey.bollebygdse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2700,6 +3990,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2718,6 +4019,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2736,6 +4048,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "karlsborg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-karlsborg-se._domainkey.samarbete.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2754,6 +4074,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2772,6 +4103,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "tranemo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tranemo-se._domainkey.samkom365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2790,6 +4129,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bengtsfors-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2808,6 +4155,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mellerud-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mellerud-se._domainkey.mellerud.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2826,6 +4181,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lillaedet-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lillaedet-se._domainkey.lillaedetskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2844,6 +4207,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mark-se._domainkey.livemark.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2862,6 +4236,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx01.svlj.net",
+     "mx02.svlj.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-svenljunga-se._domainkey.svenljunga.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2880,6 +4263,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "herrljunga-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-herrljunga-se._domainkey.hkvk.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2898,6 +4289,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-vara-se._domainkey.vara.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2916,6 +4318,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2934,6 +4347,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "tibro-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tibro-se._domainkey.samarbete.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2952,6 +4373,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -2970,6 +4402,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1.hc2437-76.eu.iphmx.com",
+     "mx2.hc2437-76.eu.iphmx.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-goteborg-se._domainkey.goteborgonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -2988,6 +4429,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vahalonvsp01.molndal.se",
+     "vahalonvsp02.molndal.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-molndal-se._domainkey.molndal.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3006,6 +4456,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kungalv-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kungalv-se._domainkey.kungalv.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3024,6 +4482,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lysekil-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lysekil-se._domainkey.smlit.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3042,6 +4508,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "uddevalla-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-uddevalla-se._domainkey.uddevalla.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3060,6 +4534,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "stromstad-se.mail.protection.outlook.com",
+     "vsp.stromstad.se"
+    ],
+    "spf": null,
+    "dkim": "selector1-stromstad-se._domainkey.stromstadskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3078,6 +4561,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vanersborg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vanersborg-se._domainkey.vaedu.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3096,6 +4587,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "trollhattan-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-trollhattan-se._domainkey.trollhattan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3114,6 +4613,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp1.alingsas.se",
+     "smtp2.alingsas.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3132,6 +4640,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "smtp-a1.boras.se",
+     "smtp-a2.boras.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3150,6 +4667,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "ulricehamn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ulricehamn-se._domainkey.samkom365.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3168,6 +4693,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "amal-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-amal-se._domainkey.amalkommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3186,6 +4719,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3204,6 +4748,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3222,6 +4777,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3240,6 +4806,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "skovde-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-skovde-se._domainkey.samarbete.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3258,6 +4832,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hjo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hjo-se._domainkey.samarbete.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3276,6 +4858,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tidaholm-se._domainkey.tidaholm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3294,6 +4887,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3312,6 +4916,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-kil-se._domainkey.samverkansnamnden.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3330,6 +4945,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-eda-se._domainkey.edakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3348,6 +4974,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-torsby-se._domainkey.torsby.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3366,6 +5003,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "storfors-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-storfors-se._domainkey.kristinehamn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3384,6 +5029,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hammaro-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-hammaro-se._domainkey.hammarokommunse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3402,6 +5055,16 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "munkfors-se.mx1-se.mailanyone.net",
+     "munkfors-se.mx2-se.mailanyone.net",
+     "munkfors-se.mx3-se.mailanyone.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-munkfors-se._domainkey.Munkforskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3420,6 +5083,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-forshaga-se._domainkey.samverkansnamnden.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3438,6 +5112,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "grums-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-grums-se._domainkey.grums.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3456,6 +5138,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.outbound4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3474,6 +5167,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "sunne-se.x-v1.mx.microsoft"
+    ],
+    "spf": null,
+    "dkim": "selector1-sunne-se._domainkey.sunne.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3492,6 +5193,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "karlstad-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-karlstad-se._domainkey.karlstadskommunonline.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3510,6 +5219,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kristinehamn-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-kristinehamn-se._domainkey.kristinehamn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3528,6 +5245,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "filipstad-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-filipstad-se._domainkey.filipstad.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3546,6 +5271,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hagfors-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hagfors-se._domainkey.hagforsse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3564,6 +5297,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-arvika-se._domainkey.arvikakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3582,6 +5326,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "saffle-se.mx1.staysecuregroup.com",
+     "saffle-se.mx2.staysecuregroup.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-saffle-se._domainkey.itsamv.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3600,6 +5353,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lekeberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lekeberg-se._domainkey.sydnarke.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3618,6 +5379,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "laxa-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-laxa-se._domainkey.sydnarke.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3634,8 +5403,16 @@
     "S1": "MS",
     "S2": "MS",
     "S4": "-",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "hallsberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hallsberg-se._domainkey.sydnarke.y-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -3654,6 +5431,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3672,6 +5460,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hellefors-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hellefors-se._domainkey.hellefors.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3690,6 +5486,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ljusnarsberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ljusnarsberg-se._domainkey.ljusnarsberg.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3708,6 +5512,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "orebro-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-orebro-se._domainkey.Orebrokommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3726,6 +5538,15 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx10.electric.net",
+     "mx11.electric.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3744,6 +5565,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "askersund-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-askersund-se._domainkey.sydnarke.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3762,6 +5591,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "karlskoga-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-karlskoga-se._domainkey.kgakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3780,6 +5617,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "nora-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nora-se._domainkey.norakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3798,6 +5643,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lindesberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lindesberg-se._domainkey.lindesberg.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3816,6 +5669,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "skinnskatteberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -3834,6 +5695,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "surahammar-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-surahammar-se._domainkey.vmkfb.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3852,6 +5721,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kungsor-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-kungsor-se._domainkey.vmkfb.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3870,6 +5747,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hallstahammar-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-hallstahammar-se._domainkey.hallstahammarskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3888,6 +5773,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "norberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-norberg-se._domainkey.nvknet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3906,6 +5799,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vasteras-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vasteras-se._domainkey.livevasteras.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3924,6 +5825,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "sala-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sala-se._domainkey.salakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3942,6 +5851,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "fagersta-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-fagersta-se._domainkey.nvknet.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3960,6 +5877,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "koping-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-koping-se._domainkey.vmkfb.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3978,6 +5903,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "arboga-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-arboga-se._domainkey.vmkfb.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -3996,6 +5929,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vansbro-se._domainkey.vansbrose.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4014,6 +5958,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "malungsalen-se01e.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4032,6 +5984,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "gagnef-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gagnef-se._domainkey.gagnefskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4050,6 +6010,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "leksand-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-leksand-se._domainkey.leksandskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4068,6 +6036,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "rattvik-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-rattvik-se._domainkey.rattvik.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4086,6 +6062,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "orsa-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-orsa-se._domainkey.skolaovansiljan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4104,6 +6088,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "alvdalen-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-alvdalen-se._domainkey.skolaovansiljan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4122,6 +6114,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smedjebacken-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-smedjebacken-se._domainkey.smekommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4140,6 +6140,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "morakommun-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4158,6 +6166,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "falun-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-falun-se._domainkey.falun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4176,6 +6192,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "borlange-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-borlange-se._domainkey.borlange.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4194,6 +6218,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "sater-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sater-se._domainkey.SatersKommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4212,6 +6244,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "hedemora-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hedemora-se._domainkey.hedemora.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4230,6 +6270,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "avesta-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-avesta-se._domainkey.avestakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4248,6 +6296,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "ludvika-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ludvika-se._domainkey.ludvika.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4266,6 +6322,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ockelbo-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ockelbo-se._domainkey.gavle.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4284,6 +6348,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtpforti.hofors.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4302,6 +6374,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1.ovanaker.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ovanaker-se._domainkey.ovanaker.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4320,6 +6400,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp.hudiksvall.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4338,6 +6426,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp.ljusdal.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4356,6 +6452,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "gavle-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gavle-se._domainkey.gavle.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4374,6 +6478,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mail4.sandviken.se",
+     "mail5.sandviken.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sandviken-se._domainkey.sandviken2.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4392,6 +6505,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "soderhamn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-soderhamn-se._domainkey.soderhamn.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4410,6 +6531,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bollnas-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bollnas-se._domainkey.bollnaskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4428,6 +6557,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "smtp.hudiksvall.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4446,6 +6583,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ange-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4464,6 +6609,15 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4482,6 +6636,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mg.harnosand.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4500,6 +6662,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx-2.sundsvall.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sundsvall-se._domainkey.sundsvallse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4518,6 +6688,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kramfors-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kramfors-se._domainkey.outlook.kramfors.se.",
+    "entra": 200
    }
   },
   {
@@ -4536,6 +6714,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailfilter.solleftea.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-solleftea-se._domainkey.sollefteakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4554,6 +6740,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "ornskoldsvik-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ornskoldsvik-se._domainkey.ornskoldsvik.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4572,6 +6766,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "ragunda-se.a-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ragunda-se._domainkey.ragunda.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4590,6 +6792,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "bracke-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bracke-se._domainkey.zporten.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4608,6 +6818,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "krokom-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-krokom-se._domainkey.krokomse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4626,6 +6844,15 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1.hc2477-44.eu.iphmx.com",
+     "mx2.hc2477-44.eu.iphmx.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-stromsund-se._domainkey.stromsundse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4644,6 +6871,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "are-se.q-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-are-se._domainkey.arekommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4662,6 +6897,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4680,6 +6926,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "herjedalen-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-herjedalen-se._domainkey.herjedalense.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4698,6 +6952,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mailgw.ostersund.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4716,6 +6978,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": "selector1-nordmaling-se._domainkey.nordmalingse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4734,6 +7007,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "bjurholm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bjurholm-se._domainkey.bjurholm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4752,6 +7033,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mail2.vindeln.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vindeln-se._domainkey.Vindelnskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4770,6 +7059,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "robertsfors-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-robertsfors-se._domainkey.robertsforsse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4788,6 +7085,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mx1-eu1.ppe-hosted.com",
+     "mx2-eu1.ppe-hosted.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-norsjo-se._domainkey.nkadm.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4806,6 +7112,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "mala-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mala-se._domainkey.malase.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4824,6 +7138,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "storuman-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-storuman-se._domainkey.lystkom.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4842,6 +7164,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4860,6 +7193,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "dorotea-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-dorotea-se._domainkey.doroteakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4878,6 +7219,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vannas-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-vannas-se._domainkey.vannasse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4896,6 +7245,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "vilhelmina-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -4912,8 +7269,16 @@
     "S1": "MS",
     "S2": "MS",
     "S4": "MS",
-    "S7": "-",
+    "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "asele-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-asele-se._domainkey.lystkom.e-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -4932,6 +7297,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "umea-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-umea-se._domainkey.umea.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4950,6 +7323,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "lycksele-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lycksele-se._domainkey.lystkom.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4968,6 +7349,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "skelleftea-se.u-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-skelleftea-se._domainkey.skelleftea.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -4986,6 +7375,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-arvidsjaur-se._domainkey.arvidsjaurskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5004,6 +7404,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mxa.arjeplog.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5022,6 +7430,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "jokkmokk-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-jokkmokk-se._domainkey.jokkmokkskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5040,6 +7456,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "overkalix-se.k-v1.mx.microsoft"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-overkalix-se._domainkey.overkalix.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5058,6 +7482,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "kalix-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kalix-se._domainkey.kalixse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5076,6 +7508,14 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "overtornea-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5094,6 +7534,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "pajala-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-pajala-se._domainkey.pajalaedu.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5112,6 +7560,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx.norrnet.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gallivare-se._domainkey.gallivareskolor.onmicrosoft.com.",
+    "entra": 400
    }
   },
   {
@@ -5130,6 +7586,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5148,6 +7615,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "lulea-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-lulea-se._domainkey.luleakommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5166,6 +7641,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "pitea-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-pitea-se._domainkey.pitea.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5184,6 +7667,15 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "boden-se.mail.protection.outlook.com",
+     "webmail.sokigohosting.com.boden.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-boden-se._domainkey.bodenskommun.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5202,6 +7694,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5220,6 +7723,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "kiruna-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kiruna-se._domainkey.kirunase.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5236,8 +7747,19 @@
     "S1": "gateway/egen",
     "S2": "MS",
     "S4": "MS",
-    "S7": "-",
+    "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionstockholm-se.mx1.mailanyone.net",
+     "regionstockholm-se.mx2.mx25.net",
+     "regionstockholm-se.mx3.mailanyone.net",
+     "regionstockholm-se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionstockholm-se._domainkey.sllse.p-v1.dkim.mail.microsoft.",
+    "entra": 200
    }
   },
   {
@@ -5256,6 +7778,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionuppsala-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionuppsala-se._domainkey.ltuppsala.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5274,6 +7804,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionsormland-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionsormland-se._domainkey.regionsormland.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5292,6 +7830,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mailgw1.regionostergotland.se",
+     "mailgw2.regionostergotland.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5310,6 +7857,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mail3.rjl.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-rjl-se._domainkey.ljl.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5328,6 +7883,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "regionkronoberg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionkronoberg-se._domainkey.kronoberg.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5346,6 +7909,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx1.regionkalmar.se",
+     "mx2.regionkalmar.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5364,6 +7936,15 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "mx1.regionblekinge.se",
+     "mx2.regionblekinge.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5382,6 +7963,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "skane-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-skane-se._domainkey.regionskane.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5400,6 +7989,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "regionhalland-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionhalland-se._domainkey.rh.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5418,6 +8015,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "vgregion-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vgregion-se._domainkey.vgregion.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5436,6 +8041,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionvarmland-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionvarmland-se._domainkey.liv.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5454,6 +8067,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionorebrolan-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionorebrolan-se._domainkey.regionorebrolan.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5472,6 +8093,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionvastmanland-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionvastmanland-se._domainkey.ltvse.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5490,6 +8119,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regiondalarna-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regiondalarna-se._domainkey.ltdalarna.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5508,6 +8145,14 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "svar": {
+    "mx": [
+     "regiongavleborg-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regiongavleborg-se._domainkey.gavleborg.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5526,6 +8171,14 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "rvn-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
    }
   },
   {
@@ -5544,6 +8197,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionjh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionjh-se._domainkey.regionjh.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5562,6 +8223,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "regionvasterbotten-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-regionvasterbotten-se._domainkey.vlladmin.onmicrosoft.com.",
+    "entra": 200
    }
   },
   {
@@ -5580,6 +8249,14 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "svar": {
+    "mx": [
+     "norrbotten-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-norrbotten-se._domainkey.nllse.onmicrosoft.com.",
+    "entra": 200
    }
   }
  ]

@@ -8,10 +8,12 @@ Rådata: `data/ra-organisationer-sverige-2026-10-08T154137Z.json`. Tabellen åte
 
 | | Antal | Andel |
 |---|---|---|
-| E-post syns gå via Microsofts moln | 245 | 79 % |
+| E-post syns gå via Microsofts moln | 248 | 80 % |
 | E-post hos Google | 10 | 3 % |
 | Inga molnsignaler för e-post | 20 | 6 % |
-| Okänd | 35 | 11 % |
+| Okänd | 32 | 10 % |
+
+Före DKIM-rättelsen (se nedan): Microsoft 245, okänd 35.
 | **Har en Microsoft Entra-tenant** | **309** | **>99 %** |
 
 Webb (`www.`-adressen): 284 hos svenska eller europeiska leverantörer, 16 bakom
@@ -20,11 +22,20 @@ Cloudflare, 5 hos Microsoft, 1 vardera hos Akamai, Google och AWS, 2 okända.
 **Vad det betyder:** organisationerna är *anslutna till* tjänsterna. Det säger
 ingenting om vilka uppgifter som behandlas där. Se README, "Vad det här inte visar".
 
+## Rättelse 2026-10-08
+
+Regeln för DKIM (S7) missade Microsofts nyare postformat (`*.dkim.mail.microsoft`).
+Gotland, Sjöbo och Bromölla byter därför från okänd till Microsoft. Skälet och
+effekten står i `METOD.md`, "Rättelse". Felet hittades av sidans animation.
+
 ## Iakttagelser
 
 - **Östergötland avviker.** Fem kommuner (bland dem Linköping) har e-post hos
   Google, och fyra till saknar molnsignaler för e-post. Det är det enda län där
   Microsoft inte dominerar.
+- **Google tar emot, Microsoft signerar.** Fem av de tio med e-post hos Google
+  (Ödeshög, Ydre, Boxholm, Åtvidaberg, Vimmerby) har ändå DKIM-nycklar hos
+  Microsoft. De tar emot e-post via Google men skickar troligen via Microsoft.
 - **Gällivare** är den enda utan tenant. Domänen från Wikidata, `gellivare.se`,
   har ingen. `gallivare.se` har både tenant och e-post via Microsoft, och båda
   domänerna är i bruk. Metoden mäter en domän per organisation och missar det.
@@ -37,7 +48,7 @@ ingenting om vilka uppgifter som behandlas där. Se README, "Vad det här inte v
 |---|---|---|---|---|---|
 | Blekinge län | 6 | 4 | 0 | 0 | 2 |
 | Dalarnas län | 16 | 16 | 0 | 0 | 0 |
-| Gotlands län | 1 | 0 | 0 | 0 | 1 |
+| Gotlands län | 1 | 1 | 0 | 0 | 0 |
 | Gävleborgs län | 11 | 8 | 0 | 0 | 3 |
 | Hallands län | 7 | 6 | 0 | 0 | 1 |
 | Jämtlands län | 9 | 8 | 0 | 0 | 1 |
@@ -45,7 +56,7 @@ ingenting om vilka uppgifter som behandlas där. Se README, "Vad det här inte v
 | Kalmar län | 13 | 10 | 1 | 1 | 1 |
 | Kronobergs län | 9 | 9 | 0 | 0 | 0 |
 | Norrbottens län | 15 | 15 | 0 | 0 | 0 |
-| Skåne län | 34 | 31 | 0 | 1 | 2 |
+| Skåne län | 34 | 33 | 0 | 1 | 0 |
 | Stockholms län | 27 | 19 | 1 | 2 | 5 |
 | Södermanlands län | 10 | 7 | 1 | 2 | 0 |
 | Uppsala län | 9 | 7 | 0 | 0 | 2 |
@@ -81,12 +92,12 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Danderyd | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Sollentuna | MS | gateway/egen | MS | - | MS | MS | ja | Cloudflare |
 | Stockholm | okänd | gateway/egen | MS | - | - | - | ja | SE/EU |
-| Södertälje | MS | MS | MS | MS | - | MS | ja | Cloudflare |
+| Södertälje | MS | MS | MS | MS | MS | MS | ja | Cloudflare |
 | Nacka | MS | MS | MS | MS | MS | MS | ja | Cloudflare |
 | Sundbyberg | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Solna | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Lidingö | MS | MS | MS | MS | MS | MS | ja | SE/EU |
-| Vaxholm | MS | MS | MS | - | - | MS | ja | SE/EU |
+| Vaxholm | MS | MS | MS | - | MS | MS | ja | SE/EU |
 | Norrtälje | MS | MS | MS | MS | MS | - | ja | SE/EU |
 | Sigtuna | okänd | gateway/egen | MS | - | - | - | ja | SE/EU |
 | Nynäshamn | MS | MS | MS | MS | MS | MS | ja | SE/EU |
@@ -107,11 +118,11 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Eskilstuna | MS | gateway/egen | MS | MS | MS | MS | ja | SE/EU |
 | Strängnäs | MS | gateway/egen | MS | MS | MS | MS | ja | SE/EU |
 | Trosa | MS | MS | - | MS | MS | MS | ja | SE/EU |
-| Ödeshög | G | G | - | - | - | - | ja | SE/EU |
-| Ydre | G | G | - | - | - | - | ja | SE/EU |
+| Ödeshög | G | G | - | - | MS | - | ja | SE/EU |
+| Ydre | G | G | - | - | MS | - | ja | SE/EU |
 | Kinda | MS | MS | MS | MS | MS | MS | ja | SE/EU |
-| Boxholm | G | G | - | - | - | - | ja | SE/EU |
-| Åtvidaberg | G | G | - | - | - | - | ja | SE/EU |
+| Boxholm | G | G | - | - | MS | - | ja | SE/EU |
+| Åtvidaberg | G | G | - | - | MS | - | ja | SE/EU |
 | Finspång | inga molnsignaler | gateway/egen | - | - | - | MS | ja | SE/EU |
 | Valdemarsvik | inga molnsignaler | gateway/egen | - | - | - | MS | ja | okänd |
 | Linköping | G | G | G | - | - | - | ja | SE/EU |
@@ -151,9 +162,9 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Nybro | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Oskarshamn | MS | MS | MS | - | MS | MS | ja | SE/EU |
 | Västervik | okänd | gateway/egen | - | - | MS | MS | ja | Cloudflare |
-| Vimmerby | G | G | - | - | - | - | ja | SE/EU |
+| Vimmerby | G | G | - | - | MS | - | ja | SE/EU |
 | Borgholm | MS | MS | MS | MS | MS | MS | ja | SE/EU |
-| Gotland | okänd | gateway/egen | MS | - | - | - | ja | SE/EU |
+| Gotland | MS | gateway/egen | MS | - | MS | - | ja | SE/EU |
 | Olofström | okänd | gateway/egen | MS | - | - | MS | ja | SE/EU |
 | Karlskrona | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Ronneby | MS | gateway/egen | MS | MS | MS | MS | ja | SE/EU |
@@ -170,11 +181,11 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Lomma | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Svedala | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Skurup | MS | MS | MS | MS | MS | MS | ja | SE/EU |
-| Sjöbo | okänd | gateway/egen | MS | - | - | MS | ja | SE/EU |
+| Sjöbo | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Hörby | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Höör | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Tomelilla | MS | MS | - | - | MS | MS | ja | SE/EU |
-| Bromölla | okänd | gateway/egen | MS | - | - | MS | ja | SE/EU |
+| Bromölla | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Osby | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Perstorp | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Klippan | MS | MS | MS | MS | MS | MS | ja | SE/EU |
@@ -208,7 +219,7 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Munkedal | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Tanum | okänd | gateway/egen | - | - | MS | MS | ja | SE/EU |
 | Dals-Ed | G | G | G | - | G | - | ja | SE/EU |
-| Färgelanda | MS | MS | MS | MS | - | MS | ja | SE/EU |
+| Färgelanda | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Ale | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Lerum | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Vårgårda | MS | MS | MS | MS | MS | MS | ja | SE/EU |
@@ -265,7 +276,7 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Säffle | MS | gateway/egen | MS | - | MS | MS | ja | SE/EU |
 | Lekeberg | MS | MS | MS | - | MS | MS | ja | SE/EU |
 | Laxå | MS | MS | MS | - | MS | MS | ja | SE/EU |
-| Hallsberg | MS | MS | MS | - | - | - | ja | SE/EU |
+| Hallsberg | MS | MS | MS | - | MS | - | ja | SE/EU |
 | Degerfors | MS | gateway/egen | MS | MS | - | MS | ja | SE/EU |
 | Hällefors | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Ljusnarsberg | MS | MS | MS | MS | MS | MS | ja | SE/EU |
@@ -336,7 +347,7 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Dorotea | MS | MS | MS | MS | MS | MS | ja | MS |
 | Vännäs | MS | MS | - | - | MS | MS | ja | SE/EU |
 | Vilhelmina | MS | MS | MS | MS | - | - | ja | MS |
-| Åsele | MS | MS | MS | MS | - | - | ja | MS |
+| Åsele | MS | MS | MS | MS | MS | - | ja | MS |
 | Umeå | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Lycksele | MS | MS | MS | MS | MS | - | ja | SE/EU |
 | Skellefteå | MS | gateway/egen | MS | MS | MS | MS | ja | SE/EU |
@@ -354,7 +365,7 @@ S1 MX, S2 SPF, S4 autodiscover, S7 DKIM, S8 Entra-registrering/Teams.
 | Boden | MS | blandat | MS | MS | MS | MS | ja | SE/EU |
 | Haparanda | MS | gateway/egen | MS | MS | - | MS | ja | SE/EU |
 | Kiruna | MS | MS | MS | - | MS | - | ja | SE/EU |
-| Region Stockholm | MS | gateway/egen | MS | MS | - | MS | ja | Cloudflare |
+| Region Stockholm | MS | gateway/egen | MS | MS | MS | MS | ja | Cloudflare |
 | Region Uppsala | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Region Sörmland | MS | MS | MS | MS | MS | MS | ja | SE/EU |
 | Region Östergötland | inga molnsignaler | gateway/egen | - | - | - | - | ja | SE/EU |

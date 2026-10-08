@@ -27,6 +27,14 @@ def main():
             "webb": webb(o["www_asn_namn"]),
             "webbLeverantor": o["www_asn_namn"],
             "signaler": s,
+            # Riktiga svar till animationen "Så mäts en kommun".
+            "svar": {
+                "mx": [m.split()[-1].rstrip(".") for m in sorted(o["mx"], key=lambda m: int(m.split()[0]))],
+                "spf": next((i for i in ("spf.protection.outlook.com", "_spf.google.com")
+                             if any(i in x for x in o["spf"])), None),
+                "dkim": (o["dkim_selector1_cname"] or [None])[0],
+                "entra": o["entra_status"],
+            },
         })
     ut = {"matt": data[0]["matt"], "kalla": fil, "organisationer": organisationer}
     (ROT / "docs").mkdir(exist_ok=True)
