@@ -7,6 +7,7 @@ Sparar bara antal per organisation, aldrig värdnamn (gränsen i METOD.md).
 
 import csv
 import glob
+import ipaddress
 import json
 import random
 import sys
@@ -26,6 +27,11 @@ ROT = Path(__file__).parent
 PLATTFORMAR = ("sharepoint.com", "azurewebsites.net", "cloudapp.azure.com", "azurefd.net", "trafficmanager.net",
                "amazonaws.com", "cloudfront.net", "elb.amazonaws.com", "herokuapp.com", "googleusercontent.com",
                "ghs.googlehosted.com", "github.io", "zendesk.com", "cloudflare.net", "netlify.app", "vercel-dns.com")
+
+
+CGNAT = ipaddress.ip_network("100.64.0.0/10")
+_interna = [0]
+_interna_las = threading.Lock()
 
 
 def hamta_json(url, forsok=4):
@@ -84,7 +90,13 @@ def summera(doman, namn):
     giltiga = sorted(n.rstrip(".") for n in namn if not n.startswith("*") and (n == doman or n.endswith("." + doman)))
     nat, plattform, aktiva = Counter(), Counter(), 0
     for n in giltiga:
-        if not fraga(n, "A"):
+        a = fraga(n, "A")
+        if not a:
+            continue
+        ip = ipaddress.ip_address(a[0])
+        if ip.is_private or ip.is_reserved or ip in CGNAT:
+            with _interna_las:  # rättelse: inte en publik tjänst; bara totalen sparas
+                _interna[0] += 1
             continue
         aktiva += 1
         nat[natverk(n).get("nat") or "okänt"] += 1
@@ -141,7 +153,7 @@ def main():
     with ThreadPoolExecutor(4) as pool:  # crt.sh är delad och ofta överbelastad; Certspotter-takten styrs av _takt
         resultat = list(pool.map(mat, rader))
     ut = ROT / "data" / f"cert-{tid}.json"
-    ut.write_text(json.dumps({"matt": tid, "listor": sys.argv[1:], "organisationer": resultat},
+    ut.write_text(json.dumps({"matt": tid, "listor": sys.argv[1:], "interna_totalt": _interna[0], "organisationer": resultat},
                              ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(ut.relative_to(ROT))
 

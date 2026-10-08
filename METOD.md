@@ -466,3 +466,21 @@ Första provkörningen av månadsmätningen i GitHub Actions
 **Regel från och med nu:** en webbmätning som inte uppfyller kravet (minst
 95 % mätbara) publiceras inte. `bygg_sida.py` väljer senaste godkända körning;
 den fallna finns kvar i `data/`.
+
+### Utfall och rättelse mätning 4 — 2026-10-08
+
+Första körningen (`data/cert-2026-10-08T180702Z.json`, behålls, publiceras
+inte): svar för 511 av 512 (krav ≥90 %, uppfyllt), men **94,1 % av aktiva namn
+fick nät (krav ≥95 %, föll)**. Ett stickprov på de två organisationerna med
+flest namn utan nät visade att samtliga 165 pekade på privata IP-adresser:
+interna system med publika DNS-namn, som inte går att nå från internet och
+därför inte har något nät.
+
+**Rättelse:** namn vars A-post är en privat, reserverad eller CGNAT-adress räknas
+som "interna" och ingår inte i aktiva tjänster. Antalet interna sparas bara som
+en total för hela körningen, inte per organisation, eftersom det är
+säkerhetsrelevant. Kravet (≥95 %) ändras inte. Hela mätningen körs om.
+
+`tests/test_hygien.py` gav falsklarm på organisationernas egna e-postdomäner
+under andra organisationers domäner (`ifau.uu.se`, `nai.uu.se`) och undantar nu
+fältet `domän`.

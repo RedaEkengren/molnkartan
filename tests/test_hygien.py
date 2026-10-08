@@ -38,7 +38,9 @@ class IngaVardnamnICertdata(unittest.TestCase):
         for fil in sorted(ROT.glob("data/cert-*.json")):
             d = json.loads(fil.read_text(encoding="utf-8"))
             domaner = {o["domän"] for o in d["organisationer"]}
-            lackor = [s for s in strangar(d) if any(s.endswith("." + dom) for dom in domaner)]
+            # Organisationernas egna e-postdomäner kommer från SCB:s register och är inga
+            # hittade värdnamn, även när en ligger under en annan (ifau.uu.se under uu.se).
+            lackor = [s for s in strangar(d) if s not in domaner and any(s.endswith("." + dom) for dom in domaner)]
             self.assertEqual(lackor[:5], [], f"värdnamn i {fil.name}")
 
 
