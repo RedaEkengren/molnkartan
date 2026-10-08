@@ -39,6 +39,7 @@ jobs:
         run: |
           fil=$(python3 webbmatning.py organisationer.csv)
           python3 webb_klassa.py "${fil#$PWD/}" | tail -6
+          python3 -c "import json,sys; [print('FEL', o['namn'], str(o['status'])[:120]) for o in json.load(open(sys.argv[1]))['organisationer'] if not isinstance(o['status'], int) or o['status'] >= 400]" "$fil"
       - name: Mät
         if: ${{ !inputs.prov }}
         run: |
