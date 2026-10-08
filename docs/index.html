@@ -8,12 +8,12 @@
 <style>
 :root {
   --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
-  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --varning: #fff6e0; --varning-kant: #e8c66a;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --varning: #fff6e0; --varning-kant: #e8c66a;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
-    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --varning: #2b2516; --varning-kant: #7a6426;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --annat: #b39ae0; --ingen: #6fc0ba; --varning: #2b2516; --varning-kant: #7a6426;
   }
 }
 * { box-sizing: border-box; }
@@ -72,6 +72,9 @@ code { font-size: 0.88em; }
 .prickar { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 14px; }
 .prickar i { width: 9px; height: 9px; border-radius: 2px; background: var(--linje); transition: background-color .25s; }
 .prickar i.ny { outline: 2px solid var(--text); outline-offset: 1px; }
+.forklaring { color: var(--dampad); }
+.topplista { padding-left: 22px; columns: 2 260px; font-size: 0.95rem; }
+h3 { font-size: 1.05rem; margin: 28px 0 8px; }
 footer { margin-top: 56px; color: var(--dampad); font-size: 0.9rem; }
 </style>
 </head>
@@ -106,15 +109,25 @@ footer { margin-top: 56px; color: var(--dampad); font-size: 0.9rem; }
   <div class="legend" id="legend"></div>
   <div class="lan" id="lan"></div>
 
+  <h2>Före samtycke: webbplatsen</h2>
+  <p class="forklaring">Vad en besökares webbläsare kontaktar när startsidan laddas, innan cookiebannern besvarats. Det är <b>nätet</b> som avgör: en europeisk tjänst som körs på Amazons eller Googles servrar räknas som amerikanskt nät.</p>
+  <div class="kort" id="kortWebb"></div>
+  <div class="legend" id="legendWebb" style="margin-top:20px"></div>
+  <div class="lan" id="lanWebb"></div>
+  <h3>Vanligaste tjänsterna på amerikanska nät före samtycke</h3>
+  <ol class="topplista" id="topp"></ol>
+  <p class="forklaring">Google Analytics före samtycke sker ofta via Googles Consent Mode: inga kakor sätts, men IP-adress, webbläsare och sidadress skickas till Google. Om det är förenligt med reglerna avgörs inte här.</p>
+
   <h2>Alla organisationer</h2>
   <div class="filter">
     <input id="sok" type="search" placeholder="Sök kommun, region eller domän" aria-label="Sök">
     <select id="lanFilter" aria-label="Län"><option value="">Alla län</option></select>
     <select id="epostFilter" aria-label="E-post"><option value="">All e-post</option></select>
+    <select id="webbFilter" aria-label="Före samtycke"><option value="">Alla webbplatser</option></select>
   </div>
   <div class="tabell">
     <table>
-      <thead><tr><th>Organisation</th><th>Län</th><th>Domän</th><th>E-post</th><th>Microsoft-konto</th><th>Teams/enheter</th><th>Webb</th></tr></thead>
+      <thead><tr><th>Organisation</th><th>Län</th><th>Domän</th><th>E-post</th><th>Microsoft-konto</th><th>Teams/enheter</th><th>Webbhotell</th><th>Före samtycke</th></tr></thead>
       <tbody id="rader"></tbody>
     </table>
   </div>
@@ -132,6 +145,16 @@ const KATEGORIER = [
   ["inga molnsignaler", "Inga molnsignaler", "var(--inga)"],
   ["okänd", "Gick inte att avgöra", "var(--okand)"],
 ];
+const WEBBKLASSER = [
+  ["US-nät före samtycke", "Amerikanskt nät", "var(--g)"],
+  ["annat nät före samtycke", "Annat nät, t.ex. UK", "var(--annat)"],
+  ["bara EU/EES-nät före samtycke", "Bara EU/EES-nät", "var(--inga)"],
+  ["ingen tredjepart", "Ingen tredjepart", "var(--ingen)"],
+  ["okänt nät", "Okänt nät", "var(--okand)"],
+  ["kunde inte mätas", "Kunde inte mätas", "var(--okand)"],
+];
+const webbEtikett = Object.fromEntries(WEBBKLASSER.map(([k, n]) => [k, n]));
+const webbFarg = Object.fromEntries(WEBBKLASSER.map(([k, , f]) => [k, f]));
 const etikett = Object.fromEntries(KATEGORIER.map(([k, n]) => [k, n]));
 const farg = Object.fromEntries(KATEGORIER.map(([k, , f]) => [k, f]));
 
@@ -142,7 +165,7 @@ function el(tagg, egenskaper = {}, ...barn) {
   return e;
 }
 
-fetch("data.json").then(r => r.json()).then(({ matt, organisationer: org }) => {
+fetch("data.json").then(r => r.json()).then(({ matt, webbMatt, organisationer: org }) => {
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
   startaDemo(org, { etikett, farg });
   const n = org.length;
@@ -161,25 +184,48 @@ fetch("data.json").then(r => r.json()).then(({ matt, organisationer: org }) => {
 
   const perLan = {};
   for (const o of org) (perLan[o.lan] ??= []).push(o);
-  const lanDiv = document.getElementById("lan");
-  for (const lan of Object.keys(perLan).sort((a, b) => a.localeCompare(b, "sv"))) {
-    const lista = perLan[lan];
-    const stapel = el("div", { className: "stapel" });
-    for (const [k, namn, f] of KATEGORIER) {
-      const antal = lista.filter(o => o.epost === k).length;
-      if (antal) stapel.append(el("span", { style: `width:${100 * antal / lista.length}%;background:${f}`, title: `${namn}: ${antal}` }));
+  const lanNamn = Object.keys(perLan).sort((a, b) => a.localeCompare(b, "sv"));
+  function staplar(id, kategorier, varde) {
+    const div = document.getElementById(id);
+    for (const lan of lanNamn) {
+      const lista = perLan[lan];
+      const stapel = el("div", { className: "stapel" });
+      for (const [k, namn, f] of kategorier) {
+        const antal = lista.filter(o => varde(o) === k).length;
+        if (antal) stapel.append(el("span", { style: `width:${100 * antal / lista.length}%;background:${f}`, title: `${namn}: ${antal}` }));
+      }
+      div.append(el("div", { textContent: lan }), stapel, el("div", { className: "antal", textContent: lista.length }));
     }
-    lanDiv.append(el("div", { textContent: lan }), stapel, el("div", { className: "antal", textContent: lista.length }));
-    document.getElementById("lanFilter").append(el("option", { value: lan, textContent: lan }));
   }
+  staplar("lan", KATEGORIER, o => o.epost);
+  for (const lan of lanNamn) document.getElementById("lanFilter").append(el("option", { value: lan, textContent: lan }));
+
+  const fs = o => o.fore_samtycke?.klass;
+  const matbara = rakna(o => fs(o) && fs(o) !== "kunde inte mätas");
+  const usNat = rakna(o => fs(o) === "US-nät före samtycke"), ga = rakna(o => o.fore_samtycke?.ga);
+  document.getElementById("kortWebb").append(
+    el("div", {}, el("b", { textContent: usNat }), el("span", { textContent: `av ${matbara} mätbara kontaktar amerikanska nät före samtycke (${Math.round(100 * usNat / matbara)} %)` })),
+    el("div", {}, el("b", { textContent: ga }), el("span", { textContent: "kontaktar Google Analytics eller Tag Manager före samtycke" })),
+    el("div", {}, el("b", { textContent: rakna(o => fs(o) === "bara EU/EES-nät före samtycke") }), el("span", { textContent: "kontaktar bara europeiska nät före samtycke" })),
+    el("div", {}, el("b", { textContent: rakna(o => fs(o) === "ingen tredjepart") }), el("span", { textContent: "kontaktar ingen tredjepart alls före samtycke" })),
+  );
+  document.getElementById("legendWebb").append(...WEBBKLASSER.slice(0, 5).map(([, namn, f]) =>
+    el("span", {}, el("i", { style: `background:${f}` }), namn)));
+  staplar("lanWebb", WEBBKLASSER, fs);
+  const topp = {};
+  for (const o of org) for (const l of o.fore_samtycke?.usLeverantorer || []) topp[l] = (topp[l] || 0) + 1;
+  document.getElementById("topp").append(...Object.entries(topp).sort((a, b) => b[1] - a[1]).slice(0, 10)
+    .map(([l, antal]) => el("li", { textContent: `${l}: ${antal} organisationer` })));
   for (const [k, namn] of KATEGORIER) document.getElementById("epostFilter").append(el("option", { value: k, textContent: namn }));
+  for (const [k, namn] of WEBBKLASSER) document.getElementById("webbFilter").append(el("option", { value: k, textContent: namn }));
 
   const tbody = document.getElementById("rader");
   const visa = () => {
     const sok = document.getElementById("sok").value.trim().toLowerCase();
     const lan = document.getElementById("lanFilter").value, ep = document.getElementById("epostFilter").value;
+    const wf = document.getElementById("webbFilter").value;
     tbody.replaceChildren(...org
-      .filter(o => (!lan || o.lan === lan) && (!ep || o.epost === ep) && (!sok || (o.namn + " " + o.doman).toLowerCase().includes(sok)))
+      .filter(o => (!lan || o.lan === lan) && (!ep || o.epost === ep) && (!wf || fs(o) === wf) && (!sok || (o.namn + " " + o.doman).toLowerCase().includes(sok)))
       .map(o => el("tr", {},
         el("td", { textContent: o.namn }),
         el("td", { textContent: o.lan }),
@@ -188,11 +234,15 @@ fetch("data.json").then(r => r.json()).then(({ matt, organisationer: org }) => {
         el("td", { textContent: o.tenant ? "ja" : "nej" }),
         el("td", { textContent: o.teams ? "Microsoft" : "–" }),
         el("td", { textContent: o.webb === "SE/EU" ? "Sverige/EU" : o.webb, title: o.webbLeverantor || "" }),
+        el("td", {}, fs(o) ? el("span", { className: "tagg", style: `background:${webbFarg[fs(o)]}`,
+          textContent: webbEtikett[fs(o)] + (o.fore_samtycke.ga ? " · GA" : ""),
+          title: o.fore_samtycke.us.length ? "Amerikanska nät: " + o.fore_samtycke.us.join(", ") : "" }) : "–"),
       )));
   };
-  for (const id of ["sok", "lanFilter", "epostFilter"]) document.getElementById(id).addEventListener("input", visa);
+  for (const id of ["sok", "lanFilter", "epostFilter", "webbFilter"]) document.getElementById(id).addEventListener("input", visa);
   visa();
-  document.getElementById("matt").textContent = `Mätt ${matt.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC")}.`;
+  const tid = t => t.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC");
+  document.getElementById("matt").textContent = `E-post och konton mätta ${tid(matt)}.` + (webbMatt ? ` Webbplatser mätta ${tid(webbMatt)}.` : "");
 });
 </script>
 </body>

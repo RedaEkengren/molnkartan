@@ -15,15 +15,16 @@ ROT = Path(__file__).parent.parent
 class SidanFoljerReglerna(unittest.TestCase):
     def test_data_json_ar_byggd_med_dagens_regler(self):
         senaste = sorted(glob.glob(str(ROT / "data" / "ra-organisationer-sverige-*.json")))[-1]
+        webb = sorted(glob.glob(str(ROT / "data" / "webb-organisationer-sverige-*.json")))[-1]
         publicerad = json.loads((ROT / "docs" / "data.json").read_text(encoding="utf-8"))
         with tempfile.TemporaryDirectory() as tmp:
             kopia = Path(tmp)
-            for f in ("bygg_sida.py", "klassa.py", "klassa_v2.py"):
+            for f in ("bygg_sida.py", "klassa.py", "klassa_v2.py", "webb_klassa.py", "leverantorer.csv"):
                 (kopia / f).write_bytes((ROT / f).read_bytes())
-            subprocess.run([sys.executable, "bygg_sida.py", senaste], cwd=kopia, check=True, capture_output=True)
+            subprocess.run([sys.executable, "bygg_sida.py", senaste, webb], cwd=kopia, check=True, capture_output=True)
             ny = json.loads((kopia / "docs" / "data.json").read_text(encoding="utf-8"))
         self.assertEqual(publicerad["organisationer"], ny["organisationer"],
-                         "docs/data.json är inte ombyggd: kör python3 bygg_sida.py <senaste rådatafil>")
+                         "docs/data.json är inte ombyggd: kör python3 bygg_sida.py <senaste ra-fil> <senaste webb-fil>")
 
     def test_varje_exempel_i_animationen_finns_i_datan(self):
         org = json.loads((ROT / "docs" / "data.json").read_text(encoding="utf-8"))["organisationer"]

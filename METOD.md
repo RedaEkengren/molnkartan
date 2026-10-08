@@ -131,3 +131,154 @@ iakttagelse men inte ändrar klassen, eftersom S1 avgör först.
 
 Siffrorna före rättelsen står kvar i `RESULTAT-sverige.md`. Rådatan är
 oförändrad; bara klassningen körs om.
+
+---
+
+# Mätning 2: Tredjepartstjänster på webbplatsen (issue #1)
+
+Skriven 2026-10-08, före all mätning av webbplatser.
+
+## Fråga
+
+Vilka externa tjänster kontaktar en besökares webbläsare när kommunens eller
+regionens startsida laddas, **innan** besökaren svarat på någon cookiebanner?
+
+## Hur
+
+- Startsidan `https://www.<domän>/` öppnas en gång i headless Chrome. Inget
+  klickas. Sidan får 10 sekunder.
+- Chromes nätverkslogg (`--log-net-log`) sparas. Bara anrop vars `initiator`
+  är ett webbursprung räknas: de startades av sidan. Chromes egen
+  bakgrundstrafik har `initiator: "not an origin"` och räknas inte.
+- Användaragenten är vanlig Chrome utan ordet "Headless", eftersom
+  samtyckesverktyg kan bete sig annorlunda mot robotar och mätningen ska visa
+  vad en vanlig besökare får.
+- **Tredjepart** = värdnamn vars registrerade domän skiljer sig från
+  organisationens domän och från värdnamnet sidan hamnade på efter
+  omdirigering.
+
+## Signaler
+
+| # | Signal |
+|---|---|
+| W1 | Tredjepartsvärdar i `src` för `script` och `iframe` i den renderade sidan |
+| W2 | Tredjepartsvärdar som sidan kontaktade före samtycke |
+
+Varje värd mappas via `leverantorer.csv` (domänsuffix → leverantör, land).
+Värdar utan mappning redovisas som "okänd leverantör".
+
+## Klassning per organisation
+
+- **US före samtycke:** minst en W2-värd mappad till en leverantör med land US.
+- **Google Analytics/Tag Manager före samtycke:** W2 innehåller
+  `google-analytics.com`, `analytics.google.com` eller `googletagmanager.com`.
+- **Bara EU/SE före samtycke:** alla mappade W2-värdar har land SE eller EU och
+  inga okända.
+- **Ingen tredjepart:** W2 är tom.
+- **Kunde inte mätas:** sidan svarade inte, eller gav HTTP-fel.
+
+## Falsifiering — måste hålla, annars publiceras inget
+
+1. **Negativ kontroll:** en tom lokal sida mäts före varje körning. Den ska ge
+   noll W2-värdar. Annars är filtret på `initiator` fel.
+2. **Positiv kontroll:** en lokal sida som laddar `googletagmanager.com/gtag/js`
+   mäts före varje körning. Den ska ge Google Analytics/Tag Manager. Annars ser
+   mätningen inte det den letar efter.
+3. **Upprepning:** Stockholms län mäts två gånger med minst 10 minuters
+   mellanrum. "US före samtycke" ska ha samma värde för minst 25 av 27.
+4. **Hållout:** `leverantorer.csv` byggs med Stockholm framför sig. Skåne mäts
+   därefter utan att listan ändras: högst 10 % av Skånes unika
+   tredjepartsvärdar får vara okända, och minst 32 av 34 ska gå att mäta.
+
+## Vad det här inte visar
+
+- En lyckad laddning i en headless webbläsare från en svensk IP-adress, vid ett
+  tillfälle. Andra sidor än startsidan mäts inte.
+- Att en tjänst kontaktas betyder inte att personuppgifter skickas, men IP-adress
+  och webbläsarinformation följer med varje anrop.
+- Om ett anrop är lagligt beror på rättslig grund och avtal, som inte syns utifrån.
+
+### Precisering — 2026-10-08, efter Stockholm (utveckling), före Skåne
+
+- **Land** i `leverantorer.csv` är där bolaget som driver tjänsten har sitt
+  säte. För publika CDN:er som körs på en annan leverantörs nät (jsDelivr,
+  unpkg, jQuery CDN) anges nätets ägare, eftersom det är dit anropet går.
+- **EU** omfattar EES (Norge, Island, Liechtenstein).
+- Ny klass **Annat land före samtycke:** inga US-värdar men minst en värd i ett
+  land utanför EU/EES, t.ex. UK. Utan den klassen hamnade sådana organisationer
+  ingenstans.
+- Värden matchas mot listan på registrerad domän eller längre suffix.
+
+Stickprov mot en vanlig Chrome (Claude in Chrome, nätverksloggen, ingen
+cookiebanner besvarad): Huddinge laddade bara egna resurser (mätningen: inga
+tredjeparter) och Danderyd laddade Google Fonts, Google Translate och gstatic
+(mätningen: samma). Stickprov är inte en del av kriteriet.
+
+## Mätning 2, version 2 — 2026-10-08, efter Skåne, före Västra Götaland
+
+**Skäl:** hållout-testet på Skåne föll (51 % okända värdar mot kravet 10 %),
+se `RESULTAT-webb.md`.
+
+- `leverantorer.csv` utökas med leverantörerna från Skåne. Värdar som inte går
+  att identifiera (t.ex. `analys.cloud`) lämnas omappade hellre än gissade.
+- **Första part** omfattar nu även registrerade domäner med samma första del
+  som organisationens domän (`helsingborg.io` för `helsingborg.se`).
+- **Nytt hållout:** Västra Götalands län, 49 kommuner och Västra
+  Götalandsregionen. Samma krav: högst 10 % okända unika tredjepartsvärdar och
+  minst 95 % mätbara.
+- Stockholm och Skåne är nu utvecklingsdata och räknas inte.
+
+## Mätning 2, version 3 — 2026-10-08, efter två fallna hållout, före Norrland
+
+**Skäl:** handskrivna leverantörslistor föll i Skåne (51 % okända) och Västra
+Götaland (28 %). Klassningen byggs därför om kring **nätet** i stället för
+bolaget, vilket går att slå upp för varje värd.
+
+### Nätet bakom varje tredjepartsvärd
+
+Under mätningen, direkt efter sidladdningen: värdens första IPv4-adress →
+ASN och registreringsland via Team Cymru (`origin.asn.cymru.com`,
+`asn.cymru.com`).
+
+**US-nät** om registreringslandet är US, **eller** om AS-namnet innehåller
+något av: AKAMAI, AMAZON, MICROSOFT, GOOGLE, CLOUDFLARE, FASTLY, DIGITALOCEAN,
+ORACLE, LINODE, EDGECAST, EDGIO, STACKPATH, INCAPSULA, IMPERVA. Skäl: flera
+amerikanska nätägare registrerar ASN genom europeiska dotterbolag (Akamai
+International B.V. är registrerat i NL).
+
+**EU/EES-nät:** registreringsland i EU/EES och inte US-nät enligt ovan.
+
+### Klassning per organisation (v3)
+
+- **US-nät före samtycke:** minst en tredjepartsvärd på US-nät.
+- **Bara EU/EES-nät före samtycke:** alla tredjepartsvärdar på EU/EES-nät.
+- **Annat nät före samtycke:** inga US-nät, minst ett utanför EU/EES.
+- **Okänt nät:** inga US-nät, minst en värd utan ASN.
+- **Ingen tredjepart** och **kunde inte mätas** som tidigare.
+
+Leverantörsnamnet från `leverantorer.csv` visas som tillägg där det finns, men
+påverkar inte klassen.
+
+### Falsifiering v3
+
+1. Negativ och positiv kontroll som tidigare.
+2. **Nätkontroll** före varje körning: `www.googletagmanager.com` ska ge US-nät
+   och `www.hetzner.com` ska ge EU/EES-nät. Annars avbryts körningen.
+3. **Hållout: Norrland** (Västernorrlands, Jämtlands, Västerbottens och
+   Norrbottens län, 48 organisationer), inte mätt tidigare. Krav: minst 95 %
+   av unika tredjepartsvärdar får ett ASN med land, och minst 95 % av
+   organisationerna går att mäta.
+4. Upprepningstestet på Stockholm (startat 16:22 UTC) gäller som tidigare.
+
+### Rättelse v3 — 2026-10-08, efter första nationella körningen
+
+1. **Landskoden `EU`.** Team Cymru anger ibland `EU` i stället för ett land för
+   RIPE-registrerade nät (t.ex. Tele2 Sverige). Regeln kände inte igen koden,
+   så sådana värdar hamnade felaktigt i "annat nät". `EU` räknas nu som EU/EES.
+2. **Startsida utan `www`.** Enköping kunde inte mätas eftersom
+   `www.enkoping.se` saknas i DNS. Om `https://www.<domän>/` inte går att nå
+   prövas `https://<domän>/`.
+
+Båda hittades vid granskning av den första nationella körningen
+(`data/webb-organisationer-sverige-2026-10-08T162242Z.json`), som behålls.
+Hela landet mäts om med rättelserna.

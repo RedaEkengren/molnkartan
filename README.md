@@ -8,6 +8,8 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 | E-post syns gå via Microsofts moln | 248 (80 %) |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
+| Webbplatsen kontaktar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
+| … varav Google Analytics/Tag Manager | 16 |
 
 Mätt 2026-10-08. Sök och filtrera på **[redaekengren.github.io/molnkartan](https://redaekengren.github.io/molnkartan/)**,
 eller läs hela tabellen i [`RESULTAT-sverige.md`](RESULTAT-sverige.md).
@@ -60,18 +62,26 @@ Metoden prövades i tre steg, och varje steg finns kvar i repot.
    entydiga svar mot kravet 85 %. [`RESULTAT-v2.md`](RESULTAT-v2.md)
 3. **Hela landet** med oförändrade regler. [`RESULTAT-sverige.md`](RESULTAT-sverige.md)
 
+Mätning 2, webbplatserna före samtycke, gick samma väg: negativ och positiv
+kontroll före varje körning, upprepningstest, och två hållout-test (Skåne,
+Västra Götaland) som **föll** för att en handskriven leverantörslista inte
+hann ikapp. Version 3 klassar efter nätet bakom varje värd i stället och höll
+på ett tredje hållout (Norrland). [`RESULTAT-webb.md`](RESULTAT-webb.md)
+
 Reglerna, signalerna och alla ändringar med datum och skäl står i
 [`METOD.md`](METOD.md). Ändringar läggs till längst ner; inget skrivs om i
 efterhand.
 
 ## Kör själv
 
-Python 3.10+ och [dnspython](https://www.dnspython.org/).
+Python 3.10+ och [dnspython](https://www.dnspython.org/). Mätning 2 kräver även Google Chrome.
 
 ```bash
 pip install dnspython
 python3 matning.py organisationer-sverige.csv     # skriver data/ra-....json
 python3 klassa_v2.py data/ra-organisationer-sverige-<tid>.json
+python3 webbmatning.py organisationer-sverige.csv    # skriver data/webb-....json
+python3 webb_klassa.py data/webb-organisationer-sverige-<tid>.json
 ```
 
 En körning för hela landet tar ett par minuter. Den gör bara publika
@@ -95,7 +105,8 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `organisationer.csv`, `organisationer-skane.csv` | Listorna för pilot och test |
 | `matning.py` | Gör uppslagen och sparar rådata |
 | `klassa.py`, `klassa_v2.py` | Tillämpar reglerna i pilot respektive v2 |
-| `data/` | Rådata med tidsstämpel, en fil per körning |
+| `webbmatning.py`, `webb_klassa.py`, `leverantorer.csv` | Mätning 2: headless Chrome, nätverkslogg, ASN per värd |
+| `data/` | Rådata med tidsstämpel, en fil per körning (`ra-` DNS, `webb-` webbplatser) |
 | `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py <rådatafil>` skriver `docs/data.json` |
 
 Rådatan sparar inte tenant-ID eller verifieringskoder. De är tekniskt publika

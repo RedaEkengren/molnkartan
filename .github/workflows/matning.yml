@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["docs/**", "data/**", "klassa*.py", "bygg_sida.py", "tests/**"]
+    paths: ["docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "tests/**"]
 
 permissions:
   contents: write
@@ -32,7 +32,8 @@ jobs:
       - name: Mät
         run: |
           fil=$(python3 matning.py organisationer-sverige.csv)
-          python3 bygg_sida.py "${fil#$PWD/}"
+          webb=$(python3 webbmatning.py organisationer-sverige.csv)
+          python3 bygg_sida.py "${fil#$PWD/}" "${webb#$PWD/}"
       - name: Committa
         run: |
           git config user.name "molnkartan-bot"

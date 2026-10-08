@@ -1,0 +1,548 @@
+{
+  "matt": "2026-10-08T161130Z",
+  "chrome": "154",
+  "kontroller": {
+    "negativ": [],
+    "positiv": [
+      "www.googletagmanager.com"
+    ]
+  },
+  "organisationer": [
+    {
+      "namn": "Botkyrka",
+      "typ": "kommun",
+      "domän": "botkyrka.se",
+      "status": 200,
+      "slutadress": "https://www.botkyrka.se/",
+      "w1": [
+        "artvise-botkyrka.uc.tele2.se",
+        "eur01.safelinks.protection.outlook.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "artvise-botkyrka.uc.tele2.se",
+        "eur01.safelinks.protection.outlook.com",
+        "plus.browsealoud.com",
+        "ssl.webserviceaward.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se",
+        "www.browsealoud.com"
+      ]
+    },
+    {
+      "namn": "Danderyd",
+      "typ": "kommun",
+      "domän": "danderyd.se",
+      "status": 200,
+      "slutadress": "https://www.danderyd.se/",
+      "w1": [
+        "cdn.jsdelivr.net",
+        "cdn.vizzit.se",
+        "cdnjs.cloudflare.com",
+        "code.jquery.com",
+        "dl.episerver.net",
+        "ssl.webserviceaward.com",
+        "tag.vizzit.se",
+        "translate.google.com",
+        "translate.googleapis.com"
+      ],
+      "w2": [
+        "cdn.jsdelivr.net",
+        "cdn.vizzit.se",
+        "cdnjs.cloudflare.com",
+        "code.jquery.com",
+        "dl.episerver.net",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "ssl.webserviceaward.com",
+        "tag.vizzit.se",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "www.gstatic.com",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Ekerö",
+      "typ": "kommun",
+      "domän": "ekero.se",
+      "status": 200,
+      "slutadress": "https://www.ekero.se/",
+      "w1": [
+        "svanalytics.containers.piwik.pro",
+        "translate.google.com",
+        "translate.googleapis.com"
+      ],
+      "w2": [
+        "fonts.gstatic.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "www.gstatic.com"
+      ]
+    },
+    {
+      "namn": "Haninge",
+      "typ": "kommun",
+      "domän": "haninge.se",
+      "status": 200,
+      "slutadress": "https://www.haninge.se/",
+      "w1": [
+        "b.delivery.consentmanager.net",
+        "cdn.consentmanager.net",
+        "js.monitor.azure.com",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "b.delivery.consentmanager.net",
+        "cdn.consentmanager.net",
+        "dc.services.visualstudio.com",
+        "dl.episerver.net",
+        "js.monitor.azure.com",
+        "static.rekai.se",
+        "view.rekai.se",
+        "www.browsealoud.com"
+      ]
+    },
+    {
+      "namn": "Huddinge",
+      "typ": "kommun",
+      "domän": "huddinge.se",
+      "status": 200,
+      "slutadress": "https://www.huddinge.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Järfälla",
+      "typ": "kommun",
+      "domän": "jarfalla.se",
+      "status": 200,
+      "slutadress": "https://www.jarfalla.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Lidingö",
+      "typ": "kommun",
+      "domän": "lidingo.se",
+      "status": 200,
+      "slutadress": "https://lidingo.se/",
+      "w1": [
+        "siteimproveanalytics.com",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "7553.global.siteimproveanalytics.io",
+        "siteimproveanalytics.com",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Nacka",
+      "typ": "kommun",
+      "domän": "nacka.se",
+      "status": 200,
+      "slutadress": "https://www.nacka.se/",
+      "w1": [
+        "az416426.vo.msecnd.net",
+        "cdn.vizzit.se",
+        "dl.episerver.net",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "az416426.vo.msecnd.net",
+        "cdn.vizzit.se",
+        "dc.services.visualstudio.com",
+        "dl.episerver.net",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Norrtälje",
+      "typ": "kommun",
+      "domän": "norrtalje.se",
+      "status": 200,
+      "slutadress": "https://www.norrtalje.se/",
+      "w1": [
+        "app-script.monsido.com",
+        "cdn.vizzit.se",
+        "dl.episerver.net",
+        "heatmaps.monsido.com",
+        "policy.app.cookieinformation.com",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "app-script.monsido.com",
+        "cdn.vizzit.se",
+        "dl.episerver.net",
+        "fast.fonts.net",
+        "heatmaps.monsido.com",
+        "policy.app.cookieinformation.com",
+        "tag.vizzit.se",
+        "tracking.monsido.com",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Nykvarn",
+      "typ": "kommun",
+      "domän": "nykvarn.se",
+      "status": 200,
+      "slutadress": "https://nykvarn.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Nynäshamn",
+      "typ": "kommun",
+      "domän": "nynashamn.se",
+      "status": 200,
+      "slutadress": "https://nynashamn.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "tag.vizzit.se",
+        "use-nynashamn-ext.sitevision.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Salem",
+      "typ": "kommun",
+      "domän": "salem.se",
+      "status": 200,
+      "slutadress": "https://www.salem.se/",
+      "w1": [
+        "cdn-eu.readspeaker.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "cdn-eu.readspeaker.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Sigtuna",
+      "typ": "kommun",
+      "domän": "sigtuna.se",
+      "status": 200,
+      "slutadress": "https://www.sigtuna.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "s3-bestevent-prod.innocode.dev",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Sollentuna",
+      "typ": "kommun",
+      "domän": "sollentuna.se",
+      "status": 200,
+      "slutadress": "https://www.sollentuna.se/",
+      "w1": [
+        "apiv2.imbox.io",
+        "cdn.vizzit.se",
+        "dl.episerver.net",
+        "files.imbox.io",
+        "js.monitor.azure.com",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "widget-launcher.imbox.io",
+        "widget.imbox.io"
+      ],
+      "w2": [
+        "apiv2.imbox.io",
+        "cdn.vizzit.se",
+        "dc.services.visualstudio.com",
+        "dl.episerver.net",
+        "files.imbox.io",
+        "fonts.googleapis.com",
+        "js.monitor.azure.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "triggers-v3.imbox.io",
+        "view.rekai.se",
+        "widget-launcher.imbox.io",
+        "widget.imbox.io",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Solna",
+      "typ": "kommun",
+      "domän": "solna.se",
+      "status": 200,
+      "slutadress": "https://www.solna.se/",
+      "w1": [
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "www.vizzit.se"
+      ],
+      "w2": [
+        "f1-eu.readspeaker.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Stockholm",
+      "typ": "kommun",
+      "domän": "stockholm.se",
+      "status": 200,
+      "slutadress": "https://start.stockholm/",
+      "w1": [
+        "stockholm.containers.piwik.pro"
+      ],
+      "w2": [
+        "stockholm.containers.piwik.pro"
+      ]
+    },
+    {
+      "namn": "Sundbyberg",
+      "typ": "kommun",
+      "domän": "sundbyberg.se",
+      "status": 200,
+      "slutadress": "https://www.sundbyberg.se/",
+      "w1": [
+        "ssl.webserviceaward.com",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "ssl.webserviceaward.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ]
+    },
+    {
+      "namn": "Södertälje",
+      "typ": "kommun",
+      "domän": "sodertalje.se",
+      "status": 200,
+      "slutadress": "https://www.sodertalje.se/",
+      "w1": [
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "digitalfeedback.euro.confirmit.com",
+        "insipio.com",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "digitalfeedback.euro.confirmit.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "insipio.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Tyresö",
+      "typ": "kommun",
+      "domän": "tyreso.se",
+      "status": 200,
+      "slutadress": "https://www.tyreso.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "chat2.zisson.se",
+        "f1-eu.readspeaker.com",
+        "hello.myfonts.net",
+        "skravle.zisson.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Täby",
+      "typ": "kommun",
+      "domän": "taby.se",
+      "status": 200,
+      "slutadress": "https://www.taby.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Upplands-Bro",
+      "typ": "kommun",
+      "domän": "upplands-bro.se",
+      "status": 200,
+      "slutadress": "https://www.upplands-bro.se/",
+      "w1": [
+        "artvise-ubk.uc.tele2.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "artvise-ubk.uc.tele2.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Upplands Väsby",
+      "typ": "kommun",
+      "domän": "upplandsvasby.se",
+      "status": 200,
+      "slutadress": "https://www.upplandsvasby.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Vallentuna",
+      "typ": "kommun",
+      "domän": "vallentuna.se",
+      "status": 200,
+      "slutadress": "https://www.vallentuna.se/",
+      "w1": [
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Vaxholm",
+      "typ": "kommun",
+      "domän": "vaxholm.se",
+      "status": 200,
+      "slutadress": "https://www.vaxholm.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Värmdö",
+      "typ": "kommun",
+      "domän": "varmdo.se",
+      "status": 200,
+      "slutadress": "https://www.varmdo.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "unpkg.com"
+      ],
+      "w2": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "unpkg.com",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Österåker",
+      "typ": "kommun",
+      "domän": "osteraker.se",
+      "status": 200,
+      "slutadress": "https://www.osteraker.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Region Stockholm",
+      "typ": "region",
+      "domän": "regionstockholm.se",
+      "status": 200,
+      "slutadress": "https://www.regionstockholm.se/",
+      "w1": [],
+      "w2": []
+    }
+  ]
+}

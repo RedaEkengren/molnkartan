@@ -1,0 +1,2534 @@
+{
+  "matt": "2026-10-08T162106Z",
+  "chrome": "154",
+  "kontroller": {
+    "negativ": [],
+    "positiv": [
+      "www.googletagmanager.com"
+    ],
+    "nat": {
+      "www.googletagmanager.com": "US",
+      "www.hetzner.com": "EU/EES"
+    }
+  },
+  "organisationer": [
+    {
+      "namn": "Ånge",
+      "typ": "kommun",
+      "domän": "ange.se",
+      "status": 200,
+      "slutadress": "https://www.ange.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "scontent-arn2-1.cdninstagram.com",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "f1-eu.readspeaker.com": {
+          "ip": "185.76.9.27",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "scontent-arn2-1.cdninstagram.com": {
+          "ip": "31.13.72.53",
+          "asn": "32934",
+          "land": "US",
+          "namn": "FACEBOOK - Facebook, Inc., US",
+          "nat": "US"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Timrå",
+      "typ": "kommun",
+      "domän": "timra.se",
+      "status": 200,
+      "slutadress": "https://www.timra.se/",
+      "w1": [
+        "ajax.googleapis.com",
+        "siteimproveanalytics.com",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "8042.global.siteimproveanalytics.io",
+        "ajax.googleapis.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "siteimproveanalytics.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ],
+      "natverk": {
+        "8042.global.siteimproveanalytics.io": {
+          "ip": "51.21.8.194",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "ajax.googleapis.com": {
+          "ip": "172.217.20.170",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "siteimproveanalytics.com": {
+          "ip": "188.114.96.1",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Härnösand",
+      "typ": "kommun",
+      "domän": "harnosand.se",
+      "status": 200,
+      "slutadress": "https://harnosand.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "se.sms-service.dk",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "tag.vizzit.se",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "plus.browsealoud.com",
+        "predict.rekai.se",
+        "se.sms-service.dk",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.browsealoud.com",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.5",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "se.sms-service.dk": {
+          "ip": "51.120.98.194",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.106",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Sundsvall",
+      "typ": "kommun",
+      "domän": "sundsvall.se",
+      "status": 200,
+      "slutadress": "https://sundsvall.se/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    },
+    {
+      "namn": "Kramfors",
+      "typ": "kommun",
+      "domän": "kramfors.se",
+      "status": 200,
+      "slutadress": "https://www.kramfors.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Sollefteå",
+      "typ": "kommun",
+      "domän": "solleftea.se",
+      "status": 200,
+      "slutadress": "https://www.solleftea.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Örnsköldsvik",
+      "typ": "kommun",
+      "domän": "ornskoldsvik.se",
+      "status": 200,
+      "slutadress": "https://www.ornskoldsvik.se/",
+      "w1": [
+        "scripts.clarity.ms",
+        "storage.gra.cloud.ovh.net",
+        "svanalytics.containers.piwik.pro",
+        "www.clarity.ms"
+      ],
+      "w2": [
+        "e.clarity.ms",
+        "ebbot.eu",
+        "scripts.clarity.ms",
+        "storage.gra.cloud.ovh.net",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "www.clarity.ms"
+      ],
+      "natverk": {
+        "e.clarity.ms": {
+          "ip": "20.57.85.160",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "ebbot.eu": {
+          "ip": "51.210.39.143",
+          "asn": "16276",
+          "land": "FR",
+          "namn": "OVH - OVH SAS, FR",
+          "nat": "EU/EES"
+        },
+        "scripts.clarity.ms": {
+          "ip": "150.171.110.3",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "storage.gra.cloud.ovh.net": {
+          "ip": "54.38.230.75",
+          "asn": "16276",
+          "land": "FR",
+          "namn": "OVH - OVH SAS, FR",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.clarity.ms": {
+          "ip": "20.250.198.32",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Ragunda",
+      "typ": "kommun",
+      "domän": "ragunda.se",
+      "status": 200,
+      "slutadress": "https://www.ragunda.se/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    },
+    {
+      "namn": "Bräcke",
+      "typ": "kommun",
+      "domän": "bracke.se",
+      "status": 200,
+      "slutadress": "https://www.bracke.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Krokom",
+      "typ": "kommun",
+      "domän": "krokom.se",
+      "status": 200,
+      "slutadress": "https://www.krokom.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Strömsund",
+      "typ": "kommun",
+      "domän": "stromsund.se",
+      "status": 200,
+      "slutadress": "https://www.stromsund.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "tag.vizzit.se",
+        "www.klart.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "tag.vizzit.se",
+        "www.klart.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "f1-eu.readspeaker.com": {
+          "ip": "185.76.9.27",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.klart.se": {
+          "ip": "65.9.62.60",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Åre",
+      "typ": "kommun",
+      "domän": "are.se",
+      "status": 200,
+      "slutadress": "https://www.are.se/",
+      "w1": [
+        "static.rekai.se"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Berg",
+      "typ": "kommun",
+      "domän": "berg.se",
+      "status": 200,
+      "slutadress": "https://berg.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "plus.browsealoud.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.browsealoud.com",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.72",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.111",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Härjedalen",
+      "typ": "kommun",
+      "domän": "herjedalen.se",
+      "status": 200,
+      "slutadress": "https://www.herjedalen.se/",
+      "w1": [
+        "acsbapp.com",
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "acsbapp.com",
+        "cdn.acsbapp.com",
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "acsbapp.com": {
+          "ip": "104.20.47.8",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.acsbapp.com": {
+          "ip": "104.20.47.8",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "f1-eu.readspeaker.com": {
+          "ip": "185.76.9.12",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Östersund",
+      "typ": "kommun",
+      "domän": "ostersund.se",
+      "status": 200,
+      "slutadress": "https://www.ostersund.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "storage.gra.cloud.ovh.net",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "ebbot.eu",
+        "storage.gra.cloud.ovh.net",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "ebbot.eu": {
+          "ip": "51.210.39.143",
+          "asn": "16276",
+          "land": "FR",
+          "namn": "OVH - OVH SAS, FR",
+          "nat": "EU/EES"
+        },
+        "storage.gra.cloud.ovh.net": {
+          "ip": "87.98.187.201",
+          "asn": "16276",
+          "land": "FR",
+          "namn": "OVH - OVH SAS, FR",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Nordmaling",
+      "typ": "kommun",
+      "domän": "nordmaling.se",
+      "status": 200,
+      "slutadress": "https://www.nordmaling.se/",
+      "w1": [
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "plus.browsealoud.com",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.72",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.106",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Bjurholm",
+      "typ": "kommun",
+      "domän": "bjurholm.se",
+      "status": 200,
+      "slutadress": "https://www.bjurholm.se/",
+      "w1": [
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "plus.browsealoud.com",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.111",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Vindeln",
+      "typ": "kommun",
+      "domän": "vindeln.se",
+      "status": 200,
+      "slutadress": "https://www.vindeln.se/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    },
+    {
+      "namn": "Robertsfors",
+      "typ": "kommun",
+      "domän": "robertsfors.se",
+      "status": 200,
+      "slutadress": "https://www.robertsfors.se/",
+      "w1": [
+        "customer.simpliform.se"
+      ],
+      "w2": [
+        "customer.simpliform.se"
+      ],
+      "natverk": {
+        "customer.simpliform.se": {
+          "ip": null
+        }
+      }
+    },
+    {
+      "namn": "Norsjö",
+      "typ": "kommun",
+      "domän": "norsjo.se",
+      "status": 200,
+      "slutadress": "https://norsjo.se/",
+      "w1": [
+        "app.talkie.se",
+        "cdn.socket.io",
+        "js.widget.talkie.se",
+        "www.browsealoud.com",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "app.talkie.se",
+        "avatar.assets.talkie.se",
+        "cdn.socket.io",
+        "chat-widget-icon.assets.talkie.se",
+        "fonts.googleapis.com",
+        "js.widget.talkie.se",
+        "p.typekit.net",
+        "plus.browsealoud.com",
+        "use.typekit.net",
+        "widget.assets.talkie.se",
+        "www.browsealoud.com",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ],
+      "natverk": {
+        "app.talkie.se": {
+          "ip": "193.122.60.91",
+          "asn": "31898",
+          "land": "US",
+          "namn": "ORACLE-BMC-31898 - Oracle Corporation, US",
+          "nat": "US"
+        },
+        "avatar.assets.talkie.se": {
+          "ip": "35.217.20.82",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "cdn.socket.io": {
+          "ip": "108.156.60.48",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "chat-widget-icon.assets.talkie.se": {
+          "ip": "35.217.20.82",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "js.widget.talkie.se": {
+          "ip": "193.122.60.91",
+          "asn": "31898",
+          "land": "US",
+          "namn": "ORACLE-BMC-31898 - Oracle Corporation, US",
+          "nat": "US"
+        },
+        "p.typekit.net": {
+          "ip": "23.215.2.101",
+          "asn": "20940",
+          "land": "NL",
+          "namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+          "nat": "US"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "use.typekit.net": {
+          "ip": "23.215.2.100",
+          "asn": "20940",
+          "land": "NL",
+          "namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+          "nat": "US"
+        },
+        "widget.assets.talkie.se": {
+          "ip": "35.217.20.82",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.81",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.google-analytics.com": {
+          "ip": "172.217.20.174",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "www.googletagmanager.com": {
+          "ip": "172.217.20.168",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Malå",
+      "typ": "kommun",
+      "domän": "mala.se",
+      "status": 200,
+      "slutadress": "https://www.mala.se/",
+      "w1": [
+        "cdn-cookieyes.com",
+        "cdn.gtranslate.net",
+        "prod.e-srv.se",
+        "translate.google.com"
+      ],
+      "w2": [
+        "ajax.googleapis.com",
+        "cdn-cookieyes.com",
+        "cdn.gtranslate.net",
+        "log.cookieyes.com",
+        "prod.e-srv.se",
+        "use.fontawesome.com"
+      ],
+      "natverk": {
+        "ajax.googleapis.com": {
+          "ip": "172.217.20.170",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "cdn-cookieyes.com": {
+          "ip": "104.18.18.62",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.gtranslate.net": {
+          "ip": "172.67.68.204",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "log.cookieyes.com": {
+          "ip": "104.18.23.56",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "prod.e-srv.se": {
+          "ip": "213.212.42.49",
+          "asn": "12552",
+          "land": "SE",
+          "namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+          "nat": "EU/EES"
+        },
+        "use.fontawesome.com": {
+          "ip": "172.67.142.245",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Storuman",
+      "typ": "kommun",
+      "domän": "storuman.se",
+      "status": 200,
+      "slutadress": "https://www.storuman.se/",
+      "w1": [
+        "prod.e-srv.se",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "prod.e-srv.se",
+        "use.fontawesome.com",
+        "www.google-analytics.com"
+      ],
+      "natverk": {
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "prod.e-srv.se": {
+          "ip": "213.212.42.49",
+          "asn": "12552",
+          "land": "SE",
+          "namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+          "nat": "EU/EES"
+        },
+        "use.fontawesome.com": {
+          "ip": "172.67.142.245",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "www.google-analytics.com": {
+          "ip": "172.217.20.174",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Sorsele",
+      "typ": "kommun",
+      "domän": "sorsele.se",
+      "status": 200,
+      "slutadress": "https://portal.sorsele.se/",
+      "w1": [
+        "cse.google.com"
+      ],
+      "w2": [
+        "www.youtube.com"
+      ],
+      "natverk": {
+        "www.youtube.com": {
+          "ip": "142.251.151.4",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Dorotea",
+      "typ": "kommun",
+      "domän": "dorotea.se",
+      "status": 200,
+      "slutadress": "https://www.dorotea.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "js.monitor.azure.com"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "js.monitor.azure.com",
+        "swedencentral-0.in.applicationinsights.azure.com"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "js.monitor.azure.com": {
+          "ip": "150.171.109.198",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "swedencentral-0.in.applicationinsights.azure.com": {
+          "ip": "20.91.146.66",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Vännäs",
+      "typ": "kommun",
+      "domän": "vannas.se",
+      "status": 200,
+      "slutadress": "https://www.vannas.se/",
+      "w1": [
+        "static.rekai.se",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "plus.browsealoud.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.81",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Vilhelmina",
+      "typ": "kommun",
+      "domän": "vilhelmina.se",
+      "status": 200,
+      "slutadress": "https://www.vilhelmina.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "cdn.matomo.cloud",
+        "js.monitor.azure.com",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "cdn.matomo.cloud",
+        "js.monitor.azure.com",
+        "northeurope-2.in.applicationinsights.azure.com",
+        "plus.browsealoud.com",
+        "vilhelmina.matomo.cloud",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "cdn.matomo.cloud": {
+          "ip": "108.156.22.106",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "js.monitor.azure.com": {
+          "ip": "150.171.109.197",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "northeurope-2.in.applicationinsights.azure.com": {
+          "ip": "20.38.80.68",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "vilhelmina.matomo.cloud": {
+          "ip": "18.157.122.248",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.111",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Åsele",
+      "typ": "kommun",
+      "domän": "asele.se",
+      "status": 200,
+      "slutadress": "https://www.asele.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "js.monitor.azure.com",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "js.monitor.azure.com",
+        "swedencentral-0.in.applicationinsights.azure.com"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "js.monitor.azure.com": {
+          "ip": "150.171.109.198",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "swedencentral-0.in.applicationinsights.azure.com": {
+          "ip": "20.91.146.66",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Umeå",
+      "typ": "kommun",
+      "domän": "umea.se",
+      "status": 200,
+      "slutadress": "https://www.umea.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "insipio.com",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "alltomvasterbotten.se",
+        "cdn.vizzit.se",
+        "insipio.com",
+        "tag.vizzit.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "alltomvasterbotten.se": {
+          "ip": "193.0.253.27",
+          "asn": "41980",
+          "land": "SE",
+          "namn": "WEBBKONSULTERNA-AS - Webbkonsulterna i Jamtland AB, SE",
+          "nat": "EU/EES"
+        },
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "insipio.com": {
+          "ip": "158.174.98.163",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Lycksele",
+      "typ": "kommun",
+      "domän": "lycksele.se",
+      "status": 200,
+      "slutadress": "https://www.lycksele.se/",
+      "w1": [],
+      "w2": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ],
+      "natverk": {
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Skellefteå",
+      "typ": "kommun",
+      "domän": "skelleftea.se",
+      "status": 200,
+      "slutadress": "https://skelleftea.se/",
+      "w1": [
+        "skelleftea.cruncho.co",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "api-ts.cruncho.co",
+        "p.typekit.net",
+        "plus.browsealoud.com",
+        "skelleftea.cruncho.co",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "use.typekit.net",
+        "view.rekai.se",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "api-ts.cruncho.co": {
+          "ip": "164.90.241.71",
+          "asn": "14061",
+          "land": "US",
+          "namn": "DIGITALOCEAN-ASN - DigitalOcean, LLC, US",
+          "nat": "US"
+        },
+        "p.typekit.net": {
+          "ip": "23.215.2.101",
+          "asn": "20940",
+          "land": "NL",
+          "namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+          "nat": "US"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "skelleftea.cruncho.co": {
+          "ip": "164.90.241.71",
+          "asn": "14061",
+          "land": "US",
+          "namn": "DIGITALOCEAN-ASN - DigitalOcean, LLC, US",
+          "nat": "US"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "use.typekit.net": {
+          "ip": "23.215.2.100",
+          "asn": "20940",
+          "land": "NL",
+          "namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+          "nat": "US"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.81",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Arvidsjaur",
+      "typ": "kommun",
+      "domän": "arvidsjaur.se",
+      "status": 200,
+      "slutadress": "https://arvidsjaur.se/",
+      "w1": [
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ],
+      "natverk": {
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Arjeplog",
+      "typ": "kommun",
+      "domän": "arjeplog.se",
+      "status": 200,
+      "slutadress": "https://arjeplog.se/",
+      "w1": [
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "plus.browsealoud.com",
+        "www.arjeploglapland.se",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.53",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.arjeploglapland.se": {
+          "ip": "13.53.100.113",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.81",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Jokkmokk",
+      "typ": "kommun",
+      "domän": "jokkmokk.se",
+      "status": 200,
+      "slutadress": "https://www.jokkmokk.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "jokkmokk.containers.piwik.pro"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "jokkmokk.containers.piwik.pro",
+        "jokkmokk.piwik.pro"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "jokkmokk.containers.piwik.pro": {
+          "ip": "217.61.247.8",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "jokkmokk.piwik.pro": {
+          "ip": "217.61.247.8",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Överkalix",
+      "typ": "kommun",
+      "domän": "overkalix.se",
+      "status": 200,
+      "slutadress": "https://www.overkalix.se/",
+      "w1": [
+        "cdn.cookietractor.com",
+        "cdn.jsdelivr.net",
+        "cdn1.readspeaker.com",
+        "code.jquery.com",
+        "maps.googleapis.com",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "cdn.cookietractor.com",
+        "cdn.jsdelivr.net",
+        "cdn1.readspeaker.com",
+        "code.jquery.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "maps.googleapis.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "cdn.cookietractor.com": {
+          "ip": "172.67.74.174",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.jsdelivr.net": {
+          "ip": "151.101.193.229",
+          "asn": "54113",
+          "land": "US",
+          "namn": "FASTLY - Fastly, Inc., US",
+          "nat": "US"
+        },
+        "cdn1.readspeaker.com": {
+          "ip": "185.76.9.12",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "code.jquery.com": {
+          "ip": "151.101.65.155",
+          "asn": "54113",
+          "land": "US",
+          "namn": "FASTLY - Fastly, Inc., US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "maps.googleapis.com": {
+          "ip": "172.217.113.4",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Kalix",
+      "typ": "kommun",
+      "domän": "kalix.se",
+      "status": 200,
+      "slutadress": "https://www.kalix.se/",
+      "w1": [
+        "acsbapp.com",
+        "cdn.cookietractor.com",
+        "code.jquery.com",
+        "customer.cludo.com",
+        "static.rekai.se",
+        "streamio.com",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "acsbapp.com",
+        "api.cludo.com",
+        "cdn-gdpr.radiantmediatechs.com",
+        "cdn.acsbapp.com",
+        "cdn.cookietractor.com",
+        "cdn0-70011-odedge0.dna.contentdelivery.net",
+        "cfiles.streamio.com",
+        "code.jquery.com",
+        "customer.cludo.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "streamio.com",
+        "view.rekai.se",
+        "www.gstatic.com"
+      ],
+      "natverk": {
+        "acsbapp.com": {
+          "ip": "104.20.47.8",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "api.cludo.com": {
+          "ip": "3.121.8.7",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "cdn-gdpr.radiantmediatechs.com": {
+          "ip": "54.37.30.50",
+          "asn": "16276",
+          "land": "FR",
+          "namn": "OVH - OVH SAS, FR",
+          "nat": "EU/EES"
+        },
+        "cdn.acsbapp.com": {
+          "ip": "104.20.47.8",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.cookietractor.com": {
+          "ip": "172.67.74.174",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn0-70011-odedge0.dna.contentdelivery.net": {
+          "ip": "194.14.242.50",
+          "asn": "12552",
+          "land": "SE",
+          "namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+          "nat": "EU/EES"
+        },
+        "cfiles.streamio.com": {
+          "ip": "194.169.225.210",
+          "asn": "49232",
+          "land": "SE",
+          "namn": "RACKFISH - Rackfish AB, SE",
+          "nat": "EU/EES"
+        },
+        "code.jquery.com": {
+          "ip": "151.101.1.155",
+          "asn": "54113",
+          "land": "US",
+          "namn": "FASTLY - Fastly, Inc., US",
+          "nat": "US"
+        },
+        "customer.cludo.com": {
+          "ip": "108.157.214.37",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "streamio.com": {
+          "ip": "194.169.225.25",
+          "asn": "49232",
+          "land": "SE",
+          "namn": "RACKFISH - Rackfish AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.gstatic.com": {
+          "ip": "142.251.143.131",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Övertorneå",
+      "typ": "kommun",
+      "domän": "overtornea.se",
+      "status": 200,
+      "slutadress": "https://overtornea.se/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    },
+    {
+      "namn": "Pajala",
+      "typ": "kommun",
+      "domän": "pajala.se",
+      "status": 200,
+      "slutadress": "https://www.pajala.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "code.jquery.com",
+        "maps.googleapis.com",
+        "www.browsealoud.com",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "code.jquery.com",
+        "fonts.googleapis.com",
+        "maps.googleapis.com",
+        "plus.browsealoud.com",
+        "region1.google-analytics.com",
+        "www.browsealoud.com",
+        "www.googletagmanager.com"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "code.jquery.com": {
+          "ip": "151.101.129.155",
+          "asn": "54113",
+          "land": "US",
+          "namn": "FASTLY - Fastly, Inc., US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "maps.googleapis.com": {
+          "ip": "172.217.117.4",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.129",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "region1.google-analytics.com": {
+          "ip": "216.239.32.36",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.29",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.googletagmanager.com": {
+          "ip": "172.217.20.168",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Gällivare",
+      "typ": "kommun",
+      "domän": "gellivare.se",
+      "status": "fel: URLError: <urlopen error timed out>"
+    },
+    {
+      "namn": "Älvsbyn",
+      "typ": "kommun",
+      "domän": "alvsbyn.se",
+      "status": 200,
+      "slutadress": "https://www.alvsbyn.se/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    },
+    {
+      "namn": "Luleå",
+      "typ": "kommun",
+      "domän": "lulea.se",
+      "status": 200,
+      "slutadress": "https://www.lulea.se/",
+      "w1": [
+        "static.rekai.se"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Piteå",
+      "typ": "kommun",
+      "domän": "pitea.se",
+      "status": 200,
+      "slutadress": "https://www.pitea.se/",
+      "w1": [
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "play.mediaflow.com"
+      ],
+      "w2": [
+        "assets.mediaflowpro.com",
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "im16.inviewer.se",
+        "m.mediaflow.com",
+        "mfstatic.com",
+        "play.mediaflow.com",
+        "v6.mediaflow.com"
+      ],
+      "natverk": {
+        "assets.mediaflowpro.com": {
+          "ip": "178.174.209.211",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "consent.cookiebot.com": {
+          "ip": "95.100.107.94",
+          "asn": "20940",
+          "land": "NL",
+          "namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+          "nat": "US"
+        },
+        "consentcdn.cookiebot.com": {
+          "ip": "23.210.168.91",
+          "asn": "16625",
+          "land": "US",
+          "namn": "AKAMAI-AS - Akamai Technologies, Inc., US",
+          "nat": "US"
+        },
+        "im16.inviewer.se": {
+          "ip": "178.174.209.211",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "m.mediaflow.com": {
+          "ip": "46.246.31.2",
+          "asn": "42708",
+          "land": "SE",
+          "namn": "GLESYS - Glesys AB, SE",
+          "nat": "EU/EES"
+        },
+        "mfstatic.com": {
+          "ip": "146.247.178.19",
+          "asn": "12552",
+          "land": "SE",
+          "namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+          "nat": "EU/EES"
+        },
+        "play.mediaflow.com": {
+          "ip": "146.247.178.20",
+          "asn": "12552",
+          "land": "SE",
+          "namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+          "nat": "EU/EES"
+        },
+        "v6.mediaflow.com": {
+          "ip": "46.21.98.98",
+          "asn": "42708",
+          "land": "SE",
+          "namn": "GLESYS - Glesys AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Boden",
+      "typ": "kommun",
+      "domän": "boden.se",
+      "status": 200,
+      "slutadress": "https://boden.se/",
+      "w1": [
+        "cdn-cookieyes.com",
+        "cdn.matomo.cloud",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "a.eu.silktide.com",
+        "boden.matomo.cloud",
+        "cdn-cookieyes.com",
+        "cdn.matomo.cloud",
+        "log.cookieyes.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "a.eu.silktide.com": {
+          "ip": "18.200.219.176",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "boden.matomo.cloud": {
+          "ip": "18.157.122.248",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "cdn-cookieyes.com": {
+          "ip": "104.18.18.62",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "cdn.matomo.cloud": {
+          "ip": "108.156.22.106",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "log.cookieyes.com": {
+          "ip": "104.18.23.56",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "predict.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Haparanda",
+      "typ": "kommun",
+      "domän": "haparanda.se",
+      "status": 200,
+      "slutadress": "https://www.haparanda.se/",
+      "w1": [
+        "cdn.ontame.io",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "cdn.ontame.io",
+        "collector.ontame.io",
+        "static.rekai.se",
+        "view.rekai.se"
+      ],
+      "natverk": {
+        "cdn.ontame.io": {
+          "ip": "18.239.50.11",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "collector.ontame.io": {
+          "ip": "34.246.114.47",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Kiruna",
+      "typ": "kommun",
+      "domän": "kiruna.se",
+      "status": "fel: sidan laddade inte klart inom 60 s",
+      "slutadress": "https://kiruna.se/"
+    },
+    {
+      "namn": "Region Västernorrland",
+      "typ": "region",
+      "domän": "rvn.se",
+      "status": 200,
+      "slutadress": "https://www.rvn.se/",
+      "w1": [
+        "cdn.jsdelivr.net",
+        "dl.episerver.net",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "cdn.jsdelivr.net",
+        "dl.episerver.net",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "plus.browsealoud.com",
+        "www.browsealoud.com"
+      ],
+      "natverk": {
+        "cdn.jsdelivr.net": {
+          "ip": "151.101.1.229",
+          "asn": "54113",
+          "land": "US",
+          "namn": "FASTLY - Fastly, Inc., US",
+          "nat": "US"
+        },
+        "dl.episerver.net": {
+          "ip": "104.18.36.168",
+          "asn": "13335",
+          "land": "US",
+          "namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "nat": "US"
+        },
+        "fonts.googleapis.com": {
+          "ip": "142.251.38.106",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "fonts.gstatic.com": {
+          "ip": "172.217.19.227",
+          "asn": "15169",
+          "land": "US",
+          "namn": "GOOGLE - Google LLC, US",
+          "nat": "US"
+        },
+        "plus.browsealoud.com": {
+          "ip": "18.238.243.5",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        },
+        "www.browsealoud.com": {
+          "ip": "3.173.161.81",
+          "asn": "16509",
+          "land": "US",
+          "namn": "AMAZON-02 - Amazon.com, Inc., US",
+          "nat": "US"
+        }
+      }
+    },
+    {
+      "namn": "Region Jämtland Härjedalen",
+      "typ": "region",
+      "domän": "regionjh.se",
+      "status": 200,
+      "slutadress": "https://www.regionjh.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ],
+      "natverk": {
+        "cdn.vizzit.se": {
+          "ip": "193.234.47.14",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "static.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "tag.vizzit.se": {
+          "ip": "193.234.47.11",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "view.rekai.se": {
+          "ip": "103.81.140.95",
+          "asn": "42695",
+          "land": "SE",
+          "namn": "CLEURA - Cleura AB, SE",
+          "nat": "EU/EES"
+        },
+        "www.vizzit.se": {
+          "ip": "193.234.47.10",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Region Västerbotten",
+      "typ": "region",
+      "domän": "regionvasterbotten.se",
+      "status": 200,
+      "slutadress": "https://www.regionvasterbotten.se/",
+      "w1": [
+        "cdn-eu.cookietractor.com",
+        "spoxy4.insipio.com",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "cdn-eu.cookietractor.com",
+        "spoxy4.insipio.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ],
+      "natverk": {
+        "cdn-eu.cookietractor.com": {
+          "ip": "195.181.166.158",
+          "asn": "60068",
+          "land": "GB",
+          "namn": "CDN77 - Datacamp Limited, GB",
+          "nat": "annat"
+        },
+        "spoxy4.insipio.com": {
+          "ip": "158.174.98.164",
+          "asn": "8473",
+          "land": "SE",
+          "namn": "BAHNHOF - Bahnhof AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.containers.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        },
+        "svanalytics.piwik.pro": {
+          "ip": "88.80.0.132",
+          "asn": "48579",
+          "land": "SE",
+          "namn": "ELASTX - ELASTX AB, SE",
+          "nat": "EU/EES"
+        }
+      }
+    },
+    {
+      "namn": "Region Norrbotten",
+      "typ": "region",
+      "domän": "norrbotten.se",
+      "status": 200,
+      "slutadress": "https://www.norrbotten.se/",
+      "w1": [
+        "js.monitor.azure.com"
+      ],
+      "w2": [
+        "js.monitor.azure.com",
+        "swedencentral-0.in.applicationinsights.azure.com"
+      ],
+      "natverk": {
+        "js.monitor.azure.com": {
+          "ip": "150.171.109.197",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        },
+        "swedencentral-0.in.applicationinsights.azure.com": {
+          "ip": "20.91.146.66",
+          "asn": "8075",
+          "land": "US",
+          "namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+          "nat": "US"
+        }
+      }
+    }
+  ]
+}

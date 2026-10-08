@@ -19,6 +19,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -48,6 +54,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx.vallentuna.se",
@@ -74,6 +86,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -102,6 +120,16 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "unpkg.com"
+    ],
+    "usLeverantorer": [
+     "unpkg"
+    ]
+   },
    "svar": {
     "mx": [
      "varmdo-se.mail.protection.outlook.com"
@@ -127,6 +155,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -157,6 +191,19 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "ekero-se.mail.protection.outlook.com"
@@ -182,6 +229,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -209,6 +262,19 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "eur01.safelinks.protection.outlook.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "botkyrka-se.mail.protection.outlook.com"
@@ -234,6 +300,17 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -265,6 +342,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "js.monitor.azure.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Optimizely",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "haninge-se.mail.protection.outlook.com"
@@ -290,6 +382,19 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "chat2.zisson.se",
+     "hello.myfonts.net",
+     "skravle.zisson.se"
+    ],
+    "usLeverantorer": [
+     "Monotype",
+     "Zisson"
+    ]
    },
    "svar": {
     "mx": [
@@ -317,6 +422,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "upplandsbro-se02b.mail.protection.outlook.com"
@@ -342,6 +453,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -372,6 +489,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "taby-se.mail.protection.outlook.com"
@@ -398,6 +521,28 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "Optimizely",
+     "jQuery CDN",
+     "jsDelivr"
+    ]
+   },
    "svar": {
     "mx": [
      "danderyd-se.mail.protection.outlook.com"
@@ -423,6 +568,27 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "apiv2.imbox.io",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "files.imbox.io",
+     "fonts.googleapis.com",
+     "js.monitor.azure.com",
+     "triggers-v3.imbox.io",
+     "widget-launcher.imbox.io",
+     "widget.imbox.io"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Imbox",
+     "Microsoft",
+     "Optimizely"
+    ]
    },
    "svar": {
     "mx": [
@@ -453,6 +619,12 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "uxantispam001.stockholm.se",
@@ -480,6 +652,22 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "digitalfeedback.euro.confirmit.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Forsta (Confirmit)",
+     "Google",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
    "svar": {
     "mx": [
      "sodertalje-se.mail.protection.outlook.com"
@@ -505,6 +693,19 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "az416426.vo.msecnd.net",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Optimizely"
+    ]
    },
    "svar": {
     "mx": [
@@ -532,6 +733,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "sundbyberg-se.mail.protection.outlook.com"
@@ -557,6 +764,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -584,6 +797,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7553.global.siteimproveanalytics.io",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove"
+    ]
+   },
    "svar": {
     "mx": [
      "lidingo-se.mail.protection.outlook.com"
@@ -609,6 +833,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -636,6 +866,24 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "app-script.monsido.com",
+     "dl.episerver.net",
+     "fast.fonts.net",
+     "heatmaps.monsido.com",
+     "policy.app.cookieinformation.com",
+     "tracking.monsido.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Monotype",
+     "Monsido",
+     "Optimizely"
+    ]
+   },
    "svar": {
     "mx": [
      "norrtalje-se.mail.protection.outlook.com"
@@ -661,6 +909,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "s3-bestevent-prod.innocode.dev"
+    ],
+    "usLeverantorer": [
+     "Innocode"
+    ]
    },
    "svar": {
     "mx": [
@@ -689,6 +947,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "okänt nät",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "nynashamn-se.mail.protection.outlook.com"
@@ -714,6 +978,23 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "maxcdn.bootstrapcdn.com",
+     "se1.siteimprove.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Siteimprove",
+     "bootstrapcdn.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -741,6 +1022,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -766,6 +1053,24 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "digitalfeedback.euro.confirmit.com",
+     "fonts.gstatic.com",
+     "plus.browsealoud.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.browsealoud.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Forsta (Confirmit)",
+     "Google",
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -793,6 +1098,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -818,6 +1129,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -845,6 +1162,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net"
+    ],
+    "usLeverantorer": [
+     "jsDelivr"
+    ]
+   },
    "svar": {
     "mx": [
      "uppsala-se.mail.protection.outlook.com"
@@ -870,6 +1197,23 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "maxcdn.bootstrapcdn.com",
+     "p.typekit.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Google",
+     "bootstrapcdn.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -897,6 +1241,16 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "service2.mtcaptcha.com"
+    ],
+    "usLeverantorer": [
+     "mtcaptcha.com"
+    ]
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -922,6 +1276,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -949,6 +1309,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "gnesta-se.mail.protection.outlook.com"
@@ -974,6 +1340,20 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "js.monitor.azure.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft"
+    ]
    },
    "svar": {
     "mx": [
@@ -1004,6 +1384,20 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "chimpstatic.com",
+     "eventcollector.mcf-prod.a.intuit.com",
+     "form-assets.mailchimp.com"
+    ],
+    "usLeverantorer": [
+     "chimpstatic.com",
+     "intuit.com",
+     "mailchimp.com"
+    ]
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -1032,6 +1426,18 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "chat.kundo.se",
+     "org-1339.chat.kundo.se",
+     "static-chat.kundo.se"
+    ],
+    "usLeverantorer": [
+     "Kundo"
+    ]
    },
    "svar": {
     "mx": [
@@ -1063,6 +1469,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "katrineholm-se.mail.protection.outlook.com"
@@ -1089,6 +1501,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "eskilstuna-se.t-v1.mx.microsoft"
@@ -1114,6 +1532,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1144,6 +1568,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "trosa-se.mail.protection.outlook.com"
@@ -1169,6 +1599,16 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -1200,6 +1640,16 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -1230,6 +1680,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "kinda-se.mail.protection.outlook.com"
@@ -1255,6 +1711,16 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -1286,6 +1752,16 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -1316,6 +1792,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "ASD-MSG-02.cloud.advania.se",
@@ -1343,6 +1825,33 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "ajax.googleapis.com",
+     "cdnjs.cloudflare.com",
+     "d1azc1qln24ryf.cloudfront.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "helsingborg-stad.github.io",
+     "instant.page",
+     "region1.google-analytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.google-analytics.com",
+     "www.google.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "cloudfront.net",
+     "github.io",
+     "instant.page"
+    ]
+   },
    "svar": {
     "mx": [
      "halon01.valdemarsvik.se",
@@ -1369,6 +1878,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1400,6 +1915,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7674.global.siteimproveanalytics.io",
+     "ka-p.fontawesome.com",
+     "kit.fontawesome.com",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Siteimprove"
+    ]
+   },
    "svar": {
     "mx": [
      "norrkoping-se.g-v1.mx.microsoft"
@@ -1425,6 +1954,24 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "customer.cludo.com",
+     "maps.googleapis.com",
+     "scontent-arn2-1.xx.fbcdn.net",
+     "scontent.xx.fbcdn.net",
+     "static.xx.fbcdn.net",
+     "www.facebook.com"
+    ],
+    "usLeverantorer": [
+     "Cludo",
+     "Google",
+     "Meta"
+    ]
    },
    "svar": {
     "mx": [
@@ -1453,6 +2000,26 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "maxcdn.bootstrapcdn.com",
+     "policy.app.cookieinformation.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Cookie Information",
+     "Google",
+     "bootstrapcdn.com"
+    ]
+   },
    "svar": {
     "mx": [
      "ppa1.motala.se",
@@ -1479,6 +2046,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "digitalfeedback.euro.confirmit.com"
+    ],
+    "usLeverantorer": [
+     "Forsta (Confirmit)"
+    ]
    },
    "svar": {
     "mx": [
@@ -1509,6 +2086,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -1538,6 +2121,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "aneby-se.mail.protection.outlook.com"
@@ -1563,6 +2152,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1590,6 +2185,17 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "mullsjo-se.mail.protection.outlook.com"
@@ -1615,6 +2221,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1642,6 +2254,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "gislaved-se.mail.protection.outlook.com"
@@ -1667,6 +2285,19 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "8085.global.siteimproveanalytics.io",
+     "connect.facebook.net",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Meta",
+     "Siteimprove"
+    ]
    },
    "svar": {
     "mx": [
@@ -1695,6 +2326,18 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.kiprotect.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "kiprotect.com"
+    ]
+   },
    "svar": {
     "mx": [
      "smtp01.jonkoping.se",
@@ -1722,6 +2365,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "nassjo-se.mail.protection.outlook.com"
@@ -1747,6 +2396,19 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api-ts.cruncho.co",
+     "cdnjs.cloudflare.com",
+     "varnamo.cruncho.co"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Cruncho"
+    ]
    },
    "svar": {
     "mx": [
@@ -1777,6 +2439,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "savsjo-se.mail.protection.outlook.com"
@@ -1802,6 +2470,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1829,6 +2503,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "eksjo-se.mail.protection.outlook.com"
@@ -1854,6 +2534,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1881,6 +2567,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "uppvidinge-se.mail.protection.outlook.com"
@@ -1906,6 +2603,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -1933,6 +2636,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "tingsryd.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
    "svar": {
     "mx": [
      "tingsryd-se.mail.protection.outlook.com"
@@ -1958,6 +2672,24 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "kit.fontawesome.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -1985,6 +2717,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "almhult-se.mail.protection.outlook.com"
@@ -2010,6 +2748,24 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "kenwheeler.github.io",
+     "plus.browsealoud.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.browsealoud.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp",
+     "github.io"
+    ]
    },
    "svar": {
     "mx": [
@@ -2037,6 +2793,19 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "vaxjo-se.mail.protection.outlook.com"
@@ -2062,6 +2831,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -2089,6 +2869,12 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "hogsby-se.mail.protection.outlook.com"
@@ -2114,6 +2900,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "use.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)"
+    ]
    },
    "svar": {
     "mx": [
@@ -2141,6 +2937,31 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "cdn.matomo.cloud",
+     "cdnjs.cloudflare.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "fonts.gstatic.com",
+     "p.typekit.net",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "use.typekit.net",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cloudflare",
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Usercentrics (Cookiebot)",
+     "jsDelivr"
+    ]
+   },
    "svar": {
     "mx": [
      "morbylanga-se.mail.protection.outlook.com"
@@ -2166,6 +2987,24 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api-iam.intercom.io",
+     "js.intercomcdn.com",
+     "maps.google.com",
+     "maps.googleapis.com",
+     "res.cdn.office.net",
+     "widget.intercom.io"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "intercom.io",
+     "intercomcdn.com",
+     "office.net"
+    ]
    },
    "svar": {
     "mx": [
@@ -2194,6 +3033,25 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "p.typekit.net",
+     "unpkg.com",
+     "use.fontawesome.com",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "unpkg"
+    ]
+   },
    "svar": {
     "mx": [
      "monsteras-se.mail.protection.outlook.com"
@@ -2219,6 +3077,20 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "plus.browsealoud.com",
+     "region1.google-analytics.com",
+     "www.browsealoud.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -2246,6 +3118,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.raffle.ai",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "plus.browsealoud.com",
+     "searchcfg.raffle.ai",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp",
+     "raffle.ai"
+    ]
+   },
    "svar": {
     "mx": [
      "kalmar-se.mail.protection.outlook.com"
@@ -2271,6 +3160,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -2298,6 +3197,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "api.rechanneld.com",
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "widget.rechanneld.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely",
+     "rechanneld.com"
+    ]
+   },
    "svar": {
     "mx": [
      "oskarshamn-se.mail.protection.outlook.com"
@@ -2323,6 +3239,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -2355,6 +3277,16 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -2385,6 +3317,30 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "borgholmdevdev.wpenginepowered.com",
+     "cdn.cookie-script.com",
+     "cdnjs.cloudflare.com",
+     "fonts.gstatic.com",
+     "p.typekit.net",
+     "region1.google-analytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "use.typekit.net",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cloudflare",
+     "Google",
+     "cookie-script.com",
+     "wpenginepowered.com"
+    ]
+   },
    "svar": {
     "mx": [
      "borgholm-se.mail.protection.outlook.com"
@@ -2410,6 +3366,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -2437,6 +3399,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -2466,6 +3439,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "karlskrona-se.mail.protection.outlook.com"
@@ -2491,6 +3470,25 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7800.global.siteimproveanalytics.io",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "maps.googleapis.com",
+     "siteimproveanalytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Siteimprove"
+    ]
    },
    "svar": {
     "mx": [
@@ -2518,6 +3516,22 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Texthelp",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
    "svar": {
     "mx": [
      "karlshamn-se.mail.protection.outlook.com"
@@ -2544,6 +3558,23 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "policy.app.cookieinformation.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "solvesborg-se.mail.protection.outlook.com"
@@ -2569,6 +3600,20 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -2597,6 +3642,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "s3.cruncho.co"
+    ],
+    "usLeverantorer": [
+     "Cruncho"
+    ]
+   },
    "svar": {
     "mx": [
      "staffanstorp-se.mail.protection.outlook.com"
@@ -2623,6 +3678,19 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "use.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "burlov-se.mail.protection.outlook.com"
@@ -2648,6 +3716,22 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "cdn.matomo.cloud",
+     "s3.cruncho.co",
+     "vellinge.cruncho.co",
+     "vellinge.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "Cruncho",
+     "InnoCraft (Matomo Cloud)",
+     "jsDelivr"
+    ]
    },
    "svar": {
     "mx": [
@@ -2676,6 +3760,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -2701,6 +3791,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api.helsingborg.se"
+    ],
+    "usLeverantorer": [
+     "Helsingborgs stad"
+    ]
    },
    "svar": {
     "mx": [
@@ -2728,6 +3828,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "bjuv-se.mail.protection.outlook.com"
@@ -2753,6 +3859,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -2780,6 +3892,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "lomma-se.mail.protection.outlook.com"
@@ -2805,6 +3923,21 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -2832,6 +3965,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "chat.kundo.se",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "org-1780.chat.kundo.se",
+     "plus.browsealoud.com",
+     "static-chat.kundo.se",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Kundo",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "skurup-se.mail.protection.outlook.com"
@@ -2857,6 +4008,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -2884,6 +4046,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -2909,6 +4077,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -2936,6 +4110,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "tomelilla-se.mail.protection.outlook.com"
@@ -2961,6 +4141,29 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "connect.facebook.net",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "images.citybreak.com",
+     "plus.browsealoud.com",
+     "scontent.xx.fbcdn.net",
+     "static.xx.fbcdn.net",
+     "translate.google.com",
+     "www.browsealoud.com",
+     "www.facebook.com"
+    ],
+    "usLeverantorer": [
+     "Citybreak (Visit Group)",
+     "Google",
+     "Meta",
+     "Texthelp",
+     "Usercentrics (Cookiebot)"
+    ]
    },
    "svar": {
     "mx": [
@@ -2988,6 +4191,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -3013,6 +4222,22 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "perstorp.cruncho.co",
+     "plus.browsealoud.com",
+     "s3.cruncho.co",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Cruncho",
+     "Texthelp",
+     "jsDelivr"
+    ]
    },
    "svar": {
     "mx": [
@@ -3040,6 +4265,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api.cludo.com",
+     "customer.cludo.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cludo",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "klippan-se.mail.protection.outlook.com"
@@ -3065,6 +4304,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3092,6 +4337,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "bastadweb.matomo.cloud",
+     "cdn.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
    "svar": {
     "mx": [
      "bastad-se.mail.protection.outlook.com"
@@ -3117,6 +4373,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3144,6 +4406,26 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "a.eu.silktide.com",
+     "analytics.silktide.com",
+     "api.cludo.com",
+     "customer.cludo.com",
+     "eventmanager-assets152928-production.fra1.cdn.digitaloceanspaces.com",
+     "fonts.googleapis.com",
+     "s3.cruncho.co"
+    ],
+    "usLeverantorer": [
+     "Cludo",
+     "Cruncho",
+     "DigitalOcean",
+     "Google",
+     "Silktide"
+    ]
+   },
    "svar": {
     "mx": [
      "lund-se.mail.protection.outlook.com"
@@ -3170,6 +4452,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "landskrona-se.mail.protection.outlook.com"
@@ -3195,6 +4483,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3223,6 +4517,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "hoganas-se.mail.protection.outlook.com"
@@ -3248,6 +4548,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3275,6 +4581,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "ystad-se.mail.protection.outlook.com"
@@ -3301,6 +4613,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "trelleborg-se.mail.protection.outlook.com"
@@ -3326,6 +4644,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
    },
    "svar": {
     "mx": [
@@ -3354,6 +4683,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "simrishamn-se.mail.protection.outlook.com"
@@ -3379,6 +4714,21 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "euwa.puzzel.com",
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Puzzel"
+    ]
    },
    "svar": {
     "mx": [
@@ -3406,6 +4756,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.hoodin.com",
+     "region1.analytics.google.com",
+     "stats.g.doubleclick.net",
+     "www.google.se",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Hoodin"
+    ]
+   },
    "svar": {
     "mx": [
      "hassleholm-se.mail.protection.outlook.com"
@@ -3431,6 +4796,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "s3-bestevent-prod.innocode.dev"
+    ],
+    "usLeverantorer": [
+     "Innocode"
+    ]
    },
    "svar": {
     "mx": [
@@ -3459,6 +4834,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "halmstad-se.s-v1.mx.microsoft"
@@ -3484,6 +4865,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3511,6 +4898,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "connect.facebook.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "Meta",
+     "jQuery CDN"
+    ]
+   },
    "svar": {
     "mx": [
      "smtp.falkenberg.se"
@@ -3536,6 +4940,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3563,6 +4973,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "kungsbacka-se.mail.protection.outlook.com"
@@ -3588,6 +5004,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "974se.boost.ai"
+    ],
+    "usLeverantorer": [
+     "boost.ai"
+    ]
    },
    "svar": {
     "mx": [
@@ -3615,6 +5041,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "partille-se.mail.protection.outlook.com"
@@ -3640,6 +5072,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3670,6 +5108,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
    "svar": {
     "mx": [
      "stenungsund-se.mail.protection.outlook.com"
@@ -3696,6 +5145,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "tjorn-se.mail.protection.outlook.com"
@@ -3721,6 +5184,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3750,6 +5219,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "sotenas-se.mail.protection.outlook.com"
@@ -3776,6 +5251,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "munkedal-se.mail.protection.outlook.com"
@@ -3801,6 +5282,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -3830,6 +5322,21 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "region1.google-analytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -3861,6 +5368,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "region1.google-analytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "fargelanda-se.mail.protection.outlook.com"
@@ -3886,6 +5407,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3913,6 +5440,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "s3-bestevent-prod.innocode.dev"
+    ],
+    "usLeverantorer": [
+     "Innocode"
+    ]
+   },
    "svar": {
     "mx": [
      "lerum-se.mail.protection.outlook.com"
@@ -3938,6 +5475,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -3965,6 +5508,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "bollebygd-se.mail.protection.outlook.com"
@@ -3990,6 +5539,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4020,6 +5575,17 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4049,6 +5615,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "p.typekit.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe"
+    ]
+   },
    "svar": {
     "mx": [
      "karlsborg-se.mail.protection.outlook.com"
@@ -4074,6 +5651,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4104,6 +5687,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "tranemo-se.mail.protection.outlook.com"
@@ -4129,6 +5718,12 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4156,6 +5751,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "region1.google-analytics.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "mellerud-se.mail.protection.outlook.com"
@@ -4182,6 +5791,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "lillaedet-se.mail.protection.outlook.com"
@@ -4207,6 +5822,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4237,6 +5858,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx01.svlj.net",
@@ -4264,6 +5891,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "herrljunga-se.mail.protection.outlook.com"
@@ -4289,6 +5926,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4319,6 +5962,12 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4348,6 +5997,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "apiv2.imbox.io",
+     "files.imbox.io",
+     "p.typekit.net",
+     "triggers-v3.imbox.io",
+     "use.typekit.net",
+     "widget-launcher.imbox.io",
+     "widget.imbox.io"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Imbox"
+    ]
+   },
    "svar": {
     "mx": [
      "tibro-se.mail.protection.outlook.com"
@@ -4373,6 +6039,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -4403,6 +6080,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api.cludo.com",
+     "customer.cludo.com"
+    ],
+    "usLeverantorer": [
+     "Cludo"
+    ]
+   },
    "svar": {
     "mx": [
      "mx1.hc2437-76.eu.iphmx.com",
@@ -4429,6 +6117,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4457,6 +6151,30 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdnjs.cloudflare.com",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "js.monitor.azure.com",
+     "plus.browsealoud.com",
+     "policy.app.cookieinformation.com",
+     "use.fontawesome.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Cookie Information",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "Microsoft",
+     "Optimizely",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "kungalv-se.mail.protection.outlook.com"
@@ -4482,6 +6200,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4509,6 +6233,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare"
+    ]
+   },
    "svar": {
     "mx": [
      "uddevalla-se.mail.protection.outlook.com"
@@ -4534,6 +6268,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4562,6 +6302,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "vanersborg-se.mail.protection.outlook.com"
@@ -4588,6 +6338,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "trollhattan-se.mail.protection.outlook.com"
@@ -4613,6 +6369,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4641,6 +6403,12 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "smtp-a1.boras.se",
@@ -4668,6 +6436,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "ulricehamn-se.mail.protection.outlook.com"
@@ -4694,6 +6468,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "plus.browsealoud.com",
+     "region1.google-analytics.com",
+     "www.browsealoud.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "amal-se.mail.protection.outlook.com"
@@ -4719,6 +6507,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4749,6 +6543,19 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "ka-p.fontawesome.com",
+     "kit.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4777,6 +6584,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "app-frontend-qh2ihd35f2je6.azurewebsites.net"
+    ],
+    "usLeverantorer": [
+     "azurewebsites.net"
+    ]
    },
    "svar": {
     "mx": [
@@ -4807,6 +6624,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
    "svar": {
     "mx": [
      "skovde-se.mail.protection.outlook.com"
@@ -4833,6 +6661,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "hjo-se.mail.protection.outlook.com"
@@ -4858,6 +6692,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4888,6 +6728,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4916,6 +6762,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -4946,6 +6798,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com",
+     "cdnjs.cloudflare.com",
+     "maxcdn.bootstrapcdn.com",
+     "stackpath.bootstrapcdn.com",
+     "translate.google.com",
+     "www.google.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "bootstrapcdn.com",
+     "cookie-script.com"
+    ]
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4974,6 +6844,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "url41.mailanyone.net"
+    ],
+    "usLeverantorer": [
+     "mailanyone.net"
+    ]
    },
    "svar": {
     "mx": [
@@ -5004,6 +6884,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "storfors-se.mail.protection.outlook.com"
@@ -5030,6 +6921,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ace-knowledge-cdn.teliacompany.net",
+     "forshagakommun.humany.net",
+     "hammarokommun.humany.net",
+     "img.turid.visitvarmland.com"
+    ],
+    "usLeverantorer": [
+     "humany.net",
+     "teliacompany.net",
+     "visitvarmland.com"
+    ]
+   },
    "svar": {
     "mx": [
      "hammaro-se.mail.protection.outlook.com"
@@ -5055,6 +6961,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookie-script.com",
+     "consent.cookie-script.com"
+    ],
+    "usLeverantorer": [
+     "cookie-script.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -5083,6 +7000,18 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ace-knowledge-cdn.teliacompany.net",
+     "forshagakommun.humany.net"
+    ],
+    "usLeverantorer": [
+     "humany.net",
+     "teliacompany.net"
+    ]
    },
    "svar": {
     "mx": [
@@ -5113,6 +7042,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "grums-se.mail.protection.outlook.com"
@@ -5138,6 +7078,17 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -5168,6 +7119,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.cookietractor.com",
+     "download-video-ak.vimeocdn.com",
+     "js.monitor.azure.com",
+     "player.vimeo.com",
+     "swedencentral-0.in.applicationinsights.azure.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft",
+     "Vimeo",
+     "cookietractor.com"
+    ]
+   },
    "svar": {
     "mx": [
      "sunne-se.x-v1.mx.microsoft"
@@ -5193,6 +7162,19 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "img.turid.visitvarmland.com",
+     "karlstad.imagevault.app",
+     "turid.visitvarmland.com"
+    ],
+    "usLeverantorer": [
+     "imagevault.app",
+     "visitvarmland.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -5220,6 +7202,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "js.monitor.azure.com",
+     "unpkg.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Optimizely",
+     "unpkg"
+    ]
+   },
    "svar": {
     "mx": [
      "kristinehamn-se.mail.protection.outlook.com"
@@ -5245,6 +7242,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5272,6 +7275,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "hagfors-se.mail.protection.outlook.com"
@@ -5297,6 +7306,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5327,6 +7342,18 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "chat.kundo.se",
+     "org-1383.chat.kundo.se",
+     "static-chat.kundo.se"
+    ],
+    "usLeverantorer": [
+     "Kundo"
+    ]
+   },
    "svar": {
     "mx": [
      "saffle-se.mx1.staysecuregroup.com",
@@ -5354,6 +7381,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "fast.fonts.net",
+     "fonts.googleapis.com",
+     "plus.browsealoud.com",
+     "pro.fontawesome.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google",
+     "Monotype",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "lekeberg-se.mail.protection.outlook.com"
@@ -5379,6 +7424,26 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "googleads.g.doubleclick.net",
+     "i.ytimg.com",
+     "static.doubleclick.net",
+     "www.google.com",
+     "www.youtube.com",
+     "youtube.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -5406,6 +7471,17 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "hallsberg-se.mail.protection.outlook.com"
@@ -5431,6 +7507,21 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -5461,6 +7552,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "c.ba.contentsquare.net",
+     "t.contentsquare.net"
+    ],
+    "usLeverantorer": [
+     "contentsquare.net"
+    ]
+   },
    "svar": {
     "mx": [
      "hellefors-se.mail.protection.outlook.com"
@@ -5486,6 +7588,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5513,6 +7621,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "orebro-se.mail.protection.outlook.com"
@@ -5538,6 +7652,19 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ace-knowledge-cdn.teliacompany.net",
+     "askersund.humany.net",
+     "kumla.humany.net"
+    ],
+    "usLeverantorer": [
+     "humany.net",
+     "teliacompany.net"
+    ]
    },
    "svar": {
     "mx": [
@@ -5566,6 +7693,20 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "acsbapp.com",
+     "cdn.acsbapp.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp",
+     "acsbapp.com"
+    ]
+   },
    "svar": {
     "mx": [
      "askersund-se.mail.protection.outlook.com"
@@ -5591,6 +7732,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5618,6 +7765,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "nora-se.mail.protection.outlook.com"
@@ -5643,6 +7796,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5670,6 +7829,27 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "maps.googleapis.com",
+     "meet.jit.si",
+     "use.fontawesome.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "jit.si"
+    ]
+   },
    "svar": {
     "mx": [
      "skinnskatteberg-se.mail.protection.outlook.com"
@@ -5695,6 +7875,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -5722,6 +7913,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "kungsor-se.mail.protection.outlook.com"
@@ -5747,6 +7944,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5774,6 +7977,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "plus.browsealoud.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.browsealoud.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "norberg-se.mail.protection.outlook.com"
@@ -5799,6 +8019,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -5826,6 +8052,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "sala-se.mail.protection.outlook.com"
@@ -5851,6 +8083,18 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -5878,6 +8122,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "koping-se.mail.protection.outlook.com"
@@ -5904,6 +8159,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "arboga-se.mail.protection.outlook.com"
@@ -5929,6 +8194,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -5959,6 +8235,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "malungsalen-se01e.mail.protection.outlook.com"
@@ -5984,6 +8266,25 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "analytics3.wpmudev.com",
+     "cdn.selma.se",
+     "images.citybreak.com",
+     "ka-f.fontawesome.com",
+     "kit.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Citybreak (Visit Group)",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "selma.se",
+     "wpmudev.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -6011,6 +8312,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "leksand-se.mail.protection.outlook.com"
@@ -6036,6 +8343,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6063,6 +8376,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "orsa-se.mail.protection.outlook.com"
@@ -6088,6 +8407,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6115,6 +8440,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "smedjebacken-se.mail.protection.outlook.com"
@@ -6140,6 +8476,12 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6167,6 +8509,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "falun-se.mail.protection.outlook.com"
@@ -6192,6 +8540,26 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7145.global.siteimproveanalytics.io",
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "images.citybreak.com",
+     "plus.browsealoud.com",
+     "siteimproveanalytics.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Citybreak (Visit Group)",
+     "Cloudflare",
+     "Siteimprove",
+     "Texthelp",
+     "jQuery CDN"
+    ]
    },
    "svar": {
     "mx": [
@@ -6219,6 +8587,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "sater-se.mail.protection.outlook.com"
@@ -6244,6 +8623,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "panang.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
    },
    "svar": {
     "mx": [
@@ -6271,6 +8661,28 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api.cludo.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "customer.cludo.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "images.citybreak.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Citybreak (Visit Group)",
+     "Cludo",
+     "Google",
+     "Texthelp",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
    "svar": {
     "mx": [
      "avesta-se.mail.protection.outlook.com"
@@ -6296,6 +8708,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -6323,6 +8746,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "ockelbo-se.mail.protection.outlook.com"
@@ -6348,6 +8777,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6375,6 +8810,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx1.ovanaker.se"
@@ -6400,6 +8841,12 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6427,6 +8874,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "smtp.ljusdal.se"
@@ -6453,6 +8906,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "gavle-se.mail.protection.outlook.com"
@@ -6478,6 +8937,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6506,6 +8971,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "soderhamn-se.mail.protection.outlook.com"
@@ -6531,6 +9007,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6558,6 +9040,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "smtp.hudiksvall.se"
@@ -6584,6 +9072,16 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "scontent-arn2-1.cdninstagram.com"
+    ],
+    "usLeverantorer": [
+     "cdninstagram.com"
+    ]
+   },
    "svar": {
     "mx": [
      "ange-se.mail.protection.outlook.com"
@@ -6609,6 +9107,21 @@
     "S4": "-",
     "S7": "G",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "8042.global.siteimproveanalytics.io",
+     "ajax.googleapis.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Siteimprove"
+    ]
    },
    "svar": {
     "mx": [
@@ -6637,6 +9150,19 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "se.sms-service.dk",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp",
+     "sms-service.dk"
+    ]
+   },
    "svar": {
     "mx": [
      "mg.harnosand.se"
@@ -6662,6 +9188,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6689,6 +9221,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "kramfors-se.mail.protection.outlook.com"
@@ -6714,6 +9252,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6741,6 +9285,18 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "e.clarity.ms",
+     "scripts.clarity.ms",
+     "www.clarity.ms"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
    "svar": {
     "mx": [
      "ornskoldsvik-se.mail.protection.outlook.com"
@@ -6766,6 +9322,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -6793,6 +9355,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "bracke-se.mail.protection.outlook.com"
@@ -6819,6 +9387,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "krokom-se.mail.protection.outlook.com"
@@ -6844,6 +9418,19 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "www.klart.se"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "klart.se"
+    ]
    },
    "svar": {
     "mx": [
@@ -6872,6 +9459,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "are-se.q-v1.mx.microsoft"
@@ -6897,6 +9490,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -6927,6 +9531,17 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "acsbapp.com",
+     "cdn.acsbapp.com"
+    ],
+    "usLeverantorer": [
+     "acsbapp.com"
+    ]
+   },
    "svar": {
     "mx": [
      "herjedalen-se.mail.protection.outlook.com"
@@ -6953,6 +9568,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mailgw.ostersund.se"
@@ -6978,6 +9599,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -7008,6 +9640,17 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "bjurholm-se.mail.protection.outlook.com"
@@ -7033,6 +9676,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7060,6 +9709,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "okänt nät",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "robertsfors-se.mail.protection.outlook.com"
@@ -7085,6 +9740,32 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "app.talkie.se",
+     "avatar.assets.talkie.se",
+     "cdn.socket.io",
+     "chat-widget-icon.assets.talkie.se",
+     "fonts.googleapis.com",
+     "js.widget.talkie.se",
+     "p.typekit.net",
+     "plus.browsealoud.com",
+     "use.typekit.net",
+     "widget.assets.talkie.se",
+     "www.browsealoud.com",
+     "www.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Google",
+     "Texthelp",
+     "socket.io",
+     "talkie.se"
+    ]
    },
    "svar": {
     "mx": [
@@ -7113,6 +9794,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdn-cookieyes.com",
+     "cdn.gtranslate.net",
+     "log.cookieyes.com",
+     "use.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google",
+     "cdn-cookieyes.com",
+     "cookieyes.com",
+     "gtranslate.net"
+    ]
+   },
    "svar": {
     "mx": [
      "mala-se.mail.protection.outlook.com"
@@ -7139,6 +9838,20 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "use.fontawesome.com",
+     "www.google-analytics.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "storuman-se.mail.protection.outlook.com"
@@ -7164,6 +9877,16 @@
     "S4": "-",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "www.youtube.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -7194,6 +9917,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
    "svar": {
     "mx": [
      "dorotea-se.mail.protection.outlook.com"
@@ -7219,6 +9953,17 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
    },
    "svar": {
     "mx": [
@@ -7246,6 +9991,23 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "js.monitor.azure.com",
+     "northeurope-2.in.applicationinsights.azure.com",
+     "plus.browsealoud.com",
+     "vilhelmina.matomo.cloud",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Microsoft",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "vilhelmina-se.mail.protection.outlook.com"
@@ -7271,6 +10033,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
    },
    "svar": {
     "mx": [
@@ -7298,6 +10071,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "umea-se.mail.protection.outlook.com"
@@ -7323,6 +10102,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
    },
    "svar": {
     "mx": [
@@ -7350,6 +10140,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api-ts.cruncho.co",
+     "p.typekit.net",
+     "plus.browsealoud.com",
+     "skelleftea.cruncho.co",
+     "use.typekit.net",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cruncho",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "skelleftea-se.u-v1.mx.microsoft"
@@ -7375,6 +10182,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7405,6 +10218,19 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.arjeploglapland.se",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp",
+     "arjeploglapland.se"
+    ]
+   },
    "svar": {
     "mx": [
      "mxa.arjeplog.se"
@@ -7430,6 +10256,12 @@
     "S4": "-",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7457,6 +10289,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com",
+     "cdn.jsdelivr.net",
+     "code.jquery.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "maps.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "cookietractor.com",
+     "jQuery CDN",
+     "jsDelivr"
+    ]
+   },
    "svar": {
     "mx": [
      "overkalix-se.k-v1.mx.microsoft"
@@ -7482,6 +10332,28 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "acsbapp.com",
+     "api.cludo.com",
+     "cdn.acsbapp.com",
+     "cdn.cookietractor.com",
+     "code.jquery.com",
+     "customer.cludo.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cludo",
+     "Google",
+     "acsbapp.com",
+     "cookietractor.com",
+     "jQuery CDN"
+    ]
    },
    "svar": {
     "mx": [
@@ -7509,6 +10381,12 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "overtornea-se.mail.protection.outlook.com"
@@ -7534,6 +10412,24 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "code.jquery.com",
+     "fonts.googleapis.com",
+     "maps.googleapis.com",
+     "plus.browsealoud.com",
+     "region1.google-analytics.com",
+     "www.browsealoud.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Texthelp",
+     "jQuery CDN"
+    ]
    },
    "svar": {
     "mx": [
@@ -7561,6 +10457,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx.norrnet.com"
@@ -7586,6 +10488,12 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7616,6 +10524,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "lulea-se.mail.protection.outlook.com"
@@ -7641,6 +10555,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
    },
    "svar": {
     "mx": [
@@ -7668,6 +10593,23 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "a.eu.silktide.com",
+     "boden.matomo.cloud",
+     "cdn-cookieyes.com",
+     "cdn.matomo.cloud",
+     "log.cookieyes.com"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Silktide",
+     "cdn-cookieyes.com",
+     "cookieyes.com"
+    ]
+   },
    "svar": {
     "mx": [
      "boden-se.mail.protection.outlook.com",
@@ -7694,6 +10636,17 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.ontame.io",
+     "collector.ontame.io"
+    ],
+    "usLeverantorer": [
+     "ontame.io"
+    ]
    },
    "svar": {
     "mx": [
@@ -7724,6 +10677,12 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "kiruna-se.mail.protection.outlook.com"
@@ -7749,6 +10708,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7779,6 +10744,16 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "unpkg.com"
+    ],
+    "usLeverantorer": [
+     "unpkg"
+    ]
+   },
    "svar": {
     "mx": [
      "regionuppsala-se.mail.protection.outlook.com"
@@ -7805,6 +10780,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "regionsormland-se.mail.protection.outlook.com"
@@ -7830,6 +10811,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7858,6 +10845,21 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "policy.app.cookieinformation.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google"
+    ]
+   },
    "svar": {
     "mx": [
      "mail3.rjl.se"
@@ -7884,6 +10886,25 @@
     "S7": "MS",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "plus.browsealoud.com",
+     "regionkronoberg.matomo.cloud",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Optimizely",
+     "Texthelp"
+    ]
+   },
    "svar": {
     "mx": [
      "regionkronoberg-se.mail.protection.outlook.com"
@@ -7909,6 +10930,12 @@
     "S4": "-",
     "S7": "-",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -7937,6 +10964,12 @@
     "S7": "-",
     "S8": "-"
    },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "mx1.regionblekinge.se",
@@ -7964,6 +10997,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "skane-se.mail.protection.outlook.com"
@@ -7989,6 +11028,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -8016,6 +11061,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "app.usercentrics.eu",
+     "consent-api.service.consent.usercentrics.eu",
+     "privacy-proxy.usercentrics.eu",
+     "uct.service.usercentrics.eu",
+     "v1.api.service.cmp.usercentrics.eu",
+     "web.cmp.usercentrics.eu"
+    ],
+    "usLeverantorer": [
+     "usercentrics.eu"
+    ]
+   },
    "svar": {
     "mx": [
      "vgregion-se.mail.protection.outlook.com"
@@ -8041,6 +11101,17 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ka-p.fontawesome.com",
+     "kit.fontawesome.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)"
+    ]
    },
    "svar": {
     "mx": [
@@ -8068,6 +11139,21 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "fonts.gstatic.com",
+     "js.monitor.azure.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft"
+    ]
+   },
    "svar": {
     "mx": [
      "regionorebrolan-se.mail.protection.outlook.com"
@@ -8093,6 +11179,16 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "regionvastmanland.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
    },
    "svar": {
     "mx": [
@@ -8120,6 +11216,24 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "az416426.vo.msecnd.net",
+     "cdn.cookietractor.com",
+     "cdn.matomo.cloud",
+     "dc.services.visualstudio.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Microsoft",
+     "Texthelp",
+     "cookietractor.com"
+    ]
+   },
    "svar": {
     "mx": [
      "regiondalarna-se.mail.protection.outlook.com"
@@ -8145,6 +11259,27 @@
     "S4": "-",
     "S7": "MS",
     "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdn.cookielaw.org",
+     "cdn.jsdelivr.net",
+     "dc.services.visualstudio.com",
+     "geolocation.onetrust.com",
+     "js.monitor.azure.com",
+     "maxcdn.bootstrapcdn.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft",
+     "bootstrapcdn.com",
+     "cookielaw.org",
+     "jsDelivr",
+     "onetrust.com"
+    ]
    },
    "svar": {
     "mx": [
@@ -8172,6 +11307,24 @@
     "S7": "-",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely",
+     "Texthelp",
+     "jsDelivr"
+    ]
+   },
    "svar": {
     "mx": [
      "rvn-se.mail.protection.outlook.com"
@@ -8197,6 +11350,12 @@
     "S4": "MS",
     "S7": "MS",
     "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
    },
    "svar": {
     "mx": [
@@ -8224,6 +11383,12 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
    "svar": {
     "mx": [
      "regionvasterbotten-se.mail.protection.outlook.com"
@@ -8250,6 +11415,17 @@
     "S7": "MS",
     "S8": "MS"
    },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
    "svar": {
     "mx": [
      "norrbotten-se.mail.protection.outlook.com"
@@ -8259,5 +11435,7 @@
     "entra": 200
    }
   }
- ]
+ ],
+ "webbMatt": "2026-10-08T162614Z",
+ "webbKalla": "data/webb-organisationer-sverige-2026-10-08T162614Z.json"
 }

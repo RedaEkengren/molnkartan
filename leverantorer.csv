@@ -1,0 +1,76 @@
+suffix,leverantor,land,anmarkning
+google-analytics.com,Google,US,
+analytics.google.com,Google,US,
+googletagmanager.com,Google,US,
+googleapis.com,Google,US,
+gstatic.com,Google,US,
+google.com,Google,US,
+google.se,Google,US,
+googlesyndication.com,Google,US,
+doubleclick.net,Google,US,
+youtube.com,Google,US,
+youtube-nocookie.com,Google,US,
+ytimg.com,Google,US,
+googlevideo.com,Google,US,
+facebook.net,Meta,US,
+facebook.com,Meta,US,
+instagram.com,Meta,US,
+outlook.com,Microsoft,US,
+visualstudio.com,Microsoft,US,Application Insights
+azure.com,Microsoft,US,
+msecnd.net,Microsoft,US,
+clarity.ms,Microsoft,US,
+bing.com,Microsoft,US,
+microsoft.com,Microsoft,US,
+office.com,Microsoft,US,
+linkedin.com,Microsoft,US,LinkedIn
+licdn.com,Microsoft,US,LinkedIn
+cloudflare.com,Cloudflare,US,
+cloudflareinsights.com,Cloudflare,US,
+unpkg.com,unpkg,US,drivs på Cloudflares nät
+jsdelivr.net,jsDelivr,US,drivs av Prospect One (PL) på Cloudflares och Fastlys nät
+jquery.com,jQuery CDN,US,OpenJS Foundation på Fastlys nät
+episerver.net,Optimizely,US,
+optimizely.com,Optimizely,US,
+monsido.com,Monsido,US,ägs av Acquia (US) sedan 2023
+fonts.net,Monotype,US,
+myfonts.net,Monotype,US,
+typekit.net,Adobe,US,
+vimeo.com,Vimeo,US,
+vimeocdn.com,Vimeo,US,
+twitter.com,X,US,
+twimg.com,X,US,
+hotjar.com,Hotjar,EU,Malta
+piwik.pro,Piwik PRO,EU,Polen
+siteimproveanalytics.io,Siteimprove,EU,Danmark
+siteimproveanalytics.com,Siteimprove,EU,Danmark
+siteimprove.com,Siteimprove,EU,Danmark
+consentmanager.net,consentmanager,EU,Tyskland
+cookiebot.com,Usercentrics (Cookiebot),EU,Tyskland/Danmark
+cookieinformation.com,Cookie Information,EU,Danmark
+readspeaker.com,ReadSpeaker,EU,Nederländerna
+confirmit.com,Forsta (Confirmit),EU,Norge (EES)
+innocode.dev,Innocode,EU,Norge (EES)
+browsealoud.com,Texthelp,UK,
+rekai.se,Rek.ai,SE,
+vizzit.se,Vizzit,SE,
+webserviceaward.com,Web Service Award,SE,
+tele2.se,Tele2 (Artvise),SE,
+sitevision.se,Sitevision,SE,
+imbox.io,Imbox,SE,
+insipio.com,Insipio,SE,
+zisson.se,Zisson,SE,
+fbcdn.net,Meta,US,
+digitaloceanspaces.com,DigitalOcean,US,
+fontawesome.com,Fonticons (Font Awesome),US,
+silktide.com,Silktide,UK,
+matomo.cloud,InnoCraft (Matomo Cloud),NZ,driftas i EU men bolaget har säte i Nya Zeeland
+cludo.com,Cludo,EU,Danmark
+puzzel.com,Puzzel,EU,Norge (EES)
+plausible.io,Plausible Analytics,EU,Estland
+usercontent.one,one.com,EU,Danmark
+kundo.se,Kundo,SE,
+hoodin.com,Hoodin,SE,
+citybreak.com,Citybreak (Visit Group),SE,
+cruncho.co,Cruncho,SE,
+helsingborg.se,Helsingborgs stad,SE,kommunal samverkan

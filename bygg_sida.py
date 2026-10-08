@@ -1,4 +1,6 @@
-"""Bygger docs/data.json för GitHub Pages från en rådatafil: python3 bygg_sida.py data/ra-....json"""
+"""Bygger docs/data.json för GitHub Pages:
+python3 bygg_sida.py data/ra-organisationer-sverige-....json [data/webb-organisationer-sverige-....json]
+"""
 
 import json
 import sys
@@ -6,6 +8,7 @@ from pathlib import Path
 
 from klassa import webb
 from klassa_v2 import epost, signaler
+from webb_klassa import har_ga, klassa_v3, leverantor
 
 ROT = Path(__file__).parent
 
@@ -13,6 +16,18 @@ ROT = Path(__file__).parent
 def main():
     fil = sys.argv[1]
     data = json.load(open(fil, encoding="utf-8"))
+    webb_fil = sys.argv[2] if len(sys.argv) > 2 else None
+    fore = {}
+    if webb_fil:
+        webb_data = json.load(open(webb_fil, encoding="utf-8"))
+        for w in webb_data["organisationer"]:
+            us = sorted(v for v in w.get("w2", []) if w["natverk"][v].get("nat") == "US")
+            fore[w["domän"]] = {
+                "klass": klassa_v3(w),
+                "ga": har_ga(w),
+                "us": us,
+                "usLeverantorer": sorted({(leverantor(v) or {}).get("leverantor") or ".".join(v.split(".")[-2:]) for v in us}),
+            }
     organisationer = []
     for o in data:
         s = signaler(o)
@@ -27,6 +42,7 @@ def main():
             "webb": webb(o["www_asn_namn"]),
             "webbLeverantor": o["www_asn_namn"],
             "signaler": s,
+            "fore_samtycke": fore.get(o["domän"]),
             # Riktiga svar till animationen "Så mäts en kommun".
             "svar": {
                 "mx": [m.split()[-1].rstrip(".") for m in sorted(o["mx"], key=lambda m: int(m.split()[0]))],
@@ -37,6 +53,8 @@ def main():
             },
         })
     ut = {"matt": data[0]["matt"], "kalla": fil, "organisationer": organisationer}
+    if webb_fil:
+        ut["webbMatt"], ut["webbKalla"] = webb_data["matt"], webb_fil
     (ROT / "docs").mkdir(exist_ok=True)
     (ROT / "docs" / "data.json").write_text(json.dumps(ut, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"docs/data.json: {len(organisationer)} organisationer, mätt {ut['matt']}")

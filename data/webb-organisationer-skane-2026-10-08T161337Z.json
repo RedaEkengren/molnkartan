@@ -1,0 +1,634 @@
+{
+  "matt": "2026-10-08T161337Z",
+  "chrome": "154",
+  "kontroller": {
+    "negativ": [],
+    "positiv": [
+      "www.googletagmanager.com"
+    ]
+  },
+  "organisationer": [
+    {
+      "namn": "Bjuv",
+      "typ": "kommun",
+      "domän": "bjuv.se",
+      "status": 200,
+      "slutadress": "https://www.bjuv.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Bromölla",
+      "typ": "kommun",
+      "domän": "bromolla.se",
+      "status": 200,
+      "slutadress": "https://www.bromolla.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "connect.facebook.net",
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "tag.vizzit.se",
+        "translate.google.com",
+        "www.browsealoud.com",
+        "www.facebook.com"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "connect.facebook.net",
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "images.citybreak.com",
+        "plus.browsealoud.com",
+        "static.xx.fbcdn.net",
+        "tag.vizzit.se",
+        "translate.google.com",
+        "www.browsealoud.com",
+        "www.facebook.com",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Burlöv",
+      "typ": "kommun",
+      "domän": "burlov.se",
+      "status": 200,
+      "slutadress": "https://burlov.se/",
+      "w1": [
+        "svanalytics.containers.piwik.pro",
+        "use.fontawesome.com",
+        "www.vizzit.se"
+      ],
+      "w2": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "use.fontawesome.com",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Båstad",
+      "typ": "kommun",
+      "domän": "bastad.se",
+      "status": 200,
+      "slutadress": "https://www.bastad.se/",
+      "w1": [
+        "cdn.matomo.cloud",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "bastadweb.matomo.cloud",
+        "cdn.matomo.cloud",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Eslöv",
+      "typ": "kommun",
+      "domän": "eslov.se",
+      "status": 200,
+      "slutadress": "https://www.eslov.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Helsingborg",
+      "typ": "kommun",
+      "domän": "helsingborg.se",
+      "status": 200,
+      "slutadress": "https://helsingborg.se/",
+      "w1": [
+        "app-cdn.puzzel.com"
+      ],
+      "w2": [
+        "alarm.helsingborg.io",
+        "app-cdn.puzzel.com",
+        "app-commsrv.puzzel.com",
+        "app-consumeridp.puzzel.com",
+        "app-state.puzzel.com",
+        "app-statistics.puzzel.com"
+      ]
+    },
+    {
+      "namn": "Hässleholm",
+      "typ": "kommun",
+      "domän": "hassleholm.se",
+      "status": 200,
+      "slutadress": "https://www.hassleholm.se/",
+      "w1": [
+        "app-cdn.puzzel.com",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "www.googletagmanager.com"
+      ],
+      "w2": [
+        "app-cdn.puzzel.com",
+        "app-commsrv.puzzel.com",
+        "app-consumeridp.puzzel.com",
+        "app-state.puzzel.com",
+        "app-statistics.puzzel.com",
+        "cdn.hoodin.com",
+        "f1-eu.readspeaker.com",
+        "predict.rekai.se",
+        "region1.analytics.google.com",
+        "static.rekai.se",
+        "stats.g.doubleclick.net",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se",
+        "www.google.se",
+        "www.googletagmanager.com"
+      ]
+    },
+    {
+      "namn": "Höganäs",
+      "typ": "kommun",
+      "domän": "hoganas.se",
+      "status": 200,
+      "slutadress": "https://www.hoganas.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "ssl.webserviceaward.com",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "predict.rekai.se",
+        "ssl.webserviceaward.com",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Hörby",
+      "typ": "kommun",
+      "domän": "horby.se",
+      "status": 200,
+      "slutadress": "https://www.horby.se/",
+      "w1": [
+        "app-cdn.puzzel.com",
+        "cdn.matomo.cloud"
+      ],
+      "w2": [
+        "app-cdn.puzzel.com",
+        "app-commsrv.puzzel.com",
+        "app-consumeridp.puzzel.com",
+        "app-state.puzzel.com",
+        "app-statistics.puzzel.com"
+      ]
+    },
+    {
+      "namn": "Höör",
+      "typ": "kommun",
+      "domän": "hoor.se",
+      "status": 200,
+      "slutadress": "https://www.hoor.se/",
+      "w1": [
+        "cdn-eu.readspeaker.com",
+        "insights.analys.cloud",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "insights.analys.cloud"
+      ]
+    },
+    {
+      "namn": "Klippan",
+      "typ": "kommun",
+      "domän": "klippan.se",
+      "status": 200,
+      "slutadress": "https://www.klippan.se/",
+      "w1": [
+        "cdn-eu.readspeaker.com",
+        "customer.cludo.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "api.cludo.com",
+        "cdn-eu.readspeaker.com",
+        "customer.cludo.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Kristianstad",
+      "typ": "kommun",
+      "domän": "kristianstad.se",
+      "status": 200,
+      "slutadress": "https://www.kristianstad.se/",
+      "w1": [
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ]
+    },
+    {
+      "namn": "Kävlinge",
+      "typ": "kommun",
+      "domän": "kavlinge.se",
+      "status": 200,
+      "slutadress": "https://www.kavlinge.se/",
+      "w1": [
+        "static.rekai.se"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Landskrona",
+      "typ": "kommun",
+      "domän": "landskrona.se",
+      "status": 200,
+      "slutadress": "https://www.landskrona.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Lomma",
+      "typ": "kommun",
+      "domän": "lomma.se",
+      "status": 200,
+      "slutadress": "https://lomma.se/",
+      "w1": [
+        "plausible.io",
+        "static.rekai.se"
+      ],
+      "w2": [
+        "plausible.io",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Lund",
+      "typ": "kommun",
+      "domän": "lund.se",
+      "status": 200,
+      "slutadress": "https://lund.se/",
+      "w1": [
+        "analytics.silktide.com",
+        "customer.cludo.com"
+      ],
+      "w2": [
+        "a.eu.silktide.com",
+        "analytics.silktide.com",
+        "api.cludo.com",
+        "customer.cludo.com",
+        "eventmanager-assets152928-production.fra1.cdn.digitaloceanspaces.com",
+        "fonts.googleapis.com",
+        "s3.cruncho.co"
+      ]
+    },
+    {
+      "namn": "Malmö",
+      "typ": "kommun",
+      "domän": "malmo.se",
+      "status": 200,
+      "slutadress": "https://malmo.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Osby",
+      "typ": "kommun",
+      "domän": "osby.se",
+      "status": 200,
+      "slutadress": "https://www.osby.se/",
+      "w1": [
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "f1-eu.readspeaker.com",
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Perstorp",
+      "typ": "kommun",
+      "domän": "perstorp.se",
+      "status": 200,
+      "slutadress": "https://www.perstorp.se/",
+      "w1": [
+        "cdn.jsdelivr.net",
+        "perstorp.cruncho.co",
+        "s3.cruncho.co",
+        "static.rekai.se",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "cdn.jsdelivr.net",
+        "perstorp.cruncho.co",
+        "plus.browsealoud.com",
+        "predict.rekai.se",
+        "s3.cruncho.co",
+        "static.rekai.se",
+        "view.rekai.se",
+        "www.browsealoud.com"
+      ]
+    },
+    {
+      "namn": "Simrishamn",
+      "typ": "kommun",
+      "domän": "simrishamn.se",
+      "status": 200,
+      "slutadress": "https://www.simrishamn.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Sjöbo",
+      "typ": "kommun",
+      "domän": "sjobo.se",
+      "status": 200,
+      "slutadress": "https://www.sjobo.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Skurup",
+      "typ": "kommun",
+      "domän": "skurup.se",
+      "status": 200,
+      "slutadress": "https://www.skurup.se/",
+      "w1": [
+        "org-1780.chat.kundo.se",
+        "static-chat.kundo.se",
+        "svanalytics.containers.piwik.pro",
+        "www.browsealoud.com"
+      ],
+      "w2": [
+        "chat.kundo.se",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "org-1780.chat.kundo.se",
+        "plus.browsealoud.com",
+        "static-chat.kundo.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "www.browsealoud.com"
+      ]
+    },
+    {
+      "namn": "Staffanstorp",
+      "typ": "kommun",
+      "domän": "staffanstorp.se",
+      "status": 200,
+      "slutadress": "https://www.staffanstorp.se/",
+      "w1": [
+        "s3.cruncho.co"
+      ],
+      "w2": [
+        "s3.cruncho.co"
+      ]
+    },
+    {
+      "namn": "Svalöv",
+      "typ": "kommun",
+      "domän": "svalov.se",
+      "status": 200,
+      "slutadress": "https://www.svalov.se/",
+      "w1": [
+        "static.rekai.se",
+        "translate.googleapis.com",
+        "www.vizzit.se"
+      ],
+      "w2": [
+        "fonts.gstatic.com",
+        "static.rekai.se",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "view.rekai.se",
+        "www.google.com",
+        "www.gstatic.com",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Svedala",
+      "typ": "kommun",
+      "domän": "svedala.se",
+      "status": 200,
+      "slutadress": "https://svedala.info/",
+      "w1": [
+        "ajax.googleapis.com",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "usercontent.one"
+      ],
+      "w2": [
+        "ajax.googleapis.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "usercontent.one",
+        "www.gstatic.com"
+      ]
+    },
+    {
+      "namn": "Tomelilla",
+      "typ": "kommun",
+      "domän": "tomelilla.se",
+      "status": 200,
+      "slutadress": "https://tomelilla.se/",
+      "w1": [
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro"
+      ]
+    },
+    {
+      "namn": "Trelleborg",
+      "typ": "kommun",
+      "domän": "trelleborg.se",
+      "status": 200,
+      "slutadress": "https://www.trelleborg.se/",
+      "w1": [],
+      "w2": []
+    },
+    {
+      "namn": "Vellinge",
+      "typ": "kommun",
+      "domän": "vellinge.se",
+      "status": 200,
+      "slutadress": "https://vellinge.se/",
+      "w1": [
+        "app-cdn.puzzel.com",
+        "cdn.jsdelivr.net",
+        "cdn.matomo.cloud",
+        "s3.cruncho.co",
+        "vellinge.cruncho.co"
+      ],
+      "w2": [
+        "app-cdn.puzzel.com",
+        "app-commsrv.puzzel.com",
+        "app-consumeridp.puzzel.com",
+        "app-state.puzzel.com",
+        "app-statistics.puzzel.com",
+        "cdn.jsdelivr.net",
+        "cdn.matomo.cloud",
+        "s3.cruncho.co",
+        "vellinge.cruncho.co",
+        "vellinge.matomo.cloud"
+      ]
+    },
+    {
+      "namn": "Ystad",
+      "typ": "kommun",
+      "domän": "ystad.se",
+      "status": 200,
+      "slutadress": "https://ystad.se/",
+      "w1": [
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Åstorp",
+      "typ": "kommun",
+      "domän": "astorp.se",
+      "status": 200,
+      "slutadress": "https://astorp.se/",
+      "w1": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "tag.vizzit.se"
+      ],
+      "w2": [
+        "cdn.vizzit.se",
+        "f1-eu.readspeaker.com",
+        "static.rekai.se",
+        "tag.vizzit.se",
+        "view.rekai.se",
+        "www.vizzit.se"
+      ]
+    },
+    {
+      "namn": "Ängelholm",
+      "typ": "kommun",
+      "domän": "engelholm.se",
+      "status": 200,
+      "slutadress": "https://www.engelholm.se/",
+      "w1": [
+        "euwa.puzzel.com",
+        "svanalytics.containers.piwik.pro",
+        "translate.google.com",
+        "translate.googleapis.com"
+      ],
+      "w2": [
+        "api.puzzel.com",
+        "euwa.puzzel.com",
+        "fonts.gstatic.com",
+        "svanalytics.containers.piwik.pro",
+        "svanalytics.piwik.pro",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "www.gstatic.com"
+      ]
+    },
+    {
+      "namn": "Örkelljunga",
+      "typ": "kommun",
+      "domän": "orkelljunga.se",
+      "status": 200,
+      "slutadress": "https://www.orkelljunga.se/",
+      "w1": [
+        "static.rekai.se"
+      ],
+      "w2": [
+        "api.helsingborg.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Östra Göinge",
+      "typ": "kommun",
+      "domän": "ostragoinge.se",
+      "status": 200,
+      "slutadress": "https://www.ostragoinge.se/",
+      "w1": [
+        "static.rekai.se"
+      ],
+      "w2": [
+        "predict.rekai.se",
+        "static.rekai.se",
+        "view.rekai.se"
+      ]
+    },
+    {
+      "namn": "Region Skåne",
+      "typ": "region",
+      "domän": "skane.se",
+      "status": "fel: HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}
