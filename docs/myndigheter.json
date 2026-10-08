@@ -1,0 +1,7752 @@
+{
+ "matt": "2026-10-08T164214Z",
+ "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T164214Z.json",
+ "organisationer": [
+  {
+   "namn": "Kammarkollegiet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 6,
+   "doman": "kammarkollegiet.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Allmänna reklamationsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "arn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "EPM - Nordlo Advance AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "plus.browsealoud.com",
+     "policy.app.cookieinformation.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Cookie Information",
+     "Texthelp",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.epm.se",
+     "mx2.epm.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens jordbruksverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 3,
+   "doman": "jordbruksverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "STATENS-JORDBRUKSVERK-ASN - Statens Jordbruksverk, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Arbetsförmedlingen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "arbetsformedlingen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "smtp.arbetsformedlingen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Arbetsgivarverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "arbetsgivarverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "script.hotjar.com",
+     "static.hotjar.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Hotjar"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "arbetsgivarverket-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-arbetsgivarverket-se._domainkey.arbetsgivarverket.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Arbetsmiljöverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "av.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELENOR-SE - Telenor Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net"
+    ],
+    "usLeverantorer": [
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mail.av.se",
+     "mail2.av.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Arvfondsdelegationen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "arvsfonden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Barnombudsmannen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "barnombudsmannen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.matomo.cloud",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "bospambx0001.barnombudsmannen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Blekinge tekniska högskola",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "bth.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "bth-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-bth-se._domainkey.bthse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Bokföringsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "bfn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "www.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "post.fi.se",
+     "post2.fi.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Bolagsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "bolagsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ext-mail.bolagsverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Boverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "boverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Brottsförebyggande rådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "bra.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Brottsoffermyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "brottsoffermyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7157.global.siteimproveanalytics.io",
+     "dc.services.visualstudio.com",
+     "js.monitor.azure.com",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "brspambx0001.brottsoffermyndigheten.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Centrala studiestödsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "csn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "GDM - GDM Konsult AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.csn.se",
+     "mx02.csn.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Diskrimineringsombudsmannen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "do.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "EPM - Nordlo Advance AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "policy.app.cookieinformation.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.epm.se",
+     "mx2.epm.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "dom.se (delas av 7 myndigheter)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 7,
+   "doman": "dom.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx1.dom.se",
+     "mx2.dom.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "E-hälsomyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ehalsomyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "ehspambx0001.ehalsomyndigheten.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Ekobrottsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ekobrottsmyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mail1.aklagare.se",
+     "mail2.aklagare.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Elsäkerhetsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "elsakerhetsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ATEA - ATEA Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "policy.app.cookieinformation.com",
+     "widget-api.netigate.se",
+     "widget.netigate.se",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google",
+     "Optimizely",
+     "netigate.se"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw.elsakerhetsverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Energimarknadsinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ei.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ei-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ei-se._domainkey.energimarknadsinspektionen.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Etikprövningsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "etikprovning.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "okänd",
+   "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn-cookieyes.com",
+     "fonts.googleapis.com",
+     "log.cookieyes.com",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "cdn-cookieyes.com",
+     "cookieyes.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Exportkreditnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ekn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Fastighetsmäklarinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fmi.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "fmi-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-fmi-se._domainkey.fmim365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Finansinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FI-AS - Finansinspektionen, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com"
+    ],
+    "usLeverantorer": [
+     "cookietractor.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "post.fi.se",
+     "post2.fi.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Finanspolitiska rådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fpr.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx-01-eu-central-1.prod.hydra.sophos.com",
+     "mx-02-eu-central-1.prod.hydra.sophos.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Folke bernadotteakademin",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fba.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "fba-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-fba-se._domainkey.folkebernadotteakademin.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Folkhälsomyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "folkhalsomyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Fondtorgsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ftn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "smtp3.pensionsmyndigheten.se",
+     "smtp4.pensionsmyndigheten.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Forskarskattenämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "forskarskattenamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Forskningsrådet f miljö, areella näringar och samhällsbyggande",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "formas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.matomo.cloud",
+     "formas.matomo.cloud",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw5.vinnova.se",
+     "mailgw6.vinnova.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-formas-se._domainkey.vinnova.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "forte.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw5.vinnova.se",
+     "mailgw6.vinnova.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-forte-se._domainkey.vinnova.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Fortifikationsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fortifikationsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail01.fortifikationsverket.se",
+     "mail02.fortifikationsverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Forum för levande historia",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "levandehistoria.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "levandehistoria-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-levandehistoria-se._domainkey.levandehistoria.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Försvarets materielverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fmv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.gstatic.com",
+     "translate.google.com",
+     "translate.googleapis.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "post5.fmv.se",
+     "post6.fmv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Försvarets radioanstalt",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fra.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx-04.fra.se",
+     "mx-03.fra.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Försvarshögskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "fhs.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "fhs-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-fhs-se._domainkey.forsvarshogskolan.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Försvarsmakten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mil.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "js.monitor.azure.com",
+     "northeurope-2.in.applicationinsights.azure.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx-50.mil.se",
+     "mx-60.mil.se",
+     "mx-70.mil.se",
+     "mx-80.mil.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Försäkringskassan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "forsakringskassan.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "maily1.forsakringskassan.se",
+     "maily2.forsakringskassan.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Gentekniknämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "genteknik.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "a.nel.cloudflare.com",
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "genteknik-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-genteknik-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Gymnastik- och idrottshögskolan (GIH)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "gih.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "gih-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gih-se._domainkey.gihse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Göteborgs universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "gu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNSPECIFIED - Goteborgs universitet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "7340.global.siteimproveanalytics.io",
+     "p.typekit.net",
+     "siteimproveanalytics.com",
+     "use.typekit.net",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Google",
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "gu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-gu-se._domainkey.GuNet.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Harpsundsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "harpsund.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailcluster.loopia.se",
+     "mail2.loopia.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Havs- och vattenmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "havochvatten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Socialstyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 2,
+   "doman": "socialstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail04.sos.se",
+     "mail05.sos.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan dalarna",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "du.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNSPECIFIED - Dalarna University, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "ka-p.fontawesome.com",
+     "kit.fontawesome.com",
+     "maxcdn.bootstrapcdn.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Optimizely",
+     "bootstrapcdn.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-du-se._domainkey.dalarnauniversity.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan i borås",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "hb.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "hb-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hb-se._domainkey.boras.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan i gävle",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "hig.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7400.global.siteimproveanalytics.io",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "hig-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hig-se._domainkey.hogskolanigavle.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan i halmstad",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "hh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "pagead2.googlesyndication.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "hh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hh-se._domainkey.hhse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan i skövde",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "his.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "fml0.his.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-his-se._domainkey.hogskolaniskovde.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan kristianstad",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "hkr.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "hkr-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hkr-se._domainkey.hkrse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolan väst",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "hv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "8285.global.siteimproveanalytics.io",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "lmail01.server.hv.se",
+     "lmail02.server.hv.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-hv-se._domainkey.studenthv.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Högskolans avskiljandenämnd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "han.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "p.typekit.net",
+     "plus.browsealoud.com",
+     "use.typekit.net",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "regeringskansliet.se (delas av 3 myndigheter)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 3,
+   "doman": "regeringskansliet.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "uller.mta.ministry.se",
+     "unn.mta.ministry.se",
+     "urd.mta.ministry.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Inspektionen för arbetslöshetsförsäkring",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "iaf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "okänd",
+   "webbLeverantor": "UUNET - Verizon Business, US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7420.global.siteimproveanalytics.io",
+     "dl.episerver.net",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Optimizely",
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Inspektionen för socialförsäkringen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "isf.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "isf-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-isf-se._domainkey.seisf.w-v1.dkim.mail.microsoft.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Inspektionen för strategiska produkter",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "isp.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Bluerange-AS - Bluerange Sweden AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail.isp.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Inspektionen för vård och omsorg",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ivo.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "okänd",
+   "webbLeverantor": "IVER - IVER NORGE AS, NO",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com",
+     "cdn.jsdelivr.net",
+     "code.jquery.com",
+     "fonts.googleapis.com",
+     "maxcdn.bootstrapcdn.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "bootstrapcdn.com",
+     "cookietractor.com",
+     "jQuery CDN",
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx10.ivo.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Institutet för arbetsmarknads-och utbildningspolitisk utvärdering",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ifau.uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": null,
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Institutet för mänskliga rättigheter",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mrinstitutet.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mrinstitutet-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mrinstitutet-se._domainkey.mrinstitutet.p-v1.dkim.mail.microsoft.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Institutet för rymdfysik",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "irf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Institutet för språk och folkminnen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "isof.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Integritetsskyddsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "imy.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx1.improve.nordlo.cloud",
+     "mx2.improve.nordlo.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Justitiekanslern",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "jk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Jämställdhetsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "jamstalldhetsmyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Siteimprove",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "jamstalldhetsmyndigheten-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-jamstalldhetsmyndigheten-se._domainkey.jamstalldhetsmyndigheten.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Karlstads universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kau.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "kau-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kau-se._domainkey.kaumail.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Karolinska institutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ki.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.jsdelivr.net",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "ki-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ki-se._domainkey.kise.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kemikalieinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kemi.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7477.global.siteimproveanalytics.io",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "kemi-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kemi-se._domainkey.kemise.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Klimatpolitiska rådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "klimatpolitiskaradet.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.matomo.cloud",
+     "fonts.googleapis.com",
+     "formas.matomo.cloud",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw5.vinnova.se",
+     "mailgw6.vinnova.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-klimatpolitiskaradet-se._domainkey.vinnova.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kommerskollegium",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kommerskollegium.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "komspambx0001.kommerskollegium.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Konjunkturinstitutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "konj.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx-01-eu-central-1.prod.hydra.sophos.com",
+     "mx-02-eu-central-1.prod.hydra.sophos.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-konj-se._domainkey.konjse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Konkurrensverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kkv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailgate.kkv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Konstfack",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "konstfack.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SE-NORDLO-ELEVATE-AS - Nordlo Elevate AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "konstfack-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-konstfack-se._domainkey.studentkonstfack.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Konstnärsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "konstnarsnamnden.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "Inleed - Yelles AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "konstnarsnamnden-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-konstnarsnamnden-se._domainkey.konstnarsnamnden.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Konsumentverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "konsumentverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "images.ctfassets.net"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "ctfassets.net"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "konsumentverket-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-konsumentverket-se._domainkey.kov365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kriminalvården",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kriminalvarden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw.kriminalvarden.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kronofogdemyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kronofogden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kungliga biblioteket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kb.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "kb-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kb-se._domainkey.kbse0.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kungliga konsthögskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kkh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "hello.myfonts.net"
+    ],
+    "usLeverantorer": [
+     "Monotype"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "kkh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kungliga musikhögskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kmh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "w.soundcloud.com"
+    ],
+    "usLeverantorer": [
+     "soundcloud.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "kmh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kmh-se._domainkey.KunglMusikhogskolan.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kungliga tekniska högskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kth.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kth-se._domainkey.kth.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Kustbevakningen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kustbevakningen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "ATEA - ATEA Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mail.coastguard.se",
+     "mail.kbv.se",
+     "mail.kustbevakningen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Lantmäteriet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "lm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SE-LM - Lantmateriet, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "nexus-tm01.lmv.lm.se",
+     "nexus-tsg001.lmv.lm.se",
+     "nexus-tss001.lmv.lm.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Linköpings universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "liu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "LIUnet - LIUnet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "liu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-liu-se._domainkey.liuonline.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Linnéuniversitetet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "lnu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn-cookieyes.com",
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "lnu.boost.ai",
+     "log.cookieyes.com",
+     "static.aim.front.ai",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "boost.ai",
+     "cdn-cookieyes.com",
+     "cookieyes.com",
+     "front.ai",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "lnu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-lnu-se._domainkey.linnaeus.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Livsmedelsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "slv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "NMU-AS - Nordisk Media Utveckling AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mail.slv.se",
+     "mail2.slv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Luleå tekniska universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ltu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "7574.global.siteimproveanalytics.io",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "ltu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-ltu-se._domainkey.ltuse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Lunds universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "lu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNSPECIFIED - Lund University, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "lu-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-lu-se._domainkey.LundUniversityO365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Läkemedelsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "lakemedelsverket.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "northeurope-2.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw10.mpa.se",
+     "mailgw11.mpa.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "lansstyrelsen.se (delas av 21 myndigheter)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 21,
+   "doman": "lansstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "external-mx.lst.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Malmö universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mau.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "apiv2.imbox.io",
+     "cdn.botframework.com",
+     "customer.cludo.com",
+     "files.imbox.io",
+     "p.typekit.net",
+     "triggers-v3.imbox.io",
+     "use.typekit.net",
+     "widget-launcher.imbox.io",
+     "widget.imbox.io"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cludo",
+     "Imbox",
+     "botframework.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mau-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mau-se._domainkey.mah365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Mediemyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mediemyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "QDSverigeAB - QD Sverige AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com",
+     "cdn.matomo.cloud",
+     "fast.fonts.net"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Monotype",
+     "cookietractor.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mediemyndigheten-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mediemyndigheten-se._domainkey.radioochtv.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Medlingsinstitutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mispambx0001.mi.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Migrationsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "migrationsverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIGR-AS - Migrationsverket, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "migrationsverket-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Mittuniversitetet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "miun.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn-cookieyes.com",
+     "clients1.google.com",
+     "cse.google.com",
+     "elfsightcdn.com",
+     "ep1.adtrafficquality.google",
+     "ep2.adtrafficquality.google",
+     "js.monitor.azure.com",
+     "log.cookieyes.com",
+     "pagead2.googlesyndication.com",
+     "swedencentral-0.in.applicationinsights.azure.com",
+     "www.google.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft",
+     "adtrafficquality.google",
+     "cdn-cookieyes.com",
+     "cookieyes.com",
+     "elfsightcdn.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "miun-se.mail.protection.outlook.com",
+     "tarbaby.junkemailfilter.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-miun-se._domainkey.miun.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Moderna museet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "modernamuseet.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "region1.google-analytics.com",
+     "sentry.frojd.se",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "frojd.se"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-modernamuseet-se._domainkey.modernamuseet.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för civilt försvar",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mcf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailgw-01.msb.se",
+     "mailgw-02.msb.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för delaktighet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mfd.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "6091227.global.siteimproveanalytics.io",
+     "dc.services.visualstudio.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "js.monitor.azure.com",
+     "policy.app.cookieinformation.com",
+     "siteimproveanalytics.com",
+     "www.youtube.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google",
+     "Microsoft",
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mdspambx0001.mfd.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för digital förvaltning",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "digg.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "diapmx01.digg.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för familjerätt och föräldraskapsstöd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mfof.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mfspambx0001.mfof.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för kulturanalys",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kulturanalys.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "kulturanalys-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kulturanalys-se._domainkey.kulturanalys.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för psykologiskt försvar",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mpf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "mpf.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.epm.se",
+     "mx2.epm.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för säkerhet och integritetsskydd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sakint.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "fonts.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "sinspambx0001.sakint.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för tillgängliga medier",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mtm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "annat nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mtm-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mtm-se._domainkey.mtmtpb.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "tillvaxtanalys.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "tillvaxtanalys-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tillvaxtanalys-se._domainkey.tillvaxtsanalys.e-v1.dkim.mail.microsoft.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för totalförsvarsanalys",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mtfa.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mta-prd-mt1.g30.se",
+     "mta-prd-mt1.vv1.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Myndigheten för ungdoms-och civilsamhällesfrågor",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mucf.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för vård- och omsorgsanalys",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "vardanalys.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BAHNHOF - Bahnhof AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "hello.myfonts.net",
+     "vardanalys.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Monotype"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "vaspambx0001.vardanalys.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Myndigheten för yrkeshögskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "myh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "policy.app.cookieinformation.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "myh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-myh-se._domainkey.myhse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Mälardalens universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "mdu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mdu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-mdu-se._domainkey.studentmdh.w-v1.dkim.mail.microsoft.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Nationalmuseum",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "nationalmuseum.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "cloud.typography.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "p.typekit.net",
+     "use.typekit.net",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cloudflare",
+     "Google",
+     "Usercentrics (Cookiebot)",
+     "typography.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "nationalmuseum-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-nationalmuseum-se._domainkey.nmswe.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Naturhistoriska riksmuseet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "nrm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Naturvårdsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "naturvardsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "js.monitor.azure.com",
+     "p.typekit.net",
+     "policy.app.cookieinformation.com",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Cookie Information",
+     "Microsoft",
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.improve.nordlo.cloud",
+     "mx2.improve.nordlo.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Nordiska afrikainstitutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "nai.uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "p.typekit.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Nämnden för hemslöjdsfrågor",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "nfh.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "code.jquery.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "dl.episerver.net",
+     "kulturradet.imagevault.app",
+     "plus.browsealoud.com",
+     "www.browsealoud.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Optimizely",
+     "Texthelp",
+     "Usercentrics (Cookiebot)",
+     "imagevault.app",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Nämnden för prövning av oredlighet i forskning",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "npof.se",
+   "epost": "okänd",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "DATACOMM - DataCom Group Nordic AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Nämnden mot Diskriminering",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "namndenmotdiskriminering.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": "ONECOM - One.com A/S, DK",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "app.termly.io"
+    ],
+    "usLeverantorer": [
+     "termly.io"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.mailpod15-cph3.g1i.one.com",
+     "mx2.mailpod15-cph3.g1i.one.com",
+     "mx3.mailpod15-cph3.g1i.one.com",
+     "mx4.mailpod15-cph3.g1i.one.com"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Oljekrisnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "oljekrisnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": null,
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Patent- och registreringsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "prv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.cookietractor.com",
+     "netdna.bootstrapcdn.com",
+     "player.vimeo.com",
+     "prv.imagevault.media",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Vimeo",
+     "bootstrapcdn.com",
+     "cookietractor.com",
+     "imagevault.media"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "prv-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-prv-se._domainkey.prvse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Patentombudsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "patentombudsnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ext-mail.bolagsverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Pensionsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "pensionsmyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "smtp3.pensionsmyndigheten.se",
+     "smtp4.pensionsmyndigheten.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Polarforskningssekretariatet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "polar.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "ajax.aspnetcdn.com",
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "googleads.g.doubleclick.net",
+     "i.ytimg.com",
+     "region1.google-analytics.com",
+     "static.doubleclick.net",
+     "www.google.com",
+     "www.googletagmanager.com",
+     "www.youtube.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "aspnetcdn.com",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "polar-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-polar-se._domainkey.polarfs.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Polismyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "polisen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNSPECIFIED - Polismyndigheten, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail1.polisen.se",
+     "mail2.polisen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Post- och telestyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "pts.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": "radware - Radware Ltd, IL",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "pts-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-pts-se._domainkey.ptsse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Revisorsinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "revisorsinspektionen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "spamfilter.revisorsinspektionen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Riksantikvarieämbetet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "raa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "p.typekit.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "raa-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-raa-se._domainkey.raase.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Riksarkivet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "riksarkivet.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail01.riksarkivet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Riksgäldskontoret",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "riksgalden.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "RIKSGALDEN-AS - Riksgaldskontoret, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx1.riksgalden.se",
+     "mx2.riksgalden.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Rymdstyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "snsa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "VINNOVA-ASN - Verket for Innovationssystem, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com",
+     "cdn.gtranslate.net",
+     "cdn.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "cookietractor.com",
+     "gtranslate.net"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw5.vinnova.se",
+     "mailgw6.vinnova.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-snsa-se._domainkey.vinnova.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Rättsmedicinalverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "rmv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "WetterNet-AS - Jonkoping Energi AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "7adcfd322329.w.hcaptcha.com",
+     "ajax.googleapis.com",
+     "cdnjs.cloudflare.com",
+     "js.hcaptcha.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "Texthelp",
+     "hcaptcha.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.rmv.se",
+     "mx2.rmv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sameskolstyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sameskolstyrelsen.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "G",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn-cookieyes.com",
+     "log.cookieyes.com"
+    ],
+    "usLeverantorer": [
+     "cdn-cookieyes.com",
+     "cookieyes.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "ASPMX.L.GOOGLE.COM",
+     "ALT1.ASPMX.L.GOOGLE.COM",
+     "ALT2.ASPMX.L.GOOGLE.COM",
+     "ASPMX2.GOOGLEMAIL.COM",
+     "ASPMX3.GOOGLEMAIL.COM"
+    ],
+    "spf": "_spf.google.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sametinget",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 2,
+   "doman": "sametinget.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BRS-Networks-AS - BRS Networks AB, SE",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "sametinget-se.mail.protection.outlook.com",
+     "mail3.norrmoln.se",
+     "mail4.norrmoln.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sametinget-se._domainkey.sametingetse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sida",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sida.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "AWS",
+   "webbLeverantor": "AMAZON-02 - Amazon.com, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "api.openaid.se"
+    ],
+    "usLeverantorer": [
+     "openaid.se"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Skatterättsnämnden",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skatterattsnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Skatteverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skatteverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Skogsstyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skogsstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SKOGSTY - Skogsstyrelsen, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net"
+    ],
+    "usLeverantorer": [
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "skogsstyrelsen.in.tmes.trendmicro.eu"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Skolforskningsinstitutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skolfi.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "skolfi-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Skolväsendets överklagandenämnd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "overklagandenamnden.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.improve.nordlo.cloud",
+     "mx2.improve.nordlo.cloud"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Specialpedagogiska skolmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "spsm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.cookietractor.com",
+     "dl.episerver.net",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Optimizely",
+     "Texthelp",
+     "cookietractor.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx2.spsm.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Spelinspektionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "spelinspektionen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens beredning för medicinsk och social utvärdering",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sbu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "20035.global.siteimproveanalytics.io",
+     "az416426.vo.msecnd.net",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "fast.fonts.net",
+     "plus.browsealoud.com",
+     "siteimproveanalytics.com",
+     "www.browsealoud.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Microsoft",
+     "Monotype",
+     "Optimizely",
+     "Siteimprove",
+     "Texthelp",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "sbu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sbu-se._domainkey.sbu.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens energimyndighet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "energimyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "js.monitor.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft",
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "energimyndigheten-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-energimyndigheten-se._domainkey.energimyndigheten.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens fastighetsverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sfv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SFV-AS - Statens Fastighetsverk, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "p.typekit.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "sfv-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sfv-se._domainkey.sfvc365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens geotekniska institut",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sgi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens haverikommission",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "shk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "hkspambx0001.shk.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens historiska museer",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "shm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FOUREDGE-AS - Fouredge AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "cdn.matomo.cloud",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "shm.matomo.cloud",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "shm-se.mail.eo.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-shm-se._domainkey.statensmuseer.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens inspektion för försvarsunderrättelseverksamheten (SIUN)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "siun.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail.ext.siun.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Statens institutionsstyrelse",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "stat-inst.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "Microsoft",
+     "Usercentrics (Cookiebot)",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mail.stat-inst.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens kulturråd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "kulturradet.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.matomo.cloud",
+     "code.jquery.com",
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "dl.episerver.net",
+     "kulturradet.imagevault.app",
+     "plus.browsealoud.com",
+     "www.browsealoud.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "InnoCraft (Matomo Cloud)",
+     "Optimizely",
+     "Texthelp",
+     "Usercentrics (Cookiebot)",
+     "imagevault.app",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "kulturradet-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-kulturradet-se._domainkey.kulturradet.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens museer för maritim, transport- och försvarshistoria",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "smtm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com",
+     "dl.episerver.net",
+     "fast.fonts.net",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Monotype",
+     "Optimizely",
+     "Texthelp",
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx3.culturnet.se",
+     "mx4.culturnet.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens museer för världskultur",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "varldskulturmuseerna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "ad.doubleclick.net",
+     "connect.facebook.net",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "googleads.g.doubleclick.net",
+     "js.monitor.azure.com",
+     "region1.analytics.google.com",
+     "region1.google-analytics.com",
+     "stats.g.doubleclick.net",
+     "www.facebook.com",
+     "www.google.com",
+     "www.google.se",
+     "www.googleadservices.com",
+     "www.googletagmanager.com",
+     "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Meta",
+     "Microsoft",
+     "Optimizely",
+     "googleadservices.com",
+     "on.aws"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "varldskulturmuseerna-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-varldskulturmuseerna-se._domainkey.varldskulturmuseerna.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens musikverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "musikverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "NET-BINERO-STHLM1 - Binero AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "ajax.googleapis.com",
+     "cdn.jsdelivr.net",
+     "use.typekit.net"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Google",
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "musikverket-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-musikverket-se._domainkey.musikverk.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens servicecenter",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "statenssc.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail.statenssc.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens skolinspektion",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skolinspektionen.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ZETUPNET - Nordlo Improve AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.improve.nordlo.cloud",
+     "mx2.improve.nordlo.cloud"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens skolverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "skolverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "smtp1.skolverket.se",
+     "smtp2.skolverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens tjänstepensions- och grupplivnämnd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 2,
+   "doman": "spv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FSK - Forsakringskassan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "spaspambx001.spv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens veterinärmedicinska anstalt",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sva.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "ajax.aspnetcdn.com",
+     "cdn.jsdelivr.net",
+     "cdnjs.cloudflare.com",
+     "fonts.gstatic.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "Google",
+     "aspnetcdn.com",
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "sva-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sva-se._domainkey.svasweden.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statens väg- och transportforskningsinstitut",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "vti.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "vti-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vti-se._domainkey.vtiOffice365.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statistiska centralbyrån",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "scb.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SCB-AS - Statistics Sweden, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail1.scb.se",
+     "mail2.scb.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Statskontoret",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "statskontoret.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "epost.esv.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Stockholms konstnärliga högskola",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "uniarts.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "consent.cookiebot.com",
+     "consentcdn.cookiebot.com"
+    ],
+    "usLeverantorer": [
+     "Usercentrics (Cookiebot)"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "uniarts-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Stockholms universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "su.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "a.eu.silktide.com",
+     "analytics.silktide.com",
+     "cdn.matomo.cloud",
+     "su.matomo.cloud"
+    ],
+    "usLeverantorer": [
+     "InnoCraft (Matomo Cloud)",
+     "Silktide"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": "selector1-su-se._domainkey.stockholmuniversity.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Strålsäkerhetsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ssm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "code.jquery.com",
+     "dc.services.visualstudio.com",
+     "dl.episerver.net",
+     "fonts.gstatic.com",
+     "googleads.g.doubleclick.net",
+     "i.ytimg.com",
+     "js.monitor.azure.com",
+     "policy.app.cookieinformation.com",
+     "static.doubleclick.net",
+     "www.google.com",
+     "www.youtube.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google",
+     "Microsoft",
+     "Optimizely",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx2.ssm.se",
+     "mx4.ssm.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Styrelsen för ackreditering och teknisk kontroll",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "swedac.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "AWS",
+   "webbLeverantor": "AMAZON-02 - Amazon.com, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net"
+    ],
+    "usLeverantorer": [
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Svenska esf-rådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "esf.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Advania-IMP-SE - Advania Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com",
+     "ka-p.fontawesome.com",
+     "kit.fontawesome.com",
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Fonticons (Font Awesome)",
+     "Google",
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Svenska institutet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "si.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "fonts.googleapis.com",
+     "fonts.gstatic.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "si-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-si-se._domainkey.svenskainstitutet.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Svenska institutet för europapolitiska studier",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sieps.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "Bluerange-AS - Bluerange Sweden AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "f.vimeocdn.com",
+     "i.vimeocdn.com",
+     "player.vimeo.com",
+     "policy.app.cookieinformation.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Vimeo"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "sieps-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sveriges författarfond",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "svff.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BAHNHOF - Bahnhof AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "svff-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-svff-se._domainkey.svforfattarfond.r-v1.dkim.mail.microsoft.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sveriges geologiska undersökning",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sgu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "CANDIDATOR-AB - Iver Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "plus.browsealoud.com",
+     "www.browsealoud.com",
+     "www.google.com",
+     "www.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely",
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.sgu.se",
+     "mx2.sgu.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sveriges lantbruksuniversitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "slu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "slu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-slu-se._domainkey.svelantbruksuniversitet.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sveriges meteorologiska och hydrologiska institut",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "smhi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SMHI-AS - Sveriges Meteorologiska och Hydrologiska Institut, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn-cookieyes.com",
+     "log.cookieyes.com"
+    ],
+    "usLeverantorer": [
+     "cdn-cookieyes.com",
+     "cookieyes.com"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Säkerhetspolisen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sakerhetspolisen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": "LINK11 - Link11 GmbH, DE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail.sakerhetspolisen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Södertörns högskola",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "sh-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-sh-se._domainkey.sunioffice.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Tandvårds-och läkemedelsförmånsverket, TLV",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "tlv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tlv-se._domainkey.tlvse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Tillväxtverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "tillvaxtverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "foq.youreurope.europa.eu"
+    ],
+    "usLeverantorer": [
+     "europa.eu"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "tillvaxtverket-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-tillvaxtverket-se._domainkey.tillvaxten.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Totalförsvarets forskningsinstitut, foi",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "foi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ip1-m.foi.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Totalförsvarets plikt- och prövningsverk",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "pliktverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "psrv-lin-052.pliktverket.se",
+     "psrv-lin-054.pliktverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Trafikanalys",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "trafa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "dl.episerver.net",
+     "region-eu.cookiehub.net",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely",
+     "cookiehub.net"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "trafa-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-trafa-se._domainkey.trafa.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Trafikverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "trafikverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "banverket - Trafikverket, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailg1.trafikverket.se",
+     "mailg2.trafikverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Transportstyrelsen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "transportstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mx1.transportstyrelsen.se",
+     "mx2.transportstyrelsen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Tullverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "tullverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "extmp0004.tullverket.se",
+     "extmp0005.tullverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Umeå universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "umu.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET-UMU - Umea University, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "umu-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-umu-se._domainkey.umeauniversity.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Universitets- och högskolerådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "uhr.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdn.jsdelivr.net",
+     "dl.episerver.net"
+    ],
+    "usLeverantorer": [
+     "Optimizely",
+     "jsDelivr"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "uhr-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-uhr-se._domainkey.uhrse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Universitetskanslersämbetet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "uka.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "plus.browsealoud.com",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Upphandlingsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "uhmynd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "js.monitor.azure.com",
+     "policy.app.cookieinformation.com",
+     "region1.google-analytics.com",
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Cookie Information",
+     "Google",
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "uhmynd-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-uhmynd-se._domainkey.upphandlingsmyndigheten.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Uppsala universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "8074.global.siteimproveanalytics.io",
+     "siteimproveanalytics.com"
+    ],
+    "usLeverantorer": [
+     "Siteimprove"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailfilter-ng-1.sunet.se",
+     "mailfilter-ng-3.sunet.se",
+     "mailfilter-ng-4.sunet.se",
+     "mailfilter-ng-2.sunet.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Utbetalningsmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "ubm.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Valmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "val.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "ansible.skatteverket.se",
+     "marathon.skatteverket.se",
+     "telegraf.skatteverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Verket för innovationssystem",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "vinnova.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "VINNOVA-ASN - Verket for Innovationssystem, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "cdnjs.cloudflare.com",
+     "code.jquery.com",
+     "forms.apsisforms.com"
+    ],
+    "usLeverantorer": [
+     "Cloudflare",
+     "apsisforms.com",
+     "jQuery CDN"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mailgw5.vinnova.se",
+     "mailgw6.vinnova.se"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vinnova-se._domainkey.vinnova.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Vetenskapsrådet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "vr.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": true,
+    "us": [
+     "www.googletagmanager.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "vr-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-vr-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Åklagarmyndigheten",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "aklagare.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mail1.aklagare.se",
+     "mail2.aklagare.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Örebro universitet",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "oru.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "oru-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-oru-se._domainkey.oruse.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Överklagandenämnden för etikprövning",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "onep.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "fonts.googleapis.com"
+    ],
+    "usLeverantorer": [
+     "Google"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "onep-se.mail.protection.outlook.com"
+    ],
+    "spf": null,
+    "dkim": "selector1-onep-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Överklagandenämnden för högskolan",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "onh.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "p.typekit.net",
+     "plus.browsealoud.com",
+     "use.typekit.net",
+     "www.browsealoud.com"
+    ],
+    "usLeverantorer": [
+     "Adobe",
+     "Texthelp"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx01.advania.cloud",
+     "mx02.advania.cloud"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 400
+   }
+  },
+  {
+   "namn": "Överklagandenämnden för studiestöd",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "oks.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "BRS-Networks-AS - BRS Networks AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "oks-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "riksdagen.se (delas av 2 myndigheter)",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 2,
+   "doman": "riksdagen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SUNET - Vetenskapsradet / SUNET, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "mailgw.riksdagen.se",
+     "mailgw2.riksdagen.se",
+     "mailgw3.riksdagen.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Riksdagens ombudsmän",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "jo.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "okänd",
+   "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "ingen tredjepart",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "josmtp1.jo.se",
+     "josmtp2.jo.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Riksrevisionen",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "riksrevisionen.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "bara EU/EES-nät före samtycke",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": []
+   },
+   "svar": {
+    "mx": [
+     "riksrevisionen-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-riksrevisionen-se._domainkey.riksrevisionen.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sveriges riksbank",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "riksbank.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "riksbank-se.mail.protection.outlook.com"
+    ],
+    "spf": "spf.protection.outlook.com",
+    "dkim": "selector1-riksbank-se._domainkey.riksbank.onmicrosoft.com.",
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Luftfartsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "lfv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "se.mx1.mailanyone.net",
+     "se.mx2.mx25.net",
+     "se.mx3.mailanyone.net",
+     "se.mx4.mx25.net"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Sjöfartsverket",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "sjofartsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SMA-AS - Sjofartsverket, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "dl.episerver.net",
+     "fonts.googleapis.com",
+     "fonts.gstatic.com"
+    ],
+    "usLeverantorer": [
+     "Google",
+     "Optimizely"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "mx1.sjofartsverket.se",
+     "mx2.sjofartsverket.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  },
+  {
+   "namn": "Svenska kraftnät",
+   "typ": "myndighet",
+   "lan": "",
+   "antal": 1,
+   "doman": "svk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   },
+   "fore_samtycke": {
+    "klass": "US-nät före samtycke",
+    "ga": false,
+    "us": [
+     "js.monitor.azure.com",
+     "swedencentral-0.in.applicationinsights.azure.com"
+    ],
+    "usLeverantorer": [
+     "Microsoft"
+    ]
+   },
+   "svar": {
+    "mx": [
+     "nspamgw01.svk.se",
+     "nspamgw02.svk.se"
+    ],
+    "spf": null,
+    "dkim": null,
+    "entra": 200
+   }
+  }
+ ],
+ "webbMatt": "2026-10-08T164403Z",
+ "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json"
+}

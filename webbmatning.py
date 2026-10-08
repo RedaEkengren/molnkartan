@@ -117,14 +117,16 @@ def slutadress(url):
 
 def mat(rad):
     doman = rad["domän"]
+    # Myndigheter: registrets webbadress när den finns, annars www.<domän> (METOD.md, mätning 3).
+    forsta = f"https://{rad['webb']}/" if rad.get("webb") else f"https://www.{doman}/"
     try:
-        status, slut = slutadress(f"https://www.{doman}/")
+        status, slut = slutadress(forsta)
     except Exception:
         try:  # rättelse v3: vissa saknar www
             status, slut = slutadress(f"https://{doman}/")
         except Exception as fel:
             return {**rad, "status": f"fel: {type(fel).__name__}: {fel}"[:200]}
-    egna = {registrerad(doman), registrerad(urlparse(slut).hostname)}
+    egna = {registrerad(doman), registrerad(urlparse(slut).hostname), registrerad(urlparse(forsta).hostname)}
     # Version 2: samma namn under annan toppdomän räknas som egen (helsingborg.io för helsingborg.se).
     namn = {e.split(".")[0] for e in egna}
     try:

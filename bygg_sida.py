@@ -1,5 +1,5 @@
-"""Bygger docs/data.json för GitHub Pages:
-python3 bygg_sida.py data/ra-organisationer-sverige-....json [data/webb-organisationer-sverige-....json]
+"""Bygger datafilen till GitHub Pages:
+python3 bygg_sida.py <ra-fil> [<webb-fil>] [<utfil, standard docs/data.json>]
 """
 
 import json
@@ -34,7 +34,8 @@ def main():
         organisationer.append({
             "namn": o["namn"],
             "typ": o["typ"],
-            "lan": o["lan"],
+            "lan": o.get("lan", ""),
+            "antal": int(o.get("antal") or 1),
             "doman": o["domän"],
             "epost": epost(s),
             "tenant": o["entra_status"] == 200,
@@ -55,9 +56,10 @@ def main():
     ut = {"matt": data[0]["matt"], "kalla": fil, "organisationer": organisationer}
     if webb_fil:
         ut["webbMatt"], ut["webbKalla"] = webb_data["matt"], webb_fil
-    (ROT / "docs").mkdir(exist_ok=True)
-    (ROT / "docs" / "data.json").write_text(json.dumps(ut, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"docs/data.json: {len(organisationer)} organisationer, mätt {ut['matt']}")
+    utfil = ROT / (sys.argv[3] if len(sys.argv) > 3 else "docs/data.json")
+    utfil.parent.mkdir(exist_ok=True)
+    utfil.write_text(json.dumps(ut, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{utfil.relative_to(ROT)}: {len(organisationer)} organisationer, mätt {ut['matt']}")
 
 
 if __name__ == "__main__":

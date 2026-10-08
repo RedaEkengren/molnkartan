@@ -282,3 +282,41 @@ påverkar inte klassen.
 Båda hittades vid granskning av den första nationella körningen
 (`data/webb-organisationer-sverige-2026-10-08T162242Z.json`), som behålls.
 Hela landet mäts om med rättelserna.
+
+---
+
+# Mätning 3: Statliga myndigheter (issue #5)
+
+Skriven 2026-10-08, före all mätning av myndigheter.
+
+## Lista
+
+SCB:s allmänna myndighetsregister (myndighetsregistret.scb.se, nedladdat
+2026-10-08): statliga förvaltningsmyndigheter (244), myndigheter under
+riksdagen (5) och statliga affärsverk (3), totalt 252.
+`organisationer-myndigheter.csv` har alla 252 med organisationsnummer.
+
+- **E-postdomän** = domänen i registrets e-postadress. **Webb** = registrets
+  webbadress. De mäts var för sig (Försvarsmakten: `mil.se` och
+  `forsvarsmakten.se`).
+- **Delad domän:** flera myndigheter med samma e-postdomän mäts **en** gång.
+  Myndigheten vars webbadress är domänens rot räknas som värd; övriga
+  redovisas som "värdas av". Där ingen är värd (t.ex. de 21 länsstyrelserna
+  på `lansstyrelsen.se`) redovisas domänen som delad.
+- 11 nämnder saknar både e-post och webb i registret och kan inte mätas.
+- Mätenheten är unik e-postdomän: `organisationer-myndigheter-matning.csv`.
+
+## Regler och kriterier
+
+Oförändrade: e-postregel v2 med DKIM-rättelsen, mätning 2 version 3 med
+rättelser. Kraven är desamma som för kommunerna: minst 85 % entydiga för
+e-post, minst 95 % av unika tredjepartsvärdar med ASN och minst 95 % mätbara
+webbplatser. Myndigheter är en annan population än kommuner; uppfylls inte
+kraven redovisas det och siffrorna per myndighet publiceras inte.
+
+### Stickprov i vanlig webbläsare — 2026-10-08
+
+Nätverkslistan i en vanlig Chrome visar inte filer som hämtas ur cachen. Vid
+stickprov används därför också `performance.getEntriesByType("resource")`, som
+listar alla resurser sidan laddat. Upptäckt vid kontrollen av Försvarsmakten,
+där `gtm.js` saknades i nätverkslistan men fanns i resurslistan.

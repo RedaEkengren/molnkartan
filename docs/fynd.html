@@ -9,9 +9,28 @@
 </head>
 <body>
 <main>
-  <nav class="topp"><a href="./">Kartan</a><a href="fynd.html" aria-current="page">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  <nav class="topp"><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html" aria-current="page">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
   <h1>Fynd</h1>
   <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan, så att det går att pröva själv. Fel vi hittat i vår egen metod står här också.</p>
+
+  <article class="fynd" id="skatteverket">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
+    <h2>Skatteverket syns inte i mätningen, och det är ett fynd</h2>
+    <p>Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. I mätningen har Skatteverket e-post på egna servrar utan molnsignaler och en webbplats som inte kontaktar någon tredjepart. Det enda som syns är ett Microsoft-konto. Molntjänster som används internt, bakom inloggning, lämnar inga spår utifrån.</p>
+    <p>Det gäller alla siffror på den här webbplatsen: <b>de visar vad som syns utifrån och är lägsta nivåer.</b> En organisation utan signaler kan ändå använda amerikanska moln.</p>
+    <p><a href="myndigheter.html">Myndigheterna</a></p>
+  </article>
+
+  <article class="fynd" id="myndigheter-ga">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
+    <h2>Nästan var sjätte myndighet kontaktar Google före samtycke</h2>
+    <div class="tal">30 av 193</div>
+    <p>30 statliga myndighetsdomäner laddar Google Analytics eller Google Tag Manager innan besökaren svarat på cookiebannern. Försvarsmakten är en av dem.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Försvarsmakten kontrollerades i en vanlig Chrome utan samtyckeskaka: <code>googletagmanager.com/gtm.js</code> fanns i webbläsarens resurslista, men inga anrop till Google Analytics. Att Tag Manager laddas skickar IP-adress och webbläsare till Google; det betyder inte att besöksstatistik samlas in. Vid kontroll i en vanlig webbläsare måste resurslistan (<code>performance</code>) användas, eftersom cachade filer inte syns i nätverkslistan.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-myndigheter.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json">Rådata</a></p>
+  </article>
 
   <article class="fynd" id="samtyckesverktyget">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>

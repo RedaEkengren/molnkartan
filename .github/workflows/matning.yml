@@ -34,11 +34,14 @@ jobs:
           fil=$(python3 matning.py organisationer-sverige.csv)
           webb=$(python3 webbmatning.py organisationer-sverige.csv)
           python3 bygg_sida.py "${fil#$PWD/}" "${webb#$PWD/}"
+          mfil=$(python3 matning.py organisationer-myndigheter-matning.csv)
+          mwebb=$(python3 webbmatning.py organisationer-myndigheter-matning.csv)
+          python3 bygg_sida.py "${mfil#$PWD/}" "${mwebb#$PWD/}" docs/myndigheter.json
       - name: Committa
         run: |
           git config user.name "molnkartan-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs/data.json
+          git add data docs/data.json docs/myndigheter.json
           git commit -m "Mätning $(date -u +%Y-%m-%d)" || echo "inga ändringar"
           git push
 

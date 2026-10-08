@@ -11,6 +11,10 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 | Webbplatsen kontaktar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
 | … varav Google Analytics/Tag Manager | 16 |
 
+Samma mätningar för 252 statliga myndigheter (SCB:s myndighetsregister):
+[`RESULTAT-myndigheter.md`](RESULTAT-myndigheter.md). Fynden, med hur varje
+kontrollerades: [Fynd](https://redaekengren.github.io/molnkartan/fynd.html).
+
 Mätt 2026-10-08. Sök och filtrera på **[redaekengren.github.io/molnkartan](https://redaekengren.github.io/molnkartan/)**,
 eller läs hela tabellen i [`RESULTAT-sverige.md`](RESULTAT-sverige.md).
 
@@ -102,7 +106,9 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 |---|---|
 | `METOD.md` | Frågan, signalerna, reglerna och alla ändringar |
 | `organisationer-sverige.csv` | 290 kommuner (SCB-kod, domän från Wikidata) och 20 regioner |
-| `organisationer.csv`, `organisationer-skane.csv` | Listorna för pilot och test |
+| `organisationer-myndigheter.csv` | 252 myndigheter ur SCB:s myndighetsregister, med värdmyndighet för delade domäner |
+| `organisationer-myndigheter-matning.csv` | 202 unika e-postdomäner, det som mäts |
+| `organisationer.csv`, `organisationer-skane.csv`, `-vgr`, `-norrland` | Listorna för pilot och hållout |
 | `matning.py` | Gör uppslagen och sparar rådata |
 | `klassa.py`, `klassa_v2.py` | Tillämpar reglerna i pilot respektive v2 |
 | `webbmatning.py`, `webb_klassa.py`, `leverantorer.csv` | Mätning 2: headless Chrome, nätverkslogg, ASN per värd |

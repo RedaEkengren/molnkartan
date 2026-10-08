@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Molnkartan · Myndigheter</title>
+<meta name="description" content="Statliga myndigheters e-post, Microsoft-konton och webbplatser före samtycke, mätt med öppna signaler.">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<main>
+  <nav class="topp"><a href="./">Kommuner och regioner</a><a href="myndigheter.html" aria-current="page">Myndigheter</a><a href="fynd.html">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  <h1>Statliga myndigheter</h1>
+  <p class="ingress">252 myndigheter ur SCB:s myndighetsregister. Myndigheter som delar e-postdomän mäts en gång, så tabellen har en rad per domän.</p>
+
+  <div class="kort" id="kort"></div>
+
+  <div class="varning">
+    <h2>Skatteverket visar vad mätningen inte ser</h2>
+    <p style="margin:0">Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. Ändå visar mätningen e-post utan molnsignaler och en webbplats utan tredjeparter; det enda som syns är ett Microsoft-konto. Molntjänster som används internt, bakom inloggning, lämnar inga spår utifrån. <b>Avsaknad av signaler är inte avsaknad av moln.</b></p>
+  </div>
+
+  <h2>Alla myndighetsdomäner</h2>
+  <div class="filter">
+    <input id="sok" type="search" placeholder="Sök myndighet eller domän" aria-label="Sök">
+    <select id="epostFilter" aria-label="E-post"><option value="">All e-post</option></select>
+    <select id="webbFilter" aria-label="Före samtycke"><option value="">Alla webbplatser</option></select>
+  </div>
+  <div class="tabell">
+    <table>
+      <thead><tr><th>Myndighet</th><th>Domän</th><th>E-post</th><th>Microsoft-konto</th><th>Före samtycke</th></tr></thead>
+      <tbody id="rader"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <p id="matt"></p>
+    <p>Lista: SCB:s allmänna myndighetsregister, hämtad 8 oktober 2026. Regler och rådata: <a href="https://github.com/RedaEkengren/molnkartan">github.com/RedaEkengren/molnkartan</a>. Data CC BY 4.0.</p>
+  </footer>
+</main>
+<script>
+const EPOST = [["MS", "Microsoft", "var(--ms)"], ["G", "Google", "var(--g)"], ["inga molnsignaler", "Inga molnsignaler", "var(--inga)"], ["okänd", "Gick inte att avgöra", "var(--okand)"]];
+const WEBB = [["US-nät före samtycke", "Amerikanskt nät", "var(--g)"], ["annat nät före samtycke", "Annat nät, t.ex. UK", "var(--annat)"],
+  ["bara EU/EES-nät före samtycke", "Bara EU/EES-nät", "var(--inga)"], ["ingen tredjepart", "Ingen tredjepart", "var(--ingen)"],
+  ["okänt nät", "Okänt nät", "var(--okand)"], ["kunde inte mätas", "Kunde inte mätas", "var(--okand)"]];
+const karta = lista => [Object.fromEntries(lista.map(([k, n]) => [k, n])), Object.fromEntries(lista.map(([k, , f]) => [k, f]))];
+const [eEtikett, eFarg] = karta(EPOST), [wEtikett, wFarg] = karta(WEBB);
+const el = (t, e = {}, ...b) => { const x = Object.assign(document.createElement(t), e); x.append(...b); return x; };
+const tagg = (text, farg, title = "") => el("span", { className: "tagg", style: `background:${farg}`, textContent: text, title });
+
+fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, organisationer: org }) => {
+  org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
+  const n = org.length, rakna = f => org.filter(f).length, fs = o => o.fore_samtycke?.klass;
+  const matbara = rakna(o => fs(o) && fs(o) !== "kunde inte mätas"), us = rakna(o => fs(o) === "US-nät före samtycke");
+  document.getElementById("kort").append(
+    el("div", {}, el("b", { textContent: rakna(o => o.epost === "MS") }), el("span", { textContent: `av ${n} domäner har e-post som syns gå via Microsofts moln` })),
+    el("div", {}, el("b", { textContent: rakna(o => o.epost === "inga molnsignaler") }), el("span", { textContent: "har e-post utan molnsignaler, ofta egna servrar eller Sunet" })),
+    el("div", {}, el("b", { textContent: us }), el("span", { textContent: `av ${matbara} mätbara webbplatser kontaktar amerikanska nät före samtycke` })),
+    el("div", {}, el("b", { textContent: rakna(o => o.fore_samtycke?.ga) }), el("span", { textContent: "kontaktar Google Analytics eller Tag Manager före samtycke" })),
+  );
+  for (const [k, namn] of EPOST) document.getElementById("epostFilter").append(el("option", { value: k, textContent: namn }));
+  for (const [k, namn] of WEBB) document.getElementById("webbFilter").append(el("option", { value: k, textContent: namn }));
+  const tbody = document.getElementById("rader");
+  const visa = () => {
+    const sok = document.getElementById("sok").value.trim().toLowerCase();
+    const ep = document.getElementById("epostFilter").value, wf = document.getElementById("webbFilter").value;
+    tbody.replaceChildren(...org
+      .filter(o => (!ep || o.epost === ep) && (!wf || fs(o) === wf) && (!sok || (o.namn + " " + o.doman).toLowerCase().includes(sok)))
+      .map(o => el("tr", {},
+        el("td", { textContent: o.namn }),
+        el("td", {}, el("code", { textContent: o.doman })),
+        el("td", {}, tagg(eEtikett[o.epost], eFarg[o.epost])),
+        el("td", { textContent: o.tenant ? "ja" : "nej" }),
+        el("td", {}, fs(o) ? tagg(wEtikett[fs(o)] + (o.fore_samtycke.ga ? " · GA" : ""), wFarg[fs(o)],
+          o.fore_samtycke.us.length ? "Amerikanska nät: " + o.fore_samtycke.us.join(", ") : "") : "–"),
+      )));
+  };
+  for (const id of ["sok", "epostFilter", "webbFilter"]) document.getElementById(id).addEventListener("input", visa);
+  visa();
+  const tid = t => t.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC");
+  document.getElementById("matt").textContent = `E-post och konton mätta ${tid(matt)}. Webbplatser mätta ${tid(webbMatt)}.`;
+});
+</script>
+</body>
+</html>
