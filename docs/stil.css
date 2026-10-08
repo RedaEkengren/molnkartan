@@ -1,0 +1,80 @@
+:root {
+  --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --varning: #fff6e0; --varning-kant: #e8c66a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --annat: #b39ae0; --ingen: #6fc0ba; --varning: #2b2516; --varning-kant: #7a6426;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; margin: 0 0 12px; letter-spacing: -0.02em; }
+h2 { font-size: 1.3rem; margin: 48px 0 12px; }
+p { max-width: 68ch; }
+a { color: var(--ms); }
+.ingress { font-size: 1.15rem; color: var(--dampad); margin: 0 0 32px; }
+.kort { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.kort div { background: var(--yta); border: 1px solid var(--linje); border-radius: 10px; padding: 16px; }
+.kort b { display: block; font-size: 2rem; font-variant-numeric: tabular-nums; }
+.kort span { color: var(--dampad); font-size: 0.92rem; }
+.varning { background: var(--varning); border: 1px solid var(--varning-kant); border-radius: 10px; padding: 16px 20px; margin: 32px 0 0; }
+.varning h2 { margin: 0 0 8px; font-size: 1.05rem; }
+.varning ul { margin: 0; padding-left: 20px; }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.9rem; color: var(--dampad); margin-bottom: 12px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.lan { display: grid; grid-template-columns: minmax(120px, 190px) 1fr 36px; gap: 4px 12px; align-items: center; font-size: 0.92rem; }
+.stapel { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: var(--linje); }
+.stapel span { height: 100%; }
+.antal { color: var(--dampad); text-align: right; font-variant-numeric: tabular-nums; }
+.filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+input, select { font: inherit; padding: 8px 10px; border: 1px solid var(--linje); border-radius: 8px; background: var(--yta); color: var(--text); }
+input { flex: 1 1 220px; }
+.tabell { overflow-x: auto; border: 1px solid var(--linje); border-radius: 10px; background: var(--yta); }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--linje); white-space: nowrap; }
+th { font-weight: 600; color: var(--dampad); position: sticky; top: 0; background: var(--yta); }
+tr:last-child td { border-bottom: 0; }
+.tagg { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.82rem; color: #fff; }
+code { font-size: 0.88em; }
+.demo { background: var(--yta); border: 1px solid var(--linje); border-radius: 14px; padding: 18px; margin: 0 0 24px; }
+.demo-huvud { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 0.92rem; color: var(--dampad); margin-bottom: 12px; }
+.demo-huvud b { color: var(--text); }
+.demo-yta { display: grid; grid-template-columns: 1.35fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .demo-yta { grid-template-columns: 1fr; } }
+.terminal { margin: 0; background: #16181a; color: #d6dde2; border-radius: 10px; padding: 14px 16px; height: 248px; overflow: hidden;
+  font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre-wrap; word-break: break-all; }
+.terminal .prompt { color: #7fd1a8; }
+.terminal .svar { color: #9aa7b0; }
+.terminal .traff { color: #ffd479; }
+.markor::after { content: "▍"; color: #7fd1a8; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.signaler { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; align-content: start; }
+.signaler li { display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 1px solid var(--linje); border-radius: 8px;
+  padding: 8px 12px; font-size: 0.92rem; transition: border-color .3s, background-color .3s; }
+.signaler li small { color: var(--dampad); display: block; font-size: 0.8rem; }
+.signaler li.aktiv { border-color: var(--text); }
+.signaler .tagg { transition: opacity .3s; }
+.utslag { margin-top: 12px; min-height: 48px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 0.95rem;
+  opacity: 0; transform: translateY(6px); transition: opacity .4s, transform .4s; }
+.utslag.syns { opacity: 1; transform: none; }
+.utslag .tagg { font-size: 0.95rem; padding: 4px 12px; }
+.prickar { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 14px; }
+.prickar i { width: 9px; height: 9px; border-radius: 2px; background: var(--linje); transition: background-color .25s; }
+.prickar i.ny { outline: 2px solid var(--text); outline-offset: 1px; }
+.forklaring { color: var(--dampad); }
+.topplista { padding-left: 22px; columns: 2 260px; font-size: 0.95rem; }
+h3 { font-size: 1.05rem; margin: 28px 0 8px; }
+footer { margin-top: 56px; color: var(--dampad); font-size: 0.9rem; }
+nav.topp { display: flex; gap: 18px; font-size: 0.95rem; margin-bottom: 28px; }
+nav.topp a { color: var(--dampad); text-decoration: none; }
+nav.topp a[aria-current] { color: var(--text); font-weight: 600; }
+.fynd { border-top: 1px solid var(--linje); padding: 28px 0 8px; }
+.fynd time { color: var(--dampad); font-size: 0.88rem; }
+.fynd h2 { margin: 4px 0 10px; }
+.fynd .tal { font-size: 2.2rem; font-weight: 700; line-height: 1; margin: 6px 0 12px; font-variant-numeric: tabular-nums; }
+.fynd details { margin-top: 10px; color: var(--dampad); }
+.fynd summary { cursor: pointer; color: var(--text); }
+.fynd .metod { display: inline-block; font-size: 0.8rem; border: 1px solid var(--linje); border-radius: 999px; padding: 1px 8px; color: var(--dampad); }

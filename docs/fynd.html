@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Molnkartan · Fynd</title>
+<meta name="description" content="Det Molnkartan har hittat, med hur varje fynd kontrollerades och var datan finns.">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<main>
+  <nav class="topp"><a href="./">Kartan</a><a href="fynd.html" aria-current="page">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  <h1>Fynd</h1>
+  <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan, så att det går att pröva själv. Fel vi hittat i vår egen metod står här också.</p>
+
+  <article class="fynd" id="samtyckesverktyget">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
+    <h2>Cookiebannern själv ligger på ett amerikanskt nät</h2>
+    <div class="tal">28 organisationer</div>
+    <p>Hos 28 kommuner och regioner hämtas samtyckesverktyget, alltså den ruta där besökaren ska välja om data får skickas, från en server på ett amerikanskt bolags nät. Det sker innan besökaren hunnit svara. Cookiebot nås via Akamai och Cookie-Script via DigitalOcean.</p>
+    <p>För elva av dem är cookiebannern den <b>enda</b> kontakten med ett amerikanskt nät före samtycke.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Varje tredjepartsvärd slogs upp till sitt nät (ASN) i samband med mätningen. Värdarna för Kristianstad, Skövde, Piteå och Ödeshög kontrollerades för hand mot DNS. Att ett verktyg hämtas från ett amerikanskt nät säger inte var verktygets egna servrar och databaser står.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sverige-2026-10-08T162614Z.json">Rådata</a></p>
+  </article>
+
+  <article class="fynd" id="google-analytics">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
+    <h2>Sexton kommuner kontaktar Google Analytics innan besökaren svarat</h2>
+    <div class="tal">16 av 306</div>
+    <p>Valdemarsvik, Jönköping, Emmaboda, Oskarshamn, Borgholm, Sölvesborg, Hässleholm, Dals-Ed, Färgelanda, Mellerud, Vänersborg, Åmål, Sunne, Norsjö, Storuman och Pajala laddar Google Analytics eller Google Tag Manager på startsidan medan cookiebannern fortfarande är obesvarad.</p>
+    <p>Flera av dem använder sannolikt Googles <i>Consent Mode</i>, som skickar anrop utan kakor före samtycke. IP-adress, webbläsare och sidadress följer ändå med till Google. Om det är förenligt med reglerna avgörs inte här.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Headless Chrome med nätverkslogg, ingen knapp klickad. Före varje körning kontrolleras att en tom sida ger noll träffar och att en sida med Google Analytics ger träff. Hässleholm kontrollerades dessutom i en vanlig Chrome med obesvarad cookiebanner: ett <code>page_view</code> skickades till <code>region1.analytics.google.com</code>.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sverige-2026-10-08T162614Z.json">Rådata</a></p>
+  </article>
+
+  <article class="fynd" id="browsealoud">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
+    <h2>Uppläsningstjänsten är vanligast på amerikanska nät</h2>
+    <div class="tal">45 organisationer</div>
+    <p>Texthelps uppläsningstjänst BrowseAloud, som läser upp sidan för den som behöver, är efter Google den vanligaste tjänsten på amerikanskt nät före samtycke. Den nås via Amazon CloudFront. Det är alltså ett tillgänglighetsverktyg, inte annonsspårning, som står för en stor del av kontakten med amerikanska moln.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Adresserna jämfördes med Amazons publicerade lista över IP-adresser: de tillhör CloudFront, ett CDN med servrar över hela världen. Besökaren svarar troligen en server i Europa. Var Texthelps egna servrar står syns inte utifrån.</p>
+    </details>
+  </article>
+
+  <article class="fynd" id="ingen-tredjepart">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
+    <h2>Tjugo visar att det går: ingen tredjepart alls</h2>
+    <div class="tal">20 organisationer</div>
+    <p>Upplands Väsby, Huddinge, Eskilstuna, Trosa, Malmö, Landskrona, Eslöv, Trelleborg, Simrishamn, Partille, Orust, Gullspång, Filipstad, Gävle, Sundsvall, Ragunda, Vindeln, Övertorneå, Älvsbyn och Region Stockholm kontaktar ingen extern tjänst alls innan besökaren svarat. Typsnitt, skript och statistik ligger på egna servrar.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Huddinge kontrollerades i en vanlig Chrome med obesvarad cookiebanner: alla 33 anrop gick till <code>www.huddinge.se</code>.</p>
+    </details>
+  </article>
+
+  <article class="fynd" id="google-tar-emot">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post</span>
+    <h2>Google tar emot, Microsoft signerar</h2>
+    <div class="tal">5 kommuner</div>
+    <p>Ödeshög, Ydre, Boxholm, Åtvidaberg och Vimmerby tar emot e-post hos Google men har DKIM-nycklar hos Microsoft, vilket tyder på att e-posten skickas därifrån. Bilden av Östergötland som "Google-länet" stämmer alltså bara till hälften.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p><code>dig +short MX atvidaberg.se</code> pekar på Google; <code>dig +short CNAME selector1._domainkey.atvidaberg.se</code> pekar på Microsoft.</p>
+    </details>
+  </article>
+
+  <article class="fynd" id="dkim-felet">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>Animationen hittade ett fel i våra regler</h2>
+    <div class="tal">3 felklassade</div>
+    <p>Animationen på startsidan spelar upp mätningen med riktiga svar. För Åtvidaberg visade den ett DKIM-svar som tydligt pekade på Microsoft, medan signalen stod som "inget". Regeln kände bara igen Microsofts äldre format. Efter rättelsen bytte Gotland, Sjöbo och Bromölla från "gick inte att avgöra" till Microsoft. Rättelsen står daterad i metoden, och de gamla siffrorna finns kvar.</p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metoden, avsnittet Rättelse</a></p>
+  </article>
+
+  <article class="fynd" id="holdout">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>Två prov föll innan mätningen av webbplatser höll</h2>
+    <p>Reglerna för webbplatserna prövades på län de inte byggts på. En handskriven lista över leverantörer missade 51 % av värdarna i Skåne och 28 % i Västra Götaland, mot kravet 10 %. Ingen sådan siffra publicerades. Version 3 klassar efter nätet bakom varje värd och höll på Norrland, med nät för 99 % av värdarna.</p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Hela förloppet</a></p>
+  </article>
+
+  <article class="fynd" id="tenant">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Konton</span>
+    <h2>Alla utom en har ett Microsoft-konto</h2>
+    <div class="tal">309 av 310</div>
+    <p>Alla kommuner och regioner utom Gällivare har en Microsoft Entra-tenant på den domän som mättes. Gällivare har en på sin andra domän, <code>gallivare.se</code>. Ett konto säger inte hur mycket det används.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Microsofts publika OpenID-adress svarar 200 för en domän med tenant och 400 utan. Kontrollerat mot <code>benbo.se</code> och en påhittad domän, som båda gav 400.</p>
+    </details>
+  </article>
+
+  <footer>
+    <p>Fynden gäller mätningen 8 oktober 2026. Hittar du ett fel? <a href="https://github.com/RedaEkengren/molnkartan/issues">Öppna ett issue</a>. Data CC BY 4.0.</p>
+  </footer>
+</main>
+</body>
+</html>
