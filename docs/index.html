@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Molnkartan</title>
+<meta name="description" content="Hur beroende svenska kommuner och regioner är av amerikanska molntjänster, mätt med öppna DNS-signaler.">
+<style>
+:root {
+  --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --varning: #fff6e0; --varning-kant: #e8c66a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --varning: #2b2516; --varning-kant: #7a6426;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; margin: 0 0 12px; letter-spacing: -0.02em; }
+h2 { font-size: 1.3rem; margin: 48px 0 12px; }
+p { max-width: 68ch; }
+a { color: var(--ms); }
+.ingress { font-size: 1.15rem; color: var(--dampad); margin: 0 0 32px; }
+.kort { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.kort div { background: var(--yta); border: 1px solid var(--linje); border-radius: 10px; padding: 16px; }
+.kort b { display: block; font-size: 2rem; font-variant-numeric: tabular-nums; }
+.kort span { color: var(--dampad); font-size: 0.92rem; }
+.varning { background: var(--varning); border: 1px solid var(--varning-kant); border-radius: 10px; padding: 16px 20px; margin: 32px 0 0; }
+.varning h2 { margin: 0 0 8px; font-size: 1.05rem; }
+.varning ul { margin: 0; padding-left: 20px; }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.9rem; color: var(--dampad); margin-bottom: 12px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.lan { display: grid; grid-template-columns: minmax(120px, 190px) 1fr 36px; gap: 4px 12px; align-items: center; font-size: 0.92rem; }
+.stapel { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: var(--linje); }
+.stapel span { height: 100%; }
+.antal { color: var(--dampad); text-align: right; font-variant-numeric: tabular-nums; }
+.filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+input, select { font: inherit; padding: 8px 10px; border: 1px solid var(--linje); border-radius: 8px; background: var(--yta); color: var(--text); }
+input { flex: 1 1 220px; }
+.tabell { overflow-x: auto; border: 1px solid var(--linje); border-radius: 10px; background: var(--yta); }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--linje); white-space: nowrap; }
+th { font-weight: 600; color: var(--dampad); position: sticky; top: 0; background: var(--yta); }
+tr:last-child td { border-bottom: 0; }
+.tagg { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.82rem; color: #fff; }
+code { font-size: 0.88em; }
+footer { margin-top: 56px; color: var(--dampad); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Molnkartan</h1>
+  <p class="ingress">Hur beroende är svenska kommuner och regioner av amerikanska molntjänster? Mätt utifrån, med öppna DNS-signaler, för alla 290 kommuner och 20 regioner.</p>
+
+  <div class="kort" id="kort"></div>
+
+  <div class="varning">
+    <h2>Vad det här inte visar</h2>
+    <ul>
+      <li><b>Anslutning, inte innehåll.</b> Att e-posten går via Microsoft säger ingenting om vilka uppgifter som ligger där eller om de är sekretessbelagda.</li>
+      <li><b>Ett konto är inte användning.</b> En Microsoft-tenant kan finnas enbart för Teams eller en enskild tjänst.</li>
+      <li><b>"Inga molnsignaler" är inte "inget moln".</b> Det betyder bara att e-posten inte avslöjar någon leverantör utifrån.</li>
+      <li><b>En domän per organisation, ett mättillfälle.</b> Se <a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">metoden</a>.</li>
+    </ul>
+  </div>
+
+  <h2>E-post per län</h2>
+  <div class="legend" id="legend"></div>
+  <div class="lan" id="lan"></div>
+
+  <h2>Alla organisationer</h2>
+  <div class="filter">
+    <input id="sok" type="search" placeholder="Sök kommun, region eller domän" aria-label="Sök">
+    <select id="lanFilter" aria-label="Län"><option value="">Alla län</option></select>
+    <select id="epostFilter" aria-label="E-post"><option value="">All e-post</option></select>
+  </div>
+  <div class="tabell">
+    <table>
+      <thead><tr><th>Organisation</th><th>Län</th><th>Domän</th><th>E-post</th><th>Microsoft-konto</th><th>Teams/enheter</th><th>Webb</th></tr></thead>
+      <tbody id="rader"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <p id="matt"></p>
+    <p>Varje rad går att kontrollera själv, till exempel <code>dig +short MX linkoping.se</code>. Kod, rådata och regler: <a href="https://github.com/RedaEkengren/molnkartan">github.com/RedaEkengren/molnkartan</a>. Data CC BY 4.0. Hittar du ett fel? Öppna ett issue.</p>
+  </footer>
+</main>
+<script>
+const KATEGORIER = [
+  ["MS", "Microsoft", "var(--ms)"],
+  ["G", "Google", "var(--g)"],
+  ["inga molnsignaler", "Inga molnsignaler", "var(--inga)"],
+  ["okänd", "Gick inte att avgöra", "var(--okand)"],
+];
+const etikett = Object.fromEntries(KATEGORIER.map(([k, n]) => [k, n]));
+const farg = Object.fromEntries(KATEGORIER.map(([k, , f]) => [k, f]));
+
+function el(tagg, egenskaper = {}, ...barn) {
+  const e = document.createElement(tagg);
+  Object.assign(e, egenskaper);
+  for (const b of barn) e.append(b);
+  return e;
+}
+
+fetch("data.json").then(r => r.json()).then(({ matt, organisationer: org }) => {
+  org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
+  const n = org.length;
+  const rakna = f => org.filter(f).length;
+  const pct = x => Math.round(100 * x / n) + " %";
+  const ms = rakna(o => o.epost === "MS"), tenant = rakna(o => o.tenant);
+  document.getElementById("kort").append(
+    el("div", {}, el("b", { textContent: ms }), el("span", { textContent: `av ${n} har e-post som syns gå via Microsofts moln (${pct(ms)})` })),
+    el("div", {}, el("b", { textContent: tenant }), el("span", { textContent: `av ${n} har ett Microsoft-konto (Entra-tenant)` })),
+    el("div", {}, el("b", { textContent: rakna(o => o.epost === "G") }), el("span", { textContent: "har e-post hos Google" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.webb === "SE/EU") }), el("span", { textContent: "har webbplatsen hos en svensk eller europeisk leverantör" })),
+  );
+
+  document.getElementById("legend").append(...KATEGORIER.map(([, namn, f]) =>
+    el("span", {}, el("i", { style: `background:${f}` }), namn)));
+
+  const perLan = {};
+  for (const o of org) (perLan[o.lan] ??= []).push(o);
+  const lanDiv = document.getElementById("lan");
+  for (const lan of Object.keys(perLan).sort((a, b) => a.localeCompare(b, "sv"))) {
+    const lista = perLan[lan];
+    const stapel = el("div", { className: "stapel" });
+    for (const [k, namn, f] of KATEGORIER) {
+      const antal = lista.filter(o => o.epost === k).length;
+      if (antal) stapel.append(el("span", { style: `width:${100 * antal / lista.length}%;background:${f}`, title: `${namn}: ${antal}` }));
+    }
+    lanDiv.append(el("div", { textContent: lan }), stapel, el("div", { className: "antal", textContent: lista.length }));
+    document.getElementById("lanFilter").append(el("option", { value: lan, textContent: lan }));
+  }
+  for (const [k, namn] of KATEGORIER) document.getElementById("epostFilter").append(el("option", { value: k, textContent: namn }));
+
+  const tbody = document.getElementById("rader");
+  const visa = () => {
+    const sok = document.getElementById("sok").value.trim().toLowerCase();
+    const lan = document.getElementById("lanFilter").value, ep = document.getElementById("epostFilter").value;
+    tbody.replaceChildren(...org
+      .filter(o => (!lan || o.lan === lan) && (!ep || o.epost === ep) && (!sok || (o.namn + " " + o.doman).toLowerCase().includes(sok)))
+      .map(o => el("tr", {},
+        el("td", { textContent: o.namn }),
+        el("td", { textContent: o.lan }),
+        el("td", {}, el("code", { textContent: o.doman })),
+        el("td", {}, el("span", { className: "tagg", style: `background:${farg[o.epost]}`, textContent: etikett[o.epost] })),
+        el("td", { textContent: o.tenant ? "ja" : "nej" }),
+        el("td", { textContent: o.teams ? "Microsoft" : "–" }),
+        el("td", { textContent: o.webb === "SE/EU" ? "Sverige/EU" : o.webb, title: o.webbLeverantor || "" }),
+      )));
+  };
+  for (const id of ["sok", "lanFilter", "epostFilter"]) document.getElementById(id).addEventListener("input", visa);
+  visa();
+  document.getElementById("matt").textContent = `Mätt ${matt.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC")}.`;
+});
+</script>
+</body>
+</html>

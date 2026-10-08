@@ -9,8 +9,8 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
 
-Mätt 2026-10-08. Hela tabellen, per län och per organisation, finns i
-[`RESULTAT-sverige.md`](RESULTAT-sverige.md).
+Mätt 2026-10-08. Sök och filtrera på **[redaekengren.github.io/molnkartan](https://redaekengren.github.io/molnkartan/)**,
+eller läs hela tabellen i [`RESULTAT-sverige.md`](RESULTAT-sverige.md).
 
 ---
 
@@ -96,6 +96,7 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `matning.py` | Gör uppslagen och sparar rådata |
 | `klassa.py`, `klassa_v2.py` | Tillämpar reglerna i pilot respektive v2 |
 | `data/` | Rådata med tidsstämpel, en fil per körning |
+| `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py <rådatafil>` skriver `docs/data.json` |
 
 Rådatan sparar inte tenant-ID eller verifieringskoder. De är tekniskt publika
 men behövs inte för någon slutsats.

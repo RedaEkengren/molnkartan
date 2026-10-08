@@ -1,0 +1,5586 @@
+{
+ "matt": "2026-10-08T154137Z",
+ "kalla": "data/ra-organisationer-sverige-2026-10-08T154137Z.json",
+ "organisationer": [
+  {
+   "namn": "Upplands Väsby",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "upplandsvasby.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "G",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vallentuna",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "vallentuna.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Österåker",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "osteraker.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "OSTERAKER - Osterakers Kommun, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Värmdö",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "varmdo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Järfälla",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "jarfalla.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ekerö",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "ekero.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Huddinge",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "huddinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Botkyrka",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "botkyrka.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Salem",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "salem.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "G",
+    "S4": "-",
+    "S7": "G",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Haninge",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "haninge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tyresö",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "tyreso.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Upplands-Bro",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "upplands-bro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nykvarn",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "nykvarn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Täby",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "taby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Danderyd",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "danderyd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sollentuna",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "sollentuna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Stockholm",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "stockholm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "STEK-AS - S:t Erik Kommunikation AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Södertälje",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "sodertalje.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nacka",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "nacka.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sundbyberg",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "sundbyberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Solna",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "solna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lidingö",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "lidingo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vaxholm",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "vaxholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Norrtälje",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "norrtalje.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "Bluerange-AS - Bluerange Sweden AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Sigtuna",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "sigtuna.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Nynäshamn",
+   "typ": "kommun",
+   "lan": "Stockholms län",
+   "doman": "nynashamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Håbo",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "habo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Älvkarleby",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "alvkarleby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Knivsta",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "knivsta.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Heby",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "heby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Tierp",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "tierp.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Uppsala",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "uppsala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASN-UPPSALA - ASN-UPPSALA, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Enköping",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "enkoping.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Östhammar",
+   "typ": "kommun",
+   "lan": "Uppsala län",
+   "doman": "osthammar.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "LIDERO - Liden Data Internetwork AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Vingåker",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "vingaker.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gnesta",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "gnesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nyköping",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "nykoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Oxelösund",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "oxelosund.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Flen",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "flen.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "G",
+    "S4": "-",
+    "S7": "G",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Katrineholm",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "katrineholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Eskilstuna",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "eskilstuna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Strängnäs",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "strangnas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Trosa",
+   "typ": "kommun",
+   "lan": "Södermanlands län",
+   "doman": "trosa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ödeshög",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "odeshog.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Ydre",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "ydre.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Kinda",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "kinda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Boxholm",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "boxholm.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Åtvidaberg",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "atvidaberg.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Finspång",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "finspang.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Valdemarsvik",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "valdemarsvik.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "okänd",
+   "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Linköping",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "linkoping.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "G",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Norrköping",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "norrkoping.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Söderköping",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "soderkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Motala",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "motala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vadstena",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "vadstena.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "AWS",
+   "webbLeverantor": "AMAZON-02 - Amazon.com, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Mjölby",
+   "typ": "kommun",
+   "lan": "Östergötlands län",
+   "doman": "mjolby.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Aneby",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "aneby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HIT-NET - Hoglandsforbundet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gnosjö",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "gnosjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mullsjö",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "mullsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Habo",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "habokommun.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Gislaved",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "gislaved.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vaggeryd",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "vaggeryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Jönköping",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "jonkoping.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nässjö",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "nassjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HIT-NET - Hoglandsforbundet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Värnamo",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "varnamo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "VARNAMO-ENERGI - Varnamo Energi AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sävsjö",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "savsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HIT-NET - Hoglandsforbundet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vetlanda",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "vetlanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HIT-NET - Hoglandsforbundet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Eksjö",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "eksjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HIT-NET - Hoglandsforbundet, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tranås",
+   "typ": "kommun",
+   "lan": "Jönköpings län",
+   "doman": "tranas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FORTLAX - Cloudist AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Uppvidinge",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "uppvidinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lessebo",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "lessebo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tingsryd",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "tingsryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Alvesta",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "alvesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Älmhult",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "almhult.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Markaryd",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "markaryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Växjö",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "vaxjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ljungby",
+   "typ": "kommun",
+   "lan": "Kronobergs län",
+   "doman": "ljungby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Högsby",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "hogsby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Torsås",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "torsas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mörbylånga",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "morbylanga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hultsfred",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "hultsfred.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mönsterås",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "monsteras.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Emmaboda",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "emmaboda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kalmar",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "kalmar.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nybro",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "nybro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Oskarshamn",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "oskarshamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Västervik",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "vastervik.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vimmerby",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "vimmerby.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Borgholm",
+   "typ": "kommun",
+   "lan": "Kalmar län",
+   "doman": "borgholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gotland",
+   "typ": "kommun",
+   "lan": "Gotlands län",
+   "doman": "gotland.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Olofström",
+   "typ": "kommun",
+   "lan": "Blekinge län",
+   "doman": "olofstrom.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Karlskrona",
+   "typ": "kommun",
+   "lan": "Blekinge län",
+   "doman": "karlskrona.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "bbn - Baffin Bay Networks AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ronneby",
+   "typ": "kommun",
+   "lan": "Blekinge län",
+   "doman": "ronneby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Karlshamn",
+   "typ": "kommun",
+   "lan": "Blekinge län",
+   "doman": "karlshamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sölvesborg",
+   "typ": "kommun",
+   "lan": "Blekinge län",
+   "doman": "solvesborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Svalöv",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "svalov.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Staffanstorp",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "staffanstorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Burlöv",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "burlov.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vellinge",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "vellinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Östra Göinge",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "ostragoinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Örkelljunga",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "orkelljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Bjuv",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "bjuv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kävlinge",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "kavlinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lomma",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "lomma.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Svedala",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "svedala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Skurup",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "skurup.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sjöbo",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "sjobo.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hörby",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "horby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNIKOM-AS - IT Kommuner i Skane AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Höör",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "hoor.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tomelilla",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "tomelilla.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Bromölla",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "bromolla.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNIKOM-AS - IT Kommuner i Skane AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Osby",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "osby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Perstorp",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "perstorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Klippan",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "klippan.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Åstorp",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "astorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Båstad",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "bastad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Malmö",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "malmo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MALMO - MALMO, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lund",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "lund.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Landskrona",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "landskrona.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELENOR-SE - Telenor Sverige AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Helsingborg",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "helsingborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ELASTX - ELASTX AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Höganäs",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "hoganas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Eslöv",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "eslov.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Ystad",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "ystad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Trelleborg",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "trelleborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kristianstad",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "kristianstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Simrishamn",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "simrishamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ängelholm",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "engelholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BjareKraft - Bjare Kraft ekonomisk forening, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Hässleholm",
+   "typ": "kommun",
+   "lan": "Skåne län",
+   "doman": "hassleholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hylte",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "hylte.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Halmstad",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "halmstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Laholm",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "laholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Falkenberg",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "falkenberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Varberg",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "varberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kungsbacka",
+   "typ": "kommun",
+   "lan": "Hallands län",
+   "doman": "kungsbacka.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Härryda",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "harryda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Partille",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "partille.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Öckerö",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "ockero.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Stenungsund",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "stenungsund.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tjörn",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "tjorn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Orust",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "orust.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sotenäs",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "sotenas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Munkedal",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "munkedal.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tanum",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "tanum.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Dals-Ed",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "dalsed.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "G",
+    "S2": "G",
+    "S4": "-",
+    "S7": "G",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Färgelanda",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "fargelanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ale",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "ale.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lerum",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "lerum.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vårgårda",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "vargarda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "VARGARDA-NET - Vargarda Kommun, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Bollebygd",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "bollebygd.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Grästorp",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "grastorp.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Essunga",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "essunga.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Karlsborg",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "karlsborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gullspång",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "gullspang.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tranemo",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "tranemo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Bengtsfors",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "bengtsfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mellerud",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "mellerud.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lilla Edet",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "lillaedet.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mark",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "mark.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Svenljunga",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "svenljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "Svenljunga-AS - Svenljunga-AS, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Herrljunga",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "herrljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HJA-AS - Herrljunga Kommun, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vara",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "vara.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Götene",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "gotene.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Tibro",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "tibro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Töreboda",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "toreboda.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Göteborg",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "goteborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASN-GOTEBORG - Goteborg Kommun, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mölndal",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "molndal.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kungälv",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "kungalv.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lysekil",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "lysekil.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Uddevalla",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "uddevalla.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Strömstad",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "stromstad.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vänersborg",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "vanersborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Trollhättan",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "trollhattan.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BAHNHOF - Bahnhof AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Alingsås",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "alingsas.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Borås",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "boras.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Ulricehamn",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "ulricehamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Åmål",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "amal.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mariestad",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "mariestad.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lidköping",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "lidkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Skara",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "skara.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "FASTBIT-AS - FastBit AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Skövde",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "skovde.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hjo",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "hjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Tidaholm",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "tidaholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Falköping",
+   "typ": "kommun",
+   "lan": "Västra Götalands län",
+   "doman": "falkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kil",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "kil.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Eda",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "eda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Torsby",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "torsby.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Storfors",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "storfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hammarö",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "hammaro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Munkfors",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "munkfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "okänd",
+   "webbLeverantor": "HETZNER-AS - Hetzner Online GmbH, DE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Forshaga",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "forshaga.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Grums",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "grums.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Årjäng",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "arjang.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sunne",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "sunne.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Karlstad",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "karlstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kristinehamn",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "kristinehamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Filipstad",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "filipstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hagfors",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "hagfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Arvika",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "arvika.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Säffle",
+   "typ": "kommun",
+   "lan": "Värmlands län",
+   "doman": "saffle.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lekeberg",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "lekeberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Laxå",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "laxa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hallsberg",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "hallsberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Degerfors",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "degerfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hällefors",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "hellefors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ljusnarsberg",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "ljusnarsberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Örebro",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "orebro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kumla",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "kumla.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Askersund",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "askersund.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Karlskoga",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "karlskoga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nora",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "nora.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lindesberg",
+   "typ": "kommun",
+   "lan": "Örebro län",
+   "doman": "lindesberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Skinnskatteberg",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "skinnskatteberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "LOOPIA - Loopia AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Surahammar",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "surahammar.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kungsör",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "kungsor.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hallstahammar",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "hallstahammar.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Norberg",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "norberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Västerås",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "vasteras.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sala",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "sala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Fagersta",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "fagersta.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Köping",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "koping.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Arboga",
+   "typ": "kommun",
+   "lan": "Västmanlands län",
+   "doman": "arboga.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vansbro",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "vansbro.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Malung-Sälen",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "malung-salen.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gagnef",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "gagnef.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Leksand",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "leksand.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Rättvik",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "rattvik.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Orsa",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "orsa.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Älvdalen",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "alvdalen.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Smedjebacken",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "smedjebacken.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Mora",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "morakommun.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Falun",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "falun.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Borlänge",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "borlange.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "Borlange-Kommun - Municipality of Borlange, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Säter",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "sater.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "G",
+   "webbLeverantor": "GOOGLE-CLOUD-PLATFORM - Google LLC, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hedemora",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "hedemora.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Avesta",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "avesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "AVESTA-KOMMUN-ASN - Avesta Kommun, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ludvika",
+   "typ": "kommun",
+   "lan": "Dalarnas län",
+   "doman": "ludvika.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Ockelbo",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "ockelbo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hofors",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "hofors.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "HOFORS - Gavle Energi AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ovanåker",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "ovanaker.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nordanstig",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "nordanstig.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ljusdal",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "ljusdal.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gävle",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "gavle.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GAVLE-KOMMUN - Gavle kommun, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sandviken",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "sandviken.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Söderhamn",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "soderhamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Bollnäs",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "bollnas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Hudiksvall",
+   "typ": "kommun",
+   "lan": "Gävleborgs län",
+   "doman": "hudiksvall.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Ånge",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "ange.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Timrå",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "timra.se",
+   "epost": "G",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "ADVANIA-AS - Advania Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "G",
+    "S4": "-",
+    "S7": "G",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Härnösand",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "harnosand.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Sundsvall",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "sundsvall.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kramfors",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "kramfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Sollefteå",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "solleftea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Örnsköldsvik",
+   "typ": "kommun",
+   "lan": "Västernorrlands län",
+   "doman": "ornskoldsvik.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Ragunda",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "ragunda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Bräcke",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "bracke.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Krokom",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "krokom.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Strömsund",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "stromsund.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Åre",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "are.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Berg",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "berg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Härjedalen",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "herjedalen.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Östersund",
+   "typ": "kommun",
+   "lan": "Jämtlands län",
+   "doman": "ostersund.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "BREDBAND2 - Bredband2 AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Nordmaling",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "nordmaling.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "AC-NET - AC-Net AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Bjurholm",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "bjurholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Vindeln",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "vindeln.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ATEA - ATEA Sverige AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Robertsfors",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "robertsfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Norsjö",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "norsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Malå",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "mala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FORTLAX - Cloudist AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Storuman",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "storuman.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "AC-NET - AC-Net AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Sorsele",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "sorsele.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "FORTLAX - Cloudist AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Dorotea",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "dorotea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vännäs",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "vannas.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Vilhelmina",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "vilhelmina.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Åsele",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "asele.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "MS",
+   "webbLeverantor": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Umeå",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "umea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "AC-NET - AC-Net AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Lycksele",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "lycksele.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "AC-NET - AC-Net AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Skellefteå",
+   "typ": "kommun",
+   "lan": "Västerbottens län",
+   "doman": "skelleftea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Arvidsjaur",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "arvidsjaur.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Arjeplog",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "arjeplog.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Jokkmokk",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "jokkmokk.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Överkalix",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "overkalix.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kalix",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "kalix.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "BDNET - InformationsTeknik i Norrbotten AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Övertorneå",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "overtornea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Pajala",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "pajala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Gällivare",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "gellivare.se",
+   "epost": "MS",
+   "tenant": false,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "BDNET - InformationsTeknik i Norrbotten AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Älvsbyn",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "alvsbyn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Luleå",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "lulea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "BDNET - InformationsTeknik i Norrbotten AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "-",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Piteå",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "pitea.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "BDNET - InformationsTeknik i Norrbotten AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Boden",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "boden.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "blandat",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Haparanda",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "haparanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Kiruna",
+   "typ": "kommun",
+   "lan": "Norrbottens län",
+   "doman": "kiruna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Stockholm",
+   "typ": "region",
+   "lan": "Stockholms län",
+   "doman": "regionstockholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Uppsala",
+   "typ": "region",
+   "lan": "Uppsala län",
+   "doman": "regionuppsala.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "UNSPECIFIED - Uppsala Lans Landsting, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Sörmland",
+   "typ": "region",
+   "lan": "Södermanlands län",
+   "doman": "regionsormland.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Östergötland",
+   "typ": "region",
+   "lan": "Östergötlands län",
+   "doman": "regionostergotland.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "OSTERGOTLAND - Region Ostergotland, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Jönköpings län",
+   "typ": "region",
+   "lan": "Jönköpings län",
+   "doman": "rjl.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "JONKOPING-COUNTY-NET - Jonkopings lans landsting, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Kronoberg",
+   "typ": "region",
+   "lan": "Kronobergs län",
+   "doman": "regionkronoberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "REGION-KRONOBERG-AS - Region Kronoberg, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Kalmar län",
+   "typ": "region",
+   "lan": "Kalmar län",
+   "doman": "regionkalmar.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "KALMAR-AS - Region Kalmar Lan, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "-",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Blekinge",
+   "typ": "region",
+   "lan": "Blekinge län",
+   "doman": "regionblekinge.se",
+   "epost": "okänd",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "gateway/egen",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Skåne",
+   "typ": "region",
+   "lan": "Skåne län",
+   "doman": "skane.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Akamai",
+   "webbLeverantor": "AKAMAI-ASN1 - Akamai International B.V., NL",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Halland",
+   "typ": "region",
+   "lan": "Hallands län",
+   "doman": "regionhalland.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "SE/EU",
+   "webbLeverantor": "SITEVISION-ASN - SiteVision AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Västra Götalandsregionen",
+   "typ": "region",
+   "lan": "Västra Götalands län",
+   "doman": "vgregion.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "VastraGotalandsRegionen - VASTRA GOTALANDS LANS LANDSTING, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Värmland",
+   "typ": "region",
+   "lan": "Värmlands län",
+   "doman": "regionvarmland.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Örebro län",
+   "typ": "region",
+   "lan": "Örebro län",
+   "doman": "regionorebrolan.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Västmanland",
+   "typ": "region",
+   "lan": "Västmanlands län",
+   "doman": "regionvastmanland.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "REGION-VASTMANLAND-ASN - Region Vastmanland, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Dalarna",
+   "typ": "region",
+   "lan": "Dalarnas län",
+   "doman": "regiondalarna.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Gävleborg",
+   "typ": "region",
+   "lan": "Gävleborgs län",
+   "doman": "regiongavleborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": false,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "MS",
+    "S8": "-"
+   }
+  },
+  {
+   "namn": "Region Västernorrland",
+   "typ": "region",
+   "lan": "Västernorrlands län",
+   "doman": "rvn.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "-",
+    "S7": "-",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Jämtland Härjedalen",
+   "typ": "region",
+   "lan": "Jämtlands län",
+   "doman": "regionjh.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "TELIANET-SWEDEN - Telia Company AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Västerbotten",
+   "typ": "region",
+   "lan": "Västerbottens län",
+   "doman": "regionvasterbotten.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "SE/EU",
+   "webbLeverantor": "AC-NET - AC-Net AB, SE",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  },
+  {
+   "namn": "Region Norrbotten",
+   "typ": "region",
+   "lan": "Norrbottens län",
+   "doman": "norrbotten.se",
+   "epost": "MS",
+   "tenant": true,
+   "teams": true,
+   "webb": "Cloudflare",
+   "webbLeverantor": "CLOUDFLARENET - Cloudflare, Inc., US",
+   "signaler": {
+    "S1": "MS",
+    "S2": "MS",
+    "S4": "MS",
+    "S7": "MS",
+    "S8": "MS"
+   }
+  }
+ ]
+}

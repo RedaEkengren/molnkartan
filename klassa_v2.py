@@ -36,21 +36,26 @@ def epost(s):
     return "okänd"
 
 
-fil = sys.argv[1]
-data = json.load(open(fil, encoding="utf-8"))
-print(f"Källa: {fil}\n")
-print("| Organisation | E-post v2 | S1 | S2 | S4 | S7 | S8 | MS-tenant | Webb |")
-print("|---|---|---|---|---|---|---|---|---|")
-rakna = Counter()
-for o in data:
-    s = signaler(o)
-    lev = epost(s)
-    rakna[lev] += 1
-    tenant = "ja" if o["entra_status"] == 200 else "nej"
-    print(f"| {o['namn']} | {lev} | {s['S1']} | {s['S2']} | {s['S4']} | {s['S7']} | {s['S8']} | {tenant} | {webb(o['www_asn_namn'])} |")
-n = len(data)
-entydiga = n - rakna["okänd"]
-print(f"\nE-post: {dict(rakna)}")
-print(f"Entydiga {entydiga}/{n} = {entydiga / n:.0%}, okända {rakna['okänd']}/{n} = {rakna['okänd'] / n:.0%}")
-print("Kriterium v2:", "UPPFYLLT" if entydiga / n >= 0.85 and rakna["okänd"] / n <= 0.15 else "EJ UPPFYLLT")
-print(f"MS-tenant: {sum(o['entra_status'] == 200 for o in data)}/{n}")
+def main():
+    fil = sys.argv[1]
+    data = json.load(open(fil, encoding="utf-8"))
+    print(f"Källa: {fil}\n")
+    print("| Organisation | E-post v2 | S1 | S2 | S4 | S7 | S8 | MS-tenant | Webb |")
+    print("|---|---|---|---|---|---|---|---|---|")
+    rakna = Counter()
+    for o in data:
+        s = signaler(o)
+        lev = epost(s)
+        rakna[lev] += 1
+        tenant = "ja" if o["entra_status"] == 200 else "nej"
+        print(f"| {o['namn']} | {lev} | {s['S1']} | {s['S2']} | {s['S4']} | {s['S7']} | {s['S8']} | {tenant} | {webb(o['www_asn_namn'])} |")
+    n = len(data)
+    entydiga = n - rakna["okänd"]
+    print(f"\nE-post: {dict(rakna)}")
+    print(f"Entydiga {entydiga}/{n} = {entydiga / n:.0%}, okända {rakna['okänd']}/{n} = {rakna['okänd'] / n:.0%}")
+    print("Kriterium v2:", "UPPFYLLT" if entydiga / n >= 0.85 and rakna["okänd"] / n <= 0.15 else "EJ UPPFYLLT")
+    print(f"MS-tenant: {sum(o['entra_status'] == 200 for o in data)}/{n}")
+
+
+if __name__ == "__main__":
+    main()
