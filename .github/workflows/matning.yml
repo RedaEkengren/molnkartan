@@ -57,7 +57,7 @@ jobs:
         with:
           ref: main
       - name: Sidan följer reglerna
-        run: python3 -m unittest -v tests/test_sida.py
+        run: python3 -m unittest -v tests/test_sida.py tests/test_hygien.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

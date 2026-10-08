@@ -93,7 +93,8 @@ def t4_ripe(ip):
 
 
 def senaste(monster):
-    return sorted(glob.glob(str(ROT / "data" / monster)))[-1]
+    # Relativ sökväg, så att lokala mappnamn inte hamnar i rådatan.
+    return str(Path(sorted(glob.glob(str(ROT / "data" / monster)))[-1]).relative_to(ROT))
 
 
 def t2_med_omforsok(doman):
@@ -116,7 +117,7 @@ def main():
     webbkallor = [senaste("webb-organisationer-sverige-*.json"), senaste("webb-organisationer-myndigheter-matning-*.json")]
     domaner = []
     for grupp, fil in kallor.items():
-        domaner += [{**o, "grupp": grupp} for o in json.load(open(fil, encoding="utf-8"))]
+        domaner += [{**o, "grupp": grupp} for o in json.load(open(ROT / fil, encoding="utf-8"))]
     with ThreadPoolExecutor(16) as pool:
         rader = list(pool.map(domanprov, domaner))
     with ThreadPoolExecutor(2) as pool:  # Exchange Online stryper vid fler parallella anrop
@@ -127,7 +128,7 @@ def main():
 
     ip_asn = {}
     for fil in webbkallor:
-        for o in json.load(open(fil, encoding="utf-8"))["organisationer"]:
+        for o in json.load(open(ROT / fil, encoding="utf-8"))["organisationer"]:
             for n in (o.get("natverk") or {}).values():
                 if n.get("ip"):
                     ip_asn[n["ip"]] = n.get("asn")
