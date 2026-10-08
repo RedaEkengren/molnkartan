@@ -32,6 +32,16 @@ def senaste(monster):
     return filer[-1] if filer else None
 
 
+def senaste_godkanda_webb(monster):
+    """Senaste webbmätning som uppfyller kravet i METOD.md (minst 95 % mätbara).
+    En körning som faller publiceras inte, men behålls i data/."""
+    for fil in sorted((ROT / "data").glob(monster), reverse=True):
+        org = json.loads(fil.read_text(encoding="utf-8"))["organisationer"]
+        if sum(klassa_v3(o) != "kunde inte mätas" for o in org) / len(org) >= 0.95:
+            return fil
+    return None
+
+
 def las(fil):
     return json.loads(fil.read_text(encoding="utf-8")) if fil else None
 
@@ -42,7 +52,7 @@ def relativ(fil):
 
 def bygg(grupp):
     g = GRUPPER[grupp]
-    ra_fil, webb_fil = senaste(g["ra"]), senaste(g["webb"])
+    ra_fil, webb_fil = senaste(g["ra"]), senaste_godkanda_webb(g["webb"])
     tri_fil, sak_fil = senaste("triangulering-20*Z.json"), senaste("sakerhet-*.json")
     data, webb_data, tri, sak = las(ra_fil), las(webb_fil), las(tri_fil), las(sak_fil)
 

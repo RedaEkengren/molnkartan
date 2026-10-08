@@ -446,3 +446,23 @@ DS-poster alls, inte ens för domäner som bevisligen är signerade.
 Resultatet sparas och redovisas **bara i aggregat**: per län för kommuner och
 regioner, och för myndigheterna som grupp. Ingen fil i repot innehåller värden
 per organisation.
+
+---
+
+## Plats: mätning från GitHubs maskiner — 2026-10-08
+
+Första provkörningen av månadsmätningen i GitHub Actions
+(`data/*-2026-10-08T18*`, `*T19*`) gav:
+
+- **DNS-mätningarna oberoende av plats:** e-postklassen lika för 310 av 310
+  kommuner och regioner, Exchange Online samma 305.
+- **Webbmätningen föll:** 193 av 310 kommuner och regioner och 50 av 202
+  myndighetsdomäner gick inte att mäta. 176 av felen är kommuner hos
+  SiteVision, som svarar adresser i datacenter med en omdirigering som sätter en
+  kaka; skriptets första anrop sparade inga kakor och fastnade i en slinga.
+  Där mätningen lyckades var "amerikanskt nät före samtycke" lika med den
+  svenska körningen för 116 av 117 respektive 152 av 152.
+
+**Regel från och med nu:** en webbmätning som inte uppfyller kravet (minst
+95 % mätbara) publiceras inte. `bygg_sida.py` väljer senaste godkända körning;
+den fallna finns kvar i `data/`.
