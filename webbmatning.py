@@ -110,8 +110,11 @@ def ladda(url):
 
 
 def slutadress(url):
+    # Kakor sparas mellan omdirigeringar, som i en webbläsare. Utan dem fastnar anropet
+    # i SiteVisions kakomdirigering för datacenteradresser (METOD.md, "Plats").
+    oppna = urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open
     req = urllib.request.Request(url, headers={"User-Agent": ANVANDARAGENT})
-    with urllib.request.urlopen(req, timeout=20) as svar:
+    with oppna(req, timeout=20) as svar:
         return svar.status, svar.url
 
 

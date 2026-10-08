@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "17 4 1 * *"
   workflow_dispatch:
+    inputs:
+      prov:
+        description: "Provkörning: bara webbmätning av Stockholms län, inget committas"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "triangulering.py", "sakerhet.py", "tests/**"]
@@ -29,7 +34,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install dnspython==2.7.0
+      - name: Provkörning
+        if: inputs.prov
+        run: |
+          fil=$(python3 webbmatning.py organisationer.csv)
+          python3 webb_klassa.py "${fil#$PWD/}" | tail -6
       - name: Mät
+        if: ${{ !inputs.prov }}
         run: |
           python3 matning.py organisationer-sverige.csv
           python3 webbmatning.py organisationer-sverige.csv
@@ -39,6 +50,7 @@ jobs:
           python3 sakerhet.py
           python3 bygg_sida.py
       - name: Committa
+        if: ${{ !inputs.prov }}
         run: |
           git config user.name "molnkartan-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,7 +60,7 @@ jobs:
 
   publicera:
     needs: mat
-    if: always() && (needs.mat.result == 'success' || needs.mat.result == 'skipped')
+    if: always() && !inputs.prov && (needs.mat.result == 'success' || needs.mat.result == 'skipped')
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
