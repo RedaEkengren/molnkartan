@@ -91,6 +91,17 @@
     </details>
   </article>
 
+  <article class="fynd" id="sakerhetsgrunder">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Säkerhetsgrunder</span>
+    <h2>Var tredje kommun ber mottagare släppa igenom förfalskad e-post</h2>
+    <div class="tal">97 av 310</div>
+    <p>DMARC är en DNS-post som talar om vad mottagare ska göra med e-post som utger sig för att komma från en domän men inte gör det. 97 kommuner och regioner har <code>p=none</code>: rapportera, men leverera ändå. 132 har <code>p=reject</code>. Bara 34 har MTA-STS, som hindrar att e-post till dem tvingas över okrypterade förbindelser. DNSSEC finns hos 257.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Uppslagen gjordes via 1.1.1.1 och upprepades via 9.9.9.9 (512 av 512 lika). Före körningen kontrollerades att kända domäner gav väntade svar; det upptäckte att mätdatorns egen resolver inte returnerade DNSSEC-poster alls. Resultatet redovisas bara per län, aldrig per organisation.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-sakerhet.md">Resultat per län</a></p>
+  </article>
+
   <article class="fynd" id="google-tar-emot">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post</span>
     <h2>Google tar emot, Microsoft signerar</h2>

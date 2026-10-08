@@ -415,3 +415,34 @@ provkörningen. Källordningen blir därför: crt.sh, och vid fel Certspotter
 Certspotter tillåter 100 anrop i timmen utan konto, så körningen hålls under
 den takten. T6 jämför fortfarande de två källorna på 20 slumpvis valda och
 visar därmed om de går att blanda.
+
+---
+
+# Mätning 5: Säkerhetsgrunder (issue #4)
+
+Skriven 2026-10-08, före all mätning.
+
+## Signaler per e-postdomän
+
+| Signal | Uppslag | Värden |
+|---|---|---|
+| DMARC | TXT `_dmarc.<domän>` | `p=reject`, `p=quarantine`, `p=none`, saknas |
+| SPF | TXT `v=spf1` | slutar `-all`, `~all`, annat, saknas |
+| MTA-STS | TXT `_mta-sts.<domän>` med `v=STSv1` | finns, saknas |
+| TLS-RPT | TXT `_smtp._tls.<domän>` med `v=TLSRPTv1` | finns, saknas |
+| DNSSEC | DS-post för domänen | finns, saknas |
+| HSTS | Huvudet `Strict-Transport-Security` med `max-age` > 0 på webbplatsen | finns, saknas, kunde inte mätas |
+
+Uppslagen görs via 1.1.1.1. Systemets resolver på mätdatorn returnerade inga
+DS-poster alls, inte ens för domäner som bevisligen är signerade.
+
+## Kontroller före varje körning
+
+`cloudflare.com` ska ha DS, `google.com` ska sakna DS, och `google.com` ska ha
+`p=reject` och MTA-STS. Annars avbryts körningen.
+
+## Gräns
+
+Resultatet sparas och redovisas **bara i aggregat**: per län för kommuner och
+regioner, och för myndigheterna som grupp. Ingen fil i repot innehåller värden
+per organisation.
