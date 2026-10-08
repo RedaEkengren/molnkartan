@@ -1,0 +1,8526 @@
+{
+ "matt": "2026-10-08T165750Z",
+ "kallor": {
+  "kommuner": "data/ra-organisationer-sverige-2026-10-08T154137Z.json",
+  "myndigheter": "data/ra-organisationer-myndigheter-matning-2026-10-08T164214Z.json",
+  "webb": [
+   "data/webb-organisationer-sverige-2026-10-08T162614Z.json",
+   "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json"
+  ]
+ },
+ "domaner": [
+  {
+   "namn": "Upplands Väsby",
+   "domän": "upplandsvasby.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vallentuna",
+   "domän": "vallentuna.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Österåker",
+   "domän": "osteraker.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Värmdö",
+   "domän": "varmdo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Järfälla",
+   "domän": "jarfalla.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ekerö",
+   "domän": "ekero.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Huddinge",
+   "domän": "huddinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Botkyrka",
+   "domän": "botkyrka.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Salem",
+   "domän": "salem.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": false,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Haninge",
+   "domän": "haninge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tyresö",
+   "domän": "tyreso.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Upplands-Bro",
+   "domän": "upplands-bro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nykvarn",
+   "domän": "nykvarn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Täby",
+   "domän": "taby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Danderyd",
+   "domän": "danderyd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sollentuna",
+   "domän": "sollentuna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Stockholm",
+   "domän": "stockholm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Södertälje",
+   "domän": "sodertalje.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nacka",
+   "domän": "nacka.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sundbyberg",
+   "domän": "sundbyberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Solna",
+   "domän": "solna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lidingö",
+   "domän": "lidingo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vaxholm",
+   "domän": "vaxholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Norrtälje",
+   "domän": "norrtalje.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sigtuna",
+   "domän": "sigtuna.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nynäshamn",
+   "domän": "nynashamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Håbo",
+   "domän": "habo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Älvkarleby",
+   "domän": "alvkarleby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Knivsta",
+   "domän": "knivsta.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Heby",
+   "domän": "heby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tierp",
+   "domän": "tierp.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Uppsala",
+   "domän": "uppsala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Enköping",
+   "domän": "enkoping.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Östhammar",
+   "domän": "osthammar.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vingåker",
+   "domän": "vingaker.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gnesta",
+   "domän": "gnesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nyköping",
+   "domän": "nykoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Oxelösund",
+   "domän": "oxelosund.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Flen",
+   "domän": "flen.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": false,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Katrineholm",
+   "domän": "katrineholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Eskilstuna",
+   "domän": "eskilstuna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Strängnäs",
+   "domän": "strangnas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Trosa",
+   "domän": "trosa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ödeshög",
+   "domän": "odeshog.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ydre",
+   "domän": "ydre.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kinda",
+   "domän": "kinda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Boxholm",
+   "domän": "boxholm.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Åtvidaberg",
+   "domän": "atvidaberg.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Finspång",
+   "domän": "finspang.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Valdemarsvik",
+   "domän": "valdemarsvik.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Linköping",
+   "domän": "linkoping.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Norrköping",
+   "domän": "norrkoping.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Söderköping",
+   "domän": "soderkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Motala",
+   "domän": "motala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vadstena",
+   "domän": "vadstena.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mjölby",
+   "domän": "mjolby.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Aneby",
+   "domän": "aneby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gnosjö",
+   "domän": "gnosjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mullsjö",
+   "domän": "mullsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Habo",
+   "domän": "habokommun.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gislaved",
+   "domän": "gislaved.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vaggeryd",
+   "domän": "vaggeryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Jönköping",
+   "domän": "jonkoping.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nässjö",
+   "domän": "nassjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Värnamo",
+   "domän": "varnamo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sävsjö",
+   "domän": "savsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vetlanda",
+   "domän": "vetlanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Eksjö",
+   "domän": "eksjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tranås",
+   "domän": "tranas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Uppvidinge",
+   "domän": "uppvidinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lessebo",
+   "domän": "lessebo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tingsryd",
+   "domän": "tingsryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Alvesta",
+   "domän": "alvesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Älmhult",
+   "domän": "almhult.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Markaryd",
+   "domän": "markaryd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Växjö",
+   "domän": "vaxjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ljungby",
+   "domän": "ljungby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Högsby",
+   "domän": "hogsby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Torsås",
+   "domän": "torsas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mörbylånga",
+   "domän": "morbylanga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hultsfred",
+   "domän": "hultsfred.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mönsterås",
+   "domän": "monsteras.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Emmaboda",
+   "domän": "emmaboda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kalmar",
+   "domän": "kalmar.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nybro",
+   "domän": "nybro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Oskarshamn",
+   "domän": "oskarshamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Västervik",
+   "domän": "vastervik.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vimmerby",
+   "domän": "vimmerby.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Borgholm",
+   "domän": "borgholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gotland",
+   "domän": "gotland.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Olofström",
+   "domän": "olofstrom.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Karlskrona",
+   "domän": "karlskrona.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ronneby",
+   "domän": "ronneby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Karlshamn",
+   "domän": "karlshamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sölvesborg",
+   "domän": "solvesborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Svalöv",
+   "domän": "svalov.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Staffanstorp",
+   "domän": "staffanstorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Burlöv",
+   "domän": "burlov.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vellinge",
+   "domän": "vellinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Östra Göinge",
+   "domän": "ostragoinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Örkelljunga",
+   "domän": "orkelljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bjuv",
+   "domän": "bjuv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kävlinge",
+   "domän": "kavlinge.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lomma",
+   "domän": "lomma.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Svedala",
+   "domän": "svedala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Skurup",
+   "domän": "skurup.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sjöbo",
+   "domän": "sjobo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hörby",
+   "domän": "horby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Höör",
+   "domän": "hoor.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tomelilla",
+   "domän": "tomelilla.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bromölla",
+   "domän": "bromolla.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Osby",
+   "domän": "osby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Perstorp",
+   "domän": "perstorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Klippan",
+   "domän": "klippan.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Åstorp",
+   "domän": "astorp.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Båstad",
+   "domän": "bastad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Malmö",
+   "domän": "malmo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lund",
+   "domän": "lund.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Landskrona",
+   "domän": "landskrona.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Helsingborg",
+   "domän": "helsingborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Höganäs",
+   "domän": "hoganas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Eslöv",
+   "domän": "eslov.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ystad",
+   "domän": "ystad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Trelleborg",
+   "domän": "trelleborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kristianstad",
+   "domän": "kristianstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Simrishamn",
+   "domän": "simrishamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ängelholm",
+   "domän": "engelholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hässleholm",
+   "domän": "hassleholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hylte",
+   "domän": "hylte.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Halmstad",
+   "domän": "halmstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Laholm",
+   "domän": "laholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Falkenberg",
+   "domän": "falkenberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Varberg",
+   "domän": "varberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kungsbacka",
+   "domän": "kungsbacka.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Härryda",
+   "domän": "harryda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Partille",
+   "domän": "partille.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Öckerö",
+   "domän": "ockero.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Stenungsund",
+   "domän": "stenungsund.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tjörn",
+   "domän": "tjorn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Orust",
+   "domän": "orust.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sotenäs",
+   "domän": "sotenas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Munkedal",
+   "domän": "munkedal.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tanum",
+   "domän": "tanum.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Dals-Ed",
+   "domän": "dalsed.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Färgelanda",
+   "domän": "fargelanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ale",
+   "domän": "ale.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lerum",
+   "domän": "lerum.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vårgårda",
+   "domän": "vargarda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bollebygd",
+   "domän": "bollebygd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Grästorp",
+   "domän": "grastorp.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Essunga",
+   "domän": "essunga.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Karlsborg",
+   "domän": "karlsborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gullspång",
+   "domän": "gullspang.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tranemo",
+   "domän": "tranemo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bengtsfors",
+   "domän": "bengtsfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mellerud",
+   "domän": "mellerud.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lilla Edet",
+   "domän": "lillaedet.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mark",
+   "domän": "mark.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Svenljunga",
+   "domän": "svenljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Herrljunga",
+   "domän": "herrljunga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vara",
+   "domän": "vara.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Götene",
+   "domän": "gotene.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tibro",
+   "domän": "tibro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Töreboda",
+   "domän": "toreboda.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Göteborg",
+   "domän": "goteborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mölndal",
+   "domän": "molndal.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kungälv",
+   "domän": "kungalv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lysekil",
+   "domän": "lysekil.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Uddevalla",
+   "domän": "uddevalla.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Strömstad",
+   "domän": "stromstad.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vänersborg",
+   "domän": "vanersborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Trollhättan",
+   "domän": "trollhattan.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Alingsås",
+   "domän": "alingsas.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Borås",
+   "domän": "boras.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ulricehamn",
+   "domän": "ulricehamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Åmål",
+   "domän": "amal.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mariestad",
+   "domän": "mariestad.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lidköping",
+   "domän": "lidkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Skara",
+   "domän": "skara.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Skövde",
+   "domän": "skovde.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hjo",
+   "domän": "hjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Tidaholm",
+   "domän": "tidaholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Falköping",
+   "domän": "falkoping.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kil",
+   "domän": "kil.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Eda",
+   "domän": "eda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Torsby",
+   "domän": "torsby.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Storfors",
+   "domän": "storfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hammarö",
+   "domän": "hammaro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Munkfors",
+   "domän": "munkfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Forshaga",
+   "domän": "forshaga.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Grums",
+   "domän": "grums.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Årjäng",
+   "domän": "arjang.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sunne",
+   "domän": "sunne.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Karlstad",
+   "domän": "karlstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kristinehamn",
+   "domän": "kristinehamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Filipstad",
+   "domän": "filipstad.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hagfors",
+   "domän": "hagfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Arvika",
+   "domän": "arvika.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Säffle",
+   "domän": "saffle.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lekeberg",
+   "domän": "lekeberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Laxå",
+   "domän": "laxa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hallsberg",
+   "domän": "hallsberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Degerfors",
+   "domän": "degerfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hällefors",
+   "domän": "hellefors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ljusnarsberg",
+   "domän": "ljusnarsberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Örebro",
+   "domän": "orebro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kumla",
+   "domän": "kumla.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Askersund",
+   "domän": "askersund.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Karlskoga",
+   "domän": "karlskoga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nora",
+   "domän": "nora.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lindesberg",
+   "domän": "lindesberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Skinnskatteberg",
+   "domän": "skinnskatteberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Surahammar",
+   "domän": "surahammar.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kungsör",
+   "domän": "kungsor.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hallstahammar",
+   "domän": "hallstahammar.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Norberg",
+   "domän": "norberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Västerås",
+   "domän": "vasteras.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sala",
+   "domän": "sala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Fagersta",
+   "domän": "fagersta.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Köping",
+   "domän": "koping.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Arboga",
+   "domän": "arboga.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vansbro",
+   "domän": "vansbro.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Malung-Sälen",
+   "domän": "malung-salen.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gagnef",
+   "domän": "gagnef.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Leksand",
+   "domän": "leksand.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Rättvik",
+   "domän": "rattvik.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Orsa",
+   "domän": "orsa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Älvdalen",
+   "domän": "alvdalen.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Smedjebacken",
+   "domän": "smedjebacken.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Mora",
+   "domän": "morakommun.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Falun",
+   "domän": "falun.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Borlänge",
+   "domän": "borlange.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Säter",
+   "domän": "sater.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hedemora",
+   "domän": "hedemora.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Avesta",
+   "domän": "avesta.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ludvika",
+   "domän": "ludvika.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ockelbo",
+   "domän": "ockelbo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hofors",
+   "domän": "hofors.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ovanåker",
+   "domän": "ovanaker.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nordanstig",
+   "domän": "nordanstig.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ljusdal",
+   "domän": "ljusdal.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gävle",
+   "domän": "gavle.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sandviken",
+   "domän": "sandviken.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Söderhamn",
+   "domän": "soderhamn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bollnäs",
+   "domän": "bollnas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Hudiksvall",
+   "domän": "hudiksvall.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ånge",
+   "domän": "ange.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Timrå",
+   "domän": "timra.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": false,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Härnösand",
+   "domän": "harnosand.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sundsvall",
+   "domän": "sundsvall.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kramfors",
+   "domän": "kramfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sollefteå",
+   "domän": "solleftea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Örnsköldsvik",
+   "domän": "ornskoldsvik.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Ragunda",
+   "domän": "ragunda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bräcke",
+   "domän": "bracke.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Krokom",
+   "domän": "krokom.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Strömsund",
+   "domän": "stromsund.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Åre",
+   "domän": "are.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Berg",
+   "domän": "berg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Härjedalen",
+   "domän": "herjedalen.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Östersund",
+   "domän": "ostersund.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Nordmaling",
+   "domän": "nordmaling.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Bjurholm",
+   "domän": "bjurholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vindeln",
+   "domän": "vindeln.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Robertsfors",
+   "domän": "robertsfors.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Norsjö",
+   "domän": "norsjo.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Malå",
+   "domän": "mala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Storuman",
+   "domän": "storuman.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Sorsele",
+   "domän": "sorsele.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Dorotea",
+   "domän": "dorotea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vännäs",
+   "domän": "vannas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Vilhelmina",
+   "domän": "vilhelmina.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Åsele",
+   "domän": "asele.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Umeå",
+   "domän": "umea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Lycksele",
+   "domän": "lycksele.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Skellefteå",
+   "domän": "skelleftea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Arvidsjaur",
+   "domän": "arvidsjaur.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Arjeplog",
+   "domän": "arjeplog.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Jokkmokk",
+   "domän": "jokkmokk.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Överkalix",
+   "domän": "overkalix.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kalix",
+   "domän": "kalix.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Övertorneå",
+   "domän": "overtornea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Pajala",
+   "domän": "pajala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Gällivare",
+   "domän": "gellivare.se",
+   "epost": "MS",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": false,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Älvsbyn",
+   "domän": "alvsbyn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Luleå",
+   "domän": "lulea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Piteå",
+   "domän": "pitea.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Boden",
+   "domän": "boden.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Haparanda",
+   "domän": "haparanda.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kiruna",
+   "domän": "kiruna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Stockholm",
+   "domän": "regionstockholm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Uppsala",
+   "domän": "regionuppsala.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Sörmland",
+   "domän": "regionsormland.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Östergötland",
+   "domän": "regionostergotland.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Jönköpings län",
+   "domän": "rjl.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Kronoberg",
+   "domän": "regionkronoberg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Kalmar län",
+   "domän": "regionkalmar.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Blekinge",
+   "domän": "regionblekinge.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Skåne",
+   "domän": "skane.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Halland",
+   "domän": "regionhalland.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Västra Götalandsregionen",
+   "domän": "vgregion.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Värmland",
+   "domän": "regionvarmland.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Örebro län",
+   "domän": "regionorebrolan.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Västmanland",
+   "domän": "regionvastmanland.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Dalarna",
+   "domän": "regiondalarna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Gävleborg",
+   "domän": "regiongavleborg.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Västernorrland",
+   "domän": "rvn.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Jämtland Härjedalen",
+   "domän": "regionjh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Västerbotten",
+   "domän": "regionvasterbotten.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Region Norrbotten",
+   "domän": "norrbotten.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "kommuner"
+  },
+  {
+   "namn": "Kammarkollegiet",
+   "domän": "kammarkollegiet.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Allmänna reklamationsnämnden",
+   "domän": "arn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens jordbruksverk",
+   "domän": "jordbruksverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Arbetsförmedlingen",
+   "domän": "arbetsformedlingen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Arbetsgivarverket",
+   "domän": "arbetsgivarverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Arbetsmiljöverket",
+   "domän": "av.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Arvfondsdelegationen",
+   "domän": "arvsfonden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Barnombudsmannen",
+   "domän": "barnombudsmannen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Blekinge tekniska högskola",
+   "domän": "bth.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Bokföringsnämnden",
+   "domän": "bfn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Bolagsverket",
+   "domän": "bolagsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Boverket",
+   "domän": "boverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Brottsförebyggande rådet",
+   "domän": "bra.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Brottsoffermyndigheten",
+   "domän": "brottsoffermyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Centrala studiestödsnämnden",
+   "domän": "csn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Diskrimineringsombudsmannen",
+   "domän": "do.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "dom.se (delas av 7 myndigheter)",
+   "domän": "dom.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "E-hälsomyndigheten",
+   "domän": "ehalsomyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Ekobrottsmyndigheten",
+   "domän": "ekobrottsmyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Elsäkerhetsverket",
+   "domän": "elsakerhetsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Energimarknadsinspektionen",
+   "domän": "ei.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Etikprövningsmyndigheten",
+   "domän": "etikprovning.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Exportkreditnämnden",
+   "domän": "ekn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Fastighetsmäklarinspektionen",
+   "domän": "fmi.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Finansinspektionen",
+   "domän": "fi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Finanspolitiska rådet",
+   "domän": "fpr.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Folke bernadotteakademin",
+   "domän": "fba.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Folkhälsomyndigheten",
+   "domän": "folkhalsomyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Fondtorgsnämnden",
+   "domän": "ftn.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Forskarskattenämnden",
+   "domän": "forskarskattenamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Forskningsrådet f miljö, areella näringar och samhällsbyggande",
+   "domän": "formas.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+   "domän": "forte.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Fortifikationsverket",
+   "domän": "fortifikationsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Forum för levande historia",
+   "domän": "levandehistoria.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Försvarets materielverk",
+   "domän": "fmv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Försvarets radioanstalt",
+   "domän": "fra.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Försvarshögskolan",
+   "domän": "fhs.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Försvarsmakten",
+   "domän": "mil.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Försäkringskassan",
+   "domän": "forsakringskassan.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Gentekniknämnden",
+   "domän": "genteknik.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Gymnastik- och idrottshögskolan (GIH)",
+   "domän": "gih.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Göteborgs universitet",
+   "domän": "gu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Harpsundsnämnden",
+   "domän": "harpsund.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Havs- och vattenmyndigheten",
+   "domän": "havochvatten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Socialstyrelsen",
+   "domän": "socialstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan dalarna",
+   "domän": "du.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan i borås",
+   "domän": "hb.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan i gävle",
+   "domän": "hig.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan i halmstad",
+   "domän": "hh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan i skövde",
+   "domän": "his.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan kristianstad",
+   "domän": "hkr.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolan väst",
+   "domän": "hv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Högskolans avskiljandenämnd",
+   "domän": "han.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "regeringskansliet.se (delas av 3 myndigheter)",
+   "domän": "regeringskansliet.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Inspektionen för arbetslöshetsförsäkring",
+   "domän": "iaf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Inspektionen för socialförsäkringen",
+   "domän": "isf.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Inspektionen för strategiska produkter",
+   "domän": "isp.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Inspektionen för vård och omsorg",
+   "domän": "ivo.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Institutet för arbetsmarknads-och utbildningspolitisk utvärdering",
+   "domän": "ifau.uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Institutet för mänskliga rättigheter",
+   "domän": "mrinstitutet.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Institutet för rymdfysik",
+   "domän": "irf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Institutet för språk och folkminnen",
+   "domän": "isof.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Integritetsskyddsmyndigheten",
+   "domän": "imy.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Justitiekanslern",
+   "domän": "jk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Jämställdhetsmyndigheten",
+   "domän": "jamstalldhetsmyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Karlstads universitet",
+   "domän": "kau.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Karolinska institutet",
+   "domän": "ki.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kemikalieinspektionen",
+   "domän": "kemi.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Klimatpolitiska rådet",
+   "domän": "klimatpolitiskaradet.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kommerskollegium",
+   "domän": "kommerskollegium.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Konjunkturinstitutet",
+   "domän": "konj.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Konkurrensverket",
+   "domän": "kkv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Konstfack",
+   "domän": "konstfack.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Konstnärsnämnden",
+   "domän": "konstnarsnamnden.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Konsumentverket",
+   "domän": "konsumentverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kriminalvården",
+   "domän": "kriminalvarden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kronofogdemyndigheten",
+   "domän": "kronofogden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kungliga biblioteket",
+   "domän": "kb.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kungliga konsthögskolan",
+   "domän": "kkh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kungliga musikhögskolan",
+   "domän": "kmh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kungliga tekniska högskolan",
+   "domän": "kth.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Kustbevakningen",
+   "domän": "kustbevakningen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Lantmäteriet",
+   "domän": "lm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Linköpings universitet",
+   "domän": "liu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Linnéuniversitetet",
+   "domän": "lnu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Livsmedelsverket",
+   "domän": "slv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Luleå tekniska universitet",
+   "domän": "ltu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Lunds universitet",
+   "domän": "lu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Läkemedelsverket",
+   "domän": "lakemedelsverket.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "lansstyrelsen.se (delas av 21 myndigheter)",
+   "domän": "lansstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Malmö universitet",
+   "domän": "mau.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Mediemyndigheten",
+   "domän": "mediemyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Medlingsinstitutet",
+   "domän": "mi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Migrationsverket",
+   "domän": "migrationsverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Mittuniversitetet",
+   "domän": "miun.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Moderna museet",
+   "domän": "modernamuseet.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för civilt försvar",
+   "domän": "mcf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för delaktighet",
+   "domän": "mfd.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för digital förvaltning",
+   "domän": "digg.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för familjerätt och föräldraskapsstöd",
+   "domän": "mfof.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för kulturanalys",
+   "domän": "kulturanalys.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för psykologiskt försvar",
+   "domän": "mpf.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för säkerhet och integritetsskydd",
+   "domän": "sakint.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för tillgängliga medier",
+   "domän": "mtm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+   "domän": "tillvaxtanalys.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för totalförsvarsanalys",
+   "domän": "mtfa.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för ungdoms-och civilsamhällesfrågor",
+   "domän": "mucf.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för vård- och omsorgsanalys",
+   "domän": "vardanalys.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Myndigheten för yrkeshögskolan",
+   "domän": "myh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Mälardalens universitet",
+   "domän": "mdu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Nationalmuseum",
+   "domän": "nationalmuseum.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Naturhistoriska riksmuseet",
+   "domän": "nrm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Naturvårdsverket",
+   "domän": "naturvardsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Nordiska afrikainstitutet",
+   "domän": "nai.uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Nämnden för hemslöjdsfrågor",
+   "domän": "nfh.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Nämnden för prövning av oredlighet i forskning",
+   "domän": "npof.se",
+   "epost": "okänd",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Nämnden mot Diskriminering",
+   "domän": "namndenmotdiskriminering.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Oljekrisnämnden",
+   "domän": "oljekrisnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Patent- och registreringsverket",
+   "domän": "prv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Patentombudsnämnden",
+   "domän": "patentombudsnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Pensionsmyndigheten",
+   "domän": "pensionsmyndigheten.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Polarforskningssekretariatet",
+   "domän": "polar.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Polismyndigheten",
+   "domän": "polisen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Post- och telestyrelsen",
+   "domän": "pts.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Revisorsinspektionen",
+   "domän": "revisorsinspektionen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Riksantikvarieämbetet",
+   "domän": "raa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Riksarkivet",
+   "domän": "riksarkivet.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Riksgäldskontoret",
+   "domän": "riksgalden.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Rymdstyrelsen",
+   "domän": "snsa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Rättsmedicinalverket",
+   "domän": "rmv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sameskolstyrelsen",
+   "domän": "sameskolstyrelsen.se",
+   "epost": "G",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "G",
+   "t3_quad9": "G",
+   "t3_google": "G",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sametinget",
+   "domän": "sametinget.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sida",
+   "domän": "sida.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Skatterättsnämnden",
+   "domän": "skatterattsnamnden.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Skatteverket",
+   "domän": "skatteverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Skogsstyrelsen",
+   "domän": "skogsstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Skolforskningsinstitutet",
+   "domän": "skolfi.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Skolväsendets överklagandenämnd",
+   "domän": "overklagandenamnden.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Specialpedagogiska skolmyndigheten",
+   "domän": "spsm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Spelinspektionen",
+   "domän": "spelinspektionen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens beredning för medicinsk och social utvärdering",
+   "domän": "sbu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens energimyndighet",
+   "domän": "energimyndigheten.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens fastighetsverk",
+   "domän": "sfv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens geotekniska institut",
+   "domän": "sgi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens haverikommission",
+   "domän": "shk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens historiska museer",
+   "domän": "shm.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens inspektion för försvarsunderrättelseverksamheten (SIUN)",
+   "domän": "siun.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens institutionsstyrelse",
+   "domän": "stat-inst.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens kulturråd",
+   "domän": "kulturradet.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens museer för maritim, transport- och försvarshistoria",
+   "domän": "smtm.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens museer för världskultur",
+   "domän": "varldskulturmuseerna.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens musikverk",
+   "domän": "musikverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens servicecenter",
+   "domän": "statenssc.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens skolinspektion",
+   "domän": "skolinspektionen.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens skolverk",
+   "domän": "skolverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens tjänstepensions- och grupplivnämnd",
+   "domän": "spv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens veterinärmedicinska anstalt",
+   "domän": "sva.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statens väg- och transportforskningsinstitut",
+   "domän": "vti.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statistiska centralbyrån",
+   "domän": "scb.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Statskontoret",
+   "domän": "statskontoret.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Stockholms konstnärliga högskola",
+   "domän": "uniarts.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Stockholms universitet",
+   "domän": "su.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Strålsäkerhetsmyndigheten",
+   "domän": "ssm.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Styrelsen för ackreditering och teknisk kontroll",
+   "domän": "swedac.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Svenska esf-rådet",
+   "domän": "esf.se",
+   "epost": "okänd",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "okänd",
+   "t3_quad9": "okänd",
+   "t3_google": "okänd",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Svenska institutet",
+   "domän": "si.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Svenska institutet för europapolitiska studier",
+   "domän": "sieps.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sveriges författarfond",
+   "domän": "svff.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sveriges geologiska undersökning",
+   "domän": "sgu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sveriges lantbruksuniversitet",
+   "domän": "slu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sveriges meteorologiska och hydrologiska institut",
+   "domän": "smhi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Säkerhetspolisen",
+   "domän": "sakerhetspolisen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Södertörns högskola",
+   "domän": "sh.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Tandvårds-och läkemedelsförmånsverket, TLV",
+   "domän": "tlv.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Tillväxtverket",
+   "domän": "tillvaxtverket.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Totalförsvarets forskningsinstitut, foi",
+   "domän": "foi.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Totalförsvarets plikt- och prövningsverk",
+   "domän": "pliktverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Trafikanalys",
+   "domän": "trafa.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Trafikverket",
+   "domän": "trafikverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Transportstyrelsen",
+   "domän": "transportstyrelsen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Tullverket",
+   "domän": "tullverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Umeå universitet",
+   "domän": "umu.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Universitets- och högskolerådet",
+   "domän": "uhr.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Universitetskanslersämbetet",
+   "domän": "uka.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Upphandlingsmyndigheten",
+   "domän": "uhmynd.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Uppsala universitet",
+   "domän": "uu.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Utbetalningsmyndigheten",
+   "domän": "ubm.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Valmyndigheten",
+   "domän": "val.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Verket för innovationssystem",
+   "domän": "vinnova.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Vetenskapsrådet",
+   "domän": "vr.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Åklagarmyndigheten",
+   "domän": "aklagare.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Örebro universitet",
+   "domän": "oru.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Överklagandenämnden för etikprövning",
+   "domän": "onep.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Överklagandenämnden för högskolan",
+   "domän": "onh.se",
+   "epost": "inga molnsignaler",
+   "tenant": false,
+   "t1_realm": false,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Överklagandenämnden för studiestöd",
+   "domän": "oks.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "riksdagen.se (delas av 2 myndigheter)",
+   "domän": "riksdagen.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Riksdagens ombudsmän",
+   "domän": "jo.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Riksrevisionen",
+   "domän": "riksrevisionen.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sveriges riksbank",
+   "domän": "riksbank.se",
+   "epost": "MS",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "MS",
+   "t3_quad9": "MS",
+   "t3_google": "MS",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Luftfartsverket",
+   "domän": "lfv.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Sjöfartsverket",
+   "domän": "sjofartsverket.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": false,
+   "grupp": "myndigheter"
+  },
+  {
+   "namn": "Svenska kraftnät",
+   "domän": "svk.se",
+   "epost": "inga molnsignaler",
+   "tenant": true,
+   "t1_realm": true,
+   "t3_cloudflare": "inga molnsignaler",
+   "t3_quad9": "inga molnsignaler",
+   "t3_google": "inga molnsignaler",
+   "t2_exo": true,
+   "grupp": "myndigheter"
+  }
+ ],
+ "t4": [
+  {
+   "ip": "103.81.140.95",
+   "cymru": "42695",
+   "ripe": [
+    "42695"
+   ]
+  },
+  {
+   "ip": "88.80.0.132",
+   "cymru": "48579",
+   "ripe": [
+    "48579"
+   ]
+  },
+  {
+   "ip": "193.234.47.14",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "185.76.9.27",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "193.234.47.11",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "193.234.47.10",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "104.18.1.22",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "172.217.19.227",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "216.58.207.110",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.142.234",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "172.217.20.163",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "213.134.96.71",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "52.102.114.131",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "3.174.46.32",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "79.136.117.14",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "3.173.161.81",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.76.9.12",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "172.217.20.170",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "94.237.93.104",
+   "cymru": "202053",
+   "ripe": [
+    "202053"
+   ]
+  },
+  {
+   "ip": "20.50.88.242",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "104.18.36.168",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "150.171.109.198",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "3.173.161.106",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "16.192.238.79",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.76.9.11",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "104.18.207.173",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "213.134.96.12",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "151.101.129.229",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "104.17.24.14",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "151.101.129.155",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "172.66.155.21",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "172.64.151.88",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.20.41.220",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "95.100.107.94",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "23.210.168.91",
+   "cymru": "16625",
+   "ripe": [
+    "16625"
+   ]
+  },
+  {
+   "ip": "158.174.98.163",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "150.171.109.197",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "51.21.8.194",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "188.114.97.1",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "34.98.105.146",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "104.16.40.28",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "34.98.91.45",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "35.190.93.146",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "172.67.165.52",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.18.11.207",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "3.173.161.77",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.174.46.104",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "195.181.166.158",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "151.101.193.229",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "142.251.38.106",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "104.18.10.207",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "23.215.2.111",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "52.214.217.96",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "23.12.156.4",
+   "cymru": "16625",
+   "ripe": [
+    "16625"
+   ]
+  },
+  {
+   "ip": "3.139.241.83",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.173.161.115",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.84.52.248",
+   "cymru": "41174",
+   "ripe": [
+    "41174"
+   ]
+  },
+  {
+   "ip": "54.216.161.244",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "52.18.143.242",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "65.9.46.57",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "51.210.39.143",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "87.98.187.201",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "165.232.93.253",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "192.121.235.79",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "104.248.196.220",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "95.217.241.40",
+   "cymru": "24940",
+   "ripe": [
+    "24940"
+   ]
+  },
+  {
+   "ip": "146.190.237.92",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "91.201.60.213",
+   "cymru": "44136",
+   "ripe": [
+    "44136"
+   ]
+  },
+  {
+   "ip": "188.166.63.236",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "169.150.247.34",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "3.173.189.130",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "142.251.143.138",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "185.199.108.153",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "104.19.231.99",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "216.239.34.36",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.143.142",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.153.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "172.217.20.168",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "172.64.147.188",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "3.173.161.47",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.217.112.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "31.13.72.12",
+   "cymru": "32934",
+   "ripe": [
+    "32934"
+   ]
+  },
+  {
+   "ip": "157.240.205.35",
+   "cymru": "32934",
+   "ripe": [
+    "32934"
+   ]
+  },
+  {
+   "ip": "104.17.25.14",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "150.171.110.195",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "3.174.2.28",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.67.182.28",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "164.90.241.71",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "213.134.99.133",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "178.22.205.83",
+   "cymru": "51899",
+   "ripe": [
+    "51899"
+   ]
+  },
+  {
+   "ip": "65.9.46.84",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.195.235.189",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.18.40.68",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "3.174.2.2",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.173.161.29",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.199.111.153",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "3.174.2.8",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.173.161.111",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "213.212.42.49",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "104.21.27.152",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "151.101.1.229",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "95.100.107.88",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "100.28.170.227",
+   "cymru": "14618",
+   "ripe": [
+    "14618"
+   ]
+  },
+  {
+   "ip": "3.164.240.40",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "142.251.38.110",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "172.217.119.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "109.74.14.107",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "23.220.72.150",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "108.157.229.6",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "46.21.106.179",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "23.215.2.101",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "104.18.0.22",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "23.215.2.102",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "151.101.194.132",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "3.174.2.90",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "151.101.2.132",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "46.16.232.164",
+   "cymru": "44136",
+   "ripe": [
+    "44136"
+   ]
+  },
+  {
+   "ip": "63.33.149.227",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "143.204.68.36",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "188.166.57.74",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "141.193.213.10",
+   "cymru": "209242",
+   "ripe": [
+    "209242"
+   ]
+  },
+  {
+   "ip": "216.58.201.200",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "185.111.111.159",
+   "cymru": "212238",
+   "ripe": [
+    "212238"
+   ]
+  },
+  {
+   "ip": "16.192.22.184",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.217.114.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.155.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.152.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "172.67.142.245",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "212.89.53.154",
+   "cymru": "2116",
+   "ripe": [
+    "2116"
+   ]
+  },
+  {
+   "ip": "65.9.46.62",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "139.162.191.124",
+   "cymru": "63949",
+   "ripe": [
+    "63949"
+   ]
+  },
+  {
+   "ip": "195.47.247.16",
+   "cymru": "51468",
+   "ripe": [
+    "51468"
+   ]
+  },
+  {
+   "ip": "3.248.174.75",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "65.9.46.50",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "212.89.53.155",
+   "cymru": "2116",
+   "ripe": [
+    "2116"
+   ]
+  },
+  {
+   "ip": "194.54.164.50",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "104.18.23.71",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "35.158.146.27",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.173.161.20",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "65.9.46.59",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.200.219.176",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.173.161.110",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.64.145.29",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "212.89.54.50",
+   "cymru": "2116",
+   "ripe": [
+    "2116"
+   ]
+  },
+  {
+   "ip": "20.50.2.0",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "3.164.206.33",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "216.239.32.36",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "173.194.220.154",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "104.21.89.218",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "151.101.65.155",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "46.246.38.24",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "3.40.134.42",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "142.251.143.131",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "192.91.218.10",
+   "cymru": "56736",
+   "ripe": [
+    "56736"
+   ]
+  },
+  {
+   "ip": "18.165.140.18",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "23.215.2.100",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "3.173.161.91",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.217.19.234",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "20.50.88.238",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "18.165.140.35",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "5.178.78.69",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "51.12.31.6",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "178.174.209.211",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "46.246.31.2",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "146.247.178.19",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "178.174.209.212",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "178.174.209.214",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "185.144.146.123",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "192.162.219.175",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "95.100.107.185",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "193.44.192.11",
+   "cymru": "3301",
+   "ripe": [
+    "3301"
+   ]
+  },
+  {
+   "ip": "40.127.196.56",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "172.67.75.23",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "193.44.192.59",
+   "cymru": "3301",
+   "ripe": [
+    "3301"
+   ]
+  },
+  {
+   "ip": "64.227.77.67",
+   "cymru": "14061",
+   "ripe": [
+    "14061"
+   ]
+  },
+  {
+   "ip": "18.165.140.127",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.67.74.174",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "23.73.2.85",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "162.159.128.61",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "20.91.146.65",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "104.26.4.178",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "20.50.2.47",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "13.35.58.123",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "172.217.19.226",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.38.118",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.142.230",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.157.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "18.165.140.122",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "142.251.150.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "34.253.163.93",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "52.85.154.3",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "95.100.107.182",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "172.66.147.250",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.18.37.6",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "142.251.156.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "185.84.52.17",
+   "cymru": "41174",
+   "ripe": [
+    "41174"
+   ]
+  },
+  {
+   "ip": "185.84.52.9",
+   "cymru": "41174",
+   "ripe": [
+    "41174"
+   ]
+  },
+  {
+   "ip": "46.246.44.33",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "142.251.157.119",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "3.135.7.21",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.18.22.71",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.21.26.223",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "217.151.200.108",
+   "cymru": "20514",
+   "ripe": [
+    "20514"
+   ]
+  },
+  {
+   "ip": "185.78.172.253",
+   "cymru": "49959",
+   "ripe": [
+    "49959"
+   ]
+  },
+  {
+   "ip": "95.143.206.137",
+   "cymru": "49770",
+   "ripe": [
+    "49770"
+   ]
+  },
+  {
+   "ip": "188.114.96.1",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "65.8.131.104",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.121.204.166",
+   "cymru": "1257",
+   "ripe": [
+    "1257"
+   ]
+  },
+  {
+   "ip": "108.157.214.127",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "31.13.72.53",
+   "cymru": "32934",
+   "ripe": [
+    "32934"
+   ]
+  },
+  {
+   "ip": "51.120.98.194",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "20.57.85.160",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "20.250.198.32",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "65.9.62.60",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.20.47.8",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "193.122.60.91",
+   "cymru": "31898",
+   "ripe": [
+    "31898"
+   ]
+  },
+  {
+   "ip": "35.217.20.82",
+   "cymru": "15169",
+   "ripe": [
+    "15169",
+    "19527"
+   ]
+  },
+  {
+   "ip": "143.204.238.61",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.174.2.59",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.18.19.62",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.26.13.42",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.18.23.56",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "142.251.156.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "20.91.146.66",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "20.166.40.67",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "3.174.2.11",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "193.0.253.27",
+   "cymru": "41980",
+   "ripe": [
+    "41980"
+   ]
+  },
+  {
+   "ip": "13.48.176.204",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.174.2.25",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "217.61.247.8",
+   "cymru": "48579",
+   "ripe": [
+    "48579"
+   ]
+  },
+  {
+   "ip": "104.26.3.182",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "151.101.65.229",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "151.101.193.155",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "172.217.116.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "3.121.8.7",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "54.37.30.50",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "194.14.242.54",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "194.169.225.210",
+   "cymru": "49232",
+   "ripe": [
+    "49232"
+   ]
+  },
+  {
+   "ip": "108.157.214.37",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "194.169.225.25",
+   "cymru": "49232",
+   "ripe": [
+    "49232"
+   ]
+  },
+  {
+   "ip": "172.217.117.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "3.174.2.4",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "46.246.31.3",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "46.21.98.98",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "54.246.237.58",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.157.122.248",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.239.50.11",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "34.246.114.47",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "65.8.131.32",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "35.190.14.188",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "35.201.111.240",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "34.95.108.180",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "34.102.170.124",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "34.149.254.14",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "20.50.88.241",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "104.18.86.42",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.18.32.137",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "158.174.98.164",
+   "cymru": "8473",
+   "ripe": [
+    "8473"
+   ]
+  },
+  {
+   "ip": "151.101.1.155",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "135.125.247.91",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "3.174.2.49",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.239.105.52",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "142.251.38.104",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "65.8.131.125",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "185.16.85.64",
+   "cymru": "42695",
+   "ripe": [
+    "42695"
+   ]
+  },
+  {
+   "ip": "54.38.230.75",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "142.251.142.238",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "83.140.30.19",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "91.197.42.154",
+   "cymru": "48579",
+   "ripe": [
+    "48579"
+   ]
+  },
+  {
+   "ip": "65.109.223.158",
+   "cymru": "24940",
+   "ripe": [
+    "24940"
+   ]
+  },
+  {
+   "ip": "217.28.206.187",
+   "cymru": "34385",
+   "ripe": [
+    "34385"
+   ]
+  },
+  {
+   "ip": "52.233.184.181",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "216.58.207.99",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "104.18.22.56",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "83.140.30.14",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "54.36.117.84",
+   "cymru": "16276",
+   "ripe": [
+    "16276"
+   ]
+  },
+  {
+   "ip": "192.121.242.15",
+   "cymru": "197942",
+   "ripe": [
+    "197942"
+   ]
+  },
+  {
+   "ip": "20.166.40.65",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "35.190.80.1",
+   "cymru": "396982",
+   "ripe": [
+    "396982"
+   ]
+  },
+  {
+   "ip": "91.197.42.166",
+   "cymru": "48579",
+   "ripe": [
+    "48579"
+   ]
+  },
+  {
+   "ip": "142.251.142.226",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "138.199.37.232",
+   "cymru": "60068",
+   "ripe": [
+    "60068"
+   ]
+  },
+  {
+   "ip": "18.238.243.5",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "193.182.158.5",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "194.14.242.58",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "83.145.32.100",
+   "cymru": "12552",
+   "ripe": [
+    "12552"
+   ]
+  },
+  {
+   "ip": "65.9.46.7",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "3.126.133.169",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "212.227.60.94",
+   "cymru": "8560",
+   "ripe": [
+    "8560"
+   ]
+  },
+  {
+   "ip": "13.33.235.29",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.18.208.173",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "18.239.18.108",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.238.243.53",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.18.18.62",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "3.40.134.37",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "18.165.140.23",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "194.71.70.100",
+   "cymru": "197942",
+   "ripe": [
+    "197942"
+   ]
+  },
+  {
+   "ip": "212.237.145.120",
+   "cymru": "48579",
+   "ripe": [
+    "48579"
+   ]
+  },
+  {
+   "ip": "104.26.2.182",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "46.246.30.200",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "104.26.5.247",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "142.251.38.97",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "104.26.10.74",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "46.246.30.220",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "20.50.88.235",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "23.52.19.167",
+   "cymru": "16625",
+   "ripe": [
+    "16625"
+   ]
+  },
+  {
+   "ip": "104.18.14.11",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "195.47.247.17",
+   "cymru": "51468",
+   "ripe": [
+    "51468"
+   ]
+  },
+  {
+   "ip": "162.159.138.60",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "23.73.4.225",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "216.58.201.194",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.143.150",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.143.134",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "142.251.155.4",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "104.26.12.42",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.18.13.205",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "104.19.229.21",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "18.238.243.72",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "166.117.86.3",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "91.201.60.96",
+   "cymru": "44136",
+   "ripe": [
+    "44136"
+   ]
+  },
+  {
+   "ip": "109.205.219.76",
+   "cymru": "50572",
+   "ripe": [
+    "50572"
+   ]
+  },
+  {
+   "ip": "18.238.243.129",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "108.156.22.106",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "108.156.22.22",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "104.16.41.28",
+   "cymru": "13335",
+   "ripe": [
+    "13335"
+   ]
+  },
+  {
+   "ip": "172.217.19.230",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "74.125.205.157",
+   "cymru": "15169",
+   "ripe": [
+    "15169"
+   ]
+  },
+  {
+   "ip": "31.13.72.36",
+   "cymru": "32934",
+   "ripe": [
+    "32934"
+   ]
+  },
+  {
+   "ip": "52.45.128.177",
+   "cymru": "14618",
+   "ripe": [
+    "14618"
+   ]
+  },
+  {
+   "ip": "23.73.2.143",
+   "cymru": "20940",
+   "ripe": [
+    "20940"
+   ]
+  },
+  {
+   "ip": "37.152.58.102",
+   "cymru": "42708",
+   "ripe": [
+    "42708"
+   ]
+  },
+  {
+   "ip": "13.249.8.20",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "20.50.88.245",
+   "cymru": "8075",
+   "ripe": [
+    "8075"
+   ]
+  },
+  {
+   "ip": "151.101.64.217",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "151.101.128.217",
+   "cymru": "54113",
+   "ripe": [
+    "54113"
+   ]
+  },
+  {
+   "ip": "13.249.8.67",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "65.9.62.31",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  },
+  {
+   "ip": "176.34.209.114",
+   "cymru": "16509",
+   "ripe": [
+    "16509"
+   ]
+  }
+ ]
+}

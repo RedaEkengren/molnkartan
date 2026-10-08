@@ -1,11 +1,11 @@
 :root {
   --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
-  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --varning: #fff6e0; --varning-kant: #e8c66a;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --varning: #fff6e0; --varning-kant: #e8c66a;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
-    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --annat: #b39ae0; --ingen: #6fc0ba; --varning: #2b2516; --varning-kant: #7a6426;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #6d6c66; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --varning: #2b2516; --varning-kant: #7a6426;
   }
 }
 * { box-sizing: border-box; }
@@ -67,10 +67,6 @@ code { font-size: 0.88em; }
 .forklaring { color: var(--dampad); }
 .topplista { padding-left: 22px; columns: 2 260px; font-size: 0.95rem; }
 h3 { font-size: 1.05rem; margin: 28px 0 8px; }
-footer { margin-top: 56px; color: var(--dampad); font-size: 0.9rem; }
-nav.topp { display: flex; gap: 18px; font-size: 0.95rem; margin-bottom: 28px; }
-nav.topp a { color: var(--dampad); text-decoration: none; }
-nav.topp a[aria-current] { color: var(--text); font-weight: 600; }
 .fynd { border-top: 1px solid var(--linje); padding: 28px 0 8px; }
 .fynd time { color: var(--dampad); font-size: 0.88rem; }
 .fynd h2 { margin: 4px 0 10px; }
@@ -78,3 +74,30 @@ nav.topp a[aria-current] { color: var(--text); font-weight: 600; }
 .fynd details { margin-top: 10px; color: var(--dampad); }
 .fynd summary { cursor: pointer; color: var(--text); }
 .fynd .metod { display: inline-block; font-size: 0.8rem; border: 1px solid var(--linje); border-radius: 999px; padding: 1px 8px; color: var(--dampad); }
+.sidhuvud { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding: 0 0 16px; margin-bottom: 36px; border-bottom: 1px solid var(--linje); }
+main { padding-top: 20px; }
+.marke { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
+.marke svg { width: 34px; height: 34px; padding: 5px; border-radius: 9px; background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent); fill: var(--accent); }
+.marke span { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; }
+.meny { display: flex; align-items: center; gap: 18px; font-size: 0.9rem; overflow-x: auto; max-width: 100%; }
+.meny a { color: var(--dampad); text-decoration: none; white-space: nowrap; }
+.meny a:hover { color: var(--text); }
+.meny a[aria-current] { color: var(--text); font-weight: 600; }
+.knapp { background: var(--accent); color: var(--accent-text) !important; padding: 7px 14px; border-radius: 7px;
+  font-weight: 600; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.knapp:hover { filter: brightness(1.08); }
+.sidfot { margin-top: 72px; padding-top: 32px; border-top: 1px solid var(--linje); font-size: 0.88rem; color: var(--dampad); }
+.fotkolumner { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: 28px; }
+@media (max-width: 720px) { .fotkolumner { grid-template-columns: 1fr 1fr; } .fotkolumner > div:first-child { grid-column: 1 / -1; } }
+.fotkolumner p { max-width: 34ch; margin: 12px 0 0; }
+.fotkolumner h4 { margin: 4px 0 10px; font-size: 0.8rem; color: var(--text); letter-spacing: 0.06em; text-transform: uppercase; }
+.fotkolumner a:not(.marke) { display: block; color: var(--dampad); text-decoration: none; margin-bottom: 7px; }
+.fotkolumner a:not(.marke):hover { color: var(--text); }
+.fotrad { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; margin-top: 28px; padding-top: 16px;
+  border-top: 1px solid var(--linje); font-size: 0.82rem; }
+.markorer { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.markorer span::before { content: "✓ "; color: var(--accent); }
+.meny { scrollbar-width: none; }
+.meny::-webkit-scrollbar { display: none; }

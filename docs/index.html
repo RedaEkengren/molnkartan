@@ -9,9 +9,12 @@
 </head>
 <body>
 <main>
-  <nav class="topp"><a href="./" aria-current="page">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
-  <h1>Molnkartan</h1>
-  <p class="ingress">Hur beroende är svenska kommuner och regioner av amerikanska molntjänster? Mätt utifrån, med öppna DNS-signaler, för alla 290 kommuner och 20 regioner.</p>
+  <header class="sidhuvud">
+    <a class="marke" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/><circle cx="20.5" cy="18.8" r="1.5"/></svg><span>Molnkartan</span></a>
+    <nav class="meny"><a href="./" aria-current="page">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  </header>
+  <h1>Hur beroende är kommunerna av amerikanska moln?</h1>
+  <p class="ingress">Mätt utifrån, med öppna signaler, för alla 290 kommuner och 20 regioner. Reglerna skrevs före mätningen, och varje siffra går att kontrollera.</p>
 
   <section class="demo" aria-label="Så mäts en kommun">
     <div class="demo-huvud"><span><b>Så mäts en kommun</b> · riktiga svar från mätningen</span><span id="demoNamn"></span></div>
@@ -62,9 +65,20 @@
     </table>
   </div>
 
-  <footer>
-    <p id="matt"></p>
-    <p>Varje rad går att kontrollera själv, till exempel <code>dig +short MX linkoping.se</code>. Kod, rådata och regler: <a href="https://github.com/RedaEkengren/molnkartan">github.com/RedaEkengren/molnkartan</a>. Data CC BY 4.0. Hittar du ett fel? Öppna ett issue.</p>
+  <footer class="sidfot">
+    <div class="fotkolumner">
+      <div>
+        <a class="marke" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/><circle cx="20.5" cy="18.8" r="1.5"/></svg><span>Molnkartan</span></a>
+        <p>Hur beroende offentliga Sverige är av amerikanska moln, mätt utifrån med öppna signaler. Varje påstående går att kontrollera med ett kommando.</p>
+      </div>
+      <div><h4>Utforska</h4><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html">Fynd</a></div>
+      <div><h4>Metod</h4><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Regler och rättelser</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulering</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Rapportera ett fel</a></div>
+      <div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Rådata</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Kod: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
+    </div>
+    <div class="fotrad">
+      <span id="matt"></span> <span>Uppdateras den 1:a varje månad.</span>
+      <span class="markorer"><span>Regler skrivna före mätning</span><span>Öppen källkod</span><span>Källor: SCB, Wikidata, Team Cymru, RIPEstat</span></span>
+    </div>
   </footer>
 </main>
 <script src="demo.js"></script>

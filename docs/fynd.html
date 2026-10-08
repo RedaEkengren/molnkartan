@@ -9,14 +9,29 @@
 </head>
 <body>
 <main>
-  <nav class="topp"><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html" aria-current="page">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  <header class="sidhuvud">
+    <a class="marke" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/><circle cx="20.5" cy="18.8" r="1.5"/></svg><span>Molnkartan</span></a>
+    <nav class="meny"><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html" aria-current="page">Fynd</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metod</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">Kod och data</a></nav>
+  </header>
   <h1>Fynd</h1>
   <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan, så att det går att pröva själv. Fel vi hittat i vår egen metod står här också.</p>
+
+  <article class="fynd" id="exchange-online">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Triangulering</span>
+    <h2>Bakom de egna e-postservrarna sitter nästan alltid Microsoft</h2>
+    <div class="tal">305 av 310</div>
+    <p>DNS visade att 248 kommuner och regioner har e-post via Microsofts moln. Microsofts egen tjänst för e-postinställningar visar att Exchange Online hanterar domänen hos <b>305 av 310</b>. Det gäller alla 32 där DNS inte räckte för att avgöra, 19 av 20 utan molnsignaler och 7 av 10 med e-post hos Google. Bland myndighetsdomänerna är det 142 av 202, Skatteverket inräknat.</p>
+    <p>Det vanliga mönstret är en hybridlösning: e-posten tas emot på egna servrar eller i ett spamfilter och lämnas sedan vidare till Microsofts moln. Det säger inte hur många brevlådor som ligger i molnet.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Fem påståenden prövades med oberoende metoder och krav skrivna i förväg: Microsoft-konton med en andra Microsoft-tjänst (512 av 512 lika), e-postklassen via tre andra DNS-resolvrar (512 av 512), näten bakom tredjepartsvärdar via RIPEstat i stället för Team Cymru (338 av 338), och 15 slumpvis valda webbplatser i en vanlig Chrome (14 av 15). Exchange Online-testet föll först, 86,5 % mot kravet 95 %, på grund av ett fel i vår kod och strypning hos Microsoft. Efter rättelsen: 331 av 333. Endast ja eller nej sparas; adresser som svaren avslöjar publiceras inte.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulering</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Rättelsen</a></p>
+  </article>
 
   <article class="fynd" id="skatteverket">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
     <h2>Skatteverket syns inte i mätningen, och det är ett fynd</h2>
-    <p>Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. I mätningen har Skatteverket e-post på egna servrar utan molnsignaler och en webbplats som inte kontaktar någon tredjepart. Det enda som syns är ett Microsoft-konto. Molntjänster som används internt, bakom inloggning, lämnar inga spår utifrån.</p>
+    <p>Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. I mätningen har Skatteverket e-post på egna servrar utan molnsignaler och en webbplats som inte kontaktar någon tredjepart. DNS visar bara ett Microsoft-konto. Först trianguleringen visade att Exchange Online hanterar skatteverket.se, troligen i en hybridlösning. Molntjänster som används internt lämnar få spår utifrån.</p>
     <p>Det gäller alla siffror på den här webbplatsen: <b>de visar vad som syns utifrån och är lägsta nivåer.</b> En organisation utan signaler kan ändå använda amerikanska moln.</p>
     <p><a href="myndigheter.html">Myndigheterna</a></p>
   </article>
@@ -111,8 +126,20 @@
     </details>
   </article>
 
-  <footer>
-    <p>Fynden gäller mätningen 8 oktober 2026. Hittar du ett fel? <a href="https://github.com/RedaEkengren/molnkartan/issues">Öppna ett issue</a>. Data CC BY 4.0.</p>
+  <footer class="sidfot">
+    <div class="fotkolumner">
+      <div>
+        <a class="marke" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/><circle cx="20.5" cy="18.8" r="1.5"/></svg><span>Molnkartan</span></a>
+        <p>Hur beroende offentliga Sverige är av amerikanska moln, mätt utifrån med öppna signaler. Varje påstående går att kontrollera med ett kommando.</p>
+      </div>
+      <div><h4>Utforska</h4><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a href="fynd.html">Fynd</a></div>
+      <div><h4>Metod</h4><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Regler och rättelser</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulering</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Rapportera ett fel</a></div>
+      <div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Rådata</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Kod: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
+    </div>
+    <div class="fotrad">
+      <span id="matt">Mätt 8 oktober 2026.</span> <span>Uppdateras den 1:a varje månad.</span>
+      <span class="markorer"><span>Regler skrivna före mätning</span><span>Öppen källkod</span><span>Källor: SCB, Wikidata, Team Cymru, RIPEstat</span></span>
+    </div>
   </footer>
 </main>
 </body>

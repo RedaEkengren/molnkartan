@@ -1,0 +1,314 @@
+{
+ "matt": "2026-10-08T170712Z",
+ "metod": "vanlig Chrome (Claude in Chrome), performance.getEntriesByType('resource') efter 10 s, ingen knapp klickad, frö 20261008",
+ "rader": [
+  {
+   "namn": "Inspektionen för arbetslöshetsförsäkring",
+   "domän": "iaf.se",
+   "slutadress": "https://www.iaf.se/",
+   "klass": "US-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "dl.episerver.net",
+    "siteimproveanalytics.com",
+    "7420.global.siteimproveanalytics.io"
+   ],
+   "nat": {
+    "dl.episerver.net": "US",
+    "siteimproveanalytics.com": "US",
+    "7420.global.siteimproveanalytics.io": "US"
+   }
+  },
+  {
+   "namn": "Åstorp",
+   "domän": "astorp.se",
+   "slutadress": "https://astorp.se/",
+   "klass": "annat nät före samtycke",
+   "chrome": "annat nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "static.rekai.se",
+    "f1-eu.readspeaker.com",
+    "cdn.vizzit.se",
+    "view.rekai.se",
+    "tag.vizzit.se",
+    "www.vizzit.se"
+   ],
+   "nat": {
+    "static.rekai.se": "EU/EES",
+    "f1-eu.readspeaker.com": "annat",
+    "cdn.vizzit.se": "EU/EES",
+    "view.rekai.se": "EU/EES",
+    "tag.vizzit.se": "EU/EES",
+    "www.vizzit.se": "EU/EES"
+   }
+  },
+  {
+   "namn": "Ljusnarsberg",
+   "domän": "ljusnarsberg.se",
+   "slutadress": "https://ljusnarsberg.se/",
+   "klass": "annat nät före samtycke",
+   "chrome": "annat nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "cdn-eu.readspeaker.com",
+    "svanalytics.containers.piwik.pro",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "cdn-eu.readspeaker.com": "annat",
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Haparanda",
+   "domän": "haparanda.se",
+   "slutadress": "https://www.haparanda.se/",
+   "klass": "US-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "svanalytics.containers.piwik.pro",
+    "static.rekai.se",
+    "cdn.ontame.io",
+    "view.rekai.se",
+    "collector.ontame.io"
+   ],
+   "nat": {
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "static.rekai.se": "EU/EES",
+    "cdn.ontame.io": "US",
+    "view.rekai.se": "EU/EES",
+    "collector.ontame.io": "US"
+   }
+  },
+  {
+   "namn": "Statens väg- och transportforskningsinstitut",
+   "domän": "vti.se",
+   "slutadress": "https://www.vti.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "svanalytics.containers.piwik.pro",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Falun",
+   "domän": "falun.se",
+   "slutadress": "https://www.falun.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "media.readspeaker.com"
+   ],
+   "nat": {
+    "media.readspeaker.com": "EU/EES"
+   }
+  },
+  {
+   "namn": "Hörby",
+   "domän": "horby.se",
+   "slutadress": "https://www.horby.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": false,
+   "varder": [
+    "app-cdn.puzzel.com",
+    "cdn.matomo.cloud",
+    "app-consumeridp.puzzel.com",
+    "app-state.puzzel.com",
+    "app-commsrv.puzzel.com",
+    "app-statistics.puzzel.com"
+   ],
+   "nat": {
+    "app-cdn.puzzel.com": "EU/EES",
+    "cdn.matomo.cloud": "US",
+    "app-consumeridp.puzzel.com": "EU/EES",
+    "app-state.puzzel.com": "EU/EES",
+    "app-commsrv.puzzel.com": "EU/EES",
+    "app-statistics.puzzel.com": "EU/EES"
+   }
+  },
+  {
+   "namn": "Bräcke",
+   "domän": "bracke.se",
+   "slutadress": "https://www.bracke.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "static.rekai.se",
+    "cdn.vizzit.se",
+    "view.rekai.se",
+    "tag.vizzit.se",
+    "www.vizzit.se"
+   ],
+   "nat": {
+    "static.rekai.se": "EU/EES",
+    "cdn.vizzit.se": "EU/EES",
+    "view.rekai.se": "EU/EES",
+    "tag.vizzit.se": "EU/EES",
+    "www.vizzit.se": "EU/EES"
+   }
+  },
+  {
+   "namn": "Verket för innovationssystem",
+   "domän": "vinnova.se",
+   "slutadress": "https://www.vinnova.se/",
+   "klass": "US-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "code.jquery.com",
+    "static.rekai.se",
+    "cdnjs.cloudflare.com",
+    "forms.apsisforms.com",
+    "view.rekai.se"
+   ],
+   "nat": {
+    "code.jquery.com": "US",
+    "static.rekai.se": "EU/EES",
+    "cdnjs.cloudflare.com": "US",
+    "forms.apsisforms.com": "US",
+    "view.rekai.se": "EU/EES"
+   }
+  },
+  {
+   "namn": "Statens haverikommission",
+   "domän": "shk.se",
+   "slutadress": "https://shk.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "svanalytics.containers.piwik.pro",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Grästorp",
+   "domän": "grastorp.se",
+   "slutadress": "https://www.grastorp.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "svanalytics.containers.piwik.pro",
+    "static.rekai.se",
+    "view.rekai.se",
+    "predict.rekai.se",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "static.rekai.se": "EU/EES",
+    "view.rekai.se": "EU/EES",
+    "predict.rekai.se": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Järfälla",
+   "domän": "jarfalla.se",
+   "slutadress": "https://www.jarfalla.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "static.rekai.se",
+    "svanalytics.containers.piwik.pro",
+    "view.rekai.se",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "static.rekai.se": "EU/EES",
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "view.rekai.se": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Sölvesborg",
+   "domän": "solvesborg.se",
+   "slutadress": "https://solvesborg.se/",
+   "klass": "US-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "fonts.googleapis.com",
+    "translate.google.com",
+    "www.vizzit.se",
+    "www.gstatic.com",
+    "translate.googleapis.com",
+    "www.googletagmanager.com",
+    "fonts.gstatic.com",
+    "policy.app.cookieinformation.com"
+   ],
+   "nat": {
+    "fonts.googleapis.com": "US",
+    "translate.google.com": "US",
+    "www.vizzit.se": "EU/EES",
+    "www.gstatic.com": "US",
+    "translate.googleapis.com": "US",
+    "www.googletagmanager.com": "US",
+    "fonts.gstatic.com": "US",
+    "policy.app.cookieinformation.com": "US"
+   }
+  },
+  {
+   "namn": "Riksrevisionen",
+   "domän": "riksrevisionen.se",
+   "slutadress": "https://www.riksrevisionen.se/",
+   "klass": "bara EU/EES-nät före samtycke",
+   "chrome": "bara EU/EES-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "svanalytics.containers.piwik.pro",
+    "static.rekai.se",
+    "view.rekai.se",
+    "svanalytics.piwik.pro"
+   ],
+   "nat": {
+    "svanalytics.containers.piwik.pro": "EU/EES",
+    "static.rekai.se": "EU/EES",
+    "view.rekai.se": "EU/EES",
+    "svanalytics.piwik.pro": "EU/EES"
+   }
+  },
+  {
+   "namn": "Statens geotekniska institut",
+   "domän": "sgi.se",
+   "slutadress": "https://www.sgi.se/",
+   "klass": "US-nät före samtycke",
+   "chrome": "US-nät före samtycke",
+   "us_lika": true,
+   "varder": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "cdn.vizzit.se",
+    "tag.vizzit.se",
+    "www.vizzit.se"
+   ],
+   "nat": {
+    "consent.cookiebot.com": "US",
+    "consentcdn.cookiebot.com": "US",
+    "cdn.vizzit.se": "EU/EES",
+    "tag.vizzit.se": "EU/EES",
+    "www.vizzit.se": "EU/EES"
+   }
+  }
+ ]
+}

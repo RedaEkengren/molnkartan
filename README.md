@@ -8,6 +8,7 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 | E-post syns gå via Microsofts moln | 248 (80 %) |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
+| Exchange Online hanterar domänen (oberoende kontroll) | 305 (98 %) |
 | Webbplatsen kontaktar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
 | … varav Google Analytics/Tag Manager | 16 |
 
@@ -66,6 +67,9 @@ Metoden prövades i tre steg, och varje steg finns kvar i repot.
    entydiga svar mot kravet 85 %. [`RESULTAT-v2.md`](RESULTAT-v2.md)
 3. **Hela landet** med oförändrade regler. [`RESULTAT-sverige.md`](RESULTAT-sverige.md)
 
+Allt prövades sedan med oberoende metoder, med krav skrivna i förväg:
+[`RESULTAT-triangulering.md`](RESULTAT-triangulering.md).
+
 Mätning 2, webbplatserna före samtycke, gick samma väg: negativ och positiv
 kontroll före varje körning, upprepningstest, och två hållout-test (Skåne,
 Västra Götaland) som **föll** för att en handskriven leverantörslista inte
@@ -113,6 +117,7 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `klassa.py`, `klassa_v2.py` | Tillämpar reglerna i pilot respektive v2 |
 | `webbmatning.py`, `webb_klassa.py`, `leverantorer.csv` | Mätning 2: headless Chrome, nätverkslogg, ASN per värd |
 | `data/` | Rådata med tidsstämpel, en fil per körning (`ra-` DNS, `webb-` webbplatser) |
+| `triangulering.py` | T1–T4: oberoende kontroller av huvudpåståendena |
 | `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py <rådatafil>` skriver `docs/data.json` |
 
 Rådatan sparar inte tenant-ID eller verifieringskoder. De är tekniskt publika

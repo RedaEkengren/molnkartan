@@ -320,3 +320,41 @@ Nätverkslistan i en vanlig Chrome visar inte filer som hämtas ur cachen. Vid
 stickprov används därför också `performance.getEntriesByType("resource")`, som
 listar alla resurser sidan laddat. Upptäckt vid kontrollen av Försvarsmakten,
 där `gtm.js` saknades i nätverkslistan men fanns i resurslistan.
+
+---
+
+# Triangulering — 2026-10-08, före körning
+
+Varje huvudpåstående prövas med en metod som inte beror på den första.
+Kraven gäller överensstämmelse; där de inte uppfylls redovisas det.
+
+| # | Påstående | Oberoende metod | Krav |
+|---|---|---|---|
+| T1 | Microsoft-tenant (OpenID, 200/400) | `getuserrealm.srf`: `NameSpaceType` är `Managed` eller `Federated` | samma svar för ≥99 % |
+| T2 | E-post i Microsofts moln (MX/SPF/DKIM) | Exchange Onlines autodiscover (`autodiscover.json`) omdirigerar till `outlook.office365.com` | ≥95 % av dem som klassats Microsoft får ja |
+| T3 | E-postklassen | MX, SPF och DKIM frågas via 1.1.1.1, 9.9.9.9 och 8.8.8.8 i stället för systemets resolver | samma klass för ≥99 % |
+| T4 | Nätet bakom tredjepartsvärdar (Team Cymru) | RIPEstat `network-info` för samma IP-adresser som sparades | samma ASN för ≥97 % |
+| T5 | "Amerikanskt nät före samtycke" (headless Chrome) | Vanlig Chrome med annan profil och nätverk, `performance`-resurslistan, 15 slumpvis valda organisationer (frö 20261008), utan samtyckeskaka | samma klass för ≥13 av 15 |
+
+**T2 för övriga klasser** (Google, inga molnsignaler, okänd) är inte ett test
+utan ny information: hur många som ändå har Exchange Online bakom egna servrar
+(hybrid). Den används inte för att ändra klasserna i efterhand.
+
+**Gräns:** för T1 och T2 sparas bara ja/nej. Omdirigeringsadresser, tenantnamn
+och underdomäner som svaren avslöjar sparas inte och publiceras inte.
+Ett anrop per domän och tjänst, inga inloggningsförsök.
+
+### Rättelse T2 — 2026-10-08, efter första trianguleringskörningen
+
+Första körningen (`data/triangulering-2026-10-08T165533Z.json`, behålls) gav
+86,5 % och föll mot kravet 95 %. Av de 45 avvikelserna var 43 "inget svar",
+inte "nej". Två orsaker hittades vid kontroll av enskilda domäner:
+
+1. **Implementationsfel:** Exchange Online svarar ibland direkt med
+   `200 {"Url":"https://outlook.office365.com/…"}` i stället för att
+   omdirigera. Koden räknade bara omdirigeringar. Båda svaren betyder att
+   Exchange Online hanterar domänen och räknas nu som ja.
+2. **Strypning:** 16 parallella anrop gav tomma svar. T2 körs nu med 2 parallella
+   anrop och ett nytt försök vid tomt svar.
+
+Kravet (≥95 %) ändras inte.
