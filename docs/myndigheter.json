@@ -1,41 +1,41 @@
 {
- "matt": "2026-10-08T164214Z",
- "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T164214Z.json",
- "webbMatt": "2026-10-08T164403Z",
- "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
- "trianguleringMatt": "2026-10-08T165750Z",
- "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
- "sakerhetMatt": "2026-10-08T180801Z",
- "sakerhetKalla": "data/sakerhet-2026-10-08T180801Z.json",
+ "matt": "2026-10-08T190520Z",
+ "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T190520Z.json",
+ "webbMatt": "2026-10-08T191303Z",
+ "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T191303Z.json",
+ "trianguleringMatt": "2026-10-08T191727Z",
+ "trianguleringKalla": "data/triangulering-2026-10-08T191727Z.json",
+ "sakerhetMatt": "2026-10-08T195446Z",
+ "sakerhetKalla": "data/sakerhet-2026-10-08T195446Z.json",
  "sakerhet": {
   "DMARC": {
-   "p=reject": 78,
-   "p=none": 49,
-   "p=quarantine": 57,
-   "saknas": 18
+   "p=reject": 66,
+   "p=none": 42,
+   "p=quarantine": 50,
+   "saknas": 44
   },
   "SPF": {
-   "-all": 147,
-   "~all": 50,
-   "annat": 2,
-   "saknas": 3
+   "-all": 125,
+   "~all": 43,
+   "annat": 1,
+   "saknas": 33
   },
   "MTA-STS": {
-   "saknas": 180,
-   "finns": 22
+   "saknas": 184,
+   "finns": 18
   },
   "TLS-RPT": {
-   "saknas": 172,
-   "finns": 30
+   "saknas": 177,
+   "finns": 25
   },
   "DNSSEC": {
-   "finns": 154,
-   "saknas": 48
+   "finns": 136,
+   "saknas": 66
   },
   "HSTS": {
-   "finns": 111,
-   "saknas": 79,
-   "kunde inte mätas": 12
+   "kunde inte mätas": 50,
+   "saknas": 65,
+   "finns": 87
   }
  },
  "organisationer": [
@@ -60,23 +60,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.kammarkollegiet.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -299,11 +288,13 @@
     "us": [
      "script.hotjar.com",
      "static.hotjar.com",
+     "vc.hotjar.io",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
      "Google",
-     "Hotjar"
+     "Hotjar",
+     "hotjar.io"
     ],
     "varder": [
      {
@@ -325,6 +316,11 @@
       "v": "static.rekai.se",
       "nat": "EU/EES",
       "lev": "Rek.ai"
+     },
+     {
+      "v": "vc.hotjar.io",
+      "nat": "US",
+      "lev": null
      },
      {
       "v": "view.rekai.se",
@@ -422,33 +418,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "annat nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn1.readspeaker.com",
-      "nat": "annat",
-      "lev": "ReadSpeaker"
-     },
-     {
-      "v": "ssl.webserviceaward.com",
-      "nat": "EU/EES",
-      "lev": "Web Service Award"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.arvsfonden.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -555,73 +530,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "assets.mediaflowpro.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "ebbot.eu",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "m.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "mfstatic.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "predict.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "static.rekai.eu",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "storage.gra.cloud.ovh.net",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "v6.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.bth.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -830,28 +744,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "script.extellio.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://bra.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -1190,7 +1088,7 @@
     "klass": "US-nät före samtycke",
     "ga": true,
     "us": [
-     "region1.google-analytics.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -1203,14 +1101,14 @@
       "lev": "Vizzit"
      },
      {
-      "v": "region1.google-analytics.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
       "v": "tag.vizzit.se",
       "nat": "EU/EES",
       "lev": "Vizzit"
+     },
+     {
+      "v": "www.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
      },
      {
       "v": "www.googletagmanager.com",
@@ -1353,43 +1251,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "assets.mediaflowpro.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "m.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "mfstatic.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "v4.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     }
-    ],
-    "sida": "https://ei.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -1427,10 +1294,12 @@
      "cdn-cookieyes.com",
      "fonts.googleapis.com",
      "log.cookieyes.com",
-     "region1.google-analytics.com",
+     "static.cloudflareinsights.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
+     "Cloudflare",
      "Google",
      "cdn-cookieyes.com",
      "cookieyes.com"
@@ -1452,7 +1321,12 @@
       "lev": null
      },
      {
-      "v": "region1.google-analytics.com",
+      "v": "static.cloudflareinsights.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -1629,6 +1503,11 @@
       "lev": null
      },
      {
+      "v": "statsapi.screen9.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
       "v": "tag.vizzit.se",
       "nat": "EU/EES",
       "lev": "Vizzit"
@@ -1672,28 +1551,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://www.fpr.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -1857,18 +1720,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "www.pensionsmyndigheten.se",
-      "nat": "EU/EES",
-      "lev": null
-     }
-    ],
-    "sida": "https://www.ftn.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -1940,52 +1797,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
-    "ga": true,
-    "us": [
-     "cdn.matomo.cloud",
-     "formas.matomo.cloud",
-     "region1.google-analytics.com",
-     "www.googletagmanager.com",
-     "www.gstatic.com"
-    ],
-    "usLeverantorer": [
-     "Google",
-     "InnoCraft (Matomo Cloud)"
-    ],
-    "varder": [
-     {
-      "v": "cdn.matomo.cloud",
-      "nat": "US",
-      "lev": "InnoCraft (Matomo Cloud)"
-     },
-     {
-      "v": "f1-eu.readspeaker.com",
-      "nat": "annat",
-      "lev": "ReadSpeaker"
-     },
-     {
-      "v": "formas.matomo.cloud",
-      "nat": "US",
-      "lev": "InnoCraft (Matomo Cloud)"
-     },
-     {
-      "v": "region1.google-analytics.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.googletagmanager.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.gstatic.com",
-      "nat": "US",
-      "lev": "Google"
-     }
-    ],
-    "sida": "https://formas.se/"
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -2018,38 +1835,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "consent.cookiebot.com",
-     "consentcdn.cookiebot.com"
-    ],
-    "usLeverantorer": [
-     "Usercentrics (Cookiebot)"
-    ],
-    "varder": [
-     {
-      "v": "consent.cookiebot.com",
-      "nat": "US",
-      "lev": "Usercentrics (Cookiebot)"
-     },
-     {
-      "v": "consentcdn.cookiebot.com",
-      "nat": "US",
-      "lev": "Usercentrics (Cookiebot)"
-     },
-     {
-      "v": "forte.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "forte.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://forte.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -2173,54 +1964,11 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "fonts.gstatic.com",
-     "translate.google.com",
-     "translate.googleapis.com",
-     "www.gstatic.com"
-    ],
-    "usLeverantorer": [
-     "Google"
-    ],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "fonts.gstatic.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "translate.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "translate.googleapis.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.gstatic.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
     "sida": "https://www.fmv.se/"
    },
    "svar": {
@@ -2332,8 +2080,13 @@
     "klass": "US-nät före samtycke",
     "ga": true,
     "us": [
+     "analytics.google.com",
+     "bat.bing.com",
+     "googleads.g.doubleclick.net",
      "js.monitor.azure.com",
      "northeurope-2.in.applicationinsights.azure.com",
+     "stats.g.doubleclick.net",
+     "www.google.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -2341,6 +2094,16 @@
      "Microsoft"
     ],
     "varder": [
+     {
+      "v": "analytics.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "bat.bing.com",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
      {
       "v": "consent.cookiebot.eu",
       "nat": "annat",
@@ -2352,6 +2115,11 @@
       "lev": null
      },
      {
+      "v": "googleads.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
       "v": "js.monitor.azure.com",
       "nat": "US",
       "lev": "Microsoft"
@@ -2360,6 +2128,26 @@
       "v": "northeurope-2.in.applicationinsights.azure.com",
       "nat": "US",
       "lev": "Microsoft"
+     },
+     {
+      "v": "s2.adform.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "stats.g.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "track.adform.net",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
      },
      {
       "v": "www.googletagmanager.com",
@@ -2512,38 +2300,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://www.gih.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -2936,43 +2698,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "7400.global.siteimproveanalytics.io",
-     "siteimproveanalytics.com"
-    ],
-    "usLeverantorer": [
-     "Siteimprove"
-    ],
-    "varder": [
-     {
-      "v": "7400.global.siteimproveanalytics.io",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "cdn-eu.readspeaker.com",
-      "nat": "annat",
-      "lev": "ReadSpeaker"
-     },
-     {
-      "v": "siteimproveanalytics.com",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.hig.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -3290,46 +3021,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "p.typekit.net",
-     "plus.browsealoud.com",
-     "use.typekit.net",
-     "www.browsealoud.com"
-    ],
-    "usLeverantorer": [
-     "Adobe",
-     "Texthelp"
-    ],
-    "varder": [
-     {
-      "v": "p.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     },
-     {
-      "v": "plus.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "use.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     },
-     {
-      "v": "www.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     }
-    ],
-    "sida": "https://www.han.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -3504,38 +3201,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://isf.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -3756,28 +3427,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "annat nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn-eu.readspeaker.com",
-      "nat": "annat",
-      "lev": "ReadSpeaker"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://mrinstitutet.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -3848,23 +3503,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.isof.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -3943,12 +3587,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "ingen tredjepart",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
-    "sida": "https://www.jk.se/"
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4091,7 +3735,7 @@
     "ga": true,
     "us": [
      "cdn.jsdelivr.net",
-     "region1.google-analytics.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -4105,7 +3749,7 @@
       "lev": "jsDelivr"
      },
      {
-      "v": "region1.google-analytics.com",
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -4147,38 +3791,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "7477.global.siteimproveanalytics.io",
-     "siteimproveanalytics.com"
-    ],
-    "usLeverantorer": [
-     "Siteimprove"
-    ],
-    "varder": [
-     {
-      "v": "7477.global.siteimproveanalytics.io",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "siteimproveanalytics.com",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.kemi.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4216,7 +3834,7 @@
      "cdn.matomo.cloud",
      "fonts.googleapis.com",
      "formas.matomo.cloud",
-     "region1.google-analytics.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -4240,7 +3858,7 @@
       "lev": "InnoCraft (Matomo Cloud)"
      },
      {
-      "v": "region1.google-analytics.com",
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -4581,27 +4199,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "cdn.matomo.cloud"
-    ],
-    "usLeverantorer": [
-     "InnoCraft (Matomo Cloud)"
-    ],
-    "varder": [
-     {
-      "v": "cdn.matomo.cloud",
-      "nat": "US",
-      "lev": "InnoCraft (Matomo Cloud)"
-     },
-     {
-      "v": "cdn1.readspeaker.com",
-      "nat": "annat",
-      "lev": "ReadSpeaker"
-     }
-    ],
-    "sida": "https://www.kriminalvarden.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -4788,42 +4391,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "w.soundcloud.com"
-    ],
-    "usLeverantorer": [
-     "soundcloud.com"
-    ],
-    "varder": [
-     {
-      "v": "assets.mediaflowpro.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "m.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "mfstatic.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "v6.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "w.soundcloud.com",
-      "nat": "US",
-      "lev": null
-     }
-    ],
-    "sida": "https://www.kmh.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -5196,43 +4769,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "7574.global.siteimproveanalytics.io",
-     "siteimproveanalytics.com"
-    ],
-    "usLeverantorer": [
-     "Siteimprove"
-    ],
-    "varder": [
-     {
-      "v": "7574.global.siteimproveanalytics.io",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "im16.inviewer.se",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "siteimproveanalytics.com",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.ltu.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -5297,7 +4839,7 @@
      "lu-se.mail.protection.outlook.com"
     ],
     "spf": null,
-    "dkim": "selector1-lu-se._domainkey.LundUniversityO365.onmicrosoft.com.",
+    "dkim": "selector1-lu-se._domainkey.lunduniversityo365.onmicrosoft.com.",
     "entra": 200
    }
   },
@@ -5401,33 +4943,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.lansstyrelsen.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -5464,8 +4985,10 @@
     "us": [
      "apiv2.imbox.io",
      "cdn.botframework.com",
+     "cdn.imbox.io",
      "customer.cludo.com",
      "files.imbox.io",
+     "fonts.googleapis.com",
      "p.typekit.net",
      "triggers-v3.imbox.io",
      "use.typekit.net",
@@ -5475,6 +4998,7 @@
     "usLeverantorer": [
      "Adobe",
      "Cludo",
+     "Google",
      "Imbox",
      "botframework.com"
     ],
@@ -5490,6 +5014,11 @@
       "lev": null
      },
      {
+      "v": "cdn.imbox.io",
+      "nat": "US",
+      "lev": "Imbox"
+     },
+     {
       "v": "customer.cludo.com",
       "nat": "US",
       "lev": "Cludo"
@@ -5498,6 +5027,11 @@
       "v": "files.imbox.io",
       "nat": "US",
       "lev": "Imbox"
+     },
+     {
+      "v": "fonts.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
      },
      {
       "v": "p.typekit.net",
@@ -5714,122 +5248,11 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
-    "ga": true,
-    "us": [
-     "cdn-cookieyes.com",
-     "clients1.google.com",
-     "cse.google.com",
-     "elfsightcdn.com",
-     "ep1.adtrafficquality.google",
-     "ep2.adtrafficquality.google",
-     "js.monitor.azure.com",
-     "log.cookieyes.com",
-     "pagead2.googlesyndication.com",
-     "swedencentral-0.in.applicationinsights.azure.com",
-     "www.google.com",
-     "www.googletagmanager.com"
-    ],
-    "usLeverantorer": [
-     "Google",
-     "Microsoft",
-     "adtrafficquality.google",
-     "cdn-cookieyes.com",
-     "cookieyes.com",
-     "elfsightcdn.com"
-    ],
-    "varder": [
-     {
-      "v": "cdn-cookieyes.com",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "clients1.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "cse.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "elfsightcdn.com",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "ep1.adtrafficquality.google",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "ep2.adtrafficquality.google",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "js.monitor.azure.com",
-      "nat": "US",
-      "lev": "Microsoft"
-     },
-     {
-      "v": "log.cookieyes.com",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "pagead2.googlesyndication.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "plausible.io",
-      "nat": "annat",
-      "lev": "Plausible Analytics"
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "swedencentral-0.in.applicationinsights.azure.com",
-      "nat": "US",
-      "lev": "Microsoft"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "www.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.googletagmanager.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
     "sida": "https://www.miun.se/"
    },
    "svar": {
@@ -5866,11 +5289,13 @@
     "klass": "US-nät före samtycke",
     "ga": true,
     "us": [
-     "region1.google-analytics.com",
      "sentry.frojd.se",
+     "static.cloudflareinsights.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
+     "Cloudflare",
      "Google",
      "frojd.se"
     ],
@@ -5881,14 +5306,19 @@
       "lev": null
      },
      {
-      "v": "region1.google-analytics.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
       "v": "sentry.frojd.se",
       "nat": "US",
       "lev": null
+     },
+     {
+      "v": "static.cloudflareinsights.com",
+      "nat": "US",
+      "lev": "Cloudflare"
+     },
+     {
+      "v": "www.google-analytics.com",
+      "nat": "US",
+      "lev": "Google"
      },
      {
       "v": "www.googletagmanager.com",
@@ -6388,28 +5818,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://www.tillvaxtanalys.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -6631,53 +6045,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "fonts.googleapis.com",
-     "fonts.gstatic.com"
-    ],
-    "usLeverantorer": [
-     "Google"
-    ],
-    "varder": [
-     {
-      "v": "fonts.googleapis.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "fonts.gstatic.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "predict.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.mdu.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -6796,23 +6169,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.nrm.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -6943,33 +6305,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "p.typekit.net",
-     "use.typekit.net"
-    ],
-    "usLeverantorer": [
-     "Adobe"
-    ],
-    "varder": [
-     {
-      "v": "nai.analys.co",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "p.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     },
-     {
-      "v": "use.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     }
-    ],
-    "sida": "https://nai.uu.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -7399,8 +6740,8 @@
      "fonts.gstatic.com",
      "googleads.g.doubleclick.net",
      "i.ytimg.com",
-     "region1.google-analytics.com",
      "static.doubleclick.net",
+     "www.google-analytics.com",
      "www.google.com",
      "www.googletagmanager.com",
      "www.youtube.com"
@@ -7448,12 +6789,12 @@
       "lev": "Google"
      },
      {
-      "v": "region1.google-analytics.com",
+      "v": "static.doubleclick.net",
       "nat": "US",
       "lev": "Google"
      },
      {
-      "v": "static.doubleclick.net",
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -7862,7 +7203,7 @@
     "klass": "US-nät före samtycke",
     "ga": true,
     "us": [
-     "7adcfd322329.w.hcaptcha.com",
+     "904858a59f03.w.hcaptcha.com",
      "ajax.googleapis.com",
      "cdnjs.cloudflare.com",
      "js.hcaptcha.com",
@@ -7878,7 +7219,7 @@
     ],
     "varder": [
      {
-      "v": "7adcfd322329.w.hcaptcha.com",
+      "v": "904858a59f03.w.hcaptcha.com",
       "nat": "US",
       "lev": null
      },
@@ -8083,7 +7424,7 @@
       "lev": "Piwik PRO"
      },
      {
-      "v": "v6.mediaflow.com",
+      "v": "v4.mediaflow.com",
       "nat": "EU/EES",
       "lev": null
      }
@@ -8575,11 +7916,6 @@
       "v": "siteimproveanalytics.com",
       "nat": "US",
       "lev": "Siteimprove"
-     },
-     {
-      "v": "ssl.webserviceaward.com",
-      "nat": "EU/EES",
-      "lev": "Web Service Award"
      },
      {
       "v": "www.browsealoud.com",
@@ -9275,6 +8611,7 @@
     "ga": true,
     "us": [
      "ad.doubleclick.net",
+     "analytics.google.com",
      "connect.facebook.net",
      "dc.services.visualstudio.com",
      "dl.episerver.net",
@@ -9282,12 +8619,10 @@
      "fonts.gstatic.com",
      "googleads.g.doubleclick.net",
      "js.monitor.azure.com",
-     "region1.analytics.google.com",
-     "region1.google-analytics.com",
      "stats.g.doubleclick.net",
      "www.facebook.com",
+     "www.google-analytics.com",
      "www.google.com",
-     "www.google.se",
      "www.googleadservices.com",
      "www.googletagmanager.com",
      "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws"
@@ -9303,6 +8638,11 @@
     "varder": [
      {
       "v": "ad.doubleclick.net",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "analytics.google.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -9342,16 +8682,6 @@
       "lev": "Microsoft"
      },
      {
-      "v": "region1.analytics.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "region1.google-analytics.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
       "v": "stats.g.doubleclick.net",
       "nat": "US",
       "lev": "Google"
@@ -9362,12 +8692,12 @@
       "lev": "Meta"
      },
      {
-      "v": "www.google.com",
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
      {
-      "v": "www.google.se",
+      "v": "www.google.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -9581,12 +8911,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "ingen tredjepart",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
-    "sida": "https://www.skolverket.se/"
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -9740,23 +9070,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://www.vti.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -9832,12 +9151,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "ingen tredjepart",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
-    "sida": "https://www.statskontoret.se/"
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -9922,66 +9241,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "a.eu.silktide.com",
-     "analytics.silktide.com",
-     "cdn.matomo.cloud",
-     "su.matomo.cloud"
-    ],
-    "usLeverantorer": [
-     "InnoCraft (Matomo Cloud)",
-     "Silktide"
-    ],
-    "varder": [
-     {
-      "v": "a.eu.silktide.com",
-      "nat": "US",
-      "lev": "Silktide"
-     },
-     {
-      "v": "analytics.silktide.com",
-      "nat": "US",
-      "lev": "Silktide"
-     },
-     {
-      "v": "assets.mediaflowpro.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "cdn.matomo.cloud",
-      "nat": "US",
-      "lev": "InnoCraft (Matomo Cloud)"
-     },
-     {
-      "v": "m.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "mfstatic.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "su.matomo.cloud",
-      "nat": "US",
-      "lev": "InnoCraft (Matomo Cloud)"
-     },
-     {
-      "v": "v4.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     },
-     {
-      "v": "v6.mediaflow.com",
-      "nat": "EU/EES",
-      "lev": null
-     }
-    ],
-    "sida": "https://www.su.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -10277,10 +9542,12 @@
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
+     "s.w.org",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
-     "Google"
+     "Google",
+     "w.org"
     ],
     "varder": [
      {
@@ -10292,6 +9559,11 @@
       "v": "fonts.gstatic.com",
       "nat": "US",
       "lev": "Google"
+     },
+     {
+      "v": "s.w.org",
+      "nat": "US",
+      "lev": null
      },
      {
       "v": "www.googletagmanager.com",
@@ -10334,25 +9606,20 @@
     "klass": "US-nät före samtycke",
     "ga": false,
     "us": [
-     "f.vimeocdn.com",
-     "i.vimeocdn.com",
+     "challenges.cloudflare.com",
      "player.vimeo.com",
      "policy.app.cookieinformation.com"
     ],
     "usLeverantorer": [
+     "Cloudflare",
      "Cookie Information",
      "Vimeo"
     ],
     "varder": [
      {
-      "v": "f.vimeocdn.com",
+      "v": "challenges.cloudflare.com",
       "nat": "US",
-      "lev": "Vimeo"
-     },
-     {
-      "v": "i.vimeocdn.com",
-      "nat": "US",
-      "lev": "Vimeo"
+      "lev": "Cloudflare"
      },
      {
       "v": "player.vimeo.com",
@@ -10624,7 +9891,7 @@
    "exo": false,
    "teams": false,
    "webb": "okänd",
-   "webbLeverantor": "LINK11 - Link11 GmbH, DE",
+   "webbLeverantor": "AS-ANEXIA - Anexia Cloud Solutions GmbH, AT",
    "signaler": {
     "S1": "gateway/egen",
     "S2": "-",
@@ -10670,33 +9937,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.sh.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -10728,33 +9974,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.tlv.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -10789,37 +10014,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "foq.youreurope.europa.eu"
-    ],
-    "usLeverantorer": [
-     "europa.eu"
-    ],
-    "varder": [
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "foq.youreurope.europa.eu",
-      "nat": "US",
-      "lev": null
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://tillvaxtverket.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -10888,23 +10088,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://pliktverket.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -10942,7 +10131,6 @@
     "us": [
      "dl.episerver.net",
      "region-eu.cookiehub.net",
-     "region1.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -10970,11 +10158,6 @@
       "v": "region-eu.cookiehub.net",
       "nat": "US",
       "lev": null
-     },
-     {
-      "v": "region1.google-analytics.com",
-      "nat": "US",
-      "lev": "Google"
      },
      {
       "v": "static.rekai.se",
@@ -11256,33 +10439,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "plus.browsealoud.com",
-     "www.browsealoud.com"
-    ],
-    "usLeverantorer": [
-     "Texthelp"
-    ],
-    "varder": [
-     {
-      "v": "plus.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "www.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     }
-    ],
-    "sida": "https://www.uka.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -11320,7 +10482,7 @@
     "us": [
      "js.monitor.azure.com",
      "policy.app.cookieinformation.com",
-     "region1.google-analytics.com",
+     "www.google-analytics.com",
      "www.googletagmanager.com"
     ],
     "usLeverantorer": [
@@ -11340,7 +10502,7 @@
       "lev": "Cookie Information"
      },
      {
-      "v": "region1.google-analytics.com",
+      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -11382,38 +10544,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "8074.global.siteimproveanalytics.io",
-     "siteimproveanalytics.com"
-    ],
-    "usLeverantorer": [
-     "Siteimprove"
-    ],
-    "varder": [
-     {
-      "v": "8074.global.siteimproveanalytics.io",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "siteimproveanalytics.com",
-      "nat": "US",
-      "lev": "Siteimprove"
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.uu.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -11448,23 +10584,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     }
-    ],
-    "sida": "https://ubm.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -11615,22 +10740,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
-    "ga": true,
-    "us": [
-     "www.googletagmanager.com"
-    ],
-    "usLeverantorer": [
-     "Google"
-    ],
-    "varder": [
-     {
-      "v": "www.googletagmanager.com",
-      "nat": "US",
-      "lev": "Google"
-     }
-    ],
-    "sida": "https://www.vr.se/"
+    "klass": "kunde inte mätas",
+    "ga": false,
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -11800,46 +10915,12 @@
     "S8": "-"
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
-    "us": [
-     "p.typekit.net",
-     "plus.browsealoud.com",
-     "use.typekit.net",
-     "www.browsealoud.com"
-    ],
-    "usLeverantorer": [
-     "Adobe",
-     "Texthelp"
-    ],
-    "varder": [
-     {
-      "v": "p.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     },
-     {
-      "v": "plus.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "use.typekit.net",
-      "nat": "US",
-      "lev": "Adobe"
-     },
-     {
-      "v": "www.browsealoud.com",
-      "nat": "US",
-      "lev": "Texthelp"
-     }
-    ],
-    "sida": "https://www.onh.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [
@@ -11986,33 +11067,12 @@
     "S8": "MS"
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
-    "sida": "https://www.riksrevisionen.se/"
+    "varder": [],
+    "sida": null
    },
    "svar": {
     "mx": [

@@ -1,0 +1,6481 @@
+[
+  {
+    "namn": "Kammarkollegiet",
+    "typ": "myndighet",
+    "domän": "kammarkollegiet.se",
+    "webb": "www.kammarkollegiet.se",
+    "antal": "6",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "sfbwebext.kammarkollegiet.se."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx:kammarkollegiet.se ip4:194.71.131.87 ip4:194.71.131.194 ip4:217.68.32.6 ip4:194.132.117.189 ip6:2001:67c:1ba4:3::3 include:spf.mailanyone.net include:epost.esv.se include:mail.sitevision-cloud.net include:spf.wm.net a:smtp.tripnet.se include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "epost.kammarkollegiet.se."
+    ],
+    "www_ip": [
+      "185.84.52.132"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Allmänna reklamationsnämnden",
+    "typ": "myndighet",
+    "domän": "arn.se",
+    "webb": "www.arn.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.epm.se.",
+      "10 mx2.epm.se."
+    ],
+    "spf": [
+      "v=spf1 mx a:arnex02.arn.se ip4:185.169.74.11 ip4:185.169.75.64/27 ip4:193.235.18.16/28 ip4:83.140.27.51 ip4:83.140.27.52 ip4:81.27.44.54 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "webmail.arn.se."
+    ],
+    "www_ip": [
+      "193.235.18.30"
+    ],
+    "www_asn": "206799",
+    "www_asn_namn": "EPM - Nordlo Advance AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens jordbruksverk",
+    "typ": "myndighet",
+    "domän": "jordbruksverket.se",
+    "webb": "www.jordbruksverket.se",
+    "antal": "3",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:194.71.214.20 ip4:194.71.214.21 ip4:194.71.214.123 ip4:194.71.214.129 ip4:194.237.237.1 include:spf.mailanyone.net include:network.mynewsdesk.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.71.214.58"
+    ],
+    "www_asn": "57602",
+    "www_asn_namn": "STATENS-JORDBRUKSVERK-ASN - Statens Jordbruksverk, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Arbetsförmedlingen",
+    "typ": "myndighet",
+    "domän": "arbetsformedlingen.se",
+    "webb": "www.arbetsformedlingen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 smtp.arbetsformedlingen.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.165.88.0/23 ip6:2001:67c:2bf8:1f::11/128 include:_spf.anpdm.com include:mail.webropolsurveys.com include:_spf.ungapped.io include:_spf.flowmailer.net include:_spf.grade.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "192.165.88.76"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Arbetsgivarverket",
+    "typ": "myndighet",
+    "domän": "arbetsgivarverket.se",
+    "webb": "www.arbetsgivarverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-arbetsgivarverket-se._domainkey.arbetsgivarverket.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 arbetsgivarverket-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:185.55.155.153 ip4:185.55.155.138 ip4:88.131.97.142 ip4:83.241.154.235 ip4:83.241.154.226 ip4:217.119.175.155 include:spf.protection.outlook.com include:mail.webropolsurveys.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.146.120",
+      "104.18.41.136"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Arbetsmiljöverket",
+    "typ": "myndighet",
+    "domän": "av.se",
+    "webb": "www.av.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.av.se.",
+      "20 mail2.av.se."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:62.119.18.30/32 ip4:62.119.18.31/32 ip6:2a02:1420:17:2000::37/128 ip6:2a02:1420:17:2000::38/128 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "62.119.18.3"
+    ],
+    "www_asn": "8434",
+    "www_asn_namn": "TELENOR-SE - Telenor Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Arvfondsdelegationen",
+    "typ": "myndighet",
+    "domän": "arvsfonden.se",
+    "webb": "www.arvsfonden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "Sfbwebext.kammarkollegiet.se."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx:arvsfonden.se ip4:194.71.131.81 include:spf.mailanyone.net include:mail.sitevision-cloud.net include:_spf.anpdm.com include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "epost.kammarkollegiet.se."
+    ],
+    "www_ip": [
+      "185.84.52.244"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Barnombudsmannen",
+    "typ": "myndighet",
+    "domän": "barnombudsmannen.se",
+    "webb": "www.barnombudsmannen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 bospambx0001.barnombudsmannen.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.121.9.14 ip6:2001:678:538:1::14 include:_spf.anpdm.com include:spf.fouredge.se include:_spf.mailersend.net include:_spf.mlsend.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "217.198.65.56"
+    ],
+    "www_asn": "48220",
+    "www_asn_namn": "FOUREDGE-AS - Fouredge AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Blekinge tekniska högskola",
+    "typ": "myndighet",
+    "domän": "bth.se",
+    "webb": "www.bth.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-bth-se._domainkey.bthse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 bth-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:130.239.8.142 ip4:130.239.8.162 ip4:194.47.129.50 ip4:94.246.96.164 include:spf.abicart.com a mx include:_spf.rulemailer.com ip4:212.85.68.72 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.48"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Bokföringsnämnden",
+    "typ": "myndighet",
+    "domän": "bfn.se",
+    "webb": "www.bfn.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "100 post2.fi.se.",
+      "5 post.fi.se."
+    ],
+    "spf": [
+      "v=spf1 mx a include:spf.gansend.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "93.188.2.51"
+    ],
+    "www_asn": "39570",
+    "www_asn_namn": "LOOPIA - Loopia AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Bolagsverket",
+    "typ": "myndighet",
+    "domän": "bolagsverket.se",
+    "webb": "www.bolagsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ext-mail.bolagsverket.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.121.238.11 ip6:2001:67c:2214:270::11 include:_spf.staysecuregroup.com include:_spf.ungapped.io include:_spf.artisan.se a:relay.proceedo.net -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.14.186.150"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Boverket",
+    "typ": "myndighet",
+    "domän": "boverket.se",
+    "webb": "www.boverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "10 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:192.36.25.185 a:smtp.tripnet.se a:webmail.sokigohosting.com include:spf.advania.cloud include:spf.wm.net include:spf.multinet.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.195.94.107"
+    ],
+    "www_asn": "42649",
+    "www_asn_namn": "bbn - Baffin Bay Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Brottsförebyggande rådet",
+    "typ": "myndighet",
+    "domän": "bra.se",
+    "webb": "www.bra.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx a include:all._spf.plma.se include:spf.mailanyone.net include:mail.sitevision-cloud.net ip4:81.91.14.0/24 ip4:213.180.72.0/24 ip4:213.180.66.0/24 ip4:213.180.82.0/24 ip4:94.246.93.128/28 ip4:141.255.191.212 ip4:193.181.161.13 ip4:176.10.164.170 ip4:217.173.251.141 ip4:185.38.180.5 ip4:185.38.181.5 a:webmail.sokigohosting.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.bra.se."
+    ],
+    "www_ip": [
+      "185.84.52.246"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Brottsoffermyndigheten",
+    "typ": "myndighet",
+    "domän": "brottsoffermyndigheten.se",
+    "webb": "www.brottsoffermyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 brspambx0001.brottsoffermyndigheten.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:171.32.3.6 include:spf.gansend.com a:smtp.sendgrid.net include:siriusit.net include:_spf.anpdm.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.brottsoffermyndigheten.se."
+    ],
+    "www_ip": [
+      "104.214.237.135"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Centrala studiestödsnämnden",
+    "typ": "myndighet",
+    "domän": "csn.se",
+    "webb": "www.csn.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx01.csn.se.",
+      "10 mx02.csn.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:81.25.80.204 ip4:192.165.170.21 ip6:2a01:280:390:301::21 include:_spf.csn.britt.se include:_spf.ntgt.de include:all._spf.plma.se include:spf-a.telia.com a:relay.proceedo.net a:mail.sitevision-cloud.net a:mail.webropolsurveys.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "217.68.40.1"
+    ],
+    "www_asn": "39078",
+    "www_asn_namn": "GDM - GDM Konsult AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Diskrimineringsombudsmannen",
+    "typ": "myndighet",
+    "domän": "do.se",
+    "webb": "www.do.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.epm.se.",
+      "10 mx2.epm.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:213.132.104.151 ip4:176.10.207.251 ip4:176.10.207.226 ip4:185.169.75.71 ip4:185.169.75.72 ip6:2a0a:3101:1:1::71 ip6:2a0a:3101:1:1::72 include:spf.advania.cloud include:all._spf.plma.se include:spf.itm.host -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.235.18.237"
+    ],
+    "www_asn": "206799",
+    "www_asn_namn": "EPM - Nordlo Advance AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "dom.se (delas av 7 myndigheter)",
+    "typ": "myndighet",
+    "domän": "dom.se",
+    "webb": "www.dom.se",
+    "antal": "7",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.dom.se.",
+      "10 mx2.dom.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.218.78.109/32 ip4:159.190.0.91/32 ip4:159.190.0.92/32 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "159.190.0.64"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "E-hälsomyndigheten",
+    "typ": "myndighet",
+    "domän": "ehalsomyndigheten.se",
+    "webb": "www.ehalsomyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 ehspambx0001.ehalsomyndigheten.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.68.102.29 ip4:193.182.121.34 ip6:2a01:280:3a8:22::34 ip4:83.166.78.170 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.38.158",
+      "217.114.94.2",
+      "172.64.149.98"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Ekobrottsmyndigheten",
+    "typ": "myndighet",
+    "domän": "ekobrottsmyndigheten.se",
+    "webb": "www.ekobrottsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [
+      "v=spf1 include:ekobrottsmyndigheten.se -"
+    ],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "lyncdiscover.gslb.ekobrottsmyndigheten.se."
+    ],
+    "mx": [
+      "10 mail1.aklagare.se.",
+      "10 mail2.aklagare.se."
+    ],
+    "spf": [
+      "v=spf1 mx ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.1.221",
+      "104.18.0.221"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Elsäkerhetsverket",
+    "typ": "myndighet",
+    "domän": "elsakerhetsverket.se",
+    "webb": "www.elsakerhetsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "20 mailgw.elsakerhetsverket.se."
+    ],
+    "spf": [
+      "v=spf1 a mx ip4:193.235.148.0/23 ip4:212.37.10.128/28 a:mailgw.elsakerhetsverket.se include:_spf.nanolearning.com include:_spf.netigate.se a:smtp.tripnet.se include:spf.mailjet.com a:mail.sitevision-cloud.net ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail.elsakerhetsverket.se."
+    ],
+    "www_ip": [
+      "193.235.149.63"
+    ],
+    "www_asn": "198568",
+    "www_asn_namn": "ATEA - ATEA Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Energimarknadsinspektionen",
+    "typ": "myndighet",
+    "domän": "ei.se",
+    "webb": "www.ei.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-ei-se._domainkey.energimarknadsinspektionen.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 ei-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:185.27.240.173 include:spf.protection.outlook.com include:spf.wm.net include:mail.sitevision-cloud.net -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.249"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Etikprövningsmyndigheten",
+    "typ": "myndighet",
+    "domän": "etikprovning.se",
+    "webb": "www.etikprovningsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:92.33.18.138 ip4:185.106.181.101 a:exchange.etikprovning.se include:spf.telecomputing.se include:spf.itm.host include:spf.protection.outlook.com include:spf.itmastaren.net include:_spf.ungapped.io include:spf.mailanyone.net ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "exchange.etikprovning.se."
+    ],
+    "www_ip": [
+      "65.109.24.200"
+    ],
+    "www_asn": "24940",
+    "www_asn_namn": "HETZNER-AS - Hetzner Online GmbH, DE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Exportkreditnämnden",
+    "typ": "myndighet",
+    "domän": "ekn.se",
+    "webb": "www.ekn.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "10 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 include:spf.advania.cloud include:sendgrid.net -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.37.135",
+      "172.64.150.121"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Fastighetsmäklarinspektionen",
+    "typ": "myndighet",
+    "domän": "fmi.se",
+    "webb": "www.fmi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-fmi-se._domainkey.fmim365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 fmi-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:all._spf.plma.se include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "51.12.31.0"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Finansinspektionen",
+    "typ": "myndighet",
+    "domän": "fi.se",
+    "webb": "www.fi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "100 post2.fi.se.",
+      "5 post.fi.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:62.62.60.98 a:smtp.tripnet.se include:spf.bngaged.io -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.14.76.139"
+    ],
+    "www_asn": "206884",
+    "www_asn_namn": "FI-AS - Finansinspektionen, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Finanspolitiska rådet",
+    "typ": "myndighet",
+    "domän": "fpr.se",
+    "webb": "www.fpr.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx-01-eu-central-1.prod.hydra.sophos.com.",
+      "20 mx-02-eu-central-1.prod.hydra.sophos.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.mailanyone.net include:mail.sitevision-cloud.net include:spf.protection.outlook.com include:_spf_eucentral1.prod.hydra.sophos.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.46"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Folke bernadotteakademin",
+    "typ": "myndighet",
+    "domän": "fba.se",
+    "webb": "www.fba.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-fba-se._domainkey.folkebernadotteakademin.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 fba-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.digitalfox.se  include:spf.multinet.se include:mail.sitevision-cloud.net include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "51.12.31.1"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Folkhälsomyndigheten",
+    "typ": "myndighet",
+    "domän": "folkhalsomyndigheten.se",
+    "webb": "www.folkhalsomyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.anpdm.com include:mailout.folkhalsomyndigheten.se include:spf.mailanyone.net include:_spf.ungapped.io a:mail1.hr.evry.se ip4:194.103.120.53 ip4:194.103.120.52 ip4:194.103.120.107 ip4:194.103.120.108 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "23.221.22.180",
+      "23.221.22.173"
+    ],
+    "www_asn": "20940",
+    "www_asn_namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+    "entra_status": 200
+  },
+  {
+    "namn": "Fondtorgsnämnden",
+    "typ": "myndighet",
+    "domän": "ftn.se",
+    "webb": "www.ftn.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "20 smtp3.pensionsmyndigheten.se.",
+      "30 smtp4.pensionsmyndigheten.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:mail.sitevision-cloud.net -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.18"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Forskarskattenämnden",
+    "typ": "myndighet",
+    "domän": "forskarskattenamnden.se",
+    "webb": "www.forskarskattenamnden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "137.61.9.34"
+    ],
+    "www_asn": "15991",
+    "www_asn_namn": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Forskningsrådet f miljö, areella näringar och samhällsbyggande",
+    "typ": "myndighet",
+    "domän": "formas.se",
+    "webb": "www.formas.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-formas-se._domainkey.vinnova.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailgw5.vinnova.se.",
+      "20 mailgw6.vinnova.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.200.202.6 ip4:193.200.202.28 ip4:193.200.202.29 ip6:2001:67c:2444:201::128/127 include:_spf.anpdm.com include:spf.mailjet.com include:_spf.ungapped.io include:mail.sitevision-cloud.net include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.167"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+    "typ": "myndighet",
+    "domän": "forte.se",
+    "webb": "www.forte.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-forte-se._domainkey.vinnova.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailgw5.vinnova.se.",
+      "20 mailgw6.vinnova.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.200.202.6 ip4:193.200.202.28 ip4:193.200.202.29 ip6:2001:67c:2444:201::128/127 include:_spf.ungapped.io include:spf.glesys.se include:_spf.anpdm.com Include:mail.sitevision-cloud.net include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.48"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Fortifikationsverket",
+    "typ": "myndighet",
+    "domän": "fortifikationsverket.se",
+    "webb": "www.fortifikationsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "rp.fortifikationsverket.se."
+    ],
+    "mx": [
+      "10 mail01.fortifikationsverket.se.",
+      "10 mail02.fortifikationsverket.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:195.178.180.97 ip4:194.103.14.25 ip4:194.103.14.26 ip4:194.103.15.107 ip4:194.103.15.108 ip6:2001:067c:2a98:2001::6 ip6:2001:067c:2a98:2001::7 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.103.15.27"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Forum för levande historia",
+    "typ": "myndighet",
+    "domän": "levandehistoria.se",
+    "webb": "www.levandehistoria.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-levandehistoria-se._domainkey.levandehistoria.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 levandehistoria-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:92.42.73.110 ip4:217.198.65.18 ip4:217.198.65.28 include:spf.protection.outlook.com include:network.mynewsdesk.com include:spf.mandrillapp.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "217.198.65.18"
+    ],
+    "www_asn": "48220",
+    "www_asn_namn": "FOUREDGE-AS - Fouredge AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Försvarets materielverk",
+    "typ": "myndighet",
+    "domän": "fmv.se",
+    "webb": "www.fmv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 post5.fmv.se.",
+      "5 post6.fmv.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.181.64.143 ip4:193.181.64.144 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.147.117",
+      "104.18.40.139"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Försvarets radioanstalt",
+    "typ": "myndighet",
+    "domän": "fra.se",
+    "webb": "www.fra.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "30 mx-04.fra.se.",
+      "40 mx-03.fra.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.18.169.43 ip4:194.18.169.45 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.18.169.38"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Försvarshögskolan",
+    "typ": "myndighet",
+    "domän": "fhs.se",
+    "webb": "www.fra.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-fhs-se._domainkey.forsvarshogskolan.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 fhs-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:130.242.58.0/24 ip6:2001:06b0:0009:3610::/64  include:spf.bedrock.lime-technologies.com include:servers.mcsv.net include:spf.multinet.com include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.242.58.227"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Försvarsmakten",
+    "typ": "myndighet",
+    "domän": "mil.se",
+    "webb": "www.forsvarsmakten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx-50.mil.se.",
+      "10 mx-60.mil.se.",
+      "10 mx-70.mil.se.",
+      "10 mx-80.mil.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:82.150.225.79 ip4:171.17.133.140 ip4:193.241.15.201 ip4:193.241.15.202 ip4:193.241.15.203 ip4:193.241.15.204 ip4:193.241.15.205 ip4:193.241.15.206 ip4:193.241.33.6 ip4:193.241.33.7 ip4:193.241.33.8 ip4:193.241.33.9 ip4:193.241.33.10 ip4:193.241.33.11 -all exp=spf-fail.mil.se"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.151.111",
+      "104.18.36.145"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Försäkringskassan",
+    "typ": "myndighet",
+    "domän": "forsakringskassan.se",
+    "webb": "www.forsakringskassan.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 maily1.forsakringskassan.se.",
+      "5 maily2.forsakringskassan.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.71.64.14 ip4:194.71.64.15 ip4:194.218.76.173 ip4:194.218.76.174 ip4:194.237.237.1 ip4:194.71.67.101 ip4:194.71.67.102 ip6:2001:67c:2384:503::2001 ip6:2001:67c:2384:503::2002 include:_spf.ungapped.io include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail.forsakringskassan.se."
+    ],
+    "www_ip": [
+      "194.71.65.16"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Gentekniknämnden",
+    "typ": "myndighet",
+    "domän": "genteknik.se",
+    "webb": "www.genteknik.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-genteknik-se._domainkey.vetenskapsradetsverige.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 genteknik-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:62.127.194.20 ip4:89.221.252.212 ip4:193.10.44.226 ip4:81.93.173.201 include:_spf.staysecuregroup.com ip4:83.241.254.81 ip4:83.241.254.75 include:all._spf.plma.se include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.10.44.28"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Gymnastik- och idrottshögskolan (GIH)",
+    "typ": "myndighet",
+    "domän": "gih.se",
+    "webb": "www.gih.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-gih-se._domainkey.gihse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 gih-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.248.0/24 ip4:74.241.177.85 ip4:74.241.161.167 include:mail.quicksearch.se include:spf.mailjet.com include:spf.protection.outlook.com a:smtp1.ondemand.formpipe.com include:mail.sitevision-cloud.net include:_spf.ilait.net include:all._spf.plma.se ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.104"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Göteborgs universitet",
+    "typ": "myndighet",
+    "domän": "gu.se",
+    "webb": "www.gu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-gu-se._domainkey.GuNet.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 gu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:130.235.56.200 ip4:79.136.98.172 ip4:91.123.56.128 ip4:193.26.30.0/25 ip4:217.28.204.8 ip4:195.10.211.16 ip4:193.12.108.68 ip4:213.157.70.73 ip4:213.157.70.75 ip4:88.151.78.132 ip4:130.241.135.107 ip4:130.241.135.110 include:spf.protection.outlook.com ip4:130.235.56.199 ip4:130.235.56.200 ip4:130.235.56.201 ip4:130.235.56.202 ip6:2001:6b0:16:1:5ee:bad:c0de:2200 ip6:2001:6b0:d:708:10:240:8:46 ip6:2001:6b0:d:708:10:240:8:48 ip6:2001:6b0:16:1:5ee:bad:c0de:2199 ip6:2001:6b0:16:1:5ee:bad:c0de:2201 ip6:2001:6b0:16:1:5ee:bad:c0de:2202 ip4:130.235.62.19 ip4:130.235.62.13 ip4:130.235.56.203 ip4:88.151.73.29 ip4:77.237.55.139 ip4:52.232.27.151 include:_spf.anpdm.com include:spf.hostingconnection.eu ip4:130.241.170.85 ip4:130.241.170.86 ip4:23.90.119.90 ip4:23.90.119.91 ip4:23.90.117.190 ip4:23.90.117.191 include:mail.webropolsurveys.com include:spf.mandrillapp.com include:spf.gansend.com include:_spf.ungapped.io include:spf.multinet.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.241.39.203"
+    ],
+    "www_asn": "2842",
+    "www_asn_namn": "UNSPECIFIED - Goteborgs universitet, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Harpsundsnämnden",
+    "typ": "myndighet",
+    "domän": "harpsund.se",
+    "webb": "www.harpsund.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailcluster.loopia.se.",
+      "20 mail2.loopia.se."
+    ],
+    "spf": [
+      "v=spf1 include:spf.loopia.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "93.188.2.52"
+    ],
+    "www_asn": "39570",
+    "www_asn_namn": "LOOPIA - Loopia AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Havs- och vattenmyndigheten",
+    "typ": "myndighet",
+    "domän": "havochvatten.se",
+    "webb": "www.havochvatten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:spf.mailanyone.net include:spf.flowmailer.net include:_spf.m101.websupport.se include:ciceron.cloud ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.182.187.10"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Socialstyrelsen",
+    "typ": "myndighet",
+    "domän": "socialstyrelsen.se",
+    "webb": "www.socialstyrelsen.se",
+    "antal": "2",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail04.sos.se.",
+      "10 mail05.sos.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.137.163.47 ip4:192.137.163.49 ip4:194.16.4.59 ip4:213.212.28.15 ip4:82.99.25.51 ip4:194.237.237.1 ip4:86.107.48.68 ip4:46.254.8.70 include:docebosaas.com include:_spf.ungapped.io include:all._spf.plma.se include:mail.webropolsurveys.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "192.137.161.66"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan dalarna",
+    "typ": "myndighet",
+    "domän": "du.se",
+    "webb": "www.du.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-du-se._domainkey.dalarnauniversity.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:130.243.57.174 ip6:2001:6b0:12:8010::b0 ip4:130.243.58.134 ip6:2001:6b0:12:8020::13 ip4:130.243.58.96 ip6:2001:6b0:12:8020::11 ip4:35.156.249.23 ip4:35.157.192.32 ip4:35.157.47.202 ip4:35.157.87.137 ip4:130.243.58.175 ip4:82.196.180.210 ip6:2001:6b0:12:8020::14 include:spf.protection.outlook.com include:all._spf.plma.se include:spf.mandrillapp.com include:mail.koha-ptfs.co.uk -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.243.57.42"
+    ],
+    "www_asn": "9088",
+    "www_asn_namn": "UNSPECIFIED - Dalarna University, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan i borås",
+    "typ": "myndighet",
+    "domän": "hb.se",
+    "webb": "www.hb.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-hb-se._domainkey.boras.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 hb-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.hb.se include:spf-sunet.hb.se include:spf-uhr.hb.se include:spf-eu.exlibrisgroup.com include:spf.protection.outlook.com include:_spf.ungapped.io include:spf-evry.hb.se ip4:91.123.56.128 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.10.166.38"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan i gävle",
+    "typ": "myndighet",
+    "domän": "hig.se",
+    "webb": "www.hig.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-hig-se._domainkey.hogskolanigavle.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 hig-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:130.243.0.136 ip4:130.239.8.142 ip4:212.85.68.72 ip4:213.157.70.68 ip4:213.157.70.73 include:all._spf.plma.se include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.157"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan i halmstad",
+    "typ": "myndighet",
+    "domän": "hh.se",
+    "webb": "www.hh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-hh-se._domainkey.hhse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 hh-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.47.10.214/32 ip4:194.47.18.2/32 ip4:194.47.18.3/32 ip4:193.44.79.8/29 include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "194.47.12.27"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan i skövde",
+    "typ": "myndighet",
+    "domän": "his.se",
+    "webb": "www.his.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-his-se._domainkey.hogskolaniskovde.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 fml0.his.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.184.120 ip4:193.10.184.121 ip4:193.10.184.122 ip4:193.10.184.123 ip4:193.10.184.124 ip4:193.10.184.125 ip4:193.10.184.126 ip4:193.10.184.127 include:spf.protection.outlook.com mx -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "mail.his.se."
+    ],
+    "www_ip": [
+      "212.25.135.130"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan kristianstad",
+    "typ": "myndighet",
+    "domän": "hkr.se",
+    "webb": "www.hkr.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-hkr-se._domainkey.hkrse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 hkr-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:217.119.175.155 ip4:213.174.93.60 ip4:192.121.255.20 ip4:194.47.29.78 ip4:212.247.85.136 ip4:80.76.154.195 ip4:89.107.218.4 a:smtp.u4a.se ip4:192.254.115.99 ip4:167.89.9.81 a:mx.mira.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "194.47.45.20"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolan väst",
+    "typ": "myndighet",
+    "domän": "hv.se",
+    "webb": "www.hv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-hv-se._domainkey.studenthv.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 lmail01.server.hv.se.",
+      "20 lmail02.server.hv.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com ip4:34.251.147.116 ip4:82.196.180.210 ip4:91.123.56.128 include:mail.sitevision-cloud.net ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.10.198.53"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Högskolans avskiljandenämnd",
+    "typ": "myndighet",
+    "domän": "han.se",
+    "webb": "www.han.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "20 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.58.6 ip4:193.10.58.7 ip4:84.17.192.128/26 ip4:84.17.205.0/27 ip4:185.154.229.73 ip4:185.154.229.78 ip4:185.154.229.79 ip4:185.154.229.80 ip4:213.132.104.151 ip4:213.132.104.146 ip4:213.132.104.153 ip4:213.132.104.154 ip4:212.85.68.72 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.148"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "regeringskansliet.se (delas av 3 myndigheter)",
+    "typ": "myndighet",
+    "domän": "regeringskansliet.se",
+    "webb": "www.regeringskansliet.se",
+    "antal": "3",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 uller.mta.ministry.se.",
+      "10 unn.mta.ministry.se.",
+      "10 urd.mta.ministry.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.188.156.0/23 ip6:2001:67c:25bc::/48 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.26.94",
+      "104.18.27.94"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Inspektionen för arbetslöshetsförsäkring",
+    "typ": "myndighet",
+    "domän": "iaf.se",
+    "webb": "www.iaf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:spf.mailanyone.net ip4:178.21.131.158 ip4:212.209.1.32/28 ip4:212.209.1.16/28 mx -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "mail.iaf.se."
+    ],
+    "www_ip": [
+      "212.209.1.23"
+    ],
+    "www_asn": "702",
+    "www_asn_namn": "UUNET - Verizon Business, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Inspektionen för socialförsäkringen",
+    "typ": "myndighet",
+    "domän": "isf.se",
+    "webb": "www.isf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-isf-se._domainkey.seisf.w-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 isf-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.mailanyone.net include:_spf.mgw.britt.se include:_spf.anpdm.com include:_spf.ungapped.io include:mail.webropolsurveys.com include:spf.protection.outlook.com ip4:91.227.208.188 ip4:212.85.68.72 ip4:45.137.209.199 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.132"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Inspektionen för strategiska produkter",
+    "typ": "myndighet",
+    "domän": "isp.se",
+    "webb": "www.isp.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.isp.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:195.42.219.211 ip4:62.95.47.229 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.isp.se."
+    ],
+    "www_ip": [
+      "31.193.252.168"
+    ],
+    "www_asn": "56711",
+    "www_asn_namn": "Bluerange-AS - Bluerange Sweden AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Inspektionen för vård och omsorg",
+    "typ": "myndighet",
+    "domän": "ivo.se",
+    "webb": "www.ivo.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx10.ivo.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:62.181.205.240 ip4:81.201.210.137 ip4:83.241.254.81 ip4:217.78.30.177 ip4:83.241.254.75 ip4:45.83.61.41 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.ivo.se."
+    ],
+    "www_ip": [
+      "81.201.210.168"
+    ],
+    "www_asn": "57829",
+    "www_asn_namn": "IVER - IVER NORGE AS, NO",
+    "entra_status": 200
+  },
+  {
+    "namn": "Institutet för arbetsmarknads-och utbildningspolitisk utvärdering",
+    "typ": "myndighet",
+    "domän": "ifau.uu.se",
+    "webb": "www.ifau.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.uu.se include:_spfh.devcore.se include:all._spf.plma.se include:spf.postal.rackfish.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [],
+    "www_asn": null,
+    "www_asn_namn": null,
+    "entra_status": 200
+  },
+  {
+    "namn": "Institutet för mänskliga rättigheter",
+    "typ": "myndighet",
+    "domän": "mrinstitutet.se",
+    "webb": "www.mrinstitutet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-mrinstitutet-se._domainkey.mrinstitutet.p-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 mrinstitutet-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf.mailjet.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.254"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Institutet för rymdfysik",
+    "typ": "myndighet",
+    "domän": "irf.se",
+    "webb": "www.irf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.33.138 ip6:2001:6b0:27:ff::c ip6:2001:6b0:27:ff::3 ip4:192.71.13.58 ip4:192.71.13.48 ip6:2001:6b0:27:ff::aa:6 ip4:192.71.13.215 mx -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.10.33.87"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Institutet för språk och folkminnen",
+    "typ": "myndighet",
+    "domän": "isof.se",
+    "webb": "www.isof.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.uu.se a:mail.sitevision-cloud.net include:all._spf.plma.se ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.250"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Integritetsskyddsmyndigheten",
+    "typ": "myndighet",
+    "domän": "imy.se",
+    "webb": "www.imy.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.improve.nordlo.cloud.",
+      "10 mx2.improve.nordlo.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.235.19.113 ip4:185.169.75.71 ip4:185.169.75.72 ip6:2a0a:3101:1:1::71 ip6:2a0a:3101:1:1::72 include:spf.mailjet.com include:all._spf.plma.se include:_spf.improve.nordlo.cloud -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "109.205.219.236"
+    ],
+    "www_asn": "50572",
+    "www_asn_namn": "ZETUPNET - Nordlo Improve AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Justitiekanslern",
+    "typ": "myndighet",
+    "domän": "jk.se",
+    "webb": "www.jk.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:spf.mailanyone.net ip4:194.16.5.161 ip4:194.237.237.1 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "62.20.16.220"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Jämställdhetsmyndigheten",
+    "typ": "myndighet",
+    "domän": "jamstalldhetsmyndigheten.se",
+    "webb": "www.jamstalldhetsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-jamstalldhetsmyndigheten-se._domainkey.jamstalldhetsmyndigheten.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "1 jamstalldhetsmyndigheten-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a:smtp1.ondemand.formpipe.com ip4:217.119.175.133 include:spf.protection.outlook.com include:mail.webropolsurveys.com include:spf.mailjet.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.19.191.28"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Karlstads universitet",
+    "typ": "myndighet",
+    "domän": "kau.se",
+    "webb": "www.kau.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kau-se._domainkey.kaumail.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 kau-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:193.10.226.36 ip4:130.243.21.250 ip4:130.243.21.251 ip4:130.243.21.252 ip4:193.10.162.2 ip4:82.196.180.210 include:spf.mandrillapp.com a:mail1.hr.evry.se a:smtp1.ondemand.formpipe.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.10.226.38"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Karolinska institutet",
+    "typ": "myndighet",
+    "domän": "ki.se",
+    "webb": "www.ki.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-ki-se._domainkey.kise.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 ki-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.ki.se include:spf.protection.outlook.com include:all._spf.plma.se include:_spf.nanolearning.com include:spf-eu.exlibrisgroup.com include:_spf.tem.scaleway.com ip4:82.196.180.210 ip4:205.201.136.26 ip4:130.239.8.142 ip4:130.239.8.162 ip4:78.47.65.45 ip4:193.75.92.158 ip4:54.72.160.116 ip4:54.76.9.230 ip4:54.77.64.171 ip4:212.247.0.192/26 ip4:130.235.56.199 ip4:130.235.56.200 ip4:130.235.56.201 ip4:130.235.56.202 ip4:94.140.53.162 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.237.128.36"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kemikalieinspektionen",
+    "typ": "myndighet",
+    "domän": "kemi.se",
+    "webb": "www.kemi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kemi-se._domainkey.kemise.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 kemi-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.mailjet.com mx a ip4:192.121.89.1 ip4:192.121.89.16 ip4:37.221.229.139 include:_spf.anpdm.com a:smtp.tripnet.se include:mail.sitevision-cloud.net include:sendgrid.net include:spf.protection.outlook.com include:_spf.grade.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.9"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Klimatpolitiska rådet",
+    "typ": "myndighet",
+    "domän": "klimatpolitiskaradet.se",
+    "webb": "www.klimatpolitiskaradet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-klimatpolitiskaradet-se._domainkey.vinnova.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailgw5.vinnova.se.",
+      "20 mailgw6.vinnova.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.200.202.6 ip4:193.200.202.28 ip4:193.200.202.29 ip6:2001:67c:2444:201::128/127 include:_spf.anpdm.com include:spf.mailjet.com include:_spf.ungapped.io include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "91.201.60.18"
+    ],
+    "www_asn": "44136",
+    "www_asn_namn": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kommerskollegium",
+    "typ": "myndighet",
+    "domän": "kommerskollegium.se",
+    "webb": "www.kommerskollegium.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 komspambx0001.kommerskollegium.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:188.244.75.75 ip4:91.227.208.0/24 ip4:217.114.80.238 ip4:217.114.80.100 ip4:171.32.3.130 include:spf.mailanyone.net include:_spf.idrelay.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "171.32.3.135"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Konjunkturinstitutet",
+    "typ": "myndighet",
+    "domän": "konj.se",
+    "webb": "www.konj.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-konj-se._domainkey.konjse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 mx-01-eu-central-1.prod.hydra.sophos.com.",
+      "7 mx-02-eu-central-1.prod.hydra.sophos.com."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:62.20.3.99 include:mailanyone.net include:spf.protection.outlook.com include:_spf_eucentral1.prod.hydra.sophos.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "172.66.0.125",
+      "162.159.140.127"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Konkurrensverket",
+    "typ": "myndighet",
+    "domän": "kkv.se",
+    "webb": "www.konkurrensverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "lyncext.kkv.se."
+    ],
+    "mx": [
+      "5 mailgate.kkv.se."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:193.180.74.208/32 ip4:193.180.74.219/32 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.180.74.212"
+    ],
+    "www_asn": "12552",
+    "www_asn_namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Konstfack",
+    "typ": "myndighet",
+    "domän": "konstfack.se",
+    "webb": "www.konstfack.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-konstfack-se._domainkey.studentkonstfack.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 konstfack-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com include:all._spf.plma.se include:_se_net.axiell.com a:relay.proceedo.net ip4:130.242.16.6 ip4:217.119.175.155 ip4:217.119.175.156 ip4:212.247.229.8 ip4:91.196.240.17 ip4:91.196.240.18 ip4:217.70.37.237 ip4:194.0.66.160 ip4:130.242.16.23 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "31.216.231.36"
+    ],
+    "www_asn": "50904",
+    "www_asn_namn": "SE-NORDLO-ELEVATE-AS - Nordlo Elevate AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Konstnärsnämnden",
+    "typ": "myndighet",
+    "domän": "konstnarsnamnden.se",
+    "webb": "www.konstnarsnamnden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-konstnarsnamnden-se._domainkey.konstnarsnamnden.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 konstnarsnamnden-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.ungapped.email include:spf.protection.outlook.com ip4:130.242.60.26 ip4:130.242.60.27 ip4:212.85.69.125 ip4:212.85.69.126 ip4:212.85.69.189 ip4:130.242.60.30 include:sendgrid.net ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.189.51.254"
+    ],
+    "www_asn": "206170",
+    "www_asn_namn": "Inleed - Yelles AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Konsumentverket",
+    "typ": "myndighet",
+    "domän": "konsumentverket.se",
+    "webb": "www.konsumentverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-konsumentverket-se._domainkey.kov365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 konsumentverket-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf1.konsumentverket.se include:spf2.konsumentverket.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "150.171.109.229"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kriminalvården",
+    "typ": "myndighet",
+    "domän": "kriminalvarden.se",
+    "webb": "www.kriminalvarden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailgw.kriminalvarden.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:145.235.0.42 mx a -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "145.235.0.55"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kronofogdemyndigheten",
+    "typ": "myndighet",
+    "domän": "kronofogden.se",
+    "webb": "www.kronofogden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "137.61.9.15"
+    ],
+    "www_asn": "15991",
+    "www_asn_namn": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kungliga biblioteket",
+    "typ": "myndighet",
+    "domän": "kb.se",
+    "webb": "www.kb.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kb-se._domainkey.kbse0.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "1 kb-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.12.199/32 ip4:193.10.12.99/32 ip4:193.10.249.139/32 ip4:193.10.12.12/32 ip6:2001:6b0:41:12::99/128 ip6:2001:6b0:41:12::12/128 ip4:193.10.72.13/32 ip6:2001:6b0:41:721::13/128 include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.242.45.96"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kungliga konsthögskolan",
+    "typ": "myndighet",
+    "domän": "kkh.se",
+    "webb": "www.kkh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 kkh-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.181.161.13 ip4:193.10.71.206  ip4:130.242.7.0/24 ip6:2001:6b0:28:1::7 ip6:2001:6b0:28:1::6 include:spf.protection.outlook.com include:_spf.axians.se include:ciceron.cloud include:_spf.netigate.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "46.16.236.10"
+    ],
+    "www_asn": "44136",
+    "www_asn_namn": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kungliga musikhögskolan",
+    "typ": "myndighet",
+    "domän": "kmh.se",
+    "webb": "www.kmh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kmh-se._domainkey.KunglMusikhogskolan.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 kmh-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com a:smtp.kmh.se a:mail.sitevision-cloud.net include:servers.mcsv.net include:spf.invoiceportal.net include:sendgrid.net include:_se_net.axiell.com include:_uk.axiell.com include:mail1.hr.evry.se ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.75"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kungliga tekniska högskolan",
+    "typ": "myndighet",
+    "domän": "kth.se",
+    "webb": "www.kth.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kth-se._domainkey.kth.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.kth.se include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "130.237.28.40"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Kustbevakningen",
+    "typ": "myndighet",
+    "domän": "kustbevakningen.se",
+    "webb": "www.kustbevakningen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.coastguard.se.",
+      "10 mail.kbv.se.",
+      "15 mail.kustbevakningen.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.68.155.229 ip4:194.68.155.230 ip6:2001:67c:17bc:abd0::29 ip6:2001:67c:17bc:abd0::30 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.235.148.139"
+    ],
+    "www_asn": "198568",
+    "www_asn_namn": "ATEA - ATEA Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Lantmäteriet",
+    "typ": "myndighet",
+    "domän": "lm.se",
+    "webb": "www.lantmateriet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 nexus-tm01.lmv.lm.se.",
+      "10 nexus-tsg001.lmv.lm.se.",
+      "15 nexus-tss001.lmv.lm.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.121.120.0/24 ip4:192.36.97.100 ip4:194.218.66.188 ip4:194.218.66.189 ip6:2001:67c:268c:f111::3004 ip6:2001:67c:268c:f111::3083 ip6:2a01:280:301:f111:192:36:97:100 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "webmail.lm.se."
+    ],
+    "www_ip": [
+      "192.71.191.54"
+    ],
+    "www_asn": "199902",
+    "www_asn_namn": "SE-LM - Lantmateriet, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Linköpings universitet",
+    "typ": "myndighet",
+    "domän": "liu.se",
+    "webb": "www.liu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-liu-se._domainkey.liuonline.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "20 liu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 +ip4:130.236.0.0/16 +ip6:2001:6b0:17::/48 include:spf.protection.outlook.com include:spf.wm.net include:bngaged.io ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.236.18.52"
+    ],
+    "www_asn": "2843",
+    "www_asn_namn": "LIUnet - LIUnet, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Linnéuniversitetet",
+    "typ": "myndighet",
+    "domän": "lnu.se",
+    "webb": "www.lnu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-lnu-se._domainkey.linnaeus.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 lnu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.47.199.101 ip4:194.47.199.102 a:smtp.tripnet.se include:spf.protection.outlook.com include:spf-a.telia.com include:spf-b.telia.com include:spf-eu.exlibrisgroup.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "webmail.lnu.se."
+    ],
+    "www_ip": [
+      "172.64.146.111",
+      "104.18.41.145"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Livsmedelsverket",
+    "typ": "myndighet",
+    "domän": "slv.se",
+    "webb": "www.livsmedelsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "20 mail.slv.se.",
+      "20 mail2.slv.se."
+    ],
+    "spf": [
+      "v=spf1 a mx include:spf-a.telia.com include:spf-b.telia.com include:sendgrid.net a:smtp.tripnet.se a:mail.nordicpeak.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.183.80.13"
+    ],
+    "www_asn": "204074",
+    "www_asn_namn": "NMU-AS - Nordisk Media Utveckling AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Luleå tekniska universitet",
+    "typ": "myndighet",
+    "domän": "ltu.se",
+    "webb": "www.ltu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-ltu-se._domainkey.ltuse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "adfs.ltuad.ltu.se."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 ltu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:mxk.ltu.se include:mx2.ltu.se ip4:130.240.20.7 include:spf.protection.outlook.com include:_spf.ungapped.io -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.157"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Lunds universitet",
+    "typ": "myndighet",
+    "domän": "lu.se",
+    "webb": "www.lu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-lu-se._domainkey.lunduniversityo365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 lu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf-lu.lu.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "130.235.138.12"
+    ],
+    "www_asn": "2846",
+    "www_asn_namn": "UNSPECIFIED - Lund University, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Läkemedelsverket",
+    "typ": "myndighet",
+    "domän": "lakemedelsverket.se",
+    "webb": "www.lakemedelsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailgw10.mpa.se.",
+      "10 mailgw11.mpa.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:194.218.76.200 ip4:194.218.76.201 ip4:194.237.237.1 ip4:82.196.180.210 ip4:52.114.75.27 ip4:52.114.75.28 ip4:52.114.76.82 ip4:52.114.76.83 a:nwmail.eudra.org a:mail1.hr.evry.se include:_spf.anpdm.com include:spf.protection.outlook.com include:_spf.ungapped.io include:sendgrid.net include:spf.mailjet.com include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.151.85",
+      "104.18.36.171"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "lansstyrelsen.se (delas av 21 myndigheter)",
+    "typ": "myndighet",
+    "domän": "lansstyrelsen.se",
+    "webb": "www.lansstyrelsen.se",
+    "antal": "21",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 external-mx.lst.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.165.20.61/30 ip6:2001:67c:26d0:901::61 ip4:192.165.22.165/30 ip6:2001:67c:26d0:867::165 ip4:192.165.23.58 ip4:192.165.25.58 ip4:194.218.77.103 ip4:194.218.77.104 ip4:192.165.20.59 ip6:2001:67c:26d0:901::57 ip4:192.165.22.163 ip6:2001:67c:26d0:867::161 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.195.93.84"
+    ],
+    "www_asn": "42649",
+    "www_asn_namn": "bbn - Baffin Bay Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Malmö universitet",
+    "typ": "myndighet",
+    "domän": "mau.se",
+    "webb": "www.mau.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-mau-se._domainkey.mah365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 mau-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:216.17.121.17 ip4:52.19.147.251 ip4:195.178.227.0/24 ip4:195.178.248.19 ip4:217.119.175.150 include:spf.protection.outlook.com include:_spf.salesforce.com include:mailgun.org -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "195.178.229.20"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Mediemyndigheten",
+    "typ": "myndighet",
+    "domän": "mediemyndigheten.se",
+    "webb": "www.mediemyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-mediemyndigheten-se._domainkey.radioochtv.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "9 mediemyndigheten-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:213.179.10.71 ip4:213.179.10.73 include:spf.protection.outlook.com include:_spf.ungapped.io -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "213.179.10.71"
+    ],
+    "www_asn": "12935",
+    "www_asn_namn": "QDSverigeAB - QD Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Medlingsinstitutet",
+    "typ": "myndighet",
+    "domän": "mi.se",
+    "webb": "www.mi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mispambx0001.mi.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:mailgun.org ip4:94.140.24.180 ip4:185.153.213.132 ip4:46.246.39.10 ip4:171.32.2.248 ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "46.246.39.10"
+    ],
+    "www_asn": "42708",
+    "www_asn_namn": "GLESYS - Glesys AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Migrationsverket",
+    "typ": "myndighet",
+    "domän": "migrationsverket.se",
+    "webb": "www.migrationsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 migrationsverket-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.176.65.68 ip4:192.176.66.244 ip4:192.176.66.245 ip4:192.176.66.246 ip4:192.176.65.84 ip4:192.176.65.85 ip4:194.218.78.234 ip4:194.218.78.235 ip4:192.176.70.42 ip4:62.62.61.83 include:spf.protection.outlook.com include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.migrationsverket.se."
+    ],
+    "www_ip": [
+      "192.176.65.45"
+    ],
+    "www_asn": "199973",
+    "www_asn_namn": "MIGR-AS - Migrationsverket, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Mittuniversitetet",
+    "typ": "myndighet",
+    "domän": "miun.se",
+    "webb": "www.miun.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-miun-se._domainkey.miun.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 miun-se.mail.protection.outlook.com.",
+      "50 tarbaby.junkemailfilter.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com ip4:193.10.250.0/24 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "172.64.155.181",
+      "104.18.32.75"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Moderna museet",
+    "typ": "myndighet",
+    "domän": "modernamuseet.se",
+    "webb": "www.modernamuseet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-modernamuseet-se._domainkey.modernamuseet.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf.abicart.com ip4:52.101.74.115 a:smtp1.ondemand.formpipe.com include:amazonses.com include:_spf.ungapped.io include:multisoftsmtp.se ip4:217.119.175.154 ip4:91.106.198.98 ip4:46.254.8.64/28 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.21.91.252",
+      "172.67.183.108"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för civilt försvar",
+    "typ": "myndighet",
+    "domän": "mcf.se",
+    "webb": "www.mcf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailgw-01.msb.se.",
+      "10 mailgw-02.msb.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.ungapped.io include:_spf.mcf.se ip4:194.218.76.101 ip4:194.218.76.102 ip4:193.182.190.180 ip4:193.182.190.181 ip4:193.182.190.182 ip4:194.237.237.1 -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "23.221.22.80",
+      "23.221.22.71"
+    ],
+    "www_asn": "20940",
+    "www_asn_namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för delaktighet",
+    "typ": "myndighet",
+    "domän": "mfd.se",
+    "webb": "www.mfd.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mdspambx0001.mfd.se."
+    ],
+    "spf": [
+      "v=spf1 a ip4:193.234.198.34 include:_spf.defgo.net include:mail.webropolsurveys.com include:email.prnewswire.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail.mfd.se."
+    ],
+    "www_ip": [
+      "172.64.154.134",
+      "104.18.33.122"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för digital förvaltning",
+    "typ": "myndighet",
+    "domän": "digg.se",
+    "webb": "www.digg.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "skypewebexternal.digg.se."
+    ],
+    "mx": [
+      "5 diapmx01.digg.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.234.81.22 ip4:217.28.202.8 ip4:217.28.204.8 ip6:2001:678:f84:3::22 include:mail.webropolsurveys.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.71.70.89"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för familjerätt och föräldraskapsstöd",
+    "typ": "myndighet",
+    "domän": "mfof.se",
+    "webb": "www.mfof.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "sipext.mfof.se."
+    ],
+    "mx": [
+      "10 mfspambx0001.mfof.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.mlsend.com a:www.mfof.se a:mail.sitevision-cloud.net a:SMTP1.ondemand.formpipe.com ip4:193.180.81.34 ip4:213.174.93.60 ip4:217.119.175.155 mx -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "mail.mfof.se."
+    ],
+    "www_ip": [
+      "194.71.70.89"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för kulturanalys",
+    "typ": "myndighet",
+    "domän": "kulturanalys.se",
+    "webb": "www.kulturanalys.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kulturanalys-se._domainkey.kulturanalys.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 kulturanalys-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf.qb-feedback.com include:_spf.anpdm.com ip4:217.198.65.35 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "217.198.65.35"
+    ],
+    "www_asn": "48220",
+    "www_asn_namn": "FOUREDGE-AS - Fouredge AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för psykologiskt försvar",
+    "typ": "myndighet",
+    "domän": "mpf.se",
+    "webb": "www.mpf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.epm.se.",
+      "20 mx2.epm.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.235.18.1 ip4:185.169.75.71 ip4:185.169.75.72 ip6:2a0a:3101:1:1::71 ip6:2a0a:3101:1:1::72 include:mail.sitevision-cloud.net -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.195.94.35"
+    ],
+    "www_asn": "42649",
+    "www_asn_namn": "bbn - Baffin Bay Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för säkerhet och integritetsskydd",
+    "typ": "myndighet",
+    "domän": "sakint.se",
+    "webb": "www.sakint.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 sinspambx0001.sakint.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:195.67.16.34 ip4:195.67.16.40 ip4:195.67.16.52 ip4:195.67.16.53 ip4:171.32.3.68 mx ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.sakint.se."
+    ],
+    "www_ip": [
+      "91.201.62.40"
+    ],
+    "www_asn": "44136",
+    "www_asn_namn": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för tillgängliga medier",
+    "typ": "myndighet",
+    "domän": "mtm.se",
+    "webb": "www.msb.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-mtm-se._domainkey.mtmtpb.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mtm-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:servers.mcsv.net include:relay.opic.com ip4:193.22.141.72 ip4:194.236.40.254 ip4:193.44.77.163 ip4:176.10.130.206 ip4:79.136.101.235 ip4:217.151.199.12/31 include:_spf.ungapped.email include:spf.mailjet.com a:smtp1.ondemand.formpipe.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "51.104.171.95"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+    "typ": "myndighet",
+    "domän": "tillvaxtanalys.se",
+    "webb": "www.tillvaxtanalys.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-tillvaxtanalys-se._domainkey.tillvaxtsanalys.e-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 tillvaxtanalys-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:193.13.65.100 ip4:185.152.179.99 ip4:193.13.64.236 ip4:185.152.179.207 ip4:193.13.61.2 ip4:193.13.61.12 ip4:193.13.61.13 ip4:185.106.183.7 a:analys-ex01.ad.analysera.nu a:mail.sitevision-cloud.net a:smtp.tripnet.se a:web12.tillvaxtanalys.se include:network.mynewsdesk.com include:mailanyone.net -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.135"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för totalförsvarsanalys",
+    "typ": "myndighet",
+    "domän": "mtfa.se",
+    "webb": "www.mtfa.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 mta-prd-mt1.g30.se.",
+      "5 mta-prd-mt1.vv1.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:80.72.2.51 ip4:80.72.2.243 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.66.151.170",
+      "104.20.16.4"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 400
+  },
+  {
+    "namn": "Myndigheten för ungdoms-och civilsamhällesfrågor",
+    "typ": "myndighet",
+    "domän": "mucf.se",
+    "webb": "www.mucf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 ip4:185.38.180.0/23 include:mailanyone.net include:_spf.idrelay.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "151.236.219.218"
+    ],
+    "www_asn": "63949",
+    "www_asn_namn": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för vård- och omsorgsanalys",
+    "typ": "myndighet",
+    "domän": "vardanalys.se",
+    "webb": "www.vardanalys.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "dialin.vardanalys.se."
+    ],
+    "mx": [
+      "10 vaspambx0001.vardanalys.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.103.18.34 ip4:62.119.73.188 ip6:2001:67c:1118:1130::10 ip4:217.198.66.31 ip4:217.198.66.32 ip4:193.26.30.81 include:_spf.blueantcloud.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "158.174.189.132"
+    ],
+    "www_asn": "8473",
+    "www_asn_namn": "BAHNHOF - Bahnhof AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Myndigheten för yrkeshögskolan",
+    "typ": "myndighet",
+    "domän": "myh.se",
+    "webb": "www.myh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-myh-se._domainkey.myhse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 myh-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:178.21.131.158 ip4:212.112.173.68 include:spf1.emarketeer.com include:_spf.questback.net include:spf.bedrock.lime-technologies.com include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "212.16.188.40"
+    ],
+    "www_asn": "12552",
+    "www_asn_namn": "GlobalConnect-AS12552 - GlobalConnect AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Mälardalens universitet",
+    "typ": "myndighet",
+    "domän": "mdu.se",
+    "webb": "www.mdu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-mdu-se._domainkey.studentmdh.w-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mdu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:130.243.84.217 ip4:178.21.131.158 ip4:82.196.180.210  include:spf.protection.outlook.com include:spf-eu.exlibrisgroup.com include:spf.mandrillapp.com include:_spf.ungapped.io -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.14"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nationalmuseum",
+    "typ": "myndighet",
+    "domän": "nationalmuseum.se",
+    "webb": "www.nationalmuseum.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-nationalmuseum-se._domainkey.nmswe.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 nationalmuseum-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:shops.shopify.com include:_spf.anpdm.com a:smtp1.ondemand.formpipe.com ip4:193.181.161.13 ip4:217.151.196.54 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "139.162.159.81"
+    ],
+    "www_asn": "63949",
+    "www_asn_namn": "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",
+    "entra_status": 200
+  },
+  {
+    "namn": "Naturhistoriska riksmuseet",
+    "typ": "myndighet",
+    "domän": "nrm.se",
+    "webb": "www.nrm.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 ip4:130.242.24.0/24 ip4:193.10.57.0/24 ip4:88.131.62.128/25 include:_spf.staysecuregroup.com include:mail.webropolsurveys.com include:mail.sitevision-cloud.net -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.157"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Naturvårdsverket",
+    "typ": "myndighet",
+    "domän": "naturvardsverket.se",
+    "webb": "www.naturvardsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx1.improve.nordlo.cloud.",
+      "10 mx2.improve.nordlo.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:109.205.216.80 ip4:109.205.216.81 include:spf.defgo.com include:_spf.improve.nordlo.cloud include:sendgrid.net include:_spf.ungapped.io include:spf.bngaged.io -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.39.125",
+      "172.64.148.131"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nordiska afrikainstitutet",
+    "typ": "myndighet",
+    "domän": "nai.uu.se",
+    "webb": "www.nai.uu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.uu.se a:mail.sitevision-cloud.net include:spf.dynect.net include:_spf.ungapped.email include:spf-eu.exlibrisgroup.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.224"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nämnden för hemslöjdsfrågor",
+    "typ": "myndighet",
+    "domän": "nfh.se",
+    "webb": "www.nfh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [],
+    "spf": [],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.9.94.86",
+      "194.9.94.85"
+    ],
+    "www_asn": "39570",
+    "www_asn_namn": "LOOPIA - Loopia AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Nämnden för prövning av oredlighet i forskning",
+    "typ": "myndighet",
+    "domän": "npof.se",
+    "webb": "www.npof.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:185.106.181.101 a:exchange.etikprovning.se include:spf.telecomputing.se include:spf.itm.host include:spf.protection.outlook.com include:spf.mailanyone.net -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.106.181.105"
+    ],
+    "www_asn": "60662",
+    "www_asn_namn": "DATACOMM - DataCom Group Nordic AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Nämnden mot Diskriminering",
+    "typ": "myndighet",
+    "domän": "namndenmotdiskriminering.se",
+    "webb": "www.namndenmotdiskriminering.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.mailpod15-cph3.g1i.one.com.",
+      "10 mx2.mailpod15-cph3.g1i.one.com.",
+      "10 mx3.mailpod15-cph3.g1i.one.com.",
+      "10 mx4.mailpod15-cph3.g1i.one.com."
+    ],
+    "spf": [],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "46.30.213.132"
+    ],
+    "www_asn": "51468",
+    "www_asn_namn": "ONECOM - One.com A/S, DK",
+    "entra_status": 400
+  },
+  {
+    "namn": "Oljekrisnämnden",
+    "typ": "myndighet",
+    "domän": "oljekrisnamnden.se",
+    "webb": "www.oljekrisnamnden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [],
+    "spf": [],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [],
+    "www_asn": null,
+    "www_asn_namn": null,
+    "entra_status": 400
+  },
+  {
+    "namn": "Patent- och registreringsverket",
+    "typ": "myndighet",
+    "domän": "prv.se",
+    "webb": "www.prv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-prv-se._domainkey.prvse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 prv-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a:spf6.prv.se a:spf5.prv.se a:spf3.prv.se a:spf2.prv.se a:spf4.prv.se a:spf.prv.se include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "80.80.64.36"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Patentombudsnämnden",
+    "typ": "myndighet",
+    "domän": "patentombudsnamnden.se",
+    "webb": "www.bolagsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "15 ext-mail.bolagsverket.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.121.238.11 ip6:2001:67c:2214:270::11 include:_spf.staysecuregroup.com include:_spf.ungapped.email -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.14.186.150"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Pensionsmyndigheten",
+    "typ": "myndighet",
+    "domän": "pensionsmyndigheten.se",
+    "webb": "www.pensionsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "20 smtp3.pensionsmyndigheten.se.",
+      "30 smtp4.pensionsmyndigheten.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:mail.sitevision-cloud.net -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "192.121.242.15"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Polarforskningssekretariatet",
+    "typ": "myndighet",
+    "domän": "polar.se",
+    "webb": "www.polar.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-polar-se._domainkey.polarfs.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 polar-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:46.16.234.212 ip4:130.242.56.226 ip4:130.242.10.44 ip4:130.242.10.45 ip4:93.191.234.210 a:smtp.mirror.se include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "93.92.0.111"
+    ],
+    "www_asn": "44447",
+    "www_asn_namn": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Polismyndigheten",
+    "typ": "myndighet",
+    "domän": "polisen.se",
+    "webb": "www.polisen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail1.polisen.se.",
+      "10 mail2.polisen.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:147.186.114.36 ip4:147.186.114.37 ip4:147.186.114.38 ip4:147.186.114.39 ip4:147.186.114.40 ip4:147.186.114.41 ip4:194.218.77.248 ip4:194.218.77.249 ip6:2001:67c:49c:1410::36 ip6:2001:67c:49c:1410::37 ip6:2001:67c:49c:1410::38 ip6:2001:67c:49c:1410::39 ip6:2001:67c:49c:1410::40 ip6:2001:67c:49c:1410::41 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "147.186.112.183"
+    ],
+    "www_asn": "2799",
+    "www_asn_namn": "UNSPECIFIED - Polismyndigheten, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Post- och telestyrelsen",
+    "typ": "myndighet",
+    "domän": "pts.se",
+    "webb": "www.pts.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-pts-se._domainkey.ptsse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 pts-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:192.121.216.80 ip4:192.121.211.203 ip4:192.121.211.204 ip4:192.121.215.14 ip6:2001:67c:dc:43::196 ip6:2001:67c:dc:43::203 ip6:2001:67c:dc:43::204 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "66.22.36.121"
+    ],
+    "www_asn": "48851",
+    "www_asn_namn": "radware - Radware Ltd, IL",
+    "entra_status": 200
+  },
+  {
+    "namn": "Revisorsinspektionen",
+    "typ": "myndighet",
+    "domän": "revisorsinspektionen.se",
+    "webb": "www.revisorsinspektionen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 spamfilter.revisorsinspektionen.se."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:94.246.92.182 ip4:65.99.145.148 ip4:94.140.24.171 ip4:194.103.192.221 ip4:194.103.198.24 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "52.178.214.89"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Riksantikvarieämbetet",
+    "typ": "myndighet",
+    "domän": "raa.se",
+    "webb": "www.raa.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-raa-se._domainkey.raase.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 raa-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.40.49 ip4:193.11.31.222 include:spf-eu.exlibrisgroup.com a:smtp.tripnet.se include:spf.topdesk.net include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail1.raa.se."
+    ],
+    "www_ip": [
+      "193.10.40.14"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Riksarkivet",
+    "typ": "myndighet",
+    "domän": "riksarkivet.se",
+    "webb": "www.riksarkivet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail01.riksarkivet.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.121.221.25 include:all._spf.plma.se include:spf.abicart.com include:axiell-uk.net ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "192.121.221.216"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Riksgäldskontoret",
+    "typ": "myndighet",
+    "domän": "riksgalden.se",
+    "webb": "www.riksgalden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "rp.riksgalden.se."
+    ],
+    "mx": [
+      "10 mx1.riksgalden.se.",
+      "10 mx2.riksgalden.se."
+    ],
+    "spf": [
+      "v=spf1 a:mx1.riksgalden.se a:mx2.riksgalden.se include:spf.protection.outlook.com ip4:193.44.79.8/29 include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "176.113.44.32"
+    ],
+    "www_asn": "211453",
+    "www_asn_namn": "RIKSGALDEN-AS - Riksgaldskontoret, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Rymdstyrelsen",
+    "typ": "myndighet",
+    "domän": "snsa.se",
+    "webb": "www.rymdstyrelsen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-snsa-se._domainkey.vinnova.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailgw5.vinnova.se.",
+      "20 mailgw6.vinnova.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.200.202.6 ip4:193.200.202.28 ip4:193.200.202.29 ip6:2001:67c:2444:201::128/127 include:all._spf.plma.se include:mail.webropolsurveys.com include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.200.202.155"
+    ],
+    "www_asn": "43018",
+    "www_asn_namn": "VINNOVA-ASN - Verket for Innovationssystem, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Rättsmedicinalverket",
+    "typ": "myndighet",
+    "domän": "rmv.se",
+    "webb": "www.rmv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.rmv.se.",
+      "10 mx2.rmv.se."
+    ],
+    "spf": [
+      "v=spf1 mx -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "92.42.73.106"
+    ],
+    "www_asn": "34946",
+    "www_asn_namn": "WetterNet-AS - Jonkoping Energi AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sameskolstyrelsen",
+    "typ": "myndighet",
+    "domän": "sameskolstyrelsen.se",
+    "webb": "www.sameskolstyrelsen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "1 ASPMX.L.GOOGLE.COM.",
+      "10 ASPMX2.GOOGLEMAIL.COM.",
+      "10 ASPMX3.GOOGLEMAIL.COM.",
+      "5 ALT1.ASPMX.L.GOOGLE.COM.",
+      "5 ALT2.ASPMX.L.GOOGLE.COM."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.google.com include:ciceron.cloud ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "91.201.63.153"
+    ],
+    "www_asn": "44136",
+    "www_asn_namn": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sametinget",
+    "typ": "myndighet",
+    "domän": "sametinget.se",
+    "webb": "www.sametinget.se",
+    "antal": "2",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-sametinget-se._domainkey.sametingetse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 sametinget-se.mail.protection.outlook.com.",
+      "5 mail3.norrmoln.se.",
+      "6 mail4.norrmoln.se."
+    ],
+    "spf": [
+      "v=spf1 include:all._spf.plma.se include:spf.mailanyone.net include:_se_net.axiell.com  include:_spf.norrmoln.se include:_spf.ilait.net include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "82.115.149.10"
+    ],
+    "www_asn": "30795",
+    "www_asn_namn": "BRS-Networks-AS - BRS Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sida",
+    "typ": "myndighet",
+    "domän": "sida.se",
+    "webb": "www.sida.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 ip4:91.123.56.128 ip4:193.181.161.13 ip4:194.68.229.36 ip4:194.71.244.25 ip4:31.216.226.3 ip4:185.47.41.64 include:spf.mailanyone.net include:service-now.com include:spf.mailjet.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "13.49.168.40",
+      "16.192.226.56"
+    ],
+    "www_asn": "16509",
+    "www_asn_namn": "AMAZON-02 - Amazon.com, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Skatterättsnämnden",
+    "typ": "myndighet",
+    "domän": "skatterattsnamnden.se",
+    "webb": "www.skatterattsnamnden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "137.61.9.35"
+    ],
+    "www_asn": "15991",
+    "www_asn_namn": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Skatteverket",
+    "typ": "myndighet",
+    "domän": "skatteverket.se",
+    "webb": "www.skatteverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "137.61.9.13"
+    ],
+    "www_asn": "15991",
+    "www_asn_namn": "Swedish_Tax_Agency - Swedish Tax Agency, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Skogsstyrelsen",
+    "typ": "myndighet",
+    "domän": "skogsstyrelsen.se",
+    "webb": "www.skogsstyrelsen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 skogsstyrelsen.in.tmes.trendmicro.eu."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.183.24.251 ip4:194.16.5.222 ip4:18.185.115.0/25 ip4:18.185.115.128/26 ip4:34.253.238.128/26 ip4:34.253.238.192/26 include:spf.tmes.trendmicro.eu include:sendgrid.net a:mx.visma.com a:mailgw.textalk.com a:smtp01.emea.sabacloud.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.183.24.25"
+    ],
+    "www_asn": "58320",
+    "www_asn_namn": "SKOGSTY - Skogsstyrelsen, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Skolforskningsinstitutet",
+    "typ": "myndighet",
+    "domän": "skolfi.se",
+    "webb": "www.skolfi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 skolfi-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a:smtp1.ondemand.formpipe.com ip4:185.29.113.118 include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "91.201.60.2"
+    ],
+    "www_asn": "44136",
+    "www_asn_namn": "ASODERLAND - ODERLAND Webbhotell AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Skolväsendets överklagandenämnd",
+    "typ": "myndighet",
+    "domän": "overklagandenamnden.se",
+    "webb": "www.overklagandenamnden.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.improve.nordlo.cloud.",
+      "10 mx2.improve.nordlo.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:109.205.216.81/32 ip4:109.205.216.80/32 a:mx1.skolinspektionen.se include:spf.protection.outlook.com include:_spf.improve.nordlo.cloud -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "109.205.219.75"
+    ],
+    "www_asn": "50572",
+    "www_asn_namn": "ZETUPNET - Nordlo Improve AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Specialpedagogiska skolmyndigheten",
+    "typ": "myndighet",
+    "domän": "spsm.se",
+    "webb": "www.spsm.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx2.spsm.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:195.67.81.24 ip4:185.208.52.75 ip4:195.178.176.106 ip4:45.137.211.170 ip4:45.137.210.135 include:spf.protection.outlook.com include:spf-a.telia.com include:spf-b.telia.com include:_spf.netigate.se include:mailgun.org include:mailjet.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "195.67.81.12"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Spelinspektionen",
+    "typ": "myndighet",
+    "domän": "spelinspektionen.se",
+    "webb": "www.spelinspektionen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.mgw.britt.se ip4:62.95.35.0/27 ip4:83.233.78.176/28 include:spf.mailjet.com include:spf.mailanyone.net mx -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "62.95.35.9"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens beredning för medicinsk och social utvärdering",
+    "typ": "myndighet",
+    "domän": "sbu.se",
+    "webb": "www.sbu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-sbu-se._domainkey.sbu.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 sbu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:_spf.ungapped.io include:_spf.defgo.net include:spf.srv2.de include:sendgrid.net a:smtp1.ondemand.formpipe.com ip4:217.119.175.154 ip4:217.114.80.100 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.18.35.45",
+      "172.64.152.211"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens energimyndighet",
+    "typ": "myndighet",
+    "domän": "energimyndigheten.se",
+    "webb": "www.energimyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-energimyndigheten-se._domainkey.energimyndigheten.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net.energimyndigheten.se."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 energimyndigheten-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com ip4:194.29.118.0/24 ip4:194.1.197.0/24 ip4:89.45.227.249 ip4:91.123.56.128 ip4:116.202.231.152 include:network.mynewsdesk.com include:_spf.netigate.se include:_spf.ntgt.de include:servers.mcsv.net include:all._spf.plma.se a:mail.sitevision-cloud.net ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.18.172.223",
+      "104.18.171.223"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens fastighetsverk",
+    "typ": "myndighet",
+    "domän": "sfv.se",
+    "webb": "www.sfv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-sfv-se._domainkey.sfvc365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 sfv-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:156.51.154.4 ip6:2001:67c:2cfc:154::4 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "156.51.151.50"
+    ],
+    "www_asn": "201869",
+    "www_asn_namn": "SFV-AS - Statens Fastighetsverk, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens geotekniska institut",
+    "typ": "myndighet",
+    "domän": "sgi.se",
+    "webb": "www.swedgeo.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:spf.mailanyone.net include:_spf.netigate.se include:_spf.apsisone.com include:spf.bngaged.io -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "62.20.52.154"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens haverikommission",
+    "typ": "myndighet",
+    "domän": "shk.se",
+    "webb": "www.shk.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "skypewebext.shk.se."
+    ],
+    "mx": [
+      "10 hkspambx0001.shk.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.234.23.70 ip4:194.132.133.34 ip4:212.112.172.132 ip6:2001:67c:1904:1::34 ip4:213.188.154.208 ip6:2a02:4a8:10::154:208 a:fw.anslutning.se a:fw2.anslutning.se a:out.resourcearea.net -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "194.71.70.89"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens historiska museer",
+    "typ": "myndighet",
+    "domän": "shm.se",
+    "webb": "www.shm.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-shm-se._domainkey.statensmuseer.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 shm-se.mail.eo.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:217.198.65.13 a:smtp-relay.telecomputing.se ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "217.198.65.13"
+    ],
+    "www_asn": "48220",
+    "www_asn_namn": "FOUREDGE-AS - Fouredge AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens inspektion för försvarsunderrättelseverksamheten (SIUN)",
+    "typ": "myndighet",
+    "domän": "siun.se",
+    "webb": "www.siun.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 mail.ext.siun.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:37.233.78.48/28 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "37.233.78.53"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 400
+  },
+  {
+    "namn": "Statens institutionsstyrelse",
+    "typ": "myndighet",
+    "domän": "stat-inst.se",
+    "webb": "www.stat-inst.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "sfbwsext01.stat-inst.se."
+    ],
+    "mx": [
+      "5 mail.stat-inst.se."
+    ],
+    "spf": [
+      "v=spf1 include:mailanyone.net ip4:91.123.56.128 ip4:193.235.222.39 ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.144.189",
+      "104.18.43.67"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens kulturråd",
+    "typ": "myndighet",
+    "domän": "kulturradet.se",
+    "webb": "www.kulturradet.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-kulturradet-se._domainkey.kulturradet.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "1 kulturradet-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:mailanyone.net include:spf.mailjet.com include:_spf.anpdm.com include:spf.protection.outlook.com ip4:130.242.22.73 ip4:130.242.22.14 ip4:213.212.28.15 ip4:212.112.165.229 ip4:83.241.254.90 ip4:54.240.89.67 include:_se_net.axiell.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.242.22.23"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens museer för maritim, transport- och försvarshistoria",
+    "typ": "myndighet",
+    "domän": "smtm.se",
+    "webb": "www.smtm.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx3.culturnet.se.",
+      "20 mx4.culturnet.se."
+    ],
+    "spf": [
+      "v=spf1 mx a:mail.quinyx.com include:_spf.netigate.se include:_spf.ungapped.io include:spf.protection.outlook.com include:multisoftsmtp.se include:_spf.grade.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "130.242.29.40"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens museer för världskultur",
+    "typ": "myndighet",
+    "domän": "varldskulturmuseerna.se",
+    "webb": "www.varldskulturmuseerna.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-varldskulturmuseerna-se._domainkey.varldskulturmuseerna.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 varldskulturmuseerna-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.netigate.se include:sendgrid.net include:spf.protection.outlook.com include:spf.abicart.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.18.33.29",
+      "172.64.154.227"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens musikverk",
+    "typ": "myndighet",
+    "domän": "musikverket.se",
+    "webb": "www.musikverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-musikverket-se._domainkey.musikverk.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 musikverket-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:u15441218.wl219.sendgrid.net ip4:130.242.6.85 ip4:130.242.14.11  include:mail.zendesk.com include:_spf.createsend.com -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.93.250.237"
+    ],
+    "www_asn": "35041",
+    "www_asn_namn": "NET-BINERO-STHLM1 - Binero AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens servicecenter",
+    "typ": "myndighet",
+    "domän": "statenssc.se",
+    "webb": "www.statenssc.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.statenssc.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.234.93.55 ip4:91.123.56.128 ip4:193.75.92.154 ip4:82.196.180.210 ip4:194.237.237.1 include:spf-a.telia.com include:spf.advania.cloud include:outboundspf.cloud.advania.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "webmail.statenssc.se."
+    ],
+    "www_ip": [
+      "194.71.70.89"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens skolinspektion",
+    "typ": "myndighet",
+    "domän": "skolinspektionen.se",
+    "webb": "www.skolinspektionen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx1.improve.nordlo.cloud.",
+      "10 mx2.improve.nordlo.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:109.205.216.81/32 ip4:109.205.216.80/32 a:mx1.skolinspektionen.se include:spf.protection.outlook.com include:spf.mailjet.com include:_spf.improve.nordlo.cloud -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "109.205.219.75"
+    ],
+    "www_asn": "50572",
+    "www_asn_namn": "ZETUPNET - Nordlo Improve AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens skolverk",
+    "typ": "myndighet",
+    "domän": "skolverket.se",
+    "webb": "www.skolverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 smtp1.skolverket.se.",
+      "10 smtp2.skolverket.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.235.52.45 ip4:193.235.52.46 ip6:2001:67c:1888:1003::11 ip6:2001:67c:1888:1003::21 -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "adfs.skolverket.se."
+    ],
+    "www_ip": [
+      "185.84.52.48"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens tjänstepensions- och grupplivnämnd",
+    "typ": "myndighet",
+    "domän": "spv.se",
+    "webb": "www.spv.se",
+    "antal": "2",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 spaspambx001.spv.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:91.123.56.128 ip4:193.75.92.154 ip4:185.57.136.47 ip4:193.234.203.34 include:_spf.netigate.se a:relay.proceedo.net include:_spf.staysecuregroup.com include:_spf.anpdm.com include:spf-b.telia.com include:spf-a.telia.com include:_spf.ungapped.io"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.234.203.144"
+    ],
+    "www_asn": "197942",
+    "www_asn_namn": "FSK - Forsakringskassan, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens veterinärmedicinska anstalt",
+    "typ": "myndighet",
+    "domän": "sva.se",
+    "webb": "www.sva.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-sva-se._domainkey.svasweden.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 sva-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:servers.mcsv.net include:spf.gansend.com include:_customdomain.learnifier.se a:relay.episerverhotell.net ip4:91.234.240.10 include:spf.mailanyone.net include:spf-a.telia.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "172.66.0.125",
+      "162.159.140.127"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statens väg- och transportforskningsinstitut",
+    "typ": "myndighet",
+    "domän": "vti.se",
+    "webb": "www.vti.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-vti-se._domainkey.vtiOffice365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 vti-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:94.254.89.186 ip4:195.198.217.115 ip4:195.198.217.93 ip4:195.198.217.69 ip4:212.85.68.72 ip4:195.67.121.219 ip4:195.198.217.97 include:spf.protection.outlook.com include:_spf.netigate.se include:_spf.anpdm.com include:_spf.idrelay.com include:spf.bngaged.io -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.246"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statistiska centralbyrån",
+    "typ": "myndighet",
+    "domän": "scb.se",
+    "webb": "www.scb.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "whello.scb.se."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail1.scb.se.",
+      "20 mail2.scb.se."
+    ],
+    "spf": [
+      "v=spf1 +mx ip4:194.218.77.40 ip4:194.218.77.41 ip4:194.237.237.1 ip4:91.123.56.128 ip4:52.143.59.192 include:_spf.apsisone.com include:_spf.rulemailer.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.180.124.91"
+    ],
+    "www_asn": "39658",
+    "www_asn_namn": "SCB-AS - Statistics Sweden, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Statskontoret",
+    "typ": "myndighet",
+    "domän": "statskontoret.se",
+    "webb": "www.statskontoret.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 epost.esv.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.181.188.25 include:sendgrid.net include:spf.qb-feedback.com include:_spf.anpdm.com include:epost.esv.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.181.188.100"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Stockholms konstnärliga högskola",
+    "typ": "myndighet",
+    "domän": "uniarts.se",
+    "webb": "www.uniarts.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 uniarts-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.71.0/24 a:smtp1.ondemand.formpipe.com include:spf.protection.outlook.com include:_spf.easit.net include:spf.abicart.com include:spf.multinet.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "51.12.74.1"
+    ],
+    "www_asn": "8075",
+    "www_asn_namn": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Stockholms universitet",
+    "typ": "myndighet",
+    "domän": "su.se",
+    "webb": "www.su.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-su-se._domainkey.stockholmuniversity.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:77.238.35.11 ip6:2001:6b0:5:1212:250:56ff:feaf:6c7f ip4:77.238.36.76 ip6:2001:6b0:5:1213:250:56ff:feaf:c14c ip4:77.238.37.81 ip6:2001:6b0:5:1214:250:56ff:feaf:8222 include:_spf-a.su.se ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "ebox.su.se."
+    ],
+    "www_ip": [
+      "185.84.52.158"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Strålsäkerhetsmyndigheten",
+    "typ": "myndighet",
+    "domän": "ssm.se",
+    "webb": "www.stralsakerhetsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx2.ssm.se.",
+      "20 mx4.ssm.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:sendgrid.net ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.ssm.se."
+    ],
+    "www_ip": [
+      "104.18.43.56",
+      "172.64.144.200"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Styrelsen för ackreditering och teknisk kontroll",
+    "typ": "myndighet",
+    "domän": "swedac.se",
+    "webb": "www.swedac.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 a include:spf.mailanyone.net include:_spf.swedac.se include:spf.flowmailer.net include:spf.xledger.net a:smtp.tripnet.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "13.60.136.136"
+    ],
+    "www_asn": "16509",
+    "www_asn_namn": "AMAZON-02 - Amazon.com, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Svenska esf-rådet",
+    "typ": "myndighet",
+    "domän": "esf.se",
+    "webb": "www.esf.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "20 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.advania.cloud include:spf.telecomputing.se include:spf.protection.outlook.com include:mail.webropolsurveys.com include:all._spf.plma.se include:spf.advania.cloud a:smtp.tripnet.se ip4:84.17.204.117 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "rproxy-165.telecomputing.se."
+    ],
+    "www_ip": [
+      "84.17.218.170"
+    ],
+    "www_asn": "57208",
+    "www_asn_namn": "Advania-IMP-SE - Advania Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Svenska institutet",
+    "typ": "myndighet",
+    "domän": "si.se",
+    "webb": "www.si.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-si-se._domainkey.svenskainstitutet.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 si-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.14.90.0/24 ip4:193.12.211.192 include:spf.protection.outlook.com include:cust-spf.exacttarget.com include:_spf.staysecuregroup.com include:_spf.salesforce.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.14.90.218"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Svenska institutet för europapolitiska studier",
+    "typ": "myndighet",
+    "domän": "sieps.se",
+    "webb": "www.sieps.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "1 sieps-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf.qb-feedback.com include:_spf.anpdm.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "31.193.252.73"
+    ],
+    "www_asn": "56711",
+    "www_asn_namn": "Bluerange-AS - Bluerange Sweden AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sveriges författarfond",
+    "typ": "myndighet",
+    "domän": "svff.se",
+    "webb": "www.svff.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-svff-se._domainkey.svforfattarfond.r-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 svff-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "213.80.96.235"
+    ],
+    "www_asn": "8473",
+    "www_asn_namn": "BAHNHOF - Bahnhof AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sveriges geologiska undersökning",
+    "typ": "myndighet",
+    "domän": "sgu.se",
+    "webb": "www.sgu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx1.sgu.se.",
+      "10 mx2.sgu.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:212.247.229.8 ip4:84.19.147.169 ip6:2001:67c:2f50:14::25 include:mail.webropolsurveys.com include:spf.sgu.se include:all._spf.plma.se ip4:194.71.83.25 -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "post.sgu.se."
+    ],
+    "www_ip": [
+      "185.224.58.214"
+    ],
+    "www_asn": "49419",
+    "www_asn_namn": "CANDIDATOR-AB - Iver Sverige AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sveriges lantbruksuniversitet",
+    "typ": "myndighet",
+    "domän": "slu.se",
+    "webb": "www.slu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-slu-se._domainkey.svelantbruksuniversitet.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 slu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx a ip4:130.238.100.6 ip4:178.21.131.158 ip4:91.123.56.128 ip4:193.75.92.154 ip4:82.196.180.210 include:spf.protection.outlook.com include:_spf.netigate.se include:_spf.ungapped.email include:spf-eu.exlibrisgroup.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "webmail.slu.se."
+    ],
+    "www_ip": [
+      "130.238.100.85"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sveriges meteorologiska och hydrologiska institut",
+    "typ": "myndighet",
+    "domän": "smhi.se",
+    "webb": "www.smhi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:91.192.28.0/22 ip6:2001:67c:274:5501::30 ip6:2001:67c:274:5501::39 include:_spf.questback.net include:_spf.questback.com ?ip4:185.26.228.0/22 include:all._spf.plma.se include:_spf.nanolearning.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mobile.smhi.se."
+    ],
+    "www_ip": [
+      "91.192.30.117"
+    ],
+    "www_asn": "42307",
+    "www_asn_namn": "SMHI-AS - Sveriges Meteorologiska och Hydrologiska Institut, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Säkerhetspolisen",
+    "typ": "myndighet",
+    "domän": "sakerhetspolisen.se",
+    "webb": "www.sakerhetspolisen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.sakerhetspolisen.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.18.73.3 ip4:194.16.4.2 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "162.220.222.45"
+    ],
+    "www_asn": "42473",
+    "www_asn_namn": "AS-ANEXIA - Anexia Cloud Solutions GmbH, AT",
+    "entra_status": 200
+  },
+  {
+    "namn": "Södertörns högskola",
+    "typ": "myndighet",
+    "domän": "sh.se",
+    "webb": "www.sh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-sh-se._domainkey.sunioffice.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 sh-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a:smtp1.ondemand.formpipe.com a:amazonses.com ip4:193.11.32.0/27 ip4:193.11.32.128/27 ip4:193.11.38.192/27 ip4:193.181.161.13 ip6:2001:6b0:36::10 ip6:2001:6b0:36::11 include:spf.protection.outlook.com include:mail.sitevision-cloud.net a:mail.sop-at.com mx:sop.co.at ip4:77.237.55.139 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.167"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Tandvårds-och läkemedelsförmånsverket, TLV",
+    "typ": "myndighet",
+    "domän": "tlv.se",
+    "webb": "www.tlv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-tlv-se._domainkey.tlvse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:mail.sitevision-cloud.net include:spf.protection.outlook.com include:_spf.stejtech.net ip4:185.106.183.84 ip4:185.106.183.85 exp=_expl.stejtech.net ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.33"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Tillväxtverket",
+    "typ": "myndighet",
+    "domän": "tillvaxtverket.se",
+    "webb": "www.tillvaxtverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-tillvaxtverket-se._domainkey.tillvaxten.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 tillvaxtverket-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:213.157.70.68 ip4:213.157.70.73 ip4:192.165.5.69 ip4:193.10.56.226 include:spf.protection.outlook.com include:mail.sitevision-cloud.net include:_spf.ungapped.email include:all._spf.plma.se include:_spf.postal.oderland.com include:spf.bngaged.io ip4:52.232.27.151 ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.135"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Totalförsvarets forskningsinstitut, foi",
+    "typ": "myndighet",
+    "domän": "foi.se",
+    "webb": "www.foi.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 ip1-m.foi.se."
+    ],
+    "spf": [
+      "v=spf1 +mx -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "150.227.2.58"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Totalförsvarets plikt- och prövningsverk",
+    "typ": "myndighet",
+    "domän": "pliktverket.se",
+    "webb": "www.rekryteringsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 psrv-lin-052.pliktverket.se.",
+      "20 psrv-lin-054.pliktverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:195.198.15.70 ip4:195.198.15.71 ip4:185.141.153.93 include:mail.sitevision-cloud.net ip4:202.22.174.195 ip4:202.22.171.124 ip4:194.237.237.1 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.249"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Trafikanalys",
+    "typ": "myndighet",
+    "domän": "trafa.se",
+    "webb": "www.trafa.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-trafa-se._domainkey.trafa.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "2 trafa-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:81.170.179.108 ip4:217.114.80.100 ip4:194.71.196.10 ip4:217.68.44.194 include:spf.protection.outlook.com include:_spf.staysecuregroup.com include:all._spf.plma.se ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "172.64.153.45",
+      "104.18.34.211"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Trafikverket",
+    "typ": "myndighet",
+    "domän": "trafikverket.se",
+    "webb": "www.trafikverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "4 mailg1.trafikverket.se.",
+      "4 mailg2.trafikverket.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.181.63.0/24 ip4:88.131.62.128/25 ip4:188.121.65.192/26  include:_spf.idrelay.com include:spf.mailjet.com include:spf1.emarketeer.com mx -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "188.121.79.136"
+    ],
+    "www_asn": "49272",
+    "www_asn_namn": "banverket - Trafikverket, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Transportstyrelsen",
+    "typ": "myndighet",
+    "domän": "transportstyrelsen.se",
+    "webb": "www.transportstyrelsen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "15 mx2.transportstyrelsen.se.",
+      "5 mx1.transportstyrelsen.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf-a.telia.com include:proceedo.net include:proceedo.com ip4:212.247.0.192/26 ip4:81.236.57.0/24 ip4:81.227.116.64/26 ip6:2001:067c:22c0:0001:0000:0000:0000:0054 ip6:2001:067c:22c0:0001:0000:0000:0000:0055 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.182.52.22"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Tullverket",
+    "typ": "myndighet",
+    "domän": "tullverket.se",
+    "webb": "www.tullverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 extmp0004.tullverket.se.",
+      "10 extmp0005.tullverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:194.218.77.64/28 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "23.223.240.88",
+      "23.223.240.82"
+    ],
+    "www_asn": "20940",
+    "www_asn_namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+    "entra_status": 200
+  },
+  {
+    "namn": "Umeå universitet",
+    "typ": "myndighet",
+    "domän": "umu.se",
+    "webb": "www.umu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-umu-se._domainkey.umeauniversity.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 umu-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a:smtp5.umu.se a:smtp6.umu.se ip4:194.165.227.8 ip4:130.239.8.66 ip4:130.239.8.141 ip4:130.239.8.152 ip4:130.239.8.178 ip4:130.239.8.179 ip4:130.239.125.150 ip4:130.239.125.151  include:spf.protection.outlook.com include:sendgrid.net ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "130.239.34.63"
+    ],
+    "www_asn": "2833",
+    "www_asn_namn": "SUNET-UMU - Umea University, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Universitets- och högskolerådet",
+    "typ": "myndighet",
+    "domän": "uhr.se",
+    "webb": "www.uhr.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-uhr-se._domainkey.uhrse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "1 uhr-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.11.165.200 ip4:193.11.208.19 ip4:193.11.208.20 ip4:130.239.8.142 ip4:130.239.8.162 ip4:164.40.179.118 ip4:158.37.161.216 include:mail.webropolsurveys.com include:spf.protection.outlook.com include:_spf.atlassian.net include:uhr-mail-vip.sth.basefarm.net ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail.uhr.se."
+    ],
+    "www_ip": [
+      "193.11.100.216"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Universitetskanslersämbetet",
+    "typ": "myndighet",
+    "domän": "uka.se",
+    "webb": "www.uka.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "20 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.58.6 ip4:193.10.58.7 ip4:84.17.192.128/26 ip4:84.17.205.0/27 ip4:185.47.40.130 ip4:185.47.40.157 ip4:185.47.40.158 ip4:173.194.202.27 ip4:142.250.115.26 ip4:142.250.141.26 ip4:142.250.157.27 ip4:74.125.24.26 ip4:212.85.68.72 include:spf.advania.cloud -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "rproxy-120.telecomputing.se."
+    ],
+    "www_ip": [
+      "185.84.52.10"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Upphandlingsmyndigheten",
+    "typ": "myndighet",
+    "domän": "uhmynd.se",
+    "webb": "www.upphandlingsmyndigheten.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-uhmynd-se._domainkey.upphandlingsmyndigheten.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 uhmynd-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:84.17.192.128/26 include:spf.protection.outlook.com include:_spf.nationwild.net include:_spf.apsisone.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "194.9.94.85",
+      "194.9.94.86"
+    ],
+    "www_asn": "39570",
+    "www_asn_namn": "LOOPIA - Loopia AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Uppsala universitet",
+    "typ": "myndighet",
+    "domän": "uu.se",
+    "webb": "www.uu.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mailfilter-ng-1.sunet.se.",
+      "10 mailfilter-ng-3.sunet.se.",
+      "10 mailfilter-ng-4.sunet.se.",
+      "20 mailfilter-ng-2.sunet.se."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.uu.se include:spf.gdmnet.se include:spf.mandrillapp.com include:mail.sitevision-cloud.net include:_spf.ungapped.io include:mail.webropolsurveys.com include:relay.amadeus.net include:spf.abicart.com include:spf.multinet.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.195.92.131"
+    ],
+    "www_asn": "42649",
+    "www_asn_namn": "bbn - Baffin Bay Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Utbetalningsmyndigheten",
+    "typ": "myndighet",
+    "domän": "ubm.se",
+    "webb": "www.ubm.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.195.94.20"
+    ],
+    "www_asn": "42649",
+    "www_asn_namn": "bbn - Baffin Bay Networks AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Valmyndigheten",
+    "typ": "myndighet",
+    "domän": "val.se",
+    "webb": "www.val.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 ansible.skatteverket.se.",
+      "10 marathon.skatteverket.se.",
+      "10 telegraf.skatteverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.skatteverket.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "23.223.240.75",
+      "23.223.240.87"
+    ],
+    "www_asn": "20940",
+    "www_asn_namn": "AKAMAI-ASN1 - Akamai International B.V., NL",
+    "entra_status": 200
+  },
+  {
+    "namn": "Verket för innovationssystem",
+    "typ": "myndighet",
+    "domän": "vinnova.se",
+    "webb": "www.vinnova.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-vinnova-se._domainkey.vinnova.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mailgw5.vinnova.se.",
+      "20 mailgw6.vinnova.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.200.202.6 ip4:193.200.202.28 ip4:193.200.202.29 ip6:2001:67c:2444:201::128/127 include:_spf.anpdm.com include:_spf.ungapped.io include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.200.202.32"
+    ],
+    "www_asn": "43018",
+    "www_asn_namn": "VINNOVA-ASN - Verket for Innovationssystem, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Vetenskapsrådet",
+    "typ": "myndighet",
+    "domän": "vr.se",
+    "webb": "www.vr.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-vr-se._domainkey.vetenskapsradetsverige.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 vr-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:_spf.ungapped.io include:servers.mcsv.net ip4:193.10.44.226 ip4:81.93.173.201 include:_spf.staysecuregroup.com ip4:83.241.254.81 ip4:83.241.254.75 ip4:193.10.44.13 include:mail.sitevision-cloud.net include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.253"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Åklagarmyndigheten",
+    "typ": "myndighet",
+    "domän": "aklagare.se",
+    "webb": "www.aklagare.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [
+      "v=spf1 include:aklagare.se -all"
+    ],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "lyncdiscover.gslb.aklagare.se."
+    ],
+    "mx": [
+      "10 mail1.aklagare.se.",
+      "10 mail2.aklagare.se."
+    ],
+    "spf": [
+      "v=spf1 mx ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.2.160",
+      "104.18.3.160"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Örebro universitet",
+    "typ": "myndighet",
+    "domän": "oru.se",
+    "webb": "www.oru.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-oru-se._domainkey.oruse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 oru-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:10.1.100.101 ip4:130.238.186.199 ip4:130.238.7.160/27 ip4:130.239.8.142 ip4:130.239.8.162 ip4:130.243.96.0/28 ip4:130.243.97.0/28 ip4:130.243.97.45 ip4:130.243.98.36 ip4:130.243.98.37 ip4:130.243.98.96/28 ip4:130.243.98.220/30 ip4:130.243.109.196 ip4:130.243.127.21 ip4:130.243.127.22  ip4:193.93.250.233 ip4:185.99.191.201 ip4:193.93.251.148 include:servers.mcsv.net include:spf.dynect.net include:spf.protection.outlook.com include:spf.bedrock.lime-technologies.com include:mh.blackboard.com include:spf.brevo.com include:spfa.oru.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "mail.oru.se."
+    ],
+    "www_ip": [
+      "130.243.98.233"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Överklagandenämnden för etikprövning",
+    "typ": "myndighet",
+    "domän": "onep.se",
+    "webb": "www.onep.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-onep-se._domainkey.vetenskapsradetsverige.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 onep-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 ip4:91.227.208.0/24 ip4:185.64.72.0/24 ip4:185.64.73.0/24 ip4:185.64.74.0/24 ip4:52.17.51.198 ip4:194.68.222.164 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.8.0/21 ip4:193.10.44.226 ip4:81.93.173.201 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:192.162.216.0/22 ip4:208.70.128.0/21 ip4:185.38.180.0/22 ip4:89.104.206.0/23 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:1619::/48 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:6::/47 ip6:2001:978:2a01:0:6:0:1089:1091/128 ip6:2001:978:2a01:0:6:0:1089:1092/128 ip4:79.136.102.64/26 ip4:94.136.64.224/27 ip4:83.140.31.128/26 ip4:213.136.34.128/26 ip4:91.236.209.128/26 ip4:185.37.140.0/26 ip6:2001:16d8:c001:2073::/64 ip6:2001:9b0:1:704::/64 ip6:2001:67c:27e0:2212::/64 ip6:2a04:7180:0:2400::/64 ip4:83.241.254.81 ip4:83.241.254.75 ip4:213.180.66.172 ip4:213.180.66.136/26 ip4:213.180.82.131/25 ip4:81.91.14.0/25 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "93.92.0.111"
+    ],
+    "www_asn": "44447",
+    "www_asn_namn": "MIRROR-AS - Mirror Partner Utveckling AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Överklagandenämnden för högskolan",
+    "typ": "myndighet",
+    "domän": "onh.se",
+    "webb": "www.onh.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx01.advania.cloud.",
+      "20 mx02.advania.cloud."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.10.58.6 ip4:193.10.58.7 ip4:84.17.192.128/26 ip4:84.17.205.0/27 ip4:185.154.229.73 ip4:185.154.229.78 ip4:185.154.229.79 ip4:185.154.229.80 ip4:213.132.104.151 ip4:213.132.104.146 ip4:213.132.104.153 ip4:213.132.104.154 ip4:212.85.68.72 -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.148"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 400
+  },
+  {
+    "namn": "Överklagandenämnden för studiestöd",
+    "typ": "myndighet",
+    "domän": "oks.se",
+    "webb": "www.oks.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 oks-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:ciceron.cloud -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "82.115.130.221"
+    ],
+    "www_asn": "30795",
+    "www_asn_namn": "BRS-Networks-AS - BRS Networks AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "riksdagen.se (delas av 2 myndigheter)",
+    "typ": "myndighet",
+    "domän": "riksdagen.se",
+    "webb": "www.riksdagen.se",
+    "antal": "2",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "5 mailgw.riksdagen.se.",
+      "5 mailgw2.riksdagen.se.",
+      "5 mailgw3.riksdagen.se."
+    ],
+    "spf": [
+      "v=spf1 mx -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.11.1.15"
+    ],
+    "www_asn": "1653",
+    "www_asn_namn": "SUNET - Vetenskapsradet / SUNET, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Riksdagens ombudsmän",
+    "typ": "myndighet",
+    "domän": "jo.se",
+    "webb": "www.jo.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 josmtp2.jo.se.",
+      "5 josmtp1.jo.se."
+    ],
+    "spf": [
+      "v=spf1 mx -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "95.217.16.20"
+    ],
+    "www_asn": "24940",
+    "www_asn_namn": "HETZNER-AS - Hetzner Online GmbH, DE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Riksrevisionen",
+    "typ": "myndighet",
+    "domän": "riksrevisionen.se",
+    "webb": "www.riksrevisionen.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-riksrevisionen-se._domainkey.riksrevisionen.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "5 riksrevisionen-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com a:mail.webropolsurveys.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.246"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sveriges riksbank",
+    "typ": "myndighet",
+    "domän": "riksbank.se",
+    "webb": "www.riksbank.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [
+      "selector1-riksbank-se._domainkey.riksbank.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 riksbank-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com a:smtp.riksbank.se ip4:135.225.134.217 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.148.205",
+      "104.18.39.51"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Luftfartsverket",
+    "typ": "myndighet",
+    "domän": "lfv.se",
+    "webb": "www.lfv.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:_spf-a.lfv.se include:_spf-b.lfv.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "193.183.61.65"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sjöfartsverket",
+    "typ": "myndighet",
+    "domän": "sjofartsverket.se",
+    "webb": "www.sjofartsverket.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mx1.sjofartsverket.se.",
+      "10 mx2.sjofartsverket.se."
+    ],
+    "spf": [
+      "v=spf1 mx:mx1.sjofartsverket.se mx:mx2.sjofartsverket.se  ip4:161.54.135.125/32 ip4:161.54.135.126/32  include:all._spf.plma.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "161.54.135.57"
+    ],
+    "www_asn": "200060",
+    "www_asn_namn": "SMA-AS - Sjofartsverket, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Svenska kraftnät",
+    "typ": "myndighet",
+    "domän": "svk.se",
+    "webb": "www.svk.se",
+    "antal": "1",
+    "matt": "2026-10-08T190520Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "skypeext.svk.se."
+    ],
+    "mx": [
+      "10 nspamgw01.svk.se.",
+      "10 nspamgw02.svk.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:193.180.216.64/26 ip4:194.103.187.0/28 ip6:2a00:801:18:2::/64 ip6:2a00:801:18:3::/64 -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "172.64.149.31",
+      "104.18.38.225"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  }
+]
