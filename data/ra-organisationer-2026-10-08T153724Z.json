@@ -1,0 +1,881 @@
+[
+  {
+    "namn": "Botkyrka",
+    "typ": "kommun",
+    "domän": "botkyrka.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-botkyrka-se._domainkey.botkyrka.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 botkyrka-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com ip4:13.94.171.57/32 ip4:13.94.172.23/32 include:_spf.netono.se ip4:192.71.40.20/32 ip4:77.88.91.121/32 include:_spf.domeneshop.no ip4:81.109.161.67/32 include:_se_net.axiell.com include:amazonses.com ip4:31.216.227.218/32 a:webmail.sokigohosting.com a:smtp.sokigohosting.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.46"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Danderyd",
+    "typ": "kommun",
+    "domän": "danderyd.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-danderyd-se._domainkey.danderyd365.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQ"
+    ],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 danderyd-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf1.ist.com include:_se_net.axiell.com include:_uk.axiell.com ip4:31.216.224.217 ip4:31.216.224.218 ip4:193.234.170.177 ip4:193.234.175.20 a:webmail.sokigohosting.com include:_spf.google.com ip4:193.181.161.13 a:smtp.tripnet.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "193.234.170.18"
+    ],
+    "www_asn": "1257",
+    "www_asn_namn": "SWIPNET - Tele2 Sverige AB, EU",
+    "entra_status": 200
+  },
+  {
+    "namn": "Ekerö",
+    "typ": "kommun",
+    "domän": "ekero.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-ekero-se._domainkey.ekero.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 ekero-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:cavp7lv41h.powerspf.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.244"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Haninge",
+    "typ": "kommun",
+    "domän": "haninge.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-haninge-se._domainkey.haninge.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 haninge-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com ip4:212.247.0.192/26 a:spfallowed.haninge.se include:_se_net.axiell.com include:ciceron.cloud include:all._spf.plma.se include:_spf.improve.nordlo.cloud include:mail.nordicpeak.com include:_spf.ungapped.io -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.18.32.5",
+      "172.64.155.251"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Huddinge",
+    "typ": "kommun",
+    "domän": "huddinge.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-huddinge-se._domainkey.huddinge.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 huddinge-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:ip-spf.huddinge.se include:ms-spf.huddinge.se include:telia-spf.huddinge.se include:_se_net.axiell.com include:_uk.axiell.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.148"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Järfälla",
+    "typ": "kommun",
+    "domän": "jarfalla.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx include:_se_net.axiell.com include:mg-lcsse.tietoevry.com include:spf.multinet.com include:spf2.jarfalla.se include:spf.mailanyone.net ip4:194.68.158.3 a:noreply.momentum.se include:_uk.axiell.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.66"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Lidingö",
+    "typ": "kommun",
+    "domän": "lidingo.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-lidingo-se._domainkey.LIDINGO.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQ"
+    ],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 lidingo-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_lsspf1.lidingo.se include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "194.22.4.120"
+    ],
+    "www_asn": "3301",
+    "www_asn_namn": "TELIANET-SWEDEN - Telia Company AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nacka",
+    "typ": "kommun",
+    "domän": "nacka.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-nacka-se._domainkey.nacka.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "0 nacka-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:sendgrid.net include:_spf.nacka.se include:spf.multinet.com ip4:185.40.187.55 ip4:80.76.146.67 ip4:194.14.67.124 ip4:194.14.67.125 ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.16.16.3",
+      "104.16.17.3"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Norrtälje",
+    "typ": "kommun",
+    "domän": "norrtalje.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-norrtalje-se._domainkey.EDUNorrtalje.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "1 norrtalje-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:_se_net.axiell.com include:_uk.axiell.com include:mg-lcsse.tietoevry.com include:_customdomain.learnifier.se include:amazonses.com include:spfiol.infracontrol.com ip4:62.20.76.130 ip4:91.123.56.128 ip4:52.166.139.124 ip4:52.233.189.229  -all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "31.193.252.93"
+    ],
+    "www_asn": "56711",
+    "www_asn_namn": "Bluerange-AS - Bluerange Sweden AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nykvarn",
+    "typ": "kommun",
+    "domän": "nykvarn.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-nykvarn-se._domainkey.nykvarnse.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 mx include:spf.protection.outlook.com include:_spf.postal.oderland.com include:spf.mailanyone.net include:_se_net.axiell.com ip4:62.119.149.171 ip4:212.85.68.115 ip4:212.85.68.72 ip4:176.57.88.179 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "mail.nykvarn.se."
+    ],
+    "www_ip": [
+      "185.84.52.104"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Nynäshamn",
+    "typ": "kommun",
+    "domän": "nynashamn.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-nynashamn-se._domainkey.nynashamn.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 nynashamn-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:_spf.ungapped.com include:_spf1.nynashamn.se include:spf.flowmailer.net a:relay.proceedo.net ip4:212.85.68.72 ip4:192.162.4.69 include:_uk.axiell.com include:_se_net.axiell.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.244"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Salem",
+    "typ": "kommun",
+    "domän": "salem.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQ"
+    ],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "1 ASPMX.L.GOOGLE.COM.",
+      "10 ASPMX2.GOOGLEMAIL.COM.",
+      "10 ASPMX3.GOOGLEMAIL.COM.",
+      "5 ALT1.ASPMX.L.GOOGLE.COM.",
+      "5 ALT2.ASPMX.L.GOOGLE.COM."
+    ],
+    "spf": [
+      "v=spf1 a:webmail.sokigohosting.com ip4:50.31.156.96/27 ip4:104.245.209.192/26 ip4:195.58.108.74 include:_spf.google.com include:_se_net.axiell.com include:_uk.axiell.com include:mail.nordicpeak.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.254"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sigtuna",
+    "typ": "kommun",
+    "domän": "sigtuna.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 01mailin.sigtuna.se.",
+      "10 02mailin.sigtuna.se."
+    ],
+    "spf": [
+      "v=spf1 ip4:194.237.125.163 ip4:194.237.125.164 ip4:194.237.125.165 ip4:194.237.125.166  ip4:193.234.71.4 ip4:62.168.145.70 ip4:62.168.145.71 ip4:62.168.149.21 ip4:62.168.149.22 ip4:178.21.131.158 include:_spf.sigtuna.se include:_spfip.sigtuna.se include:stspg-customer.com include:spf.protection.outlook.com include:_se_net.axiell.com include:siriusit.net a:mail.sitevision-cloud.net a:noreply.momentum.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "ex.sigtuna.se."
+    ],
+    "www_ip": [
+      "185.84.52.224"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sollentuna",
+    "typ": "kommun",
+    "domän": "sollentuna.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-sollentuna-se._domainkey.sollentuna.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQ"
+    ],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.google.com ip4:193.93.250.233 ip4:81.109.161.67/32 ip4:37.221.229.140 include:_spam10.jkp.invid.se ip4:212.247.85.136/32 include:smtpspf.dgcsystems.net a:mail.sitevision-cloud.net include:spf.protection.outlook.com include:spf.mailanyone.net ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip4:185.121.204.223/32 ip4:37.221.229.133 ip4:91.123.56.128 ip4:85.119.129.0/24 ip6:2a02:c58:4:4::/64 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "104.18.37.140",
+      "172.64.150.116"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Solna",
+    "typ": "kommun",
+    "domän": "solna.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-solna-se._domainkey.solna.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 solna-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:_se_net.axiell.com include:_uk.axiell.com include:_spf.anpdm.com a:mailrelay.inviddrift.se a:webmail.sokigohosting.com include:mail.sitevision-cloud.net ip4:91.106.198.136 ip4:217.28.202.8 ip4:217.28.204.8 ip4:37.221.229.133 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.224"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Stockholm",
+    "typ": "kommun",
+    "domän": "stockholm.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 uxantispam001.stockholm.se.",
+      "10 uxantispam002.stockholm.se."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf.stockholm.se include:sendgrid.net include:elastx.email ip4:84.19.149.64/27 ip4:46.254.8.64/28 ip4:81.216.59.150/30 ip4:217.114.80.100 ip4:54.240.89.67 ip4:168.119.7.175 ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "217.21.237.158"
+    ],
+    "www_asn": "29672",
+    "www_asn_namn": "STEK-AS - S:t Erik Kommunikation AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Sundbyberg",
+    "typ": "kommun",
+    "domän": "sundbyberg.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-sundbyberg-se._domainkey.sundbybergsstad.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "5 sundbyberg-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:spf.protection.outlook.com include:spf1.sundbyberg.se include:spf2.sundbyberg.se include:spf3.sundbyberg.se -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.253"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Södertälje",
+    "typ": "kommun",
+    "domän": "sodertalje.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-sodertalje-se._domainkey.telge.a-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 sodertalje-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:_spf.idrelay.com include:_spf.sodertalje.se include:spf.protection.outlook.com include:spf.gansend.com include:spfiol.infracontrol.com ip4:46.59.104.5 ip4:193.182.234.44 include:sendgrid.net include:_se_net.axiell.com include:spf.logicalware.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "172.64.151.183",
+      "104.18.36.73"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  },
+  {
+    "namn": "Tyresö",
+    "typ": "kommun",
+    "domän": "tyreso.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 mail.tyreso.se."
+    ],
+    "spf": [
+      "v=spf1 include:49z86jg4td.powerspf.com -all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.75"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Täby",
+    "typ": "kommun",
+    "domän": "taby.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-taby-se._domainkey.tabykommun.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 taby-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx include:_tkspf1.taby.se include:spf.protection.outlook.com ip4:194.237.77.8 -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.148"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Upplands-Bro",
+    "typ": "kommun",
+    "domän": "upplands-bro.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-upplandsbro-se02b._domainkey.upplandsbro.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "0 upplandsbro-se02b.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a a:webmail.sokigohosting.com include:spf.protection.outlook.com include:_se_net.axiell.com include:_spf.flowbird.io include:_uk.axiell.com include:_spf.improve.nordlo.cloud include:mg-lcsse.tietoevry.com include:spf.wm.net ip4:212.85.68.72 ip4:80.166.12.0/24 ip4:188.180.65.192/29 ip4:31.216.227.0/24 ip4:81.109.161.67 ip4:54.171.200.119 ip4:185.11.96.16/28 a:noreply.momentum.se -all"
+    ],
+    "verifiering": [
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "185.84.52.18"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Upplands Väsby",
+    "typ": "kommun",
+    "domän": "upplandsvasby.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "EnterpriseRegistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 se.mx1.mailanyone.net.",
+      "20 se.mx2.mx25.net.",
+      "30 se.mx3.mailanyone.net.",
+      "40 se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 ip4:213.180.72.144/28 ip4:213.242.145.58 ip4:212.85.68.72 ip4:194.132.117.189 ip4:92.42.75.63 ip4:194.116.212.0/23 ip4:54.72.160.116 ip4:212.247.85.136 ip4:213.212.28.15 ip4:212.112.165.229 ip4:217.28.202.8 ip4:217.28.204.8 include:_uk.axiell.com include:_se_net.axiell.com include:spf.mailanyone.net include:_spf.google.com include:_spf.digitalfox.se include:speedadmin.dk include:mg-lcsse.tietoevry.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "post.upplandsvasby.se."
+    ],
+    "www_ip": [
+      "185.84.52.11"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Vallentuna",
+    "typ": "kommun",
+    "domän": "vallentuna.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 mx.vallentuna.se.",
+      "40 vallentuna-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:195.67.32.107 ip4:195.67.32.109 ip4:195.67.83.119 a:webmail.sokigohosting.com include:mail.sitevision-cloud.net include:all._spf.plma.se include:_se_net.axiell.com include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.33"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Vaxholm",
+    "typ": "kommun",
+    "domän": "vaxholm.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-vaxholm-se._domainkey.vaxholm2.a-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 vaxholm-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 a a:mailgw01.vaxholm.se ip4:195.5.111.37 ip4:195.5.111.40 ip4:213.131.154.7 include:_uk.axiell.com include:_se_net.axiell.com include:_spf.100procent.com include:_vaspf.fxh42.net include:_spf.ungapped.io include:spf.protection.outlook.com ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.244"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Värmdö",
+    "typ": "kommun",
+    "domän": "varmdo.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-varmdo-se._domainkey.vkadm.onmicrosoft.com."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [],
+    "mx": [
+      "10 varmdo-se.mail.protection.outlook.com."
+    ],
+    "spf": [
+      "v=spf1 include:d25j6j6jsc.powerspf.com ~all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "185.84.52.54"
+    ],
+    "www_asn": "41174",
+    "www_asn_namn": "SITEVISION-ASN - SiteVision AB, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Österåker",
+    "typ": "kommun",
+    "domän": "osteraker.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 osteraker-se.mx1.staysecuregroup.com.",
+      "20 osteraker-se.mx2.staysecuregroup.net."
+    ],
+    "spf": [
+      "v=spf1 mx ip4:91.198.92.0/24 ip4:78.108.48.32/27 include:spfiol.infracontrol.com include:_spf.google.com include:spf.tipimail.com a:smtp.tripnet.se include:_spf.tem.scaleway.com include:spf.protection.outlook.com include:%{l}._spf.osteraker.se ~all"
+    ],
+    "verifiering": [
+      "MS="
+    ],
+    "autodiscover_cname": [],
+    "www_ip": [
+      "91.198.92.190"
+    ],
+    "www_asn": "56700",
+    "www_asn_namn": "OSTERAKER - Osterakers Kommun, SE",
+    "entra_status": 200
+  },
+  {
+    "namn": "Region Stockholm",
+    "typ": "region",
+    "domän": "regionstockholm.se",
+    "matt": "2026-10-08T153724Z",
+    "dkim_selector1_cname": [
+      "selector1-regionstockholm-se._domainkey.sllse.p-v1.dkim.mail.microsoft."
+    ],
+    "dkim_google_txt": [],
+    "enterpriseregistration_cname": [
+      "enterpriseregistration.windows.net."
+    ],
+    "lyncdiscover_cname": [
+      "webdir.online.lync.com."
+    ],
+    "mx": [
+      "10 regionstockholm-se.mx1.mailanyone.net.",
+      "20 regionstockholm-se.mx2.mx25.net.",
+      "30 regionstockholm-se.mx3.mailanyone.net.",
+      "40 regionstockholm-se.mx4.mx25.net."
+    ],
+    "spf": [
+      "v=spf1 ip4:192.44.242.0/23 include:_spf.staysecuregroup.com include:spf.protection.outlook.com -all"
+    ],
+    "verifiering": [
+      "MS=",
+      "google-site-verification="
+    ],
+    "autodiscover_cname": [
+      "autodiscover.outlook.com."
+    ],
+    "www_ip": [
+      "104.18.39.34",
+      "172.64.148.222"
+    ],
+    "www_asn": "13335",
+    "www_asn_namn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "entra_status": 200
+  }
+]

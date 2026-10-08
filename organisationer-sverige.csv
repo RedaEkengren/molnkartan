@@ -1,0 +1,311 @@
+kod,namn,typ,lan,domän
+0114,Upplands Väsby,kommun,Stockholms län,upplandsvasby.se
+0115,Vallentuna,kommun,Stockholms län,vallentuna.se
+0117,Österåker,kommun,Stockholms län,osteraker.se
+0120,Värmdö,kommun,Stockholms län,varmdo.se
+0123,Järfälla,kommun,Stockholms län,jarfalla.se
+0125,Ekerö,kommun,Stockholms län,ekero.se
+0126,Huddinge,kommun,Stockholms län,huddinge.se
+0127,Botkyrka,kommun,Stockholms län,botkyrka.se
+0128,Salem,kommun,Stockholms län,salem.se
+0136,Haninge,kommun,Stockholms län,haninge.se
+0138,Tyresö,kommun,Stockholms län,tyreso.se
+0139,Upplands-Bro,kommun,Stockholms län,upplands-bro.se
+0140,Nykvarn,kommun,Stockholms län,nykvarn.se
+0160,Täby,kommun,Stockholms län,taby.se
+0162,Danderyd,kommun,Stockholms län,danderyd.se
+0163,Sollentuna,kommun,Stockholms län,sollentuna.se
+0180,Stockholm,kommun,Stockholms län,stockholm.se
+0181,Södertälje,kommun,Stockholms län,sodertalje.se
+0182,Nacka,kommun,Stockholms län,nacka.se
+0183,Sundbyberg,kommun,Stockholms län,sundbyberg.se
+0184,Solna,kommun,Stockholms län,solna.se
+0186,Lidingö,kommun,Stockholms län,lidingo.se
+0187,Vaxholm,kommun,Stockholms län,vaxholm.se
+0188,Norrtälje,kommun,Stockholms län,norrtalje.se
+0191,Sigtuna,kommun,Stockholms län,sigtuna.se
+0192,Nynäshamn,kommun,Stockholms län,nynashamn.se
+0305,Håbo,kommun,Uppsala län,habo.se
+0319,Älvkarleby,kommun,Uppsala län,alvkarleby.se
+0330,Knivsta,kommun,Uppsala län,knivsta.se
+0331,Heby,kommun,Uppsala län,heby.se
+0360,Tierp,kommun,Uppsala län,tierp.se
+0380,Uppsala,kommun,Uppsala län,uppsala.se
+0381,Enköping,kommun,Uppsala län,enkoping.se
+0382,Östhammar,kommun,Uppsala län,osthammar.se
+0428,Vingåker,kommun,Södermanlands län,vingaker.se
+0461,Gnesta,kommun,Södermanlands län,gnesta.se
+0480,Nyköping,kommun,Södermanlands län,nykoping.se
+0481,Oxelösund,kommun,Södermanlands län,oxelosund.se
+0482,Flen,kommun,Södermanlands län,flen.se
+0483,Katrineholm,kommun,Södermanlands län,katrineholm.se
+0484,Eskilstuna,kommun,Södermanlands län,eskilstuna.se
+0486,Strängnäs,kommun,Södermanlands län,strangnas.se
+0488,Trosa,kommun,Södermanlands län,trosa.se
+0509,Ödeshög,kommun,Östergötlands län,odeshog.se
+0512,Ydre,kommun,Östergötlands län,ydre.se
+0513,Kinda,kommun,Östergötlands län,kinda.se
+0560,Boxholm,kommun,Östergötlands län,boxholm.se
+0561,Åtvidaberg,kommun,Östergötlands län,atvidaberg.se
+0562,Finspång,kommun,Östergötlands län,finspang.se
+0563,Valdemarsvik,kommun,Östergötlands län,valdemarsvik.se
+0580,Linköping,kommun,Östergötlands län,linkoping.se
+0581,Norrköping,kommun,Östergötlands län,norrkoping.se
+0582,Söderköping,kommun,Östergötlands län,soderkoping.se
+0583,Motala,kommun,Östergötlands län,motala.se
+0584,Vadstena,kommun,Östergötlands län,vadstena.se
+0586,Mjölby,kommun,Östergötlands län,mjolby.se
+0604,Aneby,kommun,Jönköpings län,aneby.se
+0617,Gnosjö,kommun,Jönköpings län,gnosjo.se
+0642,Mullsjö,kommun,Jönköpings län,mullsjo.se
+0643,Habo,kommun,Jönköpings län,habokommun.se
+0662,Gislaved,kommun,Jönköpings län,gislaved.se
+0665,Vaggeryd,kommun,Jönköpings län,vaggeryd.se
+0680,Jönköping,kommun,Jönköpings län,jonkoping.se
+0682,Nässjö,kommun,Jönköpings län,nassjo.se
+0683,Värnamo,kommun,Jönköpings län,varnamo.se
+0684,Sävsjö,kommun,Jönköpings län,savsjo.se
+0685,Vetlanda,kommun,Jönköpings län,vetlanda.se
+0686,Eksjö,kommun,Jönköpings län,eksjo.se
+0687,Tranås,kommun,Jönköpings län,tranas.se
+0760,Uppvidinge,kommun,Kronobergs län,uppvidinge.se
+0761,Lessebo,kommun,Kronobergs län,lessebo.se
+0763,Tingsryd,kommun,Kronobergs län,tingsryd.se
+0764,Alvesta,kommun,Kronobergs län,alvesta.se
+0765,Älmhult,kommun,Kronobergs län,almhult.se
+0767,Markaryd,kommun,Kronobergs län,markaryd.se
+0780,Växjö,kommun,Kronobergs län,vaxjo.se
+0781,Ljungby,kommun,Kronobergs län,ljungby.se
+0821,Högsby,kommun,Kalmar län,hogsby.se
+0834,Torsås,kommun,Kalmar län,torsas.se
+0840,Mörbylånga,kommun,Kalmar län,morbylanga.se
+0860,Hultsfred,kommun,Kalmar län,hultsfred.se
+0861,Mönsterås,kommun,Kalmar län,monsteras.se
+0862,Emmaboda,kommun,Kalmar län,emmaboda.se
+0880,Kalmar,kommun,Kalmar län,kalmar.se
+0881,Nybro,kommun,Kalmar län,nybro.se
+0882,Oskarshamn,kommun,Kalmar län,oskarshamn.se
+0883,Västervik,kommun,Kalmar län,vastervik.se
+0884,Vimmerby,kommun,Kalmar län,vimmerby.se
+0885,Borgholm,kommun,Kalmar län,borgholm.se
+0980,Gotland,kommun,Gotlands län,gotland.se
+1060,Olofström,kommun,Blekinge län,olofstrom.se
+1080,Karlskrona,kommun,Blekinge län,karlskrona.se
+1081,Ronneby,kommun,Blekinge län,ronneby.se
+1082,Karlshamn,kommun,Blekinge län,karlshamn.se
+1083,Sölvesborg,kommun,Blekinge län,solvesborg.se
+1214,Svalöv,kommun,Skåne län,svalov.se
+1230,Staffanstorp,kommun,Skåne län,staffanstorp.se
+1231,Burlöv,kommun,Skåne län,burlov.se
+1233,Vellinge,kommun,Skåne län,vellinge.se
+1256,Östra Göinge,kommun,Skåne län,ostragoinge.se
+1257,Örkelljunga,kommun,Skåne län,orkelljunga.se
+1260,Bjuv,kommun,Skåne län,bjuv.se
+1261,Kävlinge,kommun,Skåne län,kavlinge.se
+1262,Lomma,kommun,Skåne län,lomma.se
+1263,Svedala,kommun,Skåne län,svedala.se
+1264,Skurup,kommun,Skåne län,skurup.se
+1265,Sjöbo,kommun,Skåne län,sjobo.se
+1266,Hörby,kommun,Skåne län,horby.se
+1267,Höör,kommun,Skåne län,hoor.se
+1270,Tomelilla,kommun,Skåne län,tomelilla.se
+1272,Bromölla,kommun,Skåne län,bromolla.se
+1273,Osby,kommun,Skåne län,osby.se
+1275,Perstorp,kommun,Skåne län,perstorp.se
+1276,Klippan,kommun,Skåne län,klippan.se
+1277,Åstorp,kommun,Skåne län,astorp.se
+1278,Båstad,kommun,Skåne län,bastad.se
+1280,Malmö,kommun,Skåne län,malmo.se
+1281,Lund,kommun,Skåne län,lund.se
+1282,Landskrona,kommun,Skåne län,landskrona.se
+1283,Helsingborg,kommun,Skåne län,helsingborg.se
+1284,Höganäs,kommun,Skåne län,hoganas.se
+1285,Eslöv,kommun,Skåne län,eslov.se
+1286,Ystad,kommun,Skåne län,ystad.se
+1287,Trelleborg,kommun,Skåne län,trelleborg.se
+1290,Kristianstad,kommun,Skåne län,kristianstad.se
+1291,Simrishamn,kommun,Skåne län,simrishamn.se
+1292,Ängelholm,kommun,Skåne län,engelholm.se
+1293,Hässleholm,kommun,Skåne län,hassleholm.se
+1315,Hylte,kommun,Hallands län,hylte.se
+1380,Halmstad,kommun,Hallands län,halmstad.se
+1381,Laholm,kommun,Hallands län,laholm.se
+1382,Falkenberg,kommun,Hallands län,falkenberg.se
+1383,Varberg,kommun,Hallands län,varberg.se
+1384,Kungsbacka,kommun,Hallands län,kungsbacka.se
+1401,Härryda,kommun,Västra Götalands län,harryda.se
+1402,Partille,kommun,Västra Götalands län,partille.se
+1407,Öckerö,kommun,Västra Götalands län,ockero.se
+1415,Stenungsund,kommun,Västra Götalands län,stenungsund.se
+1419,Tjörn,kommun,Västra Götalands län,tjorn.se
+1421,Orust,kommun,Västra Götalands län,orust.se
+1427,Sotenäs,kommun,Västra Götalands län,sotenas.se
+1430,Munkedal,kommun,Västra Götalands län,munkedal.se
+1435,Tanum,kommun,Västra Götalands län,tanum.se
+1438,Dals-Ed,kommun,Västra Götalands län,dalsed.se
+1439,Färgelanda,kommun,Västra Götalands län,fargelanda.se
+1440,Ale,kommun,Västra Götalands län,ale.se
+1441,Lerum,kommun,Västra Götalands län,lerum.se
+1442,Vårgårda,kommun,Västra Götalands län,vargarda.se
+1443,Bollebygd,kommun,Västra Götalands län,bollebygd.se
+1444,Grästorp,kommun,Västra Götalands län,grastorp.se
+1445,Essunga,kommun,Västra Götalands län,essunga.se
+1446,Karlsborg,kommun,Västra Götalands län,karlsborg.se
+1447,Gullspång,kommun,Västra Götalands län,gullspang.se
+1452,Tranemo,kommun,Västra Götalands län,tranemo.se
+1460,Bengtsfors,kommun,Västra Götalands län,bengtsfors.se
+1461,Mellerud,kommun,Västra Götalands län,mellerud.se
+1462,Lilla Edet,kommun,Västra Götalands län,lillaedet.se
+1463,Mark,kommun,Västra Götalands län,mark.se
+1465,Svenljunga,kommun,Västra Götalands län,svenljunga.se
+1466,Herrljunga,kommun,Västra Götalands län,herrljunga.se
+1470,Vara,kommun,Västra Götalands län,vara.se
+1471,Götene,kommun,Västra Götalands län,gotene.se
+1472,Tibro,kommun,Västra Götalands län,tibro.se
+1473,Töreboda,kommun,Västra Götalands län,toreboda.se
+1480,Göteborg,kommun,Västra Götalands län,goteborg.se
+1481,Mölndal,kommun,Västra Götalands län,molndal.se
+1482,Kungälv,kommun,Västra Götalands län,kungalv.se
+1484,Lysekil,kommun,Västra Götalands län,lysekil.se
+1485,Uddevalla,kommun,Västra Götalands län,uddevalla.se
+1486,Strömstad,kommun,Västra Götalands län,stromstad.se
+1487,Vänersborg,kommun,Västra Götalands län,vanersborg.se
+1488,Trollhättan,kommun,Västra Götalands län,trollhattan.se
+1489,Alingsås,kommun,Västra Götalands län,alingsas.se
+1490,Borås,kommun,Västra Götalands län,boras.se
+1491,Ulricehamn,kommun,Västra Götalands län,ulricehamn.se
+1492,Åmål,kommun,Västra Götalands län,amal.se
+1493,Mariestad,kommun,Västra Götalands län,mariestad.se
+1494,Lidköping,kommun,Västra Götalands län,lidkoping.se
+1495,Skara,kommun,Västra Götalands län,skara.se
+1496,Skövde,kommun,Västra Götalands län,skovde.se
+1497,Hjo,kommun,Västra Götalands län,hjo.se
+1498,Tidaholm,kommun,Västra Götalands län,tidaholm.se
+1499,Falköping,kommun,Västra Götalands län,falkoping.se
+1715,Kil,kommun,Värmlands län,kil.se
+1730,Eda,kommun,Värmlands län,eda.se
+1737,Torsby,kommun,Värmlands län,torsby.se
+1760,Storfors,kommun,Värmlands län,storfors.se
+1761,Hammarö,kommun,Värmlands län,hammaro.se
+1762,Munkfors,kommun,Värmlands län,munkfors.se
+1763,Forshaga,kommun,Värmlands län,forshaga.se
+1764,Grums,kommun,Värmlands län,grums.se
+1765,Årjäng,kommun,Värmlands län,arjang.se
+1766,Sunne,kommun,Värmlands län,sunne.se
+1780,Karlstad,kommun,Värmlands län,karlstad.se
+1781,Kristinehamn,kommun,Värmlands län,kristinehamn.se
+1782,Filipstad,kommun,Värmlands län,filipstad.se
+1783,Hagfors,kommun,Värmlands län,hagfors.se
+1784,Arvika,kommun,Värmlands län,arvika.se
+1785,Säffle,kommun,Värmlands län,saffle.se
+1814,Lekeberg,kommun,Örebro län,lekeberg.se
+1860,Laxå,kommun,Örebro län,laxa.se
+1861,Hallsberg,kommun,Örebro län,hallsberg.se
+1862,Degerfors,kommun,Örebro län,degerfors.se
+1863,Hällefors,kommun,Örebro län,hellefors.se
+1864,Ljusnarsberg,kommun,Örebro län,ljusnarsberg.se
+1880,Örebro,kommun,Örebro län,orebro.se
+1881,Kumla,kommun,Örebro län,kumla.se
+1882,Askersund,kommun,Örebro län,askersund.se
+1883,Karlskoga,kommun,Örebro län,karlskoga.se
+1884,Nora,kommun,Örebro län,nora.se
+1885,Lindesberg,kommun,Örebro län,lindesberg.se
+1904,Skinnskatteberg,kommun,Västmanlands län,skinnskatteberg.se
+1907,Surahammar,kommun,Västmanlands län,surahammar.se
+1960,Kungsör,kommun,Västmanlands län,kungsor.se
+1961,Hallstahammar,kommun,Västmanlands län,hallstahammar.se
+1962,Norberg,kommun,Västmanlands län,norberg.se
+1980,Västerås,kommun,Västmanlands län,vasteras.se
+1981,Sala,kommun,Västmanlands län,sala.se
+1982,Fagersta,kommun,Västmanlands län,fagersta.se
+1983,Köping,kommun,Västmanlands län,koping.se
+1984,Arboga,kommun,Västmanlands län,arboga.se
+2021,Vansbro,kommun,Dalarnas län,vansbro.se
+2023,Malung-Sälen,kommun,Dalarnas län,malung-salen.se
+2026,Gagnef,kommun,Dalarnas län,gagnef.se
+2029,Leksand,kommun,Dalarnas län,leksand.se
+2031,Rättvik,kommun,Dalarnas län,rattvik.se
+2034,Orsa,kommun,Dalarnas län,orsa.se
+2039,Älvdalen,kommun,Dalarnas län,alvdalen.se
+2061,Smedjebacken,kommun,Dalarnas län,smedjebacken.se
+2062,Mora,kommun,Dalarnas län,morakommun.se
+2080,Falun,kommun,Dalarnas län,falun.se
+2081,Borlänge,kommun,Dalarnas län,borlange.se
+2082,Säter,kommun,Dalarnas län,sater.se
+2083,Hedemora,kommun,Dalarnas län,hedemora.se
+2084,Avesta,kommun,Dalarnas län,avesta.se
+2085,Ludvika,kommun,Dalarnas län,ludvika.se
+2101,Ockelbo,kommun,Gävleborgs län,ockelbo.se
+2104,Hofors,kommun,Gävleborgs län,hofors.se
+2121,Ovanåker,kommun,Gävleborgs län,ovanaker.se
+2132,Nordanstig,kommun,Gävleborgs län,nordanstig.se
+2161,Ljusdal,kommun,Gävleborgs län,ljusdal.se
+2180,Gävle,kommun,Gävleborgs län,gavle.se
+2181,Sandviken,kommun,Gävleborgs län,sandviken.se
+2182,Söderhamn,kommun,Gävleborgs län,soderhamn.se
+2183,Bollnäs,kommun,Gävleborgs län,bollnas.se
+2184,Hudiksvall,kommun,Gävleborgs län,hudiksvall.se
+2260,Ånge,kommun,Västernorrlands län,ange.se
+2262,Timrå,kommun,Västernorrlands län,timra.se
+2280,Härnösand,kommun,Västernorrlands län,harnosand.se
+2281,Sundsvall,kommun,Västernorrlands län,sundsvall.se
+2282,Kramfors,kommun,Västernorrlands län,kramfors.se
+2283,Sollefteå,kommun,Västernorrlands län,solleftea.se
+2284,Örnsköldsvik,kommun,Västernorrlands län,ornskoldsvik.se
+2303,Ragunda,kommun,Jämtlands län,ragunda.se
+2305,Bräcke,kommun,Jämtlands län,bracke.se
+2309,Krokom,kommun,Jämtlands län,krokom.se
+2313,Strömsund,kommun,Jämtlands län,stromsund.se
+2321,Åre,kommun,Jämtlands län,are.se
+2326,Berg,kommun,Jämtlands län,berg.se
+2361,Härjedalen,kommun,Jämtlands län,herjedalen.se
+2380,Östersund,kommun,Jämtlands län,ostersund.se
+2401,Nordmaling,kommun,Västerbottens län,nordmaling.se
+2403,Bjurholm,kommun,Västerbottens län,bjurholm.se
+2404,Vindeln,kommun,Västerbottens län,vindeln.se
+2409,Robertsfors,kommun,Västerbottens län,robertsfors.se
+2417,Norsjö,kommun,Västerbottens län,norsjo.se
+2418,Malå,kommun,Västerbottens län,mala.se
+2421,Storuman,kommun,Västerbottens län,storuman.se
+2422,Sorsele,kommun,Västerbottens län,sorsele.se
+2425,Dorotea,kommun,Västerbottens län,dorotea.se
+2460,Vännäs,kommun,Västerbottens län,vannas.se
+2462,Vilhelmina,kommun,Västerbottens län,vilhelmina.se
+2463,Åsele,kommun,Västerbottens län,asele.se
+2480,Umeå,kommun,Västerbottens län,umea.se
+2481,Lycksele,kommun,Västerbottens län,lycksele.se
+2482,Skellefteå,kommun,Västerbottens län,skelleftea.se
+2505,Arvidsjaur,kommun,Norrbottens län,arvidsjaur.se
+2506,Arjeplog,kommun,Norrbottens län,arjeplog.se
+2510,Jokkmokk,kommun,Norrbottens län,jokkmokk.se
+2513,Överkalix,kommun,Norrbottens län,overkalix.se
+2514,Kalix,kommun,Norrbottens län,kalix.se
+2518,Övertorneå,kommun,Norrbottens län,overtornea.se
+2521,Pajala,kommun,Norrbottens län,pajala.se
+2523,Gällivare,kommun,Norrbottens län,gellivare.se
+2560,Älvsbyn,kommun,Norrbottens län,alvsbyn.se
+2580,Luleå,kommun,Norrbottens län,lulea.se
+2581,Piteå,kommun,Norrbottens län,pitea.se
+2582,Boden,kommun,Norrbottens län,boden.se
+2583,Haparanda,kommun,Norrbottens län,haparanda.se
+2584,Kiruna,kommun,Norrbottens län,kiruna.se
+01,Region Stockholm,region,Stockholms län,regionstockholm.se
+03,Region Uppsala,region,Uppsala län,regionuppsala.se
+04,Region Sörmland,region,Södermanlands län,regionsormland.se
+05,Region Östergötland,region,Östergötlands län,regionostergotland.se
+06,Region Jönköpings län,region,Jönköpings län,rjl.se
+07,Region Kronoberg,region,Kronobergs län,regionkronoberg.se
+08,Region Kalmar län,region,Kalmar län,regionkalmar.se
+10,Region Blekinge,region,Blekinge län,regionblekinge.se
+12,Region Skåne,region,Skåne län,skane.se
+13,Region Halland,region,Hallands län,regionhalland.se
+14,Västra Götalandsregionen,region,Västra Götalands län,vgregion.se
+17,Region Värmland,region,Värmlands län,regionvarmland.se
+18,Region Örebro län,region,Örebro län,regionorebrolan.se
+19,Region Västmanland,region,Västmanlands län,regionvastmanland.se
+20,Region Dalarna,region,Dalarnas län,regiondalarna.se
+21,Region Gävleborg,region,Gävleborgs län,regiongavleborg.se
+22,Region Västernorrland,region,Västernorrlands län,rvn.se
+23,Region Jämtland Härjedalen,region,Jämtlands län,regionjh.se
+24,Region Västerbotten,region,Västerbottens län,regionvasterbotten.se
+25,Region Norrbotten,region,Norrbottens län,norrbotten.se
