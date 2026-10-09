@@ -70,6 +70,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - run: pip install dnspython==2.7.0
       - name: Sidan följer reglerna
         run: python3 -m unittest -v tests/test_sida.py tests/test_hygien.py tests/test_fynd.py
       - uses: actions/configure-pages@v5
