@@ -169,3 +169,17 @@ main { padding-top: 20px; }
   .sidhuvud .meny { order: 3; width: 100%; }
 }
 @media (min-width: 721px) { .sidhuvud .meny { margin-left: auto; } }
+.meny .sa-gjordes { display: inline-flex; align-items: center; gap: 6px; }
+.gubbe-mini { width: 22px; height: 18px; color: var(--accent); flex: none; }
+.om-hero { display: flex; align-items: center; gap: 24px; }
+.om-hero h1 { margin-top: 0; }
+.gubbe { width: 150px; height: 125px; flex: none; color: var(--accent); animation: svava 4s ease-in-out infinite; }
+.gubbe .ogon, .gubbe-mini .ogon { transform-origin: 53px 60px; animation: blinka 5s infinite; }
+@keyframes svava { 50% { transform: translateY(-6px); } }
+@keyframes blinka { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(0.1); } }
+@media (prefers-reduced-motion: reduce) { .gubbe, .gubbe .ogon, .gubbe-mini .ogon { animation: none; } }
+@media (max-width: 720px) { .om-hero { flex-direction: column; align-items: flex-start; gap: 8px; } .gubbe { width: 100px; height: 84px; } }
+.steg { padding-left: 22px; max-width: 72ch; }
+.steg li { margin-bottom: 12px; }
+.om-kort h3 { margin: 0 0 4px; }
+.om-kort p { margin: 0 0 10px; color: var(--dampad); font-size: 0.92rem; }
