@@ -13,7 +13,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "triangulering.py", "sakerhet.py", "fynd_siffror.py", "tests/**"]
+    paths: [".github/workflows/matning.yml", "docs/**", "data/**", "klassa*.py", "webb_klassa.py", "leverantorer.csv", "bygg_sida.py", "triangulering.py", "sakerhet.py", "fynd_siffror.py", "tests/**"]
 
 permissions:
   contents: write
