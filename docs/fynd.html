@@ -17,36 +17,25 @@
     <button class="temaknapp" type="button" aria-label="Byt läge"><svg class="mane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
   </header>
   <h1>Fynd</h1>
-  <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan, så att det går att pröva själv. Fel vi hittat i vår egen metod står här också. Alla siffror räknas fram av <code>fynd_siffror.py</code> och kontrolleras mot sidan av ett test.</p>
+  <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan. Alla siffror räknas fram av <code>fynd_siffror.py</code> och kontrolleras mot sidan av ett test. Fel i vår egen metod står under <a href="#rattelser">Rättelser och granskning</a>.</p>
 
-  <article class="fynd" id="granskning-codex">
-    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
-    <h2>En granskare från en annan AI-modell hittade att vi påstod för mycket</h2>
-    <p>Efter våra egna granskningar lät vi Codex, en modell från ett annat företag, granska hela projektet. Den hittade fel som våra granskare inte såg, eftersom de byggde på samma modell som oss. De viktigaste:</p>
-    <ul>
-      <li>Webbmätningen registrerar <b>anropsförsök</b> i webbläsarens nätverkslogg, inte att kontakten lyckades. Fynden sa "kontaktar".</li>
-      <li>Microsoft-klassningen av e-post bygger på olika slags bevis: MX för de flesta, men bara publicerad konfiguration (SPF, DKIM) för en del. Det redovisas nu separat.</li>
-      <li>Kontrollerna kallades oberoende trots att flera delar källa eller klassning med huvudmätningen. Varje kontroll beskriver nu vad den kan upptäcka.</li>
-      <li>"Hälften av kommunerna har inga tjänster på amerikanska nät" var ett frånvaropåstående som mätningen inte kan bära, och kontrollen godkände ett fall där den andra källan hittade amerikanska namn.</li>
-      <li>Att alla siffror är "lägsta nivåer" var inte belagt för varje mått, och projektets fråga om "beroende" mäts inte direkt.</li>
-      <li>Koden kan i vissa fel (DNS-timeout, Chrome-krasch, ofullständig paginering) tyst ge ett negativt svar i stället för "kunde inte mätas". Inga publicerade siffror har visats vara påverkade, men det rättas före nästa mätning.</li>
-    </ul>
-    <p>Alla punkter finns som <a href="https://github.com/RedaEkengren/molnkartan/issues">ärenden på GitHub</a> med Codex motprov.</p>
-  </article>
+  <div class="huvudfynd"><a href="#exchange-online"><b>305 av 310</b><span>kommuner och regioner har sin domän registrerad i Microsofts e-posttjänst</span></a><a href="#myndigheter-ga"><b>30 av 193</b><span>mätbara myndighetsdomäner anropar Google före samtycke</span></a><a href="#tjanster"><b>150 av 289 kommuner</b><span>hade inga tjänstenamn på amerikanska nät i certifikatloggarna</span></a></div>
 
-  <article class="fynd" id="granskning">
-    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
-    <h2>En oberoende granskning hittade fel i våra fynd</h2>
-    <p>Innan vi spred sidan lät vi en separat granskare, som inte byggt projektet och bara hade läsrätt, försöka motbevisa varje fynd mot rådatan. Den hittade bland annat:</p>
-    <ul>
-      <li>att rubriken om Google Analytics var fel för fem kommuner som bara laddar Tag Manager,</li>
-      <li>att Exchange Online-fyndet påstod mer än mätningen visar,</li>
-      <li>att antalet med samtyckesverktyg på amerikanskt nät var 31, inte 28,</li>
-      <li>att två automatiska körningar som inte klarade sina krav ändå hade publicerats,</li>
-      <li>att DMARC <code>p=none</code> var felaktigt beskrivet, och</li>
-      <li>att Gotlands län, med en enda organisation, avslöjade enskilda värden trots att säkerhetsgrunderna bara ska redovisas i grupp.</li>
-    </ul>
-    <p>Allt är rättat på den här sidan. Körningar som inte klarar sina krav publiceras inte längre, och varje siffra här kontrolleras automatiskt mot rådatan.</p>
+  <nav class="innehall" aria-label="Innehåll">
+    <div><h2>Fynd</h2><ol><li><a href="#exchange-online">Nästan alla kommuner har sin domän registrerad i Microsofts e-posttjänst</a></li><li><a href="#tjanster">Hos hälften av kommunerna hittades inga tjänstenamn på amerikanska nät</a></li><li><a href="#myndigheter-ga">Myndighetswebbplatser anropar Google före samtycke</a></li><li><a href="#google-analytics">Sexton kommuner anropar Google Analytics eller Tag Manager före samtycke</a></li><li><a href="#samtyckesverktyget">Cookiebannern själv anropas ofta på ett amerikanskt nät</a></li><li><a href="#browsealoud">Uppläsningstjänsten är näst vanligast på amerikanska nät</a></li><li><a href="#ingen-tredjepart">Tjugo gjorde inga anrop till tredjeparter före samtycke</a></li><li><a href="#google-tar-emot">Google tar emot, DKIM publicerad hos Microsoft</a></li><li><a href="#sakerhetsgrunder">Var tredje kommun har DMARC i övervakningsläge</a></li><li><a href="#tenant">Alla utom en har ett Microsoft-konto</a></li><li><a href="#skatteverket">Skatteverket syns knappt i mätningen, och det är ett fynd</a></li><li><a href="#vi-sjalva">Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</a></li></ol></div>
+    <div><h2><a href="#rattelser">Rättelser och granskning</a></h2><ol><li><a href="#granskning-codex">En granskare från en annan AI-modell hittade att vi påstod för mycket</a></li><li><a href="#granskning">En oberoende granskning hittade fel i våra fynd</a></li><li><a href="#holdout">Två prov föll innan mätningen av webbplatser höll</a></li><li><a href="#dkim-felet">Animationen hittade ett fel i våra regler</a></li></ol></div>
+  </nav>
+
+  <article class="fynd" id="exchange-online">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post och konton</span>
+    <h2>Nästan alla kommuner har sin domän registrerad i Microsofts e-posttjänst</h2>
+    <div class="tal">305 av 310</div>
+    <p>I DNS pekar e-posten mot Microsoft hos 245 kommuner och regioner: hos 189 tar Microsoft emot e-posten enligt MX-posten, och hos 56 står ett spamfilter eller en egen server först men SPF och DKIM eller autodiscover är konfigurerade för Microsoft. De senare visar konfiguration, inte var e-posten faktiskt hamnar. Hos Sollentuna, Norrköping och Halmstad är konfigurationen gjord för både Microsoft och Google.</p>
+    <p>Microsofts egen tjänst för e-postinställningar svarar dessutom att domänen är registrerad i en Exchange Online-organisation hos <b>305 av 310</b>, också hos alla 32 där DNS inte räckte, 19 av 20 utan molnsignaler i DNS och 7 av 10 som tar emot e-post hos Google. Bland myndighetsdomänerna gäller det 142 av 202, Skatteverket inräknat. Registreringen visar inte att e-post tas emot eller lagras där; att 7 av 10 Google-kommuner ger ja visar gränsen.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Kontrollerna prövar olika delar av mätkedjan och delar en del med den: e-postklassen frågades via tre andra DNS-resolvrar (512 av 512 lika; samma poster och samma regler, så det prövar resolvrarna, inte reglerna), Microsoft-konton via en andra ändpunkt hos Microsoft (512 av 512), näten bakom tredjepartsvärdar via RIPEstat (338 av 338 samma ASN; prövar registret, inte vilken adress webbläsaren använde). Exchange Online-svaret föll först på kravet på grund av ett fel i vår kod och strypning; efter rättelsen 331 av 333 bland de Microsoft-klassade. En senare körning från GitHub Actions klarade inte kravet och publiceras inte. Bara ja eller nej sparas.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Kontrollerna</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-2026-10-08T165750Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="tjanster">
@@ -62,34 +51,6 @@
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-tjanster.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/cert-2026-10-08T204928Z.json">Rådata</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-t6-2026-10-09T081527Z.json">Jämförelsen</a></p>
   </article>
 
-  <article class="fynd" id="vi-sjalva">
-    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Vi själva</span>
-    <h2>Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</h2>
-    <p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna körs varje månad i GitHub Actions på Microsofts Azure; webbmätningen görs från Sverige. Med samma verktyg som för kommunerna: sidan gör inga anrop till tredjeparter och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
-    <p>Skillnaden mot en kommun är att sidan inte hanterar personuppgifter eller utövar myndighet. Men vi vill inte påstå något om andra som vi inte säger om oss själva.</p>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Rådata</a></p>
-  </article>
-
-  <article class="fynd" id="exchange-online">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post och konton</span>
-    <h2>Nästan alla kommuner har sin domän registrerad i Microsofts e-posttjänst</h2>
-    <div class="tal">305 av 310</div>
-    <p>I DNS pekar e-posten mot Microsoft hos 245 kommuner och regioner: hos 189 tar Microsoft emot e-posten enligt MX-posten, och hos 56 står ett spamfilter eller en egen server först men SPF och DKIM eller autodiscover är konfigurerade för Microsoft. De senare visar konfiguration, inte var e-posten faktiskt hamnar. Hos Sollentuna, Norrköping och Halmstad är konfigurationen gjord för både Microsoft och Google.</p>
-    <p>Microsofts egen tjänst för e-postinställningar svarar dessutom att domänen är registrerad i en Exchange Online-organisation hos <b>305 av 310</b>, också hos alla 32 där DNS inte räckte, 19 av 20 utan molnsignaler i DNS och 7 av 10 som tar emot e-post hos Google. Bland myndighetsdomänerna gäller det 142 av 202, Skatteverket inräknat. Registreringen visar inte att e-post tas emot eller lagras där; att 7 av 10 Google-kommuner ger ja visar gränsen.</p>
-    <details><summary>Så kontrollerades det</summary>
-      <p>Kontrollerna prövar olika delar av mätkedjan och delar en del med den: e-postklassen frågades via tre andra DNS-resolvrar (512 av 512 lika; samma poster och samma regler, så det prövar resolvrarna, inte reglerna), Microsoft-konton via en andra ändpunkt hos Microsoft (512 av 512), näten bakom tredjepartsvärdar via RIPEstat (338 av 338 samma ASN; prövar registret, inte vilken adress webbläsaren använde). Exchange Online-svaret föll först på kravet på grund av ett fel i vår kod och strypning; efter rättelsen 331 av 333 bland de Microsoft-klassade. En senare körning från GitHub Actions klarade inte kravet och publiceras inte. Bara ja eller nej sparas.</p>
-    </details>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Kontrollerna</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-2026-10-08T165750Z.json">Rådata</a></p>
-  </article>
-
-  <article class="fynd" id="skatteverket">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
-    <h2>Skatteverket syns knappt i mätningen, och det är ett fynd</h2>
-    <p>Enligt <a href="https://www.sverigesradio.se/artikel/skatteverket-inforde-molntjanster-trots-avradan">Ekot</a> har Skatteverket infört amerikanska molntjänster i stor skala. I DNS har Skatteverket e-post på egna servrar utan molnsignaler, och i mätningen gjorde webbplatsen inga anrop till tredjeparter. Det som syns är ett Microsoft-konto och att domänen är registrerad i Exchange Online.</p>
-    <p>Det visar hur lite som syns utifrån. Mätningarna gäller konfiguration och anrop som går att se från internet, inte hur beroende en verksamhet är av amerikanska moln. Tjänster som används internt lämnar få spår.</p>
-    <p><a href="myndigheter.html">Myndigheterna</a></p>
-  </article>
-
   <article class="fynd" id="myndigheter-ga">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
     <h2>Myndighetswebbplatser anropar Google före samtycke</h2>
@@ -99,18 +60,6 @@
       <p>Mätningen registrerar anropsförsök i webbläsarens nätverkslogg; om anropet lyckades sparas inte. Försvarsmakten kontrollerades i en vanlig Chrome utan samtyckeskaka: <code>googletagmanager.com/gtm.js</code> fanns i webbläsarens resurslista, alltså laddad, men inga anrop till Google Analytics. Ett lyckat anrop till Tag Manager ger Google besökarens IP-adress och webbläsarinformation; det betyder inte att besöksstatistik samlas in.</p>
     </details>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-myndigheter.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json">Rådata</a></p>
-  </article>
-
-  <article class="fynd" id="samtyckesverktyget">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
-    <h2>Cookiebannern själv anropas ofta på ett amerikanskt nät</h2>
-    <div class="tal">31 kommuner och regioner</div>
-    <p>Hos 31 kommuner och regioner anropar sidan samtyckesverktyget, alltså rutan där besökaren väljer om data får skickas, på en server i ett amerikanskt bolags nät. Cookiebot nås via Akamai (9), Cookie-Script via DigitalOcean (8), Cookie Information via Microsoft (5), och Cookie Tractor, CookieYes, Klaro och OneTrust via Cloudflare. Ett samtyckesverktyg måste laddas innan besökaren kan svara; fyndet gäller var det laddas ifrån.</p>
-    <p>För elva av dem är cookiebannern den <b>enda</b> kontakten med ett amerikanskt nät innan besökaren valt något.</p>
-    <details><summary>Så kontrollerades det</summary>
-      <p>Varje tredjepartsvärd slogs upp till sitt nät (ASN) i samband med mätningen. Vilka domäner som räknas som samtyckesverktyg står i <code>fynd_siffror.py</code>. Att ett verktyg hämtas från ett amerikanskt nät säger inte var verktygets egna servrar och databaser står.</p>
-    </details>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/fynd_siffror.py">Definitionen</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sverige-2026-10-08T162614Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="google-analytics">
@@ -124,6 +73,18 @@
       <p>Headless Chrome med nätverkslogg, ingen knapp klickad. Loggen visar anropsförsök; om anropet lyckades sparas inte. I en vanlig Chrome nådde Hässleholms anrop Google Analytics, som svarade (HTTP 503), och Tag Manager laddades för Jönköping och Sunne. Före varje körning kontrolleras att en tom sida ger noll träffar och att en sida med Google Analytics ger träff. Alla sexton mättes om den 9 oktober med samma resultat.</p>
     </details>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-ga16-2026-10-09T003706Z.json">Ommätningen</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/stickprov-2026-10-09.json">Stickprov</a></p>
+  </article>
+
+  <article class="fynd" id="samtyckesverktyget">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
+    <h2>Cookiebannern själv anropas ofta på ett amerikanskt nät</h2>
+    <div class="tal">31 kommuner och regioner</div>
+    <p>Hos 31 kommuner och regioner anropar sidan samtyckesverktyget, alltså rutan där besökaren väljer om data får skickas, på en server i ett amerikanskt bolags nät. Cookiebot nås via Akamai (9), Cookie-Script via DigitalOcean (8), Cookie Information via Microsoft (5), och Cookie Tractor, CookieYes, Klaro och OneTrust via Cloudflare. Ett samtyckesverktyg måste laddas innan besökaren kan svara; fyndet gäller var det laddas ifrån.</p>
+    <p>För elva av dem är cookiebannern den <b>enda</b> kontakten med ett amerikanskt nät innan besökaren valt något.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Varje tredjepartsvärd slogs upp till sitt nät (ASN) i samband med mätningen. Vilka domäner som räknas som samtyckesverktyg står i <code>fynd_siffror.py</code>. Att ett verktyg hämtas från ett amerikanskt nät säger inte var verktygets egna servrar och databaser står.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/fynd_siffror.py">Definitionen</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sverige-2026-10-08T162614Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="browsealoud">
@@ -147,6 +108,16 @@
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/stickprov-2026-10-09.json">Stickprov</a></p>
   </article>
 
+  <article class="fynd" id="google-tar-emot">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post</span>
+    <h2>Google tar emot, DKIM publicerad hos Microsoft</h2>
+    <div class="tal">5 kommuner</div>
+    <p>Ödeshög, Ydre, Boxholm, Åtvidaberg och Vimmerby tar emot e-post hos Google men har publicerat DKIM-nycklar hos Microsoft. Det tyder på att e-post skickas via Microsoft, men om den faktiskt signeras där kontrollerades inte; nycklarna kan också vara kvarlämnade. Fyra av dem ligger i Östergötland, där fem av fjorton tar emot e-post hos Google.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p><code>dig +short MX atvidaberg.se</code> pekar på Google; <code>dig +short CNAME selector1._domainkey.atvidaberg.se</code> pekar på Microsoft. Alla fem kontrollerades igen den 9 oktober.</p>
+    </details>
+  </article>
+
   <article class="fynd" id="sakerhetsgrunder">
     <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Säkerhetsgrunder</span>
     <h2>Var tredje kommun har DMARC i övervakningsläge</h2>
@@ -158,22 +129,63 @@
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-sakerhet.md">Resultat per län</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/sakerhet-2026-10-09T004643Z.json">Rådata</a></p>
   </article>
 
-  <article class="fynd" id="google-tar-emot">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post</span>
-    <h2>Google tar emot, DKIM publicerad hos Microsoft</h2>
-    <div class="tal">5 kommuner</div>
-    <p>Ödeshög, Ydre, Boxholm, Åtvidaberg och Vimmerby tar emot e-post hos Google men har publicerat DKIM-nycklar hos Microsoft. Det tyder på att e-post skickas via Microsoft, men om den faktiskt signeras där kontrollerades inte; nycklarna kan också vara kvarlämnade. Fyra av dem ligger i Östergötland, där fem av fjorton tar emot e-post hos Google.</p>
+  <article class="fynd" id="tenant">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Konton</span>
+    <h2>Alla utom en har ett Microsoft-konto</h2>
+    <div class="tal">309 av 310</div>
+    <p>Alla kommuner och regioner utom Gällivare har en Microsoft Entra-tenant på den domän som mättes. Gällivare har en på sin andra domän, <code>gallivare.se</code>. Ett konto säger inte hur mycket det används.</p>
     <details><summary>Så kontrollerades det</summary>
-      <p><code>dig +short MX atvidaberg.se</code> pekar på Google; <code>dig +short CNAME selector1._domainkey.atvidaberg.se</code> pekar på Microsoft. Alla fem kontrollerades igen den 9 oktober.</p>
+      <p>Microsofts publika OpenID-adress svarar 200 för en domän med tenant och 400 utan. Kontrollerat mot <code>benbo.se</code> och en påhittad domän, som båda gav 400.</p>
     </details>
   </article>
 
-  <article class="fynd" id="dkim-felet">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
-    <h2>Animationen hittade ett fel i våra regler</h2>
-    <div class="tal">3 felklassade</div>
-    <p>Animationen på startsidan spelar upp mätningen med riktiga svar. För Åtvidaberg visade den ett DKIM-svar som tydligt pekade på Microsoft, medan signalen stod som "inget". Regeln kände bara igen Microsofts äldre format. Efter rättelsen bytte Gotland, Sjöbo och Bromölla från "gick inte att avgöra" till Microsoft. Rättelsen står daterad i metoden, och de gamla siffrorna finns kvar.</p>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metoden, avsnittet Rättelse</a></p>
+  <article class="fynd" id="skatteverket">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
+    <h2>Skatteverket syns knappt i mätningen, och det är ett fynd</h2>
+    <p>Enligt <a href="https://www.sverigesradio.se/artikel/skatteverket-inforde-molntjanster-trots-avradan">Ekot</a> har Skatteverket infört amerikanska molntjänster i stor skala. I DNS har Skatteverket e-post på egna servrar utan molnsignaler, och i mätningen gjorde webbplatsen inga anrop till tredjeparter. Det som syns är ett Microsoft-konto och att domänen är registrerad i Exchange Online.</p>
+    <p>Det visar hur lite som syns utifrån. Mätningarna gäller konfiguration och anrop som går att se från internet, inte hur beroende en verksamhet är av amerikanska moln. Tjänster som används internt lämnar få spår.</p>
+    <p><a href="myndigheter.html">Myndigheterna</a></p>
+  </article>
+
+  <article class="fynd" id="vi-sjalva">
+    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Vi själva</span>
+    <h2>Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</h2>
+    <p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna körs varje månad i GitHub Actions på Microsofts Azure; webbmätningen görs från Sverige. Med samma verktyg som för kommunerna: sidan gör inga anrop till tredjeparter och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
+    <p>Skillnaden mot en kommun är att sidan inte hanterar personuppgifter eller utövar myndighet. Men vi vill inte påstå något om andra som vi inte säger om oss själva.</p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Rådata</a></p>
+  </article>
+
+  <h2 class="avsnitt" id="rattelser">Rättelser och granskning</h2>
+  <p>Fel vi själva och våra granskare har hittat i metoden, med datum. Inget skrivs om i efterhand; se även <a href="om.html">Så gjordes det</a>.</p>
+
+  <article class="fynd" id="granskning-codex">
+    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>En granskare från en annan AI-modell hittade att vi påstod för mycket</h2>
+    <p>Efter våra egna granskningar lät vi Codex, en modell från ett annat företag, granska hela projektet. Den hittade fel som våra granskare inte såg, eftersom de byggde på samma modell som oss. De viktigaste:</p>
+    <ul>
+      <li>Webbmätningen registrerar <b>anropsförsök</b> i webbläsarens nätverkslogg, inte att kontakten lyckades. Fynden sa "kontaktar".</li>
+      <li>Microsoft-klassningen av e-post bygger på olika slags bevis: MX för de flesta, men bara publicerad konfiguration (SPF, DKIM) för en del. Det redovisas nu separat.</li>
+      <li>Kontrollerna kallades oberoende trots att flera delar källa eller klassning med huvudmätningen. Varje kontroll beskriver nu vad den kan upptäcka.</li>
+      <li>"Hälften av kommunerna har inga tjänster på amerikanska nät" var ett frånvaropåstående som mätningen inte kan bära, och kontrollen godkände ett fall där den andra källan hittade amerikanska namn.</li>
+      <li>Att alla siffror är "lägsta nivåer" var inte belagt för varje mått, och projektets fråga om "beroende" mäts inte direkt.</li>
+      <li>Koden kan i vissa fel (DNS-timeout, Chrome-krasch, ofullständig paginering) tyst ge ett negativt svar i stället för "kunde inte mätas". Inga publicerade siffror har visats vara påverkade, och det är rättat: sådana fel blir nu "kunde inte mätas".</li>
+    </ul>
+    <p>Alla punkter finns som <a href="https://github.com/RedaEkengren/molnkartan/issues">ärenden på GitHub</a> med Codex motprov.</p>
+  </article>
+
+  <article class="fynd" id="granskning">
+    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>En oberoende granskning hittade fel i våra fynd</h2>
+    <p>Innan vi spred sidan lät vi en separat granskare, som inte byggt projektet och bara hade läsrätt, försöka motbevisa varje fynd mot rådatan. Den hittade bland annat:</p>
+    <ul>
+      <li>att rubriken om Google Analytics var fel för fem kommuner som bara laddar Tag Manager,</li>
+      <li>att Exchange Online-fyndet påstod mer än mätningen visar,</li>
+      <li>att antalet med samtyckesverktyg på amerikanskt nät var 31, inte 28,</li>
+      <li>att två automatiska körningar som inte klarade sina krav ändå hade publicerats,</li>
+      <li>att DMARC <code>p=none</code> var felaktigt beskrivet, och</li>
+      <li>att Gotlands län, med en enda organisation, avslöjade enskilda värden trots att säkerhetsgrunderna bara ska redovisas i grupp.</li>
+    </ul>
+    <p>Allt är rättat på den här sidan. Körningar som inte klarar sina krav publiceras inte längre, och varje siffra här kontrolleras automatiskt mot rådatan.</p>
   </article>
 
   <article class="fynd" id="holdout">
@@ -183,14 +195,12 @@
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Hela förloppet</a></p>
   </article>
 
-  <article class="fynd" id="tenant">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Konton</span>
-    <h2>Alla utom en har ett Microsoft-konto</h2>
-    <div class="tal">309 av 310</div>
-    <p>Alla kommuner och regioner utom Gällivare har en Microsoft Entra-tenant på den domän som mättes. Gällivare har en på sin andra domän, <code>gallivare.se</code>. Ett konto säger inte hur mycket det används.</p>
-    <details><summary>Så kontrollerades det</summary>
-      <p>Microsofts publika OpenID-adress svarar 200 för en domän med tenant och 400 utan. Kontrollerat mot <code>benbo.se</code> och en påhittad domän, som båda gav 400.</p>
-    </details>
+  <article class="fynd" id="dkim-felet">
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>Animationen hittade ett fel i våra regler</h2>
+    <div class="tal">3 felklassade</div>
+    <p>Animationen på startsidan spelar upp mätningen med riktiga svar. För Åtvidaberg visade den ett DKIM-svar som tydligt pekade på Microsoft, medan signalen stod som "inget". Regeln kände bara igen Microsofts äldre format. Efter rättelsen bytte Gotland, Sjöbo och Bromölla från "gick inte att avgöra" till Microsoft. Rättelsen står daterad i metoden, och de gamla siffrorna finns kvar.</p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Metoden, avsnittet Rättelse</a></p>
   </article>
 
   <footer class="sidfot">

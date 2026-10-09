@@ -102,6 +102,17 @@ class FyndenStammerMedDatan(unittest.TestCase):
         self.innehaller("tjanster", f"{n['annat']} på nät i andra länder", f"{n['okänt']} på nät som inte gick att identifiera",
                         *self.s["t6_noll_till_positiv"])
 
+    def test_huvudfynd_och_innehall_foljer_fynden(self):
+        kort = re.search(r'<div class="huvudfynd">(.*?)</div>', self.html, re.S).group(1)
+        for ident, tal in re.findall(r'<a href="#([^"]+)"><b>(.*?)</b>', kort):
+            self.assertIn(f'<div class="tal">{tal}</div>', artikel(self.html, ident), f"huvudfynd {ident}")
+        nav = re.search(r'<nav class="innehall".*?</nav>', self.html, re.S).group(0)
+        listade = re.findall(r'<li><a href="#([^"]+)">(.*?)</a></li>', nav)
+        artiklar = re.findall(r'<article class="fynd" id="([^"]+)">', self.html)
+        self.assertEqual(sorted(i for i, _ in listade), sorted(artiklar), "alla fynd i innehållet")
+        for ident, rubrik in listade:
+            self.assertIn(f"<h2>{rubrik}</h2>", artikel(self.html, ident))
+
     def test_tenant(self):
         self.innehaller("tenant", f"{self.s['tenant']} av 310")
 
