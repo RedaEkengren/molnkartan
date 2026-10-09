@@ -662,3 +662,57 @@ Utöver kravet 16 av 20 inom 15 procentenheter: bland urvalets organisationer
 med 0 % i huvudkällan ska den andra källan också ge 0 % för minst 90 %, och
 det ska finnas minst 5 sådana. Annars publiceras inte nästa certifikatmätning.
 Oktobermätningen gjordes med T6 version 1 och redovisar avvikelsen (Grums).
+
+---
+
+# Validering mot facit (issue #20) — skriven 2026-10-09, före första kontakt
+
+## Fråga
+
+Stämmer e-postklassen, inte bara går den att sätta? Prövas mot ett facit som
+inte bygger på våra DNS-regler.
+
+## Urval
+
+Kommuner och regioner ur DNS-mätningen `ra-organisationer-sverige-2026-10-09T141830Z.json`,
+stratifierat efter klass och hur klassen sattes, slumpat med frö 20261009:
+8 med Microsoft via MX, 8 med Microsoft via SPF/DKIM/autodiscover, 8 med
+Google, alla 3 med Microsoft och Google, 8 utan molnsignaler och 8 oavgjorda
+(43 totalt). Urvalsfilen `validering/urval.csv` innehåller bara namn och
+domän, inte klassen.
+
+## Facit
+
+Ett kort mejl till organisationens registratur, med länk till sidan och
+repot, som frågar vilken e-posttjänst de använder. Facit hämtas ur **de
+tekniska huvudena i svaret** (automatiskt eller manuellt), som visar vilket
+system brevlådan faktiskt sitter i:
+
+- **Microsoft:** huvuden som `X-MS-Exchange-*`, eller `Received` via
+  `*.outlook.com` eller `*.protection.outlook.com`.
+- **Google:** `X-Google-*`, eller `Received` via `*.google.com`.
+- **Annat:** inget av ovan.
+- **Saknas:** inget svar inom 14 dagar.
+
+Ett textsvar ("vi använder Microsoft 365") antecknas separat och används bara
+där huvudena saknas eller är tvetydiga. Facit sätts av ett skript med reglerna
+ovan, som körs utan att klassen är synlig.
+
+**Begränsning:** svaret visar var brevlådan sitter och därifrån svaret
+skickades, inte nödvändigtvis vilken server som tar emot e-post först (MX).
+
+## Krav
+
+Per klass, bland organisationer med facit (bortfall redovisas separat):
+
+| Klass i DNS-mätningen | Krav för godkänt |
+|---|---|
+| Microsoft via MX | ≥90 % har facit Microsoft |
+| Microsoft via SPF/DKIM/autodiscover | ≥80 % har facit Microsoft |
+| Google | ≥80 % har facit Google |
+| Utan molnsignaler | redovisas, inget krav (frågan är vad de har) |
+| Oavgjord | redovisas, inget krav |
+| Microsoft och Google | redovisas, för få för krav |
+
+En klass med färre än 5 facit redovisas som "ej prövad". Resultatet
+publiceras oavsett utfall.
