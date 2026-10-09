@@ -124,16 +124,30 @@ def main():
     print(ut)
 
 
-def godkand(d):
-    """Kraven i METOD.md (T1, T2, T3, T4). En körning som faller publiceras inte."""
-    rader = d["domaner"]
-    t1 = [r for r in rader if r["t1_realm"] is not None]
+def kvalitet(d):
+    """Täckning och överensstämmelse för T1–T4, var för sig och med nämnare (#11).
+    Täckning = andel av det avsedda urvalet som fick svar; överensstämmelse räknas bland svaren."""
+    rader, t4 = d.get("domaner", []), d.get("t4", [])
     ms = [r for r in rader if r["epost"] == "MS"]
-    t4 = [x for x in d["t4"] if x["ripe"] is not None and x["cymru"]]
-    return (sum(r["t1_realm"] == r["tenant"] for r in t1) / len(t1) >= 0.99
-            and sum(r["t2_exo"] is True for r in ms) / len(ms) >= 0.95
-            and all(sum(r[f"t3_{n}"] == r["epost"] for r in rader) / len(rader) >= 0.99 for n in RESOLVRAR)
-            and sum(x["cymru"] in x["ripe"] for x in t4) / len(t4) >= 0.97)
+    andel = lambda a, b: a / b if b else 0.0
+    t1_svar = [r for r in rader if r["t1_realm"] is not None]
+    t2_svar = [r for r in ms if r["t2_exo"] is not None]
+    t4_svar = [x for x in t4 if x["ripe"] is not None and x["cymru"]]
+    return {
+        "t1_tackning": andel(len(t1_svar), len(rader)), "t1_lika": andel(sum(r["t1_realm"] == r["tenant"] for r in t1_svar), len(t1_svar)),
+        "t2_tackning": andel(len(t2_svar), len(ms)), "t2_ja": andel(sum(r["t2_exo"] is True for r in ms), len(ms)),
+        "t3_lika": min((andel(sum(r[f"t3_{n}"] == r["epost"] for r in rader), len(rader)) for n in RESOLVRAR), default=0.0),
+        "t4_tackning": andel(len(t4_svar), len(t4)), "t4_lika": andel(sum(x["cymru"] in x["ripe"] for x in t4_svar), len(t4_svar)),
+    }
+
+
+def godkand(d):
+    """Kraven i METOD.md. Tomt eller ofullständigt underlag underkänns alltid (#11)."""
+    if not d.get("domaner") or not d.get("t4"):
+        return False
+    k = kvalitet(d)
+    return (k["t1_tackning"] >= 0.95 and k["t1_lika"] >= 0.99 and k["t2_tackning"] >= 0.95 and k["t2_ja"] >= 0.95
+            and k["t3_lika"] >= 0.99 and k["t4_tackning"] >= 0.95 and k["t4_lika"] >= 0.97)
 
 
 def rapport(fil):

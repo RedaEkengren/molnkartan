@@ -623,3 +623,42 @@ Microsoft till Microsoft och Google: Microsoft-klassade kommuner och regioner
 blir 245 i stället för 248. Domänmatchning kräver exakt domän eller punkt före
 suffixet (`notgoogle.com` är inte Google), och SPF läses som `include:`-poster
 i stället för som fritext.
+
+**#10 Chrome-krasch.** En webbmätning räknas bara om Chrome avslutades
+normalt, skrev en nätverkslogg som går att läsa, visade en sida som inte är
+Chromes felsida, och om huvudsidan fick ett 2xx-svar *i webbläsaren*. Status
+tas från webbläsarens logg, inte från det separata urllib-anropet. Annars
+"kunde inte mätas".
+
+**#12 Anropsförsök och svar.** `w2` är som förut anropsförsök som sidan
+startade. Nytt fält `w2_svar`: de av dem där webbläsaren läste svarshuvuden.
+Klassningen bygger fortfarande på försöken; texterna säger "anrop", och
+genomförd kontakt påstås bara där `w2_svar` eller en kontroll i vanlig
+webbläsare visar det. Rådata från före rättelsen saknar `w2_svar`.
+
+**#16 Registrerad domän och alias.** Registrerad domän bestäms med Public
+Suffix List (`data/public_suffix_list.dat`, version 2026-10-07, commit
+3929462), inte som de två sista leden. Undantaget "samma namn under annan
+toppdomän" är borttaget; i stället gäller uttryckliga alias med belägg i
+`organisationsalias.csv` (i dag `helsingborg.io` för Helsingborgs stad).
+
+**#11 Täckning i trianguleringen.** Godkännande kräver att minst 95 % av
+urvalet fått svar i T1, T2 och T4, utöver överensstämmelse bland svaren.
+Tomt underlag underkänns.
+
+**#13 Webbens spärr.** Rapport och publicering använder samma kontroll:
+minst 95 % mätbara, minst 95 % av tredjepartsvärdarna med nät, och godkända
+negativa, positiva och nätkontroller. Tom population underkänns.
+
+**#14 Paginering.** Om en senare sida från Certspotter fallerar efter alla
+försök räknas organisationen som ej mätt, inte som ett fullständigt svar.
+
+**#18 Kontrollens datum.** Exchange Online-uppgiften visas med kontrollens
+datum. Sidan anger i datafilen om kontrollen gäller samma DNS-mätning som
+visas (`trianguleringAvserSammaDns`).
+
+**#19 T6 version 2, för nästa certifikatmätning (skrivet före körning).**
+Utöver kravet 16 av 20 inom 15 procentenheter: bland urvalets organisationer
+med 0 % i huvudkällan ska den andra källan också ge 0 % för minst 90 %, och
+det ska finnas minst 5 sådana. Annars publiceras inte nästa certifikatmätning.
+Oktobermätningen gjordes med T6 version 1 och redovisar avvikelsen (Grums).

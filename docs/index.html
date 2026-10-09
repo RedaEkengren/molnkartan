@@ -147,16 +147,17 @@ function el(tagg, egenskaper = {}, ...barn) {
   return e;
 }
 
-Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r => r.json())]).then(([{ matt, webbMatt, certMatt, sakerhet, organisationer: org }, karta]) => {
+Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r => r.json())]).then(([{ matt, webbMatt, certMatt, trianguleringMatt, sakerhet, organisationer: org }, karta]) => {
+  const datum = t => t ? new Date(t.replace(/T(\d\d)(\d\d)(\d\d)Z/, "T$1:$2:$3Z")).toLocaleDateString("sv-SE", { day: "numeric", month: "long" }) : "";
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
-  startaDemo(org, { etikett, farg, karta });
+  startaDemo(org, { etikett, farg, karta, kontrollDatum: datum(trianguleringMatt) });
   const n = org.length;
   const rakna = f => org.filter(f).length;
   const pct = x => Math.round(100 * x / n) + " %";
   const ms = rakna(o => o.epost === "MS"), exo = rakna(o => o.exo === true);
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: ms }), el("span", { textContent: `av ${n} har Microsoft i e-postens DNS (${pct(ms)}); hos ${rakna(o => o.epost === "MS" && o.signaler.S1 === "MS")} tar Microsoft emot enligt MX` })),
-    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: `av ${n} har domänen registrerad i Microsofts e-posttjänst Exchange Online (registrering, inte användning)` })),
+    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: `av ${n} har domänen registrerad i Microsofts e-posttjänst Exchange Online (registrering, inte användning; kontroll ${datum(trianguleringMatt)})` })),
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "G") }), el("span", { textContent: "har e-post hos Google" })),
     el("div", {}, el("b", { textContent: rakna(o => o.webb === "SE/EU") }), el("span", { textContent: "har webbplatsen hos en svensk eller europeisk leverantör" })),
   );

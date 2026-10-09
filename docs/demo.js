@@ -19,7 +19,7 @@ const EXEMPEL = [
 
 const LEVERANTOR = { MS: "Microsoft", G: "Google" };
 
-function startaDemo(org, { etikett, farg, karta }) {
+function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
   const term = document.getElementById("term"), sig = document.getElementById("sig");
   const utslag = document.getElementById("utslag"), namnEl = document.getElementById("demoNamn");
   const prickar = document.getElementById("prickar");
@@ -151,8 +151,8 @@ function startaDemo(org, { etikett, farg, karta }) {
     utslag.replaceChildren(
       Object.assign(document.createElement("span"), { className: "tagg", textContent: etikett[o.epost], style: `background:${farg[o.epost]}` }),
       `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : "")
-        + (o.exo === true && o.epost !== "MS" ? " Men domänen är registrerad i Microsofts Exchange Online." : "")
-        + (o.exo === true && o.epost === "MS" ? " Domänen är också registrerad i Exchange Online." : ""),
+        + (o.exo === true && o.epost !== "MS" ? ` Men domänen är registrerad i Microsofts Exchange Online (kontroll ${kontrollDatum}).` : "")
+        + (o.exo === true && o.epost === "MS" ? ` Domänen är också registrerad i Exchange Online (kontroll ${kontrollDatum}).` : ""),
     );
     utslag.classList.add("syns");
     const p = prick.get(o);

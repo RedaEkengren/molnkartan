@@ -5,6 +5,7 @@
  "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
  "trianguleringMatt": "2026-10-08T165750Z",
  "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
+ "trianguleringAvserSammaDns": false,
  "sakerhetMatt": "2026-10-09T004643Z",
  "sakerhetKalla": "data/sakerhet-2026-10-09T004643Z.json",
  "certKalla": "data/cert-2026-10-08T204928Z.json",

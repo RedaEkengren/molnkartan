@@ -21,6 +21,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 
+from domaner import egna_domaner, registrerad
 from matning import fraga, txt
 
 ROT = Path(__file__).parent
@@ -64,8 +65,8 @@ def natverk(vard):
     return {"ip": ip, "asn": asn, "land": land, "namn": namn, "nat": typ}
 
 
-def registrerad(vard):
-    return ".".join((vard or "").lower().split(".")[-2:])
+class MatFel(Exception):
+    """Sidan gick inte att mäta: Chrome kraschade, loggen saknas eller huvudsidan laddades inte (#10)."""
 
 
 class Kallor(HTMLParser):
@@ -80,31 +81,62 @@ class Kallor(HTMLParser):
                 self.varder.add(urlparse(src if not src.startswith("//") else "https:" + src).hostname)
 
 
-def las_natlogg(fil):
-    text = fil.read_text(errors="replace").rstrip()
-    if not text.endswith("}"):  # Chrome kan avsluta loggen mitt i en lista
-        text = text.rstrip(",") + "]}"
-    logg = json.loads(text)
-    typer = {v: k for k, v in logg["constants"]["logEventTypes"].items()}
-    varder = set()
+def las_natlogg(fil, vardar):
+    """Läser Chromes nätverkslogg. Ger (anropsförsök, anrop med svar, huvudsidans HTTP-status).
+
+    Ett anropsförsök är en URL_REQUEST_START_JOB som sidan själv startade (initiator är
+    ett webbursprung); Chromes egen trafik har "not an origin" och räknas inte. Ett anrop
+    fick svar om svarshuvuden lästes (#12). Huvudsidan är Chromes egen navigering till
+    någon av vardar; utan ett 2xx-svar där räknas sidan som omätbar (#10)."""
+    try:
+        text = fil.read_text(errors="replace").rstrip()
+        if not text.endswith("}"):  # Chrome kan avsluta loggen mitt i en lista
+            text = text.rstrip(",") + "]}"
+        logg = json.loads(text)
+        typer = {v: k for k, v in logg["constants"]["logEventTypes"].items()}
+    except (OSError, ValueError, KeyError) as fel:
+        raise MatFel(f"nätverksloggen gick inte att läsa: {type(fel).__name__}") from fel
+    kallor = {}
     for e in logg["events"]:
-        if typer.get(e["type"]) != "URL_REQUEST_START_JOB":
+        k = kallor.setdefault(e["source"]["id"], {"url": None, "initiator": None, "status": []})
+        typ, p = typer.get(e["type"], ""), e.get("params", {})
+        if typ == "URL_REQUEST_START_JOB" and p.get("url", "").startswith("http"):
+            k["url"] = k["url"] or p["url"]
+            k["initiator"] = k["initiator"] or str(p.get("initiator", ""))
+        if typ.endswith("READ_RESPONSE_HEADERS") and p.get("headers"):
+            k["status"].append(p["headers"][0].split(" ")[1] if " " in p["headers"][0] else "")
+    forsok, svar, huvud = set(), set(), None
+    for k in kallor.values():
+        if not k["url"]:
             continue
-        p = e.get("params", {})
-        # Bara anrop som sidan startade. Chromes egen trafik har "not an origin".
-        if str(p.get("initiator", "")).startswith(("http://", "https://")) and p.get("url", "").startswith("http"):
-            varder.add(urlparse(p["url"]).hostname)
-    return varder
+        vard = urlparse(k["url"]).hostname
+        if k["initiator"].startswith(("http://", "https://")):
+            forsok.add(vard)
+            if k["status"]:
+                svar.add(vard)
+        elif vard in vardar and any(st.startswith("2") for st in k["status"]):
+            huvud = next(st for st in k["status"] if st.startswith("2"))
+    return forsok, svar, huvud
 
 
 def ladda(url):
-    """Öppnar url i en ny Chrome-profil. Ger (renderad DOM, värdar sidan kontaktade)."""
+    """Öppnar url i en ny Chrome-profil. Ger (renderad DOM, anropsförsök, anrop med svar, huvudsidans status).
+    Kraschar Chrome, saknas loggen eller laddas inte huvudsidan blir det MatFel, aldrig ett tomt resultat (#10)."""
     tmp = Path(tempfile.mkdtemp(prefix="molnkartan-"))
     try:
         logg = tmp / "net.json"
-        dom = subprocess.run(["google-chrome", *CHROME_FLAGGOR, f"--user-data-dir={tmp / 'profil'}",
-                              f"--log-net-log={logg}", url], capture_output=True, text=True, timeout=60).stdout
-        return dom, (las_natlogg(logg) if logg.exists() else set())
+        korning = subprocess.run(["google-chrome", *CHROME_FLAGGOR, f"--user-data-dir={tmp / 'profil'}",
+                                  f"--log-net-log={logg}", url], capture_output=True, text=True, timeout=60)
+        if korning.returncode != 0:
+            raise MatFel(f"Chrome avslutades med kod {korning.returncode}")
+        if not logg.exists():
+            raise MatFel("Chrome skrev ingen nätverkslogg")
+        if not korning.stdout.strip() or "chrome-error://" in korning.stdout:
+            raise MatFel("huvudsidan visades inte (tom sida eller Chromes felsida)")
+        forsok, svar, huvud = las_natlogg(logg, {urlparse(url).hostname})
+        if huvud is None:
+            raise MatFel("huvudsidan gav inget 2xx-svar i webbläsaren")
+        return korning.stdout, forsok, svar, huvud
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
@@ -129,19 +161,21 @@ def mat(rad):
             status, slut = slutadress(f"https://{doman}/")
         except Exception as fel:
             return {**rad, "status": f"fel: {type(fel).__name__}: {fel}"[:200]}
-    egna = {registrerad(doman), registrerad(urlparse(slut).hostname), registrerad(urlparse(forsta).hostname)}
-    # Version 2: samma namn under annan toppdomän räknas som egen (helsingborg.io för helsingborg.se).
-    namn = {e.split(".")[0] for e in egna}
+    egna = egna_domaner(doman, urlparse(slut).hostname, urlparse(forsta).hostname)
     try:
-        dom, kontaktade = ladda(slut)
+        dom, forsok, svar, huvud = ladda(slut)
     except subprocess.TimeoutExpired:
         return {**rad, "status": "fel: sidan laddade inte klart inom 60 s", "slutadress": slut}
+    except MatFel as fel:
+        return {**rad, "status": f"fel: {fel}", "slutadress": slut}
     parser = Kallor()
     parser.feed(dom)
-    tredje = lambda varder: sorted(v for v in varder if v and registrerad(v) not in egna and registrerad(v).split(".")[0] not in namn)
-    w2 = tredje(kontaktade)
-    return {**rad, "status": status, "slutadress": slut, "w1": tredje(parser.varder), "w2": w2,
-            "natverk": {v: natverk(v) for v in w2}}
+    tredje = lambda varder: sorted(v for v in varder if v and registrerad(v) not in egna)
+    w2 = tredje(forsok)
+    # status är huvudsidans svar i webbläsaren, inte urllib-anropet (#10).
+    # w2 = anropsförsök, w2_svar = de av dem som fick svarshuvuden (#12).
+    return {**rad, "status": int(huvud), "slutadress": slut, "w1": tredje(parser.varder), "w2": w2,
+            "w2_svar": tredje(svar), "natverk": {v: natverk(v) for v in w2}}
 
 
 def kontroller():
@@ -158,8 +192,8 @@ def kontroller():
     threading.Thread(target=server.serve_forever, daemon=True).start()
     bas = f"http://127.0.0.1:{server.server_address[1]}"
     try:
-        _, tom = ladda(f"{bas}/tom.html")
-        _, ga = ladda(f"{bas}/ga.html")
+        _, tom, _, _ = ladda(f"{bas}/tom.html")
+        _, ga, ga_svar, _ = ladda(f"{bas}/ga.html")
     finally:
         server.shutdown()
         shutil.rmtree(katalog, ignore_errors=True)
@@ -167,8 +201,8 @@ def kontroller():
     resultat = {"negativ": sorted(tom), "positiv": sorted(ga - {"127.0.0.1"})}
     if tom:
         sys.exit(f"Negativ kontroll fallerade, tom sida gav {sorted(tom)}")
-    if "www.googletagmanager.com" not in ga:
-        sys.exit(f"Positiv kontroll fallerade, GA-sidan gav {sorted(ga)}")
+    if "www.googletagmanager.com" not in ga or "www.googletagmanager.com" not in ga_svar:
+        sys.exit(f"Positiv kontroll fallerade, GA-sidan gav {sorted(ga)} med svar från {sorted(ga_svar)}")
     natkontroll = {v: natverk(v)["nat"] for v in ("www.googletagmanager.com", "www.hetzner.com")}
     resultat["nat"] = natkontroll
     if natkontroll != {"www.googletagmanager.com": "US", "www.hetzner.com": "EU/EES"}:

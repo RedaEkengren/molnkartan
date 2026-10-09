@@ -77,6 +77,30 @@ def klassa_v3(o):
     return "bara EU/EES-nät före samtycke"
 
 
+def kvalitet(d):
+    """Samma kvalitetskontroll för rapport och publicering (#13): mätbara sidor,
+    nät för tredjepartsvärdar och godkända kontroller. Tom population underkänns;
+    noll observerade tredjepartsvärdar ger full nättäckning (inget att identifiera)."""
+    org = d.get("organisationer", [])
+    matbara = [o for o in org if klassa_v3(o) != "kunde inte mätas"]
+    varder, utan = set(), set()
+    for o in matbara:
+        for v in o.get("w2", []):
+            varder.add(v)
+            if not (o.get("natverk", {}).get(v) or {}).get("land"):
+                utan.add(v)
+    k = d.get("kontroller", {})
+    kontroller_ok = (k.get("negativ") == [] and "www.googletagmanager.com" in k.get("positiv", [])
+                     and k.get("nat") == {"www.googletagmanager.com": "US", "www.hetzner.com": "EU/EES"})
+    return {"organisationer": len(org), "matbara": len(matbara) / len(org) if org else 0.0,
+            "nat_tackning": 1 - len(utan) / len(varder) if varder else 1.0, "kontroller_ok": kontroller_ok}
+
+
+def godkand(d):
+    k = kvalitet(d)
+    return k["organisationer"] > 0 and k["matbara"] >= 0.95 and k["nat_tackning"] >= 0.95 and k["kontroller_ok"]
+
+
 def rapport_v3(fil):
     d = json.load(open(fil, encoding="utf-8"))
     print(f"Källa: {fil} · mätt {d['matt']} · Chrome {d['chrome']} · kontroller {d['kontroller']}\n")
@@ -100,7 +124,7 @@ def rapport_v3(fil):
     print(f"Google Analytics/GTM före samtycke: {sum(har_ga(o) for o in d['organisationer'])}/{n}")
     print(f"Mätbara: {matbara}/{n} = {matbara / n:.0%}")
     print(f"Unika värdar med ASN och land: {len(varder) - len(utan_asn)}/{len(varder)} = {tackning:.0%}; utan: {sorted(utan_asn)}")
-    print("Kriterium v3:", "UPPFYLLT" if tackning >= 0.95 and matbara / n >= 0.95 else "EJ UPPFYLLT")
+    print("Kriterium v3:", "UPPFYLLT" if godkand(d) else "EJ UPPFYLLT", kvalitet(d))
 
 
 def rapport(fil):

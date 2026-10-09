@@ -105,5 +105,124 @@ class BlandadeSignaler(unittest.TestCase):
         self.assertEqual(klassa_v2.signaler(p)["S2"], "-")
 
 
+TYPER = {"URL_REQUEST_START_JOB": 1, "HTTP_TRANSACTION_READ_RESPONSE_HEADERS": 2, "REQUEST_ALIVE": 3}
+
+
+def natlogg(*anrop):
+    """anrop: (källa, url, initiator, status eller None, net_error eller None)."""
+    ev = []
+    for kalla, url, initiator, status, fel in anrop:
+        ev.append({"source": {"id": kalla}, "type": 1, "params": {"url": url, "initiator": initiator}})
+        if status:
+            ev.append({"source": {"id": kalla}, "type": 2, "params": {"headers": [f"HTTP/1.1 {status}"]}})
+        if fel:
+            ev.append({"source": {"id": kalla}, "type": 3, "params": {"net_error": fel}})
+    return {"constants": {"logEventTypes": TYPER}, "events": ev}
+
+
+class FalskChrome:
+    def __init__(self, kod=0, dom="<html><body>sida</body></html>", logg=None):
+        self.kod, self.dom, self.logg = kod, dom, logg
+
+    def __call__(self, argv, **kw):
+        if self.logg is not None:
+            fil = next(a.split("=", 1)[1] for a in argv if a.startswith("--log-net-log="))
+            Path(fil).parent.mkdir(parents=True, exist_ok=True)
+            Path(fil).write_text(json.dumps(self.logg))
+        return subprocess.CompletedProcess(argv, self.kod, self.dom, "")
+
+
+class WebbMatfel(unittest.TestCase):
+    """#10 och #12"""
+
+    def mat(self, chrome):
+        import webbmatning
+        with mock.patch.object(webbmatning, "slutadress", return_value=(200, "https://www.exempel.se/")), \
+             mock.patch.object(webbmatning, "natverk", return_value={"nat": "US"}), \
+             mock.patch.object(webbmatning.subprocess, "run", chrome):
+            return webbmatning.mat({"namn": "Exempel", "typ": "kommun", "domän": "exempel.se"})
+
+    def test_krasch_ger_kunde_inte_matas(self):
+        from webb_klassa import klassa_v3
+        for chrome in (FalskChrome(kod=1), FalskChrome(logg=None), FalskChrome(dom="", logg=natlogg((1, "https://www.exempel.se/", "not an origin", 200, None))),
+                       FalskChrome(dom="chrome-error://chromewebdata/", logg=natlogg()),
+                       FalskChrome(logg=natlogg((1, "https://www.exempel.se/", "not an origin", None, -105)))):
+            o = self.mat(chrome)
+            self.assertEqual(klassa_v3(o), "kunde inte mätas", o["status"])
+
+    def test_lyckad_sida_utan_tredjepart(self):
+        from webb_klassa import klassa_v3
+        o = self.mat(FalskChrome(logg=natlogg((1, "https://www.exempel.se/", "not an origin", 200, None),
+                                              (2, "https://www.exempel.se/a.js", "https://www.exempel.se", 200, None))))
+        self.assertEqual((o["status"], klassa_v3(o)), (200, "ingen tredjepart"))
+
+    def test_anrop_utan_svar_ar_forsok_men_inte_kontakt(self):
+        o = self.mat(FalskChrome(logg=natlogg((1, "https://www.exempel.se/", "not an origin", 200, None),
+                                              (2, "https://www.google-analytics.com/g/collect", "https://www.exempel.se", None, -105),
+                                              (3, "https://www.googletagmanager.com/gtm.js", "https://www.exempel.se", 200, None))))
+        self.assertEqual(o["w2"], ["www.google-analytics.com", "www.googletagmanager.com"])
+        self.assertEqual(o["w2_svar"], ["www.googletagmanager.com"])
+
+
+class RegistreradDoman(unittest.TestCase):
+    """#16"""
+
+    def test_suffix_enligt_listan(self):
+        from domaner import registrerad
+        self.assertEqual(registrerad("a.b.example.co.uk"), "example.co.uk")
+        self.assertEqual(registrerad("kommun.github.io"), "kommun.github.io")
+        self.assertNotEqual(registrerad("x.github.io"), registrerad("y.github.io"))
+
+    def test_samma_namn_annan_toppdoman_ar_tredjepart_utan_belagg(self):
+        from domaner import egna_domaner, registrerad
+        self.assertNotIn(registrerad("track.example.com"), egna_domaner("example.se", "www.example.se"))
+        self.assertIn("helsingborg.io", egna_domaner("helsingborg.se", "helsingborg.se"), "alias med belägg")
+
+
+class Sparrar(unittest.TestCase):
+    """#11, #13, #14 och #18"""
+
+    def tri(self, t1_svar, t4_svar, n=512, ip=338):
+        rader = [{"epost": "MS", "tenant": True, "t1_realm": True if i < t1_svar else None, "t2_exo": True,
+                  "t3_cloudflare": "MS", "t3_quad9": "MS", "t3_google": "MS"} for i in range(n)]
+        t4 = [{"ip": f"10.0.0.{i}", "cymru": "1", "ripe": ["1"] if i < t4_svar else None} for i in range(ip)]
+        return {"domaner": rader, "t4": t4}
+
+    def test_triangulering_kraver_tackning(self):
+        from triangulering import godkand
+        self.assertTrue(godkand(self.tri(512, 338)))
+        self.assertFalse(godkand(self.tri(1, 1)), "ett enda svar får inte räcka (#11)")
+        self.assertFalse(godkand(self.tri(480, 338)), "under 95 % täckning i T1")
+        self.assertFalse(godkand({"domaner": [], "t4": []}), "tomt underlag")
+
+    def test_webbsparr_kraver_nat_och_kontroller(self):
+        from webb_klassa import godkand
+        ok_kontroller = {"negativ": [], "positiv": ["www.googletagmanager.com"],
+                         "nat": {"www.googletagmanager.com": "US", "www.hetzner.com": "EU/EES"}}
+        org = [{"status": 200, "w2": ["t.exempel.com"], "natverk": {"t.exempel.com": {"land": None}}} for _ in range(20)]
+        self.assertFalse(godkand({"kontroller": ok_kontroller, "organisationer": org}), "0 % nät (#13)")
+        for o in org:
+            o["natverk"]["t.exempel.com"]["land"] = "US"
+        self.assertTrue(godkand({"kontroller": ok_kontroller, "organisationer": org}))
+        self.assertFalse(godkand({"kontroller": {}, "organisationer": org}), "saknade kontroller")
+        self.assertFalse(godkand({"kontroller": ok_kontroller, "organisationer": []}), "tom population")
+
+    def test_ofullstandig_paginering_ar_inte_ok(self):
+        import certmatning
+        sidor = iter([[{"id": i, "dns_names": [f"n{i}.exempel.se"]} for i in range(100)], None])
+        with mock.patch.object(certmatning, "certspotter_sida", lambda url: next(sidor)):
+            self.assertIsNone(certmatning.namn_certspotter("exempel.se"), "#14")
+        sidor = iter([[{"id": 1, "dns_names": ["a.exempel.se"]}]])
+        with mock.patch.object(certmatning, "certspotter_sida", lambda url: next(sidor)):
+            self.assertEqual(certmatning.namn_certspotter("exempel.se"), {"a.exempel.se"})
+
+    def test_aldre_triangulering_markeras(self):
+        import bygg_sida
+        ny_dns = ROT / "data" / "ra-organisationer-sverige-2099-01-01T000000Z.json"
+        tri = {"kallor": {"kommuner": "data/ra-organisationer-sverige-2026-10-08T154137Z.json"}}
+        self.assertFalse(bygg_sida.triangulering_avser(tri, ny_dns, "kommuner"), "#18")
+        self.assertTrue(bygg_sida.triangulering_avser(tri, ROT / "data/ra-organisationer-sverige-2026-10-08T154137Z.json", "kommuner"))
+
+
 if __name__ == "__main__":
     unittest.main()

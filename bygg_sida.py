@@ -15,6 +15,7 @@ from pathlib import Path
 from klassa import webb
 from klassa_v2 import epost, signaler
 from triangulering import godkand as triangulering_godkand
+from webb_klassa import godkand as webb_godkand
 from webb_klassa import har_ga, har_ga_insamling, klassa_v3, leverantor
 
 ROT = Path(__file__).parent
@@ -51,19 +52,19 @@ def cert_godkand(d):
     # T6 måste ha hållit för just den här körningen.
     for t6 in (ROT / "data").glob("triangulering-t6-*.json"):
         k = json.loads(t6.read_text(encoding="utf-8"))
-        if k["kalla"] == f"data/cert-{d['matt']}.json" and sum(r["inom_15"] for r in k["rader"]) >= 16:
-            return True
+        if k["kalla"] != f"data/cert-{d['matt']}.json" or sum(r["inom_15"] for r in k["rader"]) < 16:
+            continue
+        # T6 version 2 (#19): nollkategorin prövas separat, krav skrivna före körningen.
+        if k.get("version", 1) >= 2 and not (k["noll"]["av"] >= 5 and k["noll"]["lika"] / k["noll"]["av"] >= 0.9):
+            continue
+        return True
     return False
 
 
 def senaste_godkanda_webb(monster):
-    """Senaste webbmätning som uppfyller kravet i METOD.md (minst 95 % mätbara).
+    """Senaste webbmätning som klarar samma kvalitetskontroll som rapporten (#13).
     En körning som faller publiceras inte, men behålls i data/."""
-    for fil in sorted((ROT / "data").glob(monster), reverse=True):
-        org = json.loads(fil.read_text(encoding="utf-8"))["organisationer"]
-        if sum(klassa_v3(o) != "kunde inte mätas" for o in org) / len(org) >= 0.95:
-            return fil
-    return None
+    return senaste_godkanda(monster, webb_godkand)
 
 
 def las(fil):
@@ -72,6 +73,12 @@ def las(fil):
 
 def relativ(fil):
     return str(fil.relative_to(ROT)) if fil else None
+
+
+def triangulering_avser(tri, ra_fil, grupp):
+    """Gäller trianguleringen samma DNS-fil som sidan visar? Annars är den en separat,
+    daterad observation och får inte kallas bekräftelse (#18)."""
+    return bool(tri and ra_fil and tri.get("kallor", {}).get(grupp) == relativ(ra_fil))
 
 
 def bygg(grupp):
@@ -146,6 +153,7 @@ def bygg(grupp):
         "matt": data[0]["matt"], "kalla": relativ(ra_fil),
         "webbMatt": webb_data and webb_data["matt"], "webbKalla": relativ(webb_fil),
         "trianguleringMatt": tri and tri["matt"], "trianguleringKalla": relativ(tri_fil),
+        "trianguleringAvserSammaDns": triangulering_avser(tri, ra_fil, grupp),
         "sakerhetMatt": sak and sak["matt"], "sakerhetKalla": relativ(sak_fil),
         "certKalla": relativ(cert_fil), "certMatt": las(cert_fil)["matt"] if cert_fil else None,
         "sakerhet": {k: dict(v) for k, v in sakerhet.items()},

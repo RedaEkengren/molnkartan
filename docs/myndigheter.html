@@ -64,14 +64,15 @@ const [eEtikett, eFarg] = karta(EPOST), [wEtikett, wFarg] = karta(WEBB);
 const el = (t, e = {}, ...b) => { const x = Object.assign(document.createElement(t), e); x.append(...b); return x; };
 const tagg = (text, farg, title = "") => el("span", { className: "tagg", style: `background:${farg}`, textContent: text, title });
 
-fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, organisationer: org }) => {
+fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, trianguleringMatt, organisationer: org }) => {
+  const datum = t => t ? new Date(t.replace(/T(\d\d)(\d\d)(\d\d)Z/, "T$1:$2:$3Z")).toLocaleDateString("sv-SE", { day: "numeric", month: "long" }) : "";
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
   const n = org.length, rakna = f => org.filter(f).length, fs = o => o.fore_samtycke?.klass;
   const matbara = rakna(o => fs(o) && fs(o) !== "kunde inte mätas"), us = rakna(o => fs(o) === "US-nät före samtycke");
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "MS") }), el("span", { textContent: `av ${n} domäner har e-post som syns gå via Microsofts moln` })),
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "inga molnsignaler") }), el("span", { textContent: "har e-post utan molnsignaler i DNS: egna servrar eller e-postfilter" })),
-    el("div", {}, el("b", { textContent: rakna(o => o.exo === true) }), el("span", { textContent: "har domänen registrerad i Exchange Online (registrering, inte användning)" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.exo === true) }), el("span", { textContent: `har domänen registrerad i Exchange Online (registrering, inte användning; kontroll ${datum(trianguleringMatt)})` })),
     el("div", {}, el("b", { textContent: us }), el("span", { textContent: `av ${matbara} mätbara webbplatser anropar amerikanska nät före samtycke` })),
     el("div", {}, el("b", { textContent: rakna(o => o.fore_samtycke?.ga) }), el("span", { textContent: "anropar Google Analytics eller Tag Manager före samtycke" })),
   );

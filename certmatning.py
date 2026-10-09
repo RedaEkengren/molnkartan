@@ -74,7 +74,7 @@ def namn_certspotter(doman):
         url = f"https://api.certspotter.com/v1/issuances?domain={doman}&include_subdomains=true&expand=dns_names"
         sida = certspotter_sida(url + (f"&after={efter}" if efter else ""))
         if sida is None:
-            return None if not namn and efter is None else namn
+            return None  # #14: en saknad sida gör hela listan ofullständig, inte "ok"
         namn |= {n for r in sida for n in r["dns_names"]}
         if len(sida) < 100:
             return namn
@@ -148,9 +148,13 @@ def t6():
         print(f"{o['namn'][:36]:36} {o.get('kalla')} {a:.0%} ({o['aktiva']})  {cs.get('kalla')} " +
               (f"{b:.0%} ({cs['aktiva']})" if b is not None else str(cs.get("status"))) + ("  ✓" if ok else "  ✗"))
         time.sleep(2)
+    nollor = [r for r in rader if r["andel_us_huvud"] == 0 and r["andel_us_andra"] is not None]
+    noll_lika = sum(r["andel_us_andra"] == 0 for r in nollor)
     print(f"\nT6: inom 15 procentenheter för {lika}/20 (krav ≥16)")
+    print(f"T6 nollkategori: {noll_lika}/{len(nollor)} med 0 % i huvudkällan har 0 % även i den andra (krav ≥90 % och minst 5)")
     ut = ROT / "data" / f"triangulering-t6-{datetime.now(timezone.utc).strftime('%Y-%m-%dT%H%M%SZ')}.json"
-    ut.write_text(json.dumps({"kalla": str(Path(senaste).relative_to(ROT)), "rader": rader}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    ut.write_text(json.dumps({"version": 2, "kalla": str(Path(senaste).relative_to(ROT)), "rader": rader,
+                              "noll": {"lika": noll_lika, "av": len(nollor)}}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(ut.relative_to(ROT))
 
 
