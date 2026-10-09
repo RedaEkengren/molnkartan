@@ -716,3 +716,13 @@ Per klass, bland organisationer med facit (bortfall redovisas separat):
 
 En klass med färre än 5 facit redovisas som "ej prövad". Resultatet
 publiceras oavsett utfall.
+
+---
+
+## Gräns: skolor mäts inte — 2026-10-09
+
+Skolors egna domäner och tjänster (t.ex. lärplattformar och "Google i skolan")
+mäts inte, varken per skola eller per kommun. Skolan hanterar uppgifter om
+barn, och en karta över enskilda skolors tjänster riskerar att bli en lista
+över mål. Skolorna drivs dessutom oftast inom kommunens egen infrastruktur,
+som redan mäts. Beslutet stänger issue #2.
