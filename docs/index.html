@@ -79,7 +79,7 @@
   <div class="lan" id="lanWebb"></div>
   <h3>Vanligaste tjänsterna på amerikanska nät före samtycke</h3>
   <ol class="topplista" id="topp"></ol>
-  <p class="forklaring">Google Analytics före samtycke sker ofta via Googles Consent Mode: inga kakor sätts, men IP-adress, webbläsare och sidadress skickas till Google. Om det är förenligt med reglerna avgörs inte här.</p>
+  <p class="forklaring">Google Tag Manager och Google Analytics räknas här tillsammans; elva av de sexton kommunerna anropar Google Analytics servrar, fem laddar bara Tag Manager. Se <a href="fynd.html#google-analytics">fynden</a>.</p>
 
   <h2>Säkerhetsgrunder</h2>
   <p class="forklaring">Grundläggande skydd i DNS och på webben. Redovisas bara som summor, aldrig per kommun, så att sidan inte blir en lista över mål.</p>
@@ -154,7 +154,7 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
   const ms = rakna(o => o.epost === "MS"), exo = rakna(o => o.exo === true);
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: ms }), el("span", { textContent: `av ${n} har e-post som syns gå via Microsofts moln (${pct(ms)})` })),
-    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: `av ${n} har Exchange Online bakom e-posten, enligt en oberoende kontroll mot Microsoft` })),
+    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: `av ${n} har domänen registrerad i Microsofts e-posttjänst Exchange Online, enligt en oberoende kontroll` })),
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "G") }), el("span", { textContent: "har e-post hos Google" })),
     el("div", {}, el("b", { textContent: rakna(o => o.webb === "SE/EU") }), el("span", { textContent: "har webbplatsen hos en svensk eller europeisk leverantör" })),
   );
@@ -185,7 +185,7 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
   const usNat = rakna(o => fs(o) === "US-nät före samtycke"), ga = rakna(o => o.fore_samtycke?.ga);
   document.getElementById("kortWebb").append(
     el("div", {}, el("b", { textContent: usNat }), el("span", { textContent: `av ${matbara} mätbara kontaktar amerikanska nät före samtycke (${Math.round(100 * usNat / matbara)} %)` })),
-    el("div", {}, el("b", { textContent: ga }), el("span", { textContent: "kontaktar Google Analytics eller Tag Manager före samtycke" })),
+    el("div", {}, el("b", { textContent: ga }), el("span", { textContent: "laddar Google Analytics eller Tag Manager före samtycke" })),
     el("div", {}, el("b", { textContent: rakna(o => fs(o) === "bara EU/EES-nät före samtycke") }), el("span", { textContent: "kontaktar bara europeiska nät före samtycke" })),
     el("div", {}, el("b", { textContent: rakna(o => fs(o) === "ingen tredjepart") }), el("span", { textContent: "kontaktar ingen tredjepart alls före samtycke" })),
   );
@@ -199,15 +199,16 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
       legend: [["Svarar", "var(--ms)"], ["Svarar inte", "var(--inga)"], ["Ingen uppgift", "var(--okand)"]] },
     { namn: "Webbplats före samtycke", varde: o => fs(o) ? [webbEtikett[fs(o)], webbFarg[fs(o)]] : ["Ingen uppgift", "var(--okand)"],
       legend: WEBBKLASSER.slice(0, 5).map(([, n, f]) => [n, f]) },
-    { namn: "Google Analytics före samtycke", varde: o => o.fore_samtycke?.ga ? ["Ja", "var(--g)"] : ["Nej", "var(--inga)"],
-      legend: [["Ja", "var(--g)"], ["Nej", "var(--inga)"]] },
+    { namn: "Google före samtycke", varde: o => !o.fore_samtycke ? ["Ingen uppgift", "var(--okand)"]
+        : o.fore_samtycke.gaInsamling ? ["Google Analytics", "var(--g)"] : o.fore_samtycke.ga ? ["Bara Tag Manager", "var(--annat)"] : ["Nej", "var(--inga)"],
+      legend: [["Google Analytics", "var(--g)"], ["Bara Tag Manager", "var(--annat)"], ["Nej", "var(--inga)"], ["Ingen uppgift", "var(--okand)"]] },
   ]);
   if (sakerhet?.DMARC) {
     const andel = (signal, varde) => Math.round(100 * (sakerhet[signal][varde] || 0) / n) + " %";
     document.getElementById("kortSakerhet").append(
-      el("div", {}, el("b", { textContent: sakerhet.DMARC["p=none"] || 0 }), el("span", { textContent: `har DMARC p=none: förfalskad e-post i deras namn ska ändå levereras` })),
+      el("div", {}, el("b", { textContent: sakerhet.DMARC["p=none"] || 0 }), el("span", { textContent: `har DMARC i övervakningsläge (p=none) och ber inte mottagare stoppa förfalskad e-post` })),
       el("div", {}, el("b", { textContent: andel("DMARC", "p=reject") }), el("span", { textContent: "avvisar e-post som förfalskar avsändaren (DMARC p=reject)" })),
-      el("div", {}, el("b", { textContent: andel("MTA-STS", "finns") }), el("span", { textContent: "kräver krypterad e-post till sig (MTA-STS)" })),
+      el("div", {}, el("b", { textContent: andel("MTA-STS", "finns") }), el("span", { textContent: "har publicerat MTA-STS för krypterad e-post till sig" })),
       el("div", {}, el("b", { textContent: andel("DNSSEC", "finns") }), el("span", { textContent: "har DNSSEC-signerad domän" })),
     );
   }
@@ -234,7 +235,7 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
         el("td", { textContent: o.teams ? "Microsoft" : "–" }),
         el("td", { textContent: o.webb === "SE/EU" ? "Sverige/EU" : o.webb, title: o.webbLeverantor || "" }),
         el("td", {}, fs(o) ? el("span", { className: "tagg", style: `background:${webbFarg[fs(o)]}`,
-          textContent: webbEtikett[fs(o)] + (o.fore_samtycke.ga ? " · GA" : ""),
+          textContent: webbEtikett[fs(o)] + (o.fore_samtycke.gaInsamling ? " · GA" : o.fore_samtycke.ga ? " · GTM" : ""),
           title: o.fore_samtycke.us.length ? "Amerikanska nät: " + o.fore_samtycke.us.join(", ") : "" }) : "–"),
       )));
   };

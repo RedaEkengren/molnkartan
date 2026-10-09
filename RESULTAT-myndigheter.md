@@ -38,7 +38,8 @@ Google Analytics/Tag Manager före samtycke: 30: Arbetsgivarverket, Barnombudsma
 ## Iakttagelser
 
 - **Myndigheter skiljer sig från kommuner.** Hälften av domänerna har e-post
-  utan molnsignaler, ofta på egna servrar, hos Sunet, Advania eller Nordlo.
+  utan molnsignaler i DNS: egna servrar eller e-postfilter (vanligast
+  mailanyone/mx25), ibland Sunet, Advania eller Nordlo.
   Sex domäner tar emot e-post via Skatteverkets servrar.
 - **Skatteverket syns inte.** E-post utan molnsignaler, webbplats utan
   tredjeparter, men en Microsoft-tenant. Enligt Ekot används amerikanska

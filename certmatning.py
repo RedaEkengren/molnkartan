@@ -13,6 +13,7 @@ import random
 import sys
 import threading
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -39,6 +40,11 @@ def hamta_json(url, forsok=4):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "molnkartan (+https://github.com/RedaEkengren/molnkartan)"}), timeout=90) as svar:
                 return json.load(svar)
+        except urllib.error.HTTPError as fel:
+            if fel.code == 429:  # rättelse T6: vänta så länge tjänsten ber om, högst en timme
+                time.sleep(min(int(fel.headers.get("Retry-After") or 600), 3600) + 5)
+            else:
+                time.sleep(8 * (i + 1))
         except Exception:
             time.sleep(8 * (i + 1))
     return None
@@ -59,7 +65,7 @@ def certspotter_sida(url):
         if vanta > 0:
             time.sleep(vanta)
         _senast[0] = time.monotonic()
-    return hamta_json(url, forsok=2)
+    return hamta_json(url)
 
 
 def namn_certspotter(doman):
@@ -121,7 +127,7 @@ def andel_us(r):
 
 
 def t6():
-    senaste = sorted(glob.glob(str(ROT / "data" / "cert-*.json")))[-1]
+    senaste = sys.argv[2] if len(sys.argv) > 2 else sorted(glob.glob(str(ROT / "data" / "cert-*.json")))[-1]
     d = json.load(open(senaste, encoding="utf-8"))
     kandidater = sorted((o for o in d["organisationer"] if o.get("aktiva")), key=lambda o: o["domän"])
     urval = random.Random(20261008).sample(kandidater, 20)
@@ -144,7 +150,7 @@ def t6():
 
 
 def main():
-    if sys.argv[1:] == ["--t6"]:
+    if sys.argv[1:2] == ["--t6"]:
         return t6()
     tid = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
     rader = []

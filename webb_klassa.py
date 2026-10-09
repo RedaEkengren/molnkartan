@@ -49,6 +49,14 @@ def klassa(o):
     return klass, leverantorer, okanda
 
 
+GA_INSAMLING = ("google-analytics.com", "analytics.google.com")
+
+
+def har_ga_insamling(o):
+    """Anrop till Google Analytics servrar. Tag Manager ensam räknas inte."""
+    return any(v == d or v.endswith("." + d) for v in o.get("w2", []) for d in GA_INSAMLING)
+
+
 def har_ga(o):
     return any(v == d or v.endswith("." + d) for v in o.get("w2", []) for d in GA)
 

@@ -24,9 +24,14 @@ eller spamfilter:
 - 7 av 10 kommuner med e-post hos Google
 - 47 av 103 myndighetsdomäner med "inga molnsignaler", bland dem Skatteverket
 
-Det betyder att domänen är upplagd i en Exchange Online-organisation, ofta i en
-hybridlösning där e-post tas emot på egna servrar. Det säger inte hur många
-brevlådor som ligger i molnet. Klasserna i övriga resultat ändras inte i
+Det betyder att domänen är registrerad i en Exchange Online-organisation. Det
+visar inte att e-post tas emot eller lagras där; att 7 av 10 Google-kommuner
+också ger ja visar gränsen. T1 jämför två ändpunkter hos samma leverantör och
+är därför en svag kontroll.
+
+En senare körning från GitHub Actions (`triangulering-2026-10-08T191727Z`)
+föll på T3 (93–96 % mot kravet 99 %, DNS-fel på GitHubs maskiner) och
+publiceras inte. Klasserna i övriga resultat ändras inte i
 efterhand; detta är en oberoende signal som visar att DNS-mätningen är en
 lägsta nivå.
 

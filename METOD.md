@@ -469,8 +469,9 @@ den fallna finns kvar i `data/`.
 
 ### Utfall och rättelse mätning 4 — 2026-10-08
 
-Första körningen (`data/cert-2026-10-08T180702Z.json`, behålls, publiceras
-inte): svar för 511 av 512 (krav ≥90 %, uppfyllt), men **94,1 % av aktiva namn
+Första körningen (`data/cert-2026-10-08T180702Z.json`, publicerades aldrig;
+borttagen 2026-10-09 eftersom den hade interna antal per organisation, se
+"Publicering och granskning"): svar för 511 av 512 (krav ≥90 %, uppfyllt), men **94,1 % av aktiva namn
 fick nät (krav ≥95 %, föll)**. Ett stickprov på de två organisationerna med
 flest namn utan nät visade att samtliga 165 pekade på privata IP-adresser:
 interna system med publika DNS-namn, som inte går att nå från internet och
@@ -484,3 +485,63 @@ säkerhetsrelevant. Kravet (≥95 %) ändras inte. Hela mätningen körs om.
 `tests/test_hygien.py` gav falsklarm på organisationernas egna e-postdomäner
 under andra organisationers domäner (`ifau.uu.se`, `nai.uu.se`) och undantar nu
 fältet `domän`.
+
+### T6 — första försöket föll, 2026-10-09
+
+`data/triangulering-t6-2026-10-08T233344Z.json` (behålls): 6 av 20 inom 15
+procentenheter, krav 16. 14 av 20 var "inget svar" från Certspotter, vars
+timkvot (100 anrop) hade förbrukats av huvudkörningen strax innan. Där båda
+källorna svarade var 6 av 6 inom kravet.
+
+**Rättelse:** vid svar 429 väntar skriptet den tid Certspotter anger
+(`Retry-After`, högst en timme) i stället för att ge upp. Alla 20 i samma urval
+mäts om; kravet ändras inte. Mätning 4 publiceras inte förrän T6 håller.
+
+---
+
+# Publicering och granskning — 2026-10-09
+
+## Spärrar
+
+En körning publiceras bara om den klarar sina krav. `bygg_sida.py` väljer för
+varje sort den senaste godkända körningen:
+
+- **Webb:** minst 95 % mätbara.
+- **Triangulering:** T1 ≥99 %, T2 ≥95 %, T3 ≥99 % för alla tre resolvrar,
+  T4 ≥97 %.
+- **Säkerhet:** högst 2 % DNS-fel. DNS-fel (timeout, SERVFAIL) räknas som fel,
+  inte som saknade poster.
+
+Fynden (`docs/fynd.html`) gäller en bestämd mätning. `fynd_siffror.py` låser
+de filerna och räknar fram varje siffra; `tests/test_fynd.py` fallerar om sidan
+och datan inte stämmer.
+
+## Oberoende granskning
+
+Före spridning lät vi en separat granskare, utan del i bygget och med bara
+läsrätt, försöka motbevisa varje fynd mot rådatan. Den hittade och vi rättade:
+
+1. Rubriken "Sexton kommuner kontaktar Google Analytics" var fel för fem som
+   bara laddar Tag Manager (bekräftat i vanlig Chrome för Jönköping och Sunne).
+   Nu: 16 laddar Analytics eller Tag Manager, varav 11 anropar Analytics.
+   Samma uppdelning för myndigheterna: 30, varav 11.
+2. Exchange Online-fyndet påstod att e-posten finns hos Microsoft. Autodiscover
+   visar bara att domänen är registrerad i Exchange Online; 7 av 10
+   Google-kommuner ger också ja. "Hybridlösning" var inte mätt och är struken.
+3. Samtyckesverktyg på amerikanskt nät var 31, inte 28: listan över verktyg
+   saknade CookieYes, Klaro och `cookiebot.eu`. Definitionen ligger nu i koden.
+4. Två körningar från GitHub Actions som inte klarade kraven var publicerade:
+   triangulering (T3 93–96 %) och säkerhet (DNS-fel räknade som saknade poster).
+5. DMARC `p=none` beskrevs som att mottagare ombeds leverera förfalskad e-post.
+   Det är övervakningsläge. MTA-STS mäts bara som publicerat, inte tillämpat.
+6. Gotlands län, med en enda organisation, visade enskilda värden i
+   säkerhetsresultatet. Län med färre än fem organisationer slås nu ihop.
+7. Den fallna certifikatkörningen (`cert-2026-10-08T180702Z`) hade antal namn
+   med privata adresser per organisation, i strid med gränsen. Den är
+   borttagen ur `data/`, liksom säkerhetsfilerna i punkt 4 och 6.
+8. DKIM-målen i sidans datafiler visade tenantnamn. Nu visas bara leverantören.
+9. Mindre: "uppläsningstjänsten vanligast" (näst vanligast efter Google),
+   Vimmerby ligger i Kalmar län, två av de tjugo utan tredjepart har webbplatsen
+   bakom Cloudflare, "Sunet" på myndighetssidan, rådata saknades för tre
+   kontroller (nu `data/webb-organisationer-sjalv-*`, `data/stickprov-*`, och
+   9.9.9.9-kontrollen i `data/sakerhet-*`).

@@ -22,7 +22,7 @@
 
   <div class="varning">
     <h2>Skatteverket visar vad mätningen inte ser</h2>
-    <p style="margin:0">Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. Ändå visar DNS e-post utan molnsignaler och webbplatsen inga tredjeparter. Först en oberoende kontroll mot Microsofts egen tjänst visade att Exchange Online hanterar skatteverket.se, troligen i en hybridlösning. Det gäller 142 av 202 myndighetsdomäner. <b>Avsaknad av signaler är inte avsaknad av moln.</b></p>
+    <p style="margin:0">Enligt Ekot har Skatteverket infört amerikanska molntjänster i stor skala. Ändå visar DNS e-post utan molnsignaler och webbplatsen inga tredjeparter. En oberoende kontroll mot Microsofts egen tjänst visar att domänen är registrerad i Exchange Online. 58 myndighetsdomäner som inte syns som Microsoft i DNS är registrerade där. <b>Avsaknad av signaler är inte avsaknad av moln.</b></p>
   </div>
 
   <h2>Alla myndighetsdomäner</h2>
@@ -70,10 +70,10 @@ fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, organisati
   const matbara = rakna(o => fs(o) && fs(o) !== "kunde inte mätas"), us = rakna(o => fs(o) === "US-nät före samtycke");
   document.getElementById("kort").append(
     el("div", {}, el("b", { textContent: rakna(o => o.epost === "MS") }), el("span", { textContent: `av ${n} domäner har e-post som syns gå via Microsofts moln` })),
-    el("div", {}, el("b", { textContent: rakna(o => o.epost === "inga molnsignaler") }), el("span", { textContent: "har e-post utan molnsignaler, ofta egna servrar eller Sunet" })),
-    el("div", {}, el("b", { textContent: rakna(o => o.exo === true) }), el("span", { textContent: "har ändå Exchange Online bakom e-posten, enligt en oberoende kontroll mot Microsoft" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.epost === "inga molnsignaler") }), el("span", { textContent: "har e-post utan molnsignaler i DNS: egna servrar eller e-postfilter" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.exo === true) }), el("span", { textContent: "har domänen registrerad i Exchange Online, enligt en oberoende kontroll" })),
     el("div", {}, el("b", { textContent: us }), el("span", { textContent: `av ${matbara} mätbara webbplatser kontaktar amerikanska nät före samtycke` })),
-    el("div", {}, el("b", { textContent: rakna(o => o.fore_samtycke?.ga) }), el("span", { textContent: "kontaktar Google Analytics eller Tag Manager före samtycke" })),
+    el("div", {}, el("b", { textContent: rakna(o => o.fore_samtycke?.ga) }), el("span", { textContent: "laddar Google Analytics eller Tag Manager före samtycke" })),
   );
   for (const [k, namn] of EPOST) document.getElementById("epostFilter").append(el("option", { value: k, textContent: namn }));
   for (const [k, namn] of WEBB) document.getElementById("webbFilter").append(el("option", { value: k, textContent: namn }));
@@ -88,7 +88,7 @@ fetch("myndigheter.json").then(r => r.json()).then(({ matt, webbMatt, organisati
         el("td", {}, el("code", { textContent: o.doman })),
         el("td", {}, tagg(eEtikett[o.epost], eFarg[o.epost])),
         el("td", { textContent: o.tenant ? "ja" : "nej" }),
-        el("td", {}, fs(o) ? tagg(wEtikett[fs(o)] + (o.fore_samtycke.ga ? " · GA" : ""), wFarg[fs(o)],
+        el("td", {}, fs(o) ? tagg(wEtikett[fs(o)] + (o.fore_samtycke.gaInsamling ? " · GA" : o.fore_samtycke.ga ? " · GTM" : ""), wFarg[fs(o)],
           o.fore_samtycke.us.length ? "Amerikanska nät: " + o.fore_samtycke.us.join(", ") : "") : "–"),
       )));
   };

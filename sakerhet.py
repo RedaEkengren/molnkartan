@@ -22,18 +22,26 @@ res = dns.resolver.Resolver(configure=False)
 res.nameservers, res.lifetime = ["1.1.1.1"], 8
 
 
+class DnsFel(Exception):
+    """Uppslaget misslyckades (timeout, SERVFAIL). Räknas som fel, aldrig som "saknas"."""
+
+
 def txt(namn):
     try:
         return ["".join(s.decode() for s in r.strings) for r in res.resolve(namn, "TXT")]
-    except Exception:
+    except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
         return []
+    except Exception as fel:
+        raise DnsFel(str(fel)) from fel
 
 
 def har_ds(doman):
     try:
         return len(res.resolve(doman, "DS")) > 0
-    except Exception:
+    except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
         return False
+    except Exception as fel:
+        raise DnsFel(str(fel)) from fel
 
 
 def dmarc(doman):
@@ -63,17 +71,23 @@ def hsts(url):
         return "kunde inte mätas"
 
 
+def dns_signaler(d):
+    varden = {}
+    for signal, funktion in (("DMARC", lambda: dmarc(d)), ("SPF", lambda: spf(d)),
+                             ("MTA-STS", lambda: "finns" if any(t.startswith("v=STSv1") for t in txt(f"_mta-sts.{d}")) else "saknas"),
+                             ("TLS-RPT", lambda: "finns" if any(t.startswith("v=TLSRPTv1") for t in txt(f"_smtp._tls.{d}")) else "saknas"),
+                             ("DNSSEC", lambda: "finns" if har_ds(d) else "saknas")):
+        try:
+            varden[signal] = funktion()
+        except DnsFel:
+            varden[signal] = "fel"
+    return varden
+
+
 def mat(rad):
     d = rad["domän"]
     webb = f"https://{rad['webb']}/" if rad.get("webb") else f"https://www.{d}/"
-    return {
-        "DMARC": dmarc(d),
-        "SPF": spf(d),
-        "MTA-STS": "finns" if any(t.startswith("v=STSv1") for t in txt(f"_mta-sts.{d}")) else "saknas",
-        "TLS-RPT": "finns" if any(t.startswith("v=TLSRPTv1") for t in txt(f"_smtp._tls.{d}")) else "saknas",
-        "DNSSEC": "finns" if har_ds(d) else "saknas",
-        "HSTS": hsts(webb),
-    }
+    return {**dns_signaler(d), "HSTS": hsts(webb)}
 
 
 def kontroller():
@@ -86,14 +100,28 @@ def kontroller():
 
 def main():
     tid = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
-    kontroll = kontroller()
+    fakta = kontroller()
     grupper = []
-    for r in csv.DictReader(open(ROT / "organisationer-sverige.csv", encoding="utf-8")):
-        grupper.append((r["lan"], r))
+    kommuner = list(csv.DictReader(open(ROT / "organisationer-sverige.csv", encoding="utf-8")))
+    storlek = Counter(r["lan"] for r in kommuner)
+    # Gränsen: ett län med färre än 5 organisationer (Gotland, 1) skulle visa enskilda värden.
+    # Det slås ihop med det minsta av de övriga länen.
+    minsta = min((l for l in storlek if storlek[l] >= 5), key=lambda l: (storlek[l], l))
+    sma = sorted(l for l in storlek if storlek[l] < 5)
+    sammanslagen = " och ".join([minsta.removesuffix(" län")] + [l.removesuffix(" län") for l in sma]) + " län"
+    for r in kommuner:
+        grupper.append((sammanslagen if r["lan"] in sma or r["lan"] == minsta else r["lan"], r))
     for r in csv.DictReader(open(ROT / "organisationer-myndigheter-matning.csv", encoding="utf-8")):
         grupper.append(("Statliga myndigheter", r))
     with ThreadPoolExecutor(12) as pool:
         resultat = list(pool.map(mat, [r for _, r in grupper]))
+    # Kontroll: DNS-signalerna igen via 9.9.9.9. Bara antal lika sparas, inga värden per organisation.
+    res.nameservers = ["9.9.9.9"]
+    with ThreadPoolExecutor(12) as pool:
+        kontroll = list(pool.map(lambda r: dns_signaler(r["domän"]), [r for _, r in grupper]))
+    res.nameservers = ["1.1.1.1"]
+    lika = {s: sum(a[s] == b[s] for a, b in zip(resultat, kontroll)) for s in kontroll[0]}
+    fel = sum(v == "fel" for r in resultat for v in r.values())
     summa = defaultdict(lambda: defaultdict(Counter))
     antal = Counter()
     for (grupp, _), varden in zip(grupper, resultat):
@@ -101,7 +129,8 @@ def main():
         for signal, varde in varden.items():
             summa[grupp][signal][varde] += 1
     ut = ROT / "data" / f"sakerhet-{tid}.json"
-    ut.write_text(json.dumps({"matt": tid, "kontroller": kontroll, "antal": antal,
+    ut.write_text(json.dumps({"matt": tid, "kontroller": fakta, "fel_andel": round(fel / (len(resultat) * 6), 4),
+                              "lika_9999": lika, "antal": antal,
                               "per_grupp": {g: {s: dict(c) for s, c in v.items()} for g, v in summa.items()}},
                              ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(ut.relative_to(ROT))

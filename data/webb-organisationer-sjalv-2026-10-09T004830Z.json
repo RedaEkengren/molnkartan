@@ -1,0 +1,27 @@
+{
+  "matt": "2026-10-09T004830Z",
+  "chrome": "154",
+  "kontroller": {
+    "negativ": [],
+    "positiv": [
+      "www.googletagmanager.com"
+    ],
+    "nat": {
+      "www.googletagmanager.com": "US",
+      "www.hetzner.com": "EU/EES"
+    }
+  },
+  "organisationer": [
+    {
+      "namn": "Molnkartan",
+      "typ": "egen",
+      "domän": "redaekengren.github.io",
+      "webb": "redaekengren.github.io/molnkartan",
+      "status": 200,
+      "slutadress": "https://redaekengren.github.io/molnkartan/",
+      "w1": [],
+      "w2": [],
+      "natverk": {}
+    }
+  ]
+}

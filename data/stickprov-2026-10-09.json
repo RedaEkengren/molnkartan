@@ -1,0 +1,30 @@
+{
+ "matt": "2026-10-09T004856Z",
+ "metod": "vanlig Chrome (Claude in Chrome), performance.getEntriesByType('resource') efter 10 s, ingen knapp klickad, ingen samtyckeskaka",
+ "stickprov": [
+  {
+   "namn": "Huddinge",
+   "sida": "www.huddinge.se",
+   "resurser": 31,
+   "varder": [
+    "www.huddinge.se"
+   ]
+  },
+  {
+   "namn": "Jönköping",
+   "sida": "www.jonkoping.se",
+   "google": [
+    "www.googletagmanager.com"
+   ],
+   "kommentar": "inga Google Analytics-värdar"
+  },
+  {
+   "namn": "Sunne",
+   "sida": "www.sunne.se",
+   "google": [
+    "www.googletagmanager.com"
+   ],
+   "kommentar": "inga Google Analytics-värdar"
+  }
+ ]
+}

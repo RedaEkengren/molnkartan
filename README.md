@@ -8,11 +8,11 @@ Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
 | E-post syns gå via Microsofts moln | 248 (80 %) |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
-| Exchange Online hanterar domänen (oberoende kontroll) | 305 (98 %) |
+| Domänen registrerad i Exchange Online (oberoende kontroll) | 305 (98 %) |
 | Webbplatsen kontaktar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
-| … varav Google Analytics/Tag Manager | 16 |
+| … varav Google Analytics eller Tag Manager | 16 (11 Analytics, 5 bara Tag Manager) |
 
-Samma mätningar för 252 statliga myndigheter (SCB:s myndighetsregister):
+Samma mätningar för statliga myndigheter (252 i SCB:s myndighetsregister, 202 unika e-postdomäner):
 [`RESULTAT-myndigheter.md`](RESULTAT-myndigheter.md). Fynden, med hur varje
 kontrollerades: [Fynd](https://redaekengren.github.io/molnkartan/fynd.html).
 
@@ -119,7 +119,8 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `data/` | Rådata med tidsstämpel, en fil per körning (`ra-` DNS, `webb-` webbplatser) |
 | `karta_bygg.py`, `docs/karta.json` | Kommun- och länsgränser från SCB (Digitala gränser, CC0), förenklade till SVG |
 | `triangulering.py` | T1–T4: oberoende kontroller av huvudpåståendena |
-| `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py <rådatafil>` skriver `docs/data.json` |
+| `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py` väljer senaste godkända körning av varje sort och skriver `docs/*.json` |
+| `fynd_siffror.py` | Räknar fram varje siffra på fyndsidan; `tests/test_fynd.py` kontrollerar sidan mot den |
 
 Rådatan sparar inte tenant-ID eller verifieringskoder. De är tekniskt publika
 men behövs inte för någon slutsats.

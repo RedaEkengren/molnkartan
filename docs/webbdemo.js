@@ -3,7 +3,7 @@
 // uppslaget som gjordes då, och utslaget är klassningen från webb_klassa.py.
 
 const WEBBEXEMPEL = [
-  { passar: o => o.fore_samtycke?.klass === "US-nät före samtycke" && o.fore_samtycke.ga },
+  { passar: o => o.fore_samtycke?.klass === "US-nät före samtycke" && o.fore_samtycke.gaInsamling },
   { passar: o => o.fore_samtycke?.klass === "bara EU/EES-nät före samtycke" && o.fore_samtycke.varder.length >= 3 },
   { passar: o => o.fore_samtycke?.klass === "US-nät före samtycke" && !o.fore_samtycke.ga && o.fore_samtycke.us.length <= 3 },
   { passar: o => o.fore_samtycke?.klass === "ingen tredjepart" },
@@ -56,8 +56,8 @@ function startaWebbDemo(org, { webbEtikett, webbFarg }) {
 
     utslag.replaceChildren(
       el("span", { className: "tagg", textContent: webbEtikett[f.klass], style: `background:${webbFarg[f.klass]}` }),
-      f.ga ? " Google Analytics eller Tag Manager kontaktas innan besökaren svarat." :
-        f.klass === "ingen tredjepart" ? " Allt hämtas från kommunens egna servrar." :
+      f.gaInsamling ? " Google Analytics anropas innan besökaren svarat." : f.ga ? " Google Tag Manager laddas innan besökaren svarat." :
+        f.klass === "ingen tredjepart" ? " Allt hämtas från kommunens egen webbplats." :
           f.klass === "US-nät före samtycke" ? ` ${f.us.length} ${f.us.length === 1 ? "värd" : "värdar"} på amerikanskt nät innan besökaren svarat.` :
             " Inga amerikanska nät innan besökaren svarat.",
     );

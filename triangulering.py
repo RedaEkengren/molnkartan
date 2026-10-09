@@ -142,6 +142,18 @@ def main():
     print(ut)
 
 
+def godkand(d):
+    """Kraven i METOD.md (T1, T2, T3, T4). En körning som faller publiceras inte."""
+    rader = d["domaner"]
+    t1 = [r for r in rader if r["t1_realm"] is not None]
+    ms = [r for r in rader if r["epost"] == "MS"]
+    t4 = [x for x in d["t4"] if x["ripe"] is not None and x["cymru"]]
+    return (sum(r["t1_realm"] == r["tenant"] for r in t1) / len(t1) >= 0.99
+            and sum(r["t2_exo"] is True for r in ms) / len(ms) >= 0.95
+            and all(sum(r[f"t3_{n}"] == r["epost"] for r in rader) / len(rader) >= 0.99 for n in RESOLVRAR)
+            and sum(x["cymru"] in x["ripe"] for x in t4) / len(t4) >= 0.97)
+
+
 def rapport(fil):
     d = json.load(open(fil, encoding="utf-8"))
     rader, n = d["domaner"], len(d["domaner"])

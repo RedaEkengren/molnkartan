@@ -14,7 +14,8 @@ from pathlib import Path
 
 from klassa import webb
 from klassa_v2 import epost, signaler
-from webb_klassa import har_ga, klassa_v3, leverantor
+from triangulering import godkand as triangulering_godkand
+from webb_klassa import har_ga, har_ga_insamling, klassa_v3, leverantor
 
 ROT = Path(__file__).parent
 
@@ -30,6 +31,13 @@ GRUPPER = {
 def senaste(monster):
     filer = sorted((ROT / "data").glob(monster))
     return filer[-1] if filer else None
+
+
+def senaste_godkanda(monster, godkand):
+    for fil in sorted((ROT / "data").glob(monster), reverse=True):
+        if godkand(json.loads(fil.read_text(encoding="utf-8"))):
+            return fil
+    return None
 
 
 def senaste_godkanda_webb(monster):
@@ -53,7 +61,9 @@ def relativ(fil):
 def bygg(grupp):
     g = GRUPPER[grupp]
     ra_fil, webb_fil = senaste(g["ra"]), senaste_godkanda_webb(g["webb"])
-    tri_fil, sak_fil = senaste("triangulering-20*Z.json"), senaste("sakerhet-*.json")
+    # Bara körningar som klarar sina krav (METOD.md, "Publicering").
+    tri_fil = senaste_godkanda("triangulering-20*Z.json", triangulering_godkand)
+    sak_fil = senaste_godkanda("sakerhet-*.json", lambda d: d.get("fel_andel", 1) <= 0.02)
     data, webb_data, tri, sak = las(ra_fil), las(webb_fil), las(tri_fil), las(sak_fil)
 
     fore = {}
@@ -64,6 +74,7 @@ def bygg(grupp):
         fore[w["domän"]] = {
             "klass": klassa_v3(w),
             "ga": har_ga(w),
+            "gaInsamling": har_ga_insamling(w),
             "us": us,
             "usLeverantorer": sorted({(leverantor(v) or {}).get("leverantor") or ".".join(v.split(".")[-2:]) for v in us}),
             # Alla tredjepartsvärdar med nät, till animationen "Så mäts en webbplats".
@@ -95,7 +106,10 @@ def bygg(grupp):
                 "mx": [m.split()[-1].rstrip(".") for m in sorted(o["mx"], key=lambda m: int(m.split()[0]))],
                 "spf": next((i for i in ("spf.protection.outlook.com", "_spf.google.com")
                              if any(i in x for x in o["spf"])), None),
-                "dkim": (o["dkim_selector1_cname"] or [None])[0],
+                # Bara leverantörens del: hela målet innehåller tenantnamnet, som inte publiceras.
+                "dkim": next((s for s in ("onmicrosoft.com", "dkim.mail.microsoft")
+                              if any(c.rstrip(".").endswith(s) for c in o["dkim_selector1_cname"])),
+                             "annan" if o["dkim_selector1_cname"] else None),
                 "entra": o["entra_status"],
             },
         })

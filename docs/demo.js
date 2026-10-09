@@ -129,7 +129,8 @@ function startaDemo(org, { etikett, farg, karta }) {
     await vanta(900);
 
     await skriv(`dig +short CNAME selector1._domainkey.${d}`);
-    rad(s.dkim ? "svar traff" : "svar", s.dkim ? "…" + s.dkim.replace(/\.$/, "").split("._domainkey.")[1] : "(inget svar)");
+    // Bara leverantörens del av svaret visas; resten innehåller tenantnamnet.
+    rad(s.dkim && s.dkim !== "annan" ? "svar traff" : "svar", s.dkim === "annan" ? "→ annan leverantör" : s.dkim ? "…." + s.dkim : "(inget svar)");
     satt("S7", o.signaler.S7);
     await vanta(900);
 
@@ -149,7 +150,7 @@ function startaDemo(org, { etikett, farg, karta }) {
     utslag.replaceChildren(
       Object.assign(document.createElement("span"), { className: "tagg", textContent: etikett[o.epost], style: `background:${farg[o.epost]}` }),
       `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : "")
-        + (o.exo === true && o.epost !== "MS" ? " Men Exchange Online svarar för domänen: bakom de egna servrarna finns Microsoft." : "")
+        + (o.exo === true && o.epost !== "MS" ? " Men domänen är registrerad i Microsofts Exchange Online." : "")
         + (o.exo === true && o.epost === "MS" ? " Bekräftat av Exchange Online." : ""),
     );
     utslag.classList.add("syns");

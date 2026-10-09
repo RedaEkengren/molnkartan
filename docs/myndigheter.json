@@ -3,39 +3,39 @@
  "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T190520Z.json",
  "webbMatt": "2026-10-08T164403Z",
  "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
- "trianguleringMatt": "2026-10-08T191727Z",
- "trianguleringKalla": "data/triangulering-2026-10-08T191727Z.json",
- "sakerhetMatt": "2026-10-08T195446Z",
- "sakerhetKalla": "data/sakerhet-2026-10-08T195446Z.json",
+ "trianguleringMatt": "2026-10-08T165750Z",
+ "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
+ "sakerhetMatt": "2026-10-09T004643Z",
+ "sakerhetKalla": "data/sakerhet-2026-10-09T004643Z.json",
  "sakerhet": {
   "DMARC": {
-   "p=reject": 66,
-   "p=none": 42,
-   "p=quarantine": 50,
-   "saknas": 44
+   "p=reject": 78,
+   "p=none": 49,
+   "p=quarantine": 57,
+   "saknas": 18
   },
   "SPF": {
-   "-all": 125,
-   "~all": 43,
-   "annat": 1,
-   "saknas": 33
+   "-all": 147,
+   "~all": 50,
+   "annat": 2,
+   "saknas": 3
   },
   "MTA-STS": {
-   "saknas": 184,
-   "finns": 18
+   "saknas": 180,
+   "finns": 22
   },
   "TLS-RPT": {
-   "saknas": 177,
-   "finns": 25
+   "saknas": 172,
+   "finns": 30
   },
   "DNSSEC": {
-   "finns": 136,
-   "saknas": 66
+   "finns": 154,
+   "saknas": 48
   },
   "HSTS": {
-   "kunde inte mätas": 50,
-   "saknas": 65,
-   "finns": 87
+   "finns": 110,
+   "saknas": 78,
+   "kunde inte mätas": 14
   }
  },
  "organisationer": [
@@ -62,6 +62,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -113,6 +114,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "code.jquery.com",
@@ -188,6 +190,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -228,6 +231,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -296,6 +300,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "script.hotjar.com",
      "static.hotjar.com",
@@ -344,7 +349,7 @@
      "arbetsgivarverket-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-arbetsgivarverket-se._domainkey.arbetsgivarverket.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -371,6 +376,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net"
     ],
@@ -424,6 +430,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -485,6 +492,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "consent.cookiebot.com",
@@ -557,6 +565,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -628,7 +637,7 @@
      "bth-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-bth-se._domainkey.bthse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -655,6 +664,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
@@ -736,6 +746,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -773,6 +784,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -832,6 +844,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -888,6 +901,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "7157.global.siteimproveanalytics.io",
      "dc.services.visualstudio.com",
@@ -964,6 +978,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "www.googletagmanager.com"
     ],
@@ -1017,6 +1032,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "policy.app.cookieinformation.com"
     ],
@@ -1070,6 +1086,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -1108,6 +1125,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
@@ -1189,6 +1207,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "region1.google-analytics.com",
      "www.googletagmanager.com"
@@ -1258,6 +1277,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "fonts.googleapis.com",
@@ -1355,6 +1375,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -1396,7 +1417,7 @@
      "ei-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-ei-se._domainkey.energimarknadsinspektionen.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -1423,6 +1444,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "cdn-cookieyes.com",
      "fonts.googleapis.com",
@@ -1499,6 +1521,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -1553,6 +1576,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -1569,7 +1593,7 @@
      "fmi-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-fmi-se._domainkey.fmim365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -1596,6 +1620,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com"
     ],
@@ -1674,6 +1699,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -1728,6 +1754,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
@@ -1761,7 +1788,7 @@
      "fba-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-fba-se._domainkey.folkebernadotteakademin.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -1788,6 +1815,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -1859,6 +1887,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -1903,6 +1932,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -1942,6 +1972,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "cdn.matomo.cloud",
      "formas.matomo.cloud",
@@ -1993,7 +2024,7 @@
      "mailgw6.vinnova.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-formas-se._domainkey.vinnova.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2020,6 +2051,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -2057,7 +2089,7 @@
      "mailgw6.vinnova.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-forte-se._domainkey.vinnova.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2084,6 +2116,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -2122,6 +2155,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "plus.browsealoud.com",
      "www.browsealoud.com"
@@ -2148,7 +2182,7 @@
      "levandehistoria-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-levandehistoria-se._domainkey.levandehistoria.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2175,6 +2209,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.gstatic.com",
      "translate.google.com",
@@ -2256,6 +2291,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -2294,6 +2330,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -2304,7 +2341,7 @@
      "fhs-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-fhs-se._domainkey.forsvarshogskolan.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2331,6 +2368,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "js.monitor.azure.com",
      "northeurope-2.in.applicationinsights.azure.com",
@@ -2404,6 +2442,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -2442,6 +2481,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "a.nel.cloudflare.com",
      "cdnjs.cloudflare.com",
@@ -2487,7 +2527,7 @@
      "genteknik-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-genteknik-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2514,6 +2554,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -2550,7 +2591,7 @@
      "gih-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-gih-se._domainkey.gihse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2577,6 +2618,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "7340.global.siteimproveanalytics.io",
      "p.typekit.net",
@@ -2633,7 +2675,7 @@
      "gu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-gu-se._domainkey.GuNet.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2660,6 +2702,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com"
@@ -2714,6 +2757,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -2754,6 +2798,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -2803,6 +2848,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "ka-p.fontawesome.com",
@@ -2845,7 +2891,7 @@
      "mailfilter-ng-4.sunet.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-du-se._domainkey.dalarnauniversity.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2872,6 +2918,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
@@ -2911,7 +2958,7 @@
      "hb-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-hb-se._domainkey.boras.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -2938,6 +2985,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "7400.global.siteimproveanalytics.io",
      "siteimproveanalytics.com"
@@ -2979,7 +3027,7 @@
      "hig-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-hig-se._domainkey.hogskolanigavle.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3006,6 +3054,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
@@ -3074,7 +3123,7 @@
      "hh-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-hh-se._domainkey.hhse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3101,6 +3150,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3117,7 +3167,7 @@
      "fml0.his.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-his-se._domainkey.hogskolaniskovde.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3144,6 +3194,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
@@ -3183,7 +3234,7 @@
      "hkr-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-hkr-se._domainkey.hkrse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3210,6 +3261,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "8285.global.siteimproveanalytics.io",
      "consent.cookiebot.com",
@@ -3265,7 +3317,7 @@
      "lmail02.server.hv.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-hv-se._domainkey.studenthv.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3292,6 +3344,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "p.typekit.net",
      "plus.browsealoud.com",
@@ -3364,6 +3417,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "www.gstatic.com"
     ],
@@ -3443,6 +3497,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "7420.global.siteimproveanalytics.io",
      "dl.episerver.net",
@@ -3506,6 +3561,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3542,7 +3598,7 @@
      "isf-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-isf-se._domainkey.seisf.w-v1.dkim.mail.microsoft.",
+    "dkim": "dkim.mail.microsoft",
     "entra": 200
    }
   },
@@ -3569,6 +3625,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3617,6 +3674,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
      "cdn.jsdelivr.net",
@@ -3697,6 +3755,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3758,6 +3817,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3784,7 +3844,7 @@
      "mrinstitutet-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-mrinstitutet-se._domainkey.mrinstitutet.p-v1.dkim.mail.microsoft.",
+    "dkim": "dkim.mail.microsoft",
     "entra": 200
    }
   },
@@ -3811,6 +3871,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -3850,6 +3911,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3901,6 +3963,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -3945,6 +4008,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -3985,6 +4049,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "consent.cookiebot.com",
@@ -4025,7 +4090,7 @@
      "jamstalldhetsmyndigheten-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-jamstalldhetsmyndigheten-se._domainkey.jamstalldhetsmyndigheten.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4052,6 +4117,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -4062,7 +4128,7 @@
      "kau-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kau-se._domainkey.kaumail.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4089,6 +4155,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "cdn.jsdelivr.net",
      "region1.google-analytics.com",
@@ -4122,7 +4189,7 @@
      "ki-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-ki-se._domainkey.kise.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4149,6 +4216,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "7477.global.siteimproveanalytics.io",
      "siteimproveanalytics.com"
@@ -4185,7 +4253,7 @@
      "kemi-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kemi-se._domainkey.kemise.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4212,6 +4280,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "cdn.matomo.cloud",
      "fonts.googleapis.com",
@@ -4258,7 +4327,7 @@
      "mailgw6.vinnova.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-klimatpolitiskaradet-se._domainkey.vinnova.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4285,6 +4354,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "www.googletagmanager.com"
     ],
@@ -4332,6 +4402,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "consent.cookiebot.com",
@@ -4379,7 +4450,7 @@
      "mx-02-eu-central-1.prod.hydra.sophos.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-konj-se._domainkey.konjse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4406,6 +4477,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -4443,6 +4515,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -4459,7 +4532,7 @@
      "konstfack-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-konstfack-se._domainkey.studentkonstfack.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4486,6 +4559,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -4496,7 +4570,7 @@
      "konstnarsnamnden-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-konstnarsnamnden-se._domainkey.konstnarsnamnden.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4523,6 +4597,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
@@ -4556,7 +4631,7 @@
      "konsumentverket-se.mail.protection.outlook.com"
     ],
     "spf": null,
-    "dkim": "selector1-konsumentverket-se._domainkey.kov365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4583,6 +4658,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud"
     ],
@@ -4635,6 +4711,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -4690,6 +4767,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -4716,7 +4794,7 @@
      "kb-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kb-se._domainkey.kbse0.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4743,6 +4821,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "hello.myfonts.net"
     ],
@@ -4790,6 +4869,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "w.soundcloud.com"
     ],
@@ -4830,7 +4910,7 @@
      "kmh-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kmh-se._domainkey.KunglMusikhogskolan.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4857,6 +4937,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -4870,7 +4951,7 @@
      "mailfilter-ng-2.sunet.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kth-se._domainkey.kth.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -4897,6 +4978,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "plus.browsealoud.com",
      "www.browsealoud.com"
@@ -4957,6 +5039,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -4996,6 +5079,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -5006,7 +5090,7 @@
      "liu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-liu-se._domainkey.liuonline.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5033,6 +5117,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdn-cookieyes.com",
      "cdnjs.cloudflare.com",
@@ -5100,7 +5185,7 @@
      "lnu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-lnu-se._domainkey.linnaeus.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5127,6 +5212,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "js.monitor.azure.com",
@@ -5198,6 +5284,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "7574.global.siteimproveanalytics.io",
      "siteimproveanalytics.com"
@@ -5239,7 +5326,7 @@
      "ltu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-ltu-se._domainkey.ltuse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5266,6 +5353,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "plus.browsealoud.com",
      "www.browsealoud.com"
@@ -5297,7 +5385,7 @@
      "lu-se.mail.protection.outlook.com"
     ],
     "spf": null,
-    "dkim": "selector1-lu-se._domainkey.lunduniversityo365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5324,6 +5412,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "js.monitor.azure.com",
      "northeurope-2.in.applicationinsights.azure.com"
@@ -5403,6 +5492,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -5461,6 +5551,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "apiv2.imbox.io",
      "cdn.botframework.com",
@@ -5532,7 +5623,7 @@
      "mau-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-mau-se._domainkey.mah365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5559,6 +5650,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
      "cdn.matomo.cloud",
@@ -5593,7 +5685,7 @@
      "mediemyndigheten-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-mediemyndigheten-se._domainkey.radioochtv.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5620,6 +5712,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -5663,6 +5756,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -5716,6 +5810,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdn-cookieyes.com",
      "clients1.google.com",
@@ -5838,7 +5933,7 @@
      "tarbaby.junkemailfilter.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-miun-se._domainkey.miun.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5865,6 +5960,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "region1.google-analytics.com",
      "sentry.frojd.se",
@@ -5906,7 +6002,7 @@
      "se.mx4.mx25.net"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-modernamuseet-se._domainkey.modernamuseet.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -5933,6 +6029,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -5982,6 +6079,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "6091227.global.siteimproveanalytics.io",
      "dc.services.visualstudio.com",
@@ -6084,6 +6182,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -6121,6 +6220,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -6169,6 +6269,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "fonts.googleapis.com",
@@ -6202,7 +6303,7 @@
      "kulturanalys-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kulturanalys-se._domainkey.kulturanalys.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -6229,6 +6330,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "mpf.matomo.cloud"
@@ -6288,6 +6390,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "fonts.googleapis.com"
@@ -6347,6 +6450,7 @@
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -6363,7 +6467,7 @@
      "mtm-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-mtm-se._domainkey.mtmtpb.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -6390,6 +6494,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -6416,7 +6521,7 @@
      "tillvaxtanalys-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-tillvaxtanalys-se._domainkey.tillvaxtsanalys.e-v1.dkim.mail.microsoft.",
+    "dkim": "dkim.mail.microsoft",
     "entra": 200
    }
   },
@@ -6443,6 +6548,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -6481,6 +6587,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -6521,6 +6628,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "hello.myfonts.net",
@@ -6581,6 +6689,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "policy.app.cookieinformation.com"
     ],
@@ -6606,7 +6715,7 @@
      "myh-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-myh-se._domainkey.myhse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -6633,6 +6742,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com"
@@ -6684,7 +6794,7 @@
      "mdu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-mdu-se._domainkey.studentmdh.w-v1.dkim.mail.microsoft.",
+    "dkim": "dkim.mail.microsoft",
     "entra": 200
    }
   },
@@ -6711,6 +6821,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "cloud.typography.com",
@@ -6771,7 +6882,7 @@
      "nationalmuseum-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-nationalmuseum-se._domainkey.nmswe.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -6798,6 +6909,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -6849,6 +6961,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dc.services.visualstudio.com",
      "dl.episerver.net",
@@ -6945,6 +7058,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "p.typekit.net",
      "use.typekit.net"
@@ -7006,6 +7120,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "code.jquery.com",
@@ -7111,6 +7226,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7151,6 +7267,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "app.termly.io"
     ],
@@ -7206,6 +7323,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7241,6 +7359,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
      "netdna.bootstrapcdn.com",
@@ -7289,7 +7408,7 @@
      "prv-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-prv-se._domainkey.prvse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -7316,6 +7435,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7353,6 +7473,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7391,6 +7512,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "ajax.aspnetcdn.com",
      "cdnjs.cloudflare.com",
@@ -7480,7 +7602,7 @@
      "polar-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-polar-se._domainkey.polarfs.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -7507,6 +7629,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7545,6 +7668,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7555,7 +7679,7 @@
      "pts-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-pts-se._domainkey.ptsse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -7582,6 +7706,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "fonts.googleapis.com",
@@ -7642,6 +7767,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
@@ -7681,7 +7807,7 @@
      "raa-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-raa-se._domainkey.raase.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -7708,6 +7834,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -7745,6 +7872,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -7799,6 +7927,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
      "cdn.gtranslate.net",
@@ -7834,7 +7963,7 @@
      "mailgw6.vinnova.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-snsa-se._domainkey.vinnova.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -7861,6 +7990,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "7adcfd322329.w.hcaptcha.com",
      "ajax.googleapis.com",
@@ -7948,6 +8078,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn-cookieyes.com",
      "log.cookieyes.com"
@@ -8006,6 +8137,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -8018,7 +8150,7 @@
      "mail4.norrmoln.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-sametinget-se._domainkey.sametingetse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -8045,6 +8177,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "api.openaid.se"
     ],
@@ -8123,6 +8256,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -8162,6 +8296,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -8201,6 +8336,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net"
     ],
@@ -8263,6 +8399,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "plus.browsealoud.com",
      "www.browsealoud.com"
@@ -8321,6 +8458,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com"
@@ -8385,6 +8523,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
      "dl.episerver.net",
@@ -8452,6 +8591,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com"
@@ -8508,6 +8648,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "20035.global.siteimproveanalytics.io",
      "az416426.vo.msecnd.net",
@@ -8599,7 +8740,7 @@
      "sbu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-sbu-se._domainkey.sbu.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -8626,6 +8767,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dc.services.visualstudio.com",
      "dl.episerver.net",
@@ -8669,7 +8811,7 @@
      "energimyndigheten-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-energimyndigheten-se._domainkey.energimyndigheten.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -8696,6 +8838,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "p.typekit.net",
      "use.typekit.net"
@@ -8722,7 +8865,7 @@
      "sfv-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-sfv-se._domainkey.sfvc365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -8749,6 +8892,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -8820,6 +8964,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -8868,6 +9013,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "fonts.googleapis.com",
@@ -8928,7 +9074,7 @@
      "shm-se.mail.eo.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-shm-se._domainkey.statensmuseer.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -8955,6 +9101,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -8992,6 +9139,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "code.jquery.com",
@@ -9085,6 +9233,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.matomo.cloud",
      "code.jquery.com",
@@ -9165,7 +9314,7 @@
      "kulturradet-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-kulturradet-se._domainkey.kulturradet.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -9192,6 +9341,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
@@ -9273,6 +9423,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "ad.doubleclick.net",
      "connect.facebook.net",
@@ -9394,7 +9545,7 @@
      "varldskulturmuseerna-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-varldskulturmuseerna-se._domainkey.varldskulturmuseerna.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -9421,6 +9572,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "ajax.googleapis.com",
      "cdn.jsdelivr.net",
@@ -9460,7 +9612,7 @@
      "musikverket-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-musikverket-se._domainkey.musikverk.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -9487,6 +9639,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -9524,6 +9677,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com"
@@ -9583,6 +9737,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -9621,6 +9776,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -9658,6 +9814,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "ajax.aspnetcdn.com",
      "cdn.jsdelivr.net",
@@ -9715,7 +9872,7 @@
      "sva-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-sva-se._domainkey.svasweden.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -9742,6 +9899,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -9763,7 +9921,7 @@
      "vti-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-vti-se._domainkey.vtiOffice365.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -9790,6 +9948,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -9834,6 +9993,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -9871,6 +10031,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com"
@@ -9924,6 +10085,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "a.eu.silktide.com",
      "analytics.silktide.com",
@@ -9991,7 +10153,7 @@
      "mailfilter-ng-2.sunet.se"
     ],
     "spf": null,
-    "dkim": "selector1-su-se._domainkey.stockholmuniversity.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10018,6 +10180,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "code.jquery.com",
      "dc.services.visualstudio.com",
@@ -10140,6 +10303,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.jsdelivr.net"
     ],
@@ -10200,6 +10364,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "ka-p.fontawesome.com",
@@ -10274,6 +10439,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
@@ -10306,7 +10472,7 @@
      "si-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-si-se._domainkey.svenskainstitutet.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10333,6 +10499,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "f.vimeocdn.com",
      "i.vimeocdn.com",
@@ -10414,6 +10581,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -10424,7 +10592,7 @@
      "svff-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-svff-se._domainkey.svforfattarfond.r-v1.dkim.mail.microsoft.",
+    "dkim": "dkim.mail.microsoft",
     "entra": 200
    }
   },
@@ -10451,6 +10619,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "plus.browsealoud.com",
@@ -10525,6 +10694,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -10551,7 +10721,7 @@
      "slu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-slu-se._domainkey.svelantbruksuniversitet.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10578,6 +10748,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn-cookieyes.com",
      "log.cookieyes.com"
@@ -10635,6 +10806,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -10672,6 +10844,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -10703,7 +10876,7 @@
      "sh-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-sh-se._domainkey.sunioffice.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10730,6 +10903,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -10764,7 +10938,7 @@
      "se.mx4.mx25.net"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-tlv-se._domainkey.tlvse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10791,6 +10965,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "foq.youreurope.europa.eu"
     ],
@@ -10826,7 +11001,7 @@
      "tillvaxtverket-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-tillvaxtverket-se._domainkey.tillvaxten.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -10853,6 +11028,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -10890,6 +11066,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -10939,6 +11116,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "dl.episerver.net",
      "region-eu.cookiehub.net",
@@ -10999,7 +11177,7 @@
      "trafa-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-trafa-se._domainkey.trafa.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11026,6 +11204,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11064,6 +11243,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -11123,6 +11303,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11161,6 +11342,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -11177,7 +11359,7 @@
      "umu-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-umu-se._domainkey.umeauniversity.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11204,6 +11386,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdn.jsdelivr.net",
      "dl.episerver.net"
@@ -11231,7 +11414,7 @@
      "uhr-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-uhr-se._domainkey.uhrse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11258,6 +11441,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "plus.browsealoud.com",
      "www.browsealoud.com"
@@ -11317,6 +11501,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": true,
     "us": [
      "js.monitor.azure.com",
      "policy.app.cookieinformation.com",
@@ -11357,7 +11542,7 @@
      "uhmynd-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-uhmynd-se._domainkey.upphandlingsmyndigheten.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11384,6 +11569,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "8074.global.siteimproveanalytics.io",
      "siteimproveanalytics.com"
@@ -11450,6 +11636,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -11500,6 +11687,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -11545,6 +11733,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "cdnjs.cloudflare.com",
      "code.jquery.com",
@@ -11590,7 +11779,7 @@
      "mailgw6.vinnova.se"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-vinnova-se._domainkey.vinnova.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11617,6 +11806,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": true,
+    "gaInsamling": false,
     "us": [
      "www.googletagmanager.com"
     ],
@@ -11637,7 +11827,7 @@
      "vr-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-vr-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11664,6 +11854,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -11718,6 +11909,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11728,7 +11920,7 @@
      "oru-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-oru-se._domainkey.oruse.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11755,6 +11947,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "fonts.googleapis.com"
     ],
@@ -11775,7 +11968,7 @@
      "onep-se.mail.protection.outlook.com"
     ],
     "spf": null,
-    "dkim": "selector1-onep-se._domainkey.vetenskapsradetsverige.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -11802,6 +11995,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "p.typekit.net",
      "plus.browsealoud.com",
@@ -11874,6 +12068,7 @@
    "fore_samtycke": {
     "klass": "kunde inte mätas",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11911,6 +12106,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11950,6 +12146,7 @@
    "fore_samtycke": {
     "klass": "ingen tredjepart",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [],
@@ -11988,6 +12185,7 @@
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
     "varder": [
@@ -12019,7 +12217,7 @@
      "riksrevisionen-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-riksrevisionen-se._domainkey.riksrevisionen.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -12046,6 +12244,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "js.monitor.azure.com",
      "swedencentral-0.in.applicationinsights.azure.com"
@@ -12087,7 +12286,7 @@
      "riksbank-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "selector1-riksbank-se._domainkey.riksbank.onmicrosoft.com.",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -12114,6 +12313,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "fonts.googleapis.com",
@@ -12177,6 +12377,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "dl.episerver.net",
      "fonts.googleapis.com",
@@ -12248,6 +12449,7 @@
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
     "ga": false,
+    "gaInsamling": false,
     "us": [
      "js.monitor.azure.com",
      "swedencentral-0.in.applicationinsights.azure.com"
