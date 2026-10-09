@@ -44,7 +44,8 @@ class FyndenStammerMedDatan(unittest.TestCase):
         self.assertEqual(s["exo_okand"][0], s["exo_okand"][1], "texten säger 'alla'")
         r = s["dns_ms_regel"]
         self.assertEqual(sum(r.values()), s["dns_ms_kommuner"])
-        self.innehaller("exchange-online", f"hos {r['MX']} tar Microsoft emot", f"hos {r['SPF+DKIM'] + r['SPF+autodiscover']} står")
+        self.innehaller("exchange-online", f"hos {r['MX']} tar Microsoft emot", f"hos {r['SPF+DKIM'] + r['SPF+autodiscover']} står",
+                        *s["dns_ms_g_kommuner"])
 
     def test_skatteverket(self):
         self.assertTrue(self.s["skatteverket_exo"])

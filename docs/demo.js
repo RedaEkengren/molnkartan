@@ -100,8 +100,9 @@ function startaDemo(org, { etikett, farg, karta }) {
     const { li, tagg } = sigRad[kod];
     sig.querySelectorAll("li").forEach(x => x.classList.remove("aktiv"));
     li.classList.add("aktiv");
-    const lev = { MS: "MS", G: "G", ja: "MS", svarar: "MS" }[varde];
-    tagg.textContent = varde === "ja" ? "finns" : varde === "svarar" ? "svarar" : varde === "gateway/egen" ? "spamfilter/egen" : LEVERANTOR[varde] || "inget";
+    const lev = { MS: "MS", G: "G", "MS+G": "MS+G", ja: "MS", svarar: "MS" }[varde];
+    tagg.textContent = varde === "ja" ? "finns" : varde === "svarar" ? "svarar" : varde === "gateway/egen" ? "spamfilter/egen"
+      : varde === "MS+G" ? "båda" : LEVERANTOR[varde] || "inget";
     tagg.style.background = lev ? farg[lev] : "var(--okand)";
     tagg.style.opacity = 1;
   }

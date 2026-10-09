@@ -10,7 +10,7 @@ from collections import Counter
 from pathlib import Path
 
 import bygg_sida
-from klassa_v2 import epost, signaler
+from klassa_v2 import epost, signaler, stoder
 from webb_klassa import har_ga, har_ga_insamling, klassa_v3, leverantor
 
 ROT = Path(__file__).parent
@@ -121,7 +121,7 @@ def siffror():
                        if any(n in webbhotell[o["domän"]].upper() for n in ("CLOUDFLARE", "AMAZON", "MICROSOFT", "GOOGLE", "AKAMAI", "FASTLY"))]
 
     lan = {o["domän"]: o["lan"] for o in ra_k}
-    g_ms = [o["namn"] for o in ra_k if klass_k[o["domän"]] == "G" and signaler(o)["S7"] == "MS"]
+    g_ms = [o["namn"] for o in ra_k if klass_k[o["domän"]] == "G" and stoder(signaler(o)["S7"], "MS")]
 
     sak_k = Counter()
     for grupp, v in sak["per_grupp"].items():
@@ -140,8 +140,9 @@ def siffror():
         "exo_myndigheter": sum(v is True for v in exo_m.values()),
         "exo_myndigheter_dolda": sum(exo_m[d] is True for d, c in klass_m.items() if c != "MS"),
         "dns_ms_kommuner": sum(c == "MS" for c in klass_k.values()),
+        "dns_ms_g_kommuner": [o["namn"] for o in ra_k if klass_k[o["domän"]] == "MS+G"],
         # #21: vilken regel som gav Microsoft. MX är direkt observation; övriga är konfiguration.
-        "dns_ms_regel": dict(Counter("MX" if signaler(o)["S1"] == "MS" else "SPF+DKIM" if signaler(o)["S7"] == "MS" else "SPF+autodiscover"
+        "dns_ms_regel": dict(Counter("MX" if signaler(o)["S1"] == "MS" else "SPF+DKIM" if stoder(signaler(o)["S7"], "MS") else "SPF+autodiscover"
                                      for o in ra_k if klass_k[o["domän"]] == "MS")),
         "skatteverket_exo": exo_m.get("skatteverket.se"),
         "ga_kommuner": (len(ga_k), len(matbara_k)),

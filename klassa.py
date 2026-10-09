@@ -5,13 +5,21 @@ import json
 from collections import Counter
 
 
+def under(varde, doman):
+    """Exakt domän eller underdomän: notgoogle.com ligger inte under google.com (#17)."""
+    varde = varde.rstrip(".").lower()
+    return varde == doman or varde.endswith("." + doman)
+
+
 def lev_mx(mx):
-    vardar = [m.split()[-1].rstrip(".").lower() for m in mx]
-    if vardar and all(v.endswith("mail.protection.outlook.com") for v in vardar):
+    vardar = [m.split()[-1] for m in mx]
+    ms = [under(v, "mail.protection.outlook.com") for v in vardar]
+    g = [under(v, "google.com") or under(v, "googlemail.com") for v in vardar]
+    if vardar and all(ms):
         return "MS"
-    if vardar and all(v.endswith(("google.com", "googlemail.com")) for v in vardar):
+    if vardar and all(g):
         return "G"
-    if any(v.endswith("mail.protection.outlook.com") for v in vardar):
+    if any(ms):
         return "blandat"
     return "gateway/egen"
 

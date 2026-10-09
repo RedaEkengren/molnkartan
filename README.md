@@ -6,7 +6,8 @@ registreringar och anrop, inte hur beroende verksamheten är.**
 
 | | Antal av 310 |
 |---|---|
-| Microsoft i e-postens DNS (189 via MX, 59 via SPF och DKIM eller autodiscover) | 248 (80 %) |
+| Microsoft i e-postens DNS (189 via MX, 56 via SPF och DKIM eller autodiscover) | 245 (79 %) |
+| Konfigurerad för både Microsoft och Google | 3 |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
 | Domänen registrerad i Exchange Online (registrering, inte användning) | 305 (98 %) |

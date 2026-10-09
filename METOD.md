@@ -601,3 +601,25 @@ av #18 och #20):
 #11 (täckning i trianguleringen), #13 (webbens spärr), #14 (paginering),
 #16 (registrerad domän), #17 (blandade signaler), #18 (koppla triangulering
 till rätt DNS-filer). **Större:** #20, en kontroll av klassningen mot facit.
+
+### Rättelser i kod efter Codex granskning — 2026-10-09
+
+**#9 Mätfel i DNS.** Uppslag skiljer nu mellan "posten finns inte" (NXDOMAIN,
+NoAnswer) och mätfel (timeout, SERVFAIL, nätfel). Mätfel sparas per fält i
+`dns_fel` (fältnamn, inga värdnamn). E-postklassen blir "kunde inte mätas" om
+MX-uppslaget misslyckades, eller om resultatet annars blivit "inga
+molnsignaler" eller "okänd" och något av SPF-, autodiscover- eller
+DKIM-uppslagen misslyckades. Samma uppslag används i trianguleringen.
+Certifikatmätningen räknar misslyckade uppslag separat (`dns_fel`) i stället
+för som inaktiva namn. **Begränsning:** rådata från före rättelsen saknar
+`dns_fel`; där går mätfel inte att skilja från saknade poster.
+
+**#17 Blandade signaler och domängränser.** SPF och DKIM kan nu stödja båda
+leverantörerna. När både Microsoft-regeln (SPF + autodiscover eller DKIM) och
+Google-regeln (SPF + DKIM) är uppfyllda och MX inte avgör, blir klassen
+"Microsoft och Google". Den gamla koden valde tyst Microsoft. Det gäller
+Sollentuna, Norrköping och Halmstad i oktobermätningen, som därmed går från
+Microsoft till Microsoft och Google: Microsoft-klassade kommuner och regioner
+blir 245 i stället för 248. Domänmatchning kräver exakt domän eller punkt före
+suffixet (`notgoogle.com` är inte Google), och SPF läses som `include:`-poster
+i stället för som fritext.

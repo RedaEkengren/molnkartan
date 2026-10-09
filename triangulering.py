@@ -17,6 +17,7 @@ from pathlib import Path
 import dns.resolver
 
 from klassa_v2 import epost, signaler
+from matning import dns_poster
 
 ROT = Path(__file__).parent
 RESOLVRAR = {"cloudflare": "1.1.1.1", "quad9": "9.9.9.9", "google": "8.8.8.8"}
@@ -57,30 +58,11 @@ def t2_exchange_online(doman):
 
 
 def dns_signaler(doman, server):
+    """Samma uppslag som huvudmätningen (matning.dns_poster), via en annan resolver.
+    Mätfel sparas i dns_fel och blir "kunde inte mätas", inte ett negativt svar (#9)."""
     r = dns.resolver.Resolver(configure=False)
     r.nameservers, r.lifetime = [server], 8
-
-    def fraga(namn, typ):
-        try:
-            return [x.to_text().strip('"') for x in r.resolve(namn, typ)]
-        except Exception:
-            return []
-
-    def txt(namn):
-        try:
-            return ["".join(s.decode() for s in x.strings) for x in r.resolve(namn, "TXT")]
-        except Exception:
-            return []
-
-    return {
-        "mx": fraga(doman, "MX"),
-        "spf": [t for t in txt(doman) if t.lower().startswith("v=spf1")],
-        "autodiscover_cname": fraga(f"autodiscover.{doman}", "CNAME"),
-        "dkim_selector1_cname": fraga(f"selector1._domainkey.{doman}", "CNAME"),
-        "dkim_google_txt": [t[:40] for t in txt(f"google._domainkey.{doman}")],
-        "enterpriseregistration_cname": fraga(f"enterpriseregistration.{doman}", "CNAME"),
-        "lyncdiscover_cname": fraga(f"lyncdiscover.{doman}", "CNAME"),
-    }
+    return dns_poster(doman, r)
 
 
 def t4_ripe(ip):

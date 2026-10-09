@@ -59,7 +59,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -115,7 +116,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -195,7 +197,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -240,7 +243,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -313,7 +317,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -393,7 +398,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -451,7 +457,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -517,7 +524,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -594,7 +602,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -697,7 +706,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -783,7 +793,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -825,7 +836,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -889,7 +901,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -950,7 +963,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1031,7 +1045,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1089,7 +1104,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1147,7 +1163,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -1190,7 +1207,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1276,7 +1294,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1350,7 +1369,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1452,7 +1472,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -1525,7 +1546,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1606,7 +1628,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1665,7 +1688,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -1713,7 +1737,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1796,7 +1821,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -1855,7 +1881,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1920,7 +1947,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -1996,7 +2024,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -2045,7 +2074,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2089,7 +2119,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2172,7 +2203,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2241,7 +2273,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2284,7 +2317,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2342,7 +2376,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2428,7 +2463,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2471,7 +2507,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2513,7 +2550,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2591,7 +2629,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2634,7 +2673,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2711,7 +2751,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -2779,7 +2820,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2867,7 +2909,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -2926,7 +2969,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -2971,7 +3015,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -3025,7 +3070,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3099,7 +3145,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3170,7 +3217,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3243,7 +3291,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3343,7 +3392,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -3391,7 +3441,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3462,7 +3513,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3549,7 +3601,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3626,7 +3679,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3710,7 +3764,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3778,7 +3833,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -3846,7 +3902,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -3899,7 +3956,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -3984,7 +4042,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -4047,7 +4106,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -4105,7 +4165,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -4149,7 +4210,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -4205,7 +4267,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -4254,7 +4317,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -4299,7 +4363,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4371,7 +4436,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -4413,7 +4479,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4478,7 +4545,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4546,7 +4614,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4624,7 +4693,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4676,7 +4746,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4755,7 +4826,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -4797,7 +4869,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -4845,7 +4918,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -4887,7 +4961,8 @@
     "S2": "-",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -4952,7 +5027,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5009,7 +5085,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -5069,7 +5146,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -5127,7 +5205,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5179,7 +5258,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5251,7 +5331,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -5296,7 +5377,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5361,7 +5443,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -5405,7 +5488,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -5447,7 +5531,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5546,7 +5631,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5622,7 +5708,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5695,7 +5782,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5758,7 +5846,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -5842,7 +5931,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -5905,7 +5995,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6008,7 +6099,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6074,7 +6166,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -6122,7 +6215,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -6180,7 +6274,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6334,7 +6429,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6407,7 +6503,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -6461,7 +6558,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6568,7 +6666,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -6610,7 +6709,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -6663,7 +6763,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6728,7 +6829,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6792,7 +6894,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -6856,7 +6959,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -6904,7 +7008,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -6962,7 +7067,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -7005,7 +7111,8 @@
     "S2": "-",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -7050,7 +7157,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7115,7 +7223,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7172,7 +7281,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7255,7 +7365,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7347,7 +7458,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -7403,7 +7515,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7504,7 +7617,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7570,7 +7684,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7680,7 +7795,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -7725,7 +7841,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7785,7 +7902,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -7822,7 +7940,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -7902,7 +8021,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -7944,7 +8064,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -7987,7 +8108,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8108,7 +8230,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -8151,7 +8274,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -8193,7 +8317,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8258,7 +8383,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8329,7 +8455,8 @@
     "S2": "-",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -8371,7 +8498,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -8430,7 +8558,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8497,7 +8626,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8589,7 +8719,8 @@
     "S2": "G",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8652,7 +8783,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -8696,7 +8828,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8779,7 +8912,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -8823,7 +8957,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -8867,7 +9002,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8934,7 +9070,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -8997,7 +9134,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9066,7 +9204,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9138,7 +9277,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9199,7 +9339,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9322,7 +9463,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9397,7 +9539,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9455,7 +9598,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9531,7 +9675,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -9584,7 +9729,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9676,7 +9822,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -9718,7 +9865,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9816,7 +9964,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -9928,7 +10077,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10014,7 +10164,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10167,7 +10318,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10238,7 +10390,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -10280,7 +10433,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10344,7 +10498,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -10387,7 +10542,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -10429,7 +10585,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10518,7 +10675,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -10571,7 +10729,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -10620,7 +10779,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -10662,7 +10822,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10720,7 +10881,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10819,7 +10981,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -10946,7 +11109,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11011,7 +11175,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11090,7 +11255,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11154,7 +11320,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11240,7 +11407,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -11282,7 +11450,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11361,7 +11530,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -11419,7 +11589,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11481,7 +11652,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -11523,7 +11695,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -11586,7 +11759,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -11652,7 +11826,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11719,7 +11894,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -11761,7 +11937,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -11815,7 +11992,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -11907,7 +12085,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -11950,7 +12129,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -12014,7 +12194,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -12057,7 +12238,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -12105,7 +12287,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12164,7 +12347,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12228,7 +12412,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12300,7 +12485,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12371,7 +12557,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -12426,7 +12613,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -12476,7 +12664,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12553,7 +12742,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12605,7 +12795,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -12664,7 +12855,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -12706,7 +12898,8 @@
     "S2": "-",
     "S4": "MS",
     "S7": "MS",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12758,7 +12951,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -12835,7 +13029,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "kunde inte mätas",
@@ -12877,7 +13072,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -12921,7 +13117,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "ingen tredjepart",
@@ -12964,7 +13161,8 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "bara EU/EES-nät före samtycke",
@@ -13027,7 +13225,8 @@
     "S2": "MS",
     "S4": "-",
     "S7": "MS",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -13100,7 +13299,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -13168,7 +13368,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "MS"
+    "S8": "MS",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",
@@ -13244,7 +13445,8 @@
     "S2": "-",
     "S4": "-",
     "S7": "-",
-    "S8": "-"
+    "S8": "-",
+    "fel": []
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",

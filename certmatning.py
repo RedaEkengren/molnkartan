@@ -21,7 +21,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
-from matning import fraga
+from matning import DnsFel, fraga
 from webbmatning import natverk
 
 ROT = Path(__file__).parent
@@ -94,9 +94,13 @@ def summera(doman, namn):
     if namn is None:
         return {"status": "inget svar"}
     giltiga = sorted(n.rstrip(".") for n in namn if not n.startswith("*") and (n == doman or n.endswith("." + doman)))
-    nat, plattform, aktiva = Counter(), Counter(), 0
+    nat, plattform, aktiva, dns_fel = Counter(), Counter(), 0, 0
     for n in giltiga:
-        a = fraga(n, "A")
+        try:
+            a = fraga(n, "A", strikt=True)
+        except DnsFel:  # #9: ett misslyckat uppslag är inte ett inaktivt namn
+            dns_fel += 1
+            continue
         if not a:
             continue
         ip = ipaddress.ip_address(a[0])
@@ -111,7 +115,8 @@ def summera(doman, namn):
             if mal == p or mal.endswith("." + p):
                 plattform[p] += 1
                 break
-    return {"status": "ok", "namn_i_loggar": len(giltiga), "aktiva": aktiva, "nat": dict(nat), "plattform": dict(plattform)}
+    return {"status": "ok", "namn_i_loggar": len(giltiga), "aktiva": aktiva, "dns_fel": dns_fel,
+            "nat": dict(nat), "plattform": dict(plattform)}
 
 
 def mat(rad, kalla=None):

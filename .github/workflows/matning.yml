@@ -72,7 +72,7 @@ jobs:
           ref: main
       - run: pip install dnspython==2.7.0
       - name: Sidan följer reglerna
-        run: python3 -m unittest -v tests/test_sida.py tests/test_hygien.py tests/test_fynd.py
+        run: python3 -m unittest -v tests/test_sida.py tests/test_hygien.py tests/test_fynd.py tests/test_robusthet.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
