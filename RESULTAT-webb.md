@@ -1,5 +1,9 @@
 # Resultat — mätning 2: tredjeparter före samtycke
 
+> **Granskning 2026-10-09 (issue #12):** mätningen registrerar anropsförsök i
+> webbläsarens nätverkslogg, inte att kontakten lyckades. "Kontaktar" nedan
+> ska läsas som "gjorde anrop till".
+
 Regler: METOD.md, "Mätning 2". Klassning: `python3 webb_klassa.py <fil>`.
 
 ## Steg 1: Stockholm (utveckling) — 2026-10-08 16:11 UTC
@@ -57,7 +61,7 @@ därför inte publiceras per organisation med den här metoden.
 
 Det som håller oberoende av listan: en okänd värd kan bara flytta en
 organisation *till* "US före samtycke", aldrig därifrån. "US före samtycke" och
-"Google Analytics/GTM före samtycke" är därför lägsta nivåer, inte exakta tal.
+"Google Analytics/GTM före samtycke" är därför nivåer som syns i den här mätningen, inte exakta tal.
 
 ## Steg 4: version 3, nätet bakom varje värd
 

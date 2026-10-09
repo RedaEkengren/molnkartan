@@ -18,6 +18,21 @@
   <h1>Fynd</h1>
   <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan, så att det går att pröva själv. Fel vi hittat i vår egen metod står här också. Alla siffror räknas fram av <code>fynd_siffror.py</code> och kontrolleras mot sidan av ett test.</p>
 
+  <article class="fynd" id="granskning-codex">
+    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
+    <h2>En granskare från en annan AI-modell hittade att vi påstod för mycket</h2>
+    <p>Efter våra egna granskningar lät vi Codex, en modell från ett annat företag, granska hela projektet. Den hittade fel som våra granskare inte såg, eftersom de byggde på samma modell som oss. De viktigaste:</p>
+    <ul>
+      <li>Webbmätningen registrerar <b>anropsförsök</b> i webbläsarens nätverkslogg, inte att kontakten lyckades. Fynden sa "kontaktar".</li>
+      <li>Microsoft-klassningen av e-post bygger på olika slags bevis: MX för de flesta, men bara publicerad konfiguration (SPF, DKIM) för en del. Det redovisas nu separat.</li>
+      <li>Kontrollerna kallades oberoende trots att flera delar källa eller klassning med huvudmätningen. Varje kontroll beskriver nu vad den kan upptäcka.</li>
+      <li>"Hälften av kommunerna har inga tjänster på amerikanska nät" var ett frånvaropåstående som mätningen inte kan bära, och kontrollen godkände ett fall där den andra källan hittade amerikanska namn.</li>
+      <li>Att alla siffror är "lägsta nivåer" var inte belagt för varje mått, och projektets fråga om "beroende" mäts inte direkt.</li>
+      <li>Koden kan i vissa fel (DNS-timeout, Chrome-krasch, ofullständig paginering) tyst ge ett negativt svar i stället för "kunde inte mätas". Inga publicerade siffror har visats vara påverkade, men det rättas före nästa mätning.</li>
+    </ul>
+    <p>Alla punkter finns som <a href="https://github.com/RedaEkengren/molnkartan/issues">ärenden på GitHub</a> med Codex motprov.</p>
+  </article>
+
   <article class="fynd" id="granskning">
     <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
     <h2>En oberoende granskning hittade fel i våra fynd</h2>
@@ -35,61 +50,61 @@
 
   <article class="fynd" id="tjanster">
     <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Var tjänsterna körs</span>
-    <h2>Hälften av kommunerna har inga tjänster på amerikanska nät</h2>
+    <h2>Hos hälften av kommunerna hittades inga tjänstenamn på amerikanska nät</h2>
     <div class="tal">150 av 289 kommuner</div>
-    <p>Certifikatloggar visar vilka publika namn en organisation har under sin domän: e-tjänster, bokning, inloggningssidor, webbplatser och liknande. 150 av 289 kommuner har inget sådant namn på ett amerikanskt nät; medianen per kommun är 0 %. Räknat på alla namn ligger 15,7 % av kommunernas 5 342 namn på amerikanska nät, inklusive CDN som Cloudflare, men summan drivs av ett fåtal: en enda kommun står för 25 % av kommunernas namn på amerikanska nät.</p>
-    <p>Regionerna ligger högre: 19 av 20 har minst ett namn på amerikanskt nät och medianen är 13 %. Bland myndighetsdomänerna är medianen 3 %. Resten ligger på nät som ägs av svenska eller europeiska bolag; mätningen säger inte var servrarna står.</p>
+    <p>Certifikatloggar visar namn under en organisations domän som har fått ett certifikat: e-tjänster, bokning, inloggningssidor, webbplatser och liknande. Hos 150 av 289 kommuner hittades inget sådant namn med en adress på ett amerikanskt nät; medianen per kommun är 0 %. Det betyder inte att kommunen saknar amerikanska tjänster: namn utan eget certifikat, tjänster på leverantörens domän och namn som bara täcks av jokercertifikat syns inte.</p>
+    <p>Räknat på alla namn ligger 15,7 % av kommunernas 5 342 namn på amerikanska nät, inklusive CDN som Cloudflare, men summan drivs av ett fåtal: en enda kommun står för 25 % av kommunernas namn på amerikanska nät. Regionerna ligger högre: 19 av 20 har minst ett namn på amerikanskt nät och medianen är 13 %. Bland myndighetsdomänerna är medianen 3 %. Av alla namn ligger de flesta på nät som ägs av europeiska bolag, 14 på nät i andra länder och 16 på nät som inte gick att identifiera; mätningen säger inte var servrarna står.</p>
     <details><summary>Så kontrollerades det</summary>
-      <p>Namnen kommer från crt.sh, med Certspotter som reserv. Varje namn med en publik adress slogs upp till sitt nät; namn som pekar på interna adresser (1 268 totalt) räknas inte, och antalet sparas bara som en total. Inga värdnamn sparas eller publiceras. Den första körningen föll på kravet för andel namn med nät och publicerades aldrig. Som kontroll mättes 20 slumpvis valda organisationer också med den andra källan: andelen skilde högst 15 procentenheter för 18 av 20 (krav 16). Det första försöket föll på strypning, det andra avbröts av ett fel i vår kod. Kontrollen prövar bara att namnlistan är fullständig: båda källorna läser samma certifikatloggar, och klassningen av näten är densamma.</p>
-      <p>Namn som bara täcks av ett jokercertifikat (<code>*.domän</code>) syns inte. Egen drift använder oftare jokercertifikat än molnplattformar, så andelen på amerikanska nät kan vara något överskattad.</p>
+      <p>Namnen kommer från crt.sh, med Certspotter som reserv. Ett namn räknas om det har en publik IPv4-adress vid mätningen; det visar inte att en tjänst faktiskt körs där. Namn som pekar på interna adresser (1 268 totalt) räknas inte, och antalet sparas bara som en total. Inga värdnamn sparas eller publiceras. Den första körningen föll på kravet för andel namn med nät och publicerades aldrig.</p>
+      <p>Som jämförelse mättes 20 slumpvis valda organisationer också med den andra källan: andelen skilde högst 15 procentenheter för 18 av 20 (krav 16). Det jämför andelar, inte att namnlistan är fullständig, och båda källorna läser samma certifikatloggar. Toleransen räcker inte för att pröva nollkategorin: för Grums hittade huvudkällan inga namn på amerikanska nät men den andra källan gjorde det. Riktningen på felet från jokercertifikat och domänurval är inte undersökt.</p>
     </details>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-tjanster.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/cert-2026-10-08T204928Z.json">Rådata</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-t6-2026-10-09T081527Z.json">Kontrollen</a></p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-tjanster.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/cert-2026-10-08T204928Z.json">Rådata</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-t6-2026-10-09T081527Z.json">Jämförelsen</a></p>
   </article>
 
   <article class="fynd" id="vi-sjalva">
     <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Vi själva</span>
     <h2>Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</h2>
-    <p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna körs varje månad i GitHub Actions på Microsofts Azure; webbmätningen görs från Sverige. Med samma verktyg som för kommunerna: sidan kontaktar ingen tredjepart och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
+    <p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna körs varje månad i GitHub Actions på Microsofts Azure; webbmätningen görs från Sverige. Med samma verktyg som för kommunerna: sidan gör inga anrop till tredjeparter och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
     <p>Skillnaden mot en kommun är att sidan inte hanterar personuppgifter eller utövar myndighet. Men vi vill inte påstå något om andra som vi inte säger om oss själva.</p>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="exchange-online">
-    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Triangulering</span>
+    <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post och konton</span>
     <h2>Nästan alla kommuner har sin domän registrerad i Microsofts e-posttjänst</h2>
     <div class="tal">305 av 310</div>
-    <p>DNS visade att 248 kommuner och regioner tar emot e-post via Microsofts moln. En oberoende kontroll mot Microsofts egen tjänst för e-postinställningar visar att domänen är registrerad i en Exchange Online-organisation hos <b>305 av 310</b>. Det gäller också alla 32 där DNS inte räckte för att avgöra, 19 av 20 utan molnsignaler i DNS och 7 av 10 som tar emot e-post hos Google. Bland myndighetsdomänerna gäller det 142 av 202, Skatteverket inräknat.</p>
-    <p>Det visar att Microsofts e-posttjänst är uppsatt för domänen, inte att e-post tas emot eller lagras där. Att även 7 av 10 Google-kommuner ger ja visar gränsen: registreringen kan finnas för Teams, kalendrar eller enstaka brevlådor.</p>
+    <p>I DNS pekar e-posten mot Microsoft hos 248 kommuner och regioner: hos 189 tar Microsoft emot e-posten enligt MX-posten, och hos 59 står ett spamfilter eller en egen server först men SPF och DKIM eller autodiscover är konfigurerade för Microsoft. De senare visar konfiguration, inte var e-posten faktiskt hamnar.</p>
+    <p>Microsofts egen tjänst för e-postinställningar svarar dessutom att domänen är registrerad i en Exchange Online-organisation hos <b>305 av 310</b>, också hos alla 32 där DNS inte räckte, 19 av 20 utan molnsignaler i DNS och 7 av 10 som tar emot e-post hos Google. Bland myndighetsdomänerna gäller det 142 av 202, Skatteverket inräknat. Registreringen visar inte att e-post tas emot eller lagras där; att 7 av 10 Google-kommuner ger ja visar gränsen.</p>
     <details><summary>Så kontrollerades det</summary>
-      <p>Fem påståenden prövades med andra metoder och krav skrivna i förväg: Microsoft-konton med en andra ändpunkt hos Microsoft (512 av 512 lika, samma leverantör och därför en svag kontroll), e-postklassen via tre andra DNS-resolvrar (512 av 512), näten bakom tredjepartsvärdar via RIPEstat i stället för Team Cymru (338 av 338), och 15 slumpvis valda webbplatser i en vanlig Chrome (14 av 15). Exchange Online-testet föll först, 86,5 % mot kravet 95 %, på grund av ett fel i vår kod och strypning hos Microsoft; efter rättelsen 331 av 333. En senare körning från GitHub Actions klarade inte kravet för resolvrarna och publiceras inte. Bara ja eller nej sparas; adresser som svaren avslöjar publiceras inte.</p>
+      <p>Kontrollerna prövar olika delar av mätkedjan och delar en del med den: e-postklassen frågades via tre andra DNS-resolvrar (512 av 512 lika; samma poster och samma regler, så det prövar resolvrarna, inte reglerna), Microsoft-konton via en andra ändpunkt hos Microsoft (512 av 512), näten bakom tredjepartsvärdar via RIPEstat (338 av 338 samma ASN; prövar registret, inte vilken adress webbläsaren använde). Exchange Online-svaret föll först på kravet på grund av ett fel i vår kod och strypning; efter rättelsen 331 av 333 bland de Microsoft-klassade. En senare körning från GitHub Actions klarade inte kravet och publiceras inte. Bara ja eller nej sparas.</p>
     </details>
-    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulering</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-2026-10-08T165750Z.json">Rådata</a></p>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Kontrollerna</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-2026-10-08T165750Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="skatteverket">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
     <h2>Skatteverket syns knappt i mätningen, och det är ett fynd</h2>
-    <p>Enligt <a href="https://www.sverigesradio.se/artikel/skatteverket-inforde-molntjanster-trots-avradan">Ekot</a> har Skatteverket infört amerikanska molntjänster i stor skala. I DNS har Skatteverket e-post på egna servrar utan molnsignaler, och webbplatsen kontaktar ingen tredjepart. Det som syns är ett Microsoft-konto och att domänen är registrerad i Exchange Online.</p>
-    <p>Det gäller alla siffror på den här webbplatsen: <b>de visar vad som syns utifrån och är lägsta nivåer.</b> Molntjänster som används internt lämnar få spår, och en organisation utan signaler kan ändå använda amerikanska moln.</p>
+    <p>Enligt <a href="https://www.sverigesradio.se/artikel/skatteverket-inforde-molntjanster-trots-avradan">Ekot</a> har Skatteverket infört amerikanska molntjänster i stor skala. I DNS har Skatteverket e-post på egna servrar utan molnsignaler, och i mätningen gjorde webbplatsen inga anrop till tredjeparter. Det som syns är ett Microsoft-konto och att domänen är registrerad i Exchange Online.</p>
+    <p>Det visar hur lite som syns utifrån. Mätningarna gäller konfiguration och anrop som går att se från internet, inte hur beroende en verksamhet är av amerikanska moln. Tjänster som används internt lämnar få spår.</p>
     <p><a href="myndigheter.html">Myndigheterna</a></p>
   </article>
 
   <article class="fynd" id="myndigheter-ga">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Myndigheter</span>
-    <h2>Myndighetswebbplatser laddar Google före samtycke</h2>
+    <h2>Myndighetswebbplatser anropar Google före samtycke</h2>
     <div class="tal">30 av 193</div>
-    <p>30 av 193 mätbara myndighetsdomäner laddar Google Tag Manager eller Google Analytics utan att besökaren gett samtycke. 11 av dem anropar Google Analytics servrar, där besöksstatistik tas emot; de övriga 19 laddar bara Tag Manager. Försvarsmakten är en av dem som laddar Tag Manager.</p>
+    <p>30 av 193 mätbara myndighetsdomäner gjorde anrop till Google Tag Manager eller Google Analytics innan besökaren gett samtycke. 11 av dem anropade Google Analytics servrar, där besöksstatistik tas emot; de övriga 19 anropade bara Tag Manager. Försvarsmakten är en av dem som laddar Tag Manager.</p>
     <details><summary>Så kontrollerades det</summary>
-      <p>Försvarsmakten kontrollerades i en vanlig Chrome utan samtyckeskaka: <code>googletagmanager.com/gtm.js</code> fanns i webbläsarens resurslista, men inga anrop till Google Analytics. Att Tag Manager laddas skickar IP-adress och webbläsarinformation till Google; det betyder inte att besöksstatistik samlas in. Vid kontroll i en vanlig webbläsare måste resurslistan (<code>performance</code>) användas, eftersom cachade filer inte syns i nätverkslistan.</p>
+      <p>Mätningen registrerar anropsförsök i webbläsarens nätverkslogg; om anropet lyckades sparas inte. Försvarsmakten kontrollerades i en vanlig Chrome utan samtyckeskaka: <code>googletagmanager.com/gtm.js</code> fanns i webbläsarens resurslista, alltså laddad, men inga anrop till Google Analytics. Ett lyckat anrop till Tag Manager ger Google besökarens IP-adress och webbläsarinformation; det betyder inte att besöksstatistik samlas in.</p>
     </details>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-myndigheter.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json">Rådata</a></p>
   </article>
 
   <article class="fynd" id="samtyckesverktyget">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
-    <h2>Cookiebannern själv hämtas ofta från ett amerikanskt nät</h2>
+    <h2>Cookiebannern själv anropas ofta på ett amerikanskt nät</h2>
     <div class="tal">31 kommuner och regioner</div>
-    <p>Hos 31 kommuner och regioner hämtas samtyckesverktyget, alltså rutan där besökaren väljer om data får skickas, från en server på ett amerikanskt bolags nät. Cookiebot nås via Akamai (9), Cookie-Script via DigitalOcean (8), Cookie Information via Microsoft (5), och Cookie Tractor, CookieYes, Klaro och OneTrust via Cloudflare. Ett samtyckesverktyg måste laddas innan besökaren kan svara; fyndet gäller var det laddas ifrån.</p>
+    <p>Hos 31 kommuner och regioner anropar sidan samtyckesverktyget, alltså rutan där besökaren väljer om data får skickas, på en server i ett amerikanskt bolags nät. Cookiebot nås via Akamai (9), Cookie-Script via DigitalOcean (8), Cookie Information via Microsoft (5), och Cookie Tractor, CookieYes, Klaro och OneTrust via Cloudflare. Ett samtyckesverktyg måste laddas innan besökaren kan svara; fyndet gäller var det laddas ifrån.</p>
     <p>För elva av dem är cookiebannern den <b>enda</b> kontakten med ett amerikanskt nät innan besökaren valt något.</p>
     <details><summary>Så kontrollerades det</summary>
       <p>Varje tredjepartsvärd slogs upp till sitt nät (ASN) i samband med mätningen. Vilka domäner som räknas som samtyckesverktyg står i <code>fynd_siffror.py</code>. Att ett verktyg hämtas från ett amerikanskt nät säger inte var verktygets egna servrar och databaser står.</p>
@@ -99,13 +114,13 @@
 
   <article class="fynd" id="google-analytics">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
-    <h2>Sexton kommuner laddar Google Analytics eller Tag Manager före samtycke</h2>
+    <h2>Sexton kommuner anropar Google Analytics eller Tag Manager före samtycke</h2>
     <div class="tal">16 av 306</div>
-    <p>Elva kommuner anropar Google Analytics servrar, där besöksstatistik tas emot, medan cookiebannern fortfarande är obesvarad: Valdemarsvik, Emmaboda, Borgholm, Hässleholm, Dals-Ed, Färgelanda, Mellerud, Åmål, Norsjö, Storuman och Pajala.</p>
-    <p>Fem laddar bara Google Tag Manager, utan något anrop till Google Analytics: Jönköping, Oskarshamn, Sölvesborg, Vänersborg och Sunne. Tag Manager-anropet skickar IP-adress och webbläsarinformation till Google men samlar i sig ingen besöksstatistik.</p>
+    <p>Elva kommuners sidor gjorde anrop till Google Analytics servrar, där besöksstatistik tas emot, medan cookiebannern fortfarande var obesvarad: Valdemarsvik, Emmaboda, Borgholm, Hässleholm, Dals-Ed, Färgelanda, Mellerud, Åmål, Norsjö, Storuman och Pajala.</p>
+    <p>Fem anropade bara Google Tag Manager, utan något anrop till Google Analytics: Jönköping, Oskarshamn, Sölvesborg, Vänersborg och Sunne. Ett lyckat Tag Manager-anrop ger Google IP-adress och webbläsarinformation men samlar i sig ingen besöksstatistik.</p>
     <p>Hässleholms anrop innehåller en parameter som tyder på Googles <i>Consent Mode</i>, där anrop utan kakor skickas före samtycke. Om det är förenligt med reglerna avgörs inte här.</p>
     <details><summary>Så kontrollerades det</summary>
-      <p>Headless Chrome med nätverkslogg, ingen knapp klickad; före varje körning kontrolleras att en tom sida ger noll träffar och att en sida med Google Analytics ger träff. Alla sexton mättes om den 9 oktober med samma resultat. Hässleholm, Jönköping och Sunne kontrollerades dessutom i en vanlig Chrome med obesvarad cookiebanner.</p>
+      <p>Headless Chrome med nätverkslogg, ingen knapp klickad. Loggen visar anropsförsök; om anropet lyckades sparas inte. I en vanlig Chrome nådde Hässleholms anrop Google Analytics, som svarade (HTTP 503), och Tag Manager laddades för Jönköping och Sunne. Före varje körning kontrolleras att en tom sida ger noll träffar och att en sida med Google Analytics ger träff. Alla sexton mättes om den 9 oktober med samma resultat.</p>
     </details>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-ga16-2026-10-09T003706Z.json">Ommätningen</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/stickprov-2026-10-09.json">Stickprov</a></p>
   </article>
@@ -114,7 +129,7 @@
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
     <h2>Uppläsningstjänsten är näst vanligast på amerikanska nät</h2>
     <div class="tal">45 kommuner och regioner</div>
-    <p>Efter Google (76) är Texthelps uppläsningstjänst BrowseAloud, som läser upp sidan för den som behöver, den vanligaste tjänsten på amerikanskt nät före samtycke. Den nås via Amazon CloudFront. Det är ett tillgänglighetsverktyg, inte annonsspårning.</p>
+    <p>Efter Google (76) är Texthelps uppläsningstjänst BrowseAloud, som läser upp sidan för den som behöver, den tjänst som oftast anropas på amerikanskt nät före samtycke. Den nås via Amazon CloudFront. Det är ett tillgänglighetsverktyg, inte annonsspårning.</p>
     <details><summary>Så kontrollerades det</summary>
       <p>Adresserna jämfördes med Amazons publicerade lista över IP-adresser: de tillhör CloudFront, ett CDN med servrar över hela världen. Besökaren svarar troligen en server i Europa. Var Texthelps egna servrar står syns inte utifrån.</p>
     </details>
@@ -122,7 +137,7 @@
 
   <article class="fynd" id="ingen-tredjepart">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Webbplatser före samtycke</span>
-    <h2>Tjugo kontaktar ingen tredjepart alls före samtycke</h2>
+    <h2>Tjugo gjorde inga anrop till tredjeparter före samtycke</h2>
     <div class="tal">20 kommuner och regioner</div>
     <p>Upplands Väsby, Huddinge, Eskilstuna, Trosa, Malmö, Landskrona, Eslöv, Trelleborg, Simrishamn, Partille, Orust, Gullspång, Filipstad, Gävle, Sundsvall, Ragunda, Vindeln, Övertorneå, Älvsbyn och Region Stockholm laddar allt från sin egen webbplats innan besökaren svarat. Två av dem, Partille och Region Stockholm, har själva webbplatsen bakom Cloudflare, ett amerikanskt CDN.</p>
     <details><summary>Så kontrollerades det</summary>
@@ -144,9 +159,9 @@
 
   <article class="fynd" id="google-tar-emot">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">E-post</span>
-    <h2>Google tar emot, Microsoft signerar</h2>
+    <h2>Google tar emot, DKIM publicerad hos Microsoft</h2>
     <div class="tal">5 kommuner</div>
-    <p>Ödeshög, Ydre, Boxholm, Åtvidaberg och Vimmerby tar emot e-post hos Google men har DKIM-nycklar hos Microsoft, vilket tyder på att e-post skickas därifrån. Fyra av dem ligger i Östergötland, där fem av fjorton tar emot e-post hos Google.</p>
+    <p>Ödeshög, Ydre, Boxholm, Åtvidaberg och Vimmerby tar emot e-post hos Google men har publicerat DKIM-nycklar hos Microsoft. Det tyder på att e-post skickas via Microsoft, men om den faktiskt signeras där kontrollerades inte; nycklarna kan också vara kvarlämnade. Fyra av dem ligger i Östergötland, där fem av fjorton tar emot e-post hos Google.</p>
     <details><summary>Så kontrollerades det</summary>
       <p><code>dig +short MX atvidaberg.se</code> pekar på Google; <code>dig +short CNAME selector1._domainkey.atvidaberg.se</code> pekar på Microsoft. Alla fem kontrollerades igen den 9 oktober.</p>
     </details>
@@ -163,7 +178,7 @@
   <article class="fynd" id="holdout">
     <time datetime="2026-10-08">8 oktober 2026</time> · <span class="metod">Fel i vår metod</span>
     <h2>Två prov föll innan mätningen av webbplatser höll</h2>
-    <p>Reglerna för webbplatserna prövades på län de inte byggts på. En handskriven lista över leverantörer missade 51 % av värdarna i Skåne och 28 % i Västra Götaland, mot kravet 10 %. Inga klassningar från de körningarna publicerades. Version 3 klassar efter nätet bakom varje värd och höll på Norrland, med nät för 99 % av värdarna. Hässleholms Google Analytics-anrop upptäcktes i Skåne-körningen och bekräftades sedan separat.</p>
+    <p>Reglerna för webbplatserna prövades på län de inte byggts på. En handskriven lista över leverantörer missade 51 % av värdarna i Skåne och 28 % i Västra Götaland, mot kravet 10 %. Inga klassningar från de körningarna publicerades. Version 3 klassar efter nätet bakom varje värd och klarade täckningskravet på Norrland, med nät för 99 % av värdarna. Det mäter att klassningen går att göra, inte att den är rätt. Hässleholms Google Analytics-anrop upptäcktes i Skåne-körningen och bekräftades sedan separat.</p>
     <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Hela förloppet</a></p>
   </article>
 

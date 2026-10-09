@@ -33,7 +33,7 @@ effekten står i `METOD.md`, "Rättelse". Felet hittades av sidans animation.
 - **Östergötland avviker.** Fem kommuner (bland dem Linköping) har e-post hos
   Google, och fyra till saknar molnsignaler för e-post. Det är det enda län där
   Microsoft inte dominerar.
-- **Google tar emot, Microsoft signerar.** Fem av de tio med e-post hos Google
+- **Google tar emot, DKIM publicerad hos Microsoft.** Fem av de tio med e-post hos Google
   (Ödeshög, Ydre, Boxholm, Åtvidaberg, Vimmerby) har ändå DKIM-nycklar hos
   Microsoft. De tar emot e-post via Google men skickar troligen via Microsoft.
 - **Gällivare** är den enda utan tenant. Domänen från Wikidata, `gellivare.se`,

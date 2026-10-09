@@ -19,8 +19,10 @@ Skåne mättes.
 | **Kriterium v2 (≥85 %, ≤15 % okända)** | **uppfyllt** | ej uppfyllt (räknas inte) |
 | Microsoft Entra-tenant (S5) | 34/34 | 27/27 |
 
-**Metoden håller på data den inte utvecklats på.** Den håller sämre i
-Stockholm, där fler kommuner har egen e-postinfrastruktur framför.
+**Reglerna gav entydiga svar även på data de inte utvecklats på.** Det mäter
+täckning, inte att svaren är rätt; en kontroll mot facit återstår (issue #20).
+Täckningen var sämre i Stockholm, där fler kommuner har egen
+e-postinfrastruktur framför.
 
 ## Vad som kan sägas
 

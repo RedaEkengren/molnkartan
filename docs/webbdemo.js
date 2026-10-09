@@ -1,5 +1,5 @@
 // "Så mäts en webbplats": spelar upp mätning 2 för riktiga organisationer ur data.json.
-// Värdarna är de som sidan kontaktade i mätningen (webbmatning.py), nätet är
+// Värdarna är de som sidan gjorde anrop till i mätningen (webbmatning.py), nätet är
 // uppslaget som gjordes då, och utslaget är klassningen från webb_klassa.py.
 
 const WEBBEXEMPEL = [
@@ -56,8 +56,8 @@ function startaWebbDemo(org, { webbEtikett, webbFarg }) {
 
     utslag.replaceChildren(
       el("span", { className: "tagg", textContent: webbEtikett[f.klass], style: `background:${webbFarg[f.klass]}` }),
-      f.gaInsamling ? " Google Analytics anropas innan besökaren svarat." : f.ga ? " Google Tag Manager laddas innan besökaren svarat." :
-        f.klass === "ingen tredjepart" ? " Allt hämtas från kommunens egen webbplats." :
+      f.gaInsamling ? " Anrop till Google Analytics innan besökaren svarat." : f.ga ? " Anrop till Google Tag Manager innan besökaren svarat." :
+        f.klass === "ingen tredjepart" ? " Inga anrop till tredjeparter." :
           f.klass === "US-nät före samtycke" ? ` ${f.us.length} ${f.us.length === 1 ? "värd" : "värdar"} på amerikanskt nät innan besökaren svarat.` :
             " Inga amerikanska nät innan besökaren svarat.",
     );

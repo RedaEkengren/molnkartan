@@ -1,5 +1,19 @@
 # Resultat — triangulering
 
+> **Granskning 2026-10-09 (issue #22):** kontrollerna kallades först oberoende.
+> Flera delar källa eller regler med huvudmätningen. Vad var och en kan och
+> inte kan upptäcka:
+>
+> | # | Kan upptäcka | Delar med huvudmätningen |
+> |---|---|---|
+> | T1 | fel i tolkningen av OpenID-svaret | samma leverantör (Microsoft) |
+> | T2 | att domänen inte är registrerad i Exchange Online | visar registrering, inte mottagning |
+> | T3 | resolverberoende fel | samma DNS-poster och samma klassningsregler |
+> | T4 | fel i ASN-registret | samma IP-adress; prövar inte vilken adress webbläsaren använde |
+> | T5 | fel i den automatiska webbläsarkörningen | samma nätklassning; 15 organisationer, inte varje kategori |
+>
+> Ingen av dem prövar om klasserna är rätt mot ett facit (issue #20).
+
 Regler: METOD.md, "Triangulering" och "Rättelse T2". Varje påstående prövat
 med en oberoende metod.
 
@@ -33,7 +47,7 @@ En senare körning från GitHub Actions (`triangulering-2026-10-08T191727Z`)
 föll på T3 (93–96 % mot kravet 99 %, DNS-fel på GitHubs maskiner) och
 publiceras inte. Klasserna i övriga resultat ändras inte i
 efterhand; detta är en oberoende signal som visar att DNS-mätningen är en
-lägsta nivå.
+nivå som syns utifrån.
 
 Avvikelser i T2 bland de Microsoft-klassade: Gällivare (domänen `gellivare.se`,
 se issue #6) och Migrationsverket.
@@ -42,7 +56,7 @@ se issue #6) och Migrationsverket.
 
 Hörby: en vanlig Chrome laddade `cdn.matomo.cloud` från ett amerikanskt nät,
 vilket mätningen inte såg. Avvikelser åt det hållet stärker att "amerikanskt
-nät före samtycke" är en lägsta nivå.
+nät före samtycke" är en nivå som syns utifrån.
 
 ## Utdata
 

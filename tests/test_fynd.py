@@ -42,6 +42,9 @@ class FyndenStammerMedDatan(unittest.TestCase):
                         f"alla {s['exo_okand'][1]}", f"{s['exo_inga'][0]} av {s['exo_inga'][1]}",
                         f"{s['exo_google'][0]} av {s['exo_google'][1]}", f"{s['exo_myndigheter']} av 202")
         self.assertEqual(s["exo_okand"][0], s["exo_okand"][1], "texten säger 'alla'")
+        r = s["dns_ms_regel"]
+        self.assertEqual(sum(r.values()), s["dns_ms_kommuner"])
+        self.innehaller("exchange-online", f"hos {r['MX']} tar Microsoft emot", f"hos {r['SPF+DKIM'] + r['SPF+autodiscover']} står")
 
     def test_skatteverket(self):
         self.assertTrue(self.s["skatteverket_exo"])
@@ -58,7 +61,7 @@ class FyndenStammerMedDatan(unittest.TestCase):
     def test_google_analytics(self):
         s = self.s
         self.innehaller("google-analytics", f"{s['ga_kommuner'][0]} av {s['ga_kommuner'][1]}",
-                        f"{ORD[len(s['ga_kommuner_insamling'])].capitalize()} kommuner", f"{ORD[len(s['ga_kommuner_bara_gtm'])]} laddar bara",
+                        f"{ORD[len(s['ga_kommuner_insamling'])].capitalize()} kommuners sidor", f"{ORD[len(s['ga_kommuner_bara_gtm'])]} anropade bara",
                         *s["ga_kommuner_insamling"], *s["ga_kommuner_bara_gtm"])
         self.assertEqual(len(s["ga_kommuner_insamling"]) + len(s["ga_kommuner_bara_gtm"]), s["ga_kommuner"][0])
 
@@ -94,6 +97,9 @@ class FyndenStammerMedDatan(unittest.TestCase):
                         f"{self.s['t6'][0]} av {self.s['t6'][1]}", sv(self.s["cert_interna"]))
         self.assertGreaterEqual(self.s["t6"][0], 16, "T6 ska hålla för att fyndet får publiceras")
         self.assertGreaterEqual(2 * k["noll"], k["org"] - 1, "rubriken säger 'hälften'")
+        n = self.s["cert_nat"]
+        self.innehaller("tjanster", f"{n['annat']} på nät i andra länder", f"{n['okänt']} på nät som inte gick att identifiera",
+                        *self.s["t6_noll_till_positiv"])
 
     def test_tenant(self):
         self.innehaller("tenant", f"{self.s['tenant']} av 310")

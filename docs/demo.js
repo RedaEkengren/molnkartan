@@ -2,7 +2,7 @@
 // Inget här är påhittat: kommandona är de som matning.py gör, svaren är de som
 // sparades, och utslaget är klassningen från klassa_v2.py. Exemplen väljs efter
 // vilken regel som slog till, så animationen följer med när datan ändras.
-// Sista steget är den oberoende kontrollen T2 (triangulering.py): svarar
+// Sista steget är kontrollen T2 (triangulering.py): svarar
 // Exchange Online för domänen? Bara ja/nej visas, aldrig adressen den svarar med.
 
 // Ett exempel per regel. Saknas en sort i datan hoppas den över.
@@ -83,7 +83,7 @@ function startaDemo(org, { etikett, farg, karta }) {
     ["S2", "SPF", "vem får skicka i kommunens namn"],
     ["S7", "DKIM", "vem signerar e-posten"],
     ["S5", "Microsoft-konto", "finns en Entra-tenant"],
-    ["T2", "Exchange Online", "oberoende kontroll"],
+    ["T2", "Exchange Online", "domänen registrerad?"],
   ];
   const sigRad = {};
   for (const [kod, namn, forklaring] of SIGNALER) {
@@ -151,7 +151,7 @@ function startaDemo(org, { etikett, farg, karta }) {
       Object.assign(document.createElement("span"), { className: "tagg", textContent: etikett[o.epost], style: `background:${farg[o.epost]}` }),
       `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : "")
         + (o.exo === true && o.epost !== "MS" ? " Men domänen är registrerad i Microsofts Exchange Online." : "")
-        + (o.exo === true && o.epost === "MS" ? " Bekräftat av Exchange Online." : ""),
+        + (o.exo === true && o.epost === "MS" ? " Domänen är också registrerad i Exchange Online." : ""),
     );
     utslag.classList.add("syns");
     const p = prick.get(o);

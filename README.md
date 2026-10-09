@@ -1,15 +1,16 @@
 # Molnkartan
 
-**Hur beroende är svenska kommuner och regioner av amerikanska molntjänster?
-Mätt utifrån, med öppen data, för alla 290 kommuner och 20 regioner.**
+**Vad syns av amerikanska molntjänster hos svenska kommuner, regioner och
+myndigheter? Mätt utifrån, med öppen data. Mätningarna visar konfiguration,
+registreringar och anrop, inte hur beroende verksamheten är.**
 
 | | Antal av 310 |
 |---|---|
-| E-post syns gå via Microsofts moln | 248 (80 %) |
+| Microsoft i e-postens DNS (189 via MX, 59 via SPF och DKIM eller autodiscover) | 248 (80 %) |
 | E-post hos Google | 10 (3 %) |
 | Har en Microsoft Entra-tenant | 309 (>99 %) |
-| Domänen registrerad i Exchange Online (oberoende kontroll) | 305 (98 %) |
-| Webbplatsen kontaktar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
+| Domänen registrerad i Exchange Online (registrering, inte användning) | 305 (98 %) |
+| Webbplatsen anropar amerikanska nät innan besökaren samtyckt | 164 av 306 mätbara (54 %) |
 | … varav Google Analytics eller Tag Manager | 16 (11 Analytics, 5 bara Tag Manager) |
 
 Samma mätningar för statliga myndigheter (252 i SCB:s myndighetsregister, 202 unika e-postdomäner):
@@ -37,8 +38,10 @@ ner innan datan hämtades.
 
 Läs det här innan du citerar en siffra.
 
-- **Anslutning, inte innehåll.** En MX-post hos Microsoft visar att e-posten
-  går genom Microsofts tjänst. Den säger ingenting om vilka uppgifter som
+- **Konfiguration och anrop, inte användning.** En MX-post hos Microsoft visar
+  att e-posten tas emot där; SPF, DKIM och registrering i Exchange Online visar
+  bara konfiguration. Webbmätningen registrerar anropsförsök, inte att kontakten
+  lyckades. Den säger ingenting om vilka uppgifter som
   ligger där, om de är sekretessbelagda, eller om organisationen gjort en
   konsekvensbedömning.
 - **En tenant är ett konto.** Att en organisation har en Microsoft Entra-tenant
@@ -64,10 +67,13 @@ Metoden prövades i tre steg, och varje steg finns kvar i repot.
 2. **Version 2, prövad på ett annat län.** Nya signaler (DKIM, Teams,
    Entra-registrering) lades till med Stockholmsdatan framför sig. Därför fick
    Stockholm inte avgöra. Skåne, som inte hade mätts, användes som test: 94 %
-   entydiga svar mot kravet 85 %. [`RESULTAT-v2.md`](RESULTAT-v2.md)
+   entydiga svar mot kravet 85 %. Det mäter att reglerna ger ett svar, inte att
+   svaret är rätt; en kontroll mot facit återstår (issue #20). [`RESULTAT-v2.md`](RESULTAT-v2.md)
 3. **Hela landet** med oförändrade regler. [`RESULTAT-sverige.md`](RESULTAT-sverige.md)
 
-Allt prövades sedan med oberoende metoder, med krav skrivna i förväg:
+Huvudpåståendena prövades sedan med andra källor, med krav skrivna i förväg.
+Flera av kontrollerna delar källa eller regler med huvudmätningen; vad var och
+en kan upptäcka står i
 [`RESULTAT-triangulering.md`](RESULTAT-triangulering.md).
 
 Mätning 2, webbplatserna före samtycke, gick samma väg: negativ och positiv
@@ -118,7 +124,7 @@ dig +short CNAME selector1._domainkey.botkyrka.se
 | `webbmatning.py`, `webb_klassa.py`, `leverantorer.csv` | Mätning 2: headless Chrome, nätverkslogg, ASN per värd |
 | `data/` | Rådata med tidsstämpel, en fil per körning (`ra-` DNS, `webb-` webbplatser) |
 | `karta_bygg.py`, `docs/karta.json` | Kommun- och länsgränser från SCB (Digitala gränser, CC0), förenklade till SVG |
-| `triangulering.py` | T1–T4: oberoende kontroller av huvudpåståendena |
+| `triangulering.py` | T1–T4: kontroller med andra källor; vad var och en kan upptäcka står i RESULTAT-triangulering.md |
 | `bygg_sida.py`, `docs/` | Webbsidan: `python3 bygg_sida.py` väljer senaste godkända körning av varje sort och skriver `docs/*.json` |
 | `fynd_siffror.py` | Räknar fram varje siffra på fyndsidan; `tests/test_fynd.py` kontrollerar sidan mot den |
 

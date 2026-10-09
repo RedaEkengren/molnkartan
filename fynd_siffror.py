@@ -71,6 +71,13 @@ def cert_siffror(cert, t6):
                                "median": round(100 * statistics.median(andelar)), "noll": sum(a == 0 for a in andelar),
                                "minst_en": sum(a > 0 for a in andelar), "storsta_andel_av_us": round(100 * storst / us)}
     ut["cert_interna"] = cert["interna_totalt"]
+    nat = Counter()
+    for o in cert["organisationer"]:
+        nat.update(o.get("nat", {}))
+    ut["cert_nat"] = dict(nat)
+    # #19: kontrollens avvikelser från nollkategorin (0 % i huvudkällan, >0 % i den andra).
+    ut["t6_noll_till_positiv"] = [r["namn"] for r in t6["rader"]
+                                  if r["andel_us_huvud"] == 0 and (r["andel_us_andra"] or 0) > 0]
     ut["t6"] = (sum(r["inom_15"] for r in t6["rader"]), len(t6["rader"]))
     return ut
 
@@ -133,6 +140,9 @@ def siffror():
         "exo_myndigheter": sum(v is True for v in exo_m.values()),
         "exo_myndigheter_dolda": sum(exo_m[d] is True for d, c in klass_m.items() if c != "MS"),
         "dns_ms_kommuner": sum(c == "MS" for c in klass_k.values()),
+        # #21: vilken regel som gav Microsoft. MX är direkt observation; övriga är konfiguration.
+        "dns_ms_regel": dict(Counter("MX" if signaler(o)["S1"] == "MS" else "SPF+DKIM" if signaler(o)["S7"] == "MS" else "SPF+autodiscover"
+                                     for o in ra_k if klass_k[o["domän"]] == "MS")),
         "skatteverket_exo": exo_m.get("skatteverket.se"),
         "ga_kommuner": (len(ga_k), len(matbara_k)),
         "ga_kommuner_namn": [o["namn"] for o in ga_k],

@@ -571,3 +571,33 @@ stämde. Rättat i formuleringen före publicering:
    certifikatloggar.
 6. Spärren: en certifikatkörning publiceras bara om T6 hållit för just den
    körningen. Hygientestet omfattar även T6-filerna.
+
+## Granskning av Codex — 2026-10-09
+
+En granskare från en annan AI-modell (Codex) granskade hela projektet och lade
+upp ärenden #9–#23 med motprov. Påståendena kontrollerades mot data och kod
+innan något ändrades; de som prövades stämde (Microsoft-klassningen 189 via MX,
+52 via SPF och DKIM, 7 via SPF och autodiscover; Grums 0 % mot 14 % i T6; 14
+namn på "annat" och 16 på "okänt" nät; tre omätbara webbplatser visade "Nej" på
+kartan; `fraga()` gör DNS-fel till tomma svar).
+
+**Rättat i text och visning 2026-10-09** (#12, #15, #19, #21, #22, #23, delar
+av #18 och #20):
+
+- Webbmätningen beskrivs som anropsförsök i webbläsarens nätverkslogg, inte
+  som genomförd kontakt.
+- Microsoft i e-postens DNS redovisas uppdelat på MX och konfiguration (SPF,
+  DKIM, autodiscover). Exchange Online beskrivs som registrering; "Bekräftat"
+  är struket. DKIM beskrivs som publicerad, inte som faktisk signering.
+- Kontrollerna kallas inte längre oberoende; för var och en anges vad den kan
+  upptäcka och vad den delar med huvudmätningen.
+- Certifikatfyndet säger att inga namn på amerikanska nät *hittades*, redovisar
+  "annat" och "okänt" nät och att T6 inte prövar nollkategorin (Grums).
+- Det generella påståendet att alla siffror är lägsta nivåer är struket, och
+  projektets fråga avgränsas till det som syns utifrån.
+- Kartan visar "Kunde inte mätas" i stället för "Nej" vid mätfel.
+
+**Kvar, i kod före mätningen 2026-11-01:** #9 (DNS-fel), #10 (Chrome-krasch),
+#11 (täckning i trianguleringen), #13 (webbens spärr), #14 (paginering),
+#16 (registrerad domän), #17 (blandade signaler), #18 (koppla triangulering
+till rätt DNS-filer). **Större:** #20, en kontroll av klassningen mot facit.
