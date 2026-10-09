@@ -1,0 +1,205 @@
+{
+ "kalla": "data/cert-2026-10-08T204928Z.json",
+ "rader": [
+  {
+   "namn": "Högskolan väst",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 46,
+   "aktiva_andra": 46
+  },
+  {
+   "namn": "Åstorp",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 7,
+   "aktiva_andra": 7
+  },
+  {
+   "namn": "Linköpings universitet",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.122,
+   "andel_us_andra": 0.121,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 1239,
+   "aktiva_andra": 1262
+  },
+  {
+   "namn": "Haninge",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.963,
+   "andel_us_andra": 0.945,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 214,
+   "aktiva_andra": 218
+  },
+  {
+   "namn": "Växjö",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.056,
+   "andel_us_andra": 0.054,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 36,
+   "aktiva_andra": 37
+  },
+  {
+   "namn": "Falköping",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 10,
+   "aktiva_andra": 10
+  },
+  {
+   "namn": "Högsby",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 4,
+   "aktiva_andra": 6
+  },
+  {
+   "namn": "Vingåker",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.4,
+   "andel_us_andra": 0.286,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 5,
+   "aktiva_andra": 7
+  },
+  {
+   "namn": "Brottsförebyggande rådet",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 14,
+   "aktiva_andra": 14
+  },
+  {
+   "namn": "Västervik",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.176,
+   "andel_us_andra": 0.176,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 34,
+   "aktiva_andra": 34
+  },
+  {
+   "namn": "Säter",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.75,
+   "andel_us_andra": 0.75,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 4,
+   "aktiva_andra": 4
+  },
+  {
+   "namn": "Gotland",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.021,
+   "andel_us_andra": 0.02,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 48,
+   "aktiva_andra": 49
+  },
+  {
+   "namn": "Jämställdhetsmyndigheten",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.571,
+   "andel_us_andra": 0.4,
+   "andra_kalla": "certspotter",
+   "inom_15": false,
+   "aktiva_huvud": 7,
+   "aktiva_andra": 10
+  },
+  {
+   "namn": "Statens museer för maritim, transport- och försvarshistoria",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.2,
+   "andel_us_andra": 0.2,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 10,
+   "aktiva_andra": 10
+  },
+  {
+   "namn": "Region Västerbotten",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.25,
+   "andel_us_andra": 0.25,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 4,
+   "aktiva_andra": 4
+  },
+  {
+   "namn": "Sameskolstyrelsen",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.0,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 8,
+   "aktiva_andra": 8
+  },
+  {
+   "namn": "Grums",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.0,
+   "andel_us_andra": 0.143,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 5,
+   "aktiva_andra": 7
+  },
+  {
+   "namn": "Läkemedelsverket",
+   "huvudkalla": "certspotter",
+   "andel_us_huvud": 0.308,
+   "andel_us_andra": null,
+   "andra_kalla": "crtsh",
+   "inom_15": false,
+   "aktiva_huvud": 13,
+   "aktiva_andra": null
+  },
+  {
+   "namn": "Ekerö",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.222,
+   "andel_us_andra": 0.222,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 9,
+   "aktiva_andra": 9
+  },
+  {
+   "namn": "Nyköping",
+   "huvudkalla": "crt.sh",
+   "andel_us_huvud": 0.205,
+   "andel_us_andra": 0.205,
+   "andra_kalla": "certspotter",
+   "inom_15": true,
+   "aktiva_huvud": 39,
+   "aktiva_andra": 39
+  }
+ ]
+}

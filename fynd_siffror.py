@@ -24,6 +24,8 @@ FYND_KALLOR = {
     "webb_myndigheter": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
     "triangulering": "data/triangulering-2026-10-08T165750Z.json",
     "sakerhet": "data/sakerhet-2026-10-09T004643Z.json",
+    "cert": "data/cert-2026-10-08T204928Z.json",
+    "t6": "data/triangulering-t6-2026-10-09T081527Z.json",
 }
 
 # Samtyckesverktyg (CMP): registrerade domäner för verktygen själva, inte för tjänster de styr.
@@ -45,6 +47,32 @@ def us_varder(o):
 
 def ar_cmp(v):
     return any(v == d or v.endswith("." + d) for d in SAMTYCKESVERKTYG)
+
+
+def cert_siffror(cert, t6):
+    """Mätning 4: andel publika namn under organisationens domän som ligger på amerikanska nät.
+    Ordningen följer listorna: 290 kommuner, 20 regioner, sedan myndighetsdomänerna."""
+    import csv
+    import statistics
+    assert bygg_sida.cert_godkand(cert), "fynden får bara bygga på godkända körningar"
+    typer = [r["typ"] for r in csv.DictReader(open(ROT / "organisationer-sverige.csv", encoding="utf-8"))]
+    org = cert["organisationer"]
+    grupper = {"kommuner": [o for o, t in zip(org, typer) if t == "kommun"],
+               "regioner": [o for o, t in zip(org, typer) if t == "region"],
+               "myndigheter": org[len(typer):]}
+    ut = {}
+    for namn, g in grupper.items():
+        med = [o for o in g if o.get("aktiva")]
+        aktiva = sum(o["aktiva"] for o in med)
+        us = sum(o["nat"].get("US", 0) for o in med)
+        andelar = [o["nat"].get("US", 0) / o["aktiva"] for o in med]
+        storst = max(o["nat"].get("US", 0) for o in med)
+        ut[f"cert_{namn}"] = {"org": len(med), "aktiva": aktiva, "us": us, "andel": round(100 * us / aktiva, 1),
+                               "median": round(100 * statistics.median(andelar)), "noll": sum(a == 0 for a in andelar),
+                               "minst_en": sum(a > 0 for a in andelar), "storsta_andel_av_us": round(100 * storst / us)}
+    ut["cert_interna"] = cert["interna_totalt"]
+    ut["t6"] = (sum(r["inom_15"] for r in t6["rader"]), len(t6["rader"]))
+    return ut
 
 
 def siffror():
@@ -125,6 +153,7 @@ def siffror():
         "mta_sts": sak_k[("MTA-STS", "finns")], "dnssec": sak_k[("DNSSEC", "finns")],
         "sakerhet_lika_9999": sak.get("lika_9999"),
         "tenant": sum(o["entra_status"] == 200 for o in ra_k),
+        **cert_siffror(f["cert"], f["t6"]),
     }
 
 

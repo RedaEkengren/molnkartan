@@ -553,3 +553,21 @@ skriptet kraschade när resultatet skulle sparas (fel i hanteringen av
 sökvägen). Resultatet finns därför bara som körningens utskrift. Felet är
 rättat och T6 körs en tredje gång så att rådata sparas; det är den körningen
 som gäller.
+
+## Oberoende granskning av mätning 4 — 2026-10-09
+
+En ny granskare med bara läsrätt räknade om allt från rådatan; alla siffror
+stämde. Rättat i formuleringen före publicering:
+
+1. "Medianen per kommun är 3 %" blandade in regionerna. Kommunernas median
+   är 0 % (150 av 289 har inga namn på amerikanska nät), regionernas 13 %.
+   Kommuner, regioner och myndigheter redovisas nu var för sig.
+2. "Ligger i Sverige och Europa" påstod plats; metoden mäter nätägare.
+3. Summan drivs av ett fåtal: en kommun står för 25 % av kommunernas namn på
+   amerikanska nät. Medianen är huvudmåttet.
+4. Jokercertifikat döljer namn och kan överskatta andelen; det står nu under
+   "Vad det här inte visar".
+5. T6 prövar bara att namnlistan är fullständig: båda källorna läser samma
+   certifikatloggar.
+6. Spärren: en certifikatkörning publiceras bara om T6 hållit för just den
+   körningen. Hygientestet omfattar även T6-filerna.

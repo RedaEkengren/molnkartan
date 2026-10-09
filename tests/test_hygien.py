@@ -21,6 +21,12 @@ class IngaLokalaSokvagar(unittest.TestCase):
 class IngaVardnamnICertdata(unittest.TestCase):
     """Gränsen i METOD.md, mätning 4: certifikatdata får bara innehålla antal, aldrig värdnamn."""
 
+    @staticmethod
+    def _domaner():
+        import csv
+        return {r["domän"] for f in ("organisationer-sverige.csv", "organisationer-myndigheter-matning.csv")
+                for r in csv.DictReader(open(ROT / f, encoding="utf-8"))}
+
     def test_inga_underdomaner(self):
         import json
 
@@ -35,9 +41,9 @@ class IngaVardnamnICertdata(unittest.TestCase):
             elif isinstance(x, str):
                 yield x
 
-        for fil in sorted(ROT.glob("data/cert-*.json")):
+        for fil in sorted(ROT.glob("data/cert-*.json")) + sorted(ROT.glob("data/triangulering-t6-*.json")):
             d = json.loads(fil.read_text(encoding="utf-8"))
-            domaner = {o["domän"] for o in d["organisationer"]}
+            domaner = {o["domän"] for o in d["organisationer"]} if "organisationer" in d else self._domaner()
             # Organisationernas egna e-postdomäner kommer från SCB:s register och är inga
             # hittade värdnamn, även när en ligger under en annan (ifau.uu.se under uu.se).
             lackor = [s for s in strangar(d) if s not in domaner and any(s.endswith("." + dom) for dom in domaner)]

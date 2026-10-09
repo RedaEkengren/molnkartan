@@ -40,6 +40,22 @@ def senaste_godkanda(monster, godkand):
     return None
 
 
+def cert_godkand(d):
+    """Mätning 4: svar för minst 90 % av organisationerna och nät för minst 95 % av aktiva namn."""
+    org = d["organisationer"]
+    svar = [o for o in org if o.get("status") == "ok"]
+    aktiva = sum(o["aktiva"] for o in svar)
+    okanda = sum(o["nat"].get("okänt", 0) for o in svar)
+    if not ("interna_totalt" in d and len(svar) / len(org) >= 0.9 and aktiva and (aktiva - okanda) / aktiva >= 0.95):
+        return False
+    # T6 måste ha hållit för just den här körningen.
+    for t6 in (ROT / "data").glob("triangulering-t6-*.json"):
+        k = json.loads(t6.read_text(encoding="utf-8"))
+        if k["kalla"] == f"data/cert-{d['matt']}.json" and sum(r["inom_15"] for r in k["rader"]) >= 16:
+            return True
+    return False
+
+
 def senaste_godkanda_webb(monster):
     """Senaste webbmätning som uppfyller kravet i METOD.md (minst 95 % mätbara).
     En körning som faller publiceras inte, men behålls i data/."""
@@ -63,8 +79,10 @@ def bygg(grupp):
     ra_fil, webb_fil = senaste(g["ra"]), senaste_godkanda_webb(g["webb"])
     # Bara körningar som klarar sina krav (METOD.md, "Publicering").
     tri_fil = senaste_godkanda("triangulering-20*Z.json", triangulering_godkand)
+    cert_fil = senaste_godkanda("cert-*.json", cert_godkand)
     sak_fil = senaste_godkanda("sakerhet-*.json", lambda d: d.get("fel_andel", 1) <= 0.02)
     data, webb_data, tri, sak = las(ra_fil), las(webb_fil), las(tri_fil), las(sak_fil)
+    cert = {o["domän"]: o for o in (las(cert_fil) or {}).get("organisationer", [])}
 
     fore = {}
     for w in (webb_data or {}).get("organisationer", []):
@@ -101,6 +119,9 @@ def bygg(grupp):
             "webbLeverantor": o["www_asn_namn"],
             "signaler": s,
             "fore_samtycke": fore.get(o["domän"]),
+            # Mätning 4: antal publika tjänstenamn och hur många av dem som ligger på amerikanska nät.
+            "tjanster": ({"aktiva": cert[o["domän"]]["aktiva"], "us": cert[o["domän"]]["nat"].get("US", 0)}
+                         if cert.get(o["domän"], {}).get("aktiva") else None),
             # Riktiga svar till animationen "Så mäts en kommun".
             "svar": {
                 "mx": [m.split()[-1].rstrip(".") for m in sorted(o["mx"], key=lambda m: int(m.split()[0]))],
@@ -126,6 +147,7 @@ def bygg(grupp):
         "webbMatt": webb_data and webb_data["matt"], "webbKalla": relativ(webb_fil),
         "trianguleringMatt": tri and tri["matt"], "trianguleringKalla": relativ(tri_fil),
         "sakerhetMatt": sak and sak["matt"], "sakerhetKalla": relativ(sak_fil),
+        "certKalla": relativ(cert_fil), "certMatt": las(cert_fil)["matt"] if cert_fil else None,
         "sakerhet": {k: dict(v) for k, v in sakerhet.items()},
         "organisationer": organisationer,
     }

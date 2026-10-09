@@ -7,6 +7,8 @@
  "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
  "sakerhetMatt": "2026-10-09T004643Z",
  "sakerhetKalla": "data/sakerhet-2026-10-09T004643Z.json",
+ "certKalla": "data/cert-2026-10-08T204928Z.json",
+ "certMatt": "2026-10-08T204928Z",
  "sakerhet": {
   "DMARC": {
    "p=none": 97,
@@ -69,6 +71,10 @@
     "varder": [],
     "sida": "https://www.upplandsvasby.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -130,6 +136,10 @@
      }
     ],
     "sida": "https://www.vallentuna.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -206,6 +216,10 @@
     ],
     "sida": "https://www.osteraker.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "osteraker-se.mx1.staysecuregroup.com",
@@ -275,6 +289,10 @@
     ],
     "sida": "https://www.varmdo.se/"
    },
+   "tjanster": {
+    "aktiva": 38,
+    "us": 5
+   },
    "svar": {
     "mx": [
      "varmdo-se.mail.protection.outlook.com"
@@ -333,6 +351,10 @@
      }
     ],
     "sida": "https://www.jarfalla.se/"
+   },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -413,6 +435,10 @@
     ],
     "sida": "https://www.ekero.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "ekero-se.mail.protection.outlook.com"
@@ -450,6 +476,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.huddinge.se/"
+   },
+   "tjanster": {
+    "aktiva": 42,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -542,6 +572,10 @@
     ],
     "sida": "https://www.botkyrka.se/"
    },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 5
+   },
    "svar": {
     "mx": [
      "botkyrka-se.mail.protection.outlook.com"
@@ -620,6 +654,10 @@
      }
     ],
     "sida": "https://www.salem.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -713,6 +751,10 @@
     ],
     "sida": "https://www.haninge.se/"
    },
+   "tjanster": {
+    "aktiva": 214,
+    "us": 206
+   },
    "svar": {
     "mx": [
      "haninge-se.mail.protection.outlook.com"
@@ -804,6 +846,10 @@
     ],
     "sida": "https://www.tyreso.se/"
    },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mail.tyreso.se"
@@ -867,6 +913,10 @@
      }
     ],
     "sida": "https://www.upplands-bro.se/"
+   },
+   "tjanster": {
+    "aktiva": 1,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -932,6 +982,10 @@
     ],
     "sida": "https://nykvarn.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -988,6 +1042,10 @@
      }
     ],
     "sida": "https://www.taby.se/"
+   },
+   "tjanster": {
+    "aktiva": 66,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -1108,6 +1166,10 @@
      }
     ],
     "sida": "https://www.danderyd.se/"
+   },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -1238,6 +1300,10 @@
     ],
     "sida": "https://www.sollentuna.se/"
    },
+   "tjanster": {
+    "aktiva": 51,
+    "us": 7
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -1284,6 +1350,10 @@
      }
     ],
     "sida": "https://start.stockholm/"
+   },
+   "tjanster": {
+    "aktiva": 182,
+    "us": 15
    },
    "svar": {
     "mx": [
@@ -1380,6 +1450,10 @@
     ],
     "sida": "https://www.sodertalje.se/"
    },
+   "tjanster": {
+    "aktiva": 72,
+    "us": 44
+   },
    "svar": {
     "mx": [
      "sodertalje-se.mail.protection.outlook.com"
@@ -1466,6 +1540,10 @@
     ],
     "sida": "https://www.nacka.se/"
    },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "nacka-se.mail.protection.outlook.com"
@@ -1519,6 +1597,10 @@
      }
     ],
     "sida": "https://www.sundbyberg.se/"
+   },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -1594,6 +1676,10 @@
     ],
     "sida": "https://www.solna.se/"
    },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "solna-se.mail.protection.outlook.com"
@@ -1658,6 +1744,10 @@
     ],
     "sida": "https://lidingo.se/"
    },
+   "tjanster": {
+    "aktiva": 70,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "lidingo-se.mail.protection.outlook.com"
@@ -1711,6 +1801,10 @@
      }
     ],
     "sida": "https://www.vaxholm.se/"
+   },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -1808,6 +1902,10 @@
     ],
     "sida": "https://www.norrtalje.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "norrtalje-se.mail.protection.outlook.com"
@@ -1875,6 +1973,10 @@
      }
     ],
     "sida": "https://www.sigtuna.se/"
+   },
+   "tjanster": {
+    "aktiva": 23,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -1960,6 +2062,10 @@
      }
     ],
     "sida": "https://nynashamn.se/"
+   },
+   "tjanster": {
+    "aktiva": 16,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -2061,6 +2167,10 @@
     ],
     "sida": "https://www.habo.se/"
    },
+   "tjanster": {
+    "aktiva": 16,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "habo-se.mail.protection.outlook.com"
@@ -2124,6 +2234,10 @@
      }
     ],
     "sida": "https://www.alvkarleby.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -2251,6 +2365,10 @@
     ],
     "sida": "https://knivsta.se/"
    },
+   "tjanster": {
+    "aktiva": 19,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -2299,6 +2417,10 @@
      }
     ],
     "sida": "https://www.heby.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -2359,6 +2481,10 @@
     ],
     "sida": "https://www.tierp.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -2406,6 +2532,10 @@
      }
     ],
     "sida": "https://www.uppsala.se/"
+   },
+   "tjanster": {
+    "aktiva": 50,
+    "us": 16
    },
    "svar": {
     "mx": [
@@ -2492,6 +2622,10 @@
     ],
     "sida": "https://enkoping.se/"
    },
+   "tjanster": {
+    "aktiva": 24,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "inkorg.enkoping.se"
@@ -2565,6 +2699,10 @@
     ],
     "sida": "https://www.osthammar.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mx.itcentrum.se"
@@ -2613,6 +2751,10 @@
      }
     ],
     "sida": "https://vingaker.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -2677,6 +2819,10 @@
      }
     ],
     "sida": "https://www.gnesta.se/"
+   },
+   "tjanster": {
+    "aktiva": 43,
+    "us": 22
    },
    "svar": {
     "mx": [
@@ -2744,6 +2890,10 @@
      }
     ],
     "sida": "https://www.nykoping.se/"
+   },
+   "tjanster": {
+    "aktiva": 39,
+    "us": 8
    },
    "svar": {
     "mx": [
@@ -2835,6 +2985,10 @@
     ],
     "sida": "https://www.oxelosund.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -2913,6 +3067,10 @@
     ],
     "sida": "https://flen.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -2981,6 +3139,10 @@
     ],
     "sida": "https://www.katrineholm.se/"
    },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "katrineholm-se.mail.protection.outlook.com"
@@ -3018,6 +3180,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.eskilstuna.se/"
+   },
+   "tjanster": {
+    "aktiva": 133,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -3068,6 +3234,10 @@
     ],
     "sida": "https://www.strangnas.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -3108,6 +3278,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.trosa.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -3177,6 +3351,10 @@
     ],
     "sida": "https://www.odeshog.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -3243,6 +3421,10 @@
      }
     ],
     "sida": "https://www.ydre.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -3317,6 +3499,10 @@
     ],
     "sida": "https://www.kinda.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "kinda-se.mail.protection.outlook.com"
@@ -3374,6 +3560,10 @@
      }
     ],
     "sida": "https://www.boxholm.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -3442,6 +3632,10 @@
     ],
     "sida": "https://www.atvidaberg.se/"
    },
+   "tjanster": {
+    "aktiva": 21,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -3494,6 +3688,10 @@
      }
     ],
     "sida": "https://finspang.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -3636,6 +3834,10 @@
     ],
     "sida": "https://www.valdemarsvik.se/"
    },
+   "tjanster": {
+    "aktiva": 18,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "halon01.valdemarsvik.se",
@@ -3705,6 +3907,10 @@
      }
     ],
     "sida": "https://www.linkoping.se/"
+   },
+   "tjanster": {
+    "aktiva": 121,
+    "us": 27
    },
    "svar": {
     "mx": [
@@ -3776,6 +3982,10 @@
      }
     ],
     "sida": "https://norrkoping.se/"
+   },
+   "tjanster": {
+    "aktiva": 27,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -3887,6 +4097,10 @@
      }
     ],
     "sida": "https://www.soderkoping.se/"
+   },
+   "tjanster": {
+    "aktiva": 34,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -4002,6 +4216,10 @@
     ],
     "sida": "https://www.motala.se/"
    },
+   "tjanster": {
+    "aktiva": 55,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "ppa1.motala.se",
@@ -4055,6 +4273,10 @@
      }
     ],
     "sida": "https://www.vadstena.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -4128,6 +4350,10 @@
     ],
     "sida": "https://www.mjolby.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4189,6 +4415,10 @@
      }
     ],
     "sida": "https://www.aneby.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -4253,6 +4483,10 @@
      }
     ],
     "sida": "https://www.gnosjo.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -4333,6 +4567,10 @@
     ],
     "sida": "https://www.mullsjo.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "mullsjo-se.mail.protection.outlook.com"
@@ -4386,6 +4624,10 @@
      }
     ],
     "sida": "https://habokommun.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -4450,6 +4692,10 @@
      }
     ],
     "sida": "https://www.gislaved.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -4537,6 +4783,10 @@
     ],
     "sida": "https://www.vaggeryd.se/"
    },
+   "tjanster": {
+    "aktiva": 24,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "eu-esec-01.heimdalsecurity.com",
@@ -4608,6 +4858,10 @@
     ],
     "sida": "https://www.jonkoping.se/"
    },
+   "tjanster": {
+    "aktiva": 99,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "smtp01.jonkoping.se",
@@ -4672,6 +4926,10 @@
      }
     ],
     "sida": "https://nassjo.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -4749,6 +5007,10 @@
     ],
     "sida": "https://www.varnamo.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -4821,6 +5083,10 @@
     ],
     "sida": "https://www.savsjo.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "savsjo-se.mail.protection.outlook.com"
@@ -4890,6 +5156,10 @@
     ],
     "sida": "https://www.vetlanda.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "vetlanda-se.mail.protection.outlook.com"
@@ -4949,6 +5219,10 @@
     ],
     "sida": "https://eksjo.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "eksjo-se.mail.protection.outlook.com"
@@ -5002,6 +5276,10 @@
      }
     ],
     "sida": "https://tranas.se/"
+   },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -5087,6 +5365,10 @@
     ],
     "sida": "https://www.uppvidinge.se/"
    },
+   "tjanster": {
+    "aktiva": 24,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "uppvidinge-se.mail.protection.outlook.com"
@@ -5151,6 +5433,10 @@
     ],
     "sida": "https://www.lessebo.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "lessebo-se.mail.protection.outlook.com"
@@ -5204,6 +5490,10 @@
      }
     ],
     "sida": "https://tingsryd.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -5286,6 +5576,10 @@
     ],
     "sida": "https://www.alvesta.se/"
    },
+   "tjanster": {
+    "aktiva": 25,
+    "us": 6
+   },
    "svar": {
     "mx": [
      "alvesta-se.mail.protection.outlook.com"
@@ -5359,6 +5653,10 @@
      }
     ],
     "sida": "https://www.almhult.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -5466,6 +5764,10 @@
     ],
     "sida": "https://www.markaryd.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "markaryd-se.mail.protection.outlook.com"
@@ -5552,6 +5854,10 @@
     ],
     "sida": "https://www.vaxjo.se/"
    },
+   "tjanster": {
+    "aktiva": 36,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "vaxjo-se.mail.protection.outlook.com"
@@ -5621,6 +5927,10 @@
     ],
     "sida": "https://www.ljungby.se/"
    },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "ljungby-se.mail.protection.outlook.com"
@@ -5658,6 +5968,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": null
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -5711,6 +6025,10 @@
      }
     ],
     "sida": "https://www.torsas.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -5830,6 +6148,10 @@
     ],
     "sida": "https://www.morbylanga.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "morbylanga-se.mail.protection.outlook.com"
@@ -5925,6 +6247,10 @@
      }
     ],
     "sida": "https://www.hultsfred.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -6034,6 +6360,10 @@
     ],
     "sida": "https://www.monsteras.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "monsteras-se.mail.protection.outlook.com"
@@ -6115,6 +6445,10 @@
      }
     ],
     "sida": "https://www.emmaboda.se/"
+   },
+   "tjanster": {
+    "aktiva": 2,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -6221,6 +6555,10 @@
     ],
     "sida": "https://kalmar.se/"
    },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "kalmar-se.mail.protection.outlook.com"
@@ -6273,6 +6611,10 @@
      }
     ],
     "sida": "https://nybro.se/"
+   },
+   "tjanster": {
+    "aktiva": 26,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -6374,6 +6716,10 @@
     ],
     "sida": "https://www.oskarshamn.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "oskarshamn-se.mail.protection.outlook.com"
@@ -6417,6 +6763,10 @@
      }
     ],
     "sida": "https://www.vastervik.se/"
+   },
+   "tjanster": {
+    "aktiva": 34,
+    "us": 6
    },
    "svar": {
     "mx": [
@@ -6485,6 +6835,10 @@
      }
     ],
     "sida": "https://www.vimmerby.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -6632,6 +6986,10 @@
     ],
     "sida": "https://www.borgholm.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "borgholm-se.mail.protection.outlook.com"
@@ -6700,6 +7058,10 @@
      }
     ],
     "sida": "https://gotland.se/"
+   },
+   "tjanster": {
+    "aktiva": 48,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -6786,6 +7148,10 @@
     ],
     "sida": "https://olofstrom.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "olofstrom-se.mx1-se.mailanyone.net",
@@ -6836,6 +7202,10 @@
      }
     ],
     "sida": "https://www.karlskrona.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -6944,6 +7314,10 @@
     ],
     "sida": "https://www.ronneby.se/"
    },
+   "tjanster": {
+    "aktiva": 70,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "ronneby-se.k-v1.mx.microsoft"
@@ -7017,6 +7391,10 @@
      }
     ],
     "sida": "https://www.karlshamn.se/"
+   },
+   "tjanster": {
+    "aktiva": 27,
+    "us": 15
    },
    "svar": {
     "mx": [
@@ -7113,6 +7491,10 @@
     ],
     "sida": "https://solvesborg.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "solvesborg-se.mail.protection.outlook.com"
@@ -7200,6 +7582,10 @@
     ],
     "sida": "https://www.svalov.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "cluster4.eu.messagelabs.com",
@@ -7248,6 +7634,10 @@
      }
     ],
     "sida": "https://www.staffanstorp.se/"
+   },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -7324,6 +7714,10 @@
      }
     ],
     "sida": "https://burlov.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -7424,6 +7818,10 @@
     ],
     "sida": "https://vellinge.se/"
    },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "vellinge-se.mail.protection.outlook.com",
@@ -7478,6 +7876,10 @@
      }
     ],
     "sida": "https://www.ostragoinge.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -7536,6 +7938,10 @@
      }
     ],
     "sida": "https://www.orkelljunga.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -7601,6 +8007,10 @@
     ],
     "sida": "https://www.bjuv.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "bjuv-se.mail.protection.outlook.com"
@@ -7654,6 +8064,10 @@
      }
     ],
     "sida": "https://www.kavlinge.se/"
+   },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 5
    },
    "svar": {
     "mx": [
@@ -7713,6 +8127,10 @@
      }
     ],
     "sida": "https://lomma.se/"
+   },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 8
    },
    "svar": {
     "mx": [
@@ -7796,6 +8214,10 @@
      }
     ],
     "sida": "https://svedala.info/"
+   },
+   "tjanster": {
+    "aktiva": 47,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -7893,6 +8315,10 @@
     ],
     "sida": "https://www.skurup.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "skurup-se.mail.protection.outlook.com"
@@ -7977,6 +8403,10 @@
     ],
     "sida": "https://www.sjobo.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -8041,6 +8471,10 @@
     ],
     "sida": "https://www.horby.se/"
    },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -8084,6 +8518,10 @@
      }
     ],
     "sida": "https://www.hoor.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -8133,6 +8571,10 @@
      }
     ],
     "sida": "https://tomelilla.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -8255,6 +8697,10 @@
     ],
     "sida": "https://www.bromolla.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "mailgw.unikom.se"
@@ -8323,6 +8769,10 @@
      }
     ],
     "sida": "https://www.osby.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -8412,6 +8862,10 @@
      }
     ],
     "sida": "https://www.perstorp.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -8510,6 +8964,10 @@
     ],
     "sida": "https://www.klippan.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "klippan-se.mail.protection.outlook.com"
@@ -8578,6 +9036,10 @@
      }
     ],
     "sida": "https://astorp.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -8648,6 +9110,10 @@
     ],
     "sida": "https://www.bastad.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "bastad-se.mail.protection.outlook.com"
@@ -8685,6 +9151,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://malmo.se/"
+   },
+   "tjanster": {
+    "aktiva": 148,
+    "us": 86
    },
    "svar": {
     "mx": [
@@ -8774,6 +9244,10 @@
     ],
     "sida": "https://lund.se/"
    },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "lund-se.mail.protection.outlook.com"
@@ -8811,6 +9285,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.landskrona.se/"
+   },
+   "tjanster": {
+    "aktiva": 92,
+    "us": 7
    },
    "svar": {
     "mx": [
@@ -8875,6 +9353,10 @@
      }
     ],
     "sida": "https://helsingborg.se/"
+   },
+   "tjanster": {
+    "aktiva": 68,
+    "us": 18
    },
    "svar": {
     "mx": [
@@ -8956,6 +9438,10 @@
     ],
     "sida": "https://www.hoganas.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "hoganas-se.mail.protection.outlook.com"
@@ -8993,6 +9479,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.eslov.se/"
+   },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -9058,6 +9548,10 @@
     ],
     "sida": "https://ystad.se/"
    },
+   "tjanster": {
+    "aktiva": 22,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "ystad-se.mail.protection.outlook.com"
@@ -9095,6 +9589,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.trelleborg.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -9165,6 +9663,10 @@
     ],
     "sida": "https://www.kristianstad.se/"
    },
+   "tjanster": {
+    "aktiva": 21,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "mx1.hc1303-29.eu.iphmx.com",
@@ -9203,6 +9705,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.simrishamn.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 7
    },
    "svar": {
     "mx": [
@@ -9291,6 +9797,10 @@
      }
     ],
     "sida": "https://www.engelholm.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -9420,6 +9930,10 @@
     ],
     "sida": "https://www.hassleholm.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "hassleholm-se.mail.protection.outlook.com"
@@ -9492,6 +10006,10 @@
      }
     ],
     "sida": "https://www.hylte.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -9568,6 +10086,10 @@
     ],
     "sida": "https://www.halmstad.se/"
    },
+   "tjanster": {
+    "aktiva": 36,
+    "us": 7
+   },
    "svar": {
     "mx": [
      "halmstad-se.s-v1.mx.microsoft"
@@ -9621,6 +10143,10 @@
      }
     ],
     "sida": "https://laholm.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -9702,6 +10228,10 @@
     ],
     "sida": "https://falkenberg.se/"
    },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "smtp.falkenberg.se"
@@ -9756,6 +10286,10 @@
     ],
     "sida": "https://varberg.se/"
    },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 5
+   },
    "svar": {
     "mx": [
      "varberg-se.mail.protection.outlook.com"
@@ -9804,6 +10338,10 @@
      }
     ],
     "sida": "https://kungsbacka.se/"
+   },
+   "tjanster": {
+    "aktiva": 36,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -9898,6 +10436,10 @@
     ],
     "sida": "https://www.harryda.se/"
    },
+   "tjanster": {
+    "aktiva": 41,
+    "us": 7
+   },
    "svar": {
     "mx": [
      "harryda-se.mail.protection.outlook.com"
@@ -9935,6 +10477,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.partille.se/"
+   },
+   "tjanster": {
+    "aktiva": 22,
+    "us": 4
    },
    "svar": {
     "mx": [
@@ -9984,6 +10530,10 @@
      }
     ],
     "sida": "https://www.ockero.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -10051,6 +10601,10 @@
      }
     ],
     "sida": "https://www.stenungsund.se/"
+   },
+   "tjanster": {
+    "aktiva": 16,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -10174,6 +10728,10 @@
     ],
     "sida": "https://www.tjorn.se/"
    },
+   "tjanster": {
+    "aktiva": 16,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "tjorn-se.mail.protection.outlook.com"
@@ -10211,6 +10769,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.orust.se/"
+   },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -10268,6 +10830,10 @@
     ],
     "sida": "https://www.sotenas.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "sotenas-se.mail.protection.outlook.com"
@@ -10321,6 +10887,10 @@
      }
     ],
     "sida": "https://www.munkedal.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -10400,6 +10970,10 @@
      }
     ],
     "sida": "https://www.tanum.se/"
+   },
+   "tjanster": {
+    "aktiva": 31,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -10482,6 +11056,10 @@
     ],
     "sida": "https://www.dalsed.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "aspmx.l.google.com",
@@ -10558,6 +11136,10 @@
     ],
     "sida": "https://fargelanda.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "fargelanda-se.mail.protection.outlook.com"
@@ -10621,6 +11203,10 @@
      }
     ],
     "sida": "https://ale.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -10700,6 +11286,10 @@
     ],
     "sida": "https://lerum.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "lerum-se.mail.protection.outlook.com"
@@ -10753,6 +11343,10 @@
      }
     ],
     "sida": "https://www.vargarda.se/"
+   },
+   "tjanster": {
+    "aktiva": 2,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -10812,6 +11406,10 @@
      }
     ],
     "sida": "https://www.bollebygd.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -10876,6 +11474,10 @@
      }
     ],
     "sida": "https://www.grastorp.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -10943,6 +11545,10 @@
      }
     ],
     "sida": "https://www.essunga.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -11036,6 +11642,10 @@
     ],
     "sida": "https://www.karlsborg.se/"
    },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "karlsborg-se.mail.protection.outlook.com"
@@ -11073,6 +11683,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://gullspang.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -11131,6 +11745,10 @@
     ],
     "sida": "https://tranemo.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "tranemo-se.mail.protection.outlook.com"
@@ -11174,6 +11792,10 @@
      }
     ],
     "sida": "https://www.bengtsfors.se/"
+   },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -11247,6 +11869,10 @@
     ],
     "sida": "https://mellerud.se/"
    },
+   "tjanster": {
+    "aktiva": 29,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mellerud-se.mail.protection.outlook.com"
@@ -11305,6 +11931,10 @@
      }
     ],
     "sida": "https://lillaedet.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -11374,6 +12004,10 @@
      }
     ],
     "sida": "https://www.mark.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -11447,6 +12081,10 @@
     ],
     "sida": "https://www.svenljunga.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "mx01.svlj.net",
@@ -11500,6 +12138,10 @@
      }
     ],
     "sida": "https://www.herrljunga.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -11560,6 +12202,10 @@
     ],
     "sida": "https://www.vara.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -11611,6 +12257,10 @@
      }
     ],
     "sida": "https://www.gotene.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -11730,6 +12380,10 @@
     ],
     "sida": "https://www.tibro.se/"
    },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "tibro-se.mail.protection.outlook.com"
@@ -11793,6 +12447,10 @@
      }
     ],
     "sida": "https://toreboda.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -11860,6 +12518,10 @@
      }
     ],
     "sida": "https://goteborg.se/"
+   },
+   "tjanster": {
+    "aktiva": 168,
+    "us": 18
    },
    "svar": {
     "mx": [
@@ -11935,6 +12597,10 @@
      }
     ],
     "sida": "https://www.molndal.se/"
+   },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -12039,6 +12705,10 @@
     ],
     "sida": "https://www.kungalv.se/"
    },
+   "tjanster": {
+    "aktiva": 20,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "kungalv-se.mail.protection.outlook.com"
@@ -12092,6 +12762,10 @@
      }
     ],
     "sida": "https://lysekil.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -12181,6 +12855,10 @@
     ],
     "sida": "https://www.uddevalla.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "uddevalla-se.mail.protection.outlook.com"
@@ -12245,6 +12923,10 @@
     ],
     "sida": "https://www.stromstad.se/"
    },
+   "tjanster": {
+    "aktiva": 19,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "stromstad-se.mail.protection.outlook.com",
@@ -12304,6 +12986,10 @@
     ],
     "sida": "https://vanersborg.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "vanersborg-se.mail.protection.outlook.com"
@@ -12358,6 +13044,10 @@
     ],
     "sida": "https://www.trollhattan.se/startsida/"
    },
+   "tjanster": {
+    "aktiva": 32,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "trollhattan-se.mail.protection.outlook.com"
@@ -12401,6 +13091,10 @@
      }
     ],
     "sida": "https://www.alingsas.se/"
+   },
+   "tjanster": {
+    "aktiva": 55,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -12457,6 +13151,10 @@
     ],
     "sida": "https://www.boras.se/"
    },
+   "tjanster": {
+    "aktiva": 16,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "smtp-a1.boras.se",
@@ -12506,6 +13204,10 @@
      }
     ],
     "sida": "https://www.ulricehamn.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -12574,6 +13276,10 @@
     ],
     "sida": "https://amal.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "amal-se.mail.protection.outlook.com"
@@ -12622,6 +13328,10 @@
      }
     ],
     "sida": "https://mariestad.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -12696,6 +13406,10 @@
      }
     ],
     "sida": "https://lidkoping.se/"
+   },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -12773,6 +13487,10 @@
     ],
     "sida": "https://www.skara.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -12829,6 +13547,10 @@
      }
     ],
     "sida": "https://www.skovde.se/"
+   },
+   "tjanster": {
+    "aktiva": 39,
+    "us": 18
    },
    "svar": {
     "mx": [
@@ -12929,6 +13651,10 @@
     ],
     "sida": "https://www.hjo.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "hjo-se.mail.protection.outlook.com"
@@ -12998,6 +13724,10 @@
     ],
     "sida": "https://www.tidaholm.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -13060,6 +13790,10 @@
     ],
     "sida": "https://www.falkoping.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -13111,6 +13845,10 @@
      }
     ],
     "sida": "https://kil.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -13206,6 +13944,10 @@
     ],
     "sida": "https://www.eda.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -13292,6 +14034,10 @@
     ],
     "sida": "https://torsby.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -13348,6 +14094,10 @@
      }
     ],
     "sida": "https://www.storfors.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -13452,6 +14202,10 @@
     ],
     "sida": "https://hammaro.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "hammaro-se.mail.protection.outlook.com"
@@ -13510,6 +14264,10 @@
      }
     ],
     "sida": "https://www.munkfors.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -13588,6 +14346,10 @@
     ],
     "sida": "https://www.forshaga.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -13660,6 +14422,10 @@
     ],
     "sida": "https://www.grums.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "grums-se.mail.protection.outlook.com"
@@ -13728,6 +14494,10 @@
      }
     ],
     "sida": "https://www.arjang.se/"
+   },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -13823,6 +14593,10 @@
     ],
     "sida": "https://www.sunne.se/"
    },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 9
+   },
    "svar": {
     "mx": [
      "sunne-se.x-v1.mx.microsoft"
@@ -13909,6 +14683,10 @@
     ],
     "sida": "https://karlstad.se/"
    },
+   "tjanster": {
+    "aktiva": 48,
+    "us": 6
+   },
    "svar": {
     "mx": [
      "karlstad-se.mail.protection.outlook.com"
@@ -13992,6 +14770,10 @@
     ],
     "sida": "https://www.kristinehamn.se/"
    },
+   "tjanster": {
+    "aktiva": 12,
+    "us": 6
+   },
    "svar": {
     "mx": [
      "kristinehamn-se.mail.protection.outlook.com"
@@ -14029,6 +14811,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.filipstad.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14094,6 +14880,10 @@
     ],
     "sida": "https://www.hagfors.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "hagfors-se.mail.protection.outlook.com"
@@ -14152,6 +14942,10 @@
      }
     ],
     "sida": "https://www.arvika.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14225,6 +15019,10 @@
      }
     ],
     "sida": "https://saffle.se/"
+   },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 3
    },
    "svar": {
     "mx": [
@@ -14332,6 +15130,10 @@
      }
     ],
     "sida": "https://lekeberg.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14446,6 +15248,10 @@
     ],
     "sida": "https://www.laxa.se/"
    },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "laxa-se.mail.protection.outlook.com"
@@ -14509,6 +15315,10 @@
      }
     ],
     "sida": "https://www.hallsberg.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14593,6 +15403,10 @@
     ],
     "sida": "https://degerfors.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -14660,6 +15474,10 @@
     ],
     "sida": "https://www.hellefors.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "hellefors-se.mail.protection.outlook.com"
@@ -14713,6 +15531,10 @@
      }
     ],
     "sida": "https://ljusnarsberg.se/"
+   },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14772,6 +15594,10 @@
      }
     ],
     "sida": "https://www.orebro.se/"
+   },
+   "tjanster": {
+    "aktiva": 21,
+    "us": 5
    },
    "svar": {
     "mx": [
@@ -14843,6 +15669,10 @@
      }
     ],
     "sida": "https://www.kumla.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -14922,6 +15752,10 @@
     ],
     "sida": "https://www.askersund.se/"
    },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "askersund-se.mail.protection.outlook.com"
@@ -14976,6 +15810,10 @@
     ],
     "sida": "https://www.karlskoga.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "karlskoga-se.mail.protection.outlook.com"
@@ -15019,6 +15857,10 @@
      }
     ],
     "sida": "https://www.nora.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -15068,6 +15910,10 @@
      }
     ],
     "sida": "https://www.lindesberg.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -15168,6 +16014,10 @@
     ],
     "sida": "https://www.skinnskatteberg.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "skinnskatteberg-se.mail.protection.outlook.com"
@@ -15242,6 +16092,10 @@
     ],
     "sida": "https://surahammar.se/"
    },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "surahammar-se.mail.protection.outlook.com"
@@ -15306,6 +16160,10 @@
     ],
     "sida": "https://kungsor.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "kungsor-se.mail.protection.outlook.com"
@@ -15369,6 +16227,10 @@
      }
     ],
     "sida": "https://www.hallstahammar.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -15465,6 +16327,10 @@
     ],
     "sida": "https://norberg.se/"
    },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "norberg-se.mail.protection.outlook.com"
@@ -15519,6 +16385,10 @@
     ],
     "sida": "https://www.vasteras.se/"
    },
+   "tjanster": {
+    "aktiva": 62,
+    "us": 13
+   },
    "svar": {
     "mx": [
      "vasteras-se.mail.protection.outlook.com"
@@ -15562,6 +16432,10 @@
      }
     ],
     "sida": "https://www.sala.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -15653,6 +16527,10 @@
     ],
     "sida": "https://fagersta.se/"
    },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "fagersta-se.mail.protection.outlook.com"
@@ -15732,6 +16610,10 @@
     ],
     "sida": "https://koping.se/"
    },
+   "tjanster": {
+    "aktiva": 18,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "koping-se.mail.protection.outlook.com"
@@ -15805,6 +16687,10 @@
     ],
     "sida": "https://arboga.se/"
    },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "arboga-se.mail.protection.outlook.com"
@@ -15868,6 +16754,10 @@
      }
     ],
     "sida": "https://www.vansbro.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -15945,6 +16835,10 @@
      }
     ],
     "sida": "https://malung-salen.se/"
+   },
+   "tjanster": {
+    "aktiva": 1,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -16043,6 +16937,10 @@
     ],
     "sida": "https://www.gagnef.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "gagnef-se.mail.protection.outlook.com"
@@ -16107,6 +17005,10 @@
     ],
     "sida": "https://leksand.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "leksand-se.mail.protection.outlook.com"
@@ -16161,6 +17063,10 @@
     ],
     "sida": "https://www.rattvik.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "rattvik-se.mail.protection.outlook.com"
@@ -16214,6 +17120,10 @@
      }
     ],
     "sida": "https://www.orsa.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -16273,6 +17183,10 @@
      }
     ],
     "sida": "https://www.alvdalen.se/"
+   },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -16338,6 +17252,10 @@
     ],
     "sida": "https://www.smedjebacken.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "smedjebacken-se.mail.protection.outlook.com"
@@ -16402,6 +17320,10 @@
     ],
     "sida": "https://morakommun.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "morakommun-se.mail.protection.outlook.com"
@@ -16445,6 +17367,10 @@
      }
     ],
     "sida": "https://www.falun.se/"
+   },
+   "tjanster": {
+    "aktiva": 31,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -16539,6 +17465,10 @@
     ],
     "sida": "https://www.borlange.se/"
    },
+   "tjanster": {
+    "aktiva": 22,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "borlange-se.mail.protection.outlook.com"
@@ -16593,6 +17523,10 @@
     ],
     "sida": "https://sater.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "sater-se.mail.protection.outlook.com"
@@ -16646,6 +17580,10 @@
      }
     ],
     "sida": "https://hedemora.se/"
+   },
+   "tjanster": {
+    "aktiva": 1,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -16752,6 +17690,10 @@
     ],
     "sida": "https://www.avesta.se/"
    },
+   "tjanster": {
+    "aktiva": 2,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "avesta-se.mail.protection.outlook.com"
@@ -16836,6 +17778,10 @@
     ],
     "sida": "https://www.ludvika.se/"
    },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "ludvika-se.mail.protection.outlook.com"
@@ -16889,6 +17835,10 @@
      }
     ],
     "sida": "https://ockelbo.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -16954,6 +17904,10 @@
     ],
     "sida": "https://www.hofors.se/"
    },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "smtpforti.hofors.se"
@@ -17002,6 +17956,10 @@
      }
     ],
     "sida": "https://www.ovanaker.se/"
+   },
+   "tjanster": {
+    "aktiva": 18,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -17077,6 +18035,10 @@
     ],
     "sida": "https://nordanstig.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "smtp.hudiksvall.se"
@@ -17126,6 +18088,10 @@
     ],
     "sida": "https://www.ljusdal.se/"
    },
+   "tjanster": {
+    "aktiva": 37,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "smtp.ljusdal.se"
@@ -17163,6 +18129,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.gavle.se/"
+   },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -17227,6 +18197,10 @@
      }
     ],
     "sida": "https://sandviken.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -17298,6 +18272,10 @@
     ],
     "sida": "https://www.soderhamn.se/"
    },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "soderhamn-se.mail.protection.outlook.com"
@@ -17346,6 +18324,10 @@
      }
     ],
     "sida": "https://bollnas.se/"
+   },
+   "tjanster": {
+    "aktiva": 44,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -17410,6 +18392,10 @@
      }
     ],
     "sida": "https://hudiksvall.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -17478,6 +18464,10 @@
      }
     ],
     "sida": "https://www.ange.se/"
+   },
+   "tjanster": {
+    "aktiva": 30,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -17561,6 +18551,10 @@
      }
     ],
     "sida": "https://www.timra.se/"
+   },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -17664,6 +18658,10 @@
     ],
     "sida": "https://harnosand.se/"
    },
+   "tjanster": {
+    "aktiva": 19,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "mg.harnosand.se"
@@ -17701,6 +18699,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://sundsvall.se/"
+   },
+   "tjanster": {
+    "aktiva": 109,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -17766,6 +18768,10 @@
     ],
     "sida": "https://www.kramfors.se/"
    },
+   "tjanster": {
+    "aktiva": 32,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "kramfors-se.mail.protection.outlook.com"
@@ -17829,6 +18835,10 @@
      }
     ],
     "sida": "https://www.solleftea.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -17910,6 +18920,10 @@
     ],
     "sida": "https://www.ornskoldsvik.se/"
    },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "ornskoldsvik-se.mail.protection.outlook.com"
@@ -17947,6 +18961,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.ragunda.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -18012,6 +19030,10 @@
     ],
     "sida": "https://www.bracke.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "bracke-se.mail.protection.outlook.com"
@@ -18075,6 +19097,10 @@
      }
     ],
     "sida": "https://www.krokom.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -18157,6 +19183,10 @@
     ],
     "sida": "https://www.stromsund.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mx1.hc2477-44.eu.iphmx.com",
@@ -18211,6 +19241,10 @@
      }
     ],
     "sida": "https://www.are.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -18296,6 +19330,10 @@
     ],
     "sida": "https://berg.se/"
    },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -18373,6 +19411,10 @@
     ],
     "sida": "https://www.herjedalen.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "herjedalen-se.mail.protection.outlook.com"
@@ -18437,6 +19479,10 @@
     ],
     "sida": "https://www.ostersund.se/"
    },
+   "tjanster": {
+    "aktiva": 18,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "mailgw.ostersund.se"
@@ -18490,6 +19536,10 @@
      }
     ],
     "sida": "https://www.nordmaling.se/"
+   },
+   "tjanster": {
+    "aktiva": 25,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -18548,6 +19598,10 @@
     ],
     "sida": "https://www.bjurholm.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "bjurholm-se.mail.protection.outlook.com"
@@ -18585,6 +19639,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.vindeln.se/"
+   },
+   "tjanster": {
+    "aktiva": 1,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -18629,6 +19687,10 @@
      }
     ],
     "sida": "https://www.robertsfors.se/"
+   },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -18754,6 +19816,10 @@
     ],
     "sida": "https://norsjo.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "mx1-eu1.ppe-hosted.com",
@@ -18836,6 +19902,10 @@
     ],
     "sida": "https://www.mala.se/"
    },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "mala-se.mail.protection.outlook.com"
@@ -18908,6 +19978,10 @@
     ],
     "sida": "https://www.storuman.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "storuman-se.mail.protection.outlook.com"
@@ -18955,6 +20029,10 @@
      }
     ],
     "sida": "https://portal.sorsele.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19017,6 +20095,10 @@
      }
     ],
     "sida": "https://www.dorotea.se/"
+   },
+   "tjanster": {
+    "aktiva": 13,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -19086,6 +20168,10 @@
      }
     ],
     "sida": "https://www.vannas.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19172,6 +20258,10 @@
     ],
     "sida": "https://www.vilhelmina.se/"
    },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "vilhelmina-se.mail.protection.outlook.com"
@@ -19230,6 +20320,10 @@
      }
     ],
     "sida": "https://www.asele.se/"
+   },
+   "tjanster": {
+    "aktiva": 5,
+    "us": 2
    },
    "svar": {
     "mx": [
@@ -19295,6 +20389,10 @@
     ],
     "sida": "https://www.umea.se/"
    },
+   "tjanster": {
+    "aktiva": 62,
+    "us": 31
+   },
    "svar": {
     "mx": [
      "umea-se.mail.protection.outlook.com"
@@ -19348,6 +20446,10 @@
      }
     ],
     "sida": "https://www.lycksele.se/"
+   },
+   "tjanster": {
+    "aktiva": 2,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19449,6 +20551,10 @@
     ],
     "sida": "https://skelleftea.se/"
    },
+   "tjanster": {
+    "aktiva": 37,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "skelleftea-se.u-v1.mx.microsoft"
@@ -19497,6 +20603,10 @@
      }
     ],
     "sida": "https://arvidsjaur.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19562,6 +20672,10 @@
     ],
     "sida": "https://arjeplog.se/"
    },
+   "tjanster": {
+    "aktiva": 9,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "mxa.arjeplog.se"
@@ -19615,6 +20729,10 @@
      }
     ],
     "sida": "https://www.jokkmokk.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19716,6 +20834,10 @@
      }
     ],
     "sida": "https://www.overkalix.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19852,6 +20974,10 @@
     ],
     "sida": "https://www.kalix.se/"
    },
+   "tjanster": {
+    "aktiva": 7,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "kalix-se.mail.protection.outlook.com"
@@ -19889,6 +21015,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://overtornea.se/"
+   },
+   "tjanster": {
+    "aktiva": 6,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -19981,6 +21111,10 @@
     ],
     "sida": "https://www.pajala.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "pajala-se.mail.protection.outlook.com"
@@ -20019,6 +21153,7 @@
     "varder": [],
     "sida": null
    },
+   "tjanster": null,
    "svar": {
     "mx": [
      "mx.norrnet.com"
@@ -20056,6 +21191,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.alvsbyn.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 0
    },
    "svar": {
     "mx": [
@@ -20113,6 +21252,10 @@
      }
     ],
     "sida": "https://www.lulea.se/"
+   },
+   "tjanster": {
+    "aktiva": 8,
+    "us": 3
    },
    "svar": {
     "mx": [
@@ -20197,6 +21340,10 @@
      }
     ],
     "sida": "https://www.pitea.se/"
+   },
+   "tjanster": {
+    "aktiva": 14,
+    "us": 6
    },
    "svar": {
     "mx": [
@@ -20288,6 +21435,10 @@
     ],
     "sida": "https://boden.se/"
    },
+   "tjanster": {
+    "aktiva": 3,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "boden-se.mail.protection.outlook.com",
@@ -20353,6 +21504,10 @@
     ],
     "sida": "https://www.haparanda.se/"
    },
+   "tjanster": {
+    "aktiva": 32,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "se.mx1.mailanyone.net",
@@ -20394,6 +21549,10 @@
     "varder": [],
     "sida": "https://kiruna.se/"
    },
+   "tjanster": {
+    "aktiva": 25,
+    "us": 3
+   },
    "svar": {
     "mx": [
      "kiruna-se.mail.protection.outlook.com"
@@ -20431,6 +21590,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": "https://www.regionstockholm.se/"
+   },
+   "tjanster": {
+    "aktiva": 297,
+    "us": 140
    },
    "svar": {
     "mx": [
@@ -20482,6 +21645,10 @@
      }
     ],
     "sida": "https://regionuppsala.se/"
+   },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 3
    },
    "svar": {
     "mx": [
@@ -20537,6 +21704,10 @@
     ],
     "sida": "https://regionsormland.se/"
    },
+   "tjanster": {
+    "aktiva": 26,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "regionsormland-se.mail.protection.outlook.com"
@@ -20585,6 +21756,10 @@
      }
     ],
     "sida": "https://www.regionostergotland.se/"
+   },
+   "tjanster": {
+    "aktiva": 26,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -20659,6 +21834,10 @@
      }
     ],
     "sida": "https://www.rjl.se/"
+   },
+   "tjanster": {
+    "aktiva": 125,
+    "us": 3
    },
    "svar": {
     "mx": [
@@ -20747,6 +21926,10 @@
     ],
     "sida": "https://www.regionkronoberg.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "regionkronoberg-se.mail.protection.outlook.com"
@@ -20790,6 +21973,10 @@
      }
     ],
     "sida": "https://www.regionkalmar.se/"
+   },
+   "tjanster": {
+    "aktiva": 31,
+    "us": 5
    },
    "svar": {
     "mx": [
@@ -20841,6 +22028,10 @@
     ],
     "sida": "https://regionblekinge.se/"
    },
+   "tjanster": {
+    "aktiva": 48,
+    "us": 2
+   },
    "svar": {
     "mx": [
      "mx1.regionblekinge.se",
@@ -20879,6 +22070,10 @@
     "usLeverantorer": [],
     "varder": [],
     "sida": null
+   },
+   "tjanster": {
+    "aktiva": 156,
+    "us": 63
    },
    "svar": {
     "mx": [
@@ -20928,6 +22123,10 @@
      }
     ],
     "sida": "https://www.regionhalland.se/"
+   },
+   "tjanster": {
+    "aktiva": 64,
+    "us": 6
    },
    "svar": {
     "mx": [
@@ -21007,6 +22206,10 @@
     ],
     "sida": "https://www.vgregion.se/"
    },
+   "tjanster": {
+    "aktiva": 85,
+    "us": 8
+   },
    "svar": {
     "mx": [
      "vgregion-se.mail.protection.outlook.com"
@@ -21070,6 +22273,10 @@
      }
     ],
     "sida": "https://www.regionvarmland.se/"
+   },
+   "tjanster": {
+    "aktiva": 28,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -21144,6 +22351,10 @@
     ],
     "sida": "https://www.regionorebrolan.se/"
    },
+   "tjanster": {
+    "aktiva": 180,
+    "us": 44
+   },
    "svar": {
     "mx": [
      "regionorebrolan-se.mail.protection.outlook.com"
@@ -21196,6 +22407,10 @@
      }
     ],
     "sida": "https://regionvastmanland.se/"
+   },
+   "tjanster": {
+    "aktiva": 30,
+    "us": 22
    },
    "svar": {
     "mx": [
@@ -21277,6 +22492,10 @@
      }
     ],
     "sida": "https://www.regiondalarna.se/"
+   },
+   "tjanster": {
+    "aktiva": 10,
+    "us": 1
    },
    "svar": {
     "mx": [
@@ -21372,6 +22591,10 @@
     ],
     "sida": "https://www.regiongavleborg.se/"
    },
+   "tjanster": {
+    "aktiva": 15,
+    "us": 4
+   },
    "svar": {
     "mx": [
      "regiongavleborg-se.mail.protection.outlook.com"
@@ -21453,6 +22676,10 @@
     ],
     "sida": "https://www.rvn.se/"
    },
+   "tjanster": {
+    "aktiva": 19,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "rvn-se.mail.protection.outlook.com"
@@ -21517,6 +22744,10 @@
     ],
     "sida": "https://www.regionjh.se/"
    },
+   "tjanster": {
+    "aktiva": 11,
+    "us": 0
+   },
    "svar": {
     "mx": [
      "regionjh-se.mail.protection.outlook.com"
@@ -21576,6 +22807,10 @@
     ],
     "sida": "https://www.regionvasterbotten.se/"
    },
+   "tjanster": {
+    "aktiva": 4,
+    "us": 1
+   },
    "svar": {
     "mx": [
      "regionvasterbotten-se.mail.protection.outlook.com"
@@ -21629,6 +22864,10 @@
      }
     ],
     "sida": "https://www.norrbotten.se/"
+   },
+   "tjanster": {
+    "aktiva": 17,
+    "us": 7
    },
    "svar": {
     "mx": [

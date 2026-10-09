@@ -1,17 +1,17 @@
 :root {
   --bg: #fafaf8; --yta: #ffffff; --text: #1c1c1a; --dampad: #5f5f5a; --linje: #e4e3de;
-  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --tagg-text: #ffffff; --tom-yta: #e4e3de; --varning: #fff6e0; --varning-kant: #e8c66a;
+  --ms: #2f6fb3; --g: #c2572b; --inga: #6b8f5a; --okand: #a9a8a1; --annat: #8a6bbf; --ingen: #3f8f8a; --accent: #176b68; --accent-text: #ffffff; --tagg-text: #ffffff; --tom-yta: #e4e3de; --gul: #b89a2c; --orange: #d9893f; --varning: #fff6e0; --varning-kant: #e8c66a;
 }
 /* Mörkt läge: följer systemet om inget val gjorts (data-tema), annars valet. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="ljust"]) {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
-    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --varning: #2b2516; --varning-kant: #7a6426;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --gul: #d8c46a; --orange: #eda466; --varning: #2b2516; --varning-kant: #7a6426;
   }
 }
 :root[data-tema="morkt"] {
     --bg: #141413; --yta: #1d1d1b; --text: #ecebe6; --dampad: #a3a29b; --linje: #33332f;
-    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --varning: #2b2516; --varning-kant: #7a6426;
+    --ms: #6aa3e0; --g: #e58a5f; --inga: #93b87f; --okand: #8c8b84; --annat: #b39ae0; --ingen: #6fc0ba; --accent: #5fbfb8; --accent-text: #0f2523; --tagg-text: #12161a; --tom-yta: #4a4a45; --gul: #d8c46a; --orange: #eda466; --varning: #2b2516; --varning-kant: #7a6426;
 }
 :root { color-scheme: light dark; }
 :root[data-tema="ljust"] { color-scheme: light; }

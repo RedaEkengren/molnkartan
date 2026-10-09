@@ -84,6 +84,17 @@ class FyndenStammerMedDatan(unittest.TestCase):
         self.innehaller("google-tar-emot", f"{len(namn)} kommuner", *namn,
                         f"{ORD[s['google_tar_emot_lan']['Östergötlands län']]} av dem ligger i Östergötland")
 
+    def test_tjanster(self):
+        k, r, m = self.s["cert_kommuner"], self.s["cert_regioner"], self.s["cert_myndigheter"]
+        sv = lambda x: f"{x:,}".replace(",", " ")
+        pc = lambda x: str(x).replace(".", ",")
+        self.innehaller("tjanster", f"{k['noll']} av {k['org']} kommuner", f"medianen per kommun är {k['median']} %",
+                        f"{pc(k['andel'])} %", sv(k["aktiva"]), f"står för {k['storsta_andel_av_us']} %",
+                        f"{r['minst_en']} av {r['org']}", f"medianen är {r['median']} %", f"medianen {m['median']} %",
+                        f"{self.s['t6'][0]} av {self.s['t6'][1]}", sv(self.s["cert_interna"]))
+        self.assertGreaterEqual(self.s["t6"][0], 16, "T6 ska hålla för att fyndet får publiceras")
+        self.assertGreaterEqual(2 * k["noll"], k["org"] - 1, "rubriken säger 'hälften'")
+
     def test_tenant(self):
         self.innehaller("tenant", f"{self.s['tenant']} av 310")
 

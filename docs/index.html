@@ -145,7 +145,7 @@ function el(tagg, egenskaper = {}, ...barn) {
   return e;
 }
 
-Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r => r.json())]).then(([{ matt, webbMatt, sakerhet, organisationer: org }, karta]) => {
+Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r => r.json())]).then(([{ matt, webbMatt, certMatt, sakerhet, organisationer: org }, karta]) => {
   org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
   startaDemo(org, { etikett, farg, karta });
   const n = org.length;
@@ -199,6 +199,12 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
       legend: [["Svarar", "var(--ms)"], ["Svarar inte", "var(--inga)"], ["Ingen uppgift", "var(--okand)"]] },
     { namn: "Webbplats före samtycke", varde: o => fs(o) ? [webbEtikett[fs(o)], webbFarg[fs(o)]] : ["Ingen uppgift", "var(--okand)"],
       legend: WEBBKLASSER.slice(0, 5).map(([, n, f]) => [n, f]) },
+    { namn: "Tjänster på amerikanska nät", varde: o => {
+        const t = o.tjanster;
+        if (!t) return ["Ingen uppgift", "var(--okand)"];
+        const a = t.us / t.aktiva;
+        return a === 0 ? ["0 %", "var(--inga)"] : a < 0.25 ? ["Under 25 %", "var(--gul)"] : a < 0.5 ? ["25–49 %", "var(--orange)"] : ["50 % eller mer", "var(--g)"];
+      }, legend: [["0 %", "var(--inga)"], ["Under 25 %", "var(--gul)"], ["25–49 %", "var(--orange)"], ["50 % eller mer", "var(--g)"], ["Ingen uppgift", "var(--okand)"]] },
     { namn: "Google före samtycke", varde: o => !o.fore_samtycke ? ["Ingen uppgift", "var(--okand)"]
         : o.fore_samtycke.gaInsamling ? ["Google Analytics", "var(--g)"] : o.fore_samtycke.ga ? ["Bara Tag Manager", "var(--annat)"] : ["Nej", "var(--inga)"],
       legend: [["Google Analytics", "var(--g)"], ["Bara Tag Manager", "var(--annat)"], ["Nej", "var(--inga)"], ["Ingen uppgift", "var(--okand)"]] },
@@ -242,7 +248,7 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("karta.json").then(r 
   for (const id of ["sok", "lanFilter", "epostFilter", "webbFilter"]) document.getElementById(id).addEventListener("input", visa);
   visa();
   const tid = t => t.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC");
-  document.getElementById("matt").textContent = `E-post och konton mätta ${tid(matt)}.` + (webbMatt ? ` Webbplatser mätta ${tid(webbMatt)}.` : "");
+  document.getElementById("matt").textContent = `E-post och konton mätta ${tid(matt)}.` + (webbMatt ? ` Webbplatser mätta ${tid(webbMatt)}.` : "") + (certMatt ? ` Tjänster mätta ${tid(certMatt)}.` : "");
 });
 </script>
 </body>

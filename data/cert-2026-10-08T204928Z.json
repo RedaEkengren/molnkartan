@@ -1,0 +1,6694 @@
+{
+ "matt": "2026-10-08T204928Z",
+ "listor": [
+  "organisationer-sverige.csv",
+  "organisationer-myndigheter-matning.csv"
+ ],
+ "interna_totalt": 1268,
+ "organisationer": [
+  {
+   "namn": "Upplands Väsby",
+   "domän": "upplandsvasby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 2,
+    "US": 2
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Vallentuna",
+   "domän": "vallentuna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Österåker",
+   "domän": "osteraker.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 10,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Värmdö",
+   "domän": "varmdo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 57,
+   "aktiva": 38,
+   "nat": {
+    "EU/EES": 33,
+    "US": 5
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Järfälla",
+   "domän": "jarfalla.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 13,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ekerö",
+   "domän": "ekero.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 7,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Huddinge",
+   "domän": "huddinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 52,
+   "aktiva": 42,
+   "nat": {
+    "EU/EES": 40,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Botkyrka",
+   "domän": "botkyrka.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 34,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 22,
+    "US": 5,
+    "annat": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Salem",
+   "domän": "salem.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Haninge",
+   "domän": "haninge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 218,
+   "aktiva": 214,
+   "nat": {
+    "US": 206,
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tyresö",
+   "domän": "tyreso.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 24,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Upplands-Bro",
+   "domän": "upplands-bro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nykvarn",
+   "domän": "nykvarn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 12
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Täby",
+   "domän": "taby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 66,
+   "aktiva": 66,
+   "nat": {
+    "EU/EES": 63,
+    "US": 2,
+    "annat": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Danderyd",
+   "domän": "danderyd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 18,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sollentuna",
+   "domän": "sollentuna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 98,
+   "aktiva": 51,
+   "nat": {
+    "US": 7,
+    "EU/EES": 44
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Stockholm",
+   "domän": "stockholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 379,
+   "aktiva": 182,
+   "nat": {
+    "EU/EES": 167,
+    "US": 15
+   },
+   "plattform": {
+    "azurewebsites.net": 4,
+    "cloudflare.net": 1
+   }
+  },
+  {
+   "namn": "Södertälje",
+   "domän": "sodertalje.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 100,
+   "aktiva": 72,
+   "nat": {
+    "EU/EES": 27,
+    "US": 44,
+    "okänt": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Nacka",
+   "domän": "nacka.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 46,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 15,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sundbyberg",
+   "domän": "sundbyberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Solna",
+   "domän": "solna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 41,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 24,
+    "US": 4
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Lidingö",
+   "domän": "lidingo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 72,
+   "aktiva": 70,
+   "nat": {
+    "EU/EES": 68,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vaxholm",
+   "domän": "vaxholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 9,
+    "US": 4
+   },
+   "plattform": {
+    "amazonaws.com": 2
+   }
+  },
+  {
+   "namn": "Norrtälje",
+   "domän": "norrtalje.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sigtuna",
+   "domän": "sigtuna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 27,
+   "aktiva": 23,
+   "nat": {
+    "EU/EES": 22,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nynäshamn",
+   "domän": "nynashamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 16
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Håbo",
+   "domän": "habo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 14,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Älvkarleby",
+   "domän": "alvkarleby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Knivsta",
+   "domän": "knivsta.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 19,
+   "nat": {
+    "EU/EES": 17,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Heby",
+   "domän": "heby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tierp",
+   "domän": "tierp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Uppsala",
+   "domän": "uppsala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 65,
+   "aktiva": 50,
+   "nat": {
+    "US": 16,
+    "EU/EES": 34
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "trafficmanager.net": 2,
+    "cloudfront.net": 3
+   }
+  },
+  {
+   "namn": "Enköping",
+   "domän": "enkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 24
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Östhammar",
+   "domän": "osthammar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vingåker",
+   "domän": "vingaker.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "US": 2,
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gnesta",
+   "domän": "gnesta.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 46,
+   "aktiva": 43,
+   "nat": {
+    "EU/EES": 21,
+    "US": 22
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nyköping",
+   "domän": "nykoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 43,
+   "aktiva": 39,
+   "nat": {
+    "EU/EES": 31,
+    "US": 8
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Oxelösund",
+   "domän": "oxelosund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 7,
+    "US": 2
+   },
+   "plattform": {
+    "azurefd.net": 2
+   }
+  },
+  {
+   "namn": "Flen",
+   "domän": "flen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Katrineholm",
+   "domän": "katrineholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 12,
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Eskilstuna",
+   "domän": "eskilstuna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 147,
+   "aktiva": 133,
+   "nat": {
+    "EU/EES": 129,
+    "US": 4
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Strängnäs",
+   "domän": "strangnas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "US": 1,
+    "EU/EES": 10
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Trosa",
+   "domän": "trosa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ödeshög",
+   "domän": "odeshog.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ydre",
+   "domän": "ydre.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kinda",
+   "domän": "kinda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Boxholm",
+   "domän": "boxholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Åtvidaberg",
+   "domän": "atvidaberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 21,
+   "nat": {
+    "EU/EES": 21
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Finspång",
+   "domän": "finspang.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Valdemarsvik",
+   "domän": "valdemarsvik.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Linköping",
+   "domän": "linkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 192,
+   "aktiva": 121,
+   "nat": {
+    "EU/EES": 94,
+    "US": 27
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Norrköping",
+   "domän": "norrkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 27,
+   "nat": {
+    "EU/EES": 27
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Söderköping",
+   "domän": "soderkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 48,
+   "aktiva": 34,
+   "nat": {
+    "EU/EES": 33,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Motala",
+   "domän": "motala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 117,
+   "aktiva": 55,
+   "nat": {
+    "EU/EES": 55
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vadstena",
+   "domän": "vadstena.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 3,
+    "US": 4
+   },
+   "plattform": {
+    "amazonaws.com": 2
+   }
+  },
+  {
+   "namn": "Mjölby",
+   "domän": "mjolby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 11,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Aneby",
+   "domän": "aneby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gnosjö",
+   "domän": "gnosjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mullsjö",
+   "domän": "mullsjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "US": 2,
+    "EU/EES": 3
+   },
+   "plattform": {
+    "azurefd.net": 2
+   }
+  },
+  {
+   "namn": "Habo",
+   "domän": "habokommun.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gislaved",
+   "domän": "gislaved.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vaggeryd",
+   "domän": "vaggeryd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 24
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Jönköping",
+   "domän": "jonkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 108,
+   "aktiva": 99,
+   "nat": {
+    "EU/EES": 99
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nässjö",
+   "domän": "nassjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Värnamo",
+   "domän": "varnamo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sävsjö",
+   "domän": "savsjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vetlanda",
+   "domän": "vetlanda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Eksjö",
+   "domän": "eksjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tranås",
+   "domän": "tranas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 12,
+    "US": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Uppvidinge",
+   "domän": "uppvidinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 29,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 24
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lessebo",
+   "domän": "lessebo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 8,
+    "US": 2
+   },
+   "plattform": {
+    "azurefd.net": 2
+   }
+  },
+  {
+   "namn": "Tingsryd",
+   "domän": "tingsryd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Alvesta",
+   "domän": "alvesta.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 38,
+   "aktiva": 25,
+   "nat": {
+    "US": 6,
+    "EU/EES": 19
+   },
+   "plattform": {
+    "azurewebsites.net": 4
+   }
+  },
+  {
+   "namn": "Älmhult",
+   "domän": "almhult.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Markaryd",
+   "domän": "markaryd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Växjö",
+   "domän": "vaxjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 45,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 34,
+    "US": 2
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Ljungby",
+   "domän": "ljungby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 7,
+   "nat": {
+    "US": 1,
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högsby",
+   "domän": "hogsby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Torsås",
+   "domän": "torsas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mörbylånga",
+   "domän": "morbylanga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "US": 1,
+    "EU/EES": 8
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Hultsfred",
+   "domän": "hultsfred.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mönsterås",
+   "domän": "monsteras.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 23,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Emmaboda",
+   "domän": "emmaboda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kalmar",
+   "domän": "kalmar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 19,
+    "US": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Nybro",
+   "domän": "nybro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 27,
+   "aktiva": 26,
+   "nat": {
+    "EU/EES": 25,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Oskarshamn",
+   "domän": "oskarshamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Västervik",
+   "domän": "vastervik.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 44,
+   "aktiva": 34,
+   "nat": {
+    "EU/EES": 28,
+    "US": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vimmerby",
+   "domän": "vimmerby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Borgholm",
+   "domän": "borgholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 9,
+   "nat": {
+    "US": 1,
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gotland",
+   "domän": "gotland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 65,
+   "aktiva": 48,
+   "nat": {
+    "EU/EES": 47,
+    "US": 1
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Olofström",
+   "domän": "olofstrom.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karlskrona",
+   "domän": "karlskrona.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "US": 2,
+    "EU/EES": 9
+   },
+   "plattform": {
+    "azurefd.net": 2
+   }
+  },
+  {
+   "namn": "Ronneby",
+   "domän": "ronneby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 70,
+   "aktiva": 70,
+   "nat": {
+    "EU/EES": 66,
+    "US": 4
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Karlshamn",
+   "domän": "karlshamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 32,
+   "aktiva": 27,
+   "nat": {
+    "EU/EES": 12,
+    "US": 15
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 14,
+    "trafficmanager.net": 1
+   }
+  },
+  {
+   "namn": "Sölvesborg",
+   "domän": "solvesborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Svalöv",
+   "domän": "svalov.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Staffanstorp",
+   "domän": "staffanstorp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 14,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Burlöv",
+   "domän": "burlov.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "US": 1,
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vellinge",
+   "domän": "vellinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 11,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Östra Göinge",
+   "domän": "ostragoinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Örkelljunga",
+   "domän": "orkelljunga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bjuv",
+   "domän": "bjuv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kävlinge",
+   "domän": "kavlinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 15,
+    "US": 5
+   },
+   "plattform": {
+    "amazonaws.com": 2,
+    "cloudfront.net": 1
+   }
+  },
+  {
+   "namn": "Lomma",
+   "domän": "lomma.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 20,
+    "US": 8
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 4,
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Svedala",
+   "domän": "svedala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 71,
+   "aktiva": 47,
+   "nat": {
+    "EU/EES": 45,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skurup",
+   "domän": "skurup.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sjöbo",
+   "domän": "sjobo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hörby",
+   "domän": "horby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Höör",
+   "domän": "hoor.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tomelilla",
+   "domän": "tomelilla.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 4,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bromölla",
+   "domän": "bromolla.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 8,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Osby",
+   "domän": "osby.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Perstorp",
+   "domän": "perstorp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Klippan",
+   "domän": "klippan.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Åstorp",
+   "domän": "astorp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Båstad",
+   "domän": "bastad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Malmö",
+   "domän": "malmo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 272,
+   "aktiva": 148,
+   "nat": {
+    "US": 86,
+    "EU/EES": 62
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 79,
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Lund",
+   "domän": "lund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 25,
+    "US": 3
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Landskrona",
+   "domän": "landskrona.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 110,
+   "aktiva": 92,
+   "nat": {
+    "EU/EES": 85,
+    "US": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Helsingborg",
+   "domän": "helsingborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 70,
+   "aktiva": 68,
+   "nat": {
+    "EU/EES": 50,
+    "US": 18
+   },
+   "plattform": {
+    "trafficmanager.net": 1,
+    "github.io": 2,
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Höganäs",
+   "domän": "hoganas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Eslöv",
+   "domän": "eslov.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 18,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ystad",
+   "domän": "ystad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 32,
+   "aktiva": 22,
+   "nat": {
+    "EU/EES": 22
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Trelleborg",
+   "domän": "trelleborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kristianstad",
+   "domän": "kristianstad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 51,
+   "aktiva": 21,
+   "nat": {
+    "EU/EES": 19,
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Simrishamn",
+   "domän": "simrishamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 11,
+   "nat": {
+    "US": 7,
+    "EU/EES": 4
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Ängelholm",
+   "domän": "engelholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 5,
+    "US": 4
+   },
+   "plattform": {
+    "azurewebsites.net": 1,
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Hässleholm",
+   "domän": "hassleholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hylte",
+   "domän": "hylte.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 8,
+   "nat": {
+    "US": 4,
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Halmstad",
+   "domän": "halmstad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 45,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 29,
+    "US": 7
+   },
+   "plattform": {
+    "azurewebsites.net": 3
+   }
+  },
+  {
+   "namn": "Laholm",
+   "domän": "laholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 7,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Falkenberg",
+   "domän": "falkenberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 12,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Varberg",
+   "domän": "varberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 12,
+    "US": 5
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Kungsbacka",
+   "domän": "kungsbacka.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 39,
+   "aktiva": 36,
+   "nat": {
+    "US": 4,
+    "EU/EES": 32
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Härryda",
+   "domän": "harryda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 77,
+   "aktiva": 41,
+   "nat": {
+    "US": 7,
+    "EU/EES": 34
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Partille",
+   "domän": "partille.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 22,
+   "nat": {
+    "EU/EES": 18,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Öckerö",
+   "domän": "ockero.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Stenungsund",
+   "domän": "stenungsund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 15,
+    "US": 1
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Tjörn",
+   "domän": "tjorn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 16
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Orust",
+   "domän": "orust.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 12,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sotenäs",
+   "domän": "sotenas.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Munkedal",
+   "domän": "munkedal.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tanum",
+   "domän": "tanum.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 31,
+   "nat": {
+    "EU/EES": 30,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Dals-Ed",
+   "domän": "dalsed.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Färgelanda",
+   "domän": "fargelanda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ale",
+   "domän": "ale.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {
+    "trafficmanager.net": 1
+   }
+  },
+  {
+   "namn": "Lerum",
+   "domän": "lerum.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 11,
+   "nat": {
+    "US": 2,
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vårgårda",
+   "domän": "vargarda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bollebygd",
+   "domän": "bollebygd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Grästorp",
+   "domän": "grastorp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Essunga",
+   "domän": "essunga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 9,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karlsborg",
+   "domän": "karlsborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 6,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gullspång",
+   "domän": "gullspang.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tranemo",
+   "domän": "tranemo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bengtsfors",
+   "domän": "bengtsfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 11,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mellerud",
+   "domän": "mellerud.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 37,
+   "aktiva": 29,
+   "nat": {
+    "EU/EES": 29
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lilla Edet",
+   "domän": "lillaedet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mark",
+   "domän": "mark.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Svenljunga",
+   "domän": "svenljunga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 4,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Herrljunga",
+   "domän": "herrljunga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vara",
+   "domän": "vara.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 12
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Götene",
+   "domän": "gotene.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tibro",
+   "domän": "tibro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Töreboda",
+   "domän": "toreboda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Göteborg",
+   "domän": "goteborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 235,
+   "aktiva": 168,
+   "nat": {
+    "EU/EES": 150,
+    "US": 18
+   },
+   "plattform": {
+    "azurewebsites.net": 8,
+    "azurefd.net": 2,
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Mölndal",
+   "domän": "molndal.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 20
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungälv",
+   "domän": "kungalv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 16,
+    "US": 4
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Lysekil",
+   "domän": "lysekil.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Uddevalla",
+   "domän": "uddevalla.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 10,
+    "US": 2
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Strömstad",
+   "domän": "stromstad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 19,
+   "nat": {
+    "US": 4,
+    "EU/EES": 15
+   },
+   "plattform": {
+    "azurefd.net": 3
+   }
+  },
+  {
+   "namn": "Vänersborg",
+   "domän": "vanersborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Trollhättan",
+   "domän": "trollhattan.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 44,
+   "aktiva": 32,
+   "nat": {
+    "EU/EES": 31,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Alingsås",
+   "domän": "alingsas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 75,
+   "aktiva": 55,
+   "nat": {
+    "EU/EES": 55
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Borås",
+   "domän": "boras.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 14,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ulricehamn",
+   "domän": "ulricehamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "US": 1,
+    "EU/EES": 5
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Åmål",
+   "domän": "amal.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mariestad",
+   "domän": "mariestad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lidköping",
+   "domän": "lidkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skara",
+   "domän": "skara.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skövde",
+   "domän": "skovde.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 44,
+   "aktiva": 39,
+   "nat": {
+    "US": 18,
+    "EU/EES": 21
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hjo",
+   "domän": "hjo.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tidaholm",
+   "domän": "tidaholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Falköping",
+   "domän": "falkoping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kil",
+   "domän": "kil.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Eda",
+   "domän": "eda.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 12
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Torsby",
+   "domän": "torsby.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Storfors",
+   "domän": "storfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "US": 1,
+    "EU/EES": 5
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Hammarö",
+   "domän": "hammaro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Munkfors",
+   "domän": "munkfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Forshaga",
+   "domän": "forshaga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Grums",
+   "domän": "grums.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Årjäng",
+   "domän": "arjang.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sunne",
+   "domän": "sunne.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 8,
+    "US": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karlstad",
+   "domän": "karlstad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 171,
+   "aktiva": 48,
+   "nat": {
+    "EU/EES": 42,
+    "US": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kristinehamn",
+   "domän": "kristinehamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 12,
+   "nat": {
+    "US": 6,
+    "EU/EES": 6
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 2
+   }
+  },
+  {
+   "namn": "Filipstad",
+   "domän": "filipstad.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hagfors",
+   "domän": "hagfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arvika",
+   "domän": "arvika.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Säffle",
+   "domän": "saffle.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 11,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lekeberg",
+   "domän": "lekeberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Laxå",
+   "domän": "laxa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hallsberg",
+   "domän": "hallsberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Degerfors",
+   "domän": "degerfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 6,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hällefors",
+   "domän": "hellefors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 4,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ljusnarsberg",
+   "domän": "ljusnarsberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Örebro",
+   "domän": "orebro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 21,
+   "nat": {
+    "EU/EES": 16,
+    "US": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kumla",
+   "domän": "kumla.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Askersund",
+   "domän": "askersund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 13
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karlskoga",
+   "domän": "karlskoga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 8,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nora",
+   "domän": "nora.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lindesberg",
+   "domän": "lindesberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skinnskatteberg",
+   "domän": "skinnskatteberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Surahammar",
+   "domän": "surahammar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 12,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungsör",
+   "domän": "kungsor.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 10,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hallstahammar",
+   "domän": "hallstahammar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Norberg",
+   "domän": "norberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Västerås",
+   "domän": "vasteras.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 74,
+   "aktiva": 62,
+   "nat": {
+    "EU/EES": 49,
+    "US": 13
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Sala",
+   "domän": "sala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Fagersta",
+   "domän": "fagersta.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 13
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Köping",
+   "domän": "koping.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 17,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arboga",
+   "domän": "arboga.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 16,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vansbro",
+   "domän": "vansbro.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Malung-Sälen",
+   "domän": "malung-salen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gagnef",
+   "domän": "gagnef.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 10,
+   "nat": {
+    "US": 4,
+    "EU/EES": 6
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Leksand",
+   "domän": "leksand.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Rättvik",
+   "domän": "rattvik.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {
+    "amazonaws.com": 1
+   }
+  },
+  {
+   "namn": "Orsa",
+   "domän": "orsa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Älvdalen",
+   "domän": "alvdalen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 8,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Smedjebacken",
+   "domän": "smedjebacken.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 14,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mora",
+   "domän": "morakommun.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Falun",
+   "domän": "falun.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 61,
+   "aktiva": 31,
+   "nat": {
+    "EU/EES": 31
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Borlänge",
+   "domän": "borlange.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 22,
+   "nat": {
+    "EU/EES": 22
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Säter",
+   "domän": "sater.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "US": 3,
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hedemora",
+   "domän": "hedemora.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Avesta",
+   "domän": "avesta.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ludvika",
+   "domän": "ludvika.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 9,
+    "US": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Ockelbo",
+   "domän": "ockelbo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hofors",
+   "domän": "hofors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 26,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 12,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ovanåker",
+   "domän": "ovanaker.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nordanstig",
+   "domän": "nordanstig.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ljusdal",
+   "domän": "ljusdal.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 50,
+   "aktiva": 37,
+   "nat": {
+    "EU/EES": 37
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gävle",
+   "domän": "gavle.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sandviken",
+   "domän": "sandviken.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 6,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Söderhamn",
+   "domän": "soderhamn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 17
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bollnäs",
+   "domän": "bollnas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 56,
+   "aktiva": 44,
+   "nat": {
+    "EU/EES": 42,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Hudiksvall",
+   "domän": "hudiksvall.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ånge",
+   "domän": "ange.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 73,
+   "aktiva": 30,
+   "nat": {
+    "EU/EES": 29,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Timrå",
+   "domän": "timra.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 16,
+    "US": 1
+   },
+   "plattform": {
+    "vercel-dns.com": 1
+   }
+  },
+  {
+   "namn": "Härnösand",
+   "domän": "harnosand.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 19,
+   "nat": {
+    "EU/EES": 18,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sundsvall",
+   "domän": "sundsvall.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 254,
+   "aktiva": 109,
+   "nat": {
+    "EU/EES": 108,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kramfors",
+   "domän": "kramfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 32,
+   "aktiva": 32,
+   "nat": {
+    "EU/EES": 32
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sollefteå",
+   "domän": "solleftea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Örnsköldsvik",
+   "domän": "ornskoldsvik.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ragunda",
+   "domän": "ragunda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bräcke",
+   "domän": "bracke.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Krokom",
+   "domän": "krokom.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Strömsund",
+   "domän": "stromsund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Åre",
+   "domän": "are.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Berg",
+   "domän": "berg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Härjedalen",
+   "domän": "herjedalen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Östersund",
+   "domän": "ostersund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 17,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nordmaling",
+   "domän": "nordmaling.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 25,
+   "nat": {
+    "EU/EES": 24,
+    "US": 1
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Bjurholm",
+   "domän": "bjurholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vindeln",
+   "domän": "vindeln.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Robertsfors",
+   "domän": "robertsfors.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 10,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Norsjö",
+   "domän": "norsjo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Malå",
+   "domän": "mala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 25,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Storuman",
+   "domän": "storuman.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sorsele",
+   "domän": "sorsele.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Dorotea",
+   "domän": "dorotea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 11,
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Vännäs",
+   "domän": "vannas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Vilhelmina",
+   "domän": "vilhelmina.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "US": 3,
+    "EU/EES": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Åsele",
+   "domän": "asele.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 3,
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Umeå",
+   "domän": "umea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 75,
+   "aktiva": 62,
+   "nat": {
+    "US": 31,
+    "EU/EES": 31
+   },
+   "plattform": {
+    "azurewebsites.net": 6,
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Lycksele",
+   "domän": "lycksele.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skellefteå",
+   "domän": "skelleftea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 47,
+   "aktiva": 37,
+   "nat": {
+    "EU/EES": 34,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arvidsjaur",
+   "domän": "arvidsjaur.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arjeplog",
+   "domän": "arjeplog.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 8,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Jokkmokk",
+   "domän": "jokkmokk.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Överkalix",
+   "domän": "overkalix.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kalix",
+   "domän": "kalix.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 5,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Övertorneå",
+   "domän": "overtornea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Pajala",
+   "domän": "pajala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gällivare",
+   "domän": "gellivare.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 0,
+   "aktiva": 0,
+   "nat": {},
+   "plattform": {}
+  },
+  {
+   "namn": "Älvsbyn",
+   "domän": "alvsbyn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Luleå",
+   "domän": "lulea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "US": 3,
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Piteå",
+   "domän": "pitea.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 14,
+   "nat": {
+    "US": 6,
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Boden",
+   "domän": "boden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Haparanda",
+   "domän": "haparanda.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 33,
+   "aktiva": 32,
+   "nat": {
+    "EU/EES": 32
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kiruna",
+   "domän": "kiruna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 25,
+   "nat": {
+    "EU/EES": 22,
+    "US": 3
+   },
+   "plattform": {
+    "cloudflare.net": 2
+   }
+  },
+  {
+   "namn": "Region Stockholm",
+   "domän": "regionstockholm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 385,
+   "aktiva": 297,
+   "nat": {
+    "EU/EES": 157,
+    "US": 140
+   },
+   "plattform": {
+    "azurewebsites.net": 1,
+    "github.io": 2
+   }
+  },
+  {
+   "namn": "Region Uppsala",
+   "domän": "regionuppsala.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "US": 3,
+    "EU/EES": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Region Sörmland",
+   "domän": "regionsormland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 26,
+   "nat": {
+    "US": 1,
+    "EU/EES": 25
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Östergötland",
+   "domän": "regionostergotland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 26,
+   "nat": {
+    "EU/EES": 25,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Jönköpings län",
+   "domän": "rjl.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 163,
+   "aktiva": 125,
+   "nat": {
+    "EU/EES": 122,
+    "US": 3
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Region Kronoberg",
+   "domän": "regionkronoberg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 9,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Kalmar län",
+   "domän": "regionkalmar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 40,
+   "aktiva": 31,
+   "nat": {
+    "EU/EES": 26,
+    "US": 5
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "cloudapp.azure.com": 2
+   }
+  },
+  {
+   "namn": "Region Blekinge",
+   "domän": "regionblekinge.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 64,
+   "aktiva": 48,
+   "nat": {
+    "EU/EES": 46,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Skåne",
+   "domän": "skane.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 361,
+   "aktiva": 156,
+   "nat": {
+    "EU/EES": 89,
+    "US": 63,
+    "okänt": 4
+   },
+   "plattform": {
+    "cloudapp.azure.com": 4,
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Region Halland",
+   "domän": "regionhalland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 71,
+   "aktiva": 64,
+   "nat": {
+    "EU/EES": 58,
+    "US": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Västra Götalandsregionen",
+   "domän": "vgregion.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 157,
+   "aktiva": 85,
+   "nat": {
+    "EU/EES": 77,
+    "US": 8
+   },
+   "plattform": {
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Region Värmland",
+   "domän": "regionvarmland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 38,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 27,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Örebro län",
+   "domän": "regionorebrolan.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 180,
+   "aktiva": 180,
+   "nat": {
+    "US": 44,
+    "EU/EES": 136
+   },
+   "plattform": {
+    "cloudflare.net": 1
+   }
+  },
+  {
+   "namn": "Region Västmanland",
+   "domän": "regionvastmanland.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 35,
+   "aktiva": 30,
+   "nat": {
+    "EU/EES": 8,
+    "US": 22
+   },
+   "plattform": {
+    "azurewebsites.net": 17
+   }
+  },
+  {
+   "namn": "Region Dalarna",
+   "domän": "regiondalarna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 9,
+    "US": 1
+   },
+   "plattform": {
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Region Gävleborg",
+   "domän": "regiongavleborg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 11,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Västernorrland",
+   "domän": "rvn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 19,
+   "nat": {
+    "EU/EES": 18,
+    "US": 1
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Region Jämtland Härjedalen",
+   "domän": "regionjh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Region Västerbotten",
+   "domän": "regionvasterbotten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 3,
+    "US": 1
+   },
+   "plattform": {
+    "cloudapp.azure.com": 1
+   }
+  },
+  {
+   "namn": "Region Norrbotten",
+   "domän": "norrbotten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 26,
+   "aktiva": 17,
+   "nat": {
+    "US": 7,
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kammarkollegiet",
+   "domän": "kammarkollegiet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 20
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Allmänna reklamationsnämnden",
+   "domän": "arn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens jordbruksverk",
+   "domän": "jordbruksverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 362,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 36
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arbetsförmedlingen",
+   "domän": "arbetsformedlingen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 7,
+   "nat": {
+    "US": 4,
+    "EU/EES": 3
+   },
+   "plattform": {
+    "cloudapp.azure.com": 1,
+    "cloudfront.net": 1
+   }
+  },
+  {
+   "namn": "Arbetsgivarverket",
+   "domän": "arbetsgivarverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 4,
+    "US": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arbetsmiljöverket",
+   "domän": "av.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 21,
+   "nat": {
+    "EU/EES": 21
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Arvfondsdelegationen",
+   "domän": "arvsfonden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Barnombudsmannen",
+   "domän": "barnombudsmannen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 22,
+   "nat": {
+    "EU/EES": 20,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Blekinge tekniska högskola",
+   "domän": "bth.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 159,
+   "aktiva": 85,
+   "nat": {
+    "EU/EES": 68,
+    "US": 16,
+    "annat": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 12
+   }
+  },
+  {
+   "namn": "Bokföringsnämnden",
+   "domän": "bfn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Bolagsverket",
+   "domän": "bolagsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 17,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Boverket",
+   "domän": "boverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 12
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Brottsförebyggande rådet",
+   "domän": "bra.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 29,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Brottsoffermyndigheten",
+   "domän": "brottsoffermyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 13,
+   "nat": {
+    "US": 7,
+    "EU/EES": 6
+   },
+   "plattform": {
+    "azurewebsites.net": 6
+   }
+  },
+  {
+   "namn": "Centrala studiestödsnämnden",
+   "domän": "csn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 52,
+   "aktiva": 29,
+   "nat": {
+    "EU/EES": 29
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Diskrimineringsombudsmannen",
+   "domän": "do.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "dom.se (delas av 7 myndigheter)",
+   "domän": "dom.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 21,
+    "US": 3
+   },
+   "plattform": {
+    "cloudapp.azure.com": 2
+   }
+  },
+  {
+   "namn": "E-hälsomyndigheten",
+   "domän": "ehalsomyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 70,
+   "aktiva": 63,
+   "nat": {
+    "EU/EES": 58,
+    "US": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Ekobrottsmyndigheten",
+   "domän": "ekobrottsmyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 6,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Elsäkerhetsverket",
+   "domän": "elsakerhetsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Energimarknadsinspektionen",
+   "domän": "ei.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 26,
+   "aktiva": 16,
+   "nat": {
+    "US": 8,
+    "EU/EES": 8
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Etikprövningsmyndigheten",
+   "domän": "etikprovning.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Exportkreditnämnden",
+   "domän": "ekn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 47,
+   "aktiva": 14,
+   "nat": {
+    "EU/EES": 9,
+    "US": 5
+   },
+   "plattform": {
+    "cloudfront.net": 1
+   }
+  },
+  {
+   "namn": "Fastighetsmäklarinspektionen",
+   "domän": "fmi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Finansinspektionen",
+   "domän": "fi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 41,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 34,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Finanspolitiska rådet",
+   "domän": "fpr.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Folke bernadotteakademin",
+   "domän": "fba.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 8,
+   "nat": {
+    "US": 5,
+    "EU/EES": 3
+   },
+   "plattform": {
+    "azurewebsites.net": 2
+   }
+  },
+  {
+   "namn": "Folkhälsomyndigheten",
+   "domän": "folkhalsomyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 14,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Fondtorgsnämnden",
+   "domän": "ftn.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Forskarskattenämnden",
+   "domän": "forskarskattenamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Forskningsrådet f miljö, areella näringar och samhällsbyggande",
+   "domän": "formas.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 14,
+   "nat": {
+    "US": 7,
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Forskningsrådet för hälsa, arbetsliv och välfärd",
+   "domän": "forte.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 23,
+   "aktiva": 12,
+   "nat": {
+    "US": 8,
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Fortifikationsverket",
+   "domän": "fortifikationsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 46,
+   "aktiva": 23,
+   "nat": {
+    "EU/EES": 23
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Forum för levande historia",
+   "domän": "levandehistoria.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Försvarets materielverk",
+   "domän": "fmv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 55,
+   "aktiva": 48,
+   "nat": {
+    "EU/EES": 41,
+    "US": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Försvarets radioanstalt",
+   "domän": "fra.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Försvarshögskolan",
+   "domän": "fhs.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 84,
+   "aktiva": 42,
+   "nat": {
+    "EU/EES": 37,
+    "US": 5
+   },
+   "plattform": {
+    "netlify.app": 1
+   }
+  },
+  {
+   "namn": "Försvarsmakten",
+   "domän": "mil.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 100,
+   "aktiva": 76,
+   "nat": {
+    "EU/EES": 75,
+    "US": 1
+   },
+   "plattform": {
+    "cloudflare.net": 1
+   }
+  },
+  {
+   "namn": "Försäkringskassan",
+   "domän": "forsakringskassan.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 32,
+   "aktiva": 29,
+   "nat": {
+    "EU/EES": 28,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gentekniknämnden",
+   "domän": "genteknik.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Gymnastik- och idrottshögskolan (GIH)",
+   "domän": "gih.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Göteborgs universitet",
+   "domän": "gu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1202,
+   "aktiva": 744,
+   "nat": {
+    "EU/EES": 729,
+    "US": 15
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "azurefd.net": 2
+   }
+  },
+  {
+   "namn": "Harpsundsnämnden",
+   "domän": "harpsund.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Havs- och vattenmyndigheten",
+   "domän": "havochvatten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 33,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Socialstyrelsen",
+   "domän": "socialstyrelsen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 40,
+   "aktiva": 23,
+   "nat": {
+    "EU/EES": 12,
+    "US": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan dalarna",
+   "domän": "du.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 183,
+   "aktiva": 159,
+   "nat": {
+    "EU/EES": 154,
+    "US": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan i borås",
+   "domän": "hb.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 273,
+   "aktiva": 252,
+   "nat": {
+    "EU/EES": 251,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan i gävle",
+   "domän": "hig.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 78,
+   "aktiva": 73,
+   "nat": {
+    "EU/EES": 71,
+    "annat": 1,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan i halmstad",
+   "domän": "hh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 185,
+   "aktiva": 162,
+   "nat": {
+    "EU/EES": 152,
+    "US": 9,
+    "annat": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan i skövde",
+   "domän": "his.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 114,
+   "aktiva": 73,
+   "nat": {
+    "EU/EES": 73
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolan kristianstad",
+   "domän": "hkr.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 161,
+   "aktiva": 75,
+   "nat": {
+    "EU/EES": 72,
+    "US": 3
+   },
+   "plattform": {
+    "cloudapp.azure.com": 1
+   }
+  },
+  {
+   "namn": "Högskolan väst",
+   "domän": "hv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 67,
+   "aktiva": 46,
+   "nat": {
+    "EU/EES": 46
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Högskolans avskiljandenämnd",
+   "domän": "han.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "regeringskansliet.se (delas av 3 myndigheter)",
+   "domän": "regeringskansliet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 28,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 15,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Inspektionen för arbetslöshetsförsäkring",
+   "domän": "iaf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 14,
+   "nat": {
+    "US": 13,
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Inspektionen för socialförsäkringen",
+   "domän": "isf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Inspektionen för strategiska produkter",
+   "domän": "isp.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Inspektionen för vård och omsorg",
+   "domän": "ivo.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Institutet för arbetsmarknads-och utbildningspolitisk utvärdering",
+   "domän": "ifau.uu.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 0,
+   "aktiva": 0,
+   "nat": {},
+   "plattform": {}
+  },
+  {
+   "namn": "Institutet för mänskliga rättigheter",
+   "domän": "mrinstitutet.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Institutet för rymdfysik",
+   "domän": "irf.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 37,
+   "aktiva": 34,
+   "nat": {
+    "EU/EES": 34
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Institutet för språk och folkminnen",
+   "domän": "isof.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 95,
+   "aktiva": 91,
+   "nat": {
+    "EU/EES": 91
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Integritetsskyddsmyndigheten",
+   "domän": "imy.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 13
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Justitiekanslern",
+   "domän": "jk.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Jämställdhetsmyndigheten",
+   "domän": "jamstalldhetsmyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 7,
+   "nat": {
+    "US": 4,
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karlstads universitet",
+   "domän": "kau.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 312,
+   "aktiva": 287,
+   "nat": {
+    "EU/EES": 282,
+    "US": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Karolinska institutet",
+   "domän": "ki.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 598,
+   "aktiva": 320,
+   "nat": {
+    "EU/EES": 306,
+    "US": 12,
+    "annat": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Kemikalieinspektionen",
+   "domän": "kemi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 9,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Klimatpolitiska rådet",
+   "domän": "klimatpolitiskaradet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kommerskollegium",
+   "domän": "kommerskollegium.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Konjunkturinstitutet",
+   "domän": "konj.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Konkurrensverket",
+   "domän": "kkv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Konstfack",
+   "domän": "konstfack.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 17
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Konstnärsnämnden",
+   "domän": "konstnarsnamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Konsumentverket",
+   "domän": "konsumentverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 27,
+   "aktiva": 26,
+   "nat": {
+    "US": 25,
+    "EU/EES": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 16,
+    "azurefd.net": 4
+   }
+  },
+  {
+   "namn": "Kriminalvården",
+   "domän": "kriminalvarden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 57,
+   "aktiva": 34,
+   "nat": {
+    "EU/EES": 28,
+    "US": 1,
+    "okänt": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kronofogdemyndigheten",
+   "domän": "kronofogden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 24,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 17
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungliga biblioteket",
+   "domän": "kb.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 392,
+   "aktiva": 138,
+   "nat": {
+    "EU/EES": 135,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungliga konsthögskolan",
+   "domän": "kkh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 27,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungliga musikhögskolan",
+   "domän": "kmh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 72,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 23,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Kungliga tekniska högskolan",
+   "domän": "kth.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1315,
+   "aktiva": 1125,
+   "nat": {
+    "US": 67,
+    "EU/EES": 1057,
+    "annat": 1
+   },
+   "plattform": {
+    "trafficmanager.net": 9,
+    "azurefd.net": 8,
+    "github.io": 5,
+    "ghs.googlehosted.com": 3,
+    "cloudapp.azure.com": 8
+   }
+  },
+  {
+   "namn": "Kustbevakningen",
+   "domän": "kustbevakningen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Lantmäteriet",
+   "domän": "lm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Linköpings universitet",
+   "domän": "liu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1510,
+   "aktiva": 1239,
+   "nat": {
+    "EU/EES": 1087,
+    "US": 151,
+    "okänt": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 131,
+    "cloudapp.azure.com": 2,
+    "trafficmanager.net": 2,
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Linnéuniversitetet",
+   "domän": "lnu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 213,
+   "aktiva": 98,
+   "nat": {
+    "EU/EES": 87,
+    "US": 11
+   },
+   "plattform": {
+    "cloudapp.azure.com": 1,
+    "trafficmanager.net": 1
+   }
+  },
+  {
+   "namn": "Livsmedelsverket",
+   "domän": "slv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 9
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Luleå tekniska universitet",
+   "domän": "ltu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 346,
+   "aktiva": 291,
+   "nat": {
+    "EU/EES": 282,
+    "US": 9
+   },
+   "plattform": {
+    "azurewebsites.net": 2,
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Lunds universitet",
+   "domän": "lu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2177,
+   "aktiva": 1141,
+   "nat": {
+    "EU/EES": 1104,
+    "US": 36,
+    "annat": 1
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 6,
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Läkemedelsverket",
+   "domän": "lakemedelsverket.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 9,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "lansstyrelsen.se (delas av 21 myndigheter)",
+   "domän": "lansstyrelsen.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 100,
+   "aktiva": 65,
+   "nat": {
+    "EU/EES": 65
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Malmö universitet",
+   "domän": "mau.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 153,
+   "aktiva": 108,
+   "nat": {
+    "EU/EES": 74,
+    "US": 34
+   },
+   "plattform": {
+    "azurewebsites.net": 7,
+    "azurefd.net": 20,
+    "trafficmanager.net": 1,
+    "netlify.app": 1
+   }
+  },
+  {
+   "namn": "Mediemyndigheten",
+   "domän": "mediemyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Medlingsinstitutet",
+   "domän": "mi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Migrationsverket",
+   "domän": "migrationsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 177,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 16,
+    "US": 1
+   },
+   "plattform": {
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Mittuniversitetet",
+   "domän": "miun.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 244,
+   "aktiva": 104,
+   "nat": {
+    "EU/EES": 84,
+    "US": 20
+   },
+   "plattform": {
+    "ghs.googlehosted.com": 1
+   }
+  },
+  {
+   "namn": "Moderna museet",
+   "domän": "modernamuseet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 3,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för civilt försvar",
+   "domän": "mcf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 25,
+   "nat": {
+    "US": 4,
+    "EU/EES": 21
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för delaktighet",
+   "domän": "mfd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 19,
+   "nat": {
+    "EU/EES": 15,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för digital förvaltning",
+   "domän": "digg.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 55,
+   "aktiva": 44,
+   "nat": {
+    "EU/EES": 44
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för familjerätt och föräldraskapsstöd",
+   "domän": "mfof.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 16
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för kulturanalys",
+   "domän": "kulturanalys.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för psykologiskt försvar",
+   "domän": "mpf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 14,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 11,
+    "US": 2
+   },
+   "plattform": {
+    "cloudflare.net": 1,
+    "cloudfront.net": 1
+   }
+  },
+  {
+   "namn": "Myndigheten för säkerhet och integritetsskydd",
+   "domän": "sakint.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för tillgängliga medier",
+   "domän": "mtm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 14,
+   "nat": {
+    "US": 14
+   },
+   "plattform": {
+    "azurefd.net": 6,
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+   "domän": "tillvaxtanalys.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för totalförsvarsanalys",
+   "domän": "mtfa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för ungdoms-och civilsamhällesfrågor",
+   "domän": "mucf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 23,
+   "nat": {
+    "EU/EES": 9,
+    "US": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för vård- och omsorgsanalys",
+   "domän": "vardanalys.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 15,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 15
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Myndigheten för yrkeshögskolan",
+   "domän": "myh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Mälardalens universitet",
+   "domän": "mdu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 182,
+   "aktiva": 114,
+   "nat": {
+    "EU/EES": 109,
+    "US": 5
+   },
+   "plattform": {
+    "cloudapp.azure.com": 1
+   }
+  },
+  {
+   "namn": "Nationalmuseum",
+   "domän": "nationalmuseum.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 33,
+   "aktiva": 32,
+   "nat": {
+    "EU/EES": 7,
+    "US": 25
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Naturhistoriska riksmuseet",
+   "domän": "nrm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 67,
+   "aktiva": 35,
+   "nat": {
+    "EU/EES": 32,
+    "US": 3
+   },
+   "plattform": {
+    "github.io": 1
+   }
+  },
+  {
+   "namn": "Naturvårdsverket",
+   "domän": "naturvardsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 134,
+   "aktiva": 106,
+   "nat": {
+    "EU/EES": 75,
+    "US": 31
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nordiska afrikainstitutet",
+   "domän": "nai.uu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "US": 1,
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nämnden för hemslöjdsfrågor",
+   "domän": "nfh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nämnden för prövning av oredlighet i forskning",
+   "domän": "npof.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Nämnden mot Diskriminering",
+   "domän": "namndenmotdiskriminering.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Oljekrisnämnden",
+   "domän": "oljekrisnamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 0,
+   "aktiva": 0,
+   "nat": {},
+   "plattform": {}
+  },
+  {
+   "namn": "Patent- och registreringsverket",
+   "domän": "prv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "US": 2,
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Patentombudsnämnden",
+   "domän": "patentombudsnamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Pensionsmyndigheten",
+   "domän": "pensionsmyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 40,
+   "aktiva": 32,
+   "nat": {
+    "EU/EES": 32
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Polarforskningssekretariatet",
+   "domän": "polar.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 19,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Polismyndigheten",
+   "domän": "polisen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 87,
+   "aktiva": 58,
+   "nat": {
+    "EU/EES": 56,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Post- och telestyrelsen",
+   "domän": "pts.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 8,
+    "US": 1,
+    "annat": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Revisorsinspektionen",
+   "domän": "revisorsinspektionen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 1,
+    "US": 2
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Riksantikvarieämbetet",
+   "domän": "raa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 19,
+   "nat": {
+    "EU/EES": 18,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Riksarkivet",
+   "domän": "riksarkivet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 81,
+   "aktiva": 42,
+   "nat": {
+    "EU/EES": 42
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Riksgäldskontoret",
+   "domän": "riksgalden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 30,
+   "aktiva": 27,
+   "nat": {
+    "EU/EES": 27
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Rymdstyrelsen",
+   "domän": "snsa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Rättsmedicinalverket",
+   "domän": "rmv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 20
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sameskolstyrelsen",
+   "domän": "sameskolstyrelsen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 8
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sametinget",
+   "domän": "sametinget.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 19,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sida",
+   "domän": "sida.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 107,
+   "aktiva": 46,
+   "nat": {
+    "EU/EES": 31,
+    "US": 15
+   },
+   "plattform": {
+    "amazonaws.com": 8,
+    "cloudfront.net": 3
+   }
+  },
+  {
+   "namn": "Skatterättsnämnden",
+   "domän": "skatterattsnamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skatteverket",
+   "domän": "skatteverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 110,
+   "aktiva": 93,
+   "nat": {
+    "EU/EES": 93
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skogsstyrelsen",
+   "domän": "skogsstyrelsen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skolforskningsinstitutet",
+   "domän": "skolfi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Skolväsendets överklagandenämnd",
+   "domän": "overklagandenamnden.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Specialpedagogiska skolmyndigheten",
+   "domän": "spsm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 17,
+   "nat": {
+    "EU/EES": 13,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Spelinspektionen",
+   "domän": "spelinspektionen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens beredning för medicinsk och social utvärdering",
+   "domän": "sbu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 7,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 5,
+    "annat": 1,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens energimyndighet",
+   "domän": "energimyndigheten.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 50,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 27,
+    "US": 9
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Statens fastighetsverk",
+   "domän": "sfv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 5,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens geotekniska institut",
+   "domän": "sgi.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "US": 1,
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens haverikommission",
+   "domän": "shk.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 5,
+   "aktiva": 5,
+   "nat": {
+    "EU/EES": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens historiska museer",
+   "domän": "shm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 20,
+   "aktiva": 20,
+   "nat": {
+    "EU/EES": 19,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens inspektion för försvarsunderrättelseverksamheten (SIUN)",
+   "domän": "siun.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens institutionsstyrelse",
+   "domän": "stat-inst.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens kulturråd",
+   "domän": "kulturradet.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 9,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 6,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens museer för maritim, transport- och försvarshistoria",
+   "domän": "smtm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 8,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens museer för världskultur",
+   "domän": "varldskulturmuseerna.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 3,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens musikverk",
+   "domän": "musikverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 17,
+   "aktiva": 15,
+   "nat": {
+    "EU/EES": 14,
+    "US": 1
+   },
+   "plattform": {
+    "cloudfront.net": 1
+   }
+  },
+  {
+   "namn": "Statens servicecenter",
+   "domän": "statenssc.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 56,
+   "aktiva": 36,
+   "nat": {
+    "EU/EES": 36
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens skolinspektion",
+   "domän": "skolinspektionen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 6,
+   "aktiva": 4,
+   "nat": {
+    "EU/EES": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens skolverk",
+   "domän": "skolverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 23,
+   "aktiva": 22,
+   "nat": {
+    "EU/EES": 16,
+    "US": 6
+   },
+   "plattform": {
+    "cloudapp.azure.com": 2
+   }
+  },
+  {
+   "namn": "Statens tjänstepensions- och grupplivnämnd",
+   "domän": "spv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 39,
+   "aktiva": 24,
+   "nat": {
+    "EU/EES": 23,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statens veterinärmedicinska anstalt",
+   "domän": "sva.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 53,
+   "aktiva": 46,
+   "nat": {
+    "US": 17,
+    "EU/EES": 29
+   },
+   "plattform": {
+    "azurewebsites.net": 5
+   }
+  },
+  {
+   "namn": "Statens väg- och transportforskningsinstitut",
+   "domän": "vti.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 13,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 11,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statistiska centralbyrån",
+   "domän": "scb.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 11,
+   "nat": {
+    "EU/EES": 11
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Statskontoret",
+   "domän": "statskontoret.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 9,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Stockholms konstnärliga högskola",
+   "domän": "uniarts.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 5,
+    "US": 4
+   },
+   "plattform": {
+    "azurewebsites.net": 3
+   }
+  },
+  {
+   "namn": "Stockholms universitet",
+   "domän": "su.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2389,
+   "aktiva": 1917,
+   "nat": {
+    "EU/EES": 1896,
+    "US": 19,
+    "annat": 1,
+    "okänt": 1
+   },
+   "plattform": {
+    "vercel-dns.com": 1
+   }
+  },
+  {
+   "namn": "Strålsäkerhetsmyndigheten",
+   "domän": "ssm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 16,
+   "aktiva": 13,
+   "nat": {
+    "EU/EES": 12,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Styrelsen för ackreditering och teknisk kontroll",
+   "domän": "swedac.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 25,
+   "aktiva": 21,
+   "nat": {
+    "EU/EES": 15,
+    "US": 6
+   },
+   "plattform": {
+    "netlify.app": 2
+   }
+  },
+  {
+   "namn": "Svenska esf-rådet",
+   "domän": "esf.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1,
+   "aktiva": 1,
+   "nat": {
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Svenska institutet",
+   "domän": "si.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 31,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 18,
+    "US": 9,
+    "annat": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Svenska institutet för europapolitiska studier",
+   "domän": "sieps.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sveriges författarfond",
+   "domän": "svff.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "US": 1,
+    "EU/EES": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sveriges geologiska undersökning",
+   "domän": "sgu.se",
+   "kalla": "certspotter",
+   "status": "ok",
+   "namn_i_loggar": 8,
+   "aktiva": 8,
+   "nat": {
+    "EU/EES": 7,
+    "US": 1
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Sveriges lantbruksuniversitet",
+   "domän": "slu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 520,
+   "aktiva": 267,
+   "nat": {
+    "EU/EES": 258,
+    "US": 9
+   },
+   "plattform": {
+    "cloudapp.azure.com": 2
+   }
+  },
+  {
+   "namn": "Sveriges meteorologiska och hydrologiska institut",
+   "domän": "smhi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 80,
+   "aktiva": 42,
+   "nat": {
+    "EU/EES": 42
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Säkerhetspolisen",
+   "domän": "sakerhetspolisen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 7,
+   "nat": {
+    "EU/EES": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Södertörns högskola",
+   "domän": "sh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 120,
+   "aktiva": 81,
+   "nat": {
+    "EU/EES": 74,
+    "US": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tandvårds-och läkemedelsförmånsverket, TLV",
+   "domän": "tlv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 12,
+   "aktiva": 10,
+   "nat": {
+    "EU/EES": 10
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tillväxtverket",
+   "domän": "tillvaxtverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 29,
+   "aktiva": 12,
+   "nat": {
+    "EU/EES": 9,
+    "annat": 1,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Totalförsvarets forskningsinstitut, foi",
+   "domän": "foi.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 18,
+   "nat": {
+    "EU/EES": 18
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Totalförsvarets plikt- och prövningsverk",
+   "domän": "pliktverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 10,
+   "aktiva": 6,
+   "nat": {
+    "EU/EES": 5,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Trafikanalys",
+   "domän": "trafa.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 11,
+   "aktiva": 9,
+   "nat": {
+    "EU/EES": 4,
+    "US": 5
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Trafikverket",
+   "domän": "trafikverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 63,
+   "aktiva": 50,
+   "nat": {
+    "EU/EES": 48,
+    "okänt": 1,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Transportstyrelsen",
+   "domän": "transportstyrelsen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 81,
+   "aktiva": 39,
+   "nat": {
+    "EU/EES": 35,
+    "okänt": 2,
+    "US": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Tullverket",
+   "domän": "tullverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Umeå universitet",
+   "domän": "umu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1126,
+   "aktiva": 814,
+   "nat": {
+    "EU/EES": 799,
+    "US": 15
+   },
+   "plattform": {
+    "azurewebsites.net": 1
+   }
+  },
+  {
+   "namn": "Universitets- och högskolerådet",
+   "domän": "uhr.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 52,
+   "aktiva": 23,
+   "nat": {
+    "EU/EES": 22,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Universitetskanslersämbetet",
+   "domän": "uka.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 51,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 28
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Upphandlingsmyndigheten",
+   "domän": "uhmynd.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Uppsala universitet",
+   "domän": "uu.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 1534,
+   "aktiva": 1093,
+   "nat": {
+    "EU/EES": 1079,
+    "US": 14
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Utbetalningsmyndigheten",
+   "domän": "ubm.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 22,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 16
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Valmyndigheten",
+   "domän": "val.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 40,
+   "aktiva": 28,
+   "nat": {
+    "EU/EES": 21,
+    "US": 7
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Verket för innovationssystem",
+   "domän": "vinnova.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 121,
+   "aktiva": 82,
+   "nat": {
+    "US": 58,
+    "EU/EES": 24
+   },
+   "plattform": {
+    "azurefd.net": 31,
+    "azurewebsites.net": 6
+   }
+  },
+  {
+   "namn": "Vetenskapsrådet",
+   "domän": "vr.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 116,
+   "aktiva": 49,
+   "nat": {
+    "US": 10,
+    "EU/EES": 39
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Åklagarmyndigheten",
+   "domän": "aklagare.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 21,
+   "aktiva": 20,
+   "nat": {
+    "US": 14,
+    "EU/EES": 6
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Örebro universitet",
+   "domän": "oru.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 222,
+   "aktiva": 153,
+   "nat": {
+    "EU/EES": 149,
+    "US": 4
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Överklagandenämnden för etikprövning",
+   "domän": "onep.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Överklagandenämnden för högskolan",
+   "domän": "onh.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 3,
+   "aktiva": 3,
+   "nat": {
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Överklagandenämnden för studiestöd",
+   "domän": "oks.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 2,
+   "aktiva": 2,
+   "nat": {
+    "EU/EES": 2
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "riksdagen.se (delas av 2 myndigheter)",
+   "domän": "riksdagen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 85,
+   "aktiva": 43,
+   "nat": {
+    "EU/EES": 41,
+    "US": 2
+   },
+   "plattform": {
+    "azurefd.net": 1
+   }
+  },
+  {
+   "namn": "Riksdagens ombudsmän",
+   "domän": "jo.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 16
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Riksrevisionen",
+   "domän": "riksrevisionen.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 4,
+   "aktiva": 4,
+   "nat": {
+    "US": 1,
+    "EU/EES": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sveriges riksbank",
+   "domän": "riksbank.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 52,
+   "aktiva": 43,
+   "nat": {
+    "US": 18,
+    "EU/EES": 24,
+    "okänt": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Luftfartsverket",
+   "domän": "lfv.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 40,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 15,
+    "US": 1
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Sjöfartsverket",
+   "domän": "sjofartsverket.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 18,
+   "aktiva": 16,
+   "nat": {
+    "EU/EES": 13,
+    "US": 3
+   },
+   "plattform": {}
+  },
+  {
+   "namn": "Svenska kraftnät",
+   "domän": "svk.se",
+   "kalla": "crt.sh",
+   "status": "ok",
+   "namn_i_loggar": 93,
+   "aktiva": 51,
+   "nat": {
+    "EU/EES": 47,
+    "US": 4
+   },
+   "plattform": {}
+  }
+ ]
+}

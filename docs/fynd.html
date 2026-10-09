@@ -33,6 +33,19 @@
     <p>Allt är rättat på den här sidan. Körningar som inte klarar sina krav publiceras inte längre, och varje siffra här kontrolleras automatiskt mot rådatan.</p>
   </article>
 
+  <article class="fynd" id="tjanster">
+    <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Var tjänsterna körs</span>
+    <h2>Hälften av kommunerna har inga tjänster på amerikanska nät</h2>
+    <div class="tal">150 av 289 kommuner</div>
+    <p>Certifikatloggar visar vilka publika namn en organisation har under sin domän: e-tjänster, bokning, inloggningssidor, webbplatser och liknande. 150 av 289 kommuner har inget sådant namn på ett amerikanskt nät; medianen per kommun är 0 %. Räknat på alla namn ligger 15,7 % av kommunernas 5 342 namn på amerikanska nät, inklusive CDN som Cloudflare, men summan drivs av ett fåtal: en enda kommun står för 25 % av kommunernas namn på amerikanska nät.</p>
+    <p>Regionerna ligger högre: 19 av 20 har minst ett namn på amerikanskt nät och medianen är 13 %. Bland myndighetsdomänerna är medianen 3 %. Resten ligger på nät som ägs av svenska eller europeiska bolag; mätningen säger inte var servrarna står.</p>
+    <details><summary>Så kontrollerades det</summary>
+      <p>Namnen kommer från crt.sh, med Certspotter som reserv. Varje namn med en publik adress slogs upp till sitt nät; namn som pekar på interna adresser (1 268 totalt) räknas inte, och antalet sparas bara som en total. Inga värdnamn sparas eller publiceras. Den första körningen föll på kravet för andel namn med nät och publicerades aldrig. Som kontroll mättes 20 slumpvis valda organisationer också med den andra källan: andelen skilde högst 15 procentenheter för 18 av 20 (krav 16). Det första försöket föll på strypning, det andra avbröts av ett fel i vår kod. Kontrollen prövar bara att namnlistan är fullständig: båda källorna läser samma certifikatloggar, och klassningen av näten är densamma.</p>
+      <p>Namn som bara täcks av ett jokercertifikat (<code>*.domän</code>) syns inte. Egen drift använder oftare jokercertifikat än molnplattformar, så andelen på amerikanska nät kan vara något överskattad.</p>
+    </details>
+    <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-tjanster.md">Resultat</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/cert-2026-10-08T204928Z.json">Rådata</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-t6-2026-10-09T081527Z.json">Kontrollen</a></p>
+  </article>
+
   <article class="fynd" id="vi-sjalva">
     <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Vi själva</span>
     <h2>Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</h2>
