@@ -1,13 +1,13 @@
 {
- "matt": "2026-10-08T190520Z",
- "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-08T190520Z.json",
- "webbMatt": "2026-10-08T164403Z",
- "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json",
- "trianguleringMatt": "2026-10-08T165750Z",
- "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
- "trianguleringAvserSammaDns": false,
- "sakerhetMatt": "2026-10-09T004643Z",
- "sakerhetKalla": "data/sakerhet-2026-10-09T004643Z.json",
+ "matt": "2026-10-09T142342Z",
+ "kalla": "data/ra-organisationer-myndigheter-matning-2026-10-09T142342Z.json",
+ "webbMatt": "2026-10-09T142606Z",
+ "webbKalla": "data/webb-organisationer-myndigheter-matning-2026-10-09T142606Z.json",
+ "trianguleringMatt": "2026-10-09T142713Z",
+ "trianguleringKalla": "data/triangulering-2026-10-09T142713Z.json",
+ "trianguleringAvserSammaDns": true,
+ "sakerhetMatt": "2026-10-09T143309Z",
+ "sakerhetKalla": "data/sakerhet-2026-10-09T143309Z.json",
  "certKalla": "data/cert-2026-10-08T204928Z.json",
  "certMatt": "2026-10-08T204928Z",
  "sakerhet": {
@@ -36,9 +36,9 @@
    "saknas": 48
   },
   "HSTS": {
-   "finns": 110,
-   "saknas": 78,
-   "kunde inte mätas": 14
+   "finns": 111,
+   "saknas": 79,
+   "kunde inte mätas": 12
   }
  },
  "organisationer": [
@@ -662,6 +662,11 @@
       "v": "svanalytics.piwik.pro",
       "nat": "EU/EES",
       "lev": "Piwik PRO"
+     },
+     {
+      "v": "v4.mediaflow.com",
+      "nat": "EU/EES",
+      "lev": null
      },
      {
       "v": "v6.mediaflow.com",
@@ -1509,7 +1514,7 @@
       "lev": "Piwik PRO"
      },
      {
-      "v": "v4.mediaflow.com",
+      "v": "v6.mediaflow.com",
       "nat": "EU/EES",
       "lev": null
      }
@@ -7378,7 +7383,6 @@
      "cloud.typography.com",
      "consent.cookiebot.com",
      "consentcdn.cookiebot.com",
-     "p.typekit.net",
      "use.typekit.net",
      "www.googletagmanager.com"
     ],
@@ -7412,7 +7416,7 @@
      },
      {
       "v": "p.typekit.net",
-      "nat": "US",
+      "nat": "EU/EES",
       "lev": "Adobe"
      },
      {
@@ -7527,7 +7531,6 @@
      "dc.services.visualstudio.com",
      "dl.episerver.net",
      "js.monitor.azure.com",
-     "p.typekit.net",
      "policy.app.cookieinformation.com",
      "use.typekit.net"
     ],
@@ -7560,7 +7563,7 @@
      },
      {
       "v": "p.typekit.net",
-      "nat": "US",
+      "nat": "EU/EES",
       "lev": "Adobe"
      },
      {
@@ -7626,7 +7629,6 @@
     "ga": false,
     "gaInsamling": false,
     "us": [
-     "p.typekit.net",
      "use.typekit.net"
     ],
     "usLeverantorer": [
@@ -7640,7 +7642,7 @@
      },
      {
       "v": "p.typekit.net",
-      "nat": "US",
+      "nat": "EU/EES",
       "lev": "Adobe"
      },
      {
@@ -8394,7 +8396,6 @@
     "us": [
      "fonts.googleapis.com",
      "fonts.gstatic.com",
-     "p.typekit.net",
      "use.typekit.net"
     ],
     "usLeverantorer": [
@@ -8414,7 +8415,7 @@
      },
      {
       "v": "p.typekit.net",
-      "nat": "US",
+      "nat": "EU/EES",
       "lev": "Adobe"
      },
      {
@@ -8635,7 +8636,7 @@
     "ga": true,
     "gaInsamling": false,
     "us": [
-     "7adcfd322329.w.hcaptcha.com",
+     "a2df5985a739.w.hcaptcha.com",
      "ajax.googleapis.com",
      "cdnjs.cloudflare.com",
      "js.hcaptcha.com",
@@ -8651,7 +8652,7 @@
     ],
     "varder": [
      {
-      "v": "7adcfd322329.w.hcaptcha.com",
+      "v": "a2df5985a739.w.hcaptcha.com",
       "nat": "US",
       "lev": null
      },
@@ -8874,7 +8875,7 @@
       "lev": "Piwik PRO"
      },
      {
-      "v": "v6.mediaflow.com",
+      "v": "v4.mediaflow.com",
       "nat": "EU/EES",
       "lev": null
      }
@@ -11647,7 +11648,7 @@
    "exo": false,
    "teams": false,
    "webb": "okänd",
-   "webbLeverantor": "AS-ANEXIA - Anexia Cloud Solutions GmbH, AT",
+   "webbLeverantor": "LINK11 - Link11 GmbH, DE",
    "signaler": {
     "S1": "gateway/egen",
     "S2": "-",
@@ -12475,7 +12476,7 @@
    "lan": "",
    "antal": 1,
    "doman": "uu.se",
-   "epost": "inga molnsignaler",
+   "epost": "kunde inte mätas",
    "tenant": true,
    "exo": true,
    "teams": false,
@@ -12487,7 +12488,11 @@
     "S4": "-",
     "S7": "-",
     "S8": "-",
-    "fel": []
+    "fel": [
+     "S4",
+     "S7",
+     "S8"
+    ]
    },
    "fore_samtycke": {
     "klass": "US-nät före samtycke",

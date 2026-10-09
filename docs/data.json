@@ -1,13 +1,13 @@
 {
- "matt": "2026-10-08T184612Z",
- "kalla": "data/ra-organisationer-sverige-2026-10-08T184612Z.json",
- "webbMatt": "2026-10-08T162614Z",
- "webbKalla": "data/webb-organisationer-sverige-2026-10-08T162614Z.json",
- "trianguleringMatt": "2026-10-08T165750Z",
- "trianguleringKalla": "data/triangulering-2026-10-08T165750Z.json",
- "trianguleringAvserSammaDns": false,
- "sakerhetMatt": "2026-10-09T004643Z",
- "sakerhetKalla": "data/sakerhet-2026-10-09T004643Z.json",
+ "matt": "2026-10-09T141830Z",
+ "kalla": "data/ra-organisationer-sverige-2026-10-09T141830Z.json",
+ "webbMatt": "2026-10-09T142050Z",
+ "webbKalla": "data/webb-organisationer-sverige-2026-10-09T142050Z.json",
+ "trianguleringMatt": "2026-10-09T142713Z",
+ "trianguleringKalla": "data/triangulering-2026-10-09T142713Z.json",
+ "trianguleringAvserSammaDns": true,
+ "sakerhetMatt": "2026-10-09T143309Z",
+ "sakerhetKalla": "data/sakerhet-2026-10-09T143309Z.json",
  "certKalla": "data/cert-2026-10-08T204928Z.json",
  "certMatt": "2026-10-08T204928Z",
  "sakerhet": {
@@ -23,9 +23,8 @@
    "annat": 2
   },
   "MTA-STS": {
-   "saknas": 275,
-   "finns": 34,
-   "fel": 1
+   "saknas": 276,
+   "finns": 34
   },
   "TLS-RPT": {
    "saknas": 259,
@@ -37,9 +36,9 @@
    "saknas": 53
   },
   "HSTS": {
-   "finns": 178,
-   "saknas": 120,
-   "kunde inte mätas": 12
+   "finns": 184,
+   "saknas": 122,
+   "kunde inte mätas": 4
   }
  },
  "organisationer": [
@@ -547,11 +546,6 @@
       "v": "plus.browsealoud.com",
       "nat": "US",
       "lev": "Texthelp"
-     },
-     {
-      "v": "ssl.webserviceaward.com",
-      "nat": "EU/EES",
-      "lev": "Web Service Award"
      },
      {
       "v": "static.rekai.se",
@@ -3555,7 +3549,7 @@
      "kinda-se.mail.protection.outlook.com"
     ],
     "spf": "spf.protection.outlook.com",
-    "dkim": "annan",
+    "dkim": "onmicrosoft.com",
     "entra": 200
    }
   },
@@ -3789,7 +3783,6 @@
      "region1.google-analytics.com",
      "translate.google.com",
      "translate.googleapis.com",
-     "www.google-analytics.com",
      "www.google.com",
      "www.googletagmanager.com",
      "www.gstatic.com"
@@ -3806,11 +3799,6 @@
       "v": "ajax.googleapis.com",
       "nat": "US",
       "lev": "Google"
-     },
-     {
-      "v": "cdn.icomoon.io",
-      "nat": "annat",
-      "lev": null
      },
      {
       "v": "cdnjs.cloudflare.com",
@@ -3859,11 +3847,6 @@
      },
      {
       "v": "translate.googleapis.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.google-analytics.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -4721,38 +4704,12 @@
     "fel": []
    },
    "fore_samtycke": {
-    "klass": "bara EU/EES-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "gaInsamling": false,
     "us": [],
     "usLeverantorer": [],
-    "varder": [
-     {
-      "v": "predict.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "static.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     },
-     {
-      "v": "svanalytics.containers.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "svanalytics.piwik.pro",
-      "nat": "EU/EES",
-      "lev": "Piwik PRO"
-     },
-     {
-      "v": "view.rekai.se",
-      "nat": "EU/EES",
-      "lev": "Rek.ai"
-     }
-    ],
+    "varder": [],
     "sida": "https://www.gislaved.se/"
    },
    "tjanster": {
@@ -5027,51 +4984,13 @@
     "fel": []
    },
    "fore_samtycke": {
-    "klass": "US-nät före samtycke",
+    "klass": "kunde inte mätas",
     "ga": false,
     "gaInsamling": false,
-    "us": [
-     "api-ts.cruncho.co",
-     "cdnjs.cloudflare.com",
-     "varnamo.cruncho.co"
-    ],
-    "usLeverantorer": [
-     "Cloudflare",
-     "Cruncho"
-    ],
-    "varder": [
-     {
-      "v": "api-ts.cruncho.co",
-      "nat": "US",
-      "lev": "Cruncho"
-     },
-     {
-      "v": "cdn.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "cdnjs.cloudflare.com",
-      "nat": "US",
-      "lev": "Cloudflare"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     },
-     {
-      "v": "varnamo.cruncho.co",
-      "nat": "US",
-      "lev": "Cruncho"
-     },
-     {
-      "v": "www.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
-     }
-    ],
-    "sida": "https://www.varnamo.se/"
+    "us": [],
+    "usLeverantorer": [],
+    "varder": [],
+    "sida": null
    },
    "tjanster": {
     "aktiva": 3,
@@ -6028,7 +5947,7 @@
    "epost": "MS",
    "tenant": true,
    "exo": true,
-   "teams": false,
+   "teams": true,
    "webb": "SE/EU",
    "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
    "signaler": {
@@ -6036,7 +5955,7 @@
     "S2": "MS",
     "S4": "MS",
     "S7": "-",
-    "S8": "-",
+    "S8": "MS",
     "fel": []
    },
    "fore_samtycke": {
@@ -6603,6 +6522,11 @@
       "lev": "Google"
      },
      {
+      "v": "kalmar.com",
+      "nat": "EU/EES",
+      "lev": null
+     },
+     {
       "v": "plus.browsealoud.com",
       "nat": "US",
       "lev": "Texthelp"
@@ -6921,6 +6845,11 @@
       "v": "view.rekai.se",
       "nat": "EU/EES",
       "lev": "Rek.ai"
+     },
+     {
+      "v": "www.vimmerby.com",
+      "nat": "EU/EES",
+      "lev": null
      }
     ],
     "sida": "https://www.vimmerby.se/"
@@ -7553,11 +7482,6 @@
       "v": "policy.app.cookieinformation.com",
       "nat": "US",
       "lev": "Cookie Information"
-     },
-     {
-      "v": "tag.vizzit.se",
-      "nat": "EU/EES",
-      "lev": "Vizzit"
      },
      {
       "v": "translate.google.com",
@@ -8258,9 +8182,9 @@
    "exo": true,
    "teams": true,
    "webb": "SE/EU",
-   "webbLeverantor": "GLESYS - Glesys AB, SE",
+   "webbLeverantor": "SWIPNET - Tele2 Sverige AB, EU",
    "signaler": {
-    "S1": "MS",
+    "S1": "gateway/egen",
     "S2": "MS",
     "S4": "MS",
     "S7": "MS",
@@ -8273,20 +8197,46 @@
     "gaInsamling": false,
     "us": [
      "ajax.googleapis.com",
+     "code.jquery.com",
      "fonts.googleapis.com",
      "fonts.gstatic.com",
+     "maps.google.com",
+     "maps.googleapis.com",
+     "policy.app.cookieinformation.com",
+     "svedala.imagevault.media",
      "translate.google.com",
      "translate.googleapis.com",
+     "use.fontawesome.com",
+     "www.google.com",
      "www.gstatic.com"
     ],
     "usLeverantorer": [
-     "Google"
+     "Cookie Information",
+     "Fonticons (Font Awesome)",
+     "Google",
+     "imagevault.media",
+     "jQuery CDN"
     ],
     "varder": [
      {
       "v": "ajax.googleapis.com",
       "nat": "US",
       "lev": "Google"
+     },
+     {
+      "v": "cdn-eu.readspeaker.com",
+      "nat": "annat",
+      "lev": "ReadSpeaker"
+     },
+     {
+      "v": "cdn.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
+      "v": "code.jquery.com",
+      "nat": "US",
+      "lev": "jQuery CDN"
      },
      {
       "v": "fonts.googleapis.com",
@@ -8299,6 +8249,41 @@
       "lev": "Google"
      },
      {
+      "v": "maps.google.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "maps.googleapis.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "policy.app.cookieinformation.com",
+      "nat": "US",
+      "lev": "Cookie Information"
+     },
+     {
+      "v": "predict.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "static.rekai.se",
+      "nat": "EU/EES",
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "svedala.imagevault.media",
+      "nat": "US",
+      "lev": null
+     },
+     {
+      "v": "tag.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
+     },
+     {
       "v": "translate.google.com",
       "nat": "US",
       "lev": "Google"
@@ -8309,17 +8294,37 @@
       "lev": "Google"
      },
      {
-      "v": "usercontent.one",
+      "v": "use.fontawesome.com",
+      "nat": "US",
+      "lev": "Fonticons (Font Awesome)"
+     },
+     {
+      "v": "view.rekai.se",
       "nat": "EU/EES",
-      "lev": "one.com"
+      "lev": "Rek.ai"
+     },
+     {
+      "v": "www.google.com",
+      "nat": "US",
+      "lev": "Google"
      },
      {
       "v": "www.gstatic.com",
       "nat": "US",
       "lev": "Google"
+     },
+     {
+      "v": "www.translate.googleapis.com",
+      "nat": null,
+      "lev": "Google"
+     },
+     {
+      "v": "www.vizzit.se",
+      "nat": "EU/EES",
+      "lev": "Vizzit"
      }
     ],
-    "sida": "https://svedala.info/"
+    "sida": "https://www.svedala.se/"
    },
    "tjanster": {
     "aktiva": 47,
@@ -8327,7 +8332,7 @@
    },
    "svar": {
     "mx": [
-     "svedala-se.mail.protection.outlook.com"
+     "antispam.svedala.se"
     ],
     "spf": "spf.protection.outlook.com",
     "dkim": "onmicrosoft.com",
@@ -8727,7 +8732,6 @@
      "consentcdn.cookiebot.com",
      "images.citybreak.com",
      "plus.browsealoud.com",
-     "scontent.xx.fbcdn.net",
      "static.xx.fbcdn.net",
      "translate.google.com",
      "www.browsealoud.com",
@@ -8770,11 +8774,6 @@
       "v": "plus.browsealoud.com",
       "nat": "US",
       "lev": "Texthelp"
-     },
-     {
-      "v": "scontent.xx.fbcdn.net",
-      "nat": "US",
-      "lev": "Meta"
      },
      {
       "v": "static.xx.fbcdn.net",
@@ -9313,14 +9312,12 @@
      "analytics.silktide.com",
      "api.cludo.com",
      "customer.cludo.com",
-     "eventmanager-assets152928-production.fra1.cdn.digitaloceanspaces.com",
      "fonts.googleapis.com",
      "s3.cruncho.co"
     ],
     "usLeverantorer": [
      "Cludo",
      "Cruncho",
-     "DigitalOcean",
      "Google",
      "Silktide"
     ],
@@ -9344,11 +9341,6 @@
       "v": "customer.cludo.com",
       "nat": "US",
       "lev": "Cludo"
-     },
-     {
-      "v": "eventmanager-assets152928-production.fra1.cdn.digitaloceanspaces.com",
-      "nat": "US",
-      "lev": "DigitalOcean"
      },
      {
       "v": "fonts.googleapis.com",
@@ -11932,7 +11924,9 @@
     "S4": "MS",
     "S7": "-",
     "S8": "MS",
-    "fel": []
+    "fel": [
+     "S7"
+    ]
    },
    "fore_samtycke": {
     "klass": "annat nät före samtycke",
@@ -13816,7 +13810,7 @@
       "lev": "Vizzit"
      },
      {
-      "v": "v4.mediaflow.com",
+      "v": "v6.mediaflow.com",
       "nat": "EU/EES",
       "lev": null
      },
@@ -14077,8 +14071,7 @@
      "cdnjs.cloudflare.com",
      "maxcdn.bootstrapcdn.com",
      "stackpath.bootstrapcdn.com",
-     "translate.google.com",
-     "www.google.com"
+     "translate.google.com"
     ],
     "usLeverantorer": [
      "Cloudflare",
@@ -14119,11 +14112,6 @@
      },
      {
       "v": "translate.google.com",
-      "nat": "US",
-      "lev": "Google"
-     },
-     {
-      "v": "www.google.com",
       "nat": "US",
       "lev": "Google"
      }
@@ -14731,7 +14719,6 @@
     "gaInsamling": false,
     "us": [
      "cdn.cookietractor.com",
-     "download-video-ak.vimeocdn.com",
      "js.monitor.azure.com",
      "player.vimeo.com",
      "swedencentral-0.in.applicationinsights.azure.com",
@@ -14748,11 +14735,6 @@
       "v": "cdn.cookietractor.com",
       "nat": "US",
       "lev": null
-     },
-     {
-      "v": "download-video-ak.vimeocdn.com",
-      "nat": "US",
-      "lev": "Vimeo"
      },
      {
       "v": "js.monitor.azure.com",
@@ -15377,6 +15359,7 @@
      "fonts.gstatic.com",
      "googleads.g.doubleclick.net",
      "i.ytimg.com",
+     "jnn-pa.googleapis.com",
      "static.doubleclick.net",
      "www.google.com",
      "www.youtube.com",
@@ -15414,6 +15397,11 @@
      },
      {
       "v": "i.ytimg.com",
+      "nat": "US",
+      "lev": "Google"
+     },
+     {
+      "v": "jnn-pa.googleapis.com",
       "nat": "US",
       "lev": "Google"
      },
@@ -19128,19 +19116,14 @@
     "ga": false,
     "gaInsamling": false,
     "us": [
-     "e.clarity.ms",
      "scripts.clarity.ms",
-     "www.clarity.ms"
+     "www.clarity.ms",
+     "z.clarity.ms"
     ],
     "usLeverantorer": [
      "Microsoft"
     ],
     "varder": [
-     {
-      "v": "e.clarity.ms",
-      "nat": "US",
-      "lev": "Microsoft"
-     },
      {
       "v": "ebbot.eu",
       "nat": "EU/EES",
@@ -19168,6 +19151,11 @@
      },
      {
       "v": "www.clarity.ms",
+      "nat": "US",
+      "lev": "Microsoft"
+     },
+     {
+      "v": "z.clarity.ms",
       "nat": "US",
       "lev": "Microsoft"
      }
@@ -21622,7 +21610,7 @@
       "lev": null
      },
      {
-      "v": "v6.mediaflow.com",
+      "v": "v4.mediaflow.com",
       "nat": "EU/EES",
       "lev": null
      }

@@ -1,0 +1,608 @@
+{
+ "matt": "2026-10-09T143309Z",
+ "kontroller": {
+  "cloudflare.com DS": true,
+  "google.com DS": false,
+  "google.com DMARC": "p=reject",
+  "google.com MTA-STS": true
+ },
+ "fel_andel": 0.0003,
+ "lika_9999": {
+  "DMARC": 512,
+  "SPF": 511,
+  "MTA-STS": 512,
+  "TLS-RPT": 511,
+  "DNSSEC": 512
+ },
+ "antal": {
+  "Stockholms län": 27,
+  "Uppsala län": 9,
+  "Södermanlands län": 10,
+  "Östergötlands län": 14,
+  "Jönköpings län": 14,
+  "Kronobergs län": 9,
+  "Kalmar län": 13,
+  "Blekinge och Gotlands län": 7,
+  "Skåne län": 34,
+  "Hallands län": 7,
+  "Västra Götalands län": 50,
+  "Värmlands län": 17,
+  "Örebro län": 13,
+  "Västmanlands län": 11,
+  "Dalarnas län": 16,
+  "Gävleborgs län": 11,
+  "Västernorrlands län": 8,
+  "Jämtlands län": 9,
+  "Västerbottens län": 16,
+  "Norrbottens län": 15,
+  "Statliga myndigheter": 202
+ },
+ "per_grupp": {
+  "Stockholms län": {
+   "DMARC": {
+    "p=none": 11,
+    "p=reject": 9,
+    "p=quarantine": 7
+   },
+   "SPF": {
+    "-all": 16,
+    "~all": 11
+   },
+   "MTA-STS": {
+    "saknas": 26,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 24,
+    "finns": 3
+   },
+   "DNSSEC": {
+    "finns": 21,
+    "saknas": 6
+   },
+   "HSTS": {
+    "finns": 20,
+    "saknas": 7
+   }
+  },
+  "Uppsala län": {
+   "DMARC": {
+    "p=quarantine": 2,
+    "p=reject": 4,
+    "p=none": 3
+   },
+   "SPF": {
+    "-all": 8,
+    "~all": 1
+   },
+   "MTA-STS": {
+    "saknas": 8,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 8,
+    "finns": 1
+   },
+   "DNSSEC": {
+    "finns": 6,
+    "saknas": 3
+   },
+   "HSTS": {
+    "finns": 3,
+    "saknas": 5,
+    "kunde inte mätas": 1
+   }
+  },
+  "Södermanlands län": {
+   "DMARC": {
+    "p=reject": 3,
+    "p=none": 4,
+    "p=quarantine": 3
+   },
+   "SPF": {
+    "~all": 6,
+    "-all": 4
+   },
+   "MTA-STS": {
+    "saknas": 8,
+    "finns": 2
+   },
+   "TLS-RPT": {
+    "saknas": 8,
+    "finns": 2
+   },
+   "DNSSEC": {
+    "finns": 9,
+    "saknas": 1
+   },
+   "HSTS": {
+    "finns": 8,
+    "saknas": 2
+   }
+  },
+  "Östergötlands län": {
+   "DMARC": {
+    "p=quarantine": 4,
+    "p=none": 5,
+    "p=reject": 5
+   },
+   "SPF": {
+    "-all": 9,
+    "~all": 5
+   },
+   "MTA-STS": {
+    "saknas": 12,
+    "finns": 2
+   },
+   "TLS-RPT": {
+    "saknas": 11,
+    "finns": 3
+   },
+   "DNSSEC": {
+    "finns": 11,
+    "saknas": 3
+   },
+   "HSTS": {
+    "saknas": 6,
+    "finns": 8
+   }
+  },
+  "Jönköpings län": {
+   "DMARC": {
+    "p=reject": 11,
+    "saknas": 1,
+    "p=none": 2
+   },
+   "SPF": {
+    "-all": 13,
+    "~all": 1
+   },
+   "MTA-STS": {
+    "saknas": 13,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 12,
+    "finns": 2
+   },
+   "DNSSEC": {
+    "finns": 13,
+    "saknas": 1
+   },
+   "HSTS": {
+    "finns": 7,
+    "saknas": 7
+   }
+  },
+  "Kronobergs län": {
+   "DMARC": {
+    "p=quarantine": 2,
+    "p=none": 5,
+    "p=reject": 2
+   },
+   "SPF": {
+    "-all": 6,
+    "~all": 2,
+    "annat": 1
+   },
+   "MTA-STS": {
+    "saknas": 9
+   },
+   "TLS-RPT": {
+    "saknas": 9
+   },
+   "DNSSEC": {
+    "finns": 9
+   },
+   "HSTS": {
+    "saknas": 5,
+    "finns": 4
+   }
+  },
+  "Kalmar län": {
+   "DMARC": {
+    "p=none": 5,
+    "p=reject": 5,
+    "p=quarantine": 3
+   },
+   "SPF": {
+    "-all": 12,
+    "~all": 1
+   },
+   "MTA-STS": {
+    "saknas": 10,
+    "finns": 3
+   },
+   "TLS-RPT": {
+    "saknas": 9,
+    "finns": 4
+   },
+   "DNSSEC": {
+    "finns": 12,
+    "saknas": 1
+   },
+   "HSTS": {
+    "kunde inte mätas": 1,
+    "saknas": 8,
+    "finns": 4
+   }
+  },
+  "Blekinge och Gotlands län": {
+   "DMARC": {
+    "p=none": 3,
+    "p=reject": 1,
+    "p=quarantine": 3
+   },
+   "SPF": {
+    "-all": 5,
+    "~all": 2
+   },
+   "MTA-STS": {
+    "saknas": 5,
+    "finns": 2
+   },
+   "TLS-RPT": {
+    "saknas": 5,
+    "finns": 2
+   },
+   "DNSSEC": {
+    "finns": 6,
+    "saknas": 1
+   },
+   "HSTS": {
+    "finns": 1,
+    "saknas": 6
+   }
+  },
+  "Skåne län": {
+   "DMARC": {
+    "p=reject": 19,
+    "p=quarantine": 7,
+    "p=none": 8
+   },
+   "SPF": {
+    "-all": 26,
+    "~all": 7,
+    "annat": 1
+   },
+   "MTA-STS": {
+    "saknas": 31,
+    "finns": 3
+   },
+   "TLS-RPT": {
+    "saknas": 25,
+    "finns": 9
+   },
+   "DNSSEC": {
+    "finns": 26,
+    "saknas": 8
+   },
+   "HSTS": {
+    "finns": 21,
+    "saknas": 12,
+    "kunde inte mätas": 1
+   }
+  },
+  "Hallands län": {
+   "DMARC": {
+    "p=none": 3,
+    "p=reject": 3,
+    "p=quarantine": 1
+   },
+   "SPF": {
+    "-all": 7
+   },
+   "MTA-STS": {
+    "saknas": 6,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 6,
+    "finns": 1
+   },
+   "DNSSEC": {
+    "finns": 4,
+    "saknas": 3
+   },
+   "HSTS": {
+    "finns": 4,
+    "saknas": 3
+   }
+  },
+  "Västra Götalands län": {
+   "DMARC": {
+    "p=quarantine": 8,
+    "saknas": 3,
+    "p=reject": 27,
+    "p=none": 12
+   },
+   "SPF": {
+    "-all": 45,
+    "~all": 5
+   },
+   "MTA-STS": {
+    "saknas": 47,
+    "finns": 3
+   },
+   "TLS-RPT": {
+    "saknas": 46,
+    "finns": 3,
+    "fel": 1
+   },
+   "DNSSEC": {
+    "finns": 36,
+    "saknas": 14
+   },
+   "HSTS": {
+    "saknas": 15,
+    "finns": 35
+   }
+  },
+  "Värmlands län": {
+   "DMARC": {
+    "p=reject": 10,
+    "p=quarantine": 4,
+    "p=none": 3
+   },
+   "SPF": {
+    "-all": 14,
+    "~all": 3
+   },
+   "MTA-STS": {
+    "saknas": 12,
+    "finns": 5
+   },
+   "TLS-RPT": {
+    "saknas": 11,
+    "finns": 6
+   },
+   "DNSSEC": {
+    "finns": 17
+   },
+   "HSTS": {
+    "finns": 10,
+    "saknas": 7
+   }
+  },
+  "Örebro län": {
+   "DMARC": {
+    "p=none": 7,
+    "p=quarantine": 4,
+    "p=reject": 2
+   },
+   "SPF": {
+    "-all": 11,
+    "~all": 2
+   },
+   "MTA-STS": {
+    "saknas": 13
+   },
+   "TLS-RPT": {
+    "saknas": 13
+   },
+   "DNSSEC": {
+    "finns": 8,
+    "saknas": 5
+   },
+   "HSTS": {
+    "saknas": 7,
+    "finns": 6
+   }
+  },
+  "Västmanlands län": {
+   "DMARC": {
+    "p=none": 8,
+    "p=reject": 1,
+    "p=quarantine": 2
+   },
+   "SPF": {
+    "~all": 7,
+    "-all": 4
+   },
+   "MTA-STS": {
+    "saknas": 7,
+    "finns": 4
+   },
+   "TLS-RPT": {
+    "saknas": 7,
+    "finns": 4
+   },
+   "DNSSEC": {
+    "finns": 8,
+    "saknas": 3
+   },
+   "HSTS": {
+    "finns": 6,
+    "saknas": 5
+   }
+  },
+  "Dalarnas län": {
+   "DMARC": {
+    "p=reject": 6,
+    "p=none": 6,
+    "p=quarantine": 3,
+    "saknas": 1
+   },
+   "SPF": {
+    "-all": 14,
+    "~all": 2
+   },
+   "MTA-STS": {
+    "saknas": 16
+   },
+   "TLS-RPT": {
+    "saknas": 16
+   },
+   "DNSSEC": {
+    "finns": 16
+   },
+   "HSTS": {
+    "finns": 11,
+    "saknas": 5
+   }
+  },
+  "Gävleborgs län": {
+   "DMARC": {
+    "p=reject": 6,
+    "p=quarantine": 4,
+    "p=none": 1
+   },
+   "SPF": {
+    "-all": 10,
+    "~all": 1
+   },
+   "MTA-STS": {
+    "saknas": 11
+   },
+   "TLS-RPT": {
+    "saknas": 11
+   },
+   "DNSSEC": {
+    "finns": 11
+   },
+   "HSTS": {
+    "saknas": 5,
+    "finns": 6
+   }
+  },
+  "Västernorrlands län": {
+   "DMARC": {
+    "p=quarantine": 4,
+    "p=reject": 2,
+    "p=none": 2
+   },
+   "SPF": {
+    "-all": 6,
+    "~all": 2
+   },
+   "MTA-STS": {
+    "saknas": 7,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 7,
+    "finns": 1
+   },
+   "DNSSEC": {
+    "finns": 7,
+    "saknas": 1
+   },
+   "HSTS": {
+    "saknas": 2,
+    "finns": 6
+   }
+  },
+  "Jämtlands län": {
+   "DMARC": {
+    "p=reject": 3,
+    "p=quarantine": 4,
+    "p=none": 2
+   },
+   "SPF": {
+    "-all": 7,
+    "~all": 2
+   },
+   "MTA-STS": {
+    "finns": 1,
+    "saknas": 8
+   },
+   "TLS-RPT": {
+    "finns": 3,
+    "saknas": 6
+   },
+   "DNSSEC": {
+    "finns": 8,
+    "saknas": 1
+   },
+   "HSTS": {
+    "finns": 4,
+    "saknas": 5
+   }
+  },
+  "Västerbottens län": {
+   "DMARC": {
+    "p=reject": 11,
+    "p=none": 2,
+    "p=quarantine": 3
+   },
+   "SPF": {
+    "-all": 16
+   },
+   "MTA-STS": {
+    "saknas": 15,
+    "finns": 1
+   },
+   "TLS-RPT": {
+    "saknas": 14,
+    "finns": 2
+   },
+   "DNSSEC": {
+    "saknas": 2,
+    "finns": 14
+   },
+   "HSTS": {
+    "saknas": 8,
+    "finns": 8
+   }
+  },
+  "Norrbottens län": {
+   "DMARC": {
+    "p=quarantine": 7,
+    "p=none": 5,
+    "saknas": 1,
+    "p=reject": 2
+   },
+   "SPF": {
+    "-all": 9,
+    "~all": 6
+   },
+   "MTA-STS": {
+    "saknas": 12,
+    "finns": 3
+   },
+   "TLS-RPT": {
+    "saknas": 11,
+    "finns": 4
+   },
+   "DNSSEC": {
+    "finns": 15
+   },
+   "HSTS": {
+    "finns": 12,
+    "kunde inte mätas": 1,
+    "saknas": 2
+   }
+  },
+  "Statliga myndigheter": {
+   "DMARC": {
+    "p=reject": 78,
+    "p=none": 49,
+    "p=quarantine": 57,
+    "saknas": 18
+   },
+   "SPF": {
+    "-all": 147,
+    "~all": 50,
+    "annat": 2,
+    "saknas": 3
+   },
+   "MTA-STS": {
+    "saknas": 180,
+    "finns": 22
+   },
+   "TLS-RPT": {
+    "saknas": 172,
+    "finns": 30
+   },
+   "DNSSEC": {
+    "finns": 154,
+    "saknas": 48
+   },
+   "HSTS": {
+    "finns": 111,
+    "saknas": 79,
+    "kunde inte mätas": 12
+   }
+  }
+ }
+}
