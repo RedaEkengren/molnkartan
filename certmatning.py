@@ -127,7 +127,7 @@ def andel_us(r):
 
 
 def t6():
-    senaste = sys.argv[2] if len(sys.argv) > 2 else sorted(glob.glob(str(ROT / "data" / "cert-*.json")))[-1]
+    senaste = str((ROT / sys.argv[2]).resolve()) if len(sys.argv) > 2 else sorted(glob.glob(str(ROT / "data" / "cert-*.json")))[-1]
     d = json.load(open(senaste, encoding="utf-8"))
     kandidater = sorted((o for o in d["organisationer"] if o.get("aktiva")), key=lambda o: o["domän"])
     urval = random.Random(20261008).sample(kandidater, 20)

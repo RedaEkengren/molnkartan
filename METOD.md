@@ -545,3 +545,11 @@ läsrätt, försöka motbevisa varje fynd mot rådatan. Den hittade och vi rätt
    bakom Cloudflare, "Sunet" på myndighetssidan, rådata saknades för tre
    kontroller (nu `data/webb-organisationer-sjalv-*`, `data/stickprov-*`, och
    9.9.9.9-kontrollen i `data/sakerhet-*`).
+
+### T6 — andra försöket, 2026-10-09
+
+Andra försöket med alla 20 gav 18 av 20 inom 15 procentenheter (krav 16), men
+skriptet kraschade när resultatet skulle sparas (fel i hanteringen av
+sökvägen). Resultatet finns därför bara som körningens utskrift. Felet är
+rättat och T6 körs en tredje gång så att rådata sparas; det är den körningen
+som gäller.
