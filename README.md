@@ -16,9 +16,9 @@ registreringar och anrop, inte hur beroende verksamheten är.**
 
 Samma mätningar för statliga myndigheter (252 i SCB:s myndighetsregister, 202 unika e-postdomäner):
 [`RESULTAT-myndigheter.md`](RESULTAT-myndigheter.md). Fynden, med hur varje
-kontrollerades: [Fynd](https://redaekengren.github.io/molnkartan/fynd.html).
+kontrollerades: [Fynd](https://molnkartan.se/fynd.html).
 
-Mätt 2026-10-08. Sök och filtrera på **[redaekengren.github.io/molnkartan](https://redaekengren.github.io/molnkartan/)**,
+Mätt 2026-10-08. Sök och filtrera på **[molnkartan.se](https://molnkartan.se/)**,
 eller läs hela tabellen i [`RESULTAT-sverige.md`](RESULTAT-sverige.md).
 
 ---
