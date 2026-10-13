@@ -698,6 +698,14 @@ Ett textsvar ("vi använder Microsoft 365") antecknas separat och används bara
 där huvudena saknas eller är tvetydiga. Facit sätts av ett skript med reglerna
 ovan, som körs utan att klassen är synlig.
 
+**Förtydligande 2026-10-13, innan facit satts:** `facit.py` tillämpar reglerna.
+Flera svar från samma organisation slås ihop: ett svar med Microsoft eller Google
+räcker, svar som pekar åt olika håll ger *tvetydig*, och bara *annat* ger *annat*.
+Ett svar kopplas till organisationen via avsändarens domän (eller en underdomän);
+annars via organisationsnamnet i avsändardomänen, och de kopplingarna listas för
+manuell kontroll. Skriptet läser inte `nyckel.csv`; jämförelsen är ett eget steg
+(`python3 facit.py jamfor`) som körs först efter 2026-10-23.
+
 **Begränsning:** svaret visar var brevlådan sitter och därifrån svaret
 skickades, inte nödvändigtvis vilken server som tar emot e-post först (MX).
 

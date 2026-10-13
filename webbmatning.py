@@ -28,7 +28,8 @@ ROT = Path(__file__).parent
 VANTETID_MS = 10_000
 PARALLELLA = 6
 
-_version = re.search(r"(\d+)\.", subprocess.run(["google-chrome", "--version"], capture_output=True, text=True).stdout).group(1)
+CHROME = shutil.which("google-chrome") or shutil.which("google-chrome-stable") or "google-chrome"
+_version = re.search(r"(\d+)\.", subprocess.run([CHROME, "--version"], capture_output=True, text=True).stdout).group(1)
 ANVANDARAGENT = f"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{_version}.0.0.0 Safari/537.36"
 
 CHROME_FLAGGOR = [
@@ -125,7 +126,7 @@ def ladda(url):
     tmp = Path(tempfile.mkdtemp(prefix="molnkartan-"))
     try:
         logg = tmp / "net.json"
-        korning = subprocess.run(["google-chrome", *CHROME_FLAGGOR, f"--user-data-dir={tmp / 'profil'}",
+        korning = subprocess.run([CHROME, *CHROME_FLAGGOR, f"--user-data-dir={tmp / 'profil'}",
                                   f"--log-net-log={logg}", url], capture_output=True, text=True, timeout=60)
         if korning.returncode != 0:
             raise MatFel(f"Chrome avslutades med kod {korning.returncode}")
