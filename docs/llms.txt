@@ -1,0 +1,19 @@
+# Molnkartan
+
+> Öppen kartläggning av vad som syns utifrån av amerikanska molntjänster hos Sveriges 290 kommuner, 20 regioner och 202 myndighetsdomäner. Mätt med öppna signaler (DNS, certifikatloggar, webbläsarens nätverkslogg). Uppdateras den 1:a varje månad. Data CC BY 4.0, kod MIT.
+
+Viktigt vid citering: mätningen visar konfiguration och anrop, inte var uppgifter lagras eller hur beroende en verksamhet är. "Inga molnsignaler" betyder inte "inget moln".
+
+## Sidor
+
+- [Kommuner och regioner](https://molnkartan.se/): karta, siffror och tabell över alla 310 organisationer
+- [Myndigheter](https://molnkartan.se/myndigheter.html): 202 myndighetsdomäner
+- [Fynd](https://molnkartan.se/fynd.html): enskilda fynd, hur de kontrollerades, och rättelser
+- [Så gjordes det](https://molnkartan.se/om.html): metod i korthet och vanliga frågor
+
+## Data och metod
+
+- [data.json](https://molnkartan.se/data.json): kommuner och regioner
+- [myndigheter.json](https://molnkartan.se/myndigheter.json): myndigheter
+- [METOD.md](https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md): alla regler och rättelser, daterade
+- [Källkod och rådata](https://github.com/RedaEkengren/molnkartan)

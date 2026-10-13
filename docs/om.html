@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Molnkartan · Så gjordes det</title>
 <meta name="description" content="Hur Molnkartan byggdes med Claude Code, och reglerna som hindrar en AI från att lura sig själv.">
+<link rel="canonical" href="https://molnkartan.se/om.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Molnkartan">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Så gjordes Molnkartan">
+<meta property="og:description" content="Hur Molnkartan byggdes med Claude Code, och reglerna som hindrar en AI från att lura sig själv.">
+<meta property="og:url" content="https://molnkartan.se/om.html">
+<meta property="og:image" content="https://molnkartan.se/dela.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Molnkartan: amerikanska moln i svensk offentlig sektor">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Reda Ekengren">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "url": "https://molnkartan.se/om.html", "inLanguage": "sv", "mainEntity": [{"@type": "Question", "name": "Vad mäter Molnkartan?", "acceptedAnswer": {"@type": "Answer", "text": "Vad som syns utifrån av amerikanska molntjänster hos Sveriges 290 kommuner, 20 regioner och 202 myndighetsdomäner: e-post via DNS, Microsoft-konton, vilka nät webbplatsen anropar innan besökaren gett samtycke, och tjänstenamn i certifikatloggar."}}, {"@type": "Question", "name": "Betyder Microsoft i e-posten att uppgifterna lagras i USA?", "acceptedAnswer": {"@type": "Answer", "text": "Nej. Mätningen visar konfiguration och anrop som syns från internet, inte var uppgifter lagras, vilka avtal som gäller eller hur beroende verksamheten är."}}, {"@type": "Question", "name": "Hur vet man att mätningen stämmer?", "acceptedAnswer": {"@type": "Answer", "text": "Reglerna skrivs innan datan hämtas och prövas på en region de inte utvecklats på. Slutsatserna kontrolleras med oberoende metoder, granskare har letat efter fel, och 43 kommuner och regioner har tillfrågats om vilken e-posttjänst de använder."}}, {"@type": "Question", "name": "Hur ofta uppdateras datan?", "acceptedAnswer": {"@type": "Answer", "text": "Mätningen körs automatiskt den 1:a varje månad. Körningar som inte klarar sina krav publiceras inte."}}, {"@type": "Question", "name": "Får jag använda datan?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Datan är fri att använda under CC BY 4.0 och koden under MIT-licens. Allt finns på GitHub."}}, {"@type": "Question", "name": "Vem står bakom Molnkartan?", "acceptedAnswer": {"@type": "Answer", "text": "Reda Ekengren, som byggde projektet tillsammans med AI-agenten Claude Code från Anthropic. Molnkartan är ett oberoende projekt, inte en myndighet."}}]}</script>
 <link rel="stylesheet" href="stil.css">
 <script src="tema.js"></script>
 </head>
@@ -39,6 +53,22 @@
 
   <h2>Vad som inte mäts</h2>
   <p>Allt bygger på det som syns utifrån för vem som helst: DNS, certifikatloggar och vad en webbsida anropar. Ingen inloggning, inga läckor. Namn på interna system och inloggningssidor publiceras aldrig, och säkerhetsbrister redovisas bara per län.</p>
+
+  <h2 id="fragor">Vanliga frågor</h2>
+  <dl class="fragor">
+    <dt>Vad mäter Molnkartan?</dt>
+    <dd>Vad som syns utifrån av amerikanska molntjänster hos Sveriges 290 kommuner, 20 regioner och 202 myndighetsdomäner: e-post via DNS, Microsoft-konton, vilka nät webbplatsen anropar innan besökaren gett samtycke, och tjänstenamn i certifikatloggar.</dd>
+    <dt>Betyder Microsoft i e-posten att uppgifterna lagras i USA?</dt>
+    <dd>Nej. Mätningen visar konfiguration och anrop som syns från internet, inte var uppgifter lagras, vilka avtal som gäller eller hur beroende verksamheten är.</dd>
+    <dt>Hur vet man att mätningen stämmer?</dt>
+    <dd>Reglerna skrivs innan datan hämtas och prövas på en region de inte utvecklats på. Slutsatserna kontrolleras med oberoende metoder, granskare har letat efter fel, och 43 kommuner och regioner har tillfrågats om vilken e-posttjänst de använder.</dd>
+    <dt>Hur ofta uppdateras datan?</dt>
+    <dd>Mätningen körs automatiskt den 1:a varje månad. Körningar som inte klarar sina krav publiceras inte.</dd>
+    <dt>Får jag använda datan?</dt>
+    <dd>Ja. Datan är fri att använda under CC BY 4.0 och koden under MIT-licens. Allt finns på GitHub.</dd>
+    <dt>Vem står bakom Molnkartan?</dt>
+    <dd>Reda Ekengren, som byggde projektet tillsammans med AI-agenten Claude Code från Anthropic. Molnkartan är ett oberoende projekt, inte en myndighet.</dd>
+  </dl>
 
   <h2>Kod och data</h2>
   <div class="kort om-kort">
