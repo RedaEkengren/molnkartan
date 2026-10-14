@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Molnkartan · How it was made</title>
+<link rel="alternate" hreflang="sv" href="https://molnkartan.se/om.html">
+<link rel="alternate" hreflang="en" href="https://molnkartan.se/en/om.html">
+<link rel="alternate" hreflang="x-default" href="https://molnkartan.se/om.html">
+<script>const SPRAK = "en", T = {"tema_ljust": "Switch to light mode", "tema_morkt": "Switch to dark mode", "saknas": "Missing", "visa_i_tabellen": "Show in table", "nat_us": "US network", "nat_eu": "EU/EEA network", "nat_annat": "Other network", "myndighet": "agency", "w_inga_anrop": "No requests to any third party.", "nat_okant": "Unknown network", "och_till": "… and {n} more", "w_ga": "Requests to Google Analytics before the visitor answered.", "w_gtm": "Requests to Google Tag Manager before the visitor answered.", "w_ingen": "No requests to third parties.", "w_us_en": "{n} host on a US network before the visitor answered.", "w_us_flera": "{n} hosts on US networks before the visitor answered.", "w_inga_us": "No US networks before the visitor answered.", "d_ex1": "MX points to Microsoft", "d_regel1": "MX points to Microsoft (S1)", "d_ex2": "MX points to Google", "d_regel2": "MX points to Google (S1)", "d_ex3": "Spam filter in front", "d_regel3": "spam filter in front, but SPF and DKIM point to Microsoft (S2 + S7)", "d_ex4": "No cloud signals in DNS", "d_regel4": "DNS shows no cloud signals (S1, S2, S7)", "d_s1": "who receives the email", "d_s2": "who may send in the municipality's name", "d_s7": "who signs the email", "d_s5": "is there an Entra tenant", "d_s5_namn": "Microsoft account", "d_t2": "domain registered?", "d_finns": "exists", "d_svarar": "responds", "d_spamfilter": "spam filter/own", "d_bada": "both", "d_inget": "none", "d_annan_lev": "→ other provider", "d_inget_svar": "(no answer)", "d_annan_server": "→ another server", "d_dkim_ms": "DKIM still points to Microsoft: the email is probably sent from there.", "d_exo_men": "But the domain is registered in Microsoft's Exchange Online (checked {datum}).", "d_exo_ocksa": "The domain is also registered in Exchange Online (checked {datum}).", "d_samma_regler": "… and the same rules for all {n}", "e_ms": "Microsoft", "e_msg": "Microsoft and Google", "e_g": "Google", "e_inga": "No cloud signals", "e_okand": "Could not be determined", "kunde_inte": "Could not be measured", "w_annat_uk": "Other network, e.g. UK", "w_bara_eu": "Only EU/EEA networks", "w_ingen_tp": "No third party", "k_ms": "of {n} have Microsoft in their email DNS ({pct}); for {mx}, Microsoft receives the email according to MX", "k_exo": "of {n} have the domain registered in Microsoft's email service Exchange Online (registration, not usage; checked {datum})", "k_g": "have email with Google", "k_webb_eu": "host their website with a Swedish or European provider", "kw_us": "of {n} measurable call US networks before consent ({pct} %)", "kw_ga": "call Google Analytics or Tag Manager before consent", "kw_eu": "call only networks owned by European companies before consent", "kw_ingen": "make no requests to third parties before consent", "v_epost": "Email (DNS)", "svarar": "Responds", "svarar_inte": "Does not respond", "ingen_uppgift": "No data", "v_webb": "Website before consent", "v_tjanster": "Services on US networks", "inga_hittade": "None found", "under_25": "Under 25 %", "25_49": "25–49 %", "50_mer": "50 % or more", "v_google": "Google before consent", "bara_gtm": "Only Tag Manager", "nej_stor": "No", "s_dmarc_none": "have DMARC in monitoring mode (p=none) and do not ask receivers to stop spoofed email", "s_reject": "reject email that spoofs the sender (DMARC p=reject)", "s_mtasts": "have published MTA-STS for encrypted email to them", "s_dnssec": "have a DNSSEC-signed domain", "topp_rad": "{l}: {antal} organisations", "ja": "yes", "nej": "no", "sverige_eu": "Sweden/EU", "amerikanska_nat": "US networks", "matt_epost": "Email and accounts measured {tid}.", "matt_webb": "Websites measured {tid}.", "matt_tjanster": "Services measured {tid}.", "m_ms": "of {n} domains have email visibly routed through Microsoft's cloud", "m_inga": "have email without cloud signals in DNS: own servers or email filters", "m_exo": "have the domain registered in Exchange Online (registration, not usage; checked {datum})", "m_us": "of {n} measurable websites call US networks before consent"};
+const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
+<meta content="How Molnkartan was built with Claude Code, and the rules that stop an AI from fooling itself." name="description"/>
+<link href="https://molnkartan.se/om.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Molnkartan" property="og:site_name"/>
+<meta content="en_GB" property="og:locale"/>
+<meta content="How Molnkartan was made" property="og:title"/>
+<meta content="How Molnkartan was built with Claude Code, and the rules that stop an AI from fooling itself." property="og:description"/>
+<meta content="https://molnkartan.se/om.html" property="og:url"/>
+<meta content="https://molnkartan.se/dela.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Molnkartan: US clouds in the Swedish public sector" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Reda Ekengren" name="author"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "url": "https://molnkartan.se/en/om.html", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What does Molnkartan measure?", "acceptedAnswer": {"@type": "Answer", "text": "What can be seen from the outside of US cloud services at Sweden's 290 municipalities, 20 regions and 202 government agency domains: email via DNS, Microsoft accounts, which networks the website calls before the visitor has given consent, and service names in certificate logs."}}, {"@type": "Question", "name": "Does Microsoft in the email setup mean the data is stored in the USA?", "acceptedAnswer": {"@type": "Answer", "text": "No. The measurement shows configuration and requests visible from the internet, not where information is stored, which agreements apply or how dependent the organisation is."}}, {"@type": "Question", "name": "How do you know the measurement is right?", "acceptedAnswer": {"@type": "Answer", "text": "The rules are written before the data is collected and tested on a region they were not developed on. Conclusions are checked with independent methods, reviewers have looked for errors, and 43 municipalities and regions have been asked which email service they use."}}, {"@type": "Question", "name": "How often is the data updated?", "acceptedAnswer": {"@type": "Answer", "text": "The measurement runs automatically on the 1st of every month. Runs that do not meet their requirements are not published."}}, {"@type": "Question", "name": "Can I use the data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The data is free to use under CC BY 4.0 and the code under the MIT licence. Everything is on GitHub."}}, {"@type": "Question", "name": "Who is behind Molnkartan?", "acceptedAnswer": {"@type": "Answer", "text": "Reda Ekengren, who built the project together with the AI agent Claude Code from Anthropic. Molnkartan is an independent project, not a government body."}}]}</script>
+<link href="../stil.css" rel="stylesheet"/>
+<script src="../tema.js"></script>
+</head>
+<body>
+<svg aria-hidden="true" height="0" style="position:absolute" width="0"><symbol id="gubbe" viewbox="0 0 120 100"><path d="M26 80h52a20 20 0 0 0 2-39.9A27 27 0 0 0 28 42a19 19 0 0 0-2 38z" fill="var(--yta)" stroke="currentColor" stroke-linejoin="round" stroke-width="5"></path><g class="ogon"><circle cx="44" cy="60" fill="currentColor" r="4.5"></circle><circle cx="62" cy="60" fill="currentColor" r="4.5"></circle></g><path d="M45 69q8 6 16 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path><circle cx="90" cy="70" fill="var(--bg)" fill-opacity=".6" r="12" stroke="currentColor" stroke-width="5"></circle><path d="M99 79l12 12" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path></symbol></svg>
+<main>
+<header class="sidhuvud">
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>Molnkartan</span></a>
+<nav class="meny"><a href="./">Municipalities and regions</a><a href="myndigheter.html">Government agencies</a><a href="fynd.html">Findings</a><a aria-current="page" class="sa-gjordes" href="om.html"><svg aria-hidden="true" class="gubbe-mini" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>How it was made</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">GitHub ↗</a></nav>
+<a class="sprakval" href="../om.html" hreflang="sv" lang="sv" title="Svenska">SV</a><button aria-label="Toggle theme" class="temaknapp" type="button"><svg aria-hidden="true" class="mane" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg><svg aria-hidden="true" class="sol" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
+</header>
+<div class="om-hero">
+<svg aria-label="The cloud character, with a magnifying glass" class="gubbe" role="img" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>
+<div>
+<h1>How it was made</h1>
+<p class="ingress">Molnkartan was built by Reda Ekengren together with Claude Code, an AI agent from Anthropic. Claude wrote the code, ran the measurements and wrote the texts. Reda asked the question, set the rules and decided what could be published.</p>
+</div>
+</div>
+<h2>An AI is fast, and just as fast at fooling itself</h2>
+<p>An agent can measure 512 domains in a few minutes. It can also find the patterns it wants to see, pick the explanation that sounds best and write a headline that claims more than the data. That is why the project is built on rules that make it hard to be wrong without anyone noticing.</p>
+<ol class="steg">
+<li><b>The rules are written before the data.</b> Every classification is in <a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">METOD.md</a> (in Swedish), dated, before the measurement runs. If a rule is changed afterwards, it becomes a new version with a new test.</li>
+<li><b>Tested on data the rules have not seen.</b> Stockholm County was used to develop the rules and Skåne decided whether they held. The web rules failed that test twice and were rewritten before anything was published.</li>
+<li><b>Independent checks.</b> Every conclusion is tested with another method, for example Microsoft's own answer about a domain, three different DNS services and two sources for which country a network belongs to.</li>
+<li><b>Reviewers looking for errors.</b> Two separate Claude agents and then Codex from OpenAI were tasked with finding errors. They found several, see <a href="fynd.html#granskning-codex">the findings about the review</a>.</li>
+<li><b>Gates before publishing.</b> A measurement that does not reach 95 % coverage, or where the checks fail, is not published. The numbers on the pages are checked by tests against the raw data.</li>
+<li><b>Ask for the ground truth.</b> In October 2026, 43 municipalities and regions were asked which email service they use, without being told what Molnkartan says about them. The result will be reported here, even if it shows the method was wrong.</li>
+<li><b>Corrections stay.</b> Errors that are found are dated in the method. Nothing is rewritten afterwards.</li>
+</ol>
+<h2>What is not measured</h2>
+<p>Everything is based on what anyone can see from the outside: DNS, certificate logs and what a web page calls. No logins, no leaks. Names of internal systems and login pages are never published, and security weaknesses are reported only per county.</p>
+<h2 id="fragor">Frequently asked questions</h2>
+<dl class="fragor">
+<dt>What does Molnkartan measure?</dt>
+<dd>What can be seen from the outside of US cloud services at Sweden's 290 municipalities, 20 regions and 202 government agency domains: email via DNS, Microsoft accounts, which networks the website calls before the visitor has given consent, and service names in certificate logs.</dd>
+<dt>Does Microsoft in the email setup mean the data is stored in the USA?</dt>
+<dd>No. The measurement shows configuration and requests visible from the internet, not where information is stored, which agreements apply or how dependent the organisation is.</dd>
+<dt>How do you know the measurement is right?</dt>
+<dd>The rules are written before the data is collected and tested on a region they were not developed on. Conclusions are checked with independent methods, reviewers have looked for errors, and 43 municipalities and regions have been asked which email service they use.</dd>
+<dt>How often is the data updated?</dt>
+<dd>The measurement runs automatically on the 1st of every month. Runs that do not meet their requirements are not published.</dd>
+<dt>Can I use the data?</dt>
+<dd>Yes. The data is free to use under CC BY 4.0 and the code under the MIT licence. Everything is on GitHub.</dd>
+<dt>Who is behind Molnkartan?</dt>
+<dd>Reda Ekengren, who built the project together with the AI agent Claude Code from Anthropic. Molnkartan is an independent project, not a government body.</dd>
+</dl>
+<h2>Code and data</h2>
+<div class="kort om-kort">
+<div><h3>Data on the site</h3><p>What is shown here, as JSON.</p><a download="" href="../data.json">data.json</a> · <a download="" href="../myndigheter.json">myndigheter.json</a></div>
+<div><h3>Raw data</h3><p>Every measurement, with date. CC BY 4.0.</p><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">data/ on GitHub ↗</a></div>
+<div><h3>Code</h3><p>Measurement, classification and tests. MIT.</p><a href="https://github.com/RedaEkengren/molnkartan">The repo on GitHub ↗</a></div>
+<div><h3>Found an error?</h3><p>Corrections are welcome and reported.</p><a href="https://github.com/RedaEkengren/molnkartan/issues">Open an issue ↗</a></div>
+</div>
+<footer class="sidfot">
+<div class="fotkolumner">
+<div>
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>Molnkartan</span></a>
+<p>How dependent the Swedish public sector is on US clouds, measured from the outside with open signals. Every claim can be checked with a command.</p>
+</div>
+<div><h4>Explore</h4><a href="./">Municipalities and regions</a><a href="myndigheter.html">Government agencies</a><a href="fynd.html">Findings</a></div>
+<div><h4>Method</h4><a href="om.html">How it was made</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Rules and corrections (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulation (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Report an error</a></div>
+<div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Raw data</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Code: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
+</div>
+<div class="fotrad"><span>Updated on the 1st of every month. The site runs on GitHub Pages (USA), see <a href="fynd.html#vi-sjalva">Ourselves</a>.</span>
+<span class="markorer"><span>No cookies, no third parties</span><span>Rules written before measuring</span><span>Open source</span><span>Sources: Statistics Sweden, Wikidata, Team Cymru, RIPEstat</span></span></div>
+</footer>
+</main>
+</body>
+</html>

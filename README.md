@@ -143,3 +143,9 @@ läggs till i `METOD.md` med datum, och mätningen körs om.
 Koden: MIT, se [`LICENSE`](LICENSE). Data och resultat:
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.sv). Ange
 "Molnkartan" och mätdatum.
+
+## Ändra text på sidan
+
+Sidorna i `docs/` byggs, redigera dem inte direkt. Strukturen finns i `sidor/`,
+texterna i `i18n/sv.json` och `i18n/en.json` (samma nycklar, samma siffror; testerna
+kontrollerar det). Bygg om med `python3 bygg_sprak.py`, som också förrenderar tabellerna.

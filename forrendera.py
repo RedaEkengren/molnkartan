@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROT = Path(__file__).parent
 DOCS = ROT / "docs"
-SIDOR = ["index.html", "myndigheter.html"]
+SIDOR = ["index.html", "myndigheter.html", "en/index.html", "en/myndigheter.html"]
 CHROME = shutil.which("google-chrome") or shutil.which("google-chrome-stable") or "google-chrome"
 
 UTDRAG = """<script>addEventListener("load", () => setTimeout(() => {
@@ -36,14 +36,14 @@ UTDRAG = """<script>addEventListener("load", () => setTimeout(() => {
 
 def rendera(mapp, sida):
     """Innehållet i varje data-forrenderad-element efter att sidans JavaScript körts."""
-    kopia = mapp / f"__{sida}"
+    kopia = (mapp / sida).with_name("__" + Path(sida).name)
     kopia.write_text((DOCS / sida).read_text(encoding="utf-8").replace("</body>", UTDRAG + "</body>"), encoding="utf-8")
     server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), functools.partial(QuietHandler, directory=str(mapp)))
     threading.Thread(target=server.serve_forever, daemon=True).start()
     try:
         with tempfile.TemporaryDirectory() as profil:
             dom = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", f"--user-data-dir={profil}",
-                                  "--virtual-time-budget=15000", "--dump-dom", f"http://127.0.0.1:{server.server_port}/__{sida}"],
+                                  "--virtual-time-budget=15000", "--dump-dom", f"http://127.0.0.1:{server.server_port}/{kopia.relative_to(mapp)}"],
                                  capture_output=True, text=True, timeout=120).stdout
     finally:
         server.shutdown()
@@ -67,7 +67,7 @@ def skriv_in(text, innehall):
     return text
 
 
-if __name__ == "__main__":
+def main():
     with tempfile.TemporaryDirectory() as tmp:
         mapp = Path(tmp) / "docs"
         shutil.copytree(DOCS, mapp)
@@ -79,3 +79,7 @@ if __name__ == "__main__":
             fil = DOCS / sida
             fil.write_text(skriv_in(fil.read_text(encoding="utf-8"), innehall), encoding="utf-8")
             print(f"{sida}: {len(innehall)} delar förrenderade")
+
+
+if __name__ == "__main__":
+    main()

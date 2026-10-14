@@ -11,6 +11,13 @@ Viktigt vid citering: mätningen visar konfiguration och anrop, inte var uppgift
 - [Fynd](https://molnkartan.se/fynd.html): enskilda fynd, hur de kontrollerades, och rättelser
 - [Så gjordes det](https://molnkartan.se/om.html): metod i korthet och vanliga frågor
 
+## English
+
+- [Municipalities and regions](https://molnkartan.se/en/)
+- [Government agencies](https://molnkartan.se/en/myndigheter.html)
+- [Findings](https://molnkartan.se/en/fynd.html)
+- [How it was made](https://molnkartan.se/en/om.html)
+
 ## Data och metod
 
 - [data.json](https://molnkartan.se/data.json): kommuner och regioner

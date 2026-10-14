@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://molnkartan.se/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://molnkartan.se/myndigheter.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://molnkartan.se/fynd.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://molnkartan.se/om.html</loc><changefreq>monthly</changefreq></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://molnkartan.se/</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/"/></url>
+  <url><loc>https://molnkartan.se/en/</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/"/></url>
+  <url><loc>https://molnkartan.se/myndigheter.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/myndigheter.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/myndigheter.html"/></url>
+  <url><loc>https://molnkartan.se/en/myndigheter.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/myndigheter.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/myndigheter.html"/></url>
+  <url><loc>https://molnkartan.se/fynd.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/fynd.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/fynd.html"/></url>
+  <url><loc>https://molnkartan.se/en/fynd.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/fynd.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/fynd.html"/></url>
+  <url><loc>https://molnkartan.se/om.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/om.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/om.html"/></url>
+  <url><loc>https://molnkartan.se/en/om.html</loc><changefreq>monthly</changefreq><xhtml:link rel="alternate" hreflang="sv" href="https://molnkartan.se/om.html"/><xhtml:link rel="alternate" hreflang="en" href="https://molnkartan.se/en/om.html"/></url>
 </urlset>

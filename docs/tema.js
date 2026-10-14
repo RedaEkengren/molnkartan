@@ -6,7 +6,7 @@
   document.addEventListener("DOMContentLoaded", () => {
     const knapp = document.querySelector(".temaknapp");
     if (!knapp) return;
-    const etikett = () => knapp.setAttribute("aria-label", morktNu() ? "Byt till ljust läge" : "Byt till mörkt läge");
+    const etikett = () => knapp.setAttribute("aria-label", morktNu() ? t("tema_ljust") : t("tema_morkt"));
     etikett();
     knapp.addEventListener("click", () => {
       rot.dataset.tema = morktNu() ? "ljust" : "morkt";

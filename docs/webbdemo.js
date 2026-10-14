@@ -8,7 +8,7 @@ const WEBBEXEMPEL = [
   { passar: o => o.fore_samtycke?.klass === "US-nät före samtycke" && !o.fore_samtycke.ga && o.fore_samtycke.us.length <= 3 },
   { passar: o => o.fore_samtycke?.klass === "ingen tredjepart" },
 ];
-const NAT = { "US": ["Amerikanskt nät", "var(--g)"], "EU/EES": ["EU/EES-nät", "var(--inga)"], "annat": ["Annat nät", "var(--annat)"] };
+const NAT = { "US": [t("nat_us"), "var(--g)"], "EU/EES": [t("nat_eu"), "var(--inga)"], "annat": [t("nat_annat"), "var(--annat)"] };
 const VISA_HOGST = 7;
 
 function startaWebbDemo(org, { webbEtikett, webbFarg }) {
@@ -30,7 +30,7 @@ function startaWebbDemo(org, { webbEtikett, webbFarg }) {
     const f = o.fore_samtycke;
     lista.replaceChildren();
     utslag.classList.remove("syns");
-    namn.textContent = `${o.namn} · ${o.lan || "myndighet"}`;
+    namn.textContent = `${o.namn} · ${o.lan || t("myndighet")}`;
     adress.textContent = "";
     laddar.style.width = "0%";
     for (const tecken of (f.sida || "").replace(/^https:\/\//, "").replace(/\/$/, "")) {
@@ -42,24 +42,24 @@ function startaWebbDemo(org, { webbEtikett, webbFarg }) {
 
     // Amerikanska nät först, så de syns även när listan kortas.
     const varder = [...f.varder].sort((a, b) => (a.nat === "US" ? 0 : 1) - (b.nat === "US" ? 0 : 1));
-    if (!varder.length) lista.append(el("li", { className: "tom", textContent: "Inga anrop till någon tredjepart." }));
+    if (!varder.length) lista.append(el("li", { className: "tom", textContent: t("w_inga_anrop") }));
     for (const v of varder.slice(0, VISA_HOGST)) {
-      const [text, farg] = NAT[v.nat] || ["Okänt nät", "var(--okand)"];
+      const [text, farg] = NAT[v.nat] || [t("nat_okant"), "var(--okand)"];
       const li = el("li", {}, el("code", { textContent: v.v }),
         el("span", {}, v.lev ? el("small", { textContent: v.lev + " " }) : "", el("span", { className: "tagg", textContent: text, style: `background:${farg}` })));
       lista.append(li);
       requestAnimationFrame(() => li.classList.add("in"));
       await vanta(450);
     }
-    if (varder.length > VISA_HOGST) lista.append(el("li", { className: "tom", textContent: `… och ${varder.length - VISA_HOGST} till` }));
+    if (varder.length > VISA_HOGST) lista.append(el("li", { className: "tom", textContent: t("och_till", { n: varder.length - VISA_HOGST }) }));
     await vanta(600);
 
     utslag.replaceChildren(
       el("span", { className: "tagg", textContent: webbEtikett[f.klass], style: `background:${webbFarg[f.klass]}` }),
-      f.gaInsamling ? " Anrop till Google Analytics innan besökaren svarat." : f.ga ? " Anrop till Google Tag Manager innan besökaren svarat." :
-        f.klass === "ingen tredjepart" ? " Inga anrop till tredjeparter." :
-          f.klass === "US-nät före samtycke" ? ` ${f.us.length} ${f.us.length === 1 ? "värd" : "värdar"} på amerikanskt nät innan besökaren svarat.` :
-            " Inga amerikanska nät innan besökaren svarat.",
+      f.gaInsamling ? " " + t("w_ga") : f.ga ? " " + t("w_gtm") :
+        f.klass === "ingen tredjepart" ? " " + t("w_ingen") :
+          f.klass === "US-nät före samtycke" ? " " + t(f.us.length === 1 ? "w_us_en" : "w_us_flera", { n: f.us.length }) :
+            " " + t("w_inga_us"),
     );
     utslag.classList.add("syns");
     await vanta(3200);

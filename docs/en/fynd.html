@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Molnkartan · Findings</title>
+<link rel="alternate" hreflang="sv" href="https://molnkartan.se/fynd.html">
+<link rel="alternate" hreflang="en" href="https://molnkartan.se/en/fynd.html">
+<link rel="alternate" hreflang="x-default" href="https://molnkartan.se/fynd.html">
+<script>const SPRAK = "en", T = {"tema_ljust": "Switch to light mode", "tema_morkt": "Switch to dark mode", "saknas": "Missing", "visa_i_tabellen": "Show in table", "nat_us": "US network", "nat_eu": "EU/EEA network", "nat_annat": "Other network", "myndighet": "agency", "w_inga_anrop": "No requests to any third party.", "nat_okant": "Unknown network", "och_till": "… and {n} more", "w_ga": "Requests to Google Analytics before the visitor answered.", "w_gtm": "Requests to Google Tag Manager before the visitor answered.", "w_ingen": "No requests to third parties.", "w_us_en": "{n} host on a US network before the visitor answered.", "w_us_flera": "{n} hosts on US networks before the visitor answered.", "w_inga_us": "No US networks before the visitor answered.", "d_ex1": "MX points to Microsoft", "d_regel1": "MX points to Microsoft (S1)", "d_ex2": "MX points to Google", "d_regel2": "MX points to Google (S1)", "d_ex3": "Spam filter in front", "d_regel3": "spam filter in front, but SPF and DKIM point to Microsoft (S2 + S7)", "d_ex4": "No cloud signals in DNS", "d_regel4": "DNS shows no cloud signals (S1, S2, S7)", "d_s1": "who receives the email", "d_s2": "who may send in the municipality's name", "d_s7": "who signs the email", "d_s5": "is there an Entra tenant", "d_s5_namn": "Microsoft account", "d_t2": "domain registered?", "d_finns": "exists", "d_svarar": "responds", "d_spamfilter": "spam filter/own", "d_bada": "both", "d_inget": "none", "d_annan_lev": "→ other provider", "d_inget_svar": "(no answer)", "d_annan_server": "→ another server", "d_dkim_ms": "DKIM still points to Microsoft: the email is probably sent from there.", "d_exo_men": "But the domain is registered in Microsoft's Exchange Online (checked {datum}).", "d_exo_ocksa": "The domain is also registered in Exchange Online (checked {datum}).", "d_samma_regler": "… and the same rules for all {n}", "e_ms": "Microsoft", "e_msg": "Microsoft and Google", "e_g": "Google", "e_inga": "No cloud signals", "e_okand": "Could not be determined", "kunde_inte": "Could not be measured", "w_annat_uk": "Other network, e.g. UK", "w_bara_eu": "Only EU/EEA networks", "w_ingen_tp": "No third party", "k_ms": "of {n} have Microsoft in their email DNS ({pct}); for {mx}, Microsoft receives the email according to MX", "k_exo": "of {n} have the domain registered in Microsoft's email service Exchange Online (registration, not usage; checked {datum})", "k_g": "have email with Google", "k_webb_eu": "host their website with a Swedish or European provider", "kw_us": "of {n} measurable call US networks before consent ({pct} %)", "kw_ga": "call Google Analytics or Tag Manager before consent", "kw_eu": "call only networks owned by European companies before consent", "kw_ingen": "make no requests to third parties before consent", "v_epost": "Email (DNS)", "svarar": "Responds", "svarar_inte": "Does not respond", "ingen_uppgift": "No data", "v_webb": "Website before consent", "v_tjanster": "Services on US networks", "inga_hittade": "None found", "under_25": "Under 25 %", "25_49": "25–49 %", "50_mer": "50 % or more", "v_google": "Google before consent", "bara_gtm": "Only Tag Manager", "nej_stor": "No", "s_dmarc_none": "have DMARC in monitoring mode (p=none) and do not ask receivers to stop spoofed email", "s_reject": "reject email that spoofs the sender (DMARC p=reject)", "s_mtasts": "have published MTA-STS for encrypted email to them", "s_dnssec": "have a DNSSEC-signed domain", "topp_rad": "{l}: {antal} organisations", "ja": "yes", "nej": "no", "sverige_eu": "Sweden/EU", "amerikanska_nat": "US networks", "matt_epost": "Email and accounts measured {tid}.", "matt_webb": "Websites measured {tid}.", "matt_tjanster": "Services measured {tid}.", "m_ms": "of {n} domains have email visibly routed through Microsoft's cloud", "m_inga": "have email without cloud signals in DNS: own servers or email filters", "m_exo": "have the domain registered in Exchange Online (registration, not usage; checked {datum})", "m_us": "of {n} measurable websites call US networks before consent"};
+const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
+<meta content="What Molnkartan has found, with how each finding was checked and where the data is." name="description"/>
+<link href="https://molnkartan.se/fynd.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Molnkartan" property="og:site_name"/>
+<meta content="en_GB" property="og:locale"/>
+<meta content="Molnkartan – findings" property="og:title"/>
+<meta content="What Molnkartan has found, with how each finding was checked and where the data is." property="og:description"/>
+<meta content="https://molnkartan.se/fynd.html" property="og:url"/>
+<meta content="https://molnkartan.se/dela.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Molnkartan: US clouds in the Swedish public sector" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Reda Ekengren" name="author"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Report", "name": "Molnkartan findings", "url": "https://molnkartan.se/en/fynd.html", "inLanguage": "en", "author": {"@type": "Person", "name": "Reda Ekengren"}, "license": "https://creativecommons.org/licenses/by/4.0/", "about": "US cloud services in the Swedish public sector"}</script>
+<link href="../stil.css" rel="stylesheet"/>
+<script src="../tema.js"></script>
+</head>
+<body>
+<svg aria-hidden="true" height="0" style="position:absolute" width="0"><symbol id="gubbe" viewbox="0 0 120 100"><path d="M26 80h52a20 20 0 0 0 2-39.9A27 27 0 0 0 28 42a19 19 0 0 0-2 38z" fill="var(--yta)" stroke="currentColor" stroke-linejoin="round" stroke-width="5"></path><g class="ogon"><circle cx="44" cy="60" fill="currentColor" r="4.5"></circle><circle cx="62" cy="60" fill="currentColor" r="4.5"></circle></g><path d="M45 69q8 6 16 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path><circle cx="90" cy="70" fill="var(--bg)" fill-opacity=".6" r="12" stroke="currentColor" stroke-width="5"></circle><path d="M99 79l12 12" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path></symbol></svg>
+<main>
+<header class="sidhuvud">
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>Molnkartan</span></a>
+<nav class="meny"><a href="./">Municipalities and regions</a><a href="myndigheter.html">Government agencies</a><a aria-current="page" href="fynd.html">Findings</a><a class="sa-gjordes" href="om.html"><svg aria-hidden="true" class="gubbe-mini" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>How it was made</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">GitHub ↗</a></nav>
+<a class="sprakval" href="../fynd.html" hreflang="sv" lang="sv" title="Svenska">SV</a><button aria-label="Toggle theme" class="temaknapp" type="button"><svg aria-hidden="true" class="mane" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg><svg aria-hidden="true" class="sol" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
+</header>
+<h1>Findings</h1>
+<p class="ingress">What the measurements have shown, one finding at a time. Each finding says how it was checked and links to the raw data. Every number is computed by <code>fynd_siffror.py</code> and checked against the page by a test. Errors in our own method are under <a href="#rattelser">Corrections and review</a>.</p>
+<div class="huvudfynd"><a href="#exchange-online"><b>305 of 310</b><span>municipalities and regions have their domain registered in Microsoft's email service</span></a><a href="#myndigheter-ga"><b>30 of 193</b><span>measurable agency domains call Google before consent</span></a><a href="#tjanster"><b>150 of 289 municipalities</b><span>had no service names on US networks in the certificate logs</span></a></div>
+<nav aria-label="Contents" class="innehall">
+<div><h2>Findings</h2><ol><li><a href="#exchange-online">Almost all municipalities have their domain registered in Microsoft's email service</a></li><li><a href="#tjanster">At half of the municipalities, no service names were found on US networks</a></li><li><a href="#myndigheter-ga">Agency websites call Google before consent</a></li><li><a href="#google-analytics">Sixteen municipalities call Google Analytics or Tag Manager before consent</a></li><li><a href="#samtyckesverktyget">The cookie banner itself is often loaded from a US network</a></li><li><a href="#browsealoud">The read-aloud service is the second most common on US networks</a></li><li><a href="#ingen-tredjepart">Twenty made no third-party requests before consent</a></li><li><a href="#google-tar-emot">Google receives, DKIM published at Microsoft</a></li><li><a href="#sakerhetsgrunder">One in three municipalities has DMARC in monitoring mode</a></li><li><a href="#tenant">All but one have a Microsoft account</a></li><li><a href="#skatteverket">The Swedish Tax Agency barely shows up in the measurement, and that is a finding</a></li><li><a href="#vi-sjalva">We measured ourselves: US cloud, but no third parties</a></li></ol></div>
+<div><h2><a href="#rattelser">Corrections and review</a></h2><ol><li><a href="#granskning-codex">A reviewer from another AI model found that we claimed too much</a></li><li><a href="#granskning">An independent review found errors in our findings</a></li><li><a href="#holdout">Two tests failed before the website measurement held</a></li><li><a href="#dkim-felet">The animation found an error in our rules</a></li></ol></div>
+</nav>
+<article class="fynd" id="exchange-online">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Email and accounts</span>
+<h2>Almost all municipalities have their domain registered in Microsoft's email service</h2>
+<div class="tal">305 of 310</div>
+<p>In DNS, email points to Microsoft at 245 municipalities and regions: at 189, Microsoft receives the email according to the MX record, and at 56 a spam filter or their own server comes first but SPF and DKIM or autodiscover are configured for Microsoft. The latter show configuration, not where the email actually ends up. Sollentuna, Norrköping and Halmstad are configured for both Microsoft and Google.</p>
+<p>Microsoft's own email configuration service also responds that the domain is registered in an Exchange Online organisation for <b>305 of 310</b>, including all 32 where DNS was not enough, 19 of 20 without cloud signals in DNS and 7 of 10 that receive email at Google. Among agency domains, this applies to 142 of 202, the Swedish Tax Agency included. The registration does not show that email is received or stored there; that 7 of 10 Google municipalities answer yes shows the limit.</p>
+<details><summary>How it was checked</summary>
+<p>The checks test different parts of the measurement chain and share some of it: the email class was queried via three other DNS resolvers (512 of 512 identical; same records and same rules, so this tests the resolvers, not the rules), Microsoft accounts via a second Microsoft endpoint (512 of 512), the networks behind third-party hosts via RIPEstat (338 of 338 same ASN; this tests the registry, not which address the browser used). The Exchange Online check first failed its requirement because of a bug in our code and throttling; after the correction, 331 of 333 among those classified as Microsoft. A later run from GitHub Actions did not meet the requirement and is not published. Only yes or no is stored.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">The checks</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-2026-10-08T165750Z.json">Raw data</a></p>
+</article>
+<article class="fynd" id="tjanster">
+<time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Where services run</span>
+<h2>At half of the municipalities, no service names were found on US networks</h2>
+<div class="tal">150 of 289 municipalities</div>
+<p>Certificate logs show names under an organisation's domain that have been issued a certificate: e-services, booking, login pages, websites and the like. At 150 of 289 municipalities, no such name was found with an address on a US network; the median per municipality is 0 %. This does not mean the municipality has no US services: names without their own certificate, services on the provider's domain and names covered only by wildcard certificates are not visible.</p>
+<p>Counting all names, 15.7 % of the municipalities' 5,342 names are on US networks, including CDNs such as Cloudflare, but the total is driven by a few: a single municipality accounts for 25 % of the municipalities' names on US networks. Regions are higher: 19 of 20 have at least one name on a US network and the median is 13 %. Among agency domains the median is 3 %. Of all names, most are on networks owned by European companies, 14 on networks in other countries and 16 on networks that could not be identified; the measurement does not say where the servers are located.</p>
+<details><summary>How it was checked</summary>
+<p>The names come from crt.sh, with Certspotter as a fallback. A name counts if it has a public IPv4 address at the time of measurement; that does not show a service actually runs there. Names pointing to internal addresses (1,268 in total) are not counted, and the number is stored only as a total. No hostnames are stored or published. The first run failed the requirement for the share of names with a known network and was never published.</p>
+<p>For comparison, 20 randomly selected organisations were also measured with the second source: the share differed by at most 15 percentage points for 18 of 20 (requirement 16). This compares shares, not whether the list of names is complete, and both sources read the same certificate logs. The tolerance is not enough to test the zero category: for Grums the main source found no names on US networks but the second source did. The direction of the error from wildcard certificates and domain selection has not been investigated.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-tjanster.md">Results</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/cert-2026-10-08T204928Z.json">Raw data</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/triangulering-t6-2026-10-09T081527Z.json">The comparison</a></p>
+</article>
+<article class="fynd" id="myndigheter-ga">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Government agencies</span>
+<h2>Agency websites call Google before consent</h2>
+<div class="tal">30 of 193</div>
+<p>30 of 193 measurable agency domains made requests to Google Tag Manager or Google Analytics before the visitor had given consent. 11 of them called Google Analytics servers, where visitor statistics are received; the other 19 only called Tag Manager. The Swedish Armed Forces are one of those that load Tag Manager.</p>
+<details><summary>How it was checked</summary>
+<p>The measurement records request attempts in the browser's network log; whether the request succeeded is not stored. The Swedish Armed Forces were checked in a regular Chrome without a consent cookie: <code>googletagmanager.com/gtm.js</code> was in the browser's resource list, so it was loaded, but there were no requests to Google Analytics. A successful request to Tag Manager gives Google the visitor's IP address and browser information; it does not mean visitor statistics are collected.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-myndigheter.md">Results</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-myndigheter-matning-2026-10-08T164403Z.json">Raw data</a></p>
+</article>
+<article class="fynd" id="google-analytics">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Websites before consent</span>
+<h2>Sixteen municipalities call Google Analytics or Tag Manager before consent</h2>
+<div class="tal">16 of 306</div>
+<p>Eleven municipalities' pages made requests to Google Analytics servers, where visitor statistics are received, while the cookie banner was still unanswered: Valdemarsvik, Emmaboda, Borgholm, Hässleholm, Dals-Ed, Färgelanda, Mellerud, Åmål, Norsjö, Storuman and Pajala.</p>
+<p>Five only called Google Tag Manager, without any request to Google Analytics: Jönköping, Oskarshamn, Sölvesborg, Vänersborg and Sunne. A successful Tag Manager request gives Google the IP address and browser information but does not by itself collect visitor statistics.</p>
+<p>Hässleholm's request contains a parameter suggesting Google's <i>Consent Mode</i>, where cookieless requests are sent before consent. Whether that complies with the rules is not decided here.</p>
+<details><summary>How it was checked</summary>
+<p>Headless Chrome with a network log, no button clicked. The log shows request attempts; whether the request succeeded is not stored. In a regular Chrome, Hässleholm's request reached Google Analytics, which responded (HTTP 503), and Tag Manager loaded for Jönköping and Sunne. Before each run we check that a blank page gives zero hits and that a page with Google Analytics gives a hit. All sixteen were measured again on 9 October with the same result.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">Results</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-ga16-2026-10-09T003706Z.json">The re-measurement</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/stickprov-2026-10-09.json">Spot check</a></p>
+</article>
+<article class="fynd" id="samtyckesverktyget">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Websites before consent</span>
+<h2>The cookie banner itself is often loaded from a US network</h2>
+<div class="tal">31 municipalities and regions</div>
+<p>At 31 municipalities and regions, the page calls the consent tool, the box where the visitor chooses whether data may be sent, on a server in a US company's network. Cookiebot is reached via Akamai (9), Cookie-Script via DigitalOcean (8), Cookie Information via Microsoft (5), and Cookie Tractor, CookieYes, Klaro and OneTrust via Cloudflare. A consent tool has to load before the visitor can answer; the finding concerns where it is loaded from.</p>
+<p>For eleven of them, the cookie banner is the <b>only</b> contact with a US network before the visitor has chosen anything.</p>
+<details><summary>How it was checked</summary>
+<p>Each third-party host was looked up to its network (ASN) at the time of measurement. Which domains count as consent tools is defined in <code>fynd_siffror.py</code>. That a tool is fetched from a US network does not say where the tool's own servers and databases are.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/fynd_siffror.py">The definition</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sverige-2026-10-08T162614Z.json">Raw data</a></p>
+</article>
+<article class="fynd" id="browsealoud">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Websites before consent</span>
+<h2>The read-aloud service is the second most common on US networks</h2>
+<div class="tal">45 municipalities and regions</div>
+<p>After Google (76), Texthelp's read-aloud service BrowseAloud, which reads the page aloud for those who need it, is the service most often called on a US network before consent. It is reached via Amazon CloudFront. It is an accessibility tool, not ad tracking.</p>
+<details><summary>How it was checked</summary>
+<p>The addresses were compared with Amazon's published list of IP addresses: they belong to CloudFront, a CDN with servers all over the world. The visitor is probably served by a server in Europe. Where Texthelp's own servers are located is not visible from the outside.</p>
+</details>
+</article>
+<article class="fynd" id="ingen-tredjepart">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Websites before consent</span>
+<h2>Twenty made no third-party requests before consent</h2>
+<div class="tal">20 municipalities and regions</div>
+<p>Upplands Väsby, Huddinge, Eskilstuna, Trosa, Malmö, Landskrona, Eslöv, Trelleborg, Simrishamn, Partille, Orust, Gullspång, Filipstad, Gävle, Sundsvall, Ragunda, Vindeln, Övertorneå, Älvsbyn and Region Stockholm load everything from their own website before the visitor has answered. Two of them, Partille and Region Stockholm, have the website itself behind Cloudflare, a US CDN.</p>
+<details><summary>How it was checked</summary>
+<p>Huddinge was checked in a regular Chrome with an unanswered cookie banner: all 31 resources were fetched from <code>www.huddinge.se</code>.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/stickprov-2026-10-09.json">Spot check</a></p>
+</article>
+<article class="fynd" id="google-tar-emot">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Email</span>
+<h2>Google receives, DKIM published at Microsoft</h2>
+<div class="tal">5 municipalities</div>
+<p>Ödeshög, Ydre, Boxholm, Åtvidaberg and Vimmerby receive email at Google but have published DKIM keys at Microsoft. This suggests email is sent via Microsoft, but whether it is actually signed there was not checked; the keys may also be left over. Four of them are in Östergötland, where five of fourteen receive email at Google.</p>
+<details><summary>How it was checked</summary>
+<p><code>dig +short MX atvidaberg.se</code> points to Google; <code>dig +short CNAME selector1._domainkey.atvidaberg.se</code> points to Microsoft. All five were checked again on 9 October.</p>
+</details>
+</article>
+<article class="fynd" id="sakerhetsgrunder">
+<time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Security basics</span>
+<h2>One in three municipalities has DMARC in monitoring mode</h2>
+<div class="tal">97 of 310</div>
+<p>DMARC is a DNS record where the domain owner tells receivers what to do with email that claims to come from the domain but fails the check. 97 municipalities and regions have <code>p=none</code>: they ask for reports but not for such email to be stopped; receivers then only apply their own filters. 132 have <code>p=reject</code>. 34 have published MTA-STS, which can prevent email to them from being sent unencrypted; whether the policy is actually enforced was not checked. DNSSEC is in place at 257.</p>
+<details><summary>How it was checked</summary>
+<p>The lookups were made via 1.1.1.1. The DNS signals were repeated via 9.9.9.9: 510–512 of 512 identical per signal. DNS errors count as errors, not as missing records, and a run with more than 2 % errors is not published. The result is reported only per county, and counties with fewer than five organisations are merged, never per organisation.</p>
+</details>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-sakerhet.md">Results per county</a> · <a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/sakerhet-2026-10-09T004643Z.json">Raw data</a></p>
+</article>
+<article class="fynd" id="tenant">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Accounts</span>
+<h2>All but one have a Microsoft account</h2>
+<div class="tal">309 of 310</div>
+<p>All municipalities and regions except Gällivare have a Microsoft Entra tenant on the measured domain. Gällivare has one on its other domain, <code>gallivare.se</code>. An account does not say how much it is used.</p>
+<details><summary>How it was checked</summary>
+<p>Microsoft's public OpenID address responds 200 for a domain with a tenant and 400 without. Checked against <code>benbo.se</code> and a made-up domain, both of which gave 400.</p>
+</details>
+</article>
+<article class="fynd" id="skatteverket">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Government agencies</span>
+<h2>The Swedish Tax Agency barely shows up in the measurement, and that is a finding</h2>
+<p>According to <a href="https://www.sverigesradio.se/artikel/skatteverket-inforde-molntjanster-trots-avradan">Ekot</a> (Swedish Radio), the Swedish Tax Agency (Skatteverket) has adopted US cloud services on a large scale. In DNS, the agency has email on its own servers without cloud signals, and in the measurement the website made no third-party requests. What is visible is a Microsoft account and that the domain is registered in Exchange Online.</p>
+<p>It shows how little can be seen from the outside. The measurements concern configuration and requests visible from the internet, not how dependent an organisation is on US clouds. Services used internally leave few traces.</p>
+<p><a href="myndigheter.html">The agencies</a></p>
+</article>
+<article class="fynd" id="vi-sjalva">
+<time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Ourselves</span>
+<h2>We measured ourselves: US cloud, but no third parties</h2>
+<p>Molnkartan runs on GitHub Pages, which is owned by Microsoft and delivered via Fastly. The DNS measurements run every month in GitHub Actions on Microsoft's Azure; the web measurement is made from Sweden. With the same tools as for the municipalities: the site makes no third-party requests and sets no cookies, but the hosting is on a US network.</p>
+<p>The difference from a municipality is that the site does not handle personal data or exercise public authority. But we do not want to claim anything about others that we do not say about ourselves.</p>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Raw data</a></p>
+</article>
+<h2 class="avsnitt" id="rattelser">Corrections and review</h2>
+<p>Errors that we and our reviewers have found in the method, with dates. Nothing is rewritten afterwards; see also <a href="om.html">How it was made</a>.</p>
+<article class="fynd" id="granskning-codex">
+<time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Error in our method</span>
+<h2>A reviewer from another AI model found that we claimed too much</h2>
+<p>After our own reviews, we had Codex, a model from another company, review the whole project. It found errors our reviewers missed, because they were based on the same model as us. The most important:</p>
+<ul>
+<li>The web measurement records <b>request attempts</b> in the browser's network log, not that contact succeeded. The findings said "contacts".</li>
+<li>The Microsoft classification of email rests on different kinds of evidence: MX for most, but only published configuration (SPF, DKIM) for some. This is now reported separately.</li>
+<li>The checks were called independent although several share a source or classification with the main measurement. Each check now describes what it can detect.</li>
+<li>"Half of the municipalities have no services on US networks" was a claim of absence the measurement cannot support, and the check passed a case where the second source found US names.</li>
+<li>That all numbers are "lower bounds" was not established for every measure, and the project's question about "dependence" is not measured directly.</li>
+<li>In some failures (DNS timeout, Chrome crash, incomplete pagination) the code could silently give a negative answer instead of "could not be measured". No published numbers have been shown to be affected, and it is fixed: such failures now become "could not be measured".</li>
+</ul>
+<p>All points are <a href="https://github.com/RedaEkengren/molnkartan/issues">issues on GitHub</a> with Codex's counter-examples.</p>
+</article>
+<article class="fynd" id="granskning">
+<time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Error in our method</span>
+<h2>An independent review found errors in our findings</h2>
+<p>Before sharing the site, we had a separate reviewer, who had not built the project and only had read access, try to disprove each finding against the raw data. Among other things, it found:</p>
+<ul>
+<li>that the Google Analytics headline was wrong for five municipalities that only load Tag Manager,</li>
+<li>that the Exchange Online finding claimed more than the measurement shows,</li>
+<li>that the number with a consent tool on a US network was 31, not 28,</li>
+<li>that two automatic runs that failed their requirements had been published anyway,</li>
+<li>that DMARC <code>p=none</code> was described incorrectly, and</li>
+<li>that Gotland County, with a single organisation, revealed individual values although the security basics are only to be reported in groups.</li>
+</ul>
+<p>Everything is corrected on this page. Runs that fail their requirements are no longer published, and every number here is checked automatically against the raw data.</p>
+</article>
+<article class="fynd" id="holdout">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Error in our method</span>
+<h2>Two tests failed before the website measurement held</h2>
+<p>The website rules were tested on counties they were not built on. A hand-written list of providers missed 51 % of the hosts in Skåne and 28 % in Västra Götaland, against the requirement of 10 %. No classifications from those runs were published. Version 3 classifies by the network behind each host and met the coverage requirement on Norrland, with a known network for 99 % of hosts. That measures that the classification can be made, not that it is right. Hässleholm's Google Analytics requests were discovered in the Skåne run and then confirmed separately.</p>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-webb.md">The whole process</a> (Swedish)</p>
+</article>
+<article class="fynd" id="dkim-felet">
+<time datetime="2026-10-08">8 October 2026</time> · <span class="metod">Error in our method</span>
+<h2>The animation found an error in our rules</h2>
+<div class="tal">3 misclassified</div>
+<p>The animation on the home page replays the measurement with real responses. For Åtvidaberg it showed a DKIM response that clearly pointed to Microsoft, while the signal said "none". The rule only recognised Microsoft's older format. After the correction, Gotland, Sjöbo and Bromölla changed from "could not be determined" to Microsoft. The correction is dated in the method, and the old numbers remain.</p>
+<p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">The method, section Rättelse</a> (Swedish)</p>
+</article>
+<footer class="sidfot">
+<div class="fotkolumner">
+<div>
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>Molnkartan</span></a>
+<p>How dependent the Swedish public sector is on US clouds, measured from the outside with open signals. Every claim can be checked with a command.</p>
+</div>
+<div><h4>Explore</h4><a href="./">Municipalities and regions</a><a href="myndigheter.html">Government agencies</a><a href="fynd.html">Findings</a></div>
+<div><h4>Method</h4><a href="om.html">How it was made</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Rules and corrections (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulation (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Report an error</a></div>
+<div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Raw data</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Code: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
+</div>
+<div class="fotrad"><span id="matt">Measured 8 October 2026.</span> <span>Updated on the 1st of every month. The site runs on GitHub Pages (USA), see <a href="fynd.html#vi-sjalva">Ourselves</a>.</span>
+<span class="markorer"><span>No cookies, no third parties</span><span>Rules written before measuring</span><span>Open source</span><span>Sources: Statistics Sweden, Wikidata, Team Cymru, RIPEstat</span></span></div>
+</footer>
+</main>
+</body>
+</html>

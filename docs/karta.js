@@ -37,7 +37,7 @@ function startaKarta(org, karta, vyer) {
 
   function farga() {
     for (const [kod, p] of ytor) {
-      const o = perKod.get(kod), [etikett, farg] = o ? vy.varde(o) : ["Saknas", "var(--linje)"];
+      const o = perKod.get(kod), [etikett, farg] = o ? vy.varde(o) : [t("saknas"), "var(--linje)"];
       p.style.fill = farg;
       p.dataset.etikett = etikett;
     }
@@ -67,7 +67,7 @@ function startaKarta(org, karta, vyer) {
     }
     const lank = document.createElement("a");
     lank.href = "#tabell";
-    lank.textContent = "Visa i tabellen";
+    lank.textContent = t("visa_i_tabellen");
     lank.onclick = () => { const sok = document.getElementById("sok"); sok.value = o.namn; sok.dispatchEvent(new Event("input")); };
     info.append(lank);
   }

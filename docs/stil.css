@@ -203,3 +203,9 @@ html { scroll-behavior: smooth; }
 .fragor { max-width: 72ch; }
 .fragor dt { font-weight: 600; margin-top: 14px; }
 .fragor dd { margin: 4px 0 0; color: var(--dampad); }
+.sprakval { display: inline-flex; align-items: center; justify-content: center; height: 34px; padding: 0 10px; flex: none;
+  border: 1px solid var(--linje); border-radius: 8px; background: var(--yta); color: var(--text); text-decoration: none;
+  font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; }
+.sprakval:hover { border-color: var(--dampad); }
+@media (max-width: 720px) { .sidhuvud .sprakval { order: 2; margin-left: auto; } .sidhuvud .temaknapp { margin-left: 0; } }
+@media (min-width: 721px) { .sidhuvud .sprakval { margin-left: 8px; } }

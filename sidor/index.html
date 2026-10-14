@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="{{sprak}}">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{t:index.004}}</title>
+<meta content="{{t:index.001}}" name="description"/>
+<link href="https://molnkartan.se/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Molnkartan" property="og:site_name"/>
+<meta content="sv_SE" property="og:locale"/>
+<meta content="{{t:index.002}}" property="og:title"/>
+<meta content="{{t:index.001}}" property="og:description"/>
+<meta content="https://molnkartan.se/" property="og:url"/>
+<meta content="{{bas_rot}}dela.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="{{t:index.003}}" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Reda Ekengren" name="author"/>
+<script type="application/ld+json">{{t:index.005}}</script>
+<link href="{{rot}}stil.css" rel="stylesheet"/>
+<script src="{{rot}}tema.js"></script>
+</head>
+<body>
+<svg aria-hidden="true" height="0" style="position:absolute" width="0"><symbol id="gubbe" viewbox="0 0 120 100"><path d="M26 80h52a20 20 0 0 0 2-39.9A27 27 0 0 0 28 42a19 19 0 0 0-2 38z" fill="var(--yta)" stroke="currentColor" stroke-linejoin="round" stroke-width="5"></path><g class="ogon"><circle cx="44" cy="60" fill="currentColor" r="4.5"></circle><circle cx="62" cy="60" fill="currentColor" r="4.5"></circle></g><path d="M45 69q8 6 16 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path><circle cx="90" cy="70" fill="var(--bg)" fill-opacity=".6" r="12" stroke="currentColor" stroke-width="5"></circle><path d="M99 79l12 12" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path></symbol></svg>
+<main>
+<header class="sidhuvud">
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>{{t:index.004}}</span></a>
+<nav class="meny"><a aria-current="page" href="./">{{t:index.006}}</a><a href="myndigheter.html">{{t:index.007}}</a><a href="fynd.html">{{t:index.008}}</a><a class="sa-gjordes" href="om.html"><svg aria-hidden="true" class="gubbe-mini" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>{{t:index.009}}</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">{{t:index.010}}</a></nav>
+<button aria-label="{{t:index.011}}" class="temaknapp" type="button"><svg aria-hidden="true" class="mane" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg><svg aria-hidden="true" class="sol" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
+</header>
+<h1>{{t:index.012}}</h1>
+<p class="ingress">{{t:index.013}}</p>
+<section aria-label="{{t:index.014}}" class="demo">
+<div class="demo-huvud">{{t:index.015}}</div>
+<div class="demo-yta">
+<pre aria-hidden="true" class="terminal" id="term"></pre>
+<ol class="signaler" id="sig"></ol>
+</div>
+<div class="utslag" id="utslag"></div>
+<div aria-hidden="true" class="prickar" id="prickar"></div>
+</section>
+<div class="kort" data-forrenderad="" id="kort"><!--fr:kort--><!--/fr:kort--></div>
+<h2>{{t:index.016}}</h2>
+<section aria-label="{{t:index.017}}" class="kartsektion">
+<div aria-label="{{t:index.018}}" class="kartflikar" id="kartFlikar" role="group"></div>
+<div class="kartyta">
+<svg aria-label="{{t:index.019}}" class="karta" id="karta" role="img"></svg>
+<div class="kartsida">
+<div class="legend kartlegend" id="kartLegend"></div>
+<div class="kartinfo" id="kartInfo"></div>
+<p class="forklaring">{{t:index.020}}</p>
+</div>
+</div>
+</section>
+<div class="varning">
+<h2>{{t:index.021}}</h2>
+<ul>
+<li>{{t:index.022}}</li>
+<li>{{t:index.023}}</li>
+<li>{{t:index.024}}</li>
+<li>{{t:index.025}}</li>
+</ul>
+</div>
+<h2>{{t:index.026}}</h2>
+<div class="legend" data-forrenderad="" id="legend"><!--fr:legend--><!--/fr:legend--></div>
+<div class="lan" data-forrenderad="" id="lan"><!--fr:lan--><!--/fr:lan--></div>
+<h2>{{t:index.027}}</h2>
+<p class="forklaring">{{t:index.028}}</p>
+<section aria-label="{{t:index.029}}" class="demo">
+<div class="demo-huvud">{{t:index.030}}</div>
+<div class="demo-yta">
+<div aria-hidden="true" class="webblasare">
+<div class="adressfalt"><i></i><i></i><i></i><span id="wAdress"></span></div>
+<div class="laddar"><span id="wLaddar"></span></div>
+<div class="sidinnehall"><b></b><b></b><b></b><b></b>
+<div class="banner">{{t:index.031}}</div>
+</div>
+</div>
+<ol class="varder" id="wVarder"></ol>
+</div>
+<div class="utslag" id="wUtslag"></div>
+</section>
+<div class="kort" data-forrenderad="" id="kortWebb"><!--fr:kortWebb--><!--/fr:kortWebb--></div>
+<div class="legend" data-forrenderad="" id="legendWebb" style="margin-top:20px"><!--fr:legendWebb--><!--/fr:legendWebb--></div>
+<div class="lan" data-forrenderad="" id="lanWebb"><!--fr:lanWebb--><!--/fr:lanWebb--></div>
+<h3>{{t:index.032}}</h3>
+<ol class="topplista" data-forrenderad="" id="topp"><!--fr:topp--><!--/fr:topp--></ol>
+<p class="forklaring">{{t:index.033}}</p>
+<h2>{{t:index.034}}</h2>
+<p class="forklaring">{{t:index.035}}</p>
+<div class="kort" data-forrenderad="" id="kortSakerhet"><!--fr:kortSakerhet--><!--/fr:kortSakerhet--></div>
+<h2 id="tabell">{{t:index.036}}</h2>
+<div class="filter">
+<input aria-label="{{t:index.037}}" id="sok" placeholder="{{t:index.038}}" type="search"/>
+<select aria-label="{{t:index.039}}" data-forrenderad="" id="lanFilter"><option value="">{{t:index.040}}</option><!--fr:lanFilter--><!--/fr:lanFilter--></select>
+<select aria-label="{{t:index.041}}" data-forrenderad="" id="epostFilter"><option value="">{{t:index.042}}</option><!--fr:epostFilter--><!--/fr:epostFilter--></select>
+<select aria-label="{{t:index.043}}" data-forrenderad="" id="webbFilter"><option value="">{{t:index.044}}</option><!--fr:webbFilter--><!--/fr:webbFilter--></select>
+</div>
+<div class="tabell">
+<table>
+<thead><tr><th>{{t:index.045}}</th><th>{{t:index.039}}</th><th>{{t:index.046}}</th><th>{{t:index.041}}</th><th>{{t:index.047}}</th><th>{{t:index.048}}</th><th>{{t:index.049}}</th><th>{{t:index.043}}</th></tr></thead>
+<tbody data-forrenderad="" id="rader"><!--fr:rader--><!--/fr:rader--></tbody>
+</table>
+</div>
+<footer class="sidfot">
+<div class="fotkolumner">
+<div>
+<a class="marke" href="./"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M9.5 23.5h13a5.5 5.5 0 0 0 .6-10.97A7.5 7.5 0 0 0 8.7 13.4 5.1 5.1 0 0 0 9.5 23.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="20.5" cy="18.8" r="1.5"></circle></svg><span>{{t:index.004}}</span></a>
+<p>{{t:index.050}}</p>
+</div>
+<div><h4>{{t:index.051}}</h4><a href="./">{{t:index.006}}</a><a href="myndigheter.html">{{t:index.007}}</a><a href="fynd.html">{{t:index.008}}</a></div>
+<div><h4>{{t:index.052}}</h4><a href="om.html">{{t:index.009}}</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">{{t:index.053}}</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">{{t:index.054}}</a><a href="https://github.com/RedaEkengren/molnkartan/issues">{{t:index.055}}</a></div>
+<div><h4>{{t:index.056}}</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">{{t:index.057}}</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">{{t:index.058}}</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">{{t:index.059}}</a></div>
+</div>
+<div class="fotrad">
+<span data-forrenderad="" id="matt"><!--fr:matt--><!--/fr:matt--></span> <span>{{t:index.060}} <a href="fynd.html#vi-sjalva">{{t:index.061}}</a>.</span>
+<span class="markorer"><span>{{t:index.062}}</span><span>{{t:index.063}}</span><span>{{t:index.064}}</span><span>{{t:index.065}}</span></span>
+</div>
+</footer>
+</main>
+<script src="{{rot}}karta.js"></script>
+<script src="{{rot}}demo.js"></script>
+<script src="{{rot}}webbdemo.js"></script>
+<script>
+const KATEGORIER = [
+  ["MS", t("e_ms"), "var(--ms)"],
+  ["MS+G", t("e_msg"), "var(--annat)"],
+  ["G", t("e_g"), "var(--g)"],
+  ["inga molnsignaler", t("e_inga"), "var(--inga)"],
+  ["okänd", t("e_okand"), "var(--okand)"],
+  ["kunde inte mätas", t("kunde_inte"), "var(--okand)"],
+];
+const WEBBKLASSER = [
+  ["US-nät före samtycke", t("nat_us"), "var(--g)"],
+  ["annat nät före samtycke", t("w_annat_uk"), "var(--annat)"],
+  ["bara EU/EES-nät före samtycke", t("w_bara_eu"), "var(--inga)"],
+  ["ingen tredjepart", t("w_ingen_tp"), "var(--ingen)"],
+  ["okänt nät", t("nat_okant"), "var(--okand)"],
+  ["kunde inte mätas", t("kunde_inte"), "var(--okand)"],
+];
+const webbEtikett = Object.fromEntries(WEBBKLASSER.map(([k, n]) => [k, n]));
+const webbFarg = Object.fromEntries(WEBBKLASSER.map(([k, , f]) => [k, f]));
+const etikett = Object.fromEntries(KATEGORIER.map(([k, n]) => [k, n]));
+const farg = Object.fromEntries(KATEGORIER.map(([k, , f]) => [k, f]));
+
+function el(tagg, egenskaper = {}, ...barn) {
+  const e = document.createElement(tagg);
+  Object.assign(e, egenskaper);
+  for (const b of barn) e.append(b);
+  return e;
+}
+
+Promise.all([fetch("{{rot}}data.json").then(r => r.json()), fetch("{{rot}}karta.json").then(r => r.json())]).then(([{ matt, webbMatt, certMatt, trianguleringMatt, sakerhet, organisationer: org }, karta]) => {
+  for (const e of document.querySelectorAll("[data-forrenderad]")) e.tagName === "SELECT" ? [...e.options].slice(1).forEach(o => o.remove()) : e.replaceChildren();
+  const datum = t => t ? new Date(t.replace(/T(\d\d)(\d\d)(\d\d)Z/, "T$1:$2:$3Z")).toLocaleDateString(SPRAK === "sv" ? "sv-SE" : "en-GB", { day: "numeric", month: "long" }) : "";
+  org.sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
+  startaDemo(org, { etikett, farg, karta, kontrollDatum: datum(trianguleringMatt) });
+  const n = org.length;
+  const rakna = f => org.filter(f).length;
+  const pct = x => Math.round(100 * x / n) + " %";
+  const ms = rakna(o => o.epost === "MS"), exo = rakna(o => o.exo === true);
+  document.getElementById("kort").append(
+    el("div", {}, el("b", { textContent: ms }), el("span", { textContent: t("k_ms", { n, pct: pct(ms), mx: rakna(o => o.epost === "MS" && o.signaler.S1 === "MS") }) })),
+    el("div", {}, el("b", { textContent: exo }), el("span", { textContent: t("k_exo", { n, datum: datum(trianguleringMatt) }) })),
+    el("div", {}, el("b", { textContent: rakna(o => o.epost === "G") }), el("span", { textContent: t("k_g") })),
+    el("div", {}, el("b", { textContent: rakna(o => o.webb === "SE/EU") }), el("span", { textContent: t("k_webb_eu") })),
+  );
+
+  document.getElementById("legend").append(...KATEGORIER.map(([, namn, f]) =>
+    el("span", {}, el("i", { style: `background:${f}` }), namn)));
+
+  const perLan = {};
+  for (const o of org) (perLan[o.lan] ??= []).push(o);
+  const lanNamn = Object.keys(perLan).sort((a, b) => a.localeCompare(b, "sv"));
+  function staplar(id, kategorier, varde) {
+    const div = document.getElementById(id);
+    for (const lan of lanNamn) {
+      const lista = perLan[lan];
+      const stapel = el("div", { className: "stapel" });
+      for (const [k, namn, f] of kategorier) {
+        const antal = lista.filter(o => varde(o) === k).length;
+        if (antal) stapel.append(el("span", { style: `width:${100 * antal / lista.length}%;background:${f}`, title: `${namn}: ${antal}` }));
+      }
+      div.append(el("div", { textContent: lan }), stapel, el("div", { className: "antal", textContent: lista.length }));
+    }
+  }
+  staplar("lan", KATEGORIER, o => o.epost);
+  for (const lan of lanNamn) document.getElementById("lanFilter").append(el("option", { value: lan, textContent: lan }));
+
+  const fs = o => o.fore_samtycke?.klass;
+  const matbara = rakna(o => fs(o) && fs(o) !== "kunde inte mätas");
+  const usNat = rakna(o => fs(o) === "US-nät före samtycke"), ga = rakna(o => o.fore_samtycke?.ga);
+  document.getElementById("kortWebb").append(
+    el("div", {}, el("b", { textContent: usNat }), el("span", { textContent: t("kw_us", { n: matbara, pct: Math.round(100 * usNat / matbara) }) })),
+    el("div", {}, el("b", { textContent: ga }), el("span", { textContent: t("kw_ga") })),
+    el("div", {}, el("b", { textContent: rakna(o => fs(o) === "bara EU/EES-nät före samtycke") }), el("span", { textContent: t("kw_eu") })),
+    el("div", {}, el("b", { textContent: rakna(o => fs(o) === "ingen tredjepart") }), el("span", { textContent: t("kw_ingen") })),
+  );
+  document.getElementById("legendWebb").append(...WEBBKLASSER.slice(0, 5).map(([, namn, f]) =>
+    el("span", {}, el("i", { style: `background:${f}` }), namn)));
+  staplar("lanWebb", WEBBKLASSER, fs);
+  startaWebbDemo(org, { webbEtikett, webbFarg });
+  startaKarta(org, karta, [
+    { namn: t("v_epost"), varde: o => [etikett[o.epost], farg[o.epost]], legend: KATEGORIER.map(([, n, f]) => [n, f]) },
+    { namn: "Exchange Online", varde: o => o.exo === true ? [t("svarar"), "var(--ms)"] : o.exo === false ? [t("svarar_inte"), "var(--inga)"] : [t("ingen_uppgift"), "var(--okand)"],
+      legend: [[t("svarar"), "var(--ms)"], [t("svarar_inte"), "var(--inga)"], [t("ingen_uppgift"), "var(--okand)"]] },
+    { namn: t("v_webb"), varde: o => fs(o) ? [webbEtikett[fs(o)], webbFarg[fs(o)]] : [t("ingen_uppgift"), "var(--okand)"],
+      legend: WEBBKLASSER.slice(0, 5).map(([, n, f]) => [n, f]) },
+    { namn: t("v_tjanster"), varde: o => {
+        const tj = o.tjanster;
+        if (!tj) return [t("ingen_uppgift"), "var(--okand)"];
+        const a = tj.us / tj.aktiva;
+        return a === 0 ? [t("inga_hittade"), "var(--inga)"] : a < 0.25 ? [t("under_25"), "var(--gul)"] : a < 0.5 ? [t("25_49"), "var(--orange)"] : [t("50_mer"), "var(--g)"];
+      }, legend: [[t("inga_hittade"), "var(--inga)"], [t("under_25"), "var(--gul)"], [t("25_49"), "var(--orange)"], [t("50_mer"), "var(--g)"], [t("ingen_uppgift"), "var(--okand)"]] },
+    { namn: t("v_google"), varde: o => !o.fore_samtycke ? [t("ingen_uppgift"), "var(--okand)"]
+        : o.fore_samtycke.klass === "kunde inte mätas" ? [t("kunde_inte"), "var(--okand)"]
+        : o.fore_samtycke.gaInsamling ? ["Google Analytics", "var(--g)"] : o.fore_samtycke.ga ? [t("bara_gtm"), "var(--annat)"] : [t("nej_stor"), "var(--inga)"],
+      legend: [["Google Analytics", "var(--g)"], [t("bara_gtm"), "var(--annat)"], [t("nej_stor"), "var(--inga)"], [t("kunde_inte"), "var(--okand)"], [t("ingen_uppgift"), "var(--okand)"]] },
+  ]);
+  if (sakerhet?.DMARC) {
+    const andel = (signal, varde) => Math.round(100 * (sakerhet[signal][varde] || 0) / n) + " %";
+    document.getElementById("kortSakerhet").append(
+      el("div", {}, el("b", { textContent: sakerhet.DMARC["p=none"] || 0 }), el("span", { textContent: t("s_dmarc_none") })),
+      el("div", {}, el("b", { textContent: andel("DMARC", "p=reject") }), el("span", { textContent: t("s_reject") })),
+      el("div", {}, el("b", { textContent: andel("MTA-STS", "finns") }), el("span", { textContent: t("s_mtasts") })),
+      el("div", {}, el("b", { textContent: andel("DNSSEC", "finns") }), el("span", { textContent: t("s_dnssec") })),
+    );
+  }
+  const topp = {};
+  for (const o of org) for (const l of o.fore_samtycke?.usLeverantorer || []) topp[l] = (topp[l] || 0) + 1;
+  document.getElementById("topp").append(...Object.entries(topp).sort((a, b) => b[1] - a[1]).slice(0, 10)
+    .map(([l, antal]) => el("li", { textContent: t("topp_rad", { l, antal }) })));
+  for (const [k, namn] of KATEGORIER) document.getElementById("epostFilter").append(el("option", { value: k, textContent: namn }));
+  for (const [k, namn] of WEBBKLASSER) document.getElementById("webbFilter").append(el("option", { value: k, textContent: namn }));
+
+  const tbody = document.getElementById("rader");
+  const visa = () => {
+    const sok = document.getElementById("sok").value.trim().toLowerCase();
+    const lan = document.getElementById("lanFilter").value, ep = document.getElementById("epostFilter").value;
+    const wf = document.getElementById("webbFilter").value;
+    tbody.replaceChildren(...org
+      .filter(o => (!lan || o.lan === lan) && (!ep || o.epost === ep) && (!wf || fs(o) === wf) && (!sok || (o.namn + " " + o.doman).toLowerCase().includes(sok)))
+      .map(o => el("tr", {},
+        el("td", { textContent: o.namn }),
+        el("td", { textContent: o.lan }),
+        el("td", {}, el("code", { textContent: o.doman })),
+        el("td", {}, el("span", { className: "tagg", style: `background:${farg[o.epost]}`, textContent: etikett[o.epost] })),
+        el("td", { textContent: o.tenant ? t("ja") : t("nej") }),
+        el("td", { textContent: o.teams ? "Microsoft" : "–" }),
+        el("td", { textContent: o.webb === "SE/EU" ? t("sverige_eu") : o.webb, title: o.webbLeverantor || "" }),
+        el("td", {}, fs(o) ? el("span", { className: "tagg", style: `background:${webbFarg[fs(o)]}`,
+          textContent: webbEtikett[fs(o)] + (o.fore_samtycke.gaInsamling ? " · GA" : o.fore_samtycke.ga ? " · GTM" : ""),
+          title: o.fore_samtycke.us.length ? t("amerikanska_nat") + ": " + o.fore_samtycke.us.join(", ") : "" }) : "–"),
+      )));
+  };
+  for (const id of ["sok", "lanFilter", "epostFilter", "webbFilter"]) document.getElementById(id).addEventListener("input", visa);
+  visa();
+  const tid = t => t.replace(/T(\d\d)(\d\d)(\d\d)Z/, " $1:$2 UTC");
+  document.getElementById("matt").textContent = t("matt_epost", { tid: tid(matt) }) + (webbMatt ? " " + t("matt_webb", { tid: tid(webbMatt) }) : "") + (certMatt ? " " + t("matt_tjanster", { tid: tid(certMatt) }) : "");
+});
+</script>
+</body>
+</html>

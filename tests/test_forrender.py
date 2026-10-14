@@ -10,7 +10,7 @@ DOCS = Path(__file__).parent.parent / "docs"
 
 class ForrendratFoljerDatan(unittest.TestCase):
     def test_tabellen_har_en_rad_per_organisation(self):
-        for sida, data in [("index.html", "data.json"), ("myndigheter.html", "myndigheter.json")]:
+        for sida, data in [("index.html", "data.json"), ("myndigheter.html", "myndigheter.json"), ("en/index.html", "data.json"), ("en/myndigheter.html", "myndigheter.json")]:
             html = (DOCS / sida).read_text(encoding="utf-8")
             rader = re.search(r"<!--fr:rader-->(.*?)<!--/fr:rader-->", html, re.S).group(1)
             org = json.loads((DOCS / data).read_text(encoding="utf-8"))["organisationer"]

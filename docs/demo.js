@@ -7,14 +7,14 @@
 
 // Ett exempel per regel. Saknas en sort i datan hoppas den över.
 const EXEMPEL = [
-  { namn: "MX pekar på Microsoft", passar: o => o.epost === "MS" && o.signaler.S1 === "MS" && o.signaler.S7 === "MS",
-    regel: "MX pekar på Microsoft (S1)" },
-  { namn: "MX pekar på Google", passar: o => o.epost === "G" && o.signaler.S1 === "G",
-    regel: "MX pekar på Google (S1)" },
-  { namn: "Spamfilter framför", passar: o => o.epost === "MS" && o.signaler.S1 === "gateway/egen" && o.signaler.S2 === "MS" && o.signaler.S7 === "MS",
-    regel: "spamfilter framför, men SPF och DKIM pekar på Microsoft (S2 + S7)" },
-  { namn: "Inga molnsignaler i DNS", passar: o => o.epost === "inga molnsignaler" && o.exo === true,
-    regel: "DNS visar inga molnsignaler (S1, S2, S7)" },
+  { namn: t("d_ex1"), passar: o => o.epost === "MS" && o.signaler.S1 === "MS" && o.signaler.S7 === "MS",
+    regel: t("d_regel1") },
+  { namn: t("d_ex2"), passar: o => o.epost === "G" && o.signaler.S1 === "G",
+    regel: t("d_regel2") },
+  { namn: t("d_ex3"), passar: o => o.epost === "MS" && o.signaler.S1 === "gateway/egen" && o.signaler.S2 === "MS" && o.signaler.S7 === "MS",
+    regel: t("d_regel3") },
+  { namn: t("d_ex4"), passar: o => o.epost === "inga molnsignaler" && o.exo === true,
+    regel: t("d_regel4") },
 ];
 
 const LEVERANTOR = { MS: "Microsoft", G: "Google" };
@@ -79,11 +79,11 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
   }
 
   const SIGNALER = [
-    ["S1", "MX", "vem tar emot e-posten"],
-    ["S2", "SPF", "vem får skicka i kommunens namn"],
-    ["S7", "DKIM", "vem signerar e-posten"],
-    ["S5", "Microsoft-konto", "finns en Entra-tenant"],
-    ["T2", "Exchange Online", "domänen registrerad?"],
+    ["S1", "MX", t("d_s1")],
+    ["S2", "SPF", t("d_s2")],
+    ["S7", "DKIM", t("d_s7")],
+    ["S5", t("d_s5_namn"), t("d_s5")],
+    ["T2", "Exchange Online", t("d_t2")],
   ];
   const sigRad = {};
   for (const [kod, namn, forklaring] of SIGNALER) {
@@ -101,8 +101,8 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
     sig.querySelectorAll("li").forEach(x => x.classList.remove("aktiv"));
     li.classList.add("aktiv");
     const lev = { MS: "MS", G: "G", "MS+G": "MS+G", ja: "MS", svarar: "MS" }[varde];
-    tagg.textContent = varde === "ja" ? "finns" : varde === "svarar" ? "svarar" : varde === "gateway/egen" ? "spamfilter/egen"
-      : varde === "MS+G" ? "båda" : LEVERANTOR[varde] || "inget";
+    tagg.textContent = varde === "ja" ? t("d_finns") : varde === "svarar" ? t("d_svarar") : varde === "gateway/egen" ? t("d_spamfilter")
+      : varde === "MS+G" ? t("d_bada") : LEVERANTOR[varde] || t("d_inget");
     tagg.style.background = lev ? farg[lev] : "var(--okand)";
     tagg.style.opacity = 1;
   }
@@ -119,7 +119,7 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
 
     await skriv(`dig +short MX ${d}`);
     s.mx.slice(0, 2).forEach(h => rad("svar traff", h));
-    if (s.mx.length > 2) rad("svar", `… och ${s.mx.length - 2} till`);
+    if (s.mx.length > 2) rad("svar", t("och_till", { n: s.mx.length - 2 }));
     satt("S1", o.signaler.S1);
     await vanta(900);
 
@@ -131,7 +131,7 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
 
     await skriv(`dig +short CNAME selector1._domainkey.${d}`);
     // Bara leverantörens del av svaret visas; resten innehåller tenantnamnet.
-    rad(s.dkim && s.dkim !== "annan" ? "svar traff" : "svar", s.dkim === "annan" ? "→ annan leverantör" : s.dkim ? "…." + s.dkim : "(inget svar)");
+    rad(s.dkim && s.dkim !== "annan" ? "svar traff" : "svar", s.dkim === "annan" ? t("d_annan_lev") : s.dkim ? "…." + s.dkim : t("d_inget_svar"));
     satt("S7", o.signaler.S7);
     await vanta(900);
 
@@ -142,7 +142,7 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
 
     if (o.exo !== null && o.exo !== undefined) {
       await skriv(`curl -s "outlook.office365.com/autodiscover/autodiscover.json?Email=test@${d}"`);
-      rad(o.exo ? "svar traff" : "svar", o.exo ? "→ outlook.office365.com" : "→ en annan server");
+      rad(o.exo ? "svar traff" : "svar", o.exo ? "→ outlook.office365.com" : t("d_annan_server"));
       satt("T2", o.exo ? "svarar" : "-");
       await vanta(900);
     }
@@ -150,9 +150,9 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
     sig.querySelectorAll("li").forEach(x => x.classList.remove("aktiv"));
     utslag.replaceChildren(
       Object.assign(document.createElement("span"), { className: "tagg", textContent: etikett[o.epost], style: `background:${farg[o.epost]}` }),
-      `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " DKIM pekar ändå på Microsoft: e-posten skickas troligen därifrån." : "")
-        + (o.exo === true && o.epost !== "MS" ? ` Men domänen är registrerad i Microsofts Exchange Online (kontroll ${kontrollDatum}).` : "")
-        + (o.exo === true && o.epost === "MS" ? ` Domänen är också registrerad i Exchange Online (kontroll ${kontrollDatum}).` : ""),
+      `${exempel.regel}.` + (o.epost === "G" && o.signaler.S7 === "MS" ? " " + t("d_dkim_ms") : "")
+        + (o.exo === true && o.epost !== "MS" ? " " + t("d_exo_men", { datum: kontrollDatum }) : "")
+        + (o.exo === true && o.epost === "MS" ? " " + t("d_exo_ocksa", { datum: kontrollDatum }) : ""),
     );
     utslag.classList.add("syns");
     const p = prick.get(o);
@@ -163,7 +163,7 @@ function startaDemo(org, { etikett, farg, karta, kontrollDatum }) {
   }
 
   async function fyllResten(gjorda) {
-    namnEl.textContent = `… och samma regler för alla ${org.length}`;
+    namnEl.textContent = t("d_samma_regler", { n: org.length });
     const kvar = ordning.filter(o => !gjorda.has(o));
     const steg = Math.max(1, Math.ceil(kvar.length / 60));
     for (let i = 0; i < kvar.length; i += steg) {

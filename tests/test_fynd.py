@@ -106,7 +106,7 @@ class FyndenStammerMedDatan(unittest.TestCase):
         kort = re.search(r'<div class="huvudfynd">(.*?)</div>', self.html, re.S).group(1)
         for ident, tal in re.findall(r'<a href="#([^"]+)"><b>(.*?)</b>', kort):
             self.assertIn(f'<div class="tal">{tal}</div>', artikel(self.html, ident), f"huvudfynd {ident}")
-        nav = re.search(r'<nav class="innehall".*?</nav>', self.html, re.S).group(0)
+        nav = re.search(r'<nav [^>]*class="innehall".*?</nav>', self.html, re.S).group(0)
         listade = re.findall(r'<li><a href="#([^"]+)">(.*?)</a></li>', nav)
         artiklar = re.findall(r'<article class="fynd" id="([^"]+)">', self.html)
         self.assertEqual(sorted(i for i, _ in listade), sorted(artiklar), "alla fynd i innehållet")
