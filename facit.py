@@ -86,7 +86,8 @@ def facit(svarsmapp=SVAR, urvalsfil=URVAL):
     return rader, sorted(namnkoppling), okopplade
 
 
-KRAV = {"MX": ("Microsoft", 0.90), "SPF": ("Microsoft", 0.80), "Google": ("Google", 0.80)}
+# Gruppnamnen i nyckel.csv. Kraven: METOD.md, "Validering mot facit".
+KRAV = {"ms_mx": ("Microsoft", 0.90), "ms_konfig": ("Microsoft", 0.80), "g": ("Google", 0.80)}
 
 
 def jamfor(rader, nyckelfil=NYCKEL):
@@ -96,7 +97,7 @@ def jamfor(rader, nyckelfil=NYCKEL):
         per_grupp[grupp[r["domän"]]][r["facit"]] += 1
     for g, c in sorted(per_grupp.items()):
         med_facit = sum(n for k, n in c.items() if k != "saknas")
-        krav = next((v for nyckel, v in KRAV.items() if nyckel in g and "och" not in g), None)
+        krav = KRAV.get(g)
         if not krav:
             utfall = "redovisas, inget krav"
         elif med_facit < 5:
