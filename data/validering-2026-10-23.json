@@ -1,0 +1,89 @@
+{
+ "datum": "2026-10-23",
+ "urval": 43,
+ "svarade": 33,
+ "grupper": {
+  "g": {
+   "facit": {
+    "saknas": 1,
+    "Google": 5,
+    "Microsoft": 2
+   },
+   "med_facit": 7,
+   "text_vid_annat": {},
+   "krav": {
+    "facit": "Google",
+    "andel": 0.8
+   },
+   "andel": 0.714,
+   "godkand": false
+  },
+  "inga": {
+   "facit": {
+    "saknas": 2,
+    "annat": 3,
+    "Microsoft": 3
+   },
+   "med_facit": 6,
+   "text_vid_annat": {
+    "egen drift": 1,
+    "inget besked": 2
+   }
+  },
+  "ms_g": {
+   "facit": {
+    "annat": 2,
+    "Microsoft": 1
+   },
+   "med_facit": 3,
+   "text_vid_annat": {
+    "Microsoft 365": 1,
+    "egen drift": 1
+   }
+  },
+  "ms_konfig": {
+   "facit": {
+    "Microsoft": 5,
+    "annat": 2,
+    "saknas": 1
+   },
+   "med_facit": 7,
+   "text_vid_annat": {
+    "egen drift": 1,
+    "inget besked": 1
+   },
+   "krav": {
+    "facit": "Microsoft",
+    "andel": 0.8
+   },
+   "andel": 0.714,
+   "godkand": false
+  },
+  "ms_mx": {
+   "facit": {
+    "Microsoft": 5,
+    "saknas": 3
+   },
+   "med_facit": 5,
+   "text_vid_annat": {},
+   "krav": {
+    "facit": "Microsoft",
+    "andel": 0.9
+   },
+   "andel": 1.0,
+   "godkand": true
+  },
+  "okand": {
+   "facit": {
+    "saknas": 3,
+    "Microsoft": 3,
+    "annat": 2
+   },
+   "med_facit": 5,
+   "text_vid_annat": {
+    "inget besked": 1,
+    "egen drift": 1
+   }
+  }
+ }
+}

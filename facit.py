@@ -47,8 +47,17 @@ def klassa_meddelande(meddelande):
     return "Microsoft" if ms else "Google" if g else "annat"
 
 
+# Avsändare som prövats för hand (2026-10-23). None: svaret kommer från en annan
+# organisations brevlåda och räknas inte som facit för någon i urvalet.
+MANUELLT = {
+    "itsam.se": None,  # Itsam Kommunalförbundet, dit Vimmerby vidarebefordrade frågan; svarar om förbundets e-post
+}
+
+
 def organisation(avsandardoman, urval):
     """Urvalsdomänen svaret hör till, och om kopplingen bara gick via namnet."""
+    if avsandardoman in MANUELLT:
+        return MANUELLT[avsandardoman], False
     for r in urval:
         if under(avsandardoman, r["domän"]):
             return r["domän"], False

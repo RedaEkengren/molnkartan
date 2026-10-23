@@ -113,6 +113,16 @@ class FyndenStammerMedDatan(unittest.TestCase):
         for ident, rubrik in listade:
             self.assertIn(f"<h2>{rubrik}</h2>", artikel(self.html, ident))
 
+    def test_validering(self):
+        v = self.s["validering"]
+        g = v["grupper"]
+        self.innehaller("validering", f"{v['svarade']} av {v['urval']} svarade", f"{v['urval'] - v['svarade']} svarade inte")
+        for grupp, ord in [("ms_mx", "godkänd" if g["ms_mx"]["godkand"] else "underkänd"), ("ms_konfig", "godkänd" if g["ms_konfig"]["godkand"] else "underkänd"),
+                           ("g", "godkänd" if g["g"]["godkand"] else "underkänd")]:
+            k = g[grupp]["krav"]["facit"]
+            self.innehaller("validering", f"{g[grupp]['facit'].get(k, 0)} av {g[grupp]['med_facit']}", f"krav {round(100 * g[grupp]['krav']['andel'])} %)", ord)
+        self.innehaller("validering", f"{g['inga']['facit'].get('Microsoft', 0)} av {g['inga']['med_facit']} svarade från Microsoft")
+
     def test_tenant(self):
         self.innehaller("tenant", f"{self.s['tenant']} av 310")
 

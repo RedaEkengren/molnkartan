@@ -734,3 +734,24 @@ mäts inte, varken per skola eller per kommun. Skolan hanterar uppgifter om
 barn, och en karta över enskilda skolors tjänster riskerar att bli en lista
 över mål. Skolorna drivs dessutom oftast inom kommunens egen infrastruktur,
 som redan mäts. Beslutet stänger issue #2.
+
+---
+
+## Validering mot facit: resultat — 2026-10-23
+
+Körd enligt reglerna ovan, se `RESULTAT-validering.md`. 33 av 43 svarade.
+Microsoft via MX godkänd (5 av 5), Microsoft via SPF/DKIM/autodiscover
+underkänd (5 av 7) och Google underkänd (5 av 7). Formuleringarna på sidan är
+ändrade så att de inte säger mer än DNS visar.
+
+Händelser under körningen, redovisade öppet:
+
+- **Preliminär titt 2026-10-16** med 31 svar, för att se läget. Inga regler eller
+  krav ändrades. Den hittade ett fel i `facit.py`: kraven kopplades inte till
+  gruppnamnen i `nyckel.csv` (`ms_mx`, `ms_konfig`, `g`). Rättat samma dag.
+- **Itsam Kommunalförbundet:** ett svar kom från förbundet, dit Vimmerby
+  vidarebefordrat frågan. Det kopplades först för hand till Vimmerby, vilket gav
+  *tvetydig*. Efter att texten lästs (tillåtet vid tvetydiga huvuden) stod det att
+  svaret gäller förbundets egen e-post, inte kommunens. Svaret räknas därför inte
+  som facit för någon. Beslutet togs efter att svaret setts; med kopplingen hade
+  Google-klassen fått 4 av 7 i stället för 5 av 7, underkänd i båda fallen.

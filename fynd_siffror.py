@@ -26,6 +26,7 @@ FYND_KALLOR = {
     "sakerhet": "data/sakerhet-2026-10-09T004643Z.json",
     "cert": "data/cert-2026-10-08T204928Z.json",
     "t6": "data/triangulering-t6-2026-10-09T081527Z.json",
+    "validering": "data/validering-2026-10-23.json",
 }
 
 # Samtyckesverktyg (CMP): registrerade domäner för verktygen själva, inte för tjänster de styr.
@@ -131,8 +132,10 @@ def siffror():
                 for varde, n in c.items():
                     sak_k[(signal, varde)] += n
 
+    val = f["validering"]
     return {
         "kallor": FYND_KALLOR,
+        "validering": val,
         "exo_kommuner": sum(v is True for v in exo_k.values()),
         "exo_okand": (sum(exo_k[d] is True for d, c in klass_k.items() if c == "okänd"), sum(c == "okänd" for c in klass_k.values())),
         "exo_inga": (sum(exo_k[d] is True for d, c in klass_k.items() if c == "inga molnsignaler"), sum(c == "inga molnsignaler" for c in klass_k.values())),
