@@ -36,6 +36,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <nav class="meny"><a href="./">Municipalities and regions</a><a href="myndigheter.html">Government agencies</a><a aria-current="page" href="fynd.html">Findings</a><a class="sa-gjordes" href="om.html"><svg aria-hidden="true" class="gubbe-mini" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>How it was made</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">GitHub ↗</a></nav>
 <a class="sprakval" href="../fynd.html" hreflang="sv" lang="sv" title="Svenska">SV</a><button aria-label="Toggle theme" class="temaknapp" type="button"><svg aria-hidden="true" class="mane" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg><svg aria-hidden="true" class="sol" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
 </header>
+<p class="avslutat" role="note"><b>This project has ended.</b> Molnkartan is no longer updated as of 31 October 2026. The numbers are from the October 2026 measurements and remain as they were, together with code, raw data and corrections.</p>
 <h1>Findings</h1>
 <p class="ingress">What the measurements have shown, one finding at a time. Each finding says how it was checked and links to the raw data. Every number is computed by <code>fynd_siffror.py</code> and checked against the page by a test. Errors in our own method are under <a href="#rattelser">Corrections and review</a>.</p>
 <div class="huvudfynd"><a href="#exchange-online"><b>305 of 310</b><span>municipalities and regions have their domain registered in Microsoft's email service</span></a><a href="#myndigheter-ga"><b>30 of 193</b><span>measurable agency domains call Google before consent</span></a><a href="#tjanster"><b>150 of 289 municipalities</b><span>had no service names on US networks in the certificate logs</span></a></div>
@@ -173,7 +174,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <article class="fynd" id="vi-sjalva">
 <time datetime="2026-10-09">9 October 2026</time> · <span class="metod">Ourselves</span>
 <h2>We measured ourselves: US cloud, but no third parties</h2>
-<p>Molnkartan runs on GitHub Pages, which is owned by Microsoft and delivered via Fastly. The DNS measurements run every month in GitHub Actions on Microsoft's Azure; the web measurement is made from Sweden. With the same tools as for the municipalities: the site makes no third-party requests and sets no cookies, but the hosting is on a US network.</p>
+<p>Molnkartan runs on GitHub Pages, which is owned by Microsoft and delivered via Fastly. The DNS measurements ran in GitHub Actions on Microsoft's Azure; the web measurement was made from Sweden. With the same tools as for the municipalities: the site makes no third-party requests and sets no cookies, but the hosting is on a US network.</p>
 <p>The difference from a municipality is that the site does not handle personal data or exercise public authority. But we do not want to claim anything about others that we do not say about ourselves.</p>
 <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Raw data</a></p>
 </article>
@@ -230,7 +231,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <div><h4>Method</h4><a href="om.html">How it was made</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Rules and corrections (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulation (Swedish)</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Report an error</a></div>
 <div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Raw data</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Code: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
 </div>
-<div class="fotrad"><span id="matt">Measured 8 October 2026.</span> <span>Updated on the 1st of every month. The site runs on GitHub Pages (USA), see <a href="fynd.html#vi-sjalva">Ourselves</a>.</span>
+<div class="fotrad"><span id="matt">Measured 8 October 2026.</span> <span>Ended 31 October 2026, no longer updated. The site runs on GitHub Pages (USA), see <a href="fynd.html#vi-sjalva">Ourselves</a>.</span>
 <span class="markorer"><span>No cookies, no third parties</span><span>Rules written before measuring</span><span>Open source</span><span>Sources: Statistics Sweden, Wikidata, Team Cymru, RIPEstat</span></span></div>
 </footer>
 </main>

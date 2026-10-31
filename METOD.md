@@ -755,3 +755,13 @@ Händelser under körningen, redovisade öppet:
   svaret gäller förbundets egen e-post, inte kommunens. Svaret räknas därför inte
   som facit för någon. Beslutet togs efter att svaret setts; med kopplingen hade
   Google-klassen fått 4 av 7 i stället för 5 av 7, underkänd i båda fallen.
+
+---
+
+## Projektet avslutat — 2026-10-31
+
+Molnkartan avslutas efter valideringen. Den schemalagda månadsmätningen är
+avstängd, och sidan säger att den inte längre uppdateras. Allt som publicerats
+ligger kvar oförändrat: mätningarna från oktober 2026, rättelserna och
+valideringen. Öppna ärenden stängs utan åtgärd. Den som vill fortsätta får gärna
+bygga vidare på koden (MIT) och datan (CC BY 4.0).

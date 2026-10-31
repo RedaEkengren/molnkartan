@@ -1,6 +1,6 @@
 # Molnkartan
 
-> Öppen kartläggning av vad som syns utifrån av amerikanska molntjänster hos Sveriges 290 kommuner, 20 regioner och 202 myndighetsdomäner. Mätt med öppna signaler (DNS, certifikatloggar, webbläsarens nätverkslogg). Uppdateras den 1:a varje månad. Data CC BY 4.0, kod MIT.
+> Öppen kartläggning av vad som syns utifrån av amerikanska molntjänster hos Sveriges 290 kommuner, 20 regioner och 202 myndighetsdomäner. Mätt med öppna signaler (DNS, certifikatloggar, webbläsarens nätverkslogg). Projektet avslutades 31 oktober 2026 och uppdateras inte längre; datan gäller mätningarna i oktober 2026. Data CC BY 4.0, kod MIT.
 
 Viktigt vid citering: mätningen visar konfiguration och anrop, inte var uppgifter lagras eller hur beroende en verksamhet är. "Inga molnsignaler" betyder inte "inget moln".
 

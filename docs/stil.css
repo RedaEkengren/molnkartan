@@ -209,3 +209,4 @@ html { scroll-behavior: smooth; }
 .sprakval:hover { border-color: var(--dampad); }
 @media (max-width: 720px) { .sidhuvud .sprakval { order: 2; margin-left: auto; } .sidhuvud .temaknapp { margin-left: 0; } }
 @media (min-width: 721px) { .sidhuvud .sprakval { margin-left: 8px; } }
+.avslutat { background: var(--varning); border: 1px solid var(--varning-kant); border-radius: 10px; padding: 12px 16px; margin: -12px 0 28px; font-size: 0.95rem; max-width: none; }

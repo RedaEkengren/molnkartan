@@ -1,5 +1,8 @@
 # Molnkartan
 
+> **Avslutat 2026-10-31.** Projektet uppdateras inte längre. Sidan, koden, rådatan och
+> rättelserna ligger kvar som de var. Inga schemalagda mätningar körs.
+
 **Vad syns av amerikanska molntjänster hos svenska kommuner, regioner och
 myndigheter? Mätt utifrån, med öppen data. Mätningarna visar konfiguration,
 registreringar och anrop, inte hur beroende verksamheten är.**

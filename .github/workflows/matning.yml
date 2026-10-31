@@ -1,10 +1,9 @@
 name: Mätning och sida
 
-# Mäter hela landet den 1:a varje månad, committar rådatan och publicerar sidan.
+# Projektet avslutades 2026-10-31: ingen schemalagd mätning längre. Sidan publiceras
+# fortfarande vid push, och en mätning kan startas för hand.
 # Git-historiken är loggen: varje mätning är en commit med tidsstämpel.
 on:
-  schedule:
-    - cron: "17 4 1 * *"
   workflow_dispatch:
     inputs:
       prov:

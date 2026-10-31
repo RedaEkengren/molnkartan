@@ -36,6 +36,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <nav class="meny"><a href="./">Kommuner och regioner</a><a href="myndigheter.html">Myndigheter</a><a aria-current="page" href="fynd.html">Fynd</a><a class="sa-gjordes" href="om.html"><svg aria-hidden="true" class="gubbe-mini" viewbox="0 0 120 100"><use href="#gubbe"></use></svg>Så gjordes det</a><a class="knapp" href="https://github.com/RedaEkengren/molnkartan">GitHub ↗</a></nav>
 <a class="sprakval" href="en/fynd.html" hreflang="en" lang="en" title="English">EN</a><button aria-label="Byt läge" class="temaknapp" type="button"><svg aria-hidden="true" class="mane" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg><svg aria-hidden="true" class="sol" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
 </header>
+<p class="avslutat" role="note"><b>Projektet är avslutat.</b> Molnkartan uppdateras inte längre sedan 31 oktober 2026. Siffrorna gäller mätningarna i oktober 2026 och finns kvar som de var, tillsammans med kod, rådata och rättelser.</p>
 <h1>Fynd</h1>
 <p class="ingress">Det mätningarna har visat, ett fynd i taget. Varje fynd säger hur det kontrollerades och länkar till rådatan. Alla siffror räknas fram av <code>fynd_siffror.py</code> och kontrolleras mot sidan av ett test. Fel i vår egen metod står under <a href="#rattelser">Rättelser och granskning</a>.</p>
 <div class="huvudfynd"><a href="#exchange-online"><b>305 av 310</b><span>kommuner och regioner har sin domän registrerad i Microsofts e-posttjänst</span></a><a href="#myndigheter-ga"><b>30 av 193</b><span>mätbara myndighetsdomäner anropar Google före samtycke</span></a><a href="#tjanster"><b>150 av 289 kommuner</b><span>hade inga tjänstenamn på amerikanska nät i certifikatloggarna</span></a></div>
@@ -173,7 +174,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <article class="fynd" id="vi-sjalva">
 <time datetime="2026-10-09">9 oktober 2026</time> · <span class="metod">Vi själva</span>
 <h2>Vi mätte oss själva: amerikanskt moln, men inga tredjeparter</h2>
-<p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna körs varje månad i GitHub Actions på Microsofts Azure; webbmätningen görs från Sverige. Med samma verktyg som för kommunerna: sidan gör inga anrop till tredjeparter och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
+<p>Molnkartan körs på GitHub Pages, som ägs av Microsoft och levereras via Fastly. DNS-mätningarna kördes i GitHub Actions på Microsofts Azure; webbmätningen gjordes från Sverige. Med samma verktyg som för kommunerna: sidan gör inga anrop till tredjeparter och sätter inga kakor, men webbhotellet ligger på ett amerikanskt nät.</p>
 <p>Skillnaden mot en kommun är att sidan inte hanterar personuppgifter eller utövar myndighet. Men vi vill inte påstå något om andra som vi inte säger om oss själva.</p>
 <p><a href="https://github.com/RedaEkengren/molnkartan/blob/main/data/webb-organisationer-sjalv-2026-10-09T004830Z.json">Rådata</a></p>
 </article>
@@ -230,7 +231,7 @@ const t = (k, v = {}) => T[k].replace(/\{(\w+)\}/g, (_, n) => v[n]);</script>
 <div><h4>Metod</h4><a href="om.html">Så gjordes det</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/METOD.md">Regler och rättelser</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/RESULTAT-triangulering.md">Triangulering</a><a href="https://github.com/RedaEkengren/molnkartan/issues">Rapportera ett fel</a></div>
 <div><h4>Data</h4><a href="https://github.com/RedaEkengren/molnkartan/tree/main/data">Rådata</a><a href="https://github.com/RedaEkengren/molnkartan/blob/main/LICENSE">Kod: MIT</a><a href="https://creativecommons.org/licenses/by/4.0/deed.sv">Data: CC BY 4.0</a></div>
 </div>
-<div class="fotrad"><span id="matt">Mätt 8 oktober 2026.</span> <span>Uppdateras den 1:a varje månad. Sidan körs på GitHub Pages (USA), se <a href="fynd.html#vi-sjalva">Vi själva</a>.</span>
+<div class="fotrad"><span id="matt">Mätt 8 oktober 2026.</span> <span>Avslutat 31 oktober 2026, uppdateras inte längre. Sidan körs på GitHub Pages (USA), se <a href="fynd.html#vi-sjalva">Vi själva</a>.</span>
 <span class="markorer"><span>Inga kakor, inga tredjeparter</span><span>Regler skrivna före mätning</span><span>Öppen källkod</span><span>Källor: SCB, Wikidata, Team Cymru, RIPEstat</span></span></div>
 </footer>
 </main>
